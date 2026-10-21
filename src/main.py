@@ -120,7 +120,7 @@ def render_dashboard_html(state: dict) -> str:
     # Signal mode buttons
     signal_modes = [
         ("fallback", "Reviewed Dated Snapshot (Reliable Default)"),
-        ("live", "Fetch Live arXiv API Feed"),
+        ("live", "Fetch Live Research API Feed (OpenAlex / arXiv)"),
         ("malformed_test", "Simulate Malformed Signal Feed (Guardrail Check)"),
     ]
     sig_mode_links = []
@@ -151,7 +151,7 @@ def render_dashboard_html(state: dict) -> str:
         fb_tag = (
             '<span class="tag tag-amber">SNAPSHOT FALLBACK</span>'
             if sig.get("is_fallback")
-            else '<span class="tag tag-green">LIVE ARXIV</span>'
+            else '<span class="tag tag-green">LIVE RESEARCH API</span>'
         )
         signal_rows.append(
             f'<tr data-testid="signal-row">'
@@ -306,7 +306,7 @@ def render_dashboard_html(state: dict) -> str:
                         <div class="formula-breakdown mono">
                             Formula ({esc(bd["formula"])}):
                             Readiness = {esc(bd["skill_readiness_score"])}% |
-                            Dated Signal Momentum = {esc(bd["signal_momentum_score"])}% |
+                            Research Signal Coverage = {esc(bd["signal_momentum_score"])}% |
                             Scenario Fit = {esc(bd["scenario_fit_score"])}%
                         </div>
                     </div>
@@ -329,7 +329,7 @@ def render_dashboard_html(state: dict) -> str:
                     </div>
 
                     <div class="sub-panel">
-                        <h4>Dated Market & Research Signals Backing This Role</h4>
+                        <h4>Dated Research Signals (Scholarly Publications) Mentioning This Role's Skills</h4>
                         {sig_citations_html}
                     </div>
 
@@ -351,7 +351,7 @@ def render_dashboard_html(state: dict) -> str:
                             <h4>Uncertainty, Limitations & Human-in-Charge Notice</h4>
                             <p><strong>Role Limitation:</strong> {esc(role["uncertainty_note"])}</p>
                             <p><strong>Active Scenario Assumption ({esc(scenario["name"])}):</strong> {esc(scenario["assumptions"])}</p>
-                            <p><strong>Epistemic Boundary:</strong> Signals reflect dated AI research (arXiv) and workforce benchmarks (Hays 2025 / MOSTI), not guaranteed local job vacancies. Final career decisions remain with the human learner.</p>
+                            <p><strong>Epistemic Boundary:</strong> Signals are dated scholarly AI publications (OpenAlex). They show research activity around a skill, NOT job postings, vacancy counts, hiring demand, or salaries in Malaysia. Final career decisions remain with the human learner.</p>
                         </div>
                     </div>
                 </article>
@@ -595,13 +595,13 @@ def render_dashboard_html(state: dict) -> str:
         </div>
 
         <div class="synthetic-guardrail" data-testid="synthetic-data-notice">
-            <strong>Data & Privacy Guardrail (Domain 1 Rule §6):</strong> This prototype uses <strong>synthetic personas and public dated market signals only</strong>. Do not enter real personal identifiers or upload real CVs. Every recommendation cites its dated signal source and never fabricates courses, job statistics, or hiring guarantees.
+            <strong>Data & Privacy Guardrail (Domain 1 Rule §6):</strong> This prototype uses <strong>synthetic personas and public dated research-publication signals only</strong>. Do not enter real personal identifiers or upload real CVs. Every recommendation cites its dated signal source and never fabricates courses, job statistics, or hiring guarantees. This prototype has no vacancy or hiring data source.
             <div style="margin-top:6px; font-weight:600;">
                 Quick Judge Navigation:
                 <a href="#step1-heading" style="color:#1E40AF; margin-right:10px;">1. Profile Intake</a> ·
                 <a href="#step2-heading" style="color:#1E40AF; margin:0 10px;">2. Future Scenarios</a> ·
                 <a href="#step3-heading" style="color:#1E40AF; margin:0 10px;">3. Ranked Roles, Pathways &amp; SDGs</a> ·
-                <a href="#step4-heading" style="color:#1E40AF; margin-left:10px;">4. Dated Signal Radar</a>
+                <a href="#step4-heading" style="color:#1E40AF; margin-left:10px;">4. Dated Research Signal Radar</a>
             </div>
         </div>
 
@@ -662,20 +662,20 @@ def render_dashboard_html(state: dict) -> str:
                 <span class="tag tag-green">Deterministic & Inspectable Scoring</span>
             </div>
             <p class="section-sub">
-                Each role is scored transparently using <code>0.55 × Skill Readiness + 0.25 × Dated Signal Momentum + 0.20 × Scenario Fit</code>.
+                Each role is scored transparently using <code>0.55 × Skill Readiness + 0.25 × Research Signal Coverage + 0.20 × Scenario Fit</code>.
                 No black-box LLM scores, unverified courses, or fabricated job statistics are used.
             </p>
             {roles_section_html}
         </section>
 
-        <!-- STEP 4: DATED AI & MARKET SIGNAL LAYER -->
+        <!-- STEP 4: DATED AI RESEARCH SIGNAL LAYER -->
         <section class="card" aria-labelledby="step4-heading" data-testid="signals-radar-section">
             <div class="section-header">
-                <h2 id="step4-heading">4. Future Skills Radar — Dated AI & Workforce Signal Layer (Must-Have #2)</h2>
+                <h2 id="step4-heading">4. Future Skills Radar — Dated AI Research Signal Layer (Must-Have #2)</h2>
                 <span class="mono">Source Mode: {esc(sig_payload["source_mode"])}</span>
             </div>
             <p class="section-sub">
-                Toggle between the reviewed dated snapshot, live arXiv API fetch, or the malformed-signal guardrail test:
+                Toggle between the dated OpenAlex snapshot, a live OpenAlex fetch (arXiv as backup), or the malformed-signal guardrail test. These are research publications, not job-market or vacancy data:
             </p>
             <div class="mode-bar">
                 {"".join(sig_mode_links)}
@@ -701,7 +701,7 @@ def render_dashboard_html(state: dict) -> str:
     <footer>
         <p>
             <strong>AI Skills Compass</strong> · Built for SDC Hackathon 2026 (Domain 1: Aiversecity Future-Ready Workforce) ·
-            Benchmarks cited: Hays Asia Salary Guide 2025 (56% AI usage vs 26% formal training in Malaysia) & MOSTI (600,000 workers needing reskilling) ·
+            Context figures quoted from the SDC 2026 Domain 1 brief (not independently re-verified by this team): Hays Asia Salary Guide 2025 (56% use AI at work vs 26% formally trained, Malaysia) & MOSTI (600,000+ workers needing reskilling) ·
             Licensed under Apache License 2.0.
         </p>
     </footer>

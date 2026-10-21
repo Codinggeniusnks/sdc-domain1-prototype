@@ -45,7 +45,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "process_mapping",
         "name": "Business Process Mapping & SOP Design",
         "category": "Operations",
-        "keywords": ["process", "workflow", "operations", "sop", "task decomposition", "enterprise operations"],
+        "keywords": ["business process", "workflow", "process mining", "sop", "task decomposition", "enterprise operations"],
         "sdg_tags": ["SDG 8.2", "SDG 9.4"],
         "pathway_step": {
             "stage": 1,
@@ -62,7 +62,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "sql_data_analysis",
         "name": "SQL & Structured Data Analysis",
         "category": "Data & Engineering",
-        "keywords": ["sql", "database", "tabular", "query", "analytics", "data analysis", "benchmark"],
+        "keywords": ["sql", "database", "tabular data", "text-to-sql", "data analysis", "data analytics"],
         "sdg_tags": ["SDG 4.4", "SDG 8.2", "SDG 9.5"],
         "pathway_step": {
             "stage": 2,
@@ -79,7 +79,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "python_scripting",
         "name": "Python Scripting & Data Automation",
         "category": "Data & Engineering",
-        "keywords": ["python", "script", "pipeline", "automation", "code generation", "software engineering"],
+        "keywords": ["python", "scripting", "code generation", "software engineering"],
         "sdg_tags": ["SDG 4.4", "SDG 8.2", "SDG 9.5"],
         "pathway_step": {
             "stage": 2,
@@ -96,7 +96,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "data_visualization",
         "name": "Data Visualization & KPI Storytelling",
         "category": "Operations",
-        "keywords": ["visualization", "dashboard", "reporting", "chart", "metric", "telemetry"],
+        "keywords": ["data visualization", "visualization", "dashboard", "dashboards", "chart", "charts"],
         "sdg_tags": ["SDG 4.4", "SDG 8.2"],
         "pathway_step": {
             "stage": 2,
@@ -113,7 +113,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "workflow_automation",
         "name": "Agentic Workflow Orchestration & Tool Integration",
         "category": "AI Core",
-        "keywords": ["agent", "agentic", "multi-agent", "orchestration", "tool use", "autonomous", "planning"],
+        "keywords": ["agentic", "ai agent", "ai agents", "llm agent", "llm agents", "multi-agent", "agent orchestration", "tool use", "workflow automation"],
         "sdg_tags": ["SDG 8.2", "SDG 9.5"],
         "pathway_step": {
             "stage": 3,
@@ -130,7 +130,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "human_in_the_loop_qa",
         "name": "Human-in-the-Loop Evaluation & AI Testing",
         "category": "Governance & QA",
-        "keywords": ["evaluation", "verification", "hallucination", "red-teaming", "human-in-the-loop", "testing", "robustness", "reliability"],
+        "keywords": ["llm evaluation", "model evaluation", "hallucination", "hallucinations", "red teaming", "red-teaming", "human-in-the-loop", "human oversight"],
         "sdg_tags": ["SDG 8.5", "SDG 9.5", "SDG 16.6"],
         "pathway_step": {
             "stage": 3,
@@ -147,7 +147,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "rag_knowledge_systems",
         "name": "Retrieval-Augmented Generation (RAG) & Citation Grounding",
         "category": "Data & Engineering",
-        "keywords": ["retrieval", "rag", "embedding", "knowledge graph", "grounding", "citation", "information retrieval"],
+        "keywords": ["retrieval-augmented", "retrieval augmented", "rag", "vector database", "knowledge graph", "information retrieval"],
         "sdg_tags": ["SDG 4.4", "SDG 9.5"],
         "pathway_step": {
             "stage": 3,
@@ -164,7 +164,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "api_integration",
         "name": "REST API Integration & Resilient Fallbacks",
         "category": "Data & Engineering",
-        "keywords": ["api", "rest", "endpoint", "microservice", "deployment", "cloud", "latency"],
+        "keywords": ["api", "apis", "rest api", "endpoint", "microservice", "microservices"],
         "sdg_tags": ["SDG 9.5"],
         "pathway_step": {
             "stage": 2,
@@ -181,7 +181,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "ai_ethics_governance",
         "name": "AI Ethics, Fairness Auditing & Governance",
         "category": "Governance & QA",
-        "keywords": ["ethics", "fairness", "bias", "governance", "accountability", "transparency", "explainability", "safety", "alignment"],
+        "keywords": ["ai ethics", "ethics", "fairness", "algorithmic bias", "ai governance", "governance", "accountability", "explainability", "ai safety"],
         "sdg_tags": ["SDG 5.5", "SDG 8.5", "SDG 10.3", "SDG 16.6"],
         "pathway_step": {
             "stage": 3,
@@ -198,7 +198,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "data_privacy_pdpa",
         "name": "Data Privacy & Malaysian PDPA Compliance",
         "category": "Governance & QA",
-        "keywords": ["privacy", "pdpa", "personal data", "anonymization", "synthetic data", "security", "confidential"],
+        "keywords": ["privacy", "pdpa", "personal data", "anonymization", "synthetic data", "data protection"],
         "sdg_tags": ["SDG 8.8", "SDG 16.6"],
         "pathway_step": {
             "stage": 2,
@@ -215,7 +215,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "esg_sustainability_reporting",
         "name": "ESG Frameworks & UN SDG Impact Mapping",
         "category": "Sustainability",
-        "keywords": ["sustainability", "sdg", "climate", "environmental", "esg", "green", "renewable", "emission"],
+        "keywords": ["sustainability", "sdg", "sdgs", "climate", "esg", "renewable", "emissions"],
         "sdg_tags": ["SDG 7.3", "SDG 12.6", "SDG 13.2"],
         "pathway_step": {
             "stage": 2,
@@ -232,7 +232,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "carbon_footprint_analytics",
         "name": "Carbon-Aware Compute & Resource Telemetry",
         "category": "Sustainability",
-        "keywords": ["carbon", "energy", "efficiency", "power", "compute", "scheduling", "footprint"],
+        "keywords": ["carbon", "carbon footprint", "energy consumption", "energy efficiency", "green ai", "green computing"],
         "sdg_tags": ["SDG 7.3", "SDG 9.4", "SDG 13.2"],
         "pathway_step": {
             "stage": 3,
@@ -249,7 +249,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "stakeholder_communication",
         "name": "Human-Centred Change & Stakeholder Communication",
         "category": "Operations",
-        "keywords": ["communication", "human-centered", "collaboration", "stakeholder", "decision support", "advisory"],
+        "keywords": ["stakeholder", "stakeholders", "human-centered", "human-centred", "decision support", "science communication"],
         "sdg_tags": ["SDG 4.3", "SDG 8.5"],
         "pathway_step": {
             "stage": 1,
@@ -266,7 +266,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "id": "instructional_design",
         "name": "Competency Matrix & Reskilling Curriculum Design",
         "category": "Operations",
-        "keywords": ["curriculum", "reskilling", "upskilling", "training", "vocational", "education", "competency", "learning"],
+        "keywords": ["curriculum", "reskilling", "upskilling", "workforce training", "vocational", "education", "competency", "lifelong learning"],
         "sdg_tags": ["SDG 4.3", "SDG 4.4", "SDG 8.5"],
         "pathway_step": {
             "stage": 3,
@@ -317,7 +317,7 @@ ROLES_CATALOG: dict[str, dict] = {
             "fast_agentic": 1.15,
             "sdg_green_push": 0.95,
         },
-        "uncertainty_note": "High demand across SMEs and shared-service centres, but tool interfaces evolve rapidly; durable value lies in process mapping and QA rather than vendor-specific prompts.",
+        "uncertainty_note": "No hiring-demand data is used; tool interfaces evolve rapidly; durable value lies in process mapping and QA rather than vendor-specific prompts.",
     },
     "llm_quality_evaluator": {
         "id": "llm_quality_evaluator",
@@ -389,7 +389,7 @@ ROLES_CATALOG: dict[str, dict] = {
             "fast_agentic": 1.15,
             "sdg_green_push": 1.15,
         },
-        "uncertainty_note": "Regulatory timelines vary across ASEAN jurisdictions; role demand is strongest in finance, healthcare, public sector, and GLCs.",
+        "uncertainty_note": "Regulatory timelines vary across ASEAN jurisdictions; this prototype has no vacancy data on which sectors hire for this role.",
     },
     "rag_knowledge_engineer": {
         "id": "rag_knowledge_engineer",
@@ -461,7 +461,7 @@ ROLES_CATALOG: dict[str, dict] = {
             "fast_agentic": 0.95,
             "sdg_green_push": 1.30,
         },
-        "uncertainty_note": "Demand is tightly coupled to Bursa Malaysia / ASEAN mandatory ESG and Scope 2/3 emissions reporting schedules.",
+        "uncertainty_note": "Team assumption (not measured): relevance depends on Bursa Malaysia / ASEAN ESG reporting timelines; no vacancy data is used.",
     },
     "workforce_reskilling_strategist": {
         "id": "workforce_reskilling_strategist",
@@ -497,7 +497,7 @@ ROLES_CATALOG: dict[str, dict] = {
             "fast_agentic": 1.10,
             "sdg_green_push": 1.10,
         },
-        "uncertainty_note": "Directly addresses Malaysia's gap where 56% use AI at work but only 26% have formal training (Hays 2025); impact depends on employer training budgets.",
+        "uncertainty_note": "Directly addresses Malaysia's gap where 56% use AI at work but only 26% have formal training (Hays 2025, as quoted in the Domain 1 brief); impact depends on employer training budgets.",
     },
 }
 

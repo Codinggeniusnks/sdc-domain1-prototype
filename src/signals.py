@@ -42,7 +42,8 @@ def extract_taxonomy_entities(text: str) -> tuple[list[str], list[str]]:
     lowered = text.lower()
     matched_skills: list[str] = []
     for skill_id, skill_info in SKILLS_CATALOG.items():
-        if any(kw.lower() in lowered for kw in skill_info.get("keywords", [])):
+        # Whole-word match so "rag" does not hit "leverage" or "power" hit "powered".
+        if any(re.search(rf"\b{re.escape(kw.lower())}\b", lowered) for kw in skill_info.get("keywords", [])):
             matched_skills.append(skill_id)
 
     matched_roles: list[str] = []
@@ -110,6 +111,10 @@ def validate_signals(
             continue
 
         age_days = (ref_dt - pub_dt).days
+        if age_days < -1:
+            rejected += 1
+            warnings.append(f"Signal '{title[:40]}' rejected: publication date {pub_date} is in the future.")
+            continue
         if age_days > max_age_days:
             rejected += 1
             warnings.append(
@@ -134,16 +139,13 @@ def validate_signals(
         if isinstance(raw_roles, list) and raw_roles:
             clean_roles = [r for r in raw_roles if r in ROLES_CATALOG]
         else:
-            _, clean_roles = extract_taxonomy_entities(
-                " ".join(SKILLS_CATALOG[s]["name"] for s in clean_skills)
-            )
-            if not clean_roles:
-                skill_set = set(clean_skills)
-                clean_roles = [
-                    r_id
-                    for r_id, r_info in ROLES_CATALOG.items()
-                    if skill_set & (set(r_info["required_skills"]) | set(r_info["supporting_skills"]))
-                ]
+            # Same rule as extract_taxonomy_entities: a role needs >=2 overlapping reviewed skills.
+            skill_set = set(clean_skills)
+            clean_roles = [
+                r_id
+                for r_id, r_info in ROLES_CATALOG.items()
+                if len(skill_set & (set(r_info["required_skills"]) | set(r_info["supporting_skills"]))) >= 2
+            ]
 
         valid.append(
             {
@@ -302,7 +304,8 @@ def load_snapshot_signals(snapshot_path: Path = SNAPSHOT_PATH) -> dict:
 
 
 def fetch_market_signals(mode: str = "auto", timeout_sec: float = 5.0) -> dict:
-    """Fetch dated AI/job-market signals in 'live', 'auto', 'fallback', or 'malformed_test' mode."""
+    """Fetch dated AI *research* signals (scholarly publications, not vacancy data) in
+    'live', 'auto', 'fallback', or 'malformed_test' mode."""
     if mode == "malformed_test":
         malformed_payload = [
             {"title": "Bad Signal Without URL or Date", "published_date": "invalid-date"},
@@ -341,8 +344,9 @@ def fetch_market_signals(mode: str = "auto", timeout_sec: float = 5.0) -> dict:
                 "source_mode": "live_feed",
                 "is_fallback": False,
                 "banner_label": (
-                    f"LIVE SIGNAL FEED — Retrieved from OpenAlex API on {today_str} "
-                    f"({len(validation['valid_signals'])} dated works matched reviewed taxonomy)."
+                    f"LIVE RESEARCH SIGNAL FEED — Retrieved from OpenAlex API on {today_str} "
+                    f"({len(validation['valid_signals'])} dated scholarly works matched reviewed taxonomy; "
+                    "research activity, not job vacancy data)."
                 ),
                 "signals": validation["valid_signals"],
                 "validation": validation,
@@ -362,8 +366,9 @@ def fetch_market_signals(mode: str = "auto", timeout_sec: float = 5.0) -> dict:
                 "source_mode": "live_feed",
                 "is_fallback": False,
                 "banner_label": (
-                    f"LIVE SIGNAL FEED — Retrieved from arXiv API on {today_str} "
-                    f"({len(validation['valid_signals'])} dated papers matched reviewed taxonomy)."
+                    f"LIVE RESEARCH SIGNAL FEED — Retrieved from arXiv API on {today_str} "
+                    f"({len(validation['valid_signals'])} dated preprints matched reviewed taxonomy; "
+                    "research activity, not job vacancy data)."
                 ),
                 "signals": validation["valid_signals"],
                 "validation": validation,

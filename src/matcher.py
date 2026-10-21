@@ -144,8 +144,13 @@ def _score_single_role(
                 }
             )
 
-    # Cap signal momentum at 100
-    signal_momentum_score = round(min(100.0, weighted_signal_points * 1.15), 1)
+    # Research signal coverage = share of valid dated signals mentioning this role's skills,
+    # weighted by scenario skill boosts (an absolute count saturated at 100 for every role).
+    # x4: every signal touching ~1/4 of the role's skill set (plus role tag) = full 100.
+    max_points_per_signal = 10.0 * max(len(role_skill_set), 1) + 8.0
+    signal_momentum_score = round(
+        min(100.0, 100.0 * weighted_signal_points / (max(len(valid_signals), 1) * max_points_per_signal) * 4.0), 1
+    )
 
     # Scenario & interest fit score
     role_scenario_mult = role_info.get("scenario_weights", {}).get(scenario_id, 1.0)
@@ -181,7 +186,7 @@ def _score_single_role(
             "skill_readiness_score": skill_readiness_score,
             "signal_momentum_score": signal_momentum_score,
             "scenario_fit_score": scenario_fit_score,
-            "formula": "0.55 × Skill Readiness + 0.25 × Signal Momentum + 0.20 × Scenario Fit",
+            "formula": "0.55 × Skill Readiness + 0.25 × Research Signal Coverage + 0.20 × Scenario Fit",
         },
         "matched_required_skills": [{"id": s, "name": SKILLS_CATALOG[s]["name"]} for s in matched_req],
         "missing_required_skills": [{"id": s, "name": SKILLS_CATALOG[s]["name"]} for s in missing_req],
@@ -224,7 +229,7 @@ def rank_roles_for_profile(
             "status": "insufficient_evidence",
             "reason": "signal_evidence_insufficient",
             "message": (
-                "Insufficient Evidence: Market signal feed is empty, malformed, or older than the freshness threshold. "
+                "Insufficient Evidence: Research signal feed is empty, malformed, or older than the freshness threshold. "
                 "AI Skills Compass refuses to generate confident role rankings without verified dated signals."
             ),
             "source_mode": source_mode,
@@ -290,7 +295,7 @@ def rank_roles_for_profile(
             role["why_ranked_here"] = (
                 f"Ranked #1 ({role['total_score']}/100) because your profile already matches "
                 f"{matched_count}/{total_req} required core skills (Readiness: {bd['skill_readiness_score']}%), "
-                f"backed by {sig_count} dated market signal(s) (Momentum: {bd['signal_momentum_score']}%) "
+                f"backed by {sig_count} dated research signal(s) (Research Coverage: {bd['signal_momentum_score']}%) "
                 f"and {active_scenario['name']} weighting ({bd['scenario_fit_score']}%)."
             )
         else:
@@ -298,7 +303,7 @@ def rank_roles_for_profile(
             role["why_ranked_here"] = (
                 f"Ranked #{idx} ({role['total_score']}/100, {gap_to_top} pts behind #1): matches "
                 f"{matched_count}/{total_req} required skills (Readiness: {bd['skill_readiness_score']}%) "
-                f"with {sig_count} dated signal(s) (Momentum: {bd['signal_momentum_score']}%) "
+                f"with {sig_count} dated research signal(s) (Research Coverage: {bd['signal_momentum_score']}%) "
                 f"and Scenario Fit of {bd['scenario_fit_score']}%."
             )
 

@@ -58,3 +58,17 @@ Every signal processed by `src/signals.py` conforms to a strict dictionary schem
 ### Guardrails Enforced in Code (`src/signals.py` & `src/matcher.py`)
 1. **Explicit Fallback Badging**: When `mode="fallback"` is selected or live network requests fail, `fetch_market_signals()` returns records from `data/signals_snapshot.json` with `source_mode = "fallback_snapshot"` and `is_fallback = True`. The UI renders an amber warning banner (`DATED SNAPSHOT FALLBACK — Not Live`) so judges are never misled.
 2. **Malformed / Empty Signal Rejection (`test_malformed_or_empty_signals_rejected`)**: `validate_signals(raw_signals)` strips any record missing `title`, `published_date` (`YYYY-MM-DD`), `source_url` (`http://` or `https://`), `retrieved_date`, or valid taxonomy skills. If zero valid signals remain after validation, `rank_roles_for_profile()` sets `status = "insufficient_evidence"` and refuses to produce confident role rankings.
+
+
+---
+
+## 7. Final Submission Audit Update (21 October 2026)
+
+1. **Reproducible Verifiable Snapshot (`scripts/refresh_snapshot.py` & `data/signals_snapshot.json`)**:
+   - Every record in `data/signals_snapshot.json` (17 records, snapshot date `2026-10-21`) is now generated directly and verbatim from the live **OpenAlex REST API (`https://api.openalex.org/works`)** via `python scripts/refresh_snapshot.py`, with resolving DOIs (`https://doi.org/...`) and real publication dates (`2026-09-04` to `2026-10-17`).
+   - Earlier placeholder arXiv IDs were removed and replaced by real OpenAlex scholarly records.
+2. **Whole-Word Taxonomy Extraction & Future-Date Guardrail (`src/signals.py`)**:
+   - `extract_taxonomy_entities()` uses word-boundary regex (`\b...\b`) and multi-word phrases so substrings like `"leverage"` (`rag`) or `"powered"` (`power`) never trigger false-positive skill tags.
+   - `validate_signals()` rejects future-dated publications (`age_days < -1`) in addition to stale (`>730` days), undated, unattributed, or zero-skill records.
+3. **Strict Distinction Between Research Activity and Job-Market Demand**:
+   - OpenAlex and arXiv measure **scholarly AI research activity**, **not** employer job postings, vacancy counts, or hiring demand. All UI banners, role cards, and documentation explicitly state that the prototype uses research-publication signals and that workforce context figures (`Hays Asia Salary Guide 2025`: 56% AI usage vs. 26% formal training; `MOSTI`: 600,000+ workers needing reskilling) are quoted directly from the SDC 2026 Domain 1 problem brief.

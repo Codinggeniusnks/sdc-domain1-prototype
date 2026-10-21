@@ -1,116 +1,333 @@
 {
   "snapshot_metadata": {
-    "snapshot_id": "sdc2026-d1-snapshot-20261020",
-    "created_date": "2026-10-20",
-    "description": "Reviewed dated snapshot of AI research and workforce market signals from arXiv (cs.AI, cs.CL, cs.CY, cs.SE) and published Malaysian workforce benchmarks. Used as an explicitly labeled fallback when live network feeds are unavailable.",
+    "snapshot_id": "openalex-2026-10-21",
+    "created_date": "2026-10-21",
+    "query_url": "https://api.openalex.org/works?search=artificial+intelligence+llm+workflow+evaluation+governance+sustainability+sql+python&per-page=18&sort=publication_date:desc",
+    "description": "Dated snapshot of scholarly AI publications retrieved from the OpenAlex API (CC0). Research-activity signals only; NOT job postings, vacancy counts, or hiring data.",
     "is_fallback": true
   },
   "signals": [
     {
-      "id": "arxiv-2502-14321",
-      "title": "Evaluating Agentic AI Workflows and Human-in-the-Loop Governance in Enterprise Operations",
-      "published_date": "2026-10-18",
-      "retrieved_date": "2026-10-20",
-      "source_name": "arXiv API (cs.AI / cs.CY)",
-      "source_url": "https://arxiv.org/abs/2502.14321",
-      "summary": "Empirical study of multi-step LLM agent workflows showing that human-in-the-loop verification, workflow automation, prompt engineering, and structured AI governance reduce operational failure rates.",
+      "id": "W7222823342",
+      "title": "Development and evaluation of eduvate CBT as an integrated artificial intelligence powered assessment ecosystem",
+      "published_date": "2026-10-17",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.1007/s44217-026-02317-9",
+      "summary": "The growth of digital assessment has intensified concerns about examination integrity, grading efficiency, fairness, and responsible artificial intelligence (AI). This study evaluates Eduvate CBT, an integrated role-based assessment ecosystem combining examination administration, AI-assisted proctor...",
       "extracted_skills": [
-        "workflow_automation",
-        "prompt_engineering",
-        "human_in_the_loop_qa",
+        "ai_literacy",
         "ai_ethics_governance",
-        "process_mapping"
+        "instructional_design"
+      ],
+      "related_roles": [
+        "llm_quality_evaluator",
+        "ai_governance_auditor",
+        "sustainable_ai_analyst",
+        "workforce_reskilling_strategist"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "W7221710356",
+      "title": "Implementing the ILAE 2025 seizure taxonomy in medical software",
+      "published_date": "2026-10-13",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.3389/fncom.2026.1877135",
+      "summary": "The International League Against Epilepsy (ILAE), working via a multidisciplinary task force, has issued a position paper with updated seizure classification guidelines (2025) replacing its previous guidance (2017), establishing a revised de-facto standard for clinical assessment and classification ...",
+      "extracted_skills": [
+        "ai_literacy",
+        "python_scripting"
+      ],
+      "related_roles": [
+        "llm_quality_evaluator",
+        "rag_knowledge_engineer",
+        "sustainable_ai_analyst"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "W7221176143",
+      "title": "Analyzing Artificial Intelligence in Education Discourse on Bluesky: A Computational Social Media Analysis",
+      "published_date": "2026-10-09",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-11013514/v1",
+      "summary": "Key concepts: Skepticism Social media Thematic analysis Interpretation (philosophy) Sociology Discourse analysis Entertainment Grounded theory Big data Computational linguistics Computational sociology Psychology S",
+      "extracted_skills": [
+        "ai_literacy",
+        "ai_ethics_governance",
+        "instructional_design"
+      ],
+      "related_roles": [
+        "llm_quality_evaluator",
+        "ai_governance_auditor",
+        "sustainable_ai_analyst",
+        "workforce_reskilling_strategist"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "W7220370105",
+      "title": "Agentic AI in der Unternehmenspraxis: Vom Werkzeug zum Akteur",
+      "published_date": "2026-10-05",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.1365/s40702-026-01331-7",
+      "summary": "Zusammenfassung Künstliche Intelligenz entwickelt sich von einfacher Automatisierung und Inhaltsgenerierung hin zu Systemen, die komplexe Ziele über heterogene Unternehmenslandschaften hinweg verfolgen. Ermöglicht durch Fortschritte bei generativer künstlicher Intelligenz, großen Sprachmodellen, dem...",
+      "extracted_skills": [
+        "workflow_automation"
+      ],
+      "related_roles": [],
+      "is_fallback": true
+    },
+    {
+      "id": "W7220400704",
+      "title": "SCHEMA FOR AI DRIVEN MUNICIPALITY",
+      "published_date": "2026-10-05",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.66838/sauc.6440",
+      "summary": "Many municipalities adopt artificial intelligence without knowing if their supporting data is accurate, turning municipal decision-making into an opaque \"black box.\" To address this, we introduce the AI Flow for Municipalities, an evidence-led orchestration system developed under the Czech CESMOD pr...",
+      "extracted_skills": [
+        "ai_literacy"
+      ],
+      "related_roles": [],
+      "is_fallback": true
+    },
+    {
+      "id": "W7221748240",
+      "title": "Argos: A Multi-Tenant SaaS Architecture for Distributed Edge Security Orchestration",
+      "published_date": "2026-09-29",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.48550/arxiv.2610.14019",
+      "summary": "The growing adoption of distributed edge devices for security auditing and operational monitoring exposes limitations in lightweight control mechanisms traditionally used to manage such nodes. While commercial Command-and-Control (C2) platforms offer advanced orchestration features, their licensing ...",
+      "extracted_skills": [
+        "process_mapping",
+        "python_scripting"
+      ],
+      "related_roles": [],
+      "is_fallback": true
+    },
+    {
+      "id": "W7214098493",
+      "title": "CLARIN Annual Conference Proceedings 2026",
+      "published_date": "2026-09-23",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.5281/zenodo.22916660",
+      "summary": "These conference proceedings contain the papers accepted for presentation at the CLARIN Annual Conference 2026.",
+      "extracted_skills": [
+        "ai_ethics_governance"
+      ],
+      "related_roles": [],
+      "is_fallback": true
+    },
+    {
+      "id": "W7214284972",
+      "title": "From Raw Scientific Data to Trusted Discovery: Agentic AI for FAIR and Reproducible Data Science: A Systematic Review of Data Engineering, Semantic Data Models, Multimodal Analytics, Provenance, and Human Oversight",
+      "published_date": "2026-09-17",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.36347/sjet.2026.v14i09.006",
+      "summary": "Agentic artificial intelligence (AI) is beginning to change scientific data work from a sequence of manually connected tasks into a set of tool-mediated, partially autonomous workflows. That shift creates a practical question: can agents accelerate analysis without weakening the findability, accessi...",
+      "extracted_skills": [
+        "ai_literacy",
+        "process_mapping",
+        "sql_data_analysis",
+        "workflow_automation",
+        "human_in_the_loop_qa",
+        "rag_knowledge_systems",
+        "ai_ethics_governance"
+      ],
+      "related_roles": [
+        "ai_workflow_specialist",
+        "llm_quality_evaluator",
+        "ai_governance_auditor",
+        "rag_knowledge_engineer",
+        "sustainable_ai_analyst",
+        "workforce_reskilling_strategist"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "W7213314719",
+      "title": "Scaling data management capabilities for enterprise AI: a maturity model for the banking industry",
+      "published_date": "2026-09-16",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.1080/0960085x.2026.2723258",
+      "summary": "Integrating artificial intelligence (AI) into financial institutions requires more than deploying technical solutions. It requires data management capabilities (DMCs) aligned with regulatory constraints and strategic priorities. This clinical study investigates how a German bank evolved from fragmen...",
+      "extracted_skills": [
+        "ai_literacy"
+      ],
+      "related_roles": [],
+      "is_fallback": true
+    },
+    {
+      "id": "W7213505547",
+      "title": "When Agents Look Like Beacons: NIDS Evasion by Model Context Protocol Traffic",
+      "published_date": "2026-09-16",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.48550/arxiv.2609.19091",
+      "summary": "The Model Context Protocol (MCP) standardizes communication between autonomous Artificial Intelligence (AI) agents and remote tools over Streamable HTTP. This shift introduces a class of machine-generated, authenticated, and high-frequency JSON-RPC traffic directly into enterprise networks. Enterpri...",
+      "extracted_skills": [
+        "ai_literacy",
+        "rag_knowledge_systems",
+        "ai_ethics_governance"
+      ],
+      "related_roles": [
+        "llm_quality_evaluator",
+        "ai_governance_auditor",
+        "rag_knowledge_engineer",
+        "sustainable_ai_analyst",
+        "workforce_reskilling_strategist"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "W7213257997",
+      "title": "Multi-agent AI for end-to-end air quality analysis and decision support",
+      "published_date": "2026-09-15",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.1038/s44407-026-00102-4",
+      "summary": "Urban air pollution poses increasing risks to public health and environmental sustainability, motivating more automated, data-driven management. Large Language Models (LLMs) offer promise for such automation, yet their deployment in atmospheric governance remains constrained by limited access to rea...",
+      "extracted_skills": [
+        "ai_literacy",
+        "process_mapping",
+        "workflow_automation",
+        "ai_ethics_governance",
+        "esg_sustainability_reporting",
+        "stakeholder_communication"
+      ],
+      "related_roles": [
+        "ai_workflow_specialist",
+        "llm_quality_evaluator",
+        "ai_governance_auditor",
+        "sustainable_ai_analyst",
+        "workforce_reskilling_strategist"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "W7212791993",
+      "title": "NovaFabric: Tamper-Evident, Replayable Evidence for Autonomous AI Agent Runs",
+      "published_date": "2026-09-11",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.48550/arxiv.2609.12582",
+      "summary": "When an autonomous AI agent does something consequential, what can be proven about what it did? Agent-observability platforms capture traces, but a trace is mutable: alterable undetected, with no recipe for re-executing it, silent on whether captured secrets were removed. Regulation (EU AI Act, ISO ...",
+      "extracted_skills": [
+        "ai_literacy",
+        "process_mapping",
+        "workflow_automation"
       ],
       "related_roles": [
         "ai_workflow_specialist",
         "ai_governance_auditor",
-        "llm_quality_evaluator"
+        "workforce_reskilling_strategist"
       ],
       "is_fallback": true
     },
     {
-      "id": "arxiv-2502-11904",
-      "title": "Retrieval-Augmented Generation (RAG) Quality Auditing and Grounded Evaluation Benchmarks",
-      "published_date": "2026-10-16",
-      "retrieved_date": "2026-10-20",
-      "source_name": "arXiv API (cs.CL / cs.AI)",
-      "source_url": "https://arxiv.org/abs/2502.11904",
-      "summary": "Framework for auditing hallucination rates, citation grounding, SQL/vector retrieval pipelines, and automated test suites in enterprise knowledge assistants.",
-      "extracted_skills": [
-        "rag_knowledge_systems",
-        "python_scripting",
-        "sql_data_analysis",
-        "human_in_the_loop_qa",
-        "api_integration"
-      ],
-      "related_roles": [
-        "rag_knowledge_engineer",
-        "llm_quality_evaluator",
-        "ai_workflow_specialist"
-      ],
-      "is_fallback": true
-    },
-    {
-      "id": "arxiv-2501-09872",
-      "title": "Carbon-Aware Machine Learning Scheduling and ESG Telemetry for Sustainable Cloud Infrastructure",
-      "published_date": "2026-10-14",
-      "retrieved_date": "2026-10-20",
-      "source_name": "arXiv API (cs.CY / cs.DC)",
-      "source_url": "https://arxiv.org/abs/2501.09872",
-      "summary": "Demonstrates carbon-intensity telemetry, green cloud scheduling, ESG reporting automation, and data pipeline optimization aligned with climate and energy sustainability goals.",
-      "extracted_skills": [
-        "esg_sustainability_reporting",
-        "carbon_footprint_analytics",
-        "sql_data_analysis",
-        "python_scripting",
-        "data_visualization"
-      ],
-      "related_roles": [
-        "sustainable_ai_analyst",
-        "ai_governance_auditor"
-      ],
-      "is_fallback": true
-    },
-    {
-      "id": "arxiv-2501-06543",
-      "title": "Algorithmic Fairness Auditing, PDPA Compliance, and Bias Mitigation in Workforce Decision Support",
-      "published_date": "2026-10-11",
-      "retrieved_date": "2026-10-20",
-      "source_name": "arXiv API (cs.CY / cs.AI)",
-      "source_url": "https://arxiv.org/abs/2501.06543",
-      "summary": "Audits demographic bias, data privacy compliance, risk documentation, and stakeholder communication in human-centred AI decision-support tools.",
-      "extracted_skills": [
-        "ai_ethics_governance",
-        "data_privacy_pdpa",
-        "stakeholder_communication",
-        "human_in_the_loop_qa",
-        "sql_data_analysis"
-      ],
-      "related_roles": [
-        "ai_governance_auditor",
-        "workforce_reskilling_strategist",
-        "llm_quality_evaluator"
-      ],
-      "is_fallback": true
-    },
-    {
-      "id": "arxiv-2501-03210",
-      "title": "Human-AI Collaborative Curriculum Design and Competency Mapping for Technical and Vocational Reskilling",
-      "published_date": "2026-10-09",
-      "retrieved_date": "2026-10-20",
-      "source_name": "arXiv API (cs.CY / cs.HC)",
-      "source_url": "https://arxiv.org/abs/2501.03210",
-      "summary": "Studies how instructional designers and HR teams combine AI literacy, process mapping, and competency matrices to accelerate adult vocational transitions.",
+      "id": "W7213316911",
+      "title": "Comparative Framework Analysis for Enterprise Generative AI Applications: Chatbot, Automation, and Oracle-to-PostgreSQL Migration",
+      "published_date": "2026-09-11",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.48550/arxiv.2609.13577",
+      "summary": "This study compares framework suitability across three classes of enterprise generative AI applications: a documentation-based development assistant, an email and inquiry automation system, and an Oracle-to-PostgreSQL migration tool. The analysis evaluates component boundaries, orchestration, policy...",
       "extracted_skills": [
         "ai_literacy",
-        "instructional_design",
-        "stakeholder_communication",
         "process_mapping",
-        "prompt_engineering"
+        "python_scripting"
       ],
       "related_roles": [
-        "workforce_reskilling_strategist",
-        "ai_workflow_specialist"
+        "ai_workflow_specialist",
+        "llm_quality_evaluator",
+        "ai_governance_auditor",
+        "rag_knowledge_engineer",
+        "sustainable_ai_analyst",
+        "workforce_reskilling_strategist"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "W4414978761",
+      "title": "A review of ontology-driven big data analytics in healthcare: challenges, tools, and applications",
+      "published_date": "2026-09-09",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.1007/s10115-026-02864-5",
+      "summary": "Key concepts: Computer science Big data Data science Metadata Ontology Semantic technology Semantic Web Analytics Health care Scalability Data integration Semantic integration Semantic analytics Semantic interopera",
+      "extracted_skills": [
+        "sql_data_analysis"
+      ],
+      "related_roles": [],
+      "is_fallback": true
+    },
+    {
+      "id": "W7212194770",
+      "title": "Black-Box Red Teaming of Agentic AI: A Taxonomy-Driven Framework for Automated Risk Discovery",
+      "published_date": "2026-09-09",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.48550/arxiv.2609.09647",
+      "summary": "Agentic systems are rapidly moving to production, where they read untrusted inputs, call tools with real permissions, and act autonomously, expanding the security surface beyond chat-only models. Yet standard evaluations remain single-turn and fail to capture multi-step agent vulnerabilities. We pre...",
+      "extracted_skills": [
+        "ai_literacy",
+        "python_scripting",
+        "workflow_automation",
+        "human_in_the_loop_qa",
+        "ai_ethics_governance"
+      ],
+      "related_roles": [
+        "ai_workflow_specialist",
+        "llm_quality_evaluator",
+        "ai_governance_auditor",
+        "rag_knowledge_engineer",
+        "sustainable_ai_analyst",
+        "workforce_reskilling_strategist"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "W7211893822",
+      "title": "THE STATUS OF ARTIFICIAL INTELLIGENCE IN THE DEVELOPER COMMUNITY: A LITERATURE REVIEW OF STATISTICS, TRENDS, AND EXPECTATIONS CURRENT ADOPTION PATTERNS, EMERGING TRENDS, AND FUTURE OUTLOOK (2023–2026)",
+      "published_date": "2026-09-07",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.29121/shodhai.v3.i2.2026.103",
+      "summary": "Artificial intelligence (AI) has moved from an experimental novelty to a structural component of professional software development within roughly three years. This literature review synthesizes evidence from four large-sample industry surveys: the Stack Overflow. (2025) (n = 49,009), the Google Clou...",
+      "extracted_skills": [
+        "ai_literacy"
+      ],
+      "related_roles": [],
+      "is_fallback": true
+    },
+    {
+      "id": "W7208786046",
+      "title": "The Double-Edged Sword of AI Pair Programmers: A Systematic Literature Review of Security Vulnerabilities in AI-Generated Code and Agentic Development Environments",
+      "published_date": "2026-09-04",
+      "retrieved_date": "2026-10-21",
+      "source_name": "OpenAlex API (CC0) — dated snapshot",
+      "source_url": "https://doi.org/10.66823/2egmd793",
+      "summary": "The role of AI pair programmers has expanded from local code completion to active participation in the development environment. Contemporary tools can interpret repository context, edit multiple files, call package managers, execute terminal commands, and communicate with external services. This rev...",
+      "extracted_skills": [
+        "process_mapping",
+        "python_scripting",
+        "workflow_automation",
+        "data_privacy_pdpa"
+      ],
+      "related_roles": [
+        "ai_workflow_specialist",
+        "ai_governance_auditor",
+        "rag_knowledge_engineer",
+        "workforce_reskilling_strategist"
       ],
       "is_fallback": true
     }

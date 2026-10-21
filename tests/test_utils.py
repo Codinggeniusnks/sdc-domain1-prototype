@@ -78,6 +78,23 @@ class TestUtilsAndCompass(unittest.TestCase):
         self.assertEqual(res["status"], "insufficient_evidence")
         self.assertEqual(res["rejected_count"], 1)
 
+    def test_future_dates_and_substring_false_positives_rejected(self):
+        future = [dict(title="Future-dated Python SQL paper", published_date="2027-03-01",
+                       retrieved_date="2026-10-21", source_url="https://example.org/x",
+                       extracted_skills=["python_scripting", "sql_data_analysis"])]
+        self.assertEqual(validate_signals(future, reference_date="2026-10-21")["status"], "insufficient_evidence")
+        # "leverage"/"powered"/"computer" must not map to RAG / carbon analytics
+        skills, _ = extract_taxonomy_entities("We leverage AI-powered computer vision")
+        self.assertNotIn("rag_knowledge_systems", skills)
+        self.assertNotIn("carbon_footprint_analytics", skills)
+
+    def test_snapshot_signals_are_attributed_research_records(self):
+        snap = load_snapshot_signals()
+        self.assertTrue(snap["is_fallback"])
+        for s in snap["signals"]:
+            self.assertTrue(s["source_url"].startswith("https://doi.org/") or "openalex.org" in s["source_url"])
+            self.assertIn("OpenAlex", s["source_name"])
+
     def test_empty_and_sparse_profile_guardrail(self):
         snapshot = load_snapshot_signals()
         # Empty profile

@@ -34,24 +34,37 @@ def resolve_request_state(query_params: dict[str, list[str]]) -> dict:
     signal_mode = (query_params.get("signal_mode", ["fallback"])[0] or "fallback").strip()
     custom_skills_raw = query_params.get("skills", [])
     custom_name = (query_params.get("custom_name", [""])[0] or "").strip()
+    cv_bio_text = (query_params.get("cv_bio_text", [""])[0] or "").strip()
+    target_interest = (query_params.get("target_interest", [""])[0] or "").strip()
+    experience_level = (query_params.get("experience_level", ["mid"])[0] or "mid").strip()
 
     selected_persona = next(
         (p for p in SYNTHETIC_PROFILES if p["id"] == profile_id),
         SYNTHETIC_PROFILES[0],
     )
 
-    if profile_id == "custom":
-        flat_skills: list[str] = []
+    # If user submitted free-text CV/bio, extract skills automatically via whole-word taxonomy regex
+    extracted_from_bio = []
+    if cv_bio_text:
+        extracted_from_bio, _ = extract_taxonomy_entities(cv_bio_text)
+
+    if profile_id == "custom" or cv_bio_text:
+        flat_skills: list[str] = list(extracted_from_bio)
         for item in custom_skills_raw:
             flat_skills.extend([s.strip() for s in item.split(",") if s.strip()])
+        
+        user_interests = [target_interest] if target_interest else []
         active_profile = {
             "id": "custom",
-            "name": custom_name or "Custom Synthetic Learner Profile",
-            "current_role": "Custom Synthetic Role Intake",
-            "persona_type": "User-Configured Synthetic Profile",
-            "background_summary": "Custom synthetic skill combination entered for live judge evaluation (no real PII stored).",
+            "name": custom_name or ("Interactive Learner (Custom Intake)" if cv_bio_text else "Custom Synthetic Learner Profile"),
+            "current_role": f"User-Entered Background ({experience_level.capitalize()} Level)",
+            "persona_type": f"Interactive Custom Intake ({len(flat_skills)} skills detected)",
+            "background_summary": cv_bio_text if cv_bio_text else "Custom synthetic skill combination entered for live judge evaluation (no real PII stored).",
             "skills": normalize_profile_skills(flat_skills),
-            "interests": [],
+            "interests": user_interests,
+            "cv_bio_text": cv_bio_text,
+            "experience_level": experience_level,
+            "target_interest": target_interest,
         }
     else:
         active_profile = dict(selected_persona)
@@ -60,6 +73,9 @@ def resolve_request_state(query_params: dict[str, list[str]]) -> dict:
             for item in custom_skills_raw:
                 flat_skills.extend([s.strip() for s in item.split(",") if s.strip()])
             active_profile["skills"] = normalize_profile_skills(flat_skills)
+        active_profile["cv_bio_text"] = ""
+        active_profile["experience_level"] = "mid"
+        active_profile["target_interest"] = active_profile.get("interests", [""])[0] if active_profile.get("interests") else ""
 
     signals_payload = fetch_market_signals(mode=signal_mode)
     evaluation = rank_roles_for_profile(
@@ -610,32 +626,88 @@ def render_dashboard_html(state: dict) -> str:
         <!-- STEP 1: PROFILE INTAKE -->
         <section class="card" aria-labelledby="step1-heading" data-testid="profile-intake-section">
             <div class="section-header">
-                <h2 id="step1-heading">1. Skills Profile Intake — "Who I Am Today" (Must-Have #1)</h2>
-                <span class="tag tag-blue">Active Persona: {esc(prof["name"])}</span>
+                <h2 id="step1-heading">1. Skills Profile Intake — "Tell Us About Yourself" (Must-Have #1)</h2>
+                <span class="tag tag-blue">Active Profile: {esc(prof["name"])}</span>
             </div>
-            <p class="section-sub">Select a pre-built synthetic Malaysian worker persona (or test the Sparse Profile guardrail), or customize the skill checkboxes below:</p>
-            <div class="persona-grid">
-                {"".join(persona_links)}
-            </div>
-            <div class="sub-panel">
-                <p><strong>Current Role:</strong> {esc(prof["current_role"])} ({esc(prof["persona_type"])})</p>
-                <p><strong>Synthetic Background:</strong> {esc(prof["background_summary"])}</p>
-            </div>
+            <p class="section-sub">
+                Enter your skills, experience, and interests through the <strong>interactive CV/bio questionnaire</strong> below, or select a pre-built synthetic Malaysian worker persona:
+            </p>
 
-            <form method="GET" action="/" data-testid="custom-skills-form">
-                <input type="hidden" name="profile_id" value="{esc(state['profile_id'])}">
+            <!-- INTERACTIVE QUESTIONNAIRE & CV PASTE FORM -->
+            <form method="GET" action="/" class="intake-form" data-testid="interactive-intake-form" style="background:#F1F5F9; border:1px solid #CBD5E1; border-radius:8px; padding:16px; margin-bottom:16px;">
+                <input type="hidden" name="profile_id" value="custom">
                 <input type="hidden" name="scenario_id" value="{esc(state['scenario_id'])}">
                 <input type="hidden" name="signal_mode" value="{esc(state['signal_mode'])}">
-                <details>
-                    <summary style="cursor:pointer; font-weight:600; color:#1E40AF; margin-bottom:8px;">
-                        Customize / Inspect Profile Skills ({len(profile_skills_set)} of {len(SKILLS_CATALOG)} reviewed skills selected)
+                
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px; margin-bottom:12px;">
+                    <div>
+                        <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
+                            Your Name / Identifier (Synthetic Only):
+                        </label>
+                        <input type="text" name="custom_name" value="{esc(prof.get('name', 'Custom Learner'))}" placeholder="e.g. Farhan Tan / Fresh Grad" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.9rem;">
+                    </div>
+                    <div>
+                        <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
+                            Experience Level:
+                        </label>
+                        <select name="experience_level" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.9rem; background:#fff;">
+                            <option value="entry" {"selected" if prof.get("experience_level") == "entry" else ""}>Fresh Graduate / Career Switcher (&lt; 2 yrs)</option>
+                            <option value="mid" {"selected" if prof.get("experience_level") in ("mid", None) else ""}>Mid-Level Practitioner (2–6 yrs)</option>
+                            <option value="senior" {"selected" if prof.get("experience_level") == "senior" else ""}>Senior Specialist / Lead (&gt; 6 yrs)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
+                            Career Interest Track:
+                        </label>
+                        <select name="target_interest" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.9rem; background:#fff;">
+                            <option value="">Explore All Emerging AI Tracks</option>
+                            <option value="operations" {"selected" if prof.get("target_interest") == "operations" else ""}>Operations & Process Optimization</option>
+                            <option value="quality assurance" {"selected" if prof.get("target_interest") == "quality assurance" else ""}>Quality Assurance & LLM Evaluation</option>
+                            <option value="governance" {"selected" if prof.get("target_interest") == "governance" else ""}>AI Ethics, PDPA & Governance</option>
+                            <option value="engineering" {"selected" if prof.get("target_interest") == "engineering" else ""}>RAG & Knowledge Engineering</option>
+                            <option value="sustainability" {"selected" if prof.get("target_interest") == "sustainability" else ""}>Green Tech & ESG Analytics</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div style="margin-bottom:12px;">
+                    <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
+                        Paste Sample CV / Experience Bio / Skill Summary (Domain 1 Item #1):
+                    </label>
+                    <textarea name="cv_bio_text" rows="3" placeholder="Paste your background, e.g.: 'Operations analyst with 3 years experience. Skilled in workflow automation, process mapping, and basic SQL data analysis. Interested in prompt engineering and human-in-the-loop quality evaluation.'" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.88rem; font-family:inherit;">{esc(prof.get("cv_bio_text", ""))}</textarea>
+                    <small style="color:#64748B; font-size:0.8rem;">
+                        Our whole-word regex parser automatically detects and matches your skills against the 16 reviewed taxonomy competencies without sending your text to any external third-party server.
+                    </small>
+                </div>
+
+                <details style="margin-bottom:12px; background:#fff; border:1px solid #CBD5E1; border-radius:6px; padding:10px;">
+                    <summary style="cursor:pointer; font-weight:600; color:#1E40AF;">
+                        Or Manually Fine-Tune Skill Checkboxes ({len(profile_skills_set)} of {len(SKILLS_CATALOG)} selected)
                     </summary>
-                    <div class="skills-grid">
+                    <div class="skills-grid" style="margin-top:10px;">
                         {"".join(skill_checkboxes)}
                     </div>
-                    <button type="submit" class="btn-primary" data-testid="apply-skills-btn">Recalculate Role Matches</button>
                 </details>
+
+                <button type="submit" class="btn-primary" style="background:#2563EB; color:#fff; font-weight:700; padding:10px 18px; border:none; border-radius:6px; cursor:pointer;" data-testid="apply-skills-btn">
+                    🔍 Analyze Profile & Match Future Roles
+                </button>
             </form>
+
+            <div style="margin-top:16px;">
+                <p style="font-weight:600; font-size:0.88rem; color:#475569; margin-bottom:6px;">
+                    Or quick-test pre-built Malaysian personas:
+                </p>
+                <div class="persona-grid">
+                    {"".join(persona_links)}
+                </div>
+            </div>
+
+            <div class="sub-panel" style="margin-top:10px;">
+                <p><strong>Current Active Background:</strong> {esc(prof["current_role"])} ({esc(prof["persona_type"])})</p>
+                <p><strong>Detected Skills ({len(profile_skills_set)}):</strong> {", ".join([SKILLS_CATALOG[s]["name"] for s in prof.get("skills", []) if s in SKILLS_CATALOG]) or '<span class="tag tag-gap">None detected (Guardrail active)</span>'}</p>
+            </div>
         </section>
 
         <!-- STEP 2: SCENARIO SELECTOR -->

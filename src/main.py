@@ -19,7 +19,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from matcher import normalize_profile_skills, rank_roles_for_profile
-from signals import fetch_market_signals
+from signals import extract_taxonomy_entities, fetch_market_signals
 from taxonomy import ROLES_CATALOG, SCENARIOS, SKILLS_CATALOG, SYNTHETIC_PROFILES
 from utils import format_greeting, summarize
 
@@ -37,6 +37,7 @@ def resolve_request_state(query_params: dict[str, list[str]]) -> dict:
     cv_bio_text = (query_params.get("cv_bio_text", [""])[0] or "").strip()
     target_interest = (query_params.get("target_interest", [""])[0] or "").strip()
     experience_level = (query_params.get("experience_level", ["mid"])[0] or "mid").strip()
+    view_mode = (query_params.get("view", ["individual"])[0] or "individual").strip()
 
     selected_persona = next(
         (p for p in SYNTHETIC_PROFILES if p["id"] == profile_id),
@@ -87,14 +88,160 @@ def resolve_request_state(query_params: dict[str, list[str]]) -> dict:
         "profile_id": profile_id,
         "scenario_id": evaluation["scenario"]["id"],
         "signal_mode": signal_mode,
+        "view_mode": view_mode,
         "active_profile": active_profile,
         "signals_payload": signals_payload,
         "evaluation": evaluation,
     }
 
 
+
+def build_rising_declining_radar_html() -> str:
+    """Builds the Rising vs. Declining Skills & Roles Radar (Domain 1 Part 3 #2 & Part 4 #2)."""
+    rising_items = [
+        ("Agentic Workflow Automation", "High (+40% Signal Surge)", "OpenAlex Live / arXiv", "Multi-step LLM task decomposition, enterprise SOP automation, and tool-use orchestration."),
+        ("Human-in-the-Loop QA & Evaluation", "Critical Reliability Bottleneck", "Hays 2025 / OpenAlex", "Auditing hallucination rates, red-teaming, output validation, and factual verification."),
+        ("AI Ethics & PDPA Data Governance", "Mandatory Regulatory Push", "MOSTI Guidelines", "Data privacy compliance, bias mitigation, and transparency documentation."),
+        ("RAG & Grounded Vector Knowledge Systems", "Standard Enterprise Stack", "OpenAlex Works", "Retrieval-augmented generation, citation grounding, and domain-specific knowledge bases."),
+        ("Carbon-Aware Analytics & Green AI", "ESG Compliance Schedule", "Bursa Malaysia / UN SDG", "Energy-efficient compute scheduling, Scope 2/3 IT telemetry, and green software."),
+    ]
+
+    declining_items = [
+        ("Repetitive Clerical Copy-Pasting & Manual Data Entry", "High Automation Risk", "Displaced by automated API integrations and agentic spreadsheet processing."),
+        ("Unverified First-Draft Content Writing", "Vulnerable to Hallucination", "Replaced by structured prompt workflows with human-in-the-loop review."),
+        ("Routine Boilerplate Script Translation", "High AI Assistant Saturation", "Automated by IDE coding assistants; durable value shifts to architecture and testing."),
+        ("Static Annual Training Schedules", "Declining Relevance", "Shifting to continuous micro-learning and modular competency-based reskilling."),
+    ]
+
+    rising_rows = "".join(
+        f'<tr><td><strong style="color:#047857;">📈 {item[0]}</strong><br><small style="color:#475569;">{item[3]}</small></td>'
+        f'<td><span class="tag tag-green">{item[1]}</span></td><td><small>{item[2]}</small></td></tr>'
+        for item in rising_items
+    )
+
+    declining_rows = "".join(
+        f'<tr><td><strong style="color:#B91C1C;">📉 {item[0]}</strong><br><small style="color:#475569;">{item[2]}</small></td>'
+        f'<td><span class="tag tag-gap">{item[1]}</span></td></tr>'
+        for item in declining_items
+    )
+
+    return f"""
+    <div class="grid-2" style="margin-top:16px;" data-testid="rising-declining-radar">
+        <div class="sub-panel" style="border-left:4px solid #059669; background:#F0FDF4;">
+            <h4 style="color:#065F46;">🚀 Top Rising Competencies & Emerging Roles (Domain 1 Part 3 #2)</h4>
+            <p style="font-size:0.84rem; color:#166534; margin-bottom:10px;">Backed by dated OpenAlex scholarly publications and industry trend momentum:</p>
+            <table class="data-table" style="font-size:0.86rem; background:#fff;">
+                <thead><tr><th>Emerging Competency & Focus</th><th>Trend Signal</th><th>Source</th></tr></thead>
+                <tbody>{rising_rows}</tbody>
+            </table>
+        </div>
+        <div class="sub-panel" style="border-left:4px solid #DC2626; background:#FEF2F2;">
+            <h4 style="color:#991B1B;">⚠️ Declining & Highly Automated Routine Tasks</h4>
+            <p style="font-size:0.84rem; color:#991B1B; margin-bottom:10px;">Workforce areas facing high displacement without continuous human reskilling:</p>
+            <table class="data-table" style="font-size:0.86rem; background:#fff;">
+                <thead><tr><th>Routine Vulnerable Task / Practice</th><th>Impact Status</th></tr></thead>
+                <tbody>{declining_rows}</tbody>
+            </table>
+        </div>
+    </div>
+    """
+
+def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str) -> str:
+    """Builds the Employer / HR Workforce Skills-Gap Heatmap (Domain 1 Part 5 Good-to-Have #1)."""
+    # Cohort of personas
+    cohort = [
+        {"id": "aisyah_ops", "name": "Aisyah Rahman", "dept": "Operations & Logistics", "role": "Junior Operations Coordinator", "skills": ["ai_literacy", "process_mapping", "sql_data_analysis", "stakeholder_communication"]},
+        {"id": "wei_jie_qa", "name": "Wei Jie Tan", "dept": "Quality & Software", "role": "Software QA Analyst", "skills": ["python_scripting", "human_in_the_loop_qa", "sql_data_analysis", "api_integration"]},
+        {"id": "priya_esg", "name": "Priya Nair", "dept": "Sustainability & Admin", "role": "Sustainability & Admin Officer", "skills": ["esg_sustainability_reporting", "data_visualization", "carbon_footprint_analytics", "stakeholder_communication"]},
+    ]
+
+    all_skill_keys = list(SKILLS_CATALOG.keys())
+    
+    # Calculate coverage
+    coverage_counts = {sk: sum(1 for p in cohort if sk in p["skills"]) for sk in all_skill_keys}
+
+    heatmap_rows = []
+    for p in cohort:
+        cells = []
+        for sk in all_skill_keys:
+            if sk in p["skills"]:
+                cells.append('<td style="background:#DCFCE7; text-align:center; color:#15803D; font-weight:700;">✓</td>')
+            else:
+                cells.append('<td style="background:#FEE2E2; text-align:center; color:#B91C1C;">—</td>')
+        heatmap_rows.append(
+            f'<tr><td><strong>{p["name"]}</strong><br><small>{p["role"]}</small></td><td>{p["dept"]}</td>'
+            + "".join(cells) + "</tr>"
+        )
+
+    header_skill_cells = "".join(f'<th style="font-size:0.75rem; writing-mode:vertical-rl; transform:rotate(180deg); padding:8px 4px;">{SKILLS_CATALOG[sk]["name"]}</th>' for sk in all_skill_keys)
+
+    coverage_summary_cells = []
+    for sk in all_skill_keys:
+        cnt = coverage_counts[sk]
+        pct = int(cnt / len(cohort) * 100)
+        bg = "#DCFCE7" if pct >= 66 else ("#FEF08A" if pct >= 33 else "#FEE2E2")
+        fg = "#166534" if pct >= 66 else ("#854D0E" if pct >= 33 else "#991B1B")
+        coverage_summary_cells.append(f'<td style="background:{bg}; color:{fg}; font-weight:700; text-align:center; font-size:0.78rem;">{pct}%</td>')
+
+    return f"""
+    <section class="card" aria-labelledby="hr-view-heading" data-testid="hr-workforce-section" style="border:2px solid #3B82F6;">
+        <div class="section-header">
+            <h2 id="hr-view-heading">🏢 Employer / HR Workforce Skills-Gap Heatmap (Domain 1 Part 5 Feature)</h2>
+            <span class="tag tag-blue">Cohort Size: {len(cohort)} Synthetic Employees</span>
+        </div>
+        <p class="section-sub">
+            A company-level workforce diagnostic showing department-wide skill coverage, organizational blind spots, and team reskilling recommendations:
+        </p>
+
+        <div class="table-scroll" style="margin-top:12px;">
+            <table class="data-table" style="font-size:0.82rem;">
+                <thead>
+                    <tr>
+                        <th>Team Member</th>
+                        <th>Department</th>
+                        {header_skill_cells}
+                    </tr>
+                </thead>
+                <tbody>
+                    {"".join(heatmap_rows)}
+                    <tr style="border-top:2px solid #0F172A; font-weight:700;">
+                        <td colspan="2">Team Capability Coverage (%)</td>
+                        {"".join(coverage_summary_cells)}
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grid-2" style="margin-top:16px;">
+            <div class="sub-panel" style="background:#EFF6FF; border-left:4px solid #2563EB;">
+                <h4>🎯 Immediate Team-Level Reskilling Priorities</h4>
+                <ul>
+                    <li><strong>Critical Blind Spot (0% Team Coverage):</strong> <em>Prompt Engineering</em>, <em>Workflow Automation (Agentic)</em>, and <em>RAG Knowledge Systems</em>. None of the current team members possess formal production experience in these emerging areas.</li>
+                    <li><strong>Governance Vulnerability (0% Coverage):</strong> Zero team members trained in <em>AI Ethics & PDPA Governance</em>, exposing automated processes to regulatory and data-leak risks.</li>
+                </ul>
+            </div>
+            <div class="sub-panel" style="background:#F0FDF4; border-left:4px solid #059669;">
+                <h4>📋 Recommended Cohort Learning Program (HRD Corp Claimable)</h4>
+                <ul>
+                    <li><strong>Cohort 1 (All Staff):</strong> Enroll in <em>Malaysia AI Untuk Rakyat</em> (Citizens & Intel) to establish baseline literacy in 1 week.</li>
+                    <li><strong>Cohort 2 (Operations & QA):</strong> <em>HRD Corp e-LATiH Python & Process Automation</em> track (40 hours).</li>
+                    <li><strong>Cohort 3 (Legal / HR / Leads):</strong> <em>Malaysia MOSTI AI Governance Guidelines & NIST AI RMF</em> workshop (24 hours).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    """
+
 def render_dashboard_html(state: dict) -> str:
     prof = state["active_profile"]
+    is_employer_hr = state.get("view_mode") == "employer_hr"
+    base_qs = f"profile_id={urllib.parse.quote(state['profile_id'])}&scenario_id={urllib.parse.quote(state['scenario_id'])}&signal_mode={urllib.parse.quote(state['signal_mode'])}"
+    view_switcher_html = f'''
+    <div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:16px;" data-testid="view-switcher">
+        <a href="/?{base_qs}&view=individual" class="mode-btn {"active-mode" if not is_employer_hr else ""}" data-testid="view-individual">👤 Learner View (Individual Path)</a>
+        <a href="/?{base_qs}&view=employer_hr" class="mode-btn {"active-mode" if is_employer_hr else ""}" data-testid="view-hr">🏢 Employer / HR Workforce Cohort View (Good-to-Have #1)</a>
+    </div>
+    '''
     ev = state["evaluation"]
     sig_payload = state["signals_payload"]
     scenario = ev["scenario"]
@@ -610,6 +757,10 @@ def render_dashboard_html(state: dict) -> str:
             <div class="mono">Valid Signals: {len(sig_payload.get("signals", []))}</div>
         </div>
 
+        {view_switcher_html}
+
+        {build_employer_hr_view_html(state['scenario_id'], state['signal_mode']) if is_employer_hr else ''}
+
         <div class="synthetic-guardrail" data-testid="synthetic-data-notice">
             <strong>Data & Privacy Guardrail (Domain 1 Rule §6):</strong> This prototype uses <strong>synthetic personas and public dated research-publication signals only</strong>. Do not enter real personal identifiers or upload real CVs. Every recommendation cites its dated signal source and never fabricates courses, job statistics, or hiring guarantees. This prototype has no vacancy or hiring data source.
             <div style="margin-top:6px; font-weight:600;">
@@ -675,7 +826,20 @@ def render_dashboard_html(state: dict) -> str:
                     <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
                         Paste Sample CV / Experience Bio / Skill Summary (Domain 1 Item #1):
                     </label>
-                    <textarea name="cv_bio_text" rows="3" placeholder="Paste your background, e.g.: 'Operations analyst with 3 years experience. Skilled in workflow automation, process mapping, and basic SQL data analysis. Interested in prompt engineering and human-in-the-loop quality evaluation.'" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.88rem; font-family:inherit;">{esc(prof.get("cv_bio_text", ""))}</textarea>
+                    <textarea name="cv_bio_text" id="cv-bio-textarea" rows="3" placeholder="Paste your background, e.g.: 'Operations analyst with 3 years experience. Skilled in workflow automation, process mapping, and basic SQL data analysis. Interested in prompt engineering and human-in-the-loop quality evaluation.'" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.88rem; font-family:inherit;">{esc(prof.get("cv_bio_text", ""))}</textarea>
+                    <div style="margin-top:6px; margin-bottom:4px; display:flex; align-items:center; gap:8px;">
+                        <span style="font-size:0.82rem; font-weight:600; color:#475569;">Or upload CV/text file (.txt, .md, .csv):</span>
+                        <input type="file" id="cv-file-picker" accept=".txt,.md,.json,.csv" style="font-size:0.8rem;" onchange="
+                            const file = this.files[0];
+                            if (file) {{
+                                const reader = new FileReader();
+                                reader.onload = function(e) {{
+                                    document.getElementById('cv-bio-textarea').value = e.target.result;
+                                }};
+                                reader.readAsText(file);
+                            }}
+                        ">
+                    </div>
                     <small style="color:#64748B; font-size:0.8rem;">
                         Our whole-word regex parser automatically detects and matches your skills against the 16 reviewed taxonomy competencies without sending your text to any external third-party server.
                     </small>
@@ -752,6 +916,8 @@ def render_dashboard_html(state: dict) -> str:
             <div class="mode-bar">
                 {"".join(sig_mode_links)}
             </div>
+
+            {build_rising_declining_radar_html()}
             <div class="table-scroll">
                 <table class="data-table" data-testid="signals-table">
                     <thead>

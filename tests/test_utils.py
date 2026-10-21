@@ -167,6 +167,28 @@ class TestUtilsAndCompass(unittest.TestCase):
                 sparse_html = resp.read().decode("utf-8")
                 self.assertIn("Insufficient Evidence", sparse_html)
                 self.assertIn("sparse_profile_skills", sparse_html)
+
+            # 4. Interactive CV intake test
+            with urllib.request.urlopen(
+                f"http://127.0.0.1:{port}/?profile_id=custom&custom_name=Judge+Tester&cv_bio_text=Experienced+in+process+mapping+and+prompt+engineering&experience_level=mid",
+                timeout=5,
+            ) as resp:
+                self.assertEqual(resp.status, 200)
+                intake_html = resp.read().decode("utf-8")
+                self.assertIn("Judge Tester", intake_html)
+                self.assertIn("Interactive Custom Intake", intake_html)
+                self.assertIn("Structured Prompting", intake_html)
+
+            # 5. Employer / HR view & Rising/Declining radar test
+            with urllib.request.urlopen(
+                f"http://127.0.0.1:{port}/?view=employer_hr",
+                timeout=5,
+            ) as resp:
+                self.assertEqual(resp.status, 200)
+                hr_html = resp.read().decode("utf-8")
+                self.assertIn("Employer / HR Workforce Skills-Gap Heatmap", hr_html)
+                self.assertIn("Top Rising Competencies & Emerging Roles", hr_html)
+                self.assertIn("Declining & Highly Automated Routine Tasks", hr_html)
         finally:
             server.shutdown()
             server.server_close()

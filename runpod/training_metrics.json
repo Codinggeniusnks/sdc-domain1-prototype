@@ -1,0 +1,10 @@
+{
+  "framework": "Scikit-Learn (MultiOutputClassifier + LogisticRegression)",
+  "device": "CPU",
+  "epochs": 200,
+  "elapsed_seconds": 0.07,
+  "skill_f1_score": 0.6583,
+  "demand_accuracy": 0.9333,
+  "dataset_size": 600,
+  "timestamp": "2026-10-21T15:16:27Z"
+}

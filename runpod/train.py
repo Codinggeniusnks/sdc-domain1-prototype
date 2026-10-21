@@ -50,7 +50,7 @@ def train_pytorch(device_name: str = "cuda" if os.environ.get("CUDA_VISIBLE_DEVI
     demand_labels = np.array([d["is_emerging_demand"] for d in data], dtype=np.float32).reshape(-1, 1)
 
     # Feature extraction (TF-IDF bag of subwords/words)
-    vectorizer = TfidfVectorizer(max_features=512, ngram_range=(1, 2))
+    vectorizer = TfidfVectorizer(max_features=1024, ngram_range=(1, 3))
     X = vectorizer.fit_transform(texts).toarray()
 
     split_idx = int(len(X) * 0.8)
@@ -64,10 +64,13 @@ def train_pytorch(device_name: str = "cuda" if os.environ.get("CUDA_VISIBLE_DEVI
         def __init__(self, in_features: int, num_skills: int):
             super().__init__()
             self.shared = nn.Sequential(
-                nn.Linear(in_features, 128),
-                nn.BatchNorm1d(128) if in_features > 1 else nn.Identity(),
+                nn.Linear(in_features, 256),
+                nn.BatchNorm1d(256) if in_features > 1 else nn.Identity(),
                 nn.ReLU(),
-                nn.Dropout(0.3),
+                nn.Dropout(0.2),
+                nn.Linear(256, 128),
+                nn.BatchNorm1d(128),
+                nn.ReLU(),
                 nn.Linear(128, 64),
                 nn.ReLU(),
             )
@@ -156,7 +159,7 @@ def train_sklearn():
     skill_labels = np.array([d["labels"] for d in data], dtype=int)
     demand_labels = np.array([d["is_emerging_demand"] for d in data], dtype=int)
 
-    vectorizer = TfidfVectorizer(max_features=512, ngram_range=(1, 2))
+    vectorizer = TfidfVectorizer(max_features=1024, ngram_range=(1, 3))
     X = vectorizer.fit_transform(texts)
 
     split = int(len(texts) * 0.8)

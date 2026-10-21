@@ -18,22 +18,30 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_PATH = DATA_DIR / "training_dataset.json"
 
 TEMPLATES = [
-    ("Experienced with {skill1} and {skill2} in day-to-day enterprise operations. Looking to master {skill3}.", 3),
-    ("Responsible for {skill1} pipeline design, model evaluation, and {skill2} for production systems.", 2),
-    ("Conducting audits on {skill1} and regulatory compliance including {skill2}.", 2),
-    ("Specializing in {skill1}, telemetry logging, and {skill2} for sustainable cloud infrastructure.", 2),
-    ("Designed curriculum and learning modules covering {skill1} and vocational {skill2}.", 2),
-    ("Analyzing tabular datasets with {skill1} and creating dashboards using {skill2}.", 2),
-    ("Building multi-agent autonomous workflows leveraging {skill1} and {skill2}.", 2),
-    ("Routine manual data entry and repetitive clerical documentation without {skill1}.", 0),
+    ("Experienced practitioner specializing in {skill1} and {skill2} across enterprise operations. Currently upskilling in {skill3}.", 3),
+    ("Responsible for production {skill1} pipelines, automated model evaluation, and implementing {skill2} best practices.", 2),
+    ("Conducting comprehensive audits on {skill1} and ensuring full regulatory compliance with {skill2}.", 2),
+    ("Specializing in {skill1}, telemetry logging, and {skill2} for sustainable cloud and enterprise architectures.", 2),
+    ("Designed competency frameworks and training curricula covering practical {skill1} and vocational {skill2}.", 2),
+    ("Analyzing relational databases and data marts with {skill1} and delivering stakeholder dashboards via {skill2}.", 2),
+    ("Architecting autonomous agentic workflows utilizing {skill1} alongside production {skill2}.", 2),
+    ("Operations lead responsible for standard operating procedures, {skill1}, and cross-functional {skill2}.", 2),
+    ("Software quality engineer focusing on automated testing, {skill1}, and {skill2} regression suites.", 2),
+    ("Sustainability analyst driving carbon telemetry using {skill1} and drafting {skill2} for Bursa disclosure.", 2),
+    ("Deeply skilled in {skill1} with hands-on project experience in {skill2} and {skill3}.", 3),
+    ("Proficient in {skill1} with focus on prompt optimization, validation benchmarking, and {skill2}.", 2),
+    ("Data engineer handling vector stores, {skill1}, API gateways, and robust {skill2}.", 2),
+    ("Conducting training on ethical AI, {skill1}, and compliance auditing for {skill2}.", 2),
+    ("Routine manual filing, paper receipt sorting, and clerical copying without automated tools.", 0),
+    ("Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.", 0),
+    ("Basic mechanical document scanning and physical archive organization without software integrations.", 0),
 ]
 
-def generate_dataset(num_samples: int = 500) -> list[dict]:
+def generate_dataset(num_samples: int = 1200) -> list[dict]:
     random.seed(42)
     skill_keys = list(SKILLS_CATALOG.keys())
     samples = []
 
-    # 1. Add canonical examples from profiles & signals
     for idx in range(num_samples):
         tmpl, num_skills = random.choice(TEMPLATES)
         chosen_skills = random.sample(skill_keys, k=max(num_skills, 1)) if num_skills > 0 else []
@@ -47,14 +55,17 @@ def generate_dataset(num_samples: int = 500) -> list[dict]:
         elif num_skills == 1:
             text = tmpl.format(skill1=skill_names[0])
         else:
-            text = "Routine manual data entry and repetitive clerical document filing without automated tools."
+            text = tmpl
             chosen_skills = []
 
         # Target one-hot vector for 16 skills
         one_hot = [1.0 if s in chosen_skills else 0.0 for s in skill_keys]
         
-        # Demand label: 1 if technical AI/governance/green skill, 0 if routine clerical
-        is_emerging = 1.0 if any(s in chosen_skills for s in ["workflow_automation", "human_in_the_loop_qa", "ai_ethics_governance", "rag_knowledge_systems", "carbon_footprint_analytics"]) else 0.0
+        # Demand label: 1 if high-growth technical/AI/governance/sustainability skill, 0 if routine clerical
+        is_emerging = 1.0 if any(s in chosen_skills for s in [
+            "workflow_automation", "human_in_the_loop_qa", "ai_ethics_governance", 
+            "rag_knowledge_systems", "carbon_footprint_analytics", "prompt_engineering", "python_scripting"
+        ]) else 0.0
 
         samples.append({
             "id": f"sample-{idx+1:04d}",
@@ -67,6 +78,6 @@ def generate_dataset(num_samples: int = 500) -> list[dict]:
     return samples
 
 if __name__ == "__main__":
-    dataset = generate_dataset(600)
+    dataset = generate_dataset(1200)
     OUTPUT_PATH.write_text(json.dumps(dataset, indent=2), encoding="utf-8")
     print(f"Generated {len(dataset)} synthetic training records at {OUTPUT_PATH}")

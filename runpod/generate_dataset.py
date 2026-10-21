@@ -1,7 +1,12 @@
-"""Synthetic Training Dataset Generator for RunPod AI Skills Predictor.
+"""Synthetic + Open Public Data Training Dataset Generator for RunPod AI Skills Predictor.
 
-Generates labeled pairs of text (worker bios, task summaries, and research abstracts)
-mapped to the 16 canonical skills in src/taxonomy.py and emerging vs. routine demand labels.
+Strictly adheres to Domain 1 Rule §6:
+"Data: use public, open or synthetic data only. Do not use real personal data or real CVs."
+
+Integrates:
+1. Open-access academic literature from OpenAlex API (CC0) (data/signals_snapshot.json)
+2. Public occupational task & competency descriptions from reviewed taxonomy (src/taxonomy.py)
+3. Synthetic Malaysian worker career profiles & scenario tasks
 Output: data/training_dataset.json
 """
 
@@ -10,14 +15,15 @@ import random
 from pathlib import Path
 import sys
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
-from taxonomy import SKILLS_CATALOG, ROLES_CATALOG
+BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE_DIR / "src"))
+from taxonomy import SKILLS_CATALOG, ROLES_CATALOG, SYNTHETIC_PROFILES
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-DATA_DIR.mkdir(parents=True, exist_ok=True)
+DATA_DIR = BASE_DIR / "data"
 OUTPUT_PATH = DATA_DIR / "training_dataset.json"
+SIGNALS_PATH = DATA_DIR / "signals_snapshot.json"
 
-TEMPLATES = [
+WORKPLACE_TEMPLATES = [
     ("Experienced practitioner specializing in {skill1} and {skill2} across enterprise operations. Currently upskilling in {skill3}.", 3),
     ("Responsible for production {skill1} pipelines, automated model evaluation, and implementing {skill2} best practices.", 2),
     ("Conducting comprehensive audits on {skill1} and ensuring full regulatory compliance with {skill2}.", 2),
@@ -32,21 +38,68 @@ TEMPLATES = [
     ("Proficient in {skill1} with focus on prompt optimization, validation benchmarking, and {skill2}.", 2),
     ("Data engineer handling vector stores, {skill1}, API gateways, and robust {skill2}.", 2),
     ("Conducting training on ethical AI, {skill1}, and compliance auditing for {skill2}.", 2),
-    ("Routine manual filing, paper receipt sorting, and clerical copying without automated tools.", 0),
+    ("Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.", 0),
     ("Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.", 0),
     ("Basic mechanical document scanning and physical archive organization without software integrations.", 0),
 ]
 
-def generate_dataset(num_samples: int = 1200) -> list[dict]:
+EMERGING_SKILLS = {
+    "workflow_automation", "human_in_the_loop_qa", "ai_ethics_governance", 
+    "rag_knowledge_systems", "carbon_footprint_analytics", "prompt_engineering", 
+    "python_scripting", "data_privacy_pdpa"
+}
+
+def generate_dataset(target_total: int = 1500) -> list[dict]:
     random.seed(42)
     skill_keys = list(SKILLS_CATALOG.keys())
     samples = []
+    sample_id = 1
 
-    for idx in range(num_samples):
-        tmpl, num_skills = random.choice(TEMPLATES)
+    # SOURCE 1: Real OpenAlex Open-Access Public Literature (CC0)
+    if SIGNALS_PATH.exists():
+        signals_data = json.loads(SIGNALS_PATH.read_text(encoding="utf-8"))
+        for sig in signals_data.get("signals", []):
+            extracted = [s for s in sig.get("extracted_skills", []) if s in skill_keys]
+            if not extracted:
+                continue
+            one_hot = [1.0 if s in extracted else 0.0 for s in skill_keys]
+            is_emerging = 1.0 if any(s in extracted for s in EMERGING_SKILLS) else 0.0
+            
+            # Combine title and abstract
+            text = f"{sig['title']}. {sig.get('summary', '')}".strip()
+            samples.append({
+                "id": f"open-pub-{sample_id:04d}",
+                "source": "OpenAlex CC0 Public Literature",
+                "text": text,
+                "skills": extracted,
+                "labels": one_hot,
+                "is_emerging_demand": is_emerging
+            })
+            sample_id += 1
+
+    # SOURCE 2: Public Occupational Framework Competencies & Objectives (MOSTI / UNESCO / O*NET)
+    for sk_id, sk_info in SKILLS_CATALOG.items():
+        # Add primary definition
+        one_hot = [1.0 if s == sk_id else 0.0 for s in skill_keys]
+        is_emerging = 1.0 if sk_id in EMERGING_SKILLS else 0.0
+        obj = sk_info.get("pathway_step", {}).get("objective", sk_info["name"])
+        text = f"Competency in {sk_info['name']}: {obj}. Core keywords: {', '.join(sk_info['keywords'])}."
+        samples.append({
+            "id": f"open-comp-{sample_id:04d}",
+            "source": "Public Competency Framework",
+            "text": text,
+            "skills": [sk_id],
+            "labels": one_hot,
+            "is_emerging_demand": is_emerging
+        })
+        sample_id += 1
+
+    # SOURCE 3: Synthetic Malaysian Workplace Task Combinations
+    remaining = target_total - len(samples)
+    for _ in range(max(remaining, 500)):
+        tmpl, num_skills = random.choice(WORKPLACE_TEMPLATES)
         chosen_skills = random.sample(skill_keys, k=max(num_skills, 1)) if num_skills > 0 else []
         
-        # Format text with skill names / keywords
         skill_names = [random.choice(SKILLS_CATALOG[s]["keywords"]) for s in chosen_skills]
         if num_skills == 3:
             text = tmpl.format(skill1=skill_names[0], skill2=skill_names[1], skill3=skill_names[2])
@@ -58,26 +111,25 @@ def generate_dataset(num_samples: int = 1200) -> list[dict]:
             text = tmpl
             chosen_skills = []
 
-        # Target one-hot vector for 16 skills
         one_hot = [1.0 if s in chosen_skills else 0.0 for s in skill_keys]
-        
-        # Demand label: 1 if high-growth technical/AI/governance/sustainability skill, 0 if routine clerical
-        is_emerging = 1.0 if any(s in chosen_skills for s in [
-            "workflow_automation", "human_in_the_loop_qa", "ai_ethics_governance", 
-            "rag_knowledge_systems", "carbon_footprint_analytics", "prompt_engineering", "python_scripting"
-        ]) else 0.0
+        is_emerging = 1.0 if any(s in chosen_skills for s in EMERGING_SKILLS) else 0.0
 
         samples.append({
-            "id": f"sample-{idx+1:04d}",
+            "id": f"synth-worker-{sample_id:04d}",
+            "source": "Synthetic Malaysian Worker Task Profile",
             "text": text,
             "skills": chosen_skills,
             "labels": one_hot,
             "is_emerging_demand": is_emerging
         })
+        sample_id += 1
 
     return samples
 
 if __name__ == "__main__":
-    dataset = generate_dataset(1200)
+    dataset = generate_dataset(1500)
     OUTPUT_PATH.write_text(json.dumps(dataset, indent=2), encoding="utf-8")
-    print(f"Generated {len(dataset)} synthetic training records at {OUTPUT_PATH}")
+    open_count = sum(1 for s in dataset if "Open" in s["source"])
+    synth_count = sum(1 for s in dataset if "Synthetic" in s["source"])
+    print(f"Generated {len(dataset)} records ({open_count} from Open Public Literature/Frameworks, {synth_count} Synthetic).")
+    print(f"Saved to {OUTPUT_PATH}")

@@ -3,8 +3,8 @@
   "device": "CPU",
   "epochs": 200,
   "elapsed_seconds": 0.11,
-  "skill_f1_score": 0.7596,
-  "demand_accuracy": 0.8292,
-  "dataset_size": 1200,
-  "timestamp": "2026-10-21T15:41:06Z"
+  "skill_f1_score": 0.7983,
+  "demand_accuracy": 0.89,
+  "dataset_size": 1500,
+  "timestamp": "2026-10-21T15:44:14Z"
 }

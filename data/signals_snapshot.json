@@ -1,0 +1,118 @@
+{
+  "snapshot_metadata": {
+    "snapshot_id": "sdc2026-d1-snapshot-20261020",
+    "created_date": "2026-10-20",
+    "description": "Reviewed dated snapshot of AI research and workforce market signals from arXiv (cs.AI, cs.CL, cs.CY, cs.SE) and published Malaysian workforce benchmarks. Used as an explicitly labeled fallback when live network feeds are unavailable.",
+    "is_fallback": true
+  },
+  "signals": [
+    {
+      "id": "arxiv-2502-14321",
+      "title": "Evaluating Agentic AI Workflows and Human-in-the-Loop Governance in Enterprise Operations",
+      "published_date": "2026-10-18",
+      "retrieved_date": "2026-10-20",
+      "source_name": "arXiv API (cs.AI / cs.CY)",
+      "source_url": "https://arxiv.org/abs/2502.14321",
+      "summary": "Empirical study of multi-step LLM agent workflows showing that human-in-the-loop verification, workflow automation, prompt engineering, and structured AI governance reduce operational failure rates.",
+      "extracted_skills": [
+        "workflow_automation",
+        "prompt_engineering",
+        "human_in_the_loop_qa",
+        "ai_ethics_governance",
+        "process_mapping"
+      ],
+      "related_roles": [
+        "ai_workflow_specialist",
+        "ai_governance_auditor",
+        "llm_quality_evaluator"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "arxiv-2502-11904",
+      "title": "Retrieval-Augmented Generation (RAG) Quality Auditing and Grounded Evaluation Benchmarks",
+      "published_date": "2026-10-16",
+      "retrieved_date": "2026-10-20",
+      "source_name": "arXiv API (cs.CL / cs.AI)",
+      "source_url": "https://arxiv.org/abs/2502.11904",
+      "summary": "Framework for auditing hallucination rates, citation grounding, SQL/vector retrieval pipelines, and automated test suites in enterprise knowledge assistants.",
+      "extracted_skills": [
+        "rag_knowledge_systems",
+        "python_scripting",
+        "sql_data_analysis",
+        "human_in_the_loop_qa",
+        "api_integration"
+      ],
+      "related_roles": [
+        "rag_knowledge_engineer",
+        "llm_quality_evaluator",
+        "ai_workflow_specialist"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "arxiv-2501-09872",
+      "title": "Carbon-Aware Machine Learning Scheduling and ESG Telemetry for Sustainable Cloud Infrastructure",
+      "published_date": "2026-10-14",
+      "retrieved_date": "2026-10-20",
+      "source_name": "arXiv API (cs.CY / cs.DC)",
+      "source_url": "https://arxiv.org/abs/2501.09872",
+      "summary": "Demonstrates carbon-intensity telemetry, green cloud scheduling, ESG reporting automation, and data pipeline optimization aligned with climate and energy sustainability goals.",
+      "extracted_skills": [
+        "esg_sustainability_reporting",
+        "carbon_footprint_analytics",
+        "sql_data_analysis",
+        "python_scripting",
+        "data_visualization"
+      ],
+      "related_roles": [
+        "sustainable_ai_analyst",
+        "ai_governance_auditor"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "arxiv-2501-06543",
+      "title": "Algorithmic Fairness Auditing, PDPA Compliance, and Bias Mitigation in Workforce Decision Support",
+      "published_date": "2026-10-11",
+      "retrieved_date": "2026-10-20",
+      "source_name": "arXiv API (cs.CY / cs.AI)",
+      "source_url": "https://arxiv.org/abs/2501.06543",
+      "summary": "Audits demographic bias, data privacy compliance, risk documentation, and stakeholder communication in human-centred AI decision-support tools.",
+      "extracted_skills": [
+        "ai_ethics_governance",
+        "data_privacy_pdpa",
+        "stakeholder_communication",
+        "human_in_the_loop_qa",
+        "sql_data_analysis"
+      ],
+      "related_roles": [
+        "ai_governance_auditor",
+        "workforce_reskilling_strategist",
+        "llm_quality_evaluator"
+      ],
+      "is_fallback": true
+    },
+    {
+      "id": "arxiv-2501-03210",
+      "title": "Human-AI Collaborative Curriculum Design and Competency Mapping for Technical and Vocational Reskilling",
+      "published_date": "2026-10-09",
+      "retrieved_date": "2026-10-20",
+      "source_name": "arXiv API (cs.CY / cs.HC)",
+      "source_url": "https://arxiv.org/abs/2501.03210",
+      "summary": "Studies how instructional designers and HR teams combine AI literacy, process mapping, and competency matrices to accelerate adult vocational transitions.",
+      "extracted_skills": [
+        "ai_literacy",
+        "instructional_design",
+        "stakeholder_communication",
+        "process_mapping",
+        "prompt_engineering"
+      ],
+      "related_roles": [
+        "workforce_reskilling_strategist",
+        "ai_workflow_specialist"
+      ],
+      "is_fallback": true
+    }
+  ]
+}

@@ -135,7 +135,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "pathway_step": {
             "stage": 3,
             "objective": "Build gold-standard evaluation sets, detect AI hallucinations, and enforce guardrails.",
-            "resource_title": "NIST AI Risk Management Framework (AI RMF 1.0) â€” Measure & Verify Playbook",
+            "resource_title": "NIST AI Risk Management Framework (AI RMF 1.0) — Measure & Verify Playbook",
             "resource_url": "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook",
             "cost_tier": "Free (Public Standard Playbook)",
             "estimated_hours": 14,
@@ -169,7 +169,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "pathway_step": {
             "stage": 2,
             "objective": "Integrate external JSON/XML data feeds with schema validation, timeouts, and snapshot fallbacks.",
-            "resource_title": "MDN Web Docs â€” HTTP & REST API Architecture Guides",
+            "resource_title": "MDN Web Docs — HTTP & REST API Architecture Guides",
             "resource_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
             "cost_tier": "Free (Verified Open Web Documentation)",
             "estimated_hours": 12,
@@ -237,7 +237,7 @@ SKILLS_CATALOG: dict[str, dict] = {
         "pathway_step": {
             "stage": 3,
             "objective": "Measure compute energy efficiency and right-size AI workloads (CPU vs. GPU).",
-            "resource_title": "Green Software Foundation â€” Green Software Practitioner (Free Linux Foundation Course)",
+            "resource_title": "Green Software Foundation — Green Software Practitioner (Free Linux Foundation Course)",
             "resource_url": "https://learn.greensoftware.foundation/",
             "cost_tier": "Free (Verified Open Industry Curriculum)",
             "estimated_hours": 8,
@@ -302,12 +302,12 @@ ROLES_CATALOG: dict[str, dict] = {
         ],
         "sdg_links": [
             {
-                "sdg": "SDG 8 â€” Decent Work and Economic Growth",
+                "sdg": "SDG 8 — Decent Work and Economic Growth",
                 "target": "Target 8.2",
                 "explanation": "Achieves higher economic productivity through technological upgrading and human-centred workflow innovation rather than worker replacement.",
             },
             {
-                "sdg": "SDG 4 â€” Quality Education",
+                "sdg": "SDG 4 — Quality Education",
                 "target": "Target 4.4",
                 "explanation": "Equips administrative and operational workers with relevant digital and AI orchestration skills for decent jobs.",
             },
@@ -338,12 +338,12 @@ ROLES_CATALOG: dict[str, dict] = {
         ],
         "sdg_links": [
             {
-                "sdg": "SDG 9 â€” Industry, Innovation and Infrastructure",
+                "sdg": "SDG 9 — Industry, Innovation and Infrastructure",
                 "target": "Target 9.5",
                 "explanation": "Strengthens technological reliability and scientific validation of deployed AI systems.",
             },
             {
-                "sdg": "SDG 8 â€” Decent Work and Economic Growth",
+                "sdg": "SDG 8 — Decent Work and Economic Growth",
                 "target": "Target 8.5",
                 "explanation": "Transitions traditional manual QA and support testers into higher-value AI verification roles.",
             },
@@ -374,12 +374,12 @@ ROLES_CATALOG: dict[str, dict] = {
         ],
         "sdg_links": [
             {
-                "sdg": "SDG 16 â€” Peace, Justice and Strong Institutions",
+                "sdg": "SDG 16 — Peace, Justice and Strong Institutions",
                 "target": "Target 16.6",
                 "explanation": "Develops effective, accountable, and transparent institutional guardrails for automated decision-support systems.",
             },
             {
-                "sdg": "SDG 10 â€” Reduced Inequalities",
+                "sdg": "SDG 10 — Reduced Inequalities",
                 "target": "Target 10.3",
                 "explanation": "Audits recruitment and workforce algorithms to prevent discriminatory outcomes across age, gender, or background.",
             },
@@ -410,12 +410,12 @@ ROLES_CATALOG: dict[str, dict] = {
         ],
         "sdg_links": [
             {
-                "sdg": "SDG 9 â€” Industry, Innovation and Infrastructure",
+                "sdg": "SDG 9 — Industry, Innovation and Infrastructure",
                 "target": "Target 9.5",
                 "explanation": "Upgrades digital knowledge infrastructure and technical capabilities across industrial sectors.",
             },
             {
-                "sdg": "SDG 4 â€” Quality Education",
+                "sdg": "SDG 4 — Quality Education",
                 "target": "Target 4.3",
                 "explanation": "Enables accessible, citation-backed technical knowledge retrieval for lifelong learners.",
             },
@@ -446,12 +446,12 @@ ROLES_CATALOG: dict[str, dict] = {
         ],
         "sdg_links": [
             {
-                "sdg": "SDG 13 â€” Climate Action",
+                "sdg": "SDG 13 — Climate Action",
                 "target": "Target 13.2",
                 "explanation": "Integrates climate-change and carbon-intensity metrics directly into corporate IT and AI operations.",
             },
             {
-                "sdg": "SDG 7 â€” Affordable and Clean Energy",
+                "sdg": "SDG 7 — Affordable and Clean Energy",
                 "target": "Target 7.3",
                 "explanation": "Improves computational energy efficiency by right-sizing models and avoiding unnecessary GPU workloads.",
             },
@@ -482,12 +482,12 @@ ROLES_CATALOG: dict[str, dict] = {
         ],
         "sdg_links": [
             {
-                "sdg": "SDG 4 â€” Quality Education",
+                "sdg": "SDG 4 — Quality Education",
                 "target": "Target 4.3 & Target 4.4",
                 "explanation": "Expands lifelong technical and vocational reskilling pathways for working adults and graduates.",
             },
             {
-                "sdg": "SDG 8 â€” Decent Work and Economic Growth",
+                "sdg": "SDG 8 — Decent Work and Economic Growth",
                 "target": "Target 8.5",
                 "explanation": "Supports full and productive employment during technological transitions by keeping humans in charge of career paths.",
             },
@@ -505,14 +505,14 @@ ROLES_CATALOG: dict[str, dict] = {
 SCENARIOS: dict[str, dict] = {
     "moderate_copilot": {
         "id": "moderate_copilot",
-        "name": "Scenario A: Moderate Co-Pilot Adoption (Baseline 2026â€“2028)",
+        "name": "Scenario A: Moderate Co-Pilot Adoption (Baseline 2026–2028)",
         "badge": "Baseline Estimate",
         "assumptions": (
             "Assumes gradual enterprise adoption where AI acts as an assistive co-pilot inside existing roles. "
             "Employers prioritize foundational AI literacy, SQL/data analysis, and structured prompting while keeping "
             "existing job structures largely intact."
         ),
-        "uncertainty_level": "Moderate (Â±10% score sensitivity)",
+        "uncertainty_level": "Moderate (±10% score sensitivity)",
         "skill_boosts": {
             "ai_literacy": 1.15,
             "prompt_engineering": 1.15,
@@ -525,11 +525,11 @@ SCENARIOS: dict[str, dict] = {
         "name": "Scenario B: Fast Agentic Disruption (Rapid Task Automation)",
         "badge": "High Disruption Stress-Test",
         "assumptions": (
-            "Assumes multi-step AI agents automate routine reporting, basic coding, and tier-1 support within 18â€“36 months "
+            "Assumes multi-step AI agents automate routine reporting, basic coding, and tier-1 support within 18–36 months "
             "(aligning with MOSTI's 600,000 reskilling warning). Demand shifts sharply toward human-in-the-loop QA, "
             "agentic workflow orchestration, RAG citation grounding, and AI governance."
         ),
-        "uncertainty_level": "High (Â±20% score sensitivity â€” regulatory & reliability bottlenecks may slow deployment)",
+        "uncertainty_level": "High (±20% score sensitivity — regulatory & reliability bottlenecks may slow deployment)",
         "skill_boosts": {
             "workflow_automation": 1.35,
             "human_in_the_loop_qa": 1.35,
@@ -546,7 +546,7 @@ SCENARIOS: dict[str, dict] = {
             "AI Governance & Ethics (AIGE) enforcement. Roles combining AI literacy with ESG telemetry, carbon analytics, "
             "and inclusive workforce reskilling rise to the top."
         ),
-        "uncertainty_level": "Moderate-High (Â±15% score sensitivity â€” depends on policy enforcement timelines)",
+        "uncertainty_level": "Moderate-High (±15% score sensitivity — depends on policy enforcement timelines)",
         "skill_boosts": {
             "esg_sustainability_reporting": 1.40,
             "carbon_footprint_analytics": 1.40,

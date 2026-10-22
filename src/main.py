@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from matcher import normalize_profile_skills, rank_roles_for_profile
 from signals import extract_taxonomy_entities, fetch_market_signals
 from taxonomy import ROLES_CATALOG, SCENARIOS, SKILLS_CATALOG, SYNTHETIC_PROFILES
-from ui_theme import DESIGN_SYSTEM_CSS, icon_svg
+from ui_theme import DESIGN_SYSTEM_CSS, MOTION_ENGINE_JS, SVG_3D_DEFS, hero_3d_compass_svg, icon_svg
 from utils import format_greeting, summarize
 
 
@@ -258,30 +258,31 @@ def build_executive_summary_html(prof: dict, ev: dict, scenario: dict, sig_paylo
         pw_hours = "Select ≥2 skills to compute"
         gap_summary = f"Reason: {esc(ev.get('reason', 'validation_halted'))}"
 
+    scale_val = round(min(max(top_score_val, 0.0), 100.0) / 100.0, 3)
     return f"""
-    <div class="exec-summary-grid" role="region" aria-label="Executive Readiness Summary">
-        <div class="exec-cell">
-            <span class="exec-label">{icon_svg("user")} Active Learner Profile</span>
-            <div class="exec-value">{esc(prof["name"])}</div>
-            <span class="exec-sub">{skill_count} of {len(SKILLS_CATALOG)} taxonomy skills detected</span>
+    <div class="exec-summary-strip reveal-section" role="region" aria-label="Executive Readiness Summary" data-testid="executive-summary-strip">
+        <div class="exec-kpi-cell">
+            <span class="exec-kpi-label">{icon_svg("user")} Active Learner Profile</span>
+            <div class="exec-kpi-value">{esc(prof["name"])}</div>
+            <span class="exec-kpi-sub">{skill_count} of {len(SKILLS_CATALOG)} taxonomy skills detected</span>
         </div>
-        <div class="exec-cell">
-            <span class="exec-label">{icon_svg("compass")} #1 Recommended Role Match</span>
-            <div class="exec-value">{top_title}</div>
-            <div style="display:flex; align-items:center; gap:8px;">
-                <span class="exec-sub tabular" style="font-weight:700; color:var(--primary);">{top_score}</span>
-                <div class="meter-bar" aria-hidden="true"><div class="meter-fill" style="width:{min(max(top_score_val, 0), 100)}%;"></div></div>
+        <div class="exec-kpi-cell">
+            <span class="exec-kpi-label">{icon_svg("compass")} #1 Recommended Role Match</span>
+            <div class="exec-kpi-value">{top_title}</div>
+            <div style="display:flex; flex-direction:column; gap:5px; margin-top:2px;">
+                <span class="exec-kpi-sub tabular" style="font-weight:700; color:var(--primary);">{top_score}</span>
+                <div class="metric-bar-bg" aria-hidden="true"><div class="metric-bar-fill" style="transform:scaleX({scale_val});"></div></div>
             </div>
         </div>
-        <div class="exec-cell">
-            <span class="exec-label">{icon_svg("layers")} Active Future Scenario</span>
-            <div class="exec-value" style="font-size:var(--text-base);">{esc(scenario["name"])}</div>
-            <span class="exec-sub">Uncertainty Band: {esc(scenario["uncertainty_level"])}</span>
+        <div class="exec-kpi-cell">
+            <span class="exec-kpi-label">{icon_svg("layers")} Active Future Scenario</span>
+            <div class="exec-kpi-value" style="font-size:var(--text-base);">{esc(scenario["name"])}</div>
+            <span class="exec-kpi-sub">Uncertainty Band: {esc(scenario["uncertainty_level"])}</span>
         </div>
-        <div class="exec-cell">
-            <span class="exec-label">{icon_svg("book")} Primary Reskilling Horizon</span>
-            <div class="exec-value">{pw_hours}</div>
-            <span class="exec-sub">{gap_summary} · <a href="#step3-heading">View roadmap</a></span>
+        <div class="exec-kpi-cell">
+            <span class="exec-kpi-label">{icon_svg("book")} Primary Reskilling Horizon</span>
+            <div class="exec-kpi-value tabular">{pw_hours}</div>
+            <span class="exec-kpi-sub">{gap_summary} · <a href="#step3-heading">View roadmap</a></span>
         </div>
     </div>
     """
@@ -308,25 +309,32 @@ def render_dashboard_html(state: dict) -> str:
         banner_class = "banner-fallback"
         badge_text = "DATED SNAPSHOT FALLBACK (NOT LIVE)"
 
-    # Persona buttons
+    # Persona cards with 3D perspective tilt & spotlight
     persona_links = []
     for p in SYNTHETIC_PROFILES:
-        is_active = "active-pill" if state["profile_id"] == p["id"] else ""
+        is_active = "active" if state["profile_id"] == p["id"] else ""
         href = f"/?profile_id={urllib.parse.quote(p['id'])}&scenario_id={urllib.parse.quote(state['scenario_id'])}&signal_mode={urllib.parse.quote(state['signal_mode'])}"
+        sk_count = len(p.get("skills", []))
+        badge_cls = "tag-gap" if sk_count < 2 else "tag-blue"
         persona_links.append(
-            f'<a href="{href}" class="persona-pill {is_active}" data-testid="persona-{esc(p["id"])}">'
-            f'<strong>{esc(p["name"])}</strong><span>{esc(p["current_role"])}</span></a>'
+            f'<a href="{href}" class="persona-card {is_active}" data-testid="persona-{esc(p["id"])}">'
+            f'<div><div class="persona-card-header"><span class="persona-name">{esc(p["name"])}</span>'
+            f'<span class="tag {badge_cls} tabular">{sk_count} skills</span></div>'
+            f'<div class="persona-role">{esc(p["current_role"])}</div>'
+            f'<div class="persona-bio">{esc(p["persona_type"])}</div></div></a>'
         )
 
-    # Scenario buttons (inline badge header instead of stacked eyebrow kicker)
+    # Scenario cards with inline badge header & 3D perspective tilt
     scenario_links = []
     for sc_id, sc_info in SCENARIOS.items():
-        is_active = "active-scenario" if state["scenario_id"] == sc_id else ""
+        is_active = "active" if state["scenario_id"] == sc_id else ""
         href = f"/?profile_id={urllib.parse.quote(state['profile_id'])}&scenario_id={urllib.parse.quote(sc_id)}&signal_mode={urllib.parse.quote(state['signal_mode'])}"
         scenario_links.append(
-            f'<a href="{href}" class="scenario-tab {is_active}" data-testid="scenario-{esc(sc_id)}">'
-            f'<div class="scenario-tab-header"><strong>{esc(sc_info["name"])}</strong><span class="tag tag-amber">{esc(sc_info["badge"])}</span></div>'
-            f'<small>Sensitivity: {esc(sc_info["uncertainty_level"])}</small></a>'
+            f'<a href="{href}" class="scenario-card {is_active}" data-testid="scenario-{esc(sc_id)}">'
+            f'<div><div class="scenario-header-row"><span class="scenario-title">{esc(sc_info["name"])}</span>'
+            f'<span class="tag tag-amber">{esc(sc_info["badge"])}</span></div>'
+            f'<div class="persona-bio">{esc(sc_info["assumptions"])}</div></div>'
+            f'<div class="small-note" style="margin-top:var(--space-2);">Sensitivity Band: <strong>{esc(sc_info["uncertainty_level"])}</strong></div></a>'
         )
 
     # Signal mode buttons
@@ -337,7 +345,7 @@ def render_dashboard_html(state: dict) -> str:
     ]
     sig_mode_links = []
     for m_id, m_label in signal_modes:
-        is_active = "active-mode" if state["signal_mode"] == m_id else ""
+        is_active = "active" if state["signal_mode"] == m_id else ""
         href = f"/?profile_id={urllib.parse.quote(state['profile_id'])}&scenario_id={urllib.parse.quote(state['scenario_id'])}&signal_mode={urllib.parse.quote(m_id)}"
         sig_mode_links.append(
             f'<a href="{href}" class="mode-btn {is_active}" data-testid="sigmode-{esc(m_id)}">{icon_svg("radio")} {esc(m_label)}</a>'
@@ -384,7 +392,7 @@ def render_dashboard_html(state: dict) -> str:
     if ev["status"] != "ok":
         warnings_list = "".join(f"<li>{esc(w)}</li>" for w in ev["signal_validation"].get("warnings", []))
         roles_section_html = f"""
-        <div class="insufficient-box" role="alert" data-testid="insufficient-evidence-alert">
+        <div class="guardrail-alert" role="alert" data-testid="insufficient-evidence-alert">
             <h3>{icon_svg("alert")} Insufficient Evidence — Honest Guardrail Triggered</h3>
             <p><strong>Reason Code:</strong> <code class="mono">{esc(ev["reason"])}</code></p>
             <p class="prose-measure">{esc(ev["message"])}</p>
@@ -411,7 +419,7 @@ def render_dashboard_html(state: dict) -> str:
                 f'</tr>'
             )
         scenario_matrix_html = f"""
-        <section class="card" aria-labelledby="scenario-matrix-heading" data-testid="scenario-comparison-section">
+        <section class="card reveal-section" aria-labelledby="scenario-matrix-heading" data-testid="scenario-comparison-section">
             <div class="section-header">
                 <h2 id="scenario-matrix-heading">{icon_svg("layers")} Multi-Scenario Uncertainty Comparison (Must-Have #6)</h2>
                 <span class="tag tag-blue">Estimates, Not Single-Point Predictions</span>
@@ -439,7 +447,7 @@ def render_dashboard_html(state: dict) -> str:
         for role in ev["ranked_roles"]:
             bd = role["score_breakdown"]
             matched_req_html = (
-                "".join(f'<span class="tag tag-green">{icon_svg("check")} {esc(s["name"])}</span>' for s in role["matched_required_skills"])
+                "".join(f'<span class="tag tag-match">{icon_svg("check")} {esc(s["name"])}</span>' for s in role["matched_required_skills"])
                 or '<span class="small-note">None matched yet</span>'
             )
             missing_req_html = (
@@ -472,20 +480,18 @@ def render_dashboard_html(state: dict) -> str:
             pathway_steps = []
             for st in role["pathway"]["steps"]:
                 sdg_badges = "".join(f'<span class="tag tag-sdg">{esc(t)}</span>' for t in st["sdg_tags"])
+                req_cls = "req-gap" if st["priority"] == "Required Gap" else ""
                 pathway_steps.append(
-                    f'<div class="pathway-step">'
-                    f'<div class="step-index-circle">{esc(st["step_number"])}</div>'
-                    f'<div>'
-                    f'<div class="pathway-step-header">'
-                    f'<h4>{esc(st["skill_name"])}</h4>'
+                    f'<div class="pathway-step {req_cls}">'
+                    f'<div class="step-top">'
+                    f'<span class="step-title">Step {esc(st["step_number"])}: {esc(st["skill_name"])}</span>'
                     f'<div class="tag-wrap"><span class="tag tag-muted">Stage {esc(st["stage"])} · {esc(st["priority"])}</span>'
                     f'<span class="tag tag-green mono">{esc(st["estimated_hours"])} hrs (~{esc(st["estimated_weeks"])} wk)</span></div>'
                     f'</div>'
-                    f'<p class="prose-measure" style="margin:4px 0;"><strong>Learning Objective:</strong> {esc(st["objective"])}</p>'
-                    f'<p style="margin:4px 0;"><strong>Verified Resource:</strong> <a href="{esc(st["resource_url"])}" target="_blank" rel="noopener noreferrer">{esc(st["resource_title"])} {icon_svg("external")}</a> '
-                    f'<span class="tag tag-green">{esc(st["cost_tier"])}</span></p>'
-                    f'<div class="verify-note"><span>Provenance: {esc(st["verification_status"])}</span> {sdg_badges}</div>'
-                    f'</div>'
+                    f'<p class="step-obj prose-measure"><strong>Learning Objective:</strong> {esc(st["objective"])}</p>'
+                    f'<div class="step-meta"><span><strong>Verified Resource:</strong> <a href="{esc(st["resource_url"])}" target="_blank" rel="noopener noreferrer">{esc(st["resource_title"])} {icon_svg("external")}</a> '
+                    f'<span class="tag tag-green">{esc(st["cost_tier"])}</span></span>'
+                    f'<span class="tag-wrap"><span class="small-note">Provenance: {esc(st["verification_status"])}</span> {sdg_badges}</span></div>'
                     f'</div>'
                 )
             pathway_html = (
@@ -499,103 +505,114 @@ def render_dashboard_html(state: dict) -> str:
                 sdg_cards.append(
                     f'<div class="sdg-item">'
                     f'<strong>{esc(sl["sdg"])} ({esc(sl["target"])})</strong>'
-                    f'<p class="prose-measure">{esc(sl["explanation"])}</p>'
+                    f'<p class="prose-measure" style="margin:4px 0 0 0;">{esc(sl["explanation"])}</p>'
                     f'</div>'
                 )
 
             # Progressive disclosure: Top 2 roles open by default; ranks 3-6 collapsible for clean scanning
             is_open_attr = "open" if int(role["rank"]) <= 2 else ""
-            top_rank_class = "top-rank-role" if int(role["rank"]) == 1 else ""
+            top_rank_class = "top-rank" if int(role["rank"]) == 1 else ""
+            r_scale = round(min(max(float(bd["skill_readiness_score"]), 0.0), 100.0) / 100.0, 3)
+            m_scale = round(min(max(float(bd["signal_momentum_score"]), 0.0), 100.0) / 100.0, 3)
+            s_scale = round(min(max(float(bd["scenario_fit_score"]), 0.0), 100.0) / 100.0, 3)
 
             role_cards.append(
                 f"""
-                <article class="role-card {top_rank_class}" data-testid="role-card-{esc(role['rank'])}">
-                    <details class="role-disclosure" {is_open_attr}>
-                        <summary>
-                            <div class="role-title-group">
-                                <div class="role-badges-row">
-                                    <span class="rank-badge">Rank #{esc(role["rank"])}</span>
-                                    <span class="tag tag-blue">{esc(role["category"])}</span>
-                                    <span class="tag tag-muted">{len(role["matched_required_skills"])}/{len(role["matched_required_skills"]) + len(role["missing_required_skills"])} Core Skills Matched</span>
-                                    <span class="tag tag-green mono">{esc(role["pathway"]["total_estimated_hours"])} hrs pathway</span>
-                                </div>
-                                <h3>{esc(role["title"])}</h3>
-                                <p class="role-summary">{esc(role["summary"])}</p>
-                            </div>
-                            <div class="role-score-cluster">
-                                <div class="score-box">
-                                    <div class="score-num" data-testid="role-score-{esc(role['rank'])}">{esc(role["total_score"])}<span>/100</span></div>
-                                    <div class="score-label">Estimated Match</div>
-                                </div>
-                                {icon_svg("chevron")}
-                            </div>
-                        </summary>
+                <details class="role-disclosure {top_rank_class}" {is_open_attr} data-testid="role-card-{esc(role['rank'])}">
+                    <summary class="role-summary-bar">
+                        <div class="role-summary-left">
+                            <span class="rank-badge">Rank #{esc(role["rank"])}</span>
+                            <h3 class="role-title">{esc(role["title"])}</h3>
+                            <span class="tag tag-blue">{esc(role["category"])}</span>
+                            <span class="tag tag-muted tabular">{len(role["matched_required_skills"])}/{len(role["matched_required_skills"]) + len(role["missing_required_skills"])} Core Skills</span>
+                            <span class="tag tag-green mono">{esc(role["pathway"]["total_estimated_hours"])} hrs pathway</span>
+                        </div>
+                        <div class="role-summary-right">
+                            <span class="score-pill" data-testid="role-score-{esc(role['rank'])}">{esc(role["total_score"])} / 100</span>
+                            <span class="disclosure-chevron"><span class="disclosure-chevron-text"></span> {icon_svg("chevron")}</span>
+                        </div>
+                    </summary>
 
-                        <div class="role-body">
-                            <div class="explain-box">
-                                <strong>Why This Role Ranks #{esc(role["rank"])}:</strong> {esc(role["why_ranked_here"])}
-                                <div class="formula-breakdown mono">
-                                    <span>Formula ({esc(bd["formula"])})</span>
-                                    <span>Readiness: <strong>{esc(bd["skill_readiness_score"])}%</strong></span>
-                                    <span>Signal Coverage: <strong>{esc(bd["signal_momentum_score"])}%</strong></span>
-                                    <span>Scenario Fit: <strong>{esc(bd["scenario_fit_score"])}%</strong></span>
-                                </div>
-                            </div>
+                    <div class="role-body">
+                        <p class="role-desc prose-measure">{esc(role["summary"])}</p>
 
-                            <div class="grid-2">
-                                <div class="structural-pane">
-                                    <h4>{icon_svg("check")} Matched Profile Skills</h4>
-                                    <div class="skill-group-label">Required Core Matched:</div>
-                                    <div class="tag-wrap">{matched_req_html}</div>
-                                    <div class="skill-group-label">Supporting Matched:</div>
-                                    <div class="tag-wrap">{matched_sup_html}</div>
-                                </div>
-                                <div class="structural-pane">
-                                    <h4>{icon_svg("plus")} Identified Skill Gaps (To Reskill)</h4>
-                                    <div class="skill-group-label">Missing Required Skills:</div>
-                                    <div class="tag-wrap">{missing_req_html}</div>
-                                    <div class="skill-group-label">Missing Supporting Skills:</div>
-                                    <div class="tag-wrap">{missing_sup_html}</div>
-                                </div>
-                            </div>
+                        <div class="explain-box">
+                            <strong>Why This Role Ranks #{esc(role["rank"])}:</strong> {esc(role["why_ranked_here"])}
+                        </div>
 
-                            <div class="structural-pane" data-testid="pathway-section-{esc(role['rank'])}">
-                                <div class="panel-title-row">
-                                    <h4>{icon_svg("book")} Ordered Low-Cost / Free Reskilling Pathway (Must-Have #4)</h4>
-                                    <span class="mono badge-time">Total Est: {esc(role["pathway"]["total_estimated_hours"])} hrs (~{esc(role["pathway"]["total_estimated_weeks"])} weeks)</span>
-                                </div>
-                                <p class="small-note">{esc(role["pathway"]["disclaimer"])}</p>
-                                {pathway_html}
+                        <div class="metrics-row" aria-label="Score Formula Breakdown">
+                            <div class="metric-box">
+                                <div class="metric-label"><span>Skill Readiness (55% wt)</span><span class="metric-val">{esc(bd["skill_readiness_score"])}%</span></div>
+                                <div class="metric-bar-bg"><div class="metric-bar-fill" style="transform:scaleX({r_scale});"></div></div>
                             </div>
-
-                            <div class="structural-pane">
-                                <h4>{icon_svg("radio")} Dated Research Signals (Scholarly Publications) Mentioning This Role's Skills</h4>
-                                {sig_citations_html}
+                            <div class="metric-box">
+                                <div class="metric-label"><span>Research Signal Coverage (25% wt)</span><span class="metric-val">{esc(bd["signal_momentum_score"])}%</span></div>
+                                <div class="metric-bar-bg"><div class="metric-bar-fill" style="transform:scaleX({m_scale});"></div></div>
                             </div>
-
-                            <div class="grid-2">
-                                <div class="structural-pane" data-testid="sdg-section-{esc(role['rank'])}">
-                                    <h4>{icon_svg("globe")} UN SDG Alignment &amp; Contribution (Must-Have #5)</h4>
-                                    <div class="sdg-list">{"".join(sdg_cards)}</div>
-                                </div>
-                                <div class="uncertainty-panel" data-testid="uncertainty-section-{esc(role['rank'])}">
-                                    <h4>{icon_svg("shield")} Uncertainty, Limitations &amp; Human-in-Charge Notice</h4>
-                                    <p class="prose-measure"><strong>Role Limitation:</strong> {esc(role["uncertainty_note"])}</p>
-                                    <p class="prose-measure"><strong>Active Scenario Assumption ({esc(scenario["name"])}):</strong> {esc(scenario["assumptions"])}</p>
-                                    <p class="prose-measure"><strong>Epistemic Boundary:</strong> Signals are dated scholarly AI publications (OpenAlex). They show research activity around a skill, NOT job postings, vacancy counts, hiring demand, or salaries in Malaysia. Final career decisions remain with the human learner.</p>
-                                </div>
+                            <div class="metric-box">
+                                <div class="metric-label"><span>Scenario Fit (20% wt)</span><span class="metric-val">{esc(bd["scenario_fit_score"])}%</span></div>
+                                <div class="metric-bar-bg"><div class="metric-bar-fill" style="transform:scaleX({s_scale});"></div></div>
                             </div>
                         </div>
-                    </details>
-                </article>
+
+                        <div class="grid-2">
+                            <div class="structural-pane">
+                                <h4>{icon_svg("check")} Matched Profile Skills</h4>
+                                <div class="skill-group-label">Required Core Matched:</div>
+                                <div class="tag-wrap" style="margin-bottom:var(--space-2);">{matched_req_html}</div>
+                                <div class="skill-group-label">Supporting Matched:</div>
+                                <div class="tag-wrap">{matched_sup_html}</div>
+                            </div>
+                            <div class="structural-pane">
+                                <h4>{icon_svg("plus")} Identified Skill Gaps (To Reskill)</h4>
+                                <div class="skill-group-label">Missing Required Skills:</div>
+                                <div class="tag-wrap" style="margin-bottom:var(--space-2);">{missing_req_html}</div>
+                                <div class="skill-group-label">Missing Supporting Skills:</div>
+                                <div class="tag-wrap">{missing_sup_html}</div>
+                            </div>
+                        </div>
+
+                        <div class="structural-pane" style="margin-top:var(--space-4);" data-testid="pathway-section-{esc(role['rank'])}">
+                            <div class="step-top">
+                                <h4>{icon_svg("book")} Ordered Low-Cost / Free Reskilling Pathway (Must-Have #4)</h4>
+                                <span class="tag tag-green mono">Total Est: {esc(role["pathway"]["total_estimated_hours"])} hrs (~{esc(role["pathway"]["total_estimated_weeks"])} weeks)</span>
+                            </div>
+                            <p class="small-note" style="margin-bottom:var(--space-3);">{esc(role["pathway"]["disclaimer"])}</p>
+                            {pathway_html}
+                        </div>
+
+                        <div class="structural-pane" style="margin-top:var(--space-4);">
+                            <h4>{icon_svg("radio")} Dated Research Signals (Scholarly Publications) Mentioning This Role's Skills</h4>
+                            {sig_citations_html}
+                        </div>
+
+                        <div class="grid-2 sdg-footer">
+                            <div class="structural-pane" data-testid="sdg-section-{esc(role['rank'])}">
+                                <h4>{icon_svg("globe")} UN SDG Alignment &amp; Contribution (Must-Have #5)</h4>
+                                <div>{"".join(sdg_cards)}</div>
+                            </div>
+                            <div class="structural-pane" data-testid="uncertainty-section-{esc(role['rank'])}">
+                                <h4>{icon_svg("shield")} Uncertainty, Limitations &amp; Human-in-Charge Notice</h4>
+                                <p class="uncertainty-foot prose-measure"><strong>Role Limitation:</strong> {esc(role["uncertainty_note"])}</p>
+                                <p class="uncertainty-foot prose-measure"><strong>Active Scenario Assumption ({esc(scenario["name"])}):</strong> {esc(scenario["assumptions"])}</p>
+                                <p class="uncertainty-foot prose-measure"><strong>Epistemic Boundary:</strong> Signals are dated scholarly AI publications (OpenAlex). They show research activity around a skill, NOT job postings, vacancy counts, hiring demand, or salaries in Malaysia. Final career decisions remain with the human learner.</p>
+                            </div>
+                        </div>
+                    </div>
+                </details>
                 """
             )
         roles_section_html = f'<div class="roles-stack">{"".join(role_cards)}</div>'
 
     exec_summary_html = build_executive_summary_html(prof, ev, scenario, sig_payload, len(profile_skills_set))
+    hero_visual_html = hero_3d_compass_svg(
+        signal_count=len(sig_payload.get("signals", [])),
+        skill_count=len(SKILLS_CATALOG),
+        role_count=len(ROLES_CATALOG),
+    )
 
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -603,24 +620,44 @@ def render_dashboard_html(state: dict) -> str:
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        (function() {{
+            try {{
+                var saved = localStorage.getItem('asc_theme');
+                if (saved === 'light' || saved === 'dark') {{
+                    document.documentElement.setAttribute('data-theme', saved);
+                }}
+            }} catch (e) {{}}
+        }})();
+    </script>
     <style>{DESIGN_SYSTEM_CSS}</style>
 </head>
 <body>
+    {SVG_3D_DEFS}
     <a href="#main-content" class="skip-link">Skip to main content</a>
-    <header class="app-header">
-        <div class="header-inner">
-            <div class="brand-group">
-                <div class="brand-mark">{icon_svg("compass")}</div>
-                <div class="header-title">
-                    <h1>AI Skills Compass</h1>
-                    <p>SDC Hackathon 2026 · Domain 1 (The Aiversecity Future-Ready Workforce Domain)</p>
+    <header class="hero">
+        <div class="hero-inner">
+            <div class="hero-title-block">
+                <div class="hero-eyebrow-row">
+                    <span class="hero-live-pill"><span class="pulse-dot"></span> AI WORKFORCE TELEMETRY ENGINE · v2.6</span>
+                    <span class="hero-badge">SDC Hackathon 2026 · Domain 1</span>
+                </div>
+                <h1>{icon_svg("compass")} AI Skills Compass</h1>
+                <p class="hero-subtitle">
+                    An explainable, signal-grounded career and reskilling intelligence platform for Malaysian workers, graduates, and HR leaders—mapping dated OpenAlex scholarly AI signals to future roles, skill gaps, free learning pathways, and the 17 UN SDGs.
+                </p>
+                <div class="hero-cta-row">
+                    <a href="#step3-heading" class="hero-cta-primary">{icon_svg("sparkles")} Inspect Top Role Matches</a>
+                    <a href="#step1-heading" class="hero-cta-secondary">{icon_svg("user")} Customize Skills Profile</a>
+                    <a href="#step2-heading" class="hero-cta-secondary">{icon_svg("layers")} Simulate Future Scenarios</a>
+                </div>
+                <div class="hero-meta-badges">
+                    <span class="hero-badge">{icon_svg("globe")} SDG 4 (4.3, 4.4) &amp; SDG 8 (8.2, 8.5)</span>
+                    <span class="hero-badge">{icon_svg("shield")} Human-in-Charge Advisory</span>
+                    <span class="hero-badge">{icon_svg("radio")} Zero Hallucinated Courses or Jobs</span>
                 </div>
             </div>
-            <div class="header-badges">
-                <span class="tag tag-blue">{icon_svg("globe")} SDG 4 (4.3, 4.4) &amp; SDG 8 (8.2, 8.5)</span>
-                <span class="tag tag-green">{icon_svg("shield")} Human-in-Charge Advisory</span>
-                <span class="tag tag-amber">Synthetic &amp; Public Data Only</span>
-            </div>
+            {hero_visual_html}
         </div>
     </header>
 
@@ -630,11 +667,16 @@ def render_dashboard_html(state: dict) -> str:
                 <a href="/?{base_qs}&view=individual" class="view-tab {"active-mode" if not is_employer_hr else ""}" data-testid="view-individual">{icon_svg("user")} Learner View (Individual Path)</a>
                 <a href="/?{base_qs}&view=employer_hr" class="view-tab {"active-mode" if is_employer_hr else ""}" data-testid="view-hr">{icon_svg("building")} Employer / HR Workforce Cohort View</a>
             </div>
-            <div class="step-jump-nav">
-                <a href="#step1-heading" class="step-jump-link"><span class="step-num-pill">1</span> Profile Intake</a>
-                <a href="#step2-heading" class="step-jump-link"><span class="step-num-pill">2</span> Future Scenarios</a>
-                <a href="#step3-heading" class="step-jump-link"><span class="step-num-pill">3</span> Roles &amp; Pathways</a>
-                <a href="#step4-heading" class="step-jump-link"><span class="step-num-pill">4</span> Signal Radar</a>
+            <div class="nav-right-cluster">
+                <div class="step-jump-nav">
+                    <a href="#step1-heading" class="step-jump-link"><span class="step-num-pill">1</span> Profile Intake</a>
+                    <a href="#step2-heading" class="step-jump-link"><span class="step-num-pill">2</span> Future Scenarios</a>
+                    <a href="#step3-heading" class="step-jump-link"><span class="step-num-pill">3</span> Roles &amp; Pathways</a>
+                    <a href="#step4-heading" class="step-jump-link"><span class="step-num-pill">4</span> Signal Radar</a>
+                </div>
+                <button type="button" class="theme-toggle-btn" onclick="toggleThemeMode()" aria-label="Switch color theme" data-testid="theme-toggle-btn">
+                    {icon_svg("sparkles")} <span id="theme-mode-label">Quantum Dark</span>
+                </button>
             </div>
         </div>
     </nav>
@@ -663,7 +705,7 @@ def render_dashboard_html(state: dict) -> str:
         {top_guardrail_banner}
 
         <!-- STEP 1: PROFILE INTAKE -->
-        <section class="card" aria-labelledby="step1-heading" data-testid="profile-intake-section">
+        <section class="card reveal-section" aria-labelledby="step1-heading" data-testid="profile-intake-section">
             <div class="section-header">
                 <h2 id="step1-heading">{icon_svg("user")} 1. Skills Profile Intake — "Tell Us About Yourself" (Must-Have #1)</h2>
                 <span class="tag tag-blue">Active Profile: {esc(prof["name"])}</span>
@@ -761,7 +803,7 @@ def render_dashboard_html(state: dict) -> str:
         </section>
 
         <!-- STEP 2: SCENARIO SELECTOR -->
-        <section class="card" aria-labelledby="step2-heading" data-testid="scenario-selector-section">
+        <section class="card reveal-section" aria-labelledby="step2-heading" data-testid="scenario-selector-section">
             <div class="section-header">
                 <h2 id="step2-heading">{icon_svg("layers")} 2. Future Scenario Selection — Handling Uncertainty (Must-Have #6)</h2>
                 <span class="tag tag-amber">Sensitivity: {esc(scenario["uncertainty_level"])}</span>
@@ -770,7 +812,7 @@ def render_dashboard_html(state: dict) -> str:
             <div class="scenario-grid">
                 {"".join(scenario_links)}
             </div>
-            <div class="explain-box">
+            <div class="explain-box" style="margin-top:var(--space-3); margin-bottom:0;">
                 <strong>Active Scenario Assumptions ({esc(scenario["name"])}):</strong> {esc(scenario["assumptions"])}
             </div>
         </section>
@@ -778,7 +820,7 @@ def render_dashboard_html(state: dict) -> str:
         {scenario_matrix_html}
 
         <!-- STEP 3: EXPLAINABLE ROLE MATCHING, PATHWAYS & SDG MAP -->
-        <section class="card" aria-labelledby="step3-heading" data-testid="ranked-roles-section">
+        <section class="card reveal-section" aria-labelledby="step3-heading" data-testid="ranked-roles-section">
             <div class="section-header">
                 <h2 id="step3-heading">{icon_svg("compass")} 3. Explainable Future-Role Rankings, Skill Gaps, Pathways &amp; SDG Links (Must-Haves #3, #4, #5)</h2>
                 <div style="display:flex; align-items:center; gap:var(--space-2);">
@@ -794,7 +836,7 @@ def render_dashboard_html(state: dict) -> str:
         </section>
 
         <!-- STEP 4: DATED AI RESEARCH SIGNAL LAYER -->
-        <section class="card" aria-labelledby="step4-heading" data-testid="signals-radar-section">
+        <section class="card reveal-section" aria-labelledby="step4-heading" data-testid="signals-radar-section">
             <div class="section-header">
                 <h2 id="step4-heading">{icon_svg("radio")} 4. Future Skills Radar — Dated AI Research Signal Layer (Must-Have #2)</h2>
                 <span class="tag tag-muted mono">Source Mode: {esc(sig_payload["source_mode"])}</span>
@@ -833,21 +875,7 @@ def render_dashboard_html(state: dict) -> str:
         </p>
     </footer>
 
-    <script>
-        function updateSkillCount() {{
-            const checked = document.querySelectorAll('input[name="skills"]:checked').length;
-            const el = document.getElementById('selected-skill-counter');
-            if (el) el.textContent = checked;
-        }}
-        function toggleAllRoles(btn) {{
-            const disclosures = document.querySelectorAll('.role-disclosure');
-            const anyClosed = Array.from(disclosures).some(d => !d.open);
-            disclosures.forEach((d, idx) => {{
-                d.open = anyClosed ? true : (idx < 2);
-            }});
-            btn.textContent = anyClosed ? 'Collapse Roles #3–#6' : 'Expand All 6 Roles';
-        }}
-    </script>
+    <script>{MOTION_ENGINE_JS}</script>
 </body>
 </html>
 """

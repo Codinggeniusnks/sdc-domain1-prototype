@@ -1,55 +1,37 @@
-# DESIGN.md — AI Skills Compass Design System
+# Design System Specification — AI Skills Compass (`DESIGN.md`)
 
-## 1. Visual Direction & Surface Philosophy
-- **Mode**: `Operate` — Precision, clarity, high scanability, earned familiarity, and zero decorative slop.
-- **Aesthetic Character**: Technical civic workbench (inspired by high-trust statistical and policy-intelligence platforms such as Our World in Data, Gov.uk / MyDIGITAL civic systems, and Linear's crisp operational hierarchy).
-- **Anti-Patterns Refused**:
-  - No nested cards (`card-inside-a-card` syndrome). Sections use structural dividers (`1px solid var(--border-subtle)`), clean whitespace, and tonal surface shifts.
-  - No thick colored `border-left` stripes (`>1px`) on callouts, steps, or cards. Status is communicated via semantic badges, subtle 1px full borders, and crisp SVG iconography.
-  - No Unicode emoji costumes (`🚀`, `🏢`, `📈`). All icons are consistent 16×16 inline vector SVGs (`stroke-width: 1.75`).
-  - No uppercase eyebrow kickers stacked above headings. Badges sit inline or in right-aligned metadata slots.
+## 1. Aesthetic Direction & Surface Mode
+- **Surface Mode**: **Operate** (Diagnostic Precision + High-Craft Futuristic Telemetry).
+- **Theme Polarity**: **Dual-Mode Quantum Theme System**:
+  - **Quantum Obsidian Dark (`data-theme="dark"`, Default)**: Deep layered obsidian/slate surfaces (`#060A12` → `#0C1322` → `#111B2E`), subtle cyan/cobalt specular borders, and high-contrast `#F1F5F9` / `#CBD5E1` typography.
+  - **Precision Daylight Slate (`data-theme="light"`)**: Architectural neutral slate (`#F4F7FB` → `#FFFFFF`), deep `#0B1120` ink, and royal blue (`#1D4ED8`) interactive accents.
+  - Instant theme switching persisted in `localStorage` (`asc_theme`) with zero first-paint flash.
 
-## 2. Typography Scale (Fixed `rem` Scale for Operate UI)
-- **Font Stack**:
-  - UI & Prose: `'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`
-  - Tabular Data, Formulas & Dates: `'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace` with `font-variant-numeric: tabular-nums`
-- **Scale Steps**:
-  - `--text-xs`: `0.75rem` (12px, line-height `1.4`) — Badges, table column headers, provenance metadata
-  - `--text-sm`: `0.84375rem` (13.5px, line-height `1.5`) — Secondary descriptions, form helper text, table cells
-  - `--text-base`: `0.9375rem` (15px, line-height `1.55`) — Primary body copy, form controls (measure capped at `68ch`)
-  - `--text-lg`: `1.0625rem` (17px, line-height `1.4`, weight `600`) — Sub-section and role titles
-  - `--text-xl`: `1.25rem` (20px, line-height `1.3`, weight `700`, tracking `-0.015em`) — Primary section headings
-  - `--text-2xl`: `1.5rem` (24px, line-height `1.2`, weight `700`, tracking `-0.02em`) — Application title & primary KPI readouts
+## 2. Typography & Scannable Hierarchy
+- **Primary UI & Prose (`--font-sans`)**: `'Fira Sans'`, system sans-serif fallback.
+- **Technical, Scores, Formulas & ISO-8601 Dates (`--font-mono`)**: `'Fira Code'`, monospace fallback with `font-variant-numeric: tabular-nums` enforced on all numeric columns, scores, percentages, and timelines.
+- **Fixed `rem` Scale**:
+  - `--text-xs`: `0.75rem` (`12px`) — Badges, metadata, table headers, HUD chips
+  - `--text-sm`: `0.84375rem` (`13.5px`) — Secondary descriptions, table cells, form controls
+  - `--text-base`: `0.9375rem` (`15px`) — Primary body copy (constrained to `60ch–75ch`)
+  - `--text-lg`: `1.0625rem` (`17px`) — Role card titles & executive KPI values
+  - `--text-xl`: `1.25rem` (`20px`) — Step section headings (`h2`)
+  - `--text-2xl`: `1.5625rem` (`25px`) — Hero display title (`h1`)
 
-## 3. Spacing System (4px / 8px Base Rhythm)
-- `--space-1`: `0.25rem` (4px)
-- `--space-2`: `0.5rem` (8px)
-- `--space-3`: `0.75rem` (12px)
-- `--space-4`: `1rem` (16px)
-- `--space-5`: `1.25rem` (20px)
-- `--space-6`: `1.5rem` (24px)
-- `--space-8`: `2rem` (32px)
-- `--space-10`: `2.5rem` (40px)
+## 3. Spacing, Radii, Elevation & Z-Index Scale
+- **Spacing (`4px` / `8px` rhythm)**: `--space-1` (`4px`) through `--space-10` (`40px`).
+- **Radii**: `--radius-sm` (`6px`), `--radius-md` (`10px`), `--radius-lg` (`14px`), `--radius-pill` (`9999px`).
+- **Z-Index**: `--z-base` (`1`), `--z-sticky-col` (`2`), `--z-hud` (`10`), `--z-nav` (`50`), `--z-skip` (`9999`).
 
-## 4. Semantic Color Tokens (WCAG AA/AAA Verified)
-- **Canvas & Surfaces**:
-  - `--bg-canvas`: `#F8FAFC` (Cool alabaster workspace canvas)
-  - `--bg-surface`: `#FFFFFF` (Primary elevated module surface)
-  - `--bg-subtle`: `#F1F5F9` (Secondary structural well / toolbar background)
-  - `--bg-active`: `#EFF6FF` (Selected state tint)
-- **Text Hierarchy**:
-  - `--text-primary`: `#0F172A` (Contrast 17.4:1 on white)
-  - `--text-secondary`: `#334155` (Contrast 9.8:1 on white)
-  - `--text-muted`: `#475569` (Contrast 6.8:1 on white — never low-contrast light gray)
-- **Brand & Interactive**:
-  - `--primary`: `#1D4ED8` (Civic royal blue)
-  - `--primary-hover`: `#1E40AF`
-  - `--primary-border`: `#93C5FD`
-- **Borders & Dividers**:
-  - `--border-default`: `#CBD5E1`
-  - `--border-subtle`: `#E2E8F0`
-- **Semantic Status**:
-  - Success: `--status-success-bg: #ECFDF5`, `--status-success-fg: #065F46`, `--status-success-border: #A7F3D0`
-  - Warning: `--status-warn-bg: #FFFBEB`, `--status-warn-fg: #92400E`, `--status-warn-border: #FDE68A`
-  - Danger/Gap: `--status-err-bg: #FEF2F2`, `--status-err-fg: #991B1B`, `--status-err-border: #FECACA`
-  - Info/SDG: `--status-info-bg: #F5F3FF`, `--status-info-fg: #5B21B6`, `--status-info-border: #DDD6FE`
+## 4. Bespoke 3D Vector Iconography & Hero Visual
+- **Shared 3D SVG Lighting Defs (`SVG_3D_DEFS`)**: Multi-stop linear and radial gradients (`#icon3d-primary`, `#icon3d-glass`, `#icon3d-specular`, `#hero-core-glow`) give all 18 domain icons a semi-translucent glass/metallic 3D appearance with zero WebGL bundle overhead.
+- **Interactive 3D Isometric AI Compass Stage (`hero_3d_compass_svg`)**:
+  - Isometric coordinate grid plane, counter-rotating orbital telemetry rings, floating 3D hexagonal AI prism core, and live spatial HUD chips (`16 Taxonomy Skills`, `6 Emerging AI Roles`, `17 Dated Signals · CC0`).
+
+## 5. Fluid Motion System & Performance Guardrails
+- **Compositor-Only Properties**: Animations strictly target `transform` and `opacity` (e.g., `transform: scaleX(...)` on score breakdown bars, `translateY` on section reveals, `rotateX/rotateY` on 3D perspective cards).
+- **Easing & Durations**:
+  - `--dur-micro`: `150ms` (button/chip hover & press feedback)
+  - `--dur-comp`: `240ms` (`<details>` role disclosure expansion & card transitions)
+  - `--dur-reveal`: `420ms` (`IntersectionObserver` section entrance with `--ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1)`)
+- **Desktop Pointer Spotlight & 3D Tilt**: Throttled via `requestAnimationFrame` (`passive: true`), automatically disabled on coarse/touch pointers and `prefers-reduced-motion: reduce`.

@@ -21,6 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from matcher import normalize_profile_skills, rank_roles_for_profile
 from signals import extract_taxonomy_entities, fetch_market_signals
 from taxonomy import ROLES_CATALOG, SCENARIOS, SKILLS_CATALOG, SYNTHETIC_PROFILES
+from ui_theme import DESIGN_SYSTEM_CSS, icon_svg
 from utils import format_greeting, summarize
 
 
@@ -53,7 +54,7 @@ def resolve_request_state(query_params: dict[str, list[str]]) -> dict:
         flat_skills: list[str] = list(extracted_from_bio)
         for item in custom_skills_raw:
             flat_skills.extend([s.strip() for s in item.split(",") if s.strip()])
-        
+
         user_interests = [target_interest] if target_interest else []
         active_profile = {
             "id": "custom",
@@ -95,7 +96,6 @@ def resolve_request_state(query_params: dict[str, list[str]]) -> dict:
     }
 
 
-
 def build_rising_declining_radar_html() -> str:
     """Builds the Rising vs. Declining Skills & Roles Radar (Domain 1 Part 3 #2 & Part 4 #2)."""
     rising_items = [
@@ -114,41 +114,48 @@ def build_rising_declining_radar_html() -> str:
     ]
 
     rising_rows = "".join(
-        f'<tr><td><strong style="color:#047857;">📈 {item[0]}</strong><br><small style="color:#475569;">{item[3]}</small></td>'
-        f'<td><span class="tag tag-green">{item[1]}</span></td><td><small>{item[2]}</small></td></tr>'
+        f'<tr><td><strong style="color:var(--status-success-fg);">{esc(item[0])}</strong>'
+        f'<div class="sig-summary">{esc(item[3])}</div></td>'
+        f'<td><span class="tag tag-green">{esc(item[1])}</span></td>'
+        f'<td class="mono">{esc(item[2])}</td></tr>'
         for item in rising_items
     )
 
     declining_rows = "".join(
-        f'<tr><td><strong style="color:#B91C1C;">📉 {item[0]}</strong><br><small style="color:#475569;">{item[2]}</small></td>'
-        f'<td><span class="tag tag-gap">{item[1]}</span></td></tr>'
+        f'<tr><td><strong style="color:var(--status-err-fg);">{esc(item[0])}</strong>'
+        f'<div class="sig-summary">{esc(item[2])}</div></td>'
+        f'<td><span class="tag tag-gap">{esc(item[1])}</span></td></tr>'
         for item in declining_items
     )
 
     return f"""
-    <div class="grid-2" style="margin-top:16px;" data-testid="rising-declining-radar">
-        <div class="sub-panel" style="border-left:4px solid #059669; background:#F0FDF4;">
-            <h4 style="color:#065F46;">🚀 Top Rising Competencies & Emerging Roles (Domain 1 Part 3 #2)</h4>
-            <p style="font-size:0.84rem; color:#166534; margin-bottom:10px;">Backed by dated OpenAlex scholarly publications and industry trend momentum:</p>
-            <table class="data-table" style="font-size:0.86rem; background:#fff;">
-                <thead><tr><th>Emerging Competency & Focus</th><th>Trend Signal</th><th>Source</th></tr></thead>
-                <tbody>{rising_rows}</tbody>
-            </table>
+    <div class="grid-2" style="margin-bottom:var(--space-5);" data-testid="rising-declining-radar">
+        <div class="radar-panel-rising">
+            <h4>{icon_svg("trend_up")} Top Rising Competencies & Emerging Roles (Domain 1 Part 3 #2)</h4>
+            <p class="small-note">Backed by dated OpenAlex scholarly publications and industry trend momentum:</p>
+            <div class="table-scroll">
+                <table class="data-table">
+                    <thead><tr><th>Emerging Competency &amp; Focus</th><th>Trend Signal</th><th>Source</th></tr></thead>
+                    <tbody>{rising_rows}</tbody>
+                </table>
+            </div>
         </div>
-        <div class="sub-panel" style="border-left:4px solid #DC2626; background:#FEF2F2;">
-            <h4 style="color:#991B1B;">⚠️ Declining & Highly Automated Routine Tasks</h4>
-            <p style="font-size:0.84rem; color:#991B1B; margin-bottom:10px;">Workforce areas facing high displacement without continuous human reskilling:</p>
-            <table class="data-table" style="font-size:0.86rem; background:#fff;">
-                <thead><tr><th>Routine Vulnerable Task / Practice</th><th>Impact Status</th></tr></thead>
-                <tbody>{declining_rows}</tbody>
-            </table>
+        <div class="radar-panel-declining">
+            <h4>{icon_svg("trend_down")} Declining & Highly Automated Routine Tasks</h4>
+            <p class="small-note">Workforce areas facing high displacement without continuous human reskilling:</p>
+            <div class="table-scroll">
+                <table class="data-table">
+                    <thead><tr><th>Routine Vulnerable Task / Practice</th><th>Impact Status</th></tr></thead>
+                    <tbody>{declining_rows}</tbody>
+                </table>
+            </div>
         </div>
     </div>
     """
 
+
 def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str) -> str:
     """Builds the Employer / HR Workforce Skills-Gap Heatmap (Domain 1 Part 5 Good-to-Have #1)."""
-    # Cohort of personas
     cohort = [
         {"id": "aisyah_ops", "name": "Aisyah Rahman", "dept": "Operations & Logistics", "role": "Junior Operations Coordinator", "skills": ["ai_literacy", "process_mapping", "sql_data_analysis", "stakeholder_communication"]},
         {"id": "wei_jie_qa", "name": "Wei Jie Tan", "dept": "Quality & Software", "role": "Software QA Analyst", "skills": ["python_scripting", "human_in_the_loop_qa", "sql_data_analysis", "api_integration"]},
@@ -156,8 +163,6 @@ def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str
     ]
 
     all_skill_keys = list(SKILLS_CATALOG.keys())
-    
-    # Calculate coverage
     coverage_counts = {sk: sum(1 for p in cohort if sk in p["skills"]) for sk in all_skill_keys}
 
     heatmap_rows = []
@@ -165,36 +170,39 @@ def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str
         cells = []
         for sk in all_skill_keys:
             if sk in p["skills"]:
-                cells.append('<td style="background:#DCFCE7; text-align:center; color:#15803D; font-weight:700;">✓</td>')
+                cells.append(f'<td style="background:var(--status-success-bg); text-align:center; color:var(--status-success-fg); font-weight:700;" title="{esc(p["name"])}: {esc(SKILLS_CATALOG[sk]["name"])} (Verified)">{icon_svg("check")}</td>')
             else:
-                cells.append('<td style="background:#FEE2E2; text-align:center; color:#B91C1C;">—</td>')
+                cells.append(f'<td style="background:var(--status-err-bg); text-align:center; color:var(--status-err-fg);" title="{esc(p["name"])}: Missing {esc(SKILLS_CATALOG[sk]["name"])}">—</td>')
         heatmap_rows.append(
-            f'<tr><td><strong>{p["name"]}</strong><br><small>{p["role"]}</small></td><td>{p["dept"]}</td>'
+            f'<tr><td><strong>{esc(p["name"])}</strong><div class="sig-summary">{esc(p["role"])}</div></td><td>{esc(p["dept"])}</td>'
             + "".join(cells) + "</tr>"
         )
 
-    header_skill_cells = "".join(f'<th style="font-size:0.75rem; writing-mode:vertical-rl; transform:rotate(180deg); padding:8px 4px;">{SKILLS_CATALOG[sk]["name"]}</th>' for sk in all_skill_keys)
+    header_skill_cells = "".join(
+        f'<th title="{esc(SKILLS_CATALOG[sk]["name"])}" style="font-size:11px; max-width:90px; white-space:normal; line-height:1.25; vertical-align:bottom;">{esc(SKILLS_CATALOG[sk]["name"].split("&")[0].strip())}</th>'
+        for sk in all_skill_keys
+    )
 
     coverage_summary_cells = []
     for sk in all_skill_keys:
         cnt = coverage_counts[sk]
         pct = int(cnt / len(cohort) * 100)
-        bg = "#DCFCE7" if pct >= 66 else ("#FEF08A" if pct >= 33 else "#FEE2E2")
-        fg = "#166534" if pct >= 66 else ("#854D0E" if pct >= 33 else "#991B1B")
-        coverage_summary_cells.append(f'<td style="background:{bg}; color:{fg}; font-weight:700; text-align:center; font-size:0.78rem;">{pct}%</td>')
+        bg = "var(--status-success-bg)" if pct >= 66 else ("var(--status-warn-bg)" if pct >= 33 else "var(--status-err-bg)")
+        fg = "var(--status-success-fg)" if pct >= 66 else ("var(--status-warn-fg)" if pct >= 33 else "var(--status-err-fg)")
+        coverage_summary_cells.append(f'<td class="tabular" style="background:{bg}; color:{fg}; font-weight:700; text-align:center; font-size:var(--text-xs);">{pct}%</td>')
 
     return f"""
-    <section class="card" aria-labelledby="hr-view-heading" data-testid="hr-workforce-section" style="border:2px solid #3B82F6;">
+    <section class="card" aria-labelledby="hr-view-heading" data-testid="hr-workforce-section">
         <div class="section-header">
-            <h2 id="hr-view-heading">🏢 Employer / HR Workforce Skills-Gap Heatmap (Domain 1 Part 5 Feature)</h2>
+            <h2 id="hr-view-heading">{icon_svg("building")} Employer / HR Workforce Skills-Gap Heatmap (Domain 1 Part 5 Feature)</h2>
             <span class="tag tag-blue">Cohort Size: {len(cohort)} Synthetic Employees</span>
         </div>
         <p class="section-sub">
-            A company-level workforce diagnostic showing department-wide skill coverage, organizational blind spots, and team reskilling recommendations:
+            A company-level workforce diagnostic showing department-wide skill coverage, organizational blind spots, and HRD Corp claimable team reskilling recommendations:
         </p>
 
-        <div class="table-scroll" style="margin-top:12px;">
-            <table class="data-table" style="font-size:0.82rem;">
+        <div class="table-scroll">
+            <table class="data-table heatmap-table">
                 <thead>
                     <tr>
                         <th>Team Member</th>
@@ -204,7 +212,7 @@ def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str
                 </thead>
                 <tbody>
                     {"".join(heatmap_rows)}
-                    <tr style="border-top:2px solid #0F172A; font-weight:700;">
+                    <tr style="border-top:2px solid var(--border-strong); font-weight:700;">
                         <td colspan="2">Team Capability Coverage (%)</td>
                         {"".join(coverage_summary_cells)}
                     </tr>
@@ -212,36 +220,78 @@ def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str
             </table>
         </div>
 
-        <div class="grid-2" style="margin-top:16px;">
-            <div class="sub-panel" style="background:#EFF6FF; border-left:4px solid #2563EB;">
-                <h4>🎯 Immediate Team-Level Reskilling Priorities</h4>
-                <ul>
+        <div class="grid-2" style="margin-top:var(--space-5);">
+            <div class="structural-pane">
+                <h4>{icon_svg("alert")} Immediate Team-Level Reskilling Priorities</h4>
+                <ul class="citation-list">
                     <li><strong>Critical Blind Spot (0% Team Coverage):</strong> <em>Prompt Engineering</em>, <em>Workflow Automation (Agentic)</em>, and <em>RAG Knowledge Systems</em>. None of the current team members possess formal production experience in these emerging areas.</li>
-                    <li><strong>Governance Vulnerability (0% Coverage):</strong> Zero team members trained in <em>AI Ethics & PDPA Governance</em>, exposing automated processes to regulatory and data-leak risks.</li>
+                    <li><strong>Governance Vulnerability (0% Coverage):</strong> Zero team members trained in <em>AI Ethics &amp; PDPA Governance</em>, exposing automated processes to regulatory and data-leak risks.</li>
                 </ul>
             </div>
-            <div class="sub-panel" style="background:#F0FDF4; border-left:4px solid #059669;">
-                <h4>📋 Recommended Cohort Learning Program (HRD Corp Claimable)</h4>
-                <ul>
-                    <li><strong>Cohort 1 (All Staff):</strong> Enroll in <em>Malaysia AI Untuk Rakyat</em> (Citizens & Intel) to establish baseline literacy in 1 week.</li>
-                    <li><strong>Cohort 2 (Operations & QA):</strong> <em>HRD Corp e-LATiH Python & Process Automation</em> track (40 hours).</li>
-                    <li><strong>Cohort 3 (Legal / HR / Leads):</strong> <em>Malaysia MOSTI AI Governance Guidelines & NIST AI RMF</em> workshop (24 hours).</li>
+            <div class="structural-pane">
+                <h4>{icon_svg("book")} Recommended Cohort Learning Program (HRD Corp Claimable)</h4>
+                <ul class="citation-list">
+                    <li><strong>Cohort 1 (All Staff):</strong> Enroll in <em>Malaysia AI Untuk Rakyat</em> (Citizens &amp; Intel) to establish baseline literacy in 1 week.</li>
+                    <li><strong>Cohort 2 (Operations &amp; QA):</strong> <em>HRD Corp e-LATiH Python &amp; Process Automation</em> track (40 hours).</li>
+                    <li><strong>Cohort 3 (Legal / HR / Leads):</strong> <em>Malaysia MOSTI AI Governance Guidelines &amp; NIST AI RMF</em> workshop (24 hours).</li>
                 </ul>
             </div>
         </div>
     </section>
     """
 
+
+def build_executive_summary_html(prof: dict, ev: dict, scenario: dict, sig_payload: dict, skill_count: int) -> str:
+    """Renders the top Executive Readiness Summary Strip so the user immediately understands state & next action."""
+    if ev["status"] == "ok" and ev.get("ranked_roles"):
+        top = ev["ranked_roles"][0]
+        top_title = esc(top["title"])
+        top_score = f"{esc(top['total_score'])} / 100"
+        top_score_val = float(top["total_score"])
+        pw_hours = f"{esc(top['pathway']['total_estimated_hours'])} hrs (~{esc(top['pathway']['total_estimated_weeks'])} wks)"
+        missing_count = len(top["missing_required_skills"])
+        gap_summary = f"{missing_count} core skill gap(s) to close" if missing_count > 0 else "All core skills satisfied"
+    else:
+        top_title = "Guardrail Active — Ranking Halted"
+        top_score = "Insufficient Evidence"
+        top_score_val = 0.0
+        pw_hours = "Select ≥2 skills to compute"
+        gap_summary = f"Reason: {esc(ev.get('reason', 'validation_halted'))}"
+
+    return f"""
+    <div class="exec-summary-grid" role="region" aria-label="Executive Readiness Summary">
+        <div class="exec-cell">
+            <span class="exec-label">{icon_svg("user")} Active Learner Profile</span>
+            <div class="exec-value">{esc(prof["name"])}</div>
+            <span class="exec-sub">{skill_count} of {len(SKILLS_CATALOG)} taxonomy skills detected</span>
+        </div>
+        <div class="exec-cell">
+            <span class="exec-label">{icon_svg("compass")} #1 Recommended Role Match</span>
+            <div class="exec-value">{top_title}</div>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span class="exec-sub tabular" style="font-weight:700; color:var(--primary);">{top_score}</span>
+                <div class="meter-bar" aria-hidden="true"><div class="meter-fill" style="width:{min(max(top_score_val, 0), 100)}%;"></div></div>
+            </div>
+        </div>
+        <div class="exec-cell">
+            <span class="exec-label">{icon_svg("layers")} Active Future Scenario</span>
+            <div class="exec-value" style="font-size:var(--text-base);">{esc(scenario["name"])}</div>
+            <span class="exec-sub">Uncertainty Band: {esc(scenario["uncertainty_level"])}</span>
+        </div>
+        <div class="exec-cell">
+            <span class="exec-label">{icon_svg("book")} Primary Reskilling Horizon</span>
+            <div class="exec-value">{pw_hours}</div>
+            <span class="exec-sub">{gap_summary} · <a href="#step3-heading">View roadmap</a></span>
+        </div>
+    </div>
+    """
+
+
 def render_dashboard_html(state: dict) -> str:
     prof = state["active_profile"]
     is_employer_hr = state.get("view_mode") == "employer_hr"
     base_qs = f"profile_id={urllib.parse.quote(state['profile_id'])}&scenario_id={urllib.parse.quote(state['scenario_id'])}&signal_mode={urllib.parse.quote(state['signal_mode'])}"
-    view_switcher_html = f'''
-    <div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:16px;" data-testid="view-switcher">
-        <a href="/?{base_qs}&view=individual" class="mode-btn {"active-mode" if not is_employer_hr else ""}" data-testid="view-individual">👤 Learner View (Individual Path)</a>
-        <a href="/?{base_qs}&view=employer_hr" class="mode-btn {"active-mode" if is_employer_hr else ""}" data-testid="view-hr">🏢 Employer / HR Workforce Cohort View (Good-to-Have #1)</a>
-    </div>
-    '''
+
     ev = state["evaluation"]
     sig_payload = state["signals_payload"]
     scenario = ev["scenario"]
@@ -268,16 +318,15 @@ def render_dashboard_html(state: dict) -> str:
             f'<strong>{esc(p["name"])}</strong><span>{esc(p["current_role"])}</span></a>'
         )
 
-    # Scenario buttons
+    # Scenario buttons (inline badge header instead of stacked eyebrow kicker)
     scenario_links = []
     for sc_id, sc_info in SCENARIOS.items():
         is_active = "active-scenario" if state["scenario_id"] == sc_id else ""
         href = f"/?profile_id={urllib.parse.quote(state['profile_id'])}&scenario_id={urllib.parse.quote(sc_id)}&signal_mode={urllib.parse.quote(state['signal_mode'])}"
         scenario_links.append(
             f'<a href="{href}" class="scenario-tab {is_active}" data-testid="scenario-{esc(sc_id)}">'
-            f'<span class="sc-badge">{esc(sc_info["badge"])}</span>'
-            f'<strong>{esc(sc_info["name"])}</strong>'
-            f'<small>{esc(sc_info["uncertainty_level"])}</small></a>'
+            f'<div class="scenario-tab-header"><strong>{esc(sc_info["name"])}</strong><span class="tag tag-amber">{esc(sc_info["badge"])}</span></div>'
+            f'<small>Sensitivity: {esc(sc_info["uncertainty_level"])}</small></a>'
         )
 
     # Signal mode buttons
@@ -291,7 +340,7 @@ def render_dashboard_html(state: dict) -> str:
         is_active = "active-mode" if state["signal_mode"] == m_id else ""
         href = f"/?profile_id={urllib.parse.quote(state['profile_id'])}&scenario_id={urllib.parse.quote(state['scenario_id'])}&signal_mode={urllib.parse.quote(m_id)}"
         sig_mode_links.append(
-            f'<a href="{href}" class="mode-btn {is_active}" data-testid="sigmode-{esc(m_id)}">{esc(m_label)}</a>'
+            f'<a href="{href}" class="mode-btn {is_active}" data-testid="sigmode-{esc(m_id)}">{icon_svg("radio")} {esc(m_label)}</a>'
         )
 
     # Skill checkboxes for custom/interactive refinement
@@ -299,8 +348,8 @@ def render_dashboard_html(state: dict) -> str:
     for sk_id, sk_info in SKILLS_CATALOG.items():
         checked = "checked" if sk_id in profile_skills_set else ""
         skill_checkboxes.append(
-            f'<label class="skill-check"><input type="checkbox" name="skills" value="{esc(sk_id)}" {checked}>'
-            f'<span>{esc(sk_info["name"])} <small>({esc(sk_info["category"])})</small></span></label>'
+            f'<label class="skill-check"><input type="checkbox" name="skills" value="{esc(sk_id)}" {checked} onchange="updateSkillCount()">'
+            f'<span><strong>{esc(sk_info["name"])}</strong><small>{esc(sk_info["category"])}</small></span></label>'
         )
 
     # Signals table rows
@@ -318,9 +367,9 @@ def render_dashboard_html(state: dict) -> str:
         )
         signal_rows.append(
             f'<tr data-testid="signal-row">'
-            f'<td>{fb_tag}<br><strong>{esc(sig["title"])}</strong><div class="sig-summary">{esc(sig.get("summary", ""))}</div></td>'
+            f'<td><div style="margin-bottom:4px;">{fb_tag}</div><strong>{esc(sig["title"])}</strong><div class="sig-summary">{esc(sig.get("summary", ""))}</div></td>'
             f'<td class="mono">Pub: {esc(sig["published_date"])}<br>Ret: {esc(sig["retrieved_date"])}</td>'
-            f'<td><a href="{esc(sig["source_url"])}" target="_blank" rel="noopener noreferrer">{esc(sig["source_name"])}</a></td>'
+            f'<td><a href="{esc(sig["source_url"])}" target="_blank" rel="noopener noreferrer">{esc(sig["source_name"])} {icon_svg("external")}</a></td>'
             f'<td><div class="tag-wrap">{sk_badges}</div></td>'
             f'</tr>'
         )
@@ -336,11 +385,11 @@ def render_dashboard_html(state: dict) -> str:
         warnings_list = "".join(f"<li>{esc(w)}</li>" for w in ev["signal_validation"].get("warnings", []))
         roles_section_html = f"""
         <div class="insufficient-box" role="alert" data-testid="insufficient-evidence-alert">
-            <h3>Insufficient Evidence — Honest Guardrail Triggered</h3>
+            <h3>{icon_svg("alert")} Insufficient Evidence — Honest Guardrail Triggered</h3>
             <p><strong>Reason Code:</strong> <code class="mono">{esc(ev["reason"])}</code></p>
-            <p>{esc(ev["message"])}</p>
+            <p class="prose-measure">{esc(ev["message"])}</p>
             {f'<ul>{warnings_list}</ul>' if warnings_list else ''}
-            <p class="guardrail-note">
+            <p class="small-note" style="margin-top:var(--space-2);">
                 Why this matters for Domain 1: Rather than inventing a confident career prediction from an empty/sparse
                 profile or unverified signal feed, AI Skills Compass halts ranking and shows what evidence is missing.
             </p>
@@ -355,16 +404,16 @@ def render_dashboard_html(state: dict) -> str:
             is_cur = "current-sc-row" if comp["scenario_id"] == state["scenario_id"] else ""
             comp_rows.append(
                 f'<tr class="{is_cur}">'
-                f'<td><strong>{esc(comp["scenario_name"])}</strong><br><small>{esc(comp["assumptions"])}</small></td>'
+                f'<td><strong>{esc(comp["scenario_name"])}</strong><div class="sig-summary">{esc(comp["assumptions"])}</div></td>'
                 f'<td><span class="tag tag-amber">{esc(comp["uncertainty_level"])}</span></td>'
-                f'<td><strong>#1 {esc(comp["top_role"])}</strong> ({esc(comp["top_role_score"])}/100)</td>'
-                f'<td>#2 {esc(comp["runner_up_role"])} ({esc(comp["runner_up_score"])}/100)</td>'
+                f'<td class="tabular"><strong>#1 {esc(comp["top_role"])}</strong> ({esc(comp["top_role_score"])}/100)</td>'
+                f'<td class="tabular">#2 {esc(comp["runner_up_role"])} ({esc(comp["runner_up_score"])}/100)</td>'
                 f'</tr>'
             )
         scenario_matrix_html = f"""
         <section class="card" aria-labelledby="scenario-matrix-heading" data-testid="scenario-comparison-section">
             <div class="section-header">
-                <h2 id="scenario-matrix-heading">Multi-Scenario Uncertainty Comparison (Must-Have #6)</h2>
+                <h2 id="scenario-matrix-heading">{icon_svg("layers")} Multi-Scenario Uncertainty Comparison (Must-Have #6)</h2>
                 <span class="tag tag-blue">Estimates, Not Single-Point Predictions</span>
             </div>
             <p class="section-sub">
@@ -374,7 +423,7 @@ def render_dashboard_html(state: dict) -> str:
                 <table class="data-table">
                     <thead>
                         <tr>
-                            <th>Future Scenario & Explicit Assumptions</th>
+                            <th>Future Scenario &amp; Explicit Assumptions</th>
                             <th>Uncertainty Band</th>
                             <th>#1 Ranked Role</th>
                             <th>#2 Runner-Up Role</th>
@@ -390,34 +439,34 @@ def render_dashboard_html(state: dict) -> str:
         for role in ev["ranked_roles"]:
             bd = role["score_breakdown"]
             matched_req_html = (
-                "".join(f'<span class="tag tag-green">✓ {esc(s["name"])}</span>' for s in role["matched_required_skills"])
-                or '<span class="muted-inline">None yet</span>'
+                "".join(f'<span class="tag tag-green">{icon_svg("check")} {esc(s["name"])}</span>' for s in role["matched_required_skills"])
+                or '<span class="small-note">None matched yet</span>'
             )
             missing_req_html = (
-                "".join(f'<span class="tag tag-gap">+ {esc(s["name"])}</span>' for s in role["missing_required_skills"])
-                or '<span class="tag tag-green">All core required skills matched!</span>'
+                "".join(f'<span class="tag tag-gap">{icon_svg("plus")} {esc(s["name"])}</span>' for s in role["missing_required_skills"])
+                or f'<span class="tag tag-green">{icon_svg("check")} All core required skills matched!</span>'
             )
             matched_sup_html = (
-                "".join(f'<span class="tag tag-blue">✓ {esc(s["name"])}</span>' for s in role["matched_supporting_skills"])
-                or '<span class="muted-inline">None yet</span>'
+                "".join(f'<span class="tag tag-blue">{icon_svg("check")} {esc(s["name"])}</span>' for s in role["matched_supporting_skills"])
+                or '<span class="small-note">None matched yet</span>'
             )
             missing_sup_html = (
-                "".join(f'<span class="tag tag-muted">+ {esc(s["name"])}</span>' for s in role["missing_supporting_skills"])
-                or '<span class="muted-inline">None</span>'
+                "".join(f'<span class="tag tag-muted">{icon_svg("plus")} {esc(s["name"])}</span>' for s in role["missing_supporting_skills"])
+                or '<span class="small-note">None</span>'
             )
 
             sig_citations = []
             for cs in role["supporting_signals"]:
                 mode_tag = "[Snapshot Fallback]" if cs.get("is_fallback") else "[Live Feed]"
                 sig_citations.append(
-                    f'<li><a href="{esc(cs["source_url"])}" target="_blank" rel="noopener noreferrer">{esc(cs["title"])}</a> '
+                    f'<li><a href="{esc(cs["source_url"])}" target="_blank" rel="noopener noreferrer">{esc(cs["title"])} {icon_svg("external")}</a> '
                     f'<span class="mono">({esc(cs["source_name"])}, Published {esc(cs["published_date"])}, Retrieved {esc(cs["retrieved_date"])} {mode_tag})</span> '
                     f'— Matched: <em>{esc(", ".join(cs["matched_skills"]))}</em></li>'
                 )
             sig_citations_html = (
                 f'<ul class="citation-list">{"".join(sig_citations)}</ul>'
                 if sig_citations
-                else '<p class="muted-inline">Insufficient role-specific signals in current window (score penalized).</p>'
+                else '<p class="small-note">Insufficient role-specific signals in current window (score penalized).</p>'
             )
 
             pathway_steps = []
@@ -425,18 +474,24 @@ def render_dashboard_html(state: dict) -> str:
                 sdg_badges = "".join(f'<span class="tag tag-sdg">{esc(t)}</span>' for t in st["sdg_tags"])
                 pathway_steps.append(
                     f'<div class="pathway-step">'
-                    f'<div class="step-num">Step {esc(st["step_number"])} · Stage {esc(st["stage"])} ({esc(st["priority"])})</div>'
-                    f'<h4>{esc(st["skill_name"])} — <span class="mono">{esc(st["estimated_hours"])} hrs (~{esc(st["estimated_weeks"])} wk)</span></h4>'
-                    f'<p><strong>Learning Objective:</strong> {esc(st["objective"])}</p>'
-                    f'<p><strong>Verified Low-Cost / Free Option:</strong> <a href="{esc(st["resource_url"])}" target="_blank" rel="noopener noreferrer">{esc(st["resource_title"])}</a> '
+                    f'<div class="step-index-circle">{esc(st["step_number"])}</div>'
+                    f'<div>'
+                    f'<div class="pathway-step-header">'
+                    f'<h4>{esc(st["skill_name"])}</h4>'
+                    f'<div class="tag-wrap"><span class="tag tag-muted">Stage {esc(st["stage"])} · {esc(st["priority"])}</span>'
+                    f'<span class="tag tag-green mono">{esc(st["estimated_hours"])} hrs (~{esc(st["estimated_weeks"])} wk)</span></div>'
+                    f'</div>'
+                    f'<p class="prose-measure" style="margin:4px 0;"><strong>Learning Objective:</strong> {esc(st["objective"])}</p>'
+                    f'<p style="margin:4px 0;"><strong>Verified Resource:</strong> <a href="{esc(st["resource_url"])}" target="_blank" rel="noopener noreferrer">{esc(st["resource_title"])} {icon_svg("external")}</a> '
                     f'<span class="tag tag-green">{esc(st["cost_tier"])}</span></p>'
-                    f'<p class="verify-note">Provenance: {esc(st["verification_status"])} {sdg_badges}</p>'
+                    f'<div class="verify-note"><span>Provenance: {esc(st["verification_status"])}</span> {sdg_badges}</div>'
+                    f'</div>'
                     f'</div>'
                 )
             pathway_html = (
-                "".join(pathway_steps)
+                f'<div class="pathway-list">{"".join(pathway_steps)}</div>'
                 if pathway_steps
-                else '<p class="tag tag-green">Your profile already satisfies all required and supporting skills for this role.</p>'
+                else f'<p class="tag tag-green">{icon_svg("check")} Your profile already satisfies all required and supporting skills for this role.</p>'
             )
 
             sdg_cards = []
@@ -444,83 +499,100 @@ def render_dashboard_html(state: dict) -> str:
                 sdg_cards.append(
                     f'<div class="sdg-item">'
                     f'<strong>{esc(sl["sdg"])} ({esc(sl["target"])})</strong>'
-                    f'<p>{esc(sl["explanation"])}</p>'
+                    f'<p class="prose-measure">{esc(sl["explanation"])}</p>'
                     f'</div>'
                 )
 
+            # Progressive disclosure: Top 2 roles open by default; ranks 3-6 collapsible for clean scanning
+            is_open_attr = "open" if int(role["rank"]) <= 2 else ""
+            top_rank_class = "top-rank-role" if int(role["rank"]) == 1 else ""
+
             role_cards.append(
                 f"""
-                <article class="role-card" data-testid="role-card-{esc(role['rank'])}">
-                    <div class="role-header">
-                        <div>
-                            <span class="rank-badge">Rank #{esc(role["rank"])}</span>
-                            <span class="tag tag-blue">{esc(role["category"])}</span>
-                            <h3>{esc(role["title"])}</h3>
-                            <p class="role-summary">{esc(role["summary"])}</p>
-                        </div>
-                        <div class="score-box">
-                            <div class="score-num" data-testid="role-score-{esc(role['rank'])}">{esc(role["total_score"])}<span>/100</span></div>
-                            <div class="score-label">Estimated Match</div>
-                        </div>
-                    </div>
+                <article class="role-card {top_rank_class}" data-testid="role-card-{esc(role['rank'])}">
+                    <details class="role-disclosure" {is_open_attr}>
+                        <summary>
+                            <div class="role-title-group">
+                                <div class="role-badges-row">
+                                    <span class="rank-badge">Rank #{esc(role["rank"])}</span>
+                                    <span class="tag tag-blue">{esc(role["category"])}</span>
+                                    <span class="tag tag-muted">{len(role["matched_required_skills"])}/{len(role["matched_required_skills"]) + len(role["missing_required_skills"])} Core Skills Matched</span>
+                                    <span class="tag tag-green mono">{esc(role["pathway"]["total_estimated_hours"])} hrs pathway</span>
+                                </div>
+                                <h3>{esc(role["title"])}</h3>
+                                <p class="role-summary">{esc(role["summary"])}</p>
+                            </div>
+                            <div class="role-score-cluster">
+                                <div class="score-box">
+                                    <div class="score-num" data-testid="role-score-{esc(role['rank'])}">{esc(role["total_score"])}<span>/100</span></div>
+                                    <div class="score-label">Estimated Match</div>
+                                </div>
+                                {icon_svg("chevron")}
+                            </div>
+                        </summary>
 
-                    <div class="explain-box">
-                        <strong>Why This Role Ranks #{esc(role["rank"])}:</strong> {esc(role["why_ranked_here"])}
-                        <div class="formula-breakdown mono">
-                            Formula ({esc(bd["formula"])}):
-                            Readiness = {esc(bd["skill_readiness_score"])}% |
-                            Research Signal Coverage = {esc(bd["signal_momentum_score"])}% |
-                            Scenario Fit = {esc(bd["scenario_fit_score"])}%
-                        </div>
-                    </div>
+                        <div class="role-body">
+                            <div class="explain-box">
+                                <strong>Why This Role Ranks #{esc(role["rank"])}:</strong> {esc(role["why_ranked_here"])}
+                                <div class="formula-breakdown mono">
+                                    <span>Formula ({esc(bd["formula"])})</span>
+                                    <span>Readiness: <strong>{esc(bd["skill_readiness_score"])}%</strong></span>
+                                    <span>Signal Coverage: <strong>{esc(bd["signal_momentum_score"])}%</strong></span>
+                                    <span>Scenario Fit: <strong>{esc(bd["scenario_fit_score"])}%</strong></span>
+                                </div>
+                            </div>
 
-                    <div class="grid-2">
-                        <div class="sub-panel">
-                            <h4>Matched Profile Skills</h4>
-                            <p><strong>Required Core Matched:</strong></p>
-                            <div class="tag-wrap">{matched_req_html}</div>
-                            <p style="margin-top:8px;"><strong>Supporting Matched:</strong></p>
-                            <div class="tag-wrap">{matched_sup_html}</div>
-                        </div>
-                        <div class="sub-panel">
-                            <h4>Identified Skill Gaps (To Reskill)</h4>
-                            <p><strong>Missing Required Skills:</strong></p>
-                            <div class="tag-wrap">{missing_req_html}</div>
-                            <p style="margin-top:8px;"><strong>Missing Supporting Skills:</strong></p>
-                            <div class="tag-wrap">{missing_sup_html}</div>
-                        </div>
-                    </div>
+                            <div class="grid-2">
+                                <div class="structural-pane">
+                                    <h4>{icon_svg("check")} Matched Profile Skills</h4>
+                                    <div class="skill-group-label">Required Core Matched:</div>
+                                    <div class="tag-wrap">{matched_req_html}</div>
+                                    <div class="skill-group-label">Supporting Matched:</div>
+                                    <div class="tag-wrap">{matched_sup_html}</div>
+                                </div>
+                                <div class="structural-pane">
+                                    <h4>{icon_svg("plus")} Identified Skill Gaps (To Reskill)</h4>
+                                    <div class="skill-group-label">Missing Required Skills:</div>
+                                    <div class="tag-wrap">{missing_req_html}</div>
+                                    <div class="skill-group-label">Missing Supporting Skills:</div>
+                                    <div class="tag-wrap">{missing_sup_html}</div>
+                                </div>
+                            </div>
 
-                    <div class="sub-panel">
-                        <h4>Dated Research Signals (Scholarly Publications) Mentioning This Role's Skills</h4>
-                        {sig_citations_html}
-                    </div>
+                            <div class="structural-pane" data-testid="pathway-section-{esc(role['rank'])}">
+                                <div class="panel-title-row">
+                                    <h4>{icon_svg("book")} Ordered Low-Cost / Free Reskilling Pathway (Must-Have #4)</h4>
+                                    <span class="mono badge-time">Total Est: {esc(role["pathway"]["total_estimated_hours"])} hrs (~{esc(role["pathway"]["total_estimated_weeks"])} weeks)</span>
+                                </div>
+                                <p class="small-note">{esc(role["pathway"]["disclaimer"])}</p>
+                                {pathway_html}
+                            </div>
 
-                    <div class="sub-panel" data-testid="pathway-section-{esc(role['rank'])}">
-                        <div class="panel-title-row">
-                            <h4>Ordered Low-Cost / Free Reskilling Pathway (Must-Have #4)</h4>
-                            <span class="mono badge-time">Total Est: {esc(role["pathway"]["total_estimated_hours"])} hrs (~{esc(role["pathway"]["total_estimated_weeks"])} weeks)</span>
-                        </div>
-                        <p class="small-note">{esc(role["pathway"]["disclaimer"])}</p>
-                        <div class="pathway-list">{pathway_html}</div>
-                    </div>
+                            <div class="structural-pane">
+                                <h4>{icon_svg("radio")} Dated Research Signals (Scholarly Publications) Mentioning This Role's Skills</h4>
+                                {sig_citations_html}
+                            </div>
 
-                    <div class="grid-2">
-                        <div class="sub-panel" data-testid="sdg-section-{esc(role['rank'])}">
-                            <h4>UN SDG Alignment & Contribution (Must-Have #5)</h4>
-                            {"".join(sdg_cards)}
+                            <div class="grid-2">
+                                <div class="structural-pane" data-testid="sdg-section-{esc(role['rank'])}">
+                                    <h4>{icon_svg("globe")} UN SDG Alignment &amp; Contribution (Must-Have #5)</h4>
+                                    <div class="sdg-list">{"".join(sdg_cards)}</div>
+                                </div>
+                                <div class="uncertainty-panel" data-testid="uncertainty-section-{esc(role['rank'])}">
+                                    <h4>{icon_svg("shield")} Uncertainty, Limitations &amp; Human-in-Charge Notice</h4>
+                                    <p class="prose-measure"><strong>Role Limitation:</strong> {esc(role["uncertainty_note"])}</p>
+                                    <p class="prose-measure"><strong>Active Scenario Assumption ({esc(scenario["name"])}):</strong> {esc(scenario["assumptions"])}</p>
+                                    <p class="prose-measure"><strong>Epistemic Boundary:</strong> Signals are dated scholarly AI publications (OpenAlex). They show research activity around a skill, NOT job postings, vacancy counts, hiring demand, or salaries in Malaysia. Final career decisions remain with the human learner.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="sub-panel uncertainty-panel" data-testid="uncertainty-section-{esc(role['rank'])}">
-                            <h4>Uncertainty, Limitations & Human-in-Charge Notice</h4>
-                            <p><strong>Role Limitation:</strong> {esc(role["uncertainty_note"])}</p>
-                            <p><strong>Active Scenario Assumption ({esc(scenario["name"])}):</strong> {esc(scenario["assumptions"])}</p>
-                            <p><strong>Epistemic Boundary:</strong> Signals are dated scholarly AI publications (OpenAlex). They show research activity around a skill, NOT job postings, vacancy counts, hiring demand, or salaries in Malaysia. Final career decisions remain with the human learner.</p>
-                        </div>
-                    </div>
+                    </details>
                 </article>
                 """
             )
-        roles_section_html = "".join(role_cards)
+        roles_section_html = f'<div class="roles-stack">{"".join(role_cards)}</div>'
+
+    exec_summary_html = build_executive_summary_html(prof, ev, scenario, sig_payload, len(profile_skills_set))
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -531,361 +603,175 @@ def render_dashboard_html(state: dict) -> str:
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {{
-            --color-primary: #1E40AF;
-            --color-secondary: #2563EB;
-            --color-accent: #B45309;
-            --color-bg: #F8FAFC;
-            --color-fg: #0F172A;
-            --color-card: #FFFFFF;
-            --color-muted: #EFF6FF;
-            --color-muted-fg: #334155;
-            --color-border: #CBD5E1;
-            --color-success-bg: #DCFCE7;
-            --color-success-fg: #14532D;
-            --color-warn-bg: #FEF3C7;
-            --color-warn-fg: #78350F;
-            --color-err-bg: #FEE2E2;
-            --color-err-fg: #7F1D1D;
-        }}
-        * {{ box-sizing: border-box; }}
-        body {{
-            margin: 0;
-            font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: var(--color-bg);
-            color: var(--color-fg);
-            line-height: 1.5;
-        }}
-        .mono {{ font-family: 'Fira Code', monospace; font-size: 0.88em; }}
-        .skip-link {{
-            position: absolute; left: -9999px; top: 8px;
-            background: var(--color-primary); color: #fff; padding: 8px 14px; z-index: 999;
-        }}
-        .skip-link:focus {{ left: 12px; }}
-        a:focus-visible, button:focus-visible, input:focus-visible {{
-            outline: 3px solid var(--color-primary);
-            outline-offset: 2px;
-        }}
-        header {{
-            background: #0F172A;
-            color: #FFFFFF;
-            padding: 20px 24px;
-            border-bottom: 4px solid var(--color-primary);
-        }}
-        .container {{ max-width: 1240px; margin: 0 auto; padding: 18px 20px 48px; }}
-        .header-inner {{
-            max-width: 1240px; margin: 0 auto;
-            display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px;
-        }}
-        .header-title h1 {{ margin: 0; font-size: 1.55rem; letter-spacing: -0.01em; }}
-        .header-title p {{ margin: 4px 0 0; color: #CBD5E1; font-size: 0.92rem; }}
-        .header-badges {{ display: flex; flex-wrap: wrap; gap: 8px; }}
-        .top-banner {{
-            padding: 12px 16px; border-radius: 8px; margin-bottom: 16px;
-            display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;
-            font-weight: 500; border: 1px solid transparent;
-        }}
-        .banner-live {{ background: var(--color-success-bg); color: var(--color-success-fg); border-color: #86EFAC; }}
-        .banner-fallback {{ background: var(--color-warn-bg); color: var(--color-warn-fg); border-color: #FCD34D; }}
-        .banner-error {{ background: var(--color-err-bg); color: var(--color-err-fg); border-color: #FCA5A5; }}
-        .synthetic-guardrail {{
-            background: #EFF6FF; border-left: 4px solid var(--color-primary);
-            padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.92rem; color: #1E3A8A;
-        }}
-        .card {{
-            background: var(--color-card); border: 1px solid var(--color-border);
-            border-radius: 10px; padding: 18px 20px; margin-bottom: 20px;
-            box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
-        }}
-        .section-header {{
-            display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
-            gap: 8px; margin-bottom: 10px;
-        }}
-        .section-header h2 {{ margin: 0; font-size: 1.2rem; color: #1E3A8A; }}
-        .section-sub {{ margin: 0 0 12px; color: var(--color-muted-fg); font-size: 0.93rem; }}
-        .persona-grid {{
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-bottom: 14px;
-        }}
-        .persona-pill {{
-            display: flex; flex-direction: column; padding: 12px 14px; border-radius: 8px;
-            border: 1.5px solid var(--color-border); text-decoration: none; color: var(--color-fg);
-            background: #F8FAFC; transition: background-color 150ms ease, border-color 150ms ease;
-        }}
-        .persona-pill:hover {{ border-color: var(--color-secondary); background: #EFF6FF; }}
-        .persona-pill.active-pill {{
-            border-color: var(--color-primary); background: #DBEAFE; color: #1E3A8A;
-        }}
-        .persona-pill span {{ font-size: 0.83rem; color: var(--color-muted-fg); margin-top: 3px; }}
-        .scenario-grid {{
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; margin-bottom: 12px;
-        }}
-        .scenario-tab {{
-            display: flex; flex-direction: column; padding: 12px 14px; border-radius: 8px;
-            border: 1.5px solid var(--color-border); text-decoration: none; color: var(--color-fg);
-            background: #F8FAFC;
-        }}
-        .scenario-tab.active-scenario {{
-            border-color: var(--color-primary); background: #DBEAFE; color: #1E3A8A;
-        }}
-        .sc-badge {{
-            display: inline-block; font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
-            color: var(--color-accent); margin-bottom: 4px;
-        }}
-        .mode-bar {{ display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }}
-        .mode-btn {{
-            padding: 8px 12px; border-radius: 6px; border: 1px solid var(--color-border);
-            text-decoration: none; color: var(--color-fg); font-size: 0.88rem; font-weight: 500; background: #F8FAFC;
-        }}
-        .mode-btn.active-mode {{ background: var(--color-primary); color: #FFFFFF; border-color: var(--color-primary); }}
-        .skills-grid {{
-            display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 8px; margin: 10px 0 14px;
-        }}
-        .skill-check {{
-            display: flex; align-items: flex-start; gap: 8px; padding: 6px 8px;
-            border: 1px solid #E2E8F0; border-radius: 6px; font-size: 0.87rem; cursor: pointer; background: #fff;
-        }}
-        .skill-check small {{ color: #64748B; }}
-        .btn-primary {{
-            background: var(--color-primary); color: #FFFFFF; border: none; padding: 9px 16px;
-            border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.92rem;
-        }}
-        .btn-primary:hover {{ background: #1E3A8A; }}
-        .table-scroll {{ overflow-x: auto; }}
-        .data-table {{ width: 100%; border-collapse: collapse; font-size: 0.9rem; }}
-        .data-table th, .data-table td {{
-            border-bottom: 1px solid #E2E8F0; padding: 10px 12px; text-align: left; vertical-align: top;
-        }}
-        .data-table th {{ background: #F1F5F9; color: #1E3A8A; font-weight: 600; }}
-        .current-sc-row {{ background: #EFF6FF; }}
-        .sig-summary {{ font-size: 0.83rem; color: #475569; margin-top: 4px; }}
-        .tag-wrap {{ display: flex; flex-wrap: wrap; gap: 6px; }}
-        .tag {{
-            display: inline-block; padding: 3px 8px; border-radius: 5px; font-size: 0.78rem; font-weight: 600;
-        }}
-        .tag-skill {{ background: #E0F2FE; color: #0369A1; }}
-        .tag-green {{ background: var(--color-success-bg); color: var(--color-success-fg); }}
-        .tag-amber {{ background: var(--color-warn-bg); color: var(--color-warn-fg); }}
-        .tag-gap {{ background: #FEE2E2; color: #991B1B; }}
-        .tag-blue {{ background: #DBEAFE; color: #1E40AF; }}
-        .tag-muted {{ background: #F1F5F9; color: #334155; }}
-        .tag-sdg {{ background: #EDE9FE; color: #5B21B6; }}
-        .role-card {{
-            background: #FFFFFF; border: 1.5px solid var(--color-border); border-radius: 10px;
-            padding: 18px 20px; margin-bottom: 18px;
-        }}
-        .role-header {{
-            display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;
-        }}
-        .role-header h3 {{ margin: 6px 0 4px; font-size: 1.25rem; color: #0F172A; }}
-        .role-summary {{ margin: 0; color: var(--color-muted-fg); font-size: 0.94rem; }}
-        .rank-badge {{
-            display: inline-block; background: var(--color-primary); color: #fff;
-            padding: 3px 10px; border-radius: 6px; font-weight: 700; font-size: 0.82rem; margin-right: 6px;
-        }}
-        .score-box {{
-            background: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 8px;
-            padding: 10px 14px; text-align: center; min-width: 120px;
-        }}
-        .score-num {{ font-size: 1.55rem; font-weight: 700; color: var(--color-primary); font-family: 'Fira Code', monospace; }}
-        .score-num span {{ font-size: 0.85rem; color: #475569; }}
-        .score-label {{ font-size: 0.76rem; color: #1E3A8A; font-weight: 600; }}
-        .explain-box {{
-            background: #F8FAFC; border-left: 4px solid var(--color-secondary);
-            padding: 10px 12px; margin: 12px 0; border-radius: 4px; font-size: 0.91rem;
-        }}
-        .formula-breakdown {{ margin-top: 6px; color: #334155; font-size: 0.82rem; }}
-        .grid-2 {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin: 12px 0; }}
-        .sub-panel {{
-            background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 12px 14px; margin-bottom: 10px;
-        }}
-        .sub-panel h4 {{ margin: 0 0 8px; font-size: 0.98rem; color: #1E3A8A; }}
-        .sub-panel p {{ margin: 4px 0; font-size: 0.89rem; }}
-        .citation-list {{ margin: 6px 0 0; padding-left: 18px; font-size: 0.88rem; }}
-        .citation-list li {{ margin-bottom: 6px; }}
-        .pathway-list {{ display: grid; gap: 10px; margin-top: 10px; }}
-        .pathway-step {{
-            background: #FFFFFF; border: 1px solid #CBD5E1; border-left: 4px solid #059669;
-            border-radius: 6px; padding: 10px 12px;
-        }}
-        .pathway-step h4 {{ margin: 4px 0; color: #0F172A; font-size: 0.95rem; }}
-        .step-num {{ font-size: 0.76rem; font-weight: 700; color: #047857; text-transform: uppercase; }}
-        .verify-note {{ font-size: 0.8rem; color: #475569; }}
-        .sdg-item {{
-            background: #FFFFFF; border: 1px solid #DDD6FE; border-left: 4px solid #7C3AED;
-            padding: 8px 10px; border-radius: 6px; margin-bottom: 8px;
-        }}
-        .uncertainty-panel {{ background: #FFFBEB; border-color: #FDE68A; }}
-        .insufficient-box {{
-            background: var(--color-err-bg); color: var(--color-err-fg);
-            border: 2px solid #F87171; border-radius: 10px; padding: 18px 20px; margin-bottom: 20px;
-        }}
-        .insufficient-box h3 {{ margin-top: 0; }}
-        .panel-title-row {{ display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }}
-        .badge-time {{ background: #DCFCE7; color: #14532D; padding: 3px 8px; border-radius: 4px; font-weight: 600; }}
-        .small-note {{ color: #475569; font-size: 0.83rem; margin-bottom: 8px; }}
-        footer {{
-            border-top: 1px solid var(--color-border); padding: 18px 20px; text-align: center;
-            font-size: 0.85rem; color: var(--color-muted-fg); background: #fff;
-        }}
-        @media (prefers-reduced-motion: reduce) {{
-            * {{ transition: none !important; animation: none !important; }}
-        }}
-    </style>
+    <style>{DESIGN_SYSTEM_CSS}</style>
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
-    <header>
+    <header class="app-header">
         <div class="header-inner">
-            <div class="header-title">
-                <h1>AI Skills Compass</h1>
-                <p>SDC Hackathon 2026 · Domain 1 (The Aiversecity Future-Ready Workforce Domain)</p>
+            <div class="brand-group">
+                <div class="brand-mark">{icon_svg("compass")}</div>
+                <div class="header-title">
+                    <h1>AI Skills Compass</h1>
+                    <p>SDC Hackathon 2026 · Domain 1 (The Aiversecity Future-Ready Workforce Domain)</p>
+                </div>
             </div>
             <div class="header-badges">
-                <span class="tag tag-blue">SDG 4 (4.3, 4.4) & SDG 8 (8.2, 8.5)</span>
-                <span class="tag tag-green">Human-in-Charge Advisory</span>
-                <span class="tag tag-amber">Synthetic Profiles Only</span>
+                <span class="tag tag-blue">{icon_svg("globe")} SDG 4 (4.3, 4.4) &amp; SDG 8 (8.2, 8.5)</span>
+                <span class="tag tag-green">{icon_svg("shield")} Human-in-Charge Advisory</span>
+                <span class="tag tag-amber">Synthetic &amp; Public Data Only</span>
             </div>
         </div>
     </header>
 
-    <main id="main-content" class="container">
-        <div class="top-banner {banner_class}" role="status" data-testid="signal-status-banner">
-            <div>
-                <strong>[{esc(badge_text)}]</strong> {esc(sig_payload.get("banner_label", ""))}
+    <nav class="workspace-nav-bar" aria-label="Workspace View and Section Navigation">
+        <div class="workspace-nav-inner">
+            <div class="view-tabs" data-testid="view-switcher">
+                <a href="/?{base_qs}&view=individual" class="view-tab {"active-mode" if not is_employer_hr else ""}" data-testid="view-individual">{icon_svg("user")} Learner View (Individual Path)</a>
+                <a href="/?{base_qs}&view=employer_hr" class="view-tab {"active-mode" if is_employer_hr else ""}" data-testid="view-hr">{icon_svg("building")} Employer / HR Workforce Cohort View</a>
             </div>
-            <div class="mono">Valid Signals: {len(sig_payload.get("signals", []))}</div>
+            <div class="step-jump-nav">
+                <a href="#step1-heading" class="step-jump-link"><span class="step-num-pill">1</span> Profile Intake</a>
+                <a href="#step2-heading" class="step-jump-link"><span class="step-num-pill">2</span> Future Scenarios</a>
+                <a href="#step3-heading" class="step-jump-link"><span class="step-num-pill">3</span> Roles &amp; Pathways</a>
+                <a href="#step4-heading" class="step-jump-link"><span class="step-num-pill">4</span> Signal Radar</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content" class="container">
+        <div class="status-strip">
+            <div class="top-banner {banner_class}" role="status" data-testid="signal-status-banner">
+                <div>
+                    <strong>[{esc(badge_text)}]</strong> {esc(sig_payload.get("banner_label", ""))}
+                </div>
+                <div class="mono">Valid Signals: {len(sig_payload.get("signals", []))}</div>
+            </div>
+
+            <div class="synthetic-guardrail" data-testid="synthetic-data-notice">
+                <span class="guardrail-icon">{icon_svg("shield")}</span>
+                <div class="prose-measure" style="max-width:105ch;">
+                    <strong>Data &amp; Privacy Guardrail (Domain 1 Rule §6):</strong> This prototype uses <strong>synthetic personas and public dated research-publication signals only</strong>. Do not enter real personal identifiers or upload real CVs. Every recommendation cites its dated signal source and never fabricates courses, job statistics, or hiring guarantees.
+                </div>
+            </div>
         </div>
 
-        {view_switcher_html}
+        {exec_summary_html}
 
         {build_employer_hr_view_html(state['scenario_id'], state['signal_mode']) if is_employer_hr else ''}
-
-        <div class="synthetic-guardrail" data-testid="synthetic-data-notice">
-            <strong>Data & Privacy Guardrail (Domain 1 Rule §6):</strong> This prototype uses <strong>synthetic personas and public dated research-publication signals only</strong>. Do not enter real personal identifiers or upload real CVs. Every recommendation cites its dated signal source and never fabricates courses, job statistics, or hiring guarantees. This prototype has no vacancy or hiring data source.
-            <div style="margin-top:6px; font-weight:600;">
-                Quick Judge Navigation:
-                <a href="#step1-heading" style="color:#1E40AF; margin-right:10px;">1. Profile Intake</a> ·
-                <a href="#step2-heading" style="color:#1E40AF; margin:0 10px;">2. Future Scenarios</a> ·
-                <a href="#step3-heading" style="color:#1E40AF; margin:0 10px;">3. Ranked Roles, Pathways &amp; SDGs</a> ·
-                <a href="#step4-heading" style="color:#1E40AF; margin-left:10px;">4. Dated Research Signal Radar</a>
-            </div>
-        </div>
 
         {top_guardrail_banner}
 
         <!-- STEP 1: PROFILE INTAKE -->
         <section class="card" aria-labelledby="step1-heading" data-testid="profile-intake-section">
             <div class="section-header">
-                <h2 id="step1-heading">1. Skills Profile Intake — "Tell Us About Yourself" (Must-Have #1)</h2>
+                <h2 id="step1-heading">{icon_svg("user")} 1. Skills Profile Intake — "Tell Us About Yourself" (Must-Have #1)</h2>
                 <span class="tag tag-blue">Active Profile: {esc(prof["name"])}</span>
             </div>
             <p class="section-sub">
-                Enter your skills, experience, and interests through the <strong>interactive CV/bio questionnaire</strong> below, or select a pre-built synthetic Malaysian worker persona:
+                Select a pre-built synthetic Malaysian worker persona for instant evaluation, or enter custom skills and sample experience text below:
             </p>
 
-            <!-- INTERACTIVE QUESTIONNAIRE & CV PASTE FORM -->
-            <form method="GET" action="/" class="intake-form" data-testid="interactive-intake-form" style="background:#F1F5F9; border:1px solid #CBD5E1; border-radius:8px; padding:16px; margin-bottom:16px;">
-                <input type="hidden" name="profile_id" value="custom">
-                <input type="hidden" name="scenario_id" value="{esc(state['scenario_id'])}">
-                <input type="hidden" name="signal_mode" value="{esc(state['signal_mode'])}">
-                
-                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px; margin-bottom:12px;">
-                    <div>
-                        <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
-                            Your Name / Identifier (Synthetic Only):
-                        </label>
-                        <input type="text" name="custom_name" value="{esc(prof.get('name', 'Custom Learner'))}" placeholder="e.g. Farhan Tan / Fresh Grad" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.9rem;">
-                    </div>
-                    <div>
-                        <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
-                            Experience Level:
-                        </label>
-                        <select name="experience_level" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.9rem; background:#fff;">
-                            <option value="entry" {"selected" if prof.get("experience_level") == "entry" else ""}>Fresh Graduate / Career Switcher (&lt; 2 yrs)</option>
-                            <option value="mid" {"selected" if prof.get("experience_level") in ("mid", None) else ""}>Mid-Level Practitioner (2–6 yrs)</option>
-                            <option value="senior" {"selected" if prof.get("experience_level") == "senior" else ""}>Senior Specialist / Lead (&gt; 6 yrs)</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
-                            Career Interest Track:
-                        </label>
-                        <select name="target_interest" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.9rem; background:#fff;">
-                            <option value="">Explore All Emerging AI Tracks</option>
-                            <option value="operations" {"selected" if prof.get("target_interest") == "operations" else ""}>Operations & Process Optimization</option>
-                            <option value="quality assurance" {"selected" if prof.get("target_interest") == "quality assurance" else ""}>Quality Assurance & LLM Evaluation</option>
-                            <option value="governance" {"selected" if prof.get("target_interest") == "governance" else ""}>AI Ethics, PDPA & Governance</option>
-                            <option value="engineering" {"selected" if prof.get("target_interest") == "engineering" else ""}>RAG & Knowledge Engineering</option>
-                            <option value="sustainability" {"selected" if prof.get("target_interest") == "sustainability" else ""}>Green Tech & ESG Analytics</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div style="margin-bottom:12px;">
-                    <label style="font-weight:600; font-size:0.88rem; color:#1E293B; display:block; margin-bottom:4px;">
-                        Paste Sample CV / Experience Bio / Skill Summary (Domain 1 Item #1):
-                    </label>
-                    <textarea name="cv_bio_text" id="cv-bio-textarea" rows="3" placeholder="Paste your background, e.g.: 'Operations analyst with 3 years experience. Skilled in workflow automation, process mapping, and basic SQL data analysis. Interested in prompt engineering and human-in-the-loop quality evaluation.'" style="width:100%; padding:8px 10px; border:1px solid #94A3B8; border-radius:6px; font-size:0.88rem; font-family:inherit;">{esc(prof.get("cv_bio_text", ""))}</textarea>
-                    <div style="margin-top:6px; margin-bottom:4px; display:flex; align-items:center; gap:8px;">
-                        <span style="font-size:0.82rem; font-weight:600; color:#475569;">Or upload CV/text file (.txt, .md, .csv):</span>
-                        <input type="file" id="cv-file-picker" accept=".txt,.md,.json,.csv" style="font-size:0.8rem;" onchange="
-                            const file = this.files[0];
-                            if (file) {{
-                                const reader = new FileReader();
-                                reader.onload = function(e) {{
-                                    document.getElementById('cv-bio-textarea').value = e.target.result;
-                                }};
-                                reader.readAsText(file);
-                            }}
-                        ">
-                    </div>
-                    <small style="color:#64748B; font-size:0.8rem;">
-                        Our whole-word regex parser automatically detects and matches your skills against the 16 reviewed taxonomy competencies without sending your text to any external third-party server.
-                    </small>
-                </div>
-
-                <details style="margin-bottom:12px; background:#fff; border:1px solid #CBD5E1; border-radius:6px; padding:10px;">
-                    <summary style="cursor:pointer; font-weight:600; color:#1E40AF;">
-                        Or Manually Fine-Tune Skill Checkboxes ({len(profile_skills_set)} of {len(SKILLS_CATALOG)} selected)
-                    </summary>
-                    <div class="skills-grid" style="margin-top:10px;">
-                        {"".join(skill_checkboxes)}
-                    </div>
-                </details>
-
-                <button type="submit" class="btn-primary" style="background:#2563EB; color:#fff; font-weight:700; padding:10px 18px; border:none; border-radius:6px; cursor:pointer;" data-testid="apply-skills-btn">
-                    🔍 Analyze Profile & Match Future Roles
-                </button>
-            </form>
-
-            <div style="margin-top:16px;">
-                <p style="font-weight:600; font-size:0.88rem; color:#475569; margin-bottom:6px;">
-                    Or quick-test pre-built Malaysian personas:
-                </p>
+            <div style="margin-bottom:var(--space-5);">
+                <div class="skill-group-label" style="margin-bottom:var(--space-2);">Quick-Select Synthetic Malaysian Personas:</div>
                 <div class="persona-grid">
                     {"".join(persona_links)}
                 </div>
             </div>
 
-            <div class="sub-panel" style="margin-top:10px;">
-                <p><strong>Current Active Background:</strong> {esc(prof["current_role"])} ({esc(prof["persona_type"])})</p>
-                <p><strong>Detected Skills ({len(profile_skills_set)}):</strong> {", ".join([SKILLS_CATALOG[s]["name"] for s in prof.get("skills", []) if s in SKILLS_CATALOG]) or '<span class="tag tag-gap">None detected (Guardrail active)</span>'}</p>
+            <!-- INTERACTIVE QUESTIONNAIRE & CV PASTE FORM -->
+            <form method="GET" action="/" class="intake-form" data-testid="interactive-intake-form" onsubmit="const b=this.querySelector('[data-testid=apply-skills-btn]'); if(b){{b.textContent='Analyzing Profile & Matching Roles...'; b.style.opacity='0.85';}}">
+                <input type="hidden" name="profile_id" value="custom">
+                <input type="hidden" name="scenario_id" value="{esc(state['scenario_id'])}">
+                <input type="hidden" name="signal_mode" value="{esc(state['signal_mode'])}">
+
+                <div class="form-grid-3">
+                    <div class="form-field">
+                        <label for="input-custom-name">Your Name / Identifier (Synthetic Only)</label>
+                        <input type="text" id="input-custom-name" name="custom_name" class="form-control" value="{esc(prof.get('name', 'Custom Learner'))}" placeholder="e.g. Farhan Tan / Fresh Grad">
+                    </div>
+                    <div class="form-field">
+                        <label for="input-exp-level">Experience Level</label>
+                        <select id="input-exp-level" name="experience_level" class="form-control">
+                            <option value="entry" {"selected" if prof.get("experience_level") == "entry" else ""}>Fresh Graduate / Career Switcher (&lt; 2 yrs)</option>
+                            <option value="mid" {"selected" if prof.get("experience_level") in ("mid", None) else ""}>Mid-Level Practitioner (2–6 yrs)</option>
+                            <option value="senior" {"selected" if prof.get("experience_level") == "senior" else ""}>Senior Specialist / Lead (&gt; 6 yrs)</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="input-interest-track">Career Interest Track</label>
+                        <select id="input-interest-track" name="target_interest" class="form-control">
+                            <option value="">Explore All Emerging AI Tracks</option>
+                            <option value="operations" {"selected" if prof.get("target_interest") == "operations" else ""}>Operations &amp; Process Optimization</option>
+                            <option value="quality assurance" {"selected" if prof.get("target_interest") == "quality assurance" else ""}>Quality Assurance &amp; LLM Evaluation</option>
+                            <option value="governance" {"selected" if prof.get("target_interest") == "governance" else ""}>AI Ethics, PDPA &amp; Governance</option>
+                            <option value="engineering" {"selected" if prof.get("target_interest") == "engineering" else ""}>RAG &amp; Knowledge Engineering</option>
+                            <option value="sustainability" {"selected" if prof.get("target_interest") == "sustainability" else ""}>Green Tech &amp; ESG Analytics</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-field" style="margin-bottom:var(--space-4);">
+                    <label for="cv-bio-textarea">Paste Sample CV / Experience Bio / Skill Summary (Domain 1 Item #1)</label>
+                    <textarea name="cv_bio_text" id="cv-bio-textarea" rows="3" class="form-control" placeholder="Paste your background, e.g.: 'Operations analyst with 3 years experience. Skilled in workflow automation, process mapping, and basic SQL data analysis. Interested in prompt engineering and human-in-the-loop quality evaluation.'">{esc(prof.get("cv_bio_text", ""))}</textarea>
+                    <div class="file-upload-bar">
+                        <span>{icon_svg("upload")} <strong>Load sample text file</strong> (.txt, .md, .csv — processed locally in browser):</span>
+                        <div style="display:flex; align-items:center; gap:8px;">
+                            <input type="file" id="cv-file-picker" accept=".txt,.md,.json,.csv" style="font-size:var(--text-xs);" onchange="
+                                const file = this.files[0];
+                                if (file) {{
+                                    const reader = new FileReader();
+                                    reader.onload = function(e) {{
+                                        document.getElementById('cv-bio-textarea').value = e.target.result;
+                                        const st = document.getElementById('file-upload-status');
+                                        if (st) {{ st.textContent = 'Loaded: ' + file.name + ' (' + e.target.result.length + ' chars)'; st.style.display = 'inline-flex'; }}
+                                    }};
+                                    reader.readAsText(file);
+                                }}
+                            ">
+                            <span id="file-upload-status" class="tag tag-green" style="display:none;"></span>
+                        </div>
+                    </div>
+                    <small class="form-helper">
+                        Whole-word regex parser automatically detects and matches your skills against the 16 reviewed taxonomy competencies without sending text to any third-party server.
+                    </small>
+                </div>
+
+                <details class="skill-drawer">
+                    <summary>
+                        Fine-Tune Skill Checkboxes Manually (<span id="selected-skill-counter" class="tabular">{len(profile_skills_set)}</span> of {len(SKILLS_CATALOG)} selected)
+                    </summary>
+                    <div class="skills-grid">
+                        {"".join(skill_checkboxes)}
+                    </div>
+                </details>
+
+                <div class="form-actions-row">
+                    <button type="submit" class="btn-primary" data-testid="apply-skills-btn">
+                        {icon_svg("search")} Analyze Profile &amp; Match Future Roles
+                    </button>
+                    <span class="small-note">Deterministic calculation · Zero external LLM latency</span>
+                </div>
+            </form>
+
+            <div class="profile-summary-bar">
+                <div><strong>Current Active Background:</strong> {esc(prof["current_role"])} <span class="tag tag-muted">{esc(prof["persona_type"])}</span></div>
+                <div><strong>Detected Skills ({len(profile_skills_set)}):</strong> {", ".join([SKILLS_CATALOG[s]["name"] for s in prof.get("skills", []) if s in SKILLS_CATALOG]) or '<span class="tag tag-gap">None detected (Guardrail active)</span>'}</div>
             </div>
         </section>
 
         <!-- STEP 2: SCENARIO SELECTOR -->
         <section class="card" aria-labelledby="step2-heading" data-testid="scenario-selector-section">
             <div class="section-header">
-                <h2 id="step2-heading">2. Future Scenario Selection — Handling Uncertainty (Must-Have #6)</h2>
-                <span class="tag tag-amber">{esc(scenario["uncertainty_level"])}</span>
+                <h2 id="step2-heading">{icon_svg("layers")} 2. Future Scenario Selection — Handling Uncertainty (Must-Have #6)</h2>
+                <span class="tag tag-amber">Sensitivity: {esc(scenario["uncertainty_level"])}</span>
             </div>
             <p class="section-sub">Switch scenarios to observe how different AI disruption speeds and sustainability mandates shift role rankings:</p>
             <div class="scenario-grid">
                 {"".join(scenario_links)}
             </div>
-            <div class="sub-panel">
-                <p><strong>Active Scenario Assumptions:</strong> {esc(scenario["assumptions"])}</p>
+            <div class="explain-box">
+                <strong>Active Scenario Assumptions ({esc(scenario["name"])}):</strong> {esc(scenario["assumptions"])}
             </div>
         </section>
 
@@ -894,12 +780,15 @@ def render_dashboard_html(state: dict) -> str:
         <!-- STEP 3: EXPLAINABLE ROLE MATCHING, PATHWAYS & SDG MAP -->
         <section class="card" aria-labelledby="step3-heading" data-testid="ranked-roles-section">
             <div class="section-header">
-                <h2 id="step3-heading">3. Explainable Future-Role Rankings, Skill Gaps, Pathways & SDG Links (Must-Haves #3, #4, #5)</h2>
-                <span class="tag tag-green">Deterministic & Inspectable Scoring</span>
+                <h2 id="step3-heading">{icon_svg("compass")} 3. Explainable Future-Role Rankings, Skill Gaps, Pathways &amp; SDG Links (Must-Haves #3, #4, #5)</h2>
+                <div style="display:flex; align-items:center; gap:var(--space-2);">
+                    <span class="tag tag-green">Deterministic &amp; Inspectable Scoring</span>
+                    <button type="button" class="btn-secondary" onclick="toggleAllRoles(this)">Expand All 6 Roles</button>
+                </div>
             </div>
             <p class="section-sub">
-                Each role is scored transparently using <code>0.55 × Skill Readiness + 0.25 × Research Signal Coverage + 0.20 × Scenario Fit</code>.
-                No black-box LLM scores, unverified courses, or fabricated job statistics are used.
+                Each role is scored transparently using <code class="mono">0.55 × Skill Readiness + 0.25 × Research Signal Coverage + 0.20 × Scenario Fit</code>.
+                Top 2 matches are expanded by default; click any role header below to inspect its full pathway and SDG mapping.
             </p>
             {roles_section_html}
         </section>
@@ -907,8 +796,8 @@ def render_dashboard_html(state: dict) -> str:
         <!-- STEP 4: DATED AI RESEARCH SIGNAL LAYER -->
         <section class="card" aria-labelledby="step4-heading" data-testid="signals-radar-section">
             <div class="section-header">
-                <h2 id="step4-heading">4. Future Skills Radar — Dated AI Research Signal Layer (Must-Have #2)</h2>
-                <span class="mono">Source Mode: {esc(sig_payload["source_mode"])}</span>
+                <h2 id="step4-heading">{icon_svg("radio")} 4. Future Skills Radar — Dated AI Research Signal Layer (Must-Have #2)</h2>
+                <span class="tag tag-muted mono">Source Mode: {esc(sig_payload["source_mode"])}</span>
             </div>
             <p class="section-sub">
                 Toggle between the dated OpenAlex snapshot, a live OpenAlex fetch (arXiv as backup), or the malformed-signal guardrail test. These are research publications, not job-market or vacancy data:
@@ -922,7 +811,7 @@ def render_dashboard_html(state: dict) -> str:
                 <table class="data-table" data-testid="signals-table">
                     <thead>
                         <tr>
-                            <th>Signal Title & Summary</th>
+                            <th>Signal Title &amp; Summary</th>
                             <th>Dates (ISO-8601)</th>
                             <th>Attributed Source</th>
                             <th>Extracted Reviewed Taxonomy Skills</th>
@@ -937,12 +826,28 @@ def render_dashboard_html(state: dict) -> str:
     </main>
 
     <footer>
-        <p>
+        <p class="prose-measure" style="margin:0 auto;">
             <strong>AI Skills Compass</strong> · Built for SDC Hackathon 2026 (Domain 1: Aiversecity Future-Ready Workforce) ·
-            Context figures quoted from the SDC 2026 Domain 1 brief (not independently re-verified by this team): Hays Asia Salary Guide 2025 (56% use AI at work vs 26% formally trained, Malaysia) & MOSTI (600,000+ workers needing reskilling) ·
+            Context figures quoted from the SDC 2026 Domain 1 brief (not independently re-verified by this team): Hays Asia Salary Guide 2025 (56% use AI at work vs 26% formally trained, Malaysia) &amp; MOSTI (600,000+ workers needing reskilling) ·
             Licensed under Apache License 2.0.
         </p>
     </footer>
+
+    <script>
+        function updateSkillCount() {{
+            const checked = document.querySelectorAll('input[name="skills"]:checked').length;
+            const el = document.getElementById('selected-skill-counter');
+            if (el) el.textContent = checked;
+        }}
+        function toggleAllRoles(btn) {{
+            const disclosures = document.querySelectorAll('.role-disclosure');
+            const anyClosed = Array.from(disclosures).some(d => !d.open);
+            disclosures.forEach((d, idx) => {{
+                d.open = anyClosed ? true : (idx < 2);
+            }});
+            btn.textContent = anyClosed ? 'Collapse Roles #3–#6' : 'Expand All 6 Roles';
+        }}
+    </script>
 </body>
 </html>
 """

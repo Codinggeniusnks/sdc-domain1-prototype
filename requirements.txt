@@ -1,2 +1,9 @@
-# Add your project dependencies here, one per line.
-runpod
+# Production web server (src/main.py) uses 100% Python 3.10+ standard library
+# (http.server, urllib, json, html, re, datetime, xml.etree, pathlib) for
+# deterministic zero-dependency startup on Replit Autoscale / Reserved VM.
+#
+# Optional offline/serverless RunPod scripts (runpod/handler.py, runpod/train.py)
+# fall back gracefully if these optional packages are not installed:
+# runpod==1.7.7
+# scikit-learn==1.5.2
+# joblib==1.4.2

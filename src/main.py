@@ -853,10 +853,34 @@ def render_dashboard_html(state: dict) -> str:
 """
 
 
+class ReusableThreadingHTTPServer(ThreadingHTTPServer):
+    allow_reuse_address = True
+    daemon_threads = True
+
+
 class CompassRequestHandler(BaseHTTPRequestHandler):
     def log_message(self, fmt: str, *args: object) -> None:
         # Keep console output clean and structured
         sys.stderr.write(f"[AI-Skills-Compass] {self.address_string()} - {fmt % args}\n")
+
+    def do_HEAD(self) -> None:
+        parsed = urllib.parse.urlparse(self.path)
+        if parsed.path == "/favicon.ico":
+            self.send_response(204)
+            self.end_headers()
+            return
+        if parsed.path in ("/api/health", "/api/signals", "/api/evaluate"):
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.end_headers()
+            return
+        if parsed.path in ("/", "/index.html"):
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            return
+        self.send_response(404)
+        self.end_headers()
 
     def do_GET(self) -> None:
         parsed = urllib.parse.urlparse(self.path)
@@ -927,11 +951,11 @@ def main() -> None:
     if "--self-check" in sys.argv:
         raise SystemExit(run_self_check())
 
-    port = int(os.getenv("PORT", "5000"))
-    host = os.getenv("HOST", "0.0.0.0")
+    port = int((os.getenv("PORT") or "5000").strip())
+    host = (os.getenv("HOST") or "0.0.0.0").strip()
     run_self_check()
-    server = ThreadingHTTPServer((host, port), CompassRequestHandler)
-    print(f"AI Skills Compass running at http://127.0.0.1:{port} (bound to {host}:{port})")
+    server = ReusableThreadingHTTPServer((host, port), CompassRequestHandler)
+    print(f"AI Skills Compass listening on http://{host}:{port}", flush=True)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

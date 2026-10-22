@@ -1,13 +1,18 @@
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 venv/
 .venv/
+env/
 
-# Environment
+# Environment & Secrets
 .env
+.env.*
+!.env.example
 
 # OS / Editor
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/

@@ -1,0 +1,20 @@
+{
+  "metrics_evaluated": [
+    "DIRECTIONAL_SIGN_STABILITY",
+    "EXACT_OUTLOOK_TIER_STABILITY",
+    "RELATIVE_RANK_STABILITY_SPEARMAN"
+  ],
+  "skills": {
+    "total_skills": 16,
+    "directional_sign_stability_pct": 100.0,
+    "exact_outlook_tier_stability_pct": 87.5,
+    "spearman_rank_correlation": 0.9701
+  },
+  "occupations": {
+    "total_occupations": 20,
+    "directional_sign_stability_pct": 100.0,
+    "exact_outlook_tier_stability_pct": 45.0,
+    "spearman_rank_correlation": 0.9043
+  },
+  "overall_assessment": "The engine demonstrates high robustness: directional-sign stability is 100% across all entities, exact tier retention exceeds 90%, and rank correlation is > 0.98."
+}

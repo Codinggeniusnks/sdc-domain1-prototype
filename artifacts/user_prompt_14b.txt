@@ -1,0 +1,1515 @@
+<USER_REQUEST>
+Act as an independent Senior Privacy-Preserving Analytics Auditor, Sustainability Aggregation Methodologist, Workforce Intelligence Reviewer and Responsible-AI Engineer.
+
+This is a BOUNDED independent methodology review of:
+
+O6 SDG Contribution Aggregation Engine v1.0.0
+
+Current Stage 14A verdict:
+
+READY FOR O6 METHODOLOGY REVIEW
+
+Do NOT implement fixes during this stage.
+
+Do NOT build O1.
+
+Do NOT build O2.
+
+Do NOT build O3.
+
+Do NOT build O4.
+
+Do NOT build O5.
+
+Do NOT build UI.
+
+Do NOT modify frozen M1/M2/M3/M4/M5/M6.
+
+Do NOT use RunPod.
+
+Do NOT use Argon.
+
+Do NOT push Git.
+
+Do NOT deploy.
+
+Use Gemini 3.8 Flash locally.
+
+==================================================
+FROZEN CORE
+==================================================
+
+M1:
+
+H_blend_0.70A_0.30C1_W1.0
+
+Status:
+FROZEN
+
+
+M2:
+
+v1.1.1
+
+SHA-256:
+
+cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542
+
+
+M6:
+
+v1.1.0
+
+SHA-256:
+
+ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5
+
+
+M3:
+
+v1.1.0
+
+SHA-256:
+
+15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c
+
+
+M4:
+
+v1.1.0
+
+Canonical freeze manifest SHA-256:
+
+448545188ba4e196eaf3502d7803c3d9cfbb1247ec453208cafae990c8db5f2f
+
+
+M5:
+
+v1.1.0
+
+Freeze manifest SHA-256:
+
+94c1f42b46a1fa5e9b026fb82d5225e21c24547cdd58c234f2843cd84eb32ec7
+
+All remain READ ONLY.
+
+==================================================
+CURRENT O6 CANDIDATE
+==================================================
+
+Version:
+
+O6 SDG Contribution Aggregation Engine v1.0.0
+
+Stage 14A reports:
+
+50 synthetic profiles
+
+4 synthetic workforce cohorts
+
+3 synthetic demo regions
+
+minimum cohort size = 5
+
+8 / 8 benchmarks passed
+
+22 / 22 O6 tests passed
+
+125 / 125 active repository tests passed.
+
+==================================================
+SOURCE OF TRUTH
+==================================================
+
+Inspect actual code/data, not only Stage 14A prose.
+
+Read:
+
+data/aggregation/synthetic_workforce_v1.json
+
+data/aggregation/o6_config_v1.json
+
+data/aggregation/o6_benchmark_results_v1.json
+
+data/aggregation/o6_build_manifest_v1.json
+
+src/sdg_aggregation_engine.py
+
+scripts/build_synthetic_workforce.py
+
+scripts/run_o6_benchmarks.py
+
+tests/test_sdg_aggregation_engine.py
+
+artifacts/o6_aggregation_methodology.md
+
+artifacts/o6_metric_definitions.md
+
+artifacts/o6_privacy_suppression_audit.md
+
+artifacts/o6_individual_alignment_audit.md
+
+artifacts/o6_cohort_aggregation_audit.md
+
+artifacts/o6_scenario_aggregation_audit.md
+
+artifacts/o6_m5_contract_audit.md
+
+artifacts/o6_o1_interface.md
+
+artifacts/o6_o2_interface.md
+
+artifacts/o6_fairness_safety.md
+
+artifacts/stage14b_readiness.md
+
+Also inspect:
+
+artifacts/m5_o6_contract_final.md
+
+==================================================
+PRIMARY REVIEW QUESTION
+==================================================
+
+Determine whether O6 v1.0.0 produces:
+
+mathematically correct
+
+privacy-conscious
+
+non-misleading
+
+deterministic
+
+descriptive workforce-alignment analytics
+
+without turning M5 SDG alignment into fabricated real-world impact measurement.
+
+==================================================
+AUDIT 1 — VERSION PINNING
+==================================================
+
+Verify O6 explicitly pins:
+
+M5 = 1.1.0
+
+M4 = 1.1.0
+
+M3 = 1.1.0
+
+M6 = 1.1.0
+
+where applicable.
+
+No:
+
+latest
+
+auto-discovered
+
+unversioned mapping source.
+
+==================================================
+AUDIT 2 — UPSTREAM IMMUTABILITY
+==================================================
+
+Recompute frozen hashes.
+
+Confirm O6 does not write to:
+
+M3
+
+M4
+
+M5
+
+M6
+
+or upstream data directories.
+
+==================================================
+AUDIT 3 — SYNTHETIC-ONLY DATA
+==================================================
+
+Inspect all 50 workforce profiles.
+
+Verify:
+
+no real names
+
+emails
+
+phone numbers
+
+addresses
+
+CV text
+
+student IDs
+
+employee IDs traceable to real people.
+
+Synthetic IDs are allowed.
+
+==================================================
+AUDIT 4 — PROTECTED ATTRIBUTE ABSENCE
+==================================================
+
+Search synthetic data, engine schema and outputs for:
+
+gender
+
+sex
+
+race
+
+ethnicity
+
+religion
+
+income
+
+postcode
+
+marital status
+
+disability
+
+school prestige
+
+family background
+
+and other background/protected attributes.
+
+Expected:
+
+not used.
+
+==================================================
+AUDIT 5 — FAIRNESS CLAIM SEMANTICS
+==================================================
+
+CRITICAL.
+
+Stage 14A reports:
+
+DIR ≡ 1.000
+
+because protected attributes are absent.
+
+Determine whether calling this:
+
+Disparate Impact Ratio
+
+is methodologically valid when:
+
+there are no demographic groups to compare.
+
+Absence of demographic inputs proves:
+
+structural non-use
+
+but does NOT necessarily constitute an empirical disparate-impact analysis.
+
+Return:
+
+VALID FAIRNESS METRIC
+
+or:
+
+MISLEADING FAIRNESS METRIC.
+
+If misleading:
+
+classify at least P2
+
+and recommend wording such as:
+
+"Protected attributes are excluded; demographic disparity is not evaluated in this synthetic O6 dataset."
+
+Do NOT implement yet.
+
+==================================================
+AUDIT 6 — MINIMUM COHORT POLICY
+==================================================
+
+Verify:
+
+minimum_cohort_size = 5
+
+is stored in config.
+
+Confirm documentation states:
+
+PROJECT POLICY
+
+not:
+
+PDPA legal requirement.
+
+==================================================
+AUDIT 7 — SMALL COHORT SUPPRESSION
+==================================================
+
+Test cohort sizes:
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+10.
+
+Expected:
+
+N < 5
+
+suppressed.
+
+N >= 5
+
+eligible unless another disclosure rule applies.
+
+==================================================
+AUDIT 8 — COMPLETE SUPPRESSION
+==================================================
+
+For suppressed cohorts verify ALL sensitive aggregate outputs are hidden:
+
+SDG prevalence
+
+target prevalence
+
+role distribution
+
+skill distribution
+
+capability coverage
+
+pathway alignment distribution
+
+mapping-type distribution
+
+confidence distribution
+
+scenario composition.
+
+No hidden raw-count leak.
+
+==================================================
+AUDIT 9 — DIFFERENCING ATTACK
+==================================================
+
+CRITICAL.
+
+Create parent cohort:
+
+N = 10
+
+subcohort A:
+
+N = 6
+
+subcohort B:
+
+N = 4.
+
+If parent and A are displayed while B is suppressed:
+
+an observer may infer B by subtraction.
+
+Determine whether O6 has:
+
+complementary suppression
+
+or equivalent protection.
+
+Return:
+
+PASS
+
+PARTIAL
+
+FAIL.
+
+==================================================
+AUDIT 10 — NESTED FILTER LEAK
+==================================================
+
+Test combinations such as:
+
+organisation + region
+
+organisation + role
+
+region + role
+
+scenario + organisation
+
+where one filter leaves:
+
+1–4 profiles.
+
+Verify suppressed group cannot be trivially reconstructed from adjacent totals.
+
+==================================================
+AUDIT 11 — SUPPRESSION METADATA
+==================================================
+
+For suppressed output verify only safe metadata is returned, such as:
+
+suppressed = true
+
+suppression_reason
+
+minimum_cohort_size.
+
+Do not reveal exact small-cell count unless explicitly judged safe.
+
+==================================================
+AUDIT 12 — EMPTY COHORT
+==================================================
+
+Verify empty input returns:
+
+INSUFFICIENT_COHORT_DATA
+
+or equivalent
+
+without:
+
+division by zero
+
+NaN
+
+misleading 0%.
+
+==================================================
+AUDIT 13 — DUPLICATE PROFILE ID
+==================================================
+
+Inject duplicate profile ID.
+
+Verify:
+
+reject
+
+or deterministic deduplication.
+
+No silent double counting.
+
+==================================================
+AUDIT 14 — ELIGIBLE DENOMINATOR
+==================================================
+
+CRITICAL.
+
+For every metric define:
+
+total input profiles
+
+eligible profiles
+
+excluded profiles
+
+suppressed profiles.
+
+Ensure prevalence denominator is:
+
+eligible cohort size
+
+not:
+
+raw input size
+
+when malformed/ineligible profiles are excluded.
+
+==================================================
+AUDIT 15 — UNKNOWN / MALFORMED PROFILE
+==================================================
+
+Test profile missing:
+
+role
+
+skills
+
+pathway
+
+or required mapping information.
+
+Determine documented eligibility rule.
+
+Malformed records must not:
+
+crash
+
+or silently become valid zero-alignment profiles
+
+if that biases prevalence.
+
+==================================================
+AUDIT 16 — SDG ALIGNMENT PREVALENCE
+==================================================
+
+Independently hand-calculate several fixtures.
+
+Formula:
+
+SAP_s =
+unique eligible profiles with >=1 valid alignment to SDG s
+/
+eligible cohort size.
+
+One profile counts at most:
+
+once per SDG.
+
+==================================================
+AUDIT 17 — PRIMARY VS SECONDARY ALIGNMENT
+==================================================
+
+Determine whether SAP counts:
+
+primary and secondary SDG mappings.
+
+If both count:
+
+document clearly.
+
+If only primary counts:
+
+document clearly.
+
+No ambiguity.
+
+==================================================
+AUDIT 18 — TARGET PREVALENCE INDEX
+==================================================
+
+Hand-calculate:
+
+TPI_t =
+unique eligible profiles with >=1 valid alignment to target t
+/
+eligible cohort size.
+
+One person counts once per target.
+
+==================================================
+AUDIT 19 — TARGET DOUBLE COUNTING
+==================================================
+
+A profile may reach target t from:
+
+role
+
+current skill
+
+pathway skill.
+
+Verify TPI counts profile once.
+
+==================================================
+AUDIT 20 — MAPPING-TYPE DISTRIBUTION UNIT
+==================================================
+
+CRITICAL.
+
+Stage 14A reports:
+
+direct_share
+
+enabling_share
+
+contextual_share.
+
+Determine exact counting unit.
+
+Possible units:
+
+unique mappings
+
+unique profile-target relations
+
+unique profile-SDG relations.
+
+Document one canonical unit.
+
+Do not mix denominators.
+
+==================================================
+AUDIT 21 — MAPPING SHARE SUM
+==================================================
+
+For nonempty valid cohort:
+
+direct_share
++
+enabling_share
++
+contextual_share
+
+must equal:
+
+1.0
+
+within tolerance.
+
+==================================================
+AUDIT 22 — CAPABILITY COVERAGE FORMULA
+==================================================
+
+CRITICAL.
+
+Canonical intended formula:
+
+SDG Capability Coverage_s =
+
+unique canonical M5 skills relevant to SDG s that are PRESENT in eligible cohort
+
+/
+
+total canonical M5 skills mapped to SDG s.
+
+Verify actual implementation has:
+
+numerator = present relevant skills
+
+denominator = total relevant M5 canonical skills.
+
+Check it has NOT been accidentally inverted.
+
+==================================================
+AUDIT 23 — COVERAGE RANGE
+==================================================
+
+Capability coverage must always fall within:
+
+0 <= coverage <= 1.
+
+Test:
+
+none present → 0
+
+all relevant present → 1.
+
+==================================================
+AUDIT 24 — ROLE DOES NOT COUNT AS SKILL
+==================================================
+
+Role-level mapping must not inflate:
+
+skill capability coverage.
+
+Capability coverage is skill-based.
+
+==================================================
+AUDIT 25 — PATHWAY ALIGNMENT COVERAGE
+==================================================
+
+Verify:
+
+aligned pathway steps
+
+/
+
+eligible pathway steps.
+
+Clarify handling of:
+
+duplicate skills
+
+completed steps
+
+skipped resources
+
+steps with no M5 mapping.
+
+==================================================
+AUDIT 26 — COURSE INDEPENDENCE
+==================================================
+
+Changing:
+
+provider
+
+course URL
+
+certificate
+
+cost
+
+must leave O6 alignment results unchanged.
+
+==================================================
+AUDIT 27 — CURRENT MODE
+==================================================
+
+Verify CURRENT includes only:
+
+current confirmed skills
+
+current occupational context
+
+as contractually defined.
+
+It must NOT assume planned pathway completion.
+
+==================================================
+AUDIT 28 — POST_PATHWAY MODE
+==================================================
+
+Verify POST_PATHWAY adds:
+
+planned pathway skills / target context
+
+as a capability projection.
+
+Mandatory label:
+
+PROJECTED CAPABILITY ALIGNMENT IF PATHWAY COMPLETED
+
+or semantically equivalent.
+
+==================================================
+AUDIT 29 — POST_PATHWAY SAFETY
+==================================================
+
+No claim that user:
+
+will complete pathway
+
+will master skill
+
+will obtain role
+
+will create SDG impact.
+
+==================================================
+AUDIT 30 — CURRENT VS POST_PATHWAY COMPARISON
+==================================================
+
+Verify delta means:
+
+change in mapped capability representation under the hypothetical completion assumption.
+
+Not:
+
+measured impact improvement.
+
+==================================================
+AUDIT 31 — ROLE ALIGNMENT DISTRIBUTION
+==================================================
+
+Check whether Stage 14A phrase:
+
+"headcount distribution across 4-digit MASCO occupations"
+
+matches implementation.
+
+Ensure:
+
+only 4-digit candidate roles
+
+not Major Group fallbacks.
+
+==================================================
+AUDIT 32 — ROLE/SDG DOUBLE COUNTING
+==================================================
+
+If one role maps to multiple targets under same SDG:
+
+headcount for role/SDG prevalence should not multiply improperly.
+
+==================================================
+AUDIT 33 — SCENARIO COMPARISON
+==================================================
+
+Verify:
+
+REFERENCE_2026
+
+MODERATE_COPILOT
+
+FAST_AGENTIC
+
+comparison consumes frozen scenario outputs.
+
+No scenario-specific rewriting of M5 mapping.
+
+==================================================
+AUDIT 34 — SCENARIO CLAIM LANGUAGE
+==================================================
+
+All scenario analytics must be labelled:
+
+structured scenario
+
+estimate
+
+assumption-based
+
+or equivalent.
+
+Not:
+
+forecast certainty.
+
+==================================================
+AUDIT 35 — M6 ISOLATION
+==================================================
+
+Verify O6 cannot mutate:
+
+M6 parameters
+
+scenario values
+
+classification.
+
+==================================================
+AUDIT 36 — INDIVIDUAL OUTPUT
+==================================================
+
+Verify individual alignment view does NOT produce:
+
+personal SDG score
+
+green score
+
+employee score
+
+virtue ranking
+
+impact score.
+
+==================================================
+AUDIT 37 — INDIVIDUAL TRACEABILITY
+==================================================
+
+Individual SDG output should expose:
+
+supporting role
+
+supporting skills
+
+target IDs
+
+mapping type
+
+confidence
+
+quality/caveat flags
+
+M5 version/reference.
+
+==================================================
+AUDIT 38 — EMPLOYEE RANKING
+==================================================
+
+Search code and reports for:
+
+ranking employees by SDG count
+
+alignment count
+
+DIRECT count
+
+confidence
+
+or other sustainability proxy.
+
+Must be absent.
+
+==================================================
+AUDIT 39 — HR DECISION GUARDRAIL
+==================================================
+
+Verify explicit prohibition on use for:
+
+hiring
+
+firing
+
+promotion
+
+performance evaluation
+
+discipline
+
+compensation.
+
+==================================================
+AUDIT 40 — IMPACT QUANTIFICATION
+==================================================
+
+Search all production code/data/reports for:
+
+impact score
+
+SDG performance score
+
+CO2 saved
+
+jobs created
+
+social ROI
+
+impact ROI
+
+actual SDG progress percentage
+
+unless clearly marked as prohibited example.
+
+==================================================
+AUDIT 41 — DIRECT/ENABLING/CONTEXTUAL NUMERIC WEIGHTING
+==================================================
+
+Verify there is no hidden transformation:
+
+DIRECT=3
+
+ENABLING=2
+
+CONTEXTUAL=1
+
+or equivalent.
+
+==================================================
+AUDIT 42 — ALIGNMENT STRENGTH NUMERIC WEIGHTING
+==================================================
+
+Verify STRONG/MODERATE/LIMITED are not converted to cardinal impact points.
+
+==================================================
+AUDIT 43 — CONFIDENCE WEIGHTING
+==================================================
+
+Verify HIGH/MEDIUM/LOW confidence is not multiplied into:
+
+impact score
+
+prevalence score
+
+capability score.
+
+Confidence may be reported separately.
+
+==================================================
+AUDIT 44 — M5 QUALITY FLAGS
+==================================================
+
+Verify propagation of:
+
+SECTOR_DEPENDENT_ALIGNMENT
+
+CONTEXT_DEPENDENT_ALIGNMENT
+
+CONTEXTUAL_BENEFICIARY_ALIGNMENT
+
+and relevant confidence flags.
+
+==================================================
+AUDIT 45 — QUALITY FLAG AGGREGATION
+==================================================
+
+If one profile/cohort includes a flagged mapping:
+
+aggregate should disclose presence
+
+without implying every member has that caveat.
+
+==================================================
+AUDIT 46 — SYNTHETIC WORKFORCE GENERATION
+==================================================
+
+Inspect deterministic generator.
+
+Verify:
+
+50 profiles
+
+4 cohorts
+
+3 regions
+
+consistent counts.
+
+==================================================
+AUDIT 47 — SYNTHETIC DATA BALANCE
+==================================================
+
+Determine whether synthetic cohort composition is:
+
+reasonable for testing
+
+but not falsely described as:
+
+representative of Malaysia.
+
+==================================================
+AUDIT 48 — REAL-WORLD REPRESENTATIVENESS DISCLAIMER
+==================================================
+
+Every synthetic cohort/regional output should state:
+
+DEMO / SYNTHETIC
+
+and:
+
+not representative of actual Malaysian workforce prevalence.
+
+==================================================
+AUDIT 49 — REGIONAL LABELS
+==================================================
+
+Verify:
+
+REGION_A
+
+REGION_B
+
+REGION_C
+
+or similarly synthetic labels.
+
+No implication of actual Malaysian states.
+
+==================================================
+AUDIT 50 — O1 INTERFACE
+==================================================
+
+Inspect:
+
+artifacts/o6_o1_interface.md
+
+and payload hooks.
+
+Confirm O1 can consume:
+
+cohort skill gap counts
+
+core-gap counts
+
+role-transition counts
+
+scenario-pressure distribution
+
+SDG capability distribution.
+
+Do NOT assess UI yet.
+
+==================================================
+AUDIT 51 — O2 INTERFACE
+==================================================
+
+Verify state/version identifiers are sufficient for future recomputation when:
+
+M2 changes
+
+M6 scenario changes
+
+M4 pathway changes.
+
+No background watcher should exist yet.
+
+==================================================
+AUDIT 52 — O5 INTERFACE
+==================================================
+
+Verify O6 provides only:
+
+non-sensitive audit metadata
+
+at this stage.
+
+Do NOT claim empirical demographic fairness without demographic evaluation data.
+
+==================================================
+AUDIT 53 — M5 VERSION PINNING
+==================================================
+
+Verify outputs explicitly identify:
+
+M5 v1.1.0.
+
+==================================================
+AUDIT 54 — M4 VERSION PINNING
+==================================================
+
+Where pathway data is used:
+
+M4 v1.1.0.
+
+==================================================
+AUDIT 55 — SOURCE VERSION TRACEABILITY
+==================================================
+
+Every aggregate output should contain:
+
+source_versions
+
+generated_at
+
+cohort_size / eligible_count
+
+suppression state
+
+data source class.
+
+==================================================
+AUDIT 56 — M5 MAPPING UPDATE SAFETY
+==================================================
+
+O6 should not silently use a newer future:
+
+M5 v1.2+
+
+unless explicitly upgraded.
+
+==================================================
+AUDIT 57 — DETERMINISTIC AGGREGATION
+==================================================
+
+Same input + same pinned versions + same config:
+
+same aggregation result.
+
+Ignore generated_at where appropriate.
+
+==================================================
+AUDIT 58 — DETERMINISTIC SYNTHETIC DATA
+==================================================
+
+Re-run synthetic workforce generator.
+
+Verify stable profile content/hash where deterministic design requires it.
+
+==================================================
+AUDIT 59 — BUILD MANIFEST
+==================================================
+
+Recalculate hashes in:
+
+o6_build_manifest_v1.json.
+
+Require exact match for deterministic files.
+
+==================================================
+AUDIT 60 — TEST COVERAGE
+==================================================
+
+Review 22 tests.
+
+Determine whether they actually cover:
+
+privacy edge cases
+
+differencing
+
+denominators
+
+deduplication
+
+coverage formula direction
+
+scenario isolation
+
+impact-prohibition semantics.
+
+Passing tests are not sufficient if critical cases are missing.
+
+==================================================
+AUDIT 61 — HAND-CALCULATED FIXTURE
+==================================================
+
+Construct at least one manual 5-profile fixture.
+
+Calculate by hand:
+
+SAP
+
+TPI
+
+mapping-type distribution
+
+capability coverage
+
+pathway coverage.
+
+Compare exactly to engine.
+
+==================================================
+AUDIT 62 — ADVERSARIAL PRIVACY FIXTURE
+==================================================
+
+Construct nested cohorts designed specifically to expose:
+
+N=1–4
+
+via subtraction.
+
+Determine whether protection is adequate for prototype claims.
+
+==================================================
+DEFECT CLASSIFICATION
+==================================================
+
+P0 — INVALIDATES O6
+
+Examples:
+
+fabricated impact scores
+
+actual employee ranking
+
+upstream core mutation
+
+privacy disclosure of individual-level sensitive records
+
+P1 — MUST FIX BEFORE O6 FREEZE/UI
+
+Examples:
+
+incorrect prevalence denominator
+
+inverted capability coverage
+
+small-cell suppression bypass
+
+trivial differencing leak while claiming privacy protection
+
+scenario changes M5 semantics
+
+P2 — SHOULD FIX
+
+Examples:
+
+misleading DIR fairness metric
+
+incomplete complementary suppression
+
+ambiguous mapping-count denominator
+
+synthetic representativeness wording
+
+P3 — DOCUMENTATION/POLISH
+
+Examples:
+
+metric naming
+
+disclaimer phrasing
+
+interface metadata clarity.
+
+==================================================
+REQUIRED OUTPUT FILES
+==================================================
+
+Create:
+
+artifacts/stage14b_o6_methodology_review.md
+
+artifacts/o6_metric_forensic_audit.md
+
+artifacts/o6_privacy_forensic_audit.md
+
+artifacts/o6_differencing_attack_review.md
+
+artifacts/o6_capability_coverage_audit.md
+
+artifacts/o6_scenario_forensic_audit.md
+
+artifacts/o6_fairness_claims_review.md
+
+artifacts/o6_governance_safety_review.md
+
+artifacts/o6_o1_interface_review.md
+
+artifacts/o6_o2_interface_review.md
+
+artifacts/stage14c_readiness.md
+
+==================================================
+FINAL RESPONSE
+==================================================
+
+Report:
+
+Methodology:
+VALID / VALID WITH MINOR FIXES / REQUIRES REMEDIATION / INVALID
+
+P0 count
+
+P1 count
+
+P2 count
+
+P3 count
+
+Synthetic-only data:
+PASS / FAIL
+
+Protected attributes absent:
+PASS / FAIL
+
+DIR fairness claim:
+VALID / MISLEADING
+
+Minimum cohort policy:
+VALID / NEEDS FIX
+
+Small cohort suppression:
+PASS / FAIL
+
+Complete suppression:
+PASS / FAIL
+
+Differencing protection:
+PASS / PARTIAL / FAIL
+
+Nested-filter privacy:
+PASS / PARTIAL / FAIL
+
+Eligible denominator:
+PASS / FAIL
+
+SDG Alignment Prevalence:
+PASS / FAIL
+
+Target Prevalence:
+PASS / FAIL
+
+Mapping-type counting unit:
+VALID / AMBIGUOUS / INVALID
+
+Mapping shares:
+PASS / FAIL
+
+Capability coverage formula:
+PASS / FAIL
+
+Capability denominator:
+PASS / FAIL
+
+Capability coverage range:
+PASS / FAIL
+
+Pathway alignment coverage:
+PASS / FAIL
+
+No role/skill double counting:
+PASS / FAIL
+
+CURRENT mode:
+PASS / FAIL
+
+POST_PATHWAY mode:
+PASS / FAIL
+
+Projection disclaimer:
+PASS / FAIL
+
+Scenario comparison:
+PASS / FAIL
+
+Scenario/M5 isolation:
+PASS / FAIL
+
+Individual ranking:
+ABSENT / PRESENT
+
+HR guardrail:
+PASS / FAIL
+
+Impact quantification:
+ABSENT / PRESENT
+
+Mapping-type numeric weighting:
+ABSENT / PRESENT
+
+Confidence pseudo-weighting:
+ABSENT / PRESENT
+
+M5 quality-flag propagation:
+PASS / FAIL
+
+Synthetic representativeness:
+PASS / NEEDS FIX
+
+Regional safety:
+PASS / FAIL
+
+O1 interface:
+READY / NEEDS FIX
+
+O2 interface:
+READY / NEEDS FIX
+
+O5 interface:
+READY / NEEDS FIX
+
+M5 version pinning:
+PASS / FAIL
+
+Deterministic aggregation:
+PASS / FAIL
+
+Deterministic synthetic dataset:
+PASS / FAIL
+
+Build manifest:
+PASS / FAIL
+
+Manual fixture:
+PASS / FAIL
+
+Privacy adversarial fixture:
+PASS / PARTIAL / FAIL
+
+Automated tests:
+passed / total
+
+Test coverage:
+ADEQUATE / NEEDS EXPANSION
+
+Safe for O6 final freeze review:
+YES / AFTER FIXES / NO
+
+Safe for UI:
+YES / AFTER FIXES / NO
+
+==================================================
+FINAL VERDICT
+==================================================
+
+Return exactly ONE:
+
+O6 V1.0 APPROVED FOR FINAL FREEZE REVIEW
+
+TARGETED O6 REMEDIATION REQUIRED
+
+O6 METHODOLOGY REQUIRES MAJOR REWORK
+
+Do NOT implement remediation.
+
+Do NOT build O1/O2/O3/O4/O5.
+
+Do NOT build UI.
+
+STOP.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-24T01:52:51+08:00.
+</ADDITIONAL_METADATA>

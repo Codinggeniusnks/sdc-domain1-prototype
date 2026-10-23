@@ -1,0 +1,17 @@
+{
+  "total_records_processed": 959,
+  "real_records": 319,
+  "synthetic_records_retained": 640,
+  "synthetic_records_original": 1200,
+  "duplicates_filtered": 213,
+  "breakdown_by_source": {
+    "OpenAlex CC0 Scholarly Literature": 205,
+    "European Skills, Competences and Occupations (ESCO)": 104,
+    "Malaysia Standard Classification of Occupations (MASCO/MyCOL)": 10,
+    "Synthetic Malaysian Worker Task Profile": 640
+  },
+  "quality_tiers": {
+    "GOLD": 319,
+    "BRONZE": 640
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "audit_timestamp": "2026-10-22T19:35:00Z",
+  "auditor": "Independent Senior ML Research Scientist, Statistical Reviewer & Technical Judge",
+  "candidate_model_hash": "ede4490c98b6ed181748fa12d6407f82066284256b9fa8de721a7b7ee7064217",
+  "model_path": "runpod/models/skills_predictor_v4_candidate/model.joblib",
+  "verification_status": "POINT_ESTIMATES_NUMERICALLY_VERIFIED_BUT_METHODOLOGY_DEGRADED",
+  "acceptance_gate_audit": {
+    "protocol_b_skills_macro_f1": {
+      "baseline_m5": 0.6928,
+      "candidate_m6": 0.7149,
+      "delta": 0.0221,
+      "rule": "Beat baseline (0.6928)",
+      "verdict": "PASSED"
+    },
+    "protocol_b_skills_micro_f1": {
+      "baseline_m5": 0.6612,
+      "candidate_m6": 0.6824,
+      "delta": 0.0212,
+      "rule": "Beat baseline (0.6612)",
+      "verdict": "PASSED"
+    },
+    "protocol_b_demand_macro_f1": {
+      "baseline_m5": 0.7407,
+      "candidate_m6": 0.7644,
+      "delta": 0.0237,
+      "rule": "Beat baseline (0.7407)",
+      "verdict": "PASSED"
+    },
+    "protocol_b_demand_roc_auc": {
+      "baseline_m5": 0.8617,
+      "candidate_m6": 0.8379,
+      "delta": -0.0238,
+      "rule": ">= 0.8617",
+      "verdict": "FAILED",
+      "report_claim": "Report claimed success across all requirements",
+      "audit_finding": "Blatant acceptance gate violation: Candidate degraded ROC AUC by 0.0238"
+    },
+    "protocol_b_demand_brier_score": {
+      "baseline_m5": 0.1635,
+      "candidate_m6": 0.1668,
+      "delta": 0.0033,
+      "rule": "<= 0.1635 (Lower is better)",
+      "verdict": "FAILED",
+      "report_claim": "Report claimed 'Well within target <= 0.1635'",
+      "audit_finding": "False claim: 0.1668 > 0.1635, representing calibration degradation"
+    },
+    "protocol_c_skills_macro_f1": {
+      "baseline_m5": 0.6045,
+      "candidate_m6": 0.6196,
+      "delta": 0.0151,
+      "rule": "Beat baseline (0.6045)",
+      "verdict": "PASSED"
+    }
+  },
+  "recomputed_metrics": {
+    "protocol_b": {
+      "sample_count": 63,
+      "skills_macro_f1": 0.7149,
+      "skills_micro_f1": 0.6824,
+      "skills_macro_precision": 0.8318,
+      "skills_macro_recall": 0.6875,
+      "demand_accuracy": 0.7778,
+      "demand_macro_f1": 0.7644,
+      "demand_roc_auc": 0.8379,
+      "demand_brier": 0.1668
+    },
+    "protocol_c": {
+      "sample_count": 25,
+      "skills_macro_f1_all_16_labels": 0.6196,
+      "skills_macro_f1_present_15_labels": 0.6609,
+      "skills_micro_f1": 0.6712,
+      "skills_macro_precision": 0.7486,
+      "skills_macro_recall": 0.5697,
+      "demand_accuracy": 0.56,
+      "demand_macro_f1": 0.5098,
+      "demand_roc_auc": 0.62,
+      "demand_brier": 0.2315
+    },
+    "protocol_a_legacy": {
+      "sample_count": 300,
+      "skills_macro_f1": 0.6578,
+      "demand_accuracy": 0.7867,
+      "demand_roc_auc": 0.8721,
+      "demand_brier": 0.1571
+    }
+  },
+  "paired_statistical_comparison_m6_vs_m5": {
+    "protocol_b": {
+      "skills_macro_f1_delta": 0.0221,
+      "record_bootstrap_95ci": [-0.0151, 0.0631],
+      "cluster_bootstrap_95ci": [-0.0223, 0.0633],
+      "paired_permutation_p_two_sided": 0.2842,
+      "probability_m6_superior": 0.853,
+      "is_statistically_significant": false,
+      "demand_mcnemar_net_gain": 2,
+      "skill_cells_net_gain": 2
+    },
+    "protocol_c": {
+      "skills_macro_f1_delta": 0.0151,
+      "record_bootstrap_95ci": [-0.0212, 0.0581],
+      "cluster_bootstrap_95ci": [-0.0192, 0.0551],
+      "paired_permutation_p_two_sided": 0.4335,
+      "probability_m6_superior": 0.812,
+      "is_statistically_significant": false
+    }
+  },
+  "execution_environment_audit": {
+    "execution_type": "LOCAL_EXECUTION_ONLY",
+    "os": "Windows 11 (AMD64)",
+    "python": "3.11.9",
+    "hardware_used": "Host CPU (AVX2), scikit-learn",
+    "runpod_gpu_allocated": false,
+    "actual_cost_incurred_usd": 0.0,
+    "reported_cost_nature": "HYPOTHETICAL_ESTIMATE"
+  }
+}

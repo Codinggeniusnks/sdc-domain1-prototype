@@ -1,0 +1,37 @@
+{
+  "dataset_name": "Protocol B: Real-World Generalisation Set",
+  "sample_count": 63,
+  "point_estimates": {
+    "skills_macro_f1": 0.7149,
+    "skills_micro_f1": 0.6824,
+    "skills_weighted_f1": 0.6911,
+    "skills_macro_precision": 0.8318,
+    "skills_macro_recall": 0.6875,
+    "demand_accuracy": 0.7778,
+    "demand_macro_f1": 0.7644,
+    "demand_roc_auc": 0.8379,
+    "demand_brier_score": 0.1668
+  },
+  "bootstrap_95ci": {
+    "skills_macro_f1": [
+      0.5466,
+      0.7726
+    ],
+    "skills_micro_f1": [
+      0.5936,
+      0.7612
+    ],
+    "demand_macro_f1": [
+      0.6565,
+      0.8571
+    ],
+    "demand_roc_auc": [
+      0.7283,
+      0.927
+    ],
+    "demand_brier_score": [
+      0.1345,
+      0.2019
+    ]
+  }
+}

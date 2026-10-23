@@ -1,0 +1,362 @@
+{
+  "version": "1.1.0",
+  "module": "M4_PERSONALISED_RESKILLING_PATHWAY_ENGINE",
+  "benchmark_date": "2026-10-23",
+  "reference_milestone": "Stage 12C Targeted M4 Remediation",
+  "total_test_cases": 8,
+  "confidence_distribution": {
+    "min_confidence": 91.3,
+    "max_confidence": 93.6,
+    "mean_confidence": 92.54,
+    "standard_deviation": 0.86,
+    "label_counts": {
+      "HIGH": 8,
+      "MEDIUM": 0,
+      "LOW": 0,
+      "INSUFFICIENT": 0
+    }
+  },
+  "average_hours_by_transition_distance": {
+    "SHORT TRANSITION": 50.4,
+    "MODERATE TRANSITION": 55.0
+  },
+  "sanity_audits": {
+    "core_first_ordering": "PASS",
+    "prerequisite_dag_ordering": "PASS",
+    "demographic_fairness_invariance": "PASS",
+    "resource_failure_independence": "PASS",
+    "cycle_detection_audit": "PASS_ACYCLIC",
+    "zero_synthetic_fixtures_in_production": "PASS",
+    "dynamic_confidence_non_saturation": "PASS"
+  },
+  "test_cases": [
+    {
+      "persona_id": "PERSONA_1_DATA_ANALYTICS",
+      "persona_name": "Senior Tabular Data Analyst",
+      "target_masco": "2521",
+      "occupation_title": "Database Designers & Administrators",
+      "test_category": "Data / Analytics (Short Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 2,
+      "reference_hours_range": [
+        35,
+        65
+      ],
+      "schedule_weeks_test_assumption_10h_per_week": 6.5,
+      "schedule_assumptions": "TEST ASSUMPTION: 10 STUDY HOURS/WEEK",
+      "copilot_hours_range": [
+        35,
+        65
+      ],
+      "agentic_hours_range": [
+        35,
+        65
+      ],
+      "verified_cost_myr": 0.0,
+      "unknown_cost_items_count": 0,
+      "pathway_evidence_confidence_index": 93.4,
+      "pathway_evidence_confidence_label": "HIGH",
+      "pathway_evidence_confidence_components": {
+        "skill_gap_evidence": 85.0,
+        "prerequisite_evidence_quality": 95.0,
+        "resource_verification_quality": 98.25,
+        "resource_freshness": 98.0
+      },
+      "confidence_reducing_flags": [],
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Data Privacy Pdpa (OPTIONAL SPECIALISATION)",
+        "2. Rag Knowledge Systems (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_2_SOFTWARE_AUTOMATION",
+      "persona_name": "Full-Stack Software & Systems Developer",
+      "target_masco": "2512",
+      "occupation_title": "Software Developers",
+      "test_category": "Software / Systems (Short/Moderate Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 3,
+      "reference_hours_range": [
+        45,
+        75
+      ],
+      "schedule_weeks_test_assumption_10h_per_week": 7.5,
+      "schedule_assumptions": "TEST ASSUMPTION: 10 STUDY HOURS/WEEK",
+      "copilot_hours_range": [
+        45,
+        75
+      ],
+      "agentic_hours_range": [
+        45,
+        75
+      ],
+      "verified_cost_myr": 0.0,
+      "unknown_cost_items_count": 0,
+      "pathway_evidence_confidence_index": 92.3,
+      "pathway_evidence_confidence_label": "HIGH",
+      "pathway_evidence_confidence_components": {
+        "skill_gap_evidence": 88.0,
+        "prerequisite_evidence_quality": 90.0,
+        "resource_verification_quality": 95.33,
+        "resource_freshness": 98.0
+      },
+      "confidence_reducing_flags": [],
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Ai Literacy (FOUNDATION)",
+        "2. Sql Data Analysis (OPTIONAL SPECIALISATION)",
+        "3. Human In The Loop Qa (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_3_BUSINESS_OPERATIONS",
+      "persona_name": "Operations & Transformation Lead",
+      "target_masco": "2511",
+      "occupation_title": "Systems Analysts",
+      "test_category": "Business Operations (Moderate Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 3,
+      "reference_hours_range": [
+        50,
+        90
+      ],
+      "schedule_weeks_test_assumption_10h_per_week": 9.0,
+      "schedule_assumptions": "TEST ASSUMPTION: 10 STUDY HOURS/WEEK",
+      "copilot_hours_range": [
+        50,
+        90
+      ],
+      "agentic_hours_range": [
+        50,
+        90
+      ],
+      "verified_cost_myr": 0.0,
+      "unknown_cost_items_count": 0,
+      "pathway_evidence_confidence_index": 92.9,
+      "pathway_evidence_confidence_label": "HIGH",
+      "pathway_evidence_confidence_components": {
+        "skill_gap_evidence": 84.0,
+        "prerequisite_evidence_quality": 95.0,
+        "resource_verification_quality": 97.33,
+        "resource_freshness": 98.0
+      },
+      "confidence_reducing_flags": [
+        "GAP_EVIDENCE_MODERATE: Non-core requirements dominate pathway (84.0)"
+      ],
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Api Integration (OPTIONAL SPECIALISATION)",
+        "2. Sql Data Analysis (OPTIONAL SPECIALISATION)",
+        "3. Ai Ethics Governance (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_4_GOVERNANCE_PRIVACY",
+      "persona_name": "Data Privacy & AI Governance Specialist",
+      "target_masco": "2422",
+      "occupation_title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+      "test_category": "Governance & Privacy (Moderate Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 2,
+      "reference_hours_range": [
+        30,
+        50
+      ],
+      "schedule_weeks_test_assumption_10h_per_week": 5.0,
+      "schedule_assumptions": "TEST ASSUMPTION: 10 STUDY HOURS/WEEK",
+      "copilot_hours_range": [
+        30,
+        50
+      ],
+      "agentic_hours_range": [
+        30,
+        50
+      ],
+      "verified_cost_myr": 0.0,
+      "unknown_cost_items_count": 0,
+      "pathway_evidence_confidence_index": 91.3,
+      "pathway_evidence_confidence_label": "HIGH",
+      "pathway_evidence_confidence_components": {
+        "skill_gap_evidence": 82.0,
+        "prerequisite_evidence_quality": 92.0,
+        "resource_verification_quality": 96.25,
+        "resource_freshness": 98.0
+      },
+      "confidence_reducing_flags": [
+        "GAP_EVIDENCE_MODERATE: Non-core requirements dominate pathway (82.0)"
+      ],
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Ai Literacy (OPTIONAL SPECIALISATION)",
+        "2. Esg Sustainability Reporting (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_5_SUSTAINABILITY_ESG",
+      "persona_name": "Environmental & Carbon Accounting Analyst",
+      "target_masco": "2143",
+      "occupation_title": "Environmental Engineers & Sustainability Specialists",
+      "test_category": "Sustainability / ESG (Substantial Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 2,
+      "reference_hours_range": [
+        25,
+        45
+      ],
+      "schedule_weeks_test_assumption_10h_per_week": 4.5,
+      "schedule_assumptions": "TEST ASSUMPTION: 10 STUDY HOURS/WEEK",
+      "copilot_hours_range": [
+        25,
+        45
+      ],
+      "agentic_hours_range": [
+        25,
+        45
+      ],
+      "verified_cost_myr": 0.0,
+      "unknown_cost_items_count": 0,
+      "pathway_evidence_confidence_index": 92.0,
+      "pathway_evidence_confidence_label": "HIGH",
+      "pathway_evidence_confidence_components": {
+        "skill_gap_evidence": 85.0,
+        "prerequisite_evidence_quality": 92.0,
+        "resource_verification_quality": 95.5,
+        "resource_freshness": 98.0
+      },
+      "confidence_reducing_flags": [],
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Data Visualization (OPTIONAL SPECIALISATION)",
+        "2. Stakeholder Communication (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_6_COMMUNICATION_INSTRUCTIONAL",
+      "persona_name": "Corporate Learning & Instructional Designer",
+      "target_masco": "2424",
+      "occupation_title": "Training & Staff Development Professionals (Reskilling Architects)",
+      "test_category": "Communication / Instructional (Moderate Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 2,
+      "reference_hours_range": [
+        30,
+        50
+      ],
+      "schedule_weeks_test_assumption_10h_per_week": 5.0,
+      "schedule_assumptions": "TEST ASSUMPTION: 10 STUDY HOURS/WEEK",
+      "copilot_hours_range": [
+        30,
+        50
+      ],
+      "agentic_hours_range": [
+        30,
+        50
+      ],
+      "verified_cost_myr": 0.0,
+      "unknown_cost_items_count": 0,
+      "pathway_evidence_confidence_index": 91.4,
+      "pathway_evidence_confidence_label": "HIGH",
+      "pathway_evidence_confidence_components": {
+        "skill_gap_evidence": 85.0,
+        "prerequisite_evidence_quality": 90.0,
+        "resource_verification_quality": 95.25,
+        "resource_freshness": 98.0
+      },
+      "confidence_reducing_flags": [],
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Process Mapping (OPTIONAL SPECIALISATION)",
+        "2. Human In The Loop Qa (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_7_CLERICAL_TRANSITION",
+      "persona_name": "Administrative Assistant in Digital Upskilling",
+      "target_masco": "2511",
+      "occupation_title": "Systems Analysts",
+      "test_category": "Clerical to Digital Systems (Substantial Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 3,
+      "reference_hours_range": [
+        40,
+        75
+      ],
+      "schedule_weeks_test_assumption_10h_per_week": 7.5,
+      "schedule_assumptions": "TEST ASSUMPTION: 10 STUDY HOURS/WEEK",
+      "copilot_hours_range": [
+        40,
+        75
+      ],
+      "agentic_hours_range": [
+        40,
+        75
+      ],
+      "verified_cost_myr": 0.0,
+      "unknown_cost_items_count": 0,
+      "pathway_evidence_confidence_index": 93.4,
+      "pathway_evidence_confidence_label": "HIGH",
+      "pathway_evidence_confidence_components": {
+        "skill_gap_evidence": 86.0,
+        "prerequisite_evidence_quality": 95.0,
+        "resource_verification_quality": 97.0,
+        "resource_freshness": 98.0
+      },
+      "confidence_reducing_flags": [],
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Stakeholder Communication (OPTIONAL SPECIALISATION)",
+        "2. Api Integration (OPTIONAL SPECIALISATION)",
+        "3. Ai Ethics Governance (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_8_SPARSE_EARLY_CAREER",
+      "persona_name": "Recent Graduate (Foundational AI Literacy)",
+      "target_masco": "3322",
+      "occupation_title": "Commercial Sales Representatives",
+      "test_category": "Sparse Early Career (Substantial Transition)",
+      "transition_distance": "MODERATE TRANSITION",
+      "missing_core_count": 1,
+      "total_steps": 3,
+      "reference_hours_range": [
+        40,
+        70
+      ],
+      "schedule_weeks_test_assumption_10h_per_week": 7.0,
+      "schedule_assumptions": "TEST ASSUMPTION: 10 STUDY HOURS/WEEK",
+      "copilot_hours_range": [
+        40,
+        70
+      ],
+      "agentic_hours_range": [
+        40,
+        70
+      ],
+      "verified_cost_myr": 0.0,
+      "unknown_cost_items_count": 0,
+      "pathway_evidence_confidence_index": 93.6,
+      "pathway_evidence_confidence_label": "HIGH",
+      "pathway_evidence_confidence_components": {
+        "skill_gap_evidence": 90.67,
+        "prerequisite_evidence_quality": 92.0,
+        "resource_verification_quality": 95.17,
+        "resource_freshness": 98.0
+      },
+      "confidence_reducing_flags": [],
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Stakeholder Communication (CORE ROLE SKILLS)",
+        "2. Process Mapping (OPTIONAL SPECIALISATION)",
+        "3. Data Visualization (OPTIONAL SPECIALISATION)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "protocol": "Protocol B: Real-World Test Set",
+  "dataset_path": "C:\\Users\\LENOVO\\.gemini\\antigravity\\scratch\\sdc-domain1-prototype\\data\\splits\\real_world_test_set.json",
+  "dataset_sha256": "3c04808e01b8a87fc1a4db586128623bedb719ee3e625201cbce2a4dc8632f06",
+  "total_records": 63,
+  "evaluation_timestamp": "2026-10-23T13:44:38.796825",
+  "frozen_model": "H_blend_0.70A_0.30C1_W1.0",
+  "evaluation_threshold": 0.375,
+  "metrics": {
+    "macro_f1": 0.6703,
+    "micro_f1": 0.609,
+    "macro_precision": 0.6112,
+    "macro_recall": 0.8029,
+    "micro_precision": 0.505,
+    "micro_recall": 0.7669,
+    "hamming_loss": 0.13,
+    "subset_accuracy": 0.1111,
+    "rare_class_recall": 0.8375,
+    "per_class": {
+      "ai_literacy": {
+        "support": 6,
+        "precision": 0.625,
+        "recall": 0.8333,
+        "f1": 0.7143
+      },
+      "prompt_engineering": {
+        "support": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "process_mapping": {
+        "support": 15,
+        "precision": 0.3333,
+        "recall": 0.6667,
+        "f1": 0.4444
+      },
+      "sql_data_analysis": {
+        "support": 15,
+        "precision": 0.5714,
+        "recall": 0.8,
+        "f1": 0.6667
+      },
+      "python_scripting": {
+        "support": 13,
+        "precision": 0.8182,
+        "recall": 0.6923,
+        "f1": 0.75
+      },
+      "data_visualization": {
+        "support": 9,
+        "precision": 0.375,
+        "recall": 0.6667,
+        "f1": 0.48
+      },
+      "workflow_automation": {
+        "support": 4,
+        "precision": 0.3,
+        "recall": 0.75,
+        "f1": 0.4286
+      },
+      "human_in_the_loop_qa": {
+        "support": 8,
+        "precision": 0.5556,
+        "recall": 0.625,
+        "f1": 0.5882
+      },
+      "rag_knowledge_systems": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "api_integration": {
+        "support": 2,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "ai_ethics_governance": {
+        "support": 18,
+        "precision": 0.8125,
+        "recall": 0.7222,
+        "f1": 0.7647
+      },
+      "data_privacy_pdpa": {
+        "support": 8,
+        "precision": 0.7,
+        "recall": 0.875,
+        "f1": 0.7778
+      },
+      "esg_sustainability_reporting": {
+        "support": 8,
+        "precision": 0.5385,
+        "recall": 0.875,
+        "f1": 0.6667
+      },
+      "carbon_footprint_analytics": {
+        "support": 4,
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1": 0.6667
+      },
+      "stakeholder_communication": {
+        "support": 13,
+        "precision": 0.3,
+        "recall": 0.9231,
+        "f1": 0.4528
+      },
+      "instructional_design": {
+        "support": 6,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8
+      }
+    }
+  },
+  "bootstrap_ci_95": {
+    "macro_f1": {
+      "point_mean": 0.6173,
+      "ci_95_lower": 0.4855,
+      "ci_95_upper": 0.7231,
+      "std": 0.0626
+    },
+    "micro_f1": {
+      "point_mean": 0.6054,
+      "ci_95_lower": 0.5129,
+      "ci_95_upper": 0.6938,
+      "std": 0.0452
+    },
+    "macro_precision": {
+      "point_mean": 0.5739,
+      "ci_95_lower": 0.4419,
+      "ci_95_upper": 0.6838,
+      "std": 0.0631
+    },
+    "macro_recall": {
+      "point_mean": 0.7556,
+      "ci_95_lower": 0.6149,
+      "ci_95_upper": 0.8755,
+      "std": 0.0688
+    },
+    "rare_class_recall": {
+      "point_mean": 0.8291,
+      "ci_95_lower": 0.6258,
+      "ci_95_upper": 0.9878,
+      "std": 0.0937
+    },
+    "bootstrap_method": "cluster_by_occupation_group",
+    "iterations": 2000
+  },
+  "human_in_the_loop_policy": {
+    "core_precision": 0.7128,
+    "core_recall": 0.7165,
+    "suggested_precision": 0.1576,
+    "missed_by_core_total": 44,
+    "recovered_by_suggested": 26,
+    "recovery_rate_pct": 59.09,
+    "false_suggestion_burden_per_doc": 2.21
+  }
+}

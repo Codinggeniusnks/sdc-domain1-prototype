@@ -1,0 +1,1438 @@
+{
+  "version": "1.1.0",
+  "scoring_date": "2026-10-23",
+  "total_skills_scored": 16,
+  "profiles": [
+    {
+      "skill_id": "ai_literacy",
+      "skill_name": "Foundational AI Literacy & LLM Capabilities",
+      "category": "AI Core",
+      "demand_shortage_index": 94.7,
+      "demand_momentum_index": 87.9,
+      "employment_wage_index": 75.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 68.0,
+      "automation_index": 12.0,
+      "augmentation_index": 78.0,
+      "policy_priority_index": 88.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 16,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "High demand momentum (87.9) coincides with high AI exposure (68.0), resolved via dominant augmentation potential (78.0).",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-ai_literacy_-FUTURE-4033203876b8",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2511",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies ai_literacy as an emerging technical prerequisite for Systems Analysts & Solutions Architects."
+        },
+        {
+          "signal_id": "SIG-SKI-ai_literacy_-FUTURE-cff41d619c9b",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2529",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies ai_literacy as an emerging technical prerequisite for Database & Network Professionals NEC (Data Scientists & AI Engineers)."
+        },
+        {
+          "signal_id": "SIG-OALEX-ai_literacy",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: ai_literacy",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 11.2x (121 papers in 2024-2026 vs 14 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MOSTI-AIGE-2024-ai_literacy",
+          "source_id": "POL-MOSTI-AIGE-2024",
+          "publisher": "Ministry of Science, Technology and Innovation (MOSTI) & National AI Office (NAIO)",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-09-20",
+          "evidence_reference": "MOSTI National Guidelines on AI Governance and Ethics (AIGE), Document ID: MOSTI/NAIO/2024/01",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_MANDATE): National Guidelines on Artificial Intelligence Governance and Ethics (AIGE)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-ai_literacy",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_STRATEGIC_PLAN): Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [],
+      "quality_flags": [],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "prompt_engineering",
+      "skill_name": "Structured Prompting & Context Engineering",
+      "category": "AI Core",
+      "demand_shortage_index": 89.0,
+      "demand_momentum_index": 80.0,
+      "employment_wage_index": 75.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 68.0,
+      "automation_index": 12.0,
+      "augmentation_index": 78.0,
+      "policy_priority_index": 60.0,
+      "overall_outlook": "RISING",
+      "confidence_index": 40.0,
+      "confidence_label": "LOW",
+      "source_count": 8,
+      "independent_evidence_families": [
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY"
+      ],
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "High demand momentum (80.0) coincides with high AI exposure (68.0), resolved via dominant augmentation potential (78.0).",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-prompt_engin-FUTURE-de2566af4c02",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2529",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies prompt_engineering as an emerging technical prerequisite for Database & Network Professionals NEC (Data Scientists & AI Engineers)."
+        },
+        {
+          "signal_id": "SIG-SKI-prompt_engin-FUTURE-4c99c52fcbb2",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2166",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies prompt_engineering as an emerging technical prerequisite for Graphic & Multimedia Designers (UI-UX & Digital Product Designers)."
+        },
+        {
+          "signal_id": "SIG-OALEX-prompt_engineering",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: prompt_engineering",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 17.1x (18 papers in 2024-2026 vs 1 baseline, volume-damped)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_SOURCE_COUNT",
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "process_mapping",
+      "skill_name": "Business Process Mapping & SOP Design",
+      "category": "Operations",
+      "demand_shortage_index": 95.8,
+      "demand_momentum_index": 89.1,
+      "employment_wage_index": 65.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 38.0,
+      "automation_index": 18.0,
+      "augmentation_index": 48.0,
+      "policy_priority_index": 84.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 16,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-process_mapp-FUTURE-1daee6178d03",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2511",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies process_mapping as an emerging technical prerequisite for Systems Analysts & Solutions Architects."
+        },
+        {
+          "signal_id": "SIG-SKI-process_mapp-FUTURE-8d460604c1f0",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2411",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies process_mapping as an emerging technical prerequisite for Accountants & Financial Auditors."
+        },
+        {
+          "signal_id": "SIG-OALEX-process_mapping",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: process_mapping",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 27.6x (29 papers in 2024-2026 vs 1 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MITI-NSS-2024-process_mapping",
+          "source_id": "POL-MITI-NSS-2024",
+          "publisher": "Ministry of Investment, Trade and Industry (MITI)",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-05-28",
+          "evidence_reference": "MITI National Semiconductor Strategy Policy Document (Launched May 2024)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_NATIONAL_PRIORITY): National Semiconductor Strategy (NSS)."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-process_mapping",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, Task Automation Matrix",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.92,
+          "summary": "Automation exposure of 18.0% for standardized subtasks."
+        }
+      ],
+      "uncertainties": [
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "sql_data_analysis",
+      "skill_name": "SQL & Structured Data Analysis",
+      "category": "Data & Engineering",
+      "demand_shortage_index": 94.7,
+      "demand_momentum_index": 87.9,
+      "employment_wage_index": 75.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 54.0,
+      "automation_index": 15.0,
+      "augmentation_index": 65.0,
+      "policy_priority_index": 92.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 16,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "High demand momentum (87.9) coincides with high AI exposure (54.0), resolved via dominant augmentation potential (65.0).",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-sql_data_ana-FUTURE-2cd1b862855b",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2521",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies sql_data_analysis as an emerging technical prerequisite for Database Designers & Administrators."
+        },
+        {
+          "signal_id": "SIG-SKI-sql_data_ana-FUTURE-be7c3ab10644",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2411",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies sql_data_analysis as an emerging technical prerequisite for Accountants & Financial Auditors."
+        },
+        {
+          "signal_id": "SIG-OALEX-sql_data_analysis",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: sql_data_analysis",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 4.4x (18 papers in 2024-2026 vs 5 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-BURSA-ESG-2024-sql_data_analysis",
+          "source_id": "POL-BURSA-ESG-2024",
+          "publisher": "Bursa Malaysia Berhad & Securities Commission Malaysia",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-06-15",
+          "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition, 2024 Update), Listing Requirements Rule 9.45",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (MANDATORY_REGULATION): Bursa Malaysia Enhanced Sustainability Reporting Framework (Main & ACE Market)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-sql_data_analysis",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_STRATEGIC_PLAN): Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [],
+      "quality_flags": [],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "python_scripting",
+      "skill_name": "Python Scripting & Data Automation",
+      "category": "Data & Engineering",
+      "demand_shortage_index": 93.5,
+      "demand_momentum_index": 80.0,
+      "employment_wage_index": 75.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 54.0,
+      "automation_index": 15.0,
+      "augmentation_index": 65.0,
+      "policy_priority_index": 84.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 14,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "High demand momentum (80.0) coincides with high AI exposure (54.0), resolved via dominant augmentation potential (65.0).",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-python_scrip-FUTURE-33d14ba34066",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2512",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies python_scripting as an emerging technical prerequisite for Software Developers."
+        },
+        {
+          "signal_id": "SIG-SKI-python_scrip-FUTURE-00e11a223e5f",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2529",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies python_scripting as an emerging technical prerequisite for Database & Network Professionals NEC (Data Scientists & AI Engineers)."
+        },
+        {
+          "signal_id": "SIG-OALEX-python_scripting",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: python_scripting",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 5.4x (22 papers in 2024-2026 vs 5 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-python_scripting",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_STRATEGIC_PLAN): Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MITI-NSS-2024-python_scripting",
+          "source_id": "POL-MITI-NSS-2024",
+          "publisher": "Ministry of Investment, Trade and Industry (MITI)",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-05-28",
+          "evidence_reference": "MITI National Semiconductor Strategy Policy Document (Launched May 2024)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_NATIONAL_PRIORITY): National Semiconductor Strategy (NSS)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [],
+      "quality_flags": [],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "data_visualization",
+      "skill_name": "Data Visualization & KPI Storytelling",
+      "category": "Operations",
+      "demand_shortage_index": 88.0,
+      "demand_momentum_index": 85.0,
+      "employment_wage_index": 65.0,
+      "research_momentum_index": 38.0,
+      "ai_exposure_index": 38.0,
+      "automation_index": 18.0,
+      "augmentation_index": 48.0,
+      "policy_priority_index": 92.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 10,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-data_visuali-FUTURE-6e78fd8fd1b5",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2166",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies data_visualization as an emerging technical prerequisite for Graphic & Multimedia Designers (UI-UX & Digital Product Designers)."
+        },
+        {
+          "signal_id": "SIG-SKI-data_visuali-FUTURE-8b05d332ce86",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 3322",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies data_visualization as an emerging technical prerequisite for Commercial Sales Representatives (Technical & B2B Solutions)."
+        },
+        {
+          "signal_id": "SIG-OALEX-data_visualization",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: data_visualization",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 20.0x (6 papers in 2024-2026 vs 0 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-BURSA-ESG-2024-data_visualization",
+          "source_id": "POL-BURSA-ESG-2024",
+          "publisher": "Bursa Malaysia Berhad & Securities Commission Malaysia",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-06-15",
+          "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition, 2024 Update), Listing Requirements Rule 9.45",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (MANDATORY_REGULATION): Bursa Malaysia Enhanced Sustainability Reporting Framework (Main & ACE Market)."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-data_visualization",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, Task Automation Matrix",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.92,
+          "summary": "Automation exposure of 18.0% for standardized subtasks."
+        }
+      ],
+      "uncertainties": [
+        "Divergence between academic research velocity and immediate domestic employer vacancy rate.",
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "workflow_automation",
+      "skill_name": "Agentic Workflow Orchestration & Tool Integration",
+      "category": "AI Core",
+      "demand_shortage_index": 93.5,
+      "demand_momentum_index": 80.0,
+      "employment_wage_index": 75.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 68.0,
+      "automation_index": 12.0,
+      "augmentation_index": 78.0,
+      "policy_priority_index": 78.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 11,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "High demand momentum (80.0) coincides with high AI exposure (68.0), resolved via dominant augmentation potential (78.0).",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-workflow_aut-FUTURE-a6cfa83b004e",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2512",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies workflow_automation as an emerging technical prerequisite for Software Developers."
+        },
+        {
+          "signal_id": "SIG-SKI-workflow_aut-FUTURE-125fb12e951d",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2511",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies workflow_automation as an emerging technical prerequisite for Systems Analysts & Solutions Architects."
+        },
+        {
+          "signal_id": "SIG-OALEX-workflow_automation",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: workflow_automation",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 18.3x (33 papers in 2024-2026 vs 2 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-workflow_automation",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_STRATEGIC_PLAN): Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "human_in_the_loop_qa",
+      "skill_name": "Human-in-the-Loop Evaluation & AI Testing",
+      "category": "Governance & QA",
+      "demand_shortage_index": 93.1,
+      "demand_momentum_index": 89.1,
+      "employment_wage_index": 71.0,
+      "research_momentum_index": 38.0,
+      "ai_exposure_index": 42.0,
+      "automation_index": 8.0,
+      "augmentation_index": 60.0,
+      "policy_priority_index": 88.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 60.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 14,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-human_in_the-FUTURE-25524ac8be74",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2511",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies human_in_the_loop_qa as an emerging technical prerequisite for Systems Analysts & Solutions Architects."
+        },
+        {
+          "signal_id": "SIG-SKI-human_in_the-FUTURE-ec7b647936e5",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2152",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies human_in_the_loop_qa as an emerging technical prerequisite for Electronic Engineers (Semiconductor IC Design & Testing)."
+        },
+        {
+          "signal_id": "SIG-OALEX-human_in_the_loop_qa",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: human_in_the_loop_qa",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 50.0x (15 papers in 2024-2026 vs 0 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MOSTI-AIGE-2024-human_in_the_loop_qa",
+          "source_id": "POL-MOSTI-AIGE-2024",
+          "publisher": "Ministry of Science, Technology and Innovation (MOSTI) & National AI Office (NAIO)",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-09-20",
+          "evidence_reference": "MOSTI National Guidelines on AI Governance and Ethics (AIGE), Document ID: MOSTI/NAIO/2024/01",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_MANDATE): National Guidelines on Artificial Intelligence Governance and Ethics (AIGE)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MITI-NSS-2024-human_in_the_loop_qa",
+          "source_id": "POL-MITI-NSS-2024",
+          "publisher": "Ministry of Investment, Trade and Industry (MITI)",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-05-28",
+          "evidence_reference": "MITI National Semiconductor Strategy Policy Document (Launched May 2024)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_NATIONAL_PRIORITY): National Semiconductor Strategy (NSS)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Divergence between academic research velocity and immediate domestic employer vacancy rate.",
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "rag_knowledge_systems",
+      "skill_name": "Retrieval-Augmented Generation (RAG) & Citation Grounding",
+      "category": "Data & Engineering",
+      "demand_shortage_index": 86.8,
+      "demand_momentum_index": 75.0,
+      "employment_wage_index": 75.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 54.0,
+      "automation_index": 15.0,
+      "augmentation_index": 65.0,
+      "policy_priority_index": 60.0,
+      "overall_outlook": "RISING",
+      "confidence_index": 40.0,
+      "confidence_label": "LOW",
+      "source_count": 7,
+      "independent_evidence_families": [
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY"
+      ],
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "High demand momentum (75.0) coincides with high AI exposure (54.0), resolved via dominant augmentation potential (65.0).",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-rag_knowledg-FUTURE-b72fb3ea19e2",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2512",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies rag_knowledge_systems as an emerging technical prerequisite for Software Developers."
+        },
+        {
+          "signal_id": "SIG-SKI-rag_knowledg-FUTURE-e6bfb69e0ec7",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2521",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies rag_knowledge_systems as an emerging technical prerequisite for Database Designers & Administrators."
+        },
+        {
+          "signal_id": "SIG-OALEX-rag_knowledge_systems",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: rag_knowledge_systems",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 28.6x (30 papers in 2024-2026 vs 1 baseline, volume-damped)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_SOURCE_COUNT",
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "api_integration",
+      "skill_name": "REST API Integration & Resilient Fallbacks",
+      "category": "Data & Engineering",
+      "demand_shortage_index": 91.7,
+      "demand_momentum_index": 80.0,
+      "employment_wage_index": 75.0,
+      "research_momentum_index": 38.0,
+      "ai_exposure_index": 54.0,
+      "automation_index": 15.0,
+      "augmentation_index": 65.0,
+      "policy_priority_index": 96.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 11,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "High demand momentum (80.0) coincides with high AI exposure (54.0), resolved via dominant augmentation potential (65.0).",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-api_integrat-FUTURE-fe2239e43ab4",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2512",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies api_integration as an emerging technical prerequisite for Software Developers."
+        },
+        {
+          "signal_id": "SIG-SKI-api_integrat-FUTURE-8957eb42b303",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2519",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies api_integration as an emerging technical prerequisite for Software & Applications Developers & Analysts NEC (Full-Stack & Cloud Engineers)."
+        },
+        {
+          "signal_id": "SIG-OALEX-api_integration",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: api_integration",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 16.7x (5 papers in 2024-2026 vs 0 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-JPDP-PDPA-2024-api_integration",
+          "source_id": "POL-JPDP-PDPA-2024",
+          "publisher": "Personal Data Protection Department (JPDP) & Ministry of Digital",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-07-31",
+          "evidence_reference": "Laws of Malaysia, Act A1720, Personal Data Protection (Amendment) Act 2024",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ENACTED_LEGISLATION): Personal Data Protection Act 2010 (Amendment Act 2024)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Divergence between academic research velocity and immediate domestic employer vacancy rate.",
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "ai_ethics_governance",
+      "skill_name": "AI Ethics, Fairness Auditing & Governance",
+      "category": "Governance & QA",
+      "demand_shortage_index": 91.7,
+      "demand_momentum_index": 80.0,
+      "employment_wage_index": 71.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 42.0,
+      "automation_index": 8.0,
+      "augmentation_index": 60.0,
+      "policy_priority_index": 96.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 60.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 13,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-ai_ethics_go-FUTURE-c5661a5142e8",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2529",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies ai_ethics_governance as an emerging technical prerequisite for Database & Network Professionals NEC (Data Scientists & AI Engineers)."
+        },
+        {
+          "signal_id": "SIG-SKI-ai_ethics_go-FUTURE-0b6ac6b8090b",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2421",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies ai_ethics_governance as an emerging technical prerequisite for Management & Organization Analysts (Business Transformation Consultants)."
+        },
+        {
+          "signal_id": "SIG-OALEX-ai_ethics_governance",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: ai_ethics_governance",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 12.5x (79 papers in 2024-2026 vs 8 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MOSTI-AIGE-2024-ai_ethics_governance",
+          "source_id": "POL-MOSTI-AIGE-2024",
+          "publisher": "Ministry of Science, Technology and Innovation (MOSTI) & National AI Office (NAIO)",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-09-20",
+          "evidence_reference": "MOSTI National Guidelines on AI Governance and Ethics (AIGE), Document ID: MOSTI/NAIO/2024/01",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_MANDATE): National Guidelines on Artificial Intelligence Governance and Ethics (AIGE)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-JPDP-PDPA-2024-ai_ethics_governance",
+          "source_id": "POL-JPDP-PDPA-2024",
+          "publisher": "Personal Data Protection Department (JPDP) & Ministry of Digital",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-07-31",
+          "evidence_reference": "Laws of Malaysia, Act A1720, Personal Data Protection (Amendment) Act 2024",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ENACTED_LEGISLATION): Personal Data Protection Act 2010 (Amendment Act 2024)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [],
+      "quality_flags": [],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "data_privacy_pdpa",
+      "skill_name": "Data Privacy & Malaysian PDPA Compliance",
+      "category": "Governance & QA",
+      "demand_shortage_index": 86.8,
+      "demand_momentum_index": 75.0,
+      "employment_wage_index": 71.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 42.0,
+      "automation_index": 8.0,
+      "augmentation_index": 60.0,
+      "policy_priority_index": 96.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 60.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 11,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-data_privacy-FUTURE-692dcc36adde",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2521",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies data_privacy_pdpa as an emerging technical prerequisite for Database Designers & Administrators."
+        },
+        {
+          "signal_id": "SIG-SKI-data_privacy-FUTURE-efa73bdf55b6",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2522",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies data_privacy_pdpa as an emerging technical prerequisite for Systems Administrators & Cloud Infrastructure Engineers."
+        },
+        {
+          "signal_id": "SIG-OALEX-data_privacy_pdpa",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: data_privacy_pdpa",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 9.8x (25 papers in 2024-2026 vs 3 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MOSTI-AIGE-2024-data_privacy_pdpa",
+          "source_id": "POL-MOSTI-AIGE-2024",
+          "publisher": "Ministry of Science, Technology and Innovation (MOSTI) & National AI Office (NAIO)",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-09-20",
+          "evidence_reference": "MOSTI National Guidelines on AI Governance and Ethics (AIGE), Document ID: MOSTI/NAIO/2024/01",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_MANDATE): National Guidelines on Artificial Intelligence Governance and Ethics (AIGE)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-JPDP-PDPA-2024-data_privacy_pdpa",
+          "source_id": "POL-JPDP-PDPA-2024",
+          "publisher": "Personal Data Protection Department (JPDP) & Ministry of Digital",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-07-31",
+          "evidence_reference": "Laws of Malaysia, Act A1720, Personal Data Protection (Amendment) Act 2024",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ENACTED_LEGISLATION): Personal Data Protection Act 2010 (Amendment Act 2024)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "esg_sustainability_reporting",
+      "skill_name": "ESG Frameworks & UN SDG Impact Mapping",
+      "category": "Sustainability",
+      "demand_shortage_index": 93.0,
+      "demand_momentum_index": 85.0,
+      "employment_wage_index": 71.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 30.0,
+      "automation_index": 5.0,
+      "augmentation_index": 45.0,
+      "policy_priority_index": 92.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 60.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 12,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-esg_sustaina-FUTURE-3acc0b1fd645",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2411",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies esg_sustainability_reporting as an emerging technical prerequisite for Accountants & Financial Auditors."
+        },
+        {
+          "signal_id": "SIG-SKI-esg_sustaina-FUTURE-f1e00ade66df",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2422",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies esg_sustainability_reporting as an emerging technical prerequisite for Policy & Corporate Planning Professionals."
+        },
+        {
+          "signal_id": "SIG-OALEX-esg_sustainability_reporting",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: esg_sustainability_reporting",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 12.4x (13 papers in 2024-2026 vs 1 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-BURSA-ESG-2024-esg_sustainability_reporting",
+          "source_id": "POL-BURSA-ESG-2024",
+          "publisher": "Bursa Malaysia Berhad & Securities Commission Malaysia",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-06-15",
+          "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition, 2024 Update), Listing Requirements Rule 9.45",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (MANDATORY_REGULATION): Bursa Malaysia Enhanced Sustainability Reporting Framework (Main & ACE Market)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "carbon_footprint_analytics",
+      "skill_name": "Carbon-Aware Compute & Resource Telemetry",
+      "category": "Sustainability",
+      "demand_shortage_index": 89.0,
+      "demand_momentum_index": 80.0,
+      "employment_wage_index": 71.0,
+      "research_momentum_index": 38.0,
+      "ai_exposure_index": 30.0,
+      "automation_index": 5.0,
+      "augmentation_index": 45.0,
+      "policy_priority_index": 92.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 60.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 10,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-carbon_footp-FUTURE-04f09efa88a5",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2522",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies carbon_footprint_analytics as an emerging technical prerequisite for Systems Administrators & Cloud Infrastructure Engineers."
+        },
+        {
+          "signal_id": "SIG-SKI-carbon_footp-FUTURE-872329716cbf",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2151",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies carbon_footprint_analytics as an emerging technical prerequisite for Electrical Engineers."
+        },
+        {
+          "signal_id": "SIG-OALEX-carbon_footprint_analytics",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: carbon_footprint_analytics",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 3.3x (1 papers in 2024-2026 vs 0 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-BURSA-ESG-2024-carbon_footprint_analytics",
+          "source_id": "POL-BURSA-ESG-2024",
+          "publisher": "Bursa Malaysia Berhad & Securities Commission Malaysia",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-06-15",
+          "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition, 2024 Update), Listing Requirements Rule 9.45",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (MANDATORY_REGULATION): Bursa Malaysia Enhanced Sustainability Reporting Framework (Main & ACE Market)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Divergence between academic research velocity and immediate domestic employer vacancy rate.",
+        "Research velocity is based on a small historical publication sample (< 5 papers in 2020-2023)."
+      ],
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "stakeholder_communication",
+      "skill_name": "Human-Centred Change & Stakeholder Communication",
+      "category": "Operations",
+      "demand_shortage_index": 95.5,
+      "demand_momentum_index": 85.0,
+      "employment_wage_index": 65.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 38.0,
+      "automation_index": 18.0,
+      "augmentation_index": 48.0,
+      "policy_priority_index": 60.0,
+      "overall_outlook": "RISING",
+      "confidence_index": 60.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 13,
+      "independent_evidence_families": [
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-stakeholder_-FUTURE-5ff20fd1e3ba",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2421",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies stakeholder_communication as an emerging technical prerequisite for Management & Organization Analysts (Business Transformation Consultants)."
+        },
+        {
+          "signal_id": "SIG-SKI-stakeholder_-FUTURE-ab9b019c5092",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2422",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies stakeholder_communication as an emerging technical prerequisite for Policy & Corporate Planning Professionals."
+        },
+        {
+          "signal_id": "SIG-OALEX-stakeholder_communication",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: stakeholder_communication",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 6.7x (57 papers in 2024-2026 vs 11 baseline, volume-damped)."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-stakeholder_communication",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, Task Automation Matrix",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.92,
+          "summary": "Automation exposure of 18.0% for standardized subtasks."
+        }
+      ],
+      "uncertainties": [],
+      "quality_flags": [],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "skill_id": "instructional_design",
+      "skill_name": "Competency Matrix & Reskilling Curriculum Design",
+      "category": "Operations",
+      "demand_shortage_index": 68.5,
+      "demand_momentum_index": 65.0,
+      "employment_wage_index": 65.0,
+      "research_momentum_index": 95.0,
+      "ai_exposure_index": 38.0,
+      "automation_index": 18.0,
+      "augmentation_index": 48.0,
+      "policy_priority_index": 84.0,
+      "overall_outlook": "RISING",
+      "confidence_index": 60.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 9,
+      "independent_evidence_families": [
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "OPENALEX_SCHOLARLY",
+        "TALENTCORP_IMPACT_STUDY"
+      ],
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-SKI-instructiona-FUTURE-cbff5c913dc9",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL Future Skills Survey, MASCO 2424",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "MyCOL industry employer survey identifies instructional_design as an emerging technical prerequisite for Training & Staff Development Professionals (Reskilling Strategists)."
+        },
+        {
+          "signal_id": "SIG-SKI-instructiona-FUTURE-5f4c5d74b4ee",
+          "source_id": "SRC-TALENTCORP-IMPACT-2024",
+          "publisher": "TalentCorp Malaysia",
+          "source_version": "1.0.0",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-18",
+          "evidence_reference": "TalentCorp Impact Study 2024, Chapter 3 (Cross-Cutting Workforce Strategy), p. 45",
+          "measurement_granularity": "National Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "TalentCorp Impact Study identifies instructional_design as a high-demand skill required for Corporate Reskilling & Competency Architect."
+        },
+        {
+          "signal_id": "SIG-OALEX-instructional_design",
+          "source_id": "SRC-OPENALEX-TEMPORAL",
+          "publisher": "OurResearch (OpenAlex)",
+          "source_version": "Snapshot 2020-2026",
+          "observation_period": "2020-2026",
+          "publication_date": "2026-10-21",
+          "evidence_reference": "OpenAlex Works API, Concept: instructional_design",
+          "measurement_granularity": "Global Academic Literature",
+          "mapping_confidence": 0.9,
+          "summary": "Publication velocity ratio of 8.4x (97 papers in 2024-2026 vs 15 baseline, volume-damped)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-instructional_design",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_STRATEGIC_PLAN): Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MITI-NSS-2024-instructional_design",
+          "source_id": "POL-MITI-NSS-2024",
+          "publisher": "Ministry of Investment, Trade and Industry (MITI)",
+          "source_version": "Official National Policy Directive",
+          "observation_period": "2024-2030",
+          "publication_date": "2024-05-28",
+          "evidence_reference": "MITI National Semiconductor Strategy Policy Document (Launched May 2024)",
+          "measurement_granularity": "Statutory National Policy",
+          "mapping_confidence": 0.95,
+          "summary": "National policy mandate (ACTIVE_NATIONAL_PRIORITY): National Semiconductor Strategy (NSS)."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-instructional_design",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, Task Automation Matrix",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.92,
+          "summary": "Automation exposure of 18.0% for standardized subtasks."
+        }
+      ],
+      "uncertainties": [],
+      "quality_flags": [],
+      "freshness_days": 2,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    }
+  ]
+}

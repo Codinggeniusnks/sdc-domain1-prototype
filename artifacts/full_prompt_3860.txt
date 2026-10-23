@@ -1,0 +1,1013 @@
+<USER_REQUEST>
+Act as a Senior Labour-Market Quantitative Engineer, Explainable-AI Methodology Engineer and Reproducibility Auditor.
+
+Stage 9C Argon audit has completed.
+
+Final verdict:
+
+TARGETED M2 REMEDIATION REQUIRED
+
+This is NOT a full rebuild.
+
+Do NOT redesign the entire M2 architecture.
+
+Do NOT build M3.
+
+Do NOT build final M6 scenarios.
+
+Do NOT modify frozen M1.
+
+Do NOT deploy.
+
+Do NOT push to GitHub.
+
+Use Gemini 3.8 Flash.
+
+==================================================
+SOURCE OF TRUTH
+==================================================
+
+Read:
+
+artifacts/stage9c_argon_m2_audit.md
+artifacts/m2_backtest_forensic_review.md
+artifacts/m2_confidence_forensic_review.md
+artifacts/m2_source_version_review.md
+artifacts/m2_m3_safety_contract.md
+artifacts/m2_m6_safety_contract.md
+artifacts/stage9d_readiness.md
+
+Current implementation:
+
+data/trends/manifests/trend_source_manifest.json
+data/trends/processed/trend_signals_v1.json
+data/trends/processed/skill_trend_profiles_v1.json
+data/trends/processed/occupation_trend_profiles_v1.json
+data/trends/processed/m2_scoring_config_v1.json
+data/trends/processed/m2_confidence_config_v1.json
+data/trends/processed/m2_build_manifest_v1.json
+data/trends/processed/source_freshness.json
+
+src/trend_engine.py
+scripts/build_trend_scores.py
+scripts/update_trend_sources.py
+tests/test_trend_engine_foundation.py
+
+==================================================
+AUDIT VERDICT
+==================================================
+
+P0:
+0
+
+P1:
+3
+
+P2:
+4
+
+P3:
+2
+
+P1-1:
+ILO Working Paper 96 (2023) must no longer be the sole GenAI occupational-exposure benchmark.
+
+Decision:
+VERSION ALONGSIDE 2025
+
+P1-2:
+Skill confidence was inflated because ILO occupational exposure and DOSM wage evidence were counted as independent evidence for all 16 skills.
+
+P1-3:
+OpenDOSM 1-digit occupational wage evidence was propagated to 4-digit roles without sufficiently explicit granularity metadata.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Produce:
+
+M2 TREND INTELLIGENCE v1.1
+
+Resolve ALL P1 defects.
+
+Also correct the important P2 analytical issues where feasible.
+
+The resulting M2 must become methodologically safe for downstream:
+
+M3 Role Matching
+
+and
+
+M6 Scenario Modelling.
+
+==================================================
+P1-1 — ILO 2025 BENCHMARK
+==================================================
+
+Current source:
+
+ILO Working Paper 96
+2023 GenAI occupational exposure.
+
+Add and version the updated official source:
+
+ILO Working Paper 140
+Generative AI and Jobs: A Refined Global Index of Occupational Exposure
+2025.
+
+Do NOT delete historical 2023 evidence.
+
+Represent:
+
+SRC-ILO-GENAI-2023
+
+SRC-ILO-GENAI-2025
+
+Both belong to the SAME evidence family:
+
+ILO_GENAI_STUDY
+
+They must NOT count as two independent confirmations.
+
+==================================================
+ILO VERSION POLICY
+==================================================
+
+Where the 2025 benchmark provides appropriate comparable coverage:
+
+2025 becomes the CURRENT methodological reference.
+
+2023 remains:
+
+historical benchmark
+methodology-history evidence
+version-comparison evidence.
+
+Do NOT blindly average 2023 and 2025 values.
+
+==================================================
+ILO FIELDS
+==================================================
+
+Preserve:
+
+source_id
+source_version
+publication_year
+methodology_version
+occupation taxonomy
+occupation code
+mapping method
+mapping confidence
+exposure class
+AI exposure
+automation interpretation
+augmentation interpretation
+evidence reference
+
+Do not fabricate values absent from official material.
+
+==================================================
+ILO COMPARISON
+==================================================
+
+For every comparable occupation report:
+
+2023 exposure
+2025 exposure
+difference
+classification change
+mapping confidence
+interpretation change
+
+Classify:
+
+UNCHANGED
+INCREASED
+DECREASED
+CATEGORY_CHANGED
+NOT_COMPARABLE
+
+==================================================
+P1-2 — SKILL CONFIDENCE RECALIBRATION
+==================================================
+
+Remove unconditional skill-level evidence-family contributions from:
+
+ILO_GENAI_STUDY
+
+and
+
+DOSM_WAGES.
+
+ILO primarily measures occupational/task exposure.
+
+DOSM wages primarily measure occupational labour-market context.
+
+They must not automatically count as direct evidence for a skill.
+
+==================================================
+EVIDENCE RELATION TYPE
+==================================================
+
+Classify evidence contributing to a skill as:
+
+DIRECT_SKILL_EVIDENCE
+
+MAPPED_TASK_EVIDENCE
+
+OCCUPATIONAL_PROXY
+
+MACRO_CONTEXT
+
+Confidence implications:
+
+DIRECT_SKILL_EVIDENCE:
+full eligible evidence contribution.
+
+MAPPED_TASK_EVIDENCE:
+eligible subject to mapping confidence.
+
+OCCUPATIONAL_PROXY:
+weak contextual contribution only where a defensible mapping exists.
+
+MACRO_CONTEXT:
+must NOT increase independent skill-evidence-family count.
+
+==================================================
+CONFIDENCE ENGINE v1.1
+==================================================
+
+Recalculate confidence using:
+
+source authority
+
+genuinely independent evidence families
+
+directness of evidence
+
+mapping confidence
+
+Malaysia relevance
+
+temporal coverage
+
+freshness
+
+cross-source agreement
+
+component coverage
+
+Do NOT couple confidence to:
+
+outlook magnitude.
+
+Valid outputs must include combinations such as:
+
+STRONGLY RISING + LOW CONFIDENCE
+
+STABLE + HIGH CONFIDENCE.
+
+==================================================
+DO NOT HARD-CODE ARGON'S DIAGNOSTIC DISTRIBUTION
+==================================================
+
+Argon observed approximately:
+
+8 HIGH
+6 MEDIUM
+2 LOW
+
+after removing invalid proxy contributions.
+
+This is diagnostic only.
+
+Recompute the authentic v1.1 distribution from evidence.
+
+==================================================
+LEAVE-ONE-FAMILY-OUT CONFIDENCE TEST
+==================================================
+
+For every skill recompute confidence while removing each evidence family individually.
+
+At minimum test:
+
+TALENTCORP_MYCOL
+TALENTCORP_IMPACT_STUDY
+MALAYSIAN_GOVERNMENT_POLICY
+OPENALEX_SCHOLARLY
+ILO_GENAI_STUDY
+DOSM_WAGES
+
+Report:
+
+skill_id
+family_removed
+confidence_before
+confidence_after
+label_before
+label_after
+
+This tests whether HIGH confidence depends excessively on one source family.
+
+==================================================
+P1-3 — WAGE GRANULARITY
+==================================================
+
+OpenDOSM wage evidence must explicitly preserve measurement granularity.
+
+Use fields such as:
+
+wage_granularity
+
+wage_context_code
+
+wage_context_label
+
+source_measurement_level
+
+Allowed values may include:
+
+ROLE_SPECIFIC
+
+SUBMAJOR_GROUP_CONTEXT
+
+MAJOR_GROUP_CONTEXT
+
+NATIONAL_CONTEXT
+
+==================================================
+4-DIGIT OCCUPATION RULE
+==================================================
+
+If a MASCO 4-digit role inherits evidence from a 1-digit occupational group:
+
+DO NOT describe it as:
+
+"Software Developer wage growth = X"
+
+unless X is actually measured for Software Developers.
+
+Instead expose:
+
+"Professionals broad wage trend = X"
+
+and mark:
+
+wage_granularity = MAJOR_GROUP_CONTEXT.
+
+==================================================
+QUALITY FLAGS
+==================================================
+
+Add as required:
+
+MAJOR_GROUP_WAGE_CONTEXT
+
+NO_ROLE_SPECIFIC_WAGE_DATA
+
+MAJOR_GROUP_FALLBACK
+
+NO_4DIGIT_EVIDENCE
+
+These flags must propagate to the M3 contract.
+
+==================================================
+P2-1 — BACKTEST CLAIM
+==================================================
+
+Remove:
+
+97.5% predictive accuracy
+
+from all technical/product documentation.
+
+Argon classified this result as:
+
+LIMITED DIRECTIONAL ALIGNMENT CHECK.
+
+Use terminology such as:
+
+historical directional alignment
+
+historical consistency check
+
+component sanity check
+
+Do NOT call it:
+
+forecast accuracy
+prediction accuracy
+model accuracy.
+
+==================================================
+BACKTEST BASELINES
+==================================================
+
+Calculate simple baseline comparators.
+
+MYCOL:
+
+naive persistence baseline:
+status at t → status at t+1.
+
+OPENDOSM:
+
+naive positive-direction wage baseline.
+
+OPENALEX:
+
+simple previous-period growth continuation baseline.
+
+Report:
+
+engine directional alignment
+baseline alignment
+incremental difference
+sample size
+limitations.
+
+If the engine provides no improvement:
+
+state that directly.
+
+==================================================
+OPENALEX LOOK-AHEAD REMEDIATION
+==================================================
+
+Historical evaluation must use:
+
+features from <= time t
+
+to evaluate:
+
+period > t.
+
+Do not calculate a feature using 2024–2026 observations and then claim that feature predicts 2024–2026.
+
+Ensure:
+
+training/history windows
+
+and:
+
+evaluation windows
+
+are temporally separated.
+
+Any normalization used in a historical check must also be fitted only from the historical window.
+
+==================================================
+P2-2 — SENSITIVITY ANALYSIS
+==================================================
+
+Replace the old binary sign-flip analysis with three metrics:
+
+1. DIRECTIONAL-SIGN STABILITY
+
+positive
+neutral
+negative
+
+2. EXACT-OUTLOOK-TIER STABILITY
+
+e.g.
+
+STRONGLY RISING
+RISING
+STABLE
+MIXED / UNCERTAIN
+DECLINING
+STRONGLY DECLINING
+
+3. RELATIVE-RANK STABILITY
+
+Use:
+
+Spearman correlation
+
+or another appropriate transparent rank statistic.
+
+==================================================
+SENSITIVITY RECOMPUTATION
+==================================================
+
+Parameter perturbations must rerun the relevant scoring logic.
+
+Do not simply modify the final category.
+
+Perturb reasonably:
+
+within-dimension source authority factors
+
+freshness penalties
+
+outlook thresholds
+
+normalisation assumptions
+
+Then regenerate:
+
+component scores
+outlooks
+confidence where applicable
+ranking.
+
+==================================================
+P2-3 — SCORE SATURATION
+==================================================
+
+Audit every component equal to:
+
+100.0.
+
+Determine the cause:
+
+clipping
+rank maximum
+policy encoding
+growth transformation
+normalization boundary
+legitimate maximum.
+
+Do not automatically remove 100 scores.
+
+But if unrelated skills collapse at the ceiling and ranking resolution is lost:
+
+rescale using the simplest defensible method.
+
+Possible methods:
+
+robust percentile transformation
+
+soft bounded transform
+
+winsorized scaling
+
+rank-aware bounded transform.
+
+==================================================
+P2-4 — OPENALEX LOW-BASE EFFECT
+==================================================
+
+Do not use raw growth ratio alone.
+
+Research momentum should combine:
+
+growth magnitude
+
+absolute historical volume
+
+recent volume
+
+optionally citation activity if already reliable.
+
+Example:
+
+1 → 10
+
+should not automatically outrank:
+
+1000 → 1100.
+
+==================================================
+LOW-BASE GUARDRAIL
+==================================================
+
+Flag:
+
+LOW_BASE_RESEARCH_SIGNAL
+
+for very small historical counts.
+
+Reduce the evidential strength of extreme ratios generated from tiny denominators.
+
+==================================================
+CONFLICT HANDLING v1.1
+==================================================
+
+Add explicit conflict taxonomy:
+
+CROSS_DIMENSION_TENSION
+
+WITHIN_DIMENSION_CONFLICT
+
+CONFLICT_PRESENT_RESOLVED
+
+CONFLICT_UNRESOLVED
+
+Example:
+
+high demand + high AI exposure
+
+=
+CROSS_DIMENSION_TENSION.
+
+It is not necessarily contradictory.
+
+But:
+
+MyCOL demand strengthening
+
+while occupation-specific employment evidence contracts
+
+may constitute:
+
+WITHIN_DIMENSION_CONFLICT.
+
+Preserve the disagreement.
+
+==================================================
+OUTLOOK SELECTION BIAS DISCLOSURE
+==================================================
+
+Document:
+
+The 16 Level 1 project skills are intentionally future-oriented digital, AI, data, governance and sustainability competencies.
+
+Therefore:
+
+16 / 16 positive outlooks
+
+does NOT mean:
+
+all labour-market skills are rising.
+
+This disclosure must be available for later product copy and methodology display.
+
+==================================================
+CITATION STANDARDISATION
+==================================================
+
+Every explanation driver should expose:
+
+signal_id
+
+source_id
+
+publisher
+
+source_version
+
+observation_period
+
+publication_date
+
+evidence_reference
+
+measurement granularity
+
+mapping confidence
+
+==================================================
+FRESHNESS
+==================================================
+
+Argon judged freshness methodology:
+
+VALID.
+
+Do not redesign it unnecessarily.
+
+Ensure the schema clearly separates:
+
+observation_period
+
+publication_date
+
+portal_last_updated
+
+retrieval_date
+
+next_expected_update.
+
+==================================================
+MAJOR-GROUP FALLBACK
+==================================================
+
+Major-group fallback profiles must visibly indicate lower granularity.
+
+Include:
+
+evidence_granularity
+
+quality_flags
+
+confidence impact.
+
+Never show fallback evidence as precise 4-digit occupational measurement.
+
+==================================================
+VERSIONING
+==================================================
+
+Do NOT overwrite M2 v1.
+
+Create:
+
+M2 version 1.1.0
+
+Recommended files:
+
+data/trends/processed/trend_signals_v1_1.json
+
+data/trends/processed/skill_trend_profiles_v1_1.json
+
+data/trends/processed/occupation_trend_profiles_v1_1.json
+
+data/trends/processed/m2_scoring_config_v1_1.json
+
+data/trends/processed/m2_confidence_config_v1_1.json
+
+data/trends/processed/m2_build_manifest_v1_1.json
+
+==================================================
+BUILD MANIFEST
+==================================================
+
+Record:
+
+M2 version
+
+reference date
+
+build timestamp
+
+input hashes
+
+ILO 2023 source hash
+
+ILO 2025 source hash
+
+crosswalk hashes
+
+scoring config hash
+
+confidence config hash
+
+output hashes
+
+software versions
+
+==================================================
+REGRESSION SAFETY
+==================================================
+
+Preserve the Stage 9C areas already judged valid:
+
+LEVEL VS MOMENTUM
+
+EXPOSURE VS DECLINE
+
+FRESHNESS
+
+EXPLAINABILITY
+
+REPRODUCIBILITY
+
+Do not break them.
+
+==================================================
+M3 SAFETY CONTRACT
+==================================================
+
+Update/implement the Stage 9C contract.
+
+M3 may later consume:
+
+component vector
+
+outlook category
+
+confidence
+
+quality flags
+
+freshness
+
+evidence granularity
+
+source provenance.
+
+M3 must NOT interpret:
+
+HIGH AI EXPOSURE
+
+alone as:
+
+"bad career"
+
+or:
+
+"declining occupation."
+
+==================================================
+M6 SAFETY CONTRACT
+==================================================
+
+Preserve separation between:
+
+OBSERVED / DERIVED CURRENT EVIDENCE
+
+and:
+
+SCENARIO ASSUMPTIONS.
+
+Future M6 may alter:
+
+AI adoption speed
+
+automation intensity
+
+augmentation intensity
+
+technology diffusion
+
+policy response.
+
+It may NOT rewrite historical M2 evidence.
+
+==================================================
+UPDATE TEST
+==================================================
+
+Using a controlled TEST FIXTURE only, verify:
+
+new source data
+→ new normalized signal
+→ changed component where relevant
+→ changed outlook if thresholds warrant
+→ changed output version/hash.
+
+Do NOT fabricate this as public data.
+
+Clearly mark it:
+
+TEST FIXTURE.
+
+==================================================
+TESTS
+==================================================
+
+Add/update automated tests for:
+
+ILO 2023 / 2025 versioning
+
+2025 primary current benchmark behavior
+
+no ILO family double counting
+
+no unconditional occupational proxy injection into skill confidence
+
+evidence relation type
+
+leave-one-family-out confidence
+
+wage granularity tags
+
+major-group context flags
+
+M3 granularity contract
+
+OpenAlex temporal no-look-ahead
+
+backtest baseline comparison
+
+directional sensitivity
+
+exact-tier sensitivity
+
+rank stability
+
+saturation handling
+
+low-base research guardrail
+
+conflict handling
+
+citation schema
+
+deterministic v1.1 rebuild
+
+update fixture propagation
+
+==================================================
+REQUIRED REPORTS
+==================================================
+
+Create:
+
+artifacts/stage9d_m2_remediation_report.md
+
+artifacts/m2_ilo_2023_2025_comparison.md
+
+artifacts/m2_confidence_recalibration.md
+
+artifacts/m2_wage_granularity_audit.md
+
+artifacts/m2_backtest_v1_1.md
+
+artifacts/m2_sensitivity_v1_1.md
+
+artifacts/m2_score_saturation_audit.md
+
+artifacts/m2_openalex_low_base_audit.md
+
+artifacts/m2_conflict_handling_v1_1.md
+
+artifacts/m2_v1_vs_v1_1_comparison.md
+
+artifacts/stage9e_readiness.md
+
+==================================================
+FINAL REPORT
+==================================================
+
+Report:
+
+1. ILO 2025 ingestion status
+
+2. Number of occupations mapped to 2025 ILO
+
+3. Occupations without comparable 2025 evidence
+
+4. Major exposure/classification changes from 2023 → 2025
+
+5. New skill confidence distribution
+
+6. Skills whose confidence category changed
+
+7. Leave-one-family-out confidence findings
+
+8. Occupations using MAJOR_GROUP_CONTEXT wages
+
+9. Occupations with actual role-specific wage evidence
+
+10. Corrected historical alignment result
+
+11. Naive baseline result
+
+12. Incremental information over baseline
+
+13. Directional-sign stability
+
+14. Exact-tier stability
+
+15. Relative-rank stability
+
+16. Saturated component count before
+
+17. Saturated component count after
+
+18. OpenAlex low-base corrections
+
+19. Conflict profiles detected
+
+20. Unresolved conflict profiles
+
+21. M2 v1 vs v1.1 outlook changes
+
+22. M2 v1 vs v1.1 confidence changes
+
+23. Automated tests passed
+
+24. Whether all P1 defects are resolved
+
+25. Whether M2 v1.1 is ready for post-remediation methodology review
+
+==================================================
+READINESS VERDICT
+==================================================
+
+Return exactly ONE:
+
+READY FOR M2 POST-REMEDIATION REVIEW
+
+MORE TARGETED M2 FIXES REQUIRED
+
+M2 REMEDIATION FAILED
+
+==================================================
+STRICT STOP
+==================================================
+
+Do NOT:
+
+build M3
+
+build final M6 scenarios
+
+modify M1
+
+integrate UI
+
+push Git
+
+deploy
+
+STOP after Stage 9D.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-23T15:28:04+08:00.
+</ADDITIONAL_METADATA>

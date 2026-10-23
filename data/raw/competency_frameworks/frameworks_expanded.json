@@ -1,0 +1,386 @@
+[
+  {
+    "framework_id": "fw-practitioner-ai_literacy",
+    "framework_source": "AI Untuk Rakyat (MyDIGITAL & MDEC National Self-Paced Programme) / Elements of AI",
+    "competency_level": "Stage 1 Practitioner",
+    "skill_id": "ai_literacy",
+    "text": "Foundational AI Literacy & LLM Capabilities (AI Core): Understand generative AI capabilities, hallucination limits, and safe workplace usage. Demonstrated proficiency in artificial intelligence, large language model, llm, generative ai.",
+    "skills": [
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-ai_literacy",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "ai_literacy",
+    "text": "Applies Foundational AI Literacy & LLM Capabilities in daily organizational workflows to understand generative ai capabilities, hallucination limits, and safe workplace usage. Key operational indicators include large language model, llm, generative ai, ai literacy, foundation model.",
+    "skills": [
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-prompt_engineering",
+    "framework_source": "Skill Objective: Structured Prompt & Rubric Design (HRD Corp e-LATiH / Open Documentation)",
+    "competency_level": "Stage 1 Practitioner",
+    "skill_id": "prompt_engineering",
+    "text": "Structured Prompting & Context Engineering (AI Core): Design reproducible, schema-constrained prompts with explicit verification rubrics. Demonstrated proficiency in prompt, in-context learning, context engineering, instruction tuning.",
+    "skills": [
+      "prompt_engineering"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-prompt_engineering",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "prompt_engineering",
+    "text": "Applies Structured Prompting & Context Engineering in daily organizational workflows to design reproducible, schema-constrained prompts with explicit verification rubrics. Key operational indicators include in-context learning, context engineering, instruction tuning, few-shot, chain-of-thought.",
+    "skills": [
+      "prompt_engineering"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-process_mapping",
+    "framework_source": "Skill Objective: Operational Workflow Mapping & Bottleneck Analysis (e-LATiH)",
+    "competency_level": "Stage 1 Practitioner",
+    "skill_id": "process_mapping",
+    "text": "Business Process Mapping & SOP Design (Operations): Deconstruct manual workplace workflows into auditable human vs. AI-assisted steps. Demonstrated proficiency in business process, workflow, process mining, sop.",
+    "skills": [
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-process_mapping",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "process_mapping",
+    "text": "Applies Business Process Mapping & SOP Design in daily organizational workflows to deconstruct manual workplace workflows into auditable human vs. ai-assisted steps. Key operational indicators include workflow, process mining, sop, task decomposition, enterprise operations.",
+    "skills": [
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-sql_data_analysis",
+    "framework_source": "PostgreSQL / SQLite Official Documentation & Interactive SQL Exercises",
+    "competency_level": "Stage 2 Practitioner",
+    "skill_id": "sql_data_analysis",
+    "text": "SQL & Structured Data Analysis (Data & Engineering): Query relational datasets, audit missing values, and validate KPI baselines reproducibly. Demonstrated proficiency in sql, database, tabular data, text-to-sql.",
+    "skills": [
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-sql_data_analysis",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "sql_data_analysis",
+    "text": "Applies SQL & Structured Data Analysis in daily organizational workflows to query relational datasets, audit missing values, and validate kpi baselines reproducibly. Key operational indicators include database, tabular data, text-to-sql, data analysis, data analytics.",
+    "skills": [
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-python_scripting",
+    "framework_source": "Official Python 3 Tutorial & Standard Library Reference",
+    "competency_level": "Stage 2 Practitioner",
+    "skill_id": "python_scripting",
+    "text": "Python Scripting & Data Automation (Data & Engineering): Write modular Python scripts for data validation, API requests, and automated testing. Demonstrated proficiency in python, scripting, code generation, software engineering.",
+    "skills": [
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-python_scripting",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "python_scripting",
+    "text": "Applies Python Scripting & Data Automation in daily organizational workflows to write modular python scripts for data validation, api requests, and automated testing. Key operational indicators include scripting, code generation, software engineering.",
+    "skills": [
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-data_visualization",
+    "framework_source": "Skill Objective: Evidence-Based Dashboard & Uncertainty Reporting",
+    "competency_level": "Stage 2 Practitioner",
+    "skill_id": "data_visualization",
+    "text": "Data Visualization & KPI Storytelling (Operations): Communicate uncertainty intervals, baselines, and operational KPIs clearly to stakeholders. Demonstrated proficiency in data visualization, visualization, dashboard, dashboards.",
+    "skills": [
+      "data_visualization"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-data_visualization",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "data_visualization",
+    "text": "Applies Data Visualization & KPI Storytelling in daily organizational workflows to communicate uncertainty intervals, baselines, and operational kpis clearly to stakeholders. Key operational indicators include visualization, dashboard, dashboards, chart, charts.",
+    "skills": [
+      "data_visualization"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-workflow_automation",
+    "framework_source": "Skill Objective: Human-in-the-Loop AI Workflow Orchestration & Fallback Design",
+    "competency_level": "Stage 3 Practitioner",
+    "skill_id": "workflow_automation",
+    "text": "Agentic Workflow Orchestration & Tool Integration (AI Core): Chain bounded AI tool calls with deterministic fallback and human approval checkpoints. Demonstrated proficiency in agentic, ai agent, ai agents, llm agent.",
+    "skills": [
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-workflow_automation",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "workflow_automation",
+    "text": "Applies Agentic Workflow Orchestration & Tool Integration in daily organizational workflows to chain bounded ai tool calls with deterministic fallback and human approval checkpoints. Key operational indicators include ai agent, ai agents, llm agent, llm agents, multi-agent, agent orchestration, tool use, workflow automation.",
+    "skills": [
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-human_in_the_loop_qa",
+    "framework_source": "NIST AI Risk Management Framework (AI RMF 1.0) \u2014 Measure & Verify Playbook",
+    "competency_level": "Stage 3 Practitioner",
+    "skill_id": "human_in_the_loop_qa",
+    "text": "Human-in-the-Loop Evaluation & AI Testing (Governance & QA): Build gold-standard evaluation sets, detect AI hallucinations, and enforce guardrails. Demonstrated proficiency in llm evaluation, model evaluation, hallucination, hallucinations.",
+    "skills": [
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-human_in_the_loop_qa",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "human_in_the_loop_qa",
+    "text": "Applies Human-in-the-Loop Evaluation & AI Testing in daily organizational workflows to build gold-standard evaluation sets, detect ai hallucinations, and enforce guardrails. Key operational indicators include model evaluation, hallucination, hallucinations, red teaming, red-teaming, human-in-the-loop, human oversight.",
+    "skills": [
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-rag_knowledge_systems",
+    "framework_source": "Skill Objective: Source-Grounded Retrieval & Citation Verification Pipeline",
+    "competency_level": "Stage 3 Practitioner",
+    "skill_id": "rag_knowledge_systems",
+    "text": "Retrieval-Augmented Generation (RAG) & Citation Grounding (Data & Engineering): Index dated organizational documents and enforce strict source-citation grounding. Demonstrated proficiency in retrieval-augmented, retrieval augmented, rag, vector database.",
+    "skills": [
+      "rag_knowledge_systems"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-rag_knowledge_systems",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "rag_knowledge_systems",
+    "text": "Applies Retrieval-Augmented Generation (RAG) & Citation Grounding in daily organizational workflows to index dated organizational documents and enforce strict source-citation grounding. Key operational indicators include retrieval augmented, rag, vector database, knowledge graph, information retrieval.",
+    "skills": [
+      "rag_knowledge_systems"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-api_integration",
+    "framework_source": "MDN Web Docs \u2014 HTTP & REST API Architecture Guides",
+    "competency_level": "Stage 2 Practitioner",
+    "skill_id": "api_integration",
+    "text": "REST API Integration & Resilient Fallbacks (Data & Engineering): Integrate external JSON/XML data feeds with schema validation, timeouts, and snapshot fallbacks. Demonstrated proficiency in api, apis, rest api, endpoint.",
+    "skills": [
+      "api_integration"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-api_integration",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "api_integration",
+    "text": "Applies REST API Integration & Resilient Fallbacks in daily organizational workflows to integrate external json/xml data feeds with schema validation, timeouts, and snapshot fallbacks. Key operational indicators include apis, rest api, endpoint, microservice, microservices.",
+    "skills": [
+      "api_integration"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-ai_ethics_governance",
+    "framework_source": "Malaysia National Guidelines on AI Governance & Ethics (MOSTI) & UNESCO AI Ethics",
+    "competency_level": "Stage 3 Practitioner",
+    "skill_id": "ai_ethics_governance",
+    "text": "AI Ethics, Fairness Auditing & Governance (Governance & QA): Audit AI systems for demographic fairness, transparency, and compliance with Malaysia's National Guidelines on AI Governance & Ethics (AIGE). Demonstrated proficiency in ai ethics, ethics, fairness, algorithmic bias.",
+    "skills": [
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-ai_ethics_governance",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "ai_ethics_governance",
+    "text": "Applies AI Ethics, Fairness Auditing & Governance in daily organizational workflows to audit ai systems for demographic fairness, transparency, and compliance with malaysia's national guidelines on ai governance & ethics (aige). Key operational indicators include ethics, fairness, algorithmic bias, ai governance, governance, accountability, explainability, ai safety.",
+    "skills": [
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-data_privacy_pdpa",
+    "framework_source": "OWASP Top 10 for Large Language Model Applications & PDPA Compliance Objective",
+    "competency_level": "Stage 2 Practitioner",
+    "skill_id": "data_privacy_pdpa",
+    "text": "Data Privacy & Malaysian PDPA Compliance (Governance & QA): Apply data minimization, synthetic test profiling, and Personal Data Protection Act (PDPA) controls. Demonstrated proficiency in privacy, pdpa, personal data, anonymization.",
+    "skills": [
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-data_privacy_pdpa",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "data_privacy_pdpa",
+    "text": "Applies Data Privacy & Malaysian PDPA Compliance in daily organizational workflows to apply data minimization, synthetic test profiling, and personal data protection act (pdpa) controls. Key operational indicators include pdpa, personal data, anonymization, synthetic data, data protection.",
+    "skills": [
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-esg_sustainability_reporting",
+    "framework_source": "UN CC:e-Learn (United Nations Climate Change Learning Partnership) Free Courses",
+    "competency_level": "Stage 2 Practitioner",
+    "skill_id": "esg_sustainability_reporting",
+    "text": "ESG Frameworks & UN SDG Impact Mapping (Sustainability): Map operational and digital initiatives to UN SDG targets and quantifiable sustainability KPIs. Demonstrated proficiency in sustainability, sdg, sdgs, climate.",
+    "skills": [
+      "esg_sustainability_reporting"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-esg_sustainability_reporting",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "esg_sustainability_reporting",
+    "text": "Applies ESG Frameworks & UN SDG Impact Mapping in daily organizational workflows to map operational and digital initiatives to un sdg targets and quantifiable sustainability kpis. Key operational indicators include sdg, sdgs, climate, esg, renewable, emissions.",
+    "skills": [
+      "esg_sustainability_reporting"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-carbon_footprint_analytics",
+    "framework_source": "Green Software Foundation \u2014 Green Software Practitioner (Free Linux Foundation Course)",
+    "competency_level": "Stage 3 Practitioner",
+    "skill_id": "carbon_footprint_analytics",
+    "text": "Carbon-Aware Compute & Resource Telemetry (Sustainability): Measure compute energy efficiency and right-size AI workloads (CPU vs. GPU). Demonstrated proficiency in carbon, carbon footprint, energy consumption, energy efficiency.",
+    "skills": [
+      "carbon_footprint_analytics"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-carbon_footprint_analytics",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "carbon_footprint_analytics",
+    "text": "Applies Carbon-Aware Compute & Resource Telemetry in daily organizational workflows to measure compute energy efficiency and right-size ai workloads (cpu vs. gpu). Key operational indicators include carbon footprint, energy consumption, energy efficiency, green ai, green computing.",
+    "skills": [
+      "carbon_footprint_analytics"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-stakeholder_communication",
+    "framework_source": "Skill Objective: Human-Centred AI Change Management & Advisory Communication",
+    "competency_level": "Stage 1 Practitioner",
+    "skill_id": "stakeholder_communication",
+    "text": "Human-Centred Change & Stakeholder Communication (Operations): Facilitate human-in-charge career and operational decisions alongside AI recommendations. Demonstrated proficiency in stakeholder, stakeholders, human-centered, human-centred.",
+    "skills": [
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-stakeholder_communication",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "stakeholder_communication",
+    "text": "Applies Human-Centred Change & Stakeholder Communication in daily organizational workflows to facilitate human-in-charge career and operational decisions alongside ai recommendations. Key operational indicators include stakeholders, human-centered, human-centred, decision support, science communication.",
+    "skills": [
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": true
+  },
+  {
+    "framework_id": "fw-practitioner-instructional_design",
+    "framework_source": "UNESCO-UNEVOC TVET & Digital Competency Frameworks (Open Resource)",
+    "competency_level": "Stage 3 Practitioner",
+    "skill_id": "instructional_design",
+    "text": "Competency Matrix & Reskilling Curriculum Design (Operations): Structure modular adult reskilling pathways mapped to Malaysia's TVET and HRD Corp frameworks. Demonstrated proficiency in curriculum, reskilling, upskilling, workforce training.",
+    "skills": [
+      "instructional_design"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  },
+  {
+    "framework_id": "fw-applied-instructional_design",
+    "framework_source": "Malaysia National AI & Digital Workforce Competency Standard",
+    "competency_level": "Applied Workplace Execution",
+    "skill_id": "instructional_design",
+    "text": "Applies Competency Matrix & Reskilling Curriculum Design in daily organizational workflows to structure modular adult reskilling pathways mapped to malaysia's tvet and hrd corp frameworks. Key operational indicators include reskilling, upskilling, workforce training, vocational, education, competency, lifelong learning.",
+    "skills": [
+      "instructional_design"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": true
+  }
+]

@@ -1,0 +1,190 @@
+<USER_REQUEST>
+Act as a Senior Labour-Market Quantitative Engineer, Explainable-AI Methodology Engineer and Reproducibility Auditor.
+
+Stage 9C Argon audit has completed.
+
+Final verdict:
+
+TARGETED M2 REMEDIATION REQUIRED
+
+This is NOT a full rebuild.
+
+Do NOT redesign the entire M2 architecture.
+
+Do NOT build M3.
+
+Do NOT build final M6 scenarios.
+
+Do NOT modify frozen M1.
+
+Do NOT deploy.
+
+Do NOT push to GitHub.
+
+Use Gemini 3.8 Flash.
+
+==================================================
+SOURCE OF TRUTH
+==================================================
+
+Read:
+
+artifacts/stage9c_argon_m2_audit.md
+artifacts/m2_backtest_forensic_review.md
+artifacts/m2_confidence_forensic_review.md
+artifacts/m2_source_version_review.md
+artifacts/m2_m3_safety_contract.md
+artifacts/m2_m6_safety_contract.md
+artifacts/stage9d_readiness.md
+
+Current implementation:
+
+data/trends/manifests/trend_source_manifest.json
+data/trends/processed/trend_signals_v1.json
+data/trends/processed/skill_trend_profiles_v1.json
+data/trends/processed/occupation_trend_profiles_v1.json
+data/trends/processed/m2_scoring_config_v1.json
+data/trends/processed/m2_confidence_config_v1.json
+data/trends/processed/m2_build_manifest_v1.json
+data/trends/processed/source_freshness.json
+
+src/trend_engine.py
+scripts/build_trend_scores.py
+scripts/update_trend_sources.py
+tests/test_trend_engine_foundation.py
+
+==================================================
+AUDIT VERDICT
+==================================================
+
+P0:
+0
+
+P1:
+3
+
+P2:
+4
+
+P3:
+2
+
+P1-1:
+ILO Working Paper 96 (2023) must no longer be the sole GenAI occupational-exposure benchmark.
+
+Decision:
+VERSION ALONGSIDE 2025
+
+P1-2:
+Skill confidence was inflated because ILO occupational exposure and DOSM wage evidence were counted as independent evidence for all 16 skills.
+
+P1-3:
+OpenDOSM 1-digit occupational wage evidence was propagated to 4-digit roles without sufficiently explicit granularity metadata.
+
+=========================================
+<truncated 15296 bytes>
+backtest_v1_1.md
+
+artifacts/m2_sensitivity_v1_1.md
+
+artifacts/m2_score_saturation_audit.md
+
+artifacts/m2_openalex_low_base_audit.md
+
+artifacts/m2_conflict_handling_v1_1.md
+
+artifacts/m2_v1_vs_v1_1_comparison.md
+
+artifacts/stage9e_readiness.md
+
+==================================================
+FINAL REPORT
+==================================================
+
+Report:
+
+1. ILO 2025 ingestion status
+
+2. Number of occupations mapped to 2025 ILO
+
+3. Occupations without comparable 2025 evidence
+
+4. Major exposure/classification changes from 2023 → 2025
+
+5. New skill confidence distribution
+
+6. Skills whose confidence category changed
+
+7. Leave-one-family-out confidence findings
+
+8. Occupations using MAJOR_GROUP_CONTEXT wages
+
+9. Occupations with actual role-specific wage evidence
+
+10. Corrected historical alignment result
+
+11. Naive baseline result
+
+12. Incremental information over baseline
+
+13. Directional-sign stability
+
+14. Exact-tier stability
+
+15. Relative-rank stability
+
+16. Saturated component count before
+
+17. Saturated component count after
+
+18. OpenAlex low-base corrections
+
+19. Conflict profiles detected
+
+20. Unresolved conflict profiles
+
+21. M2 v1 vs v1.1 outlook changes
+
+22. M2 v1 vs v1.1 confidence changes
+
+23. Automated tests passed
+
+24. Whether all P1 defects are resolved
+
+25. Whether M2 v1.1 is ready for post-remediation methodology review
+
+==================================================
+READINESS VERDICT
+==================================================
+
+Return exactly ONE:
+
+READY FOR M2 POST-REMEDIATION REVIEW
+
+MORE TARGETED M2 FIXES REQUIRED
+
+M2 REMEDIATION FAILED
+
+==================================================
+STRICT STOP
+==================================================
+
+Do NOT:
+
+build M3
+
+build final M6 scenarios
+
+modify M1
+
+integrate UI
+
+push Git
+
+deploy
+
+STOP after Stage 9D.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-23T15:28:04+08:00.
+</ADDITIONAL_METADATA>

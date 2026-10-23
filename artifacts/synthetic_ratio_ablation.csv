@@ -1,0 +1,5 @@
+experiment_id,synthetic_ratio,real_records,synthetic_records,cv_skills_macro_f1,cv_skills_macro_f1_std,cv_skills_micro_f1,cv_demand_macro_f1,cv_demand_roc_auc,cv_demand_brier,runtime_sec
+R0_PureReal_0pct,0.0,98,0,0.1678,0.0675,0.242,0.455,0.6372,0.156,1.357
+R1_Augment_25pct,0.25,98,62,0.3978,0.0769,0.4476,0.4899,0.7121,0.131,4.731
+R2_Augment_50pct,0.5,98,125,0.5203,0.0484,0.5485,0.493,0.7453,0.1258,6.938
+R3_Approved_v4_100pct,1.0,98,250,0.6612,0.0607,0.6704,0.5626,0.7939,0.1304,7.696

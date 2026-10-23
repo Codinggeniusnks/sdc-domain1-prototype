@@ -1,0 +1,56 @@
+{
+  "engine_name": "O3 Multilingual & Low-Bandwidth Presentation Layer",
+  "engine_version": "v1.0.0",
+  "build_timestamp_utc": "2026-10-24T05:05:00Z",
+  "supported_locales": [
+    "en",
+    "ms",
+    "zh-CN"
+  ],
+  "locale_metadata": {
+    "en": {
+      "display_name": "English",
+      "direction": "ltr",
+      "region": "International / Malaysia"
+    },
+    "ms": {
+      "display_name": "Bahasa Melayu",
+      "direction": "ltr",
+      "region": "Malaysia (Kebangsaan)"
+    },
+    "zh-CN": {
+      "display_name": "简体中文",
+      "direction": "ltr",
+      "region": "Malaysia / Regional"
+    }
+  },
+  "default_locale": "en",
+  "fallback_locale": "en",
+  "locales_dir": "locales",
+  "low_bandwidth_settings": {
+    "target_max_payload_bytes": 65536,
+    "min_payload_reduction_ratio": 0.60,
+    "float_decimal_precision": 2,
+    "strip_heavy_narratives": true,
+    "strip_vector_assets": true,
+    "use_compact_keys": false,
+    "enable_gzip_equivalent_packing": true
+  },
+  "invariance_rules": {
+    "prohibited_from_translation": [
+      "masco_code",
+      "skill_id",
+      "profile_id",
+      "role_id",
+      "scenario_id",
+      "sdg_target_code",
+      "formula_code",
+      "fingerprint",
+      "sha256",
+      "raw_hash",
+      "timestamp_utc"
+    ],
+    "mathematical_invariance_level": "EXACT_NUMERIC_EQUALITY",
+    "required_key_parity": 1.00
+  }
+}

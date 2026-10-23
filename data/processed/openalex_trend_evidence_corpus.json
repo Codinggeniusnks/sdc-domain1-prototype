@@ -1,0 +1,2719 @@
+[
+  {
+    "openalex_id": "https://openalex.org/W4399499918",
+    "doi": "https://doi.org/10.55529/jaimlnn.44.11.21",
+    "title": "The Impact of Artificial Intelligence on Workforce Automation and Skill Development",
+    "publication_year": 2024,
+    "cited_by_count": 5,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7117960988",
+    "doi": "https://doi.org/10.1007/978-3-032-06520-9_10",
+    "title": "The Role of Artificial Intelligence in Workforce Adaptation and Skill Development",
+    "publication_year": 2026,
+    "cited_by_count": 2,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7165370393",
+    "doi": "https://doi.org/10.33545/26648792.2026.v8.i6a.922",
+    "title": "Leveraging artificial intelligence for workforce skills and future job preparedness",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7212171635",
+    "doi": "https://doi.org/10.70528/ijlrp.v7.i6.2401",
+    "title": "Emerging Workforce Skills in the Era of Artificial Intelligence: Perspectives for Higher Education",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4416539851",
+    "doi": "https://doi.org/10.33545/26175754.2025.v8.i2i.612",
+    "title": "Artificial intelligence and the future of workforce development: Advancing skills for the digital era",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W3082768471",
+    "doi": "https://doi.org/10.1109/icabcd49160.2020.9183817",
+    "title": "Adapting to Artificial Intelligence through Workforce Re-skilling within the Banking Sector in South Africa",
+    "publication_year": 2020,
+    "cited_by_count": 12,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7220443515",
+    "doi": "https://doi.org/10.5281/zenodo.23170042",
+    "title": "ARTIFICIAL INTELLIGENCE AND WORKFORCE TRANSFORMATION: REDESIGNING JOB ROLES, SKILLS, AND ORGANISATIONAL ADAPTATION",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "workflow_automation",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7135573009",
+    "doi": null,
+    "title": "The impact of Artificial Intelligence (AI) on skill requirements and future of workforces",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4396527727",
+    "doi": "https://doi.org/10.1093/oso/9780197759745.003.0009",
+    "title": "Enabling Strategic Workforce Planning Through Skills, Artificial Intelligence, and Internal Talent Marketplace",
+    "publication_year": 2024,
+    "cited_by_count": 4,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7154951227",
+    "doi": "https://doi.org/10.66408/sasbe.2025.2656",
+    "title": "Artificial Intelligence and the Future Construction Workforce: A Qualitative Study of Emerging Skill Demands",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7204970759",
+    "doi": "https://doi.org/10.66572/ajomait.2026.v5.i12.76058",
+    "title": "Impact of Artificial Intelligence and Automation on Employment Patterns, Workforce Skills, and Future Career Opportunities",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "python_scripting",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7212410001",
+    "doi": null,
+    "title": "Human Communication, Soft Skills, and the Workforce of the Future in the Age of Artificial Intelligence",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4413195647",
+    "doi": "https://doi.org/10.2139/ssrn.5385702",
+    "title": "Exploring the implications of artificial intelligence and automation on future workforce dynamics and skill requirements in Lebanon",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7204490821",
+    "doi": "https://doi.org/10.1061/9780784486993.051",
+    "title": "Artificial Intelligence and the Construction Workforce: A Framework for Assessing Automation Potential and Future Skill Needs",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "workflow_automation",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7167720224",
+    "doi": "https://doi.org/10.66194/gvncjisrsv4i2-055",
+    "title": "ARTIFICIAL INTELLIGENCE IN EDUCATION AND WORKFORCE DEVELOPMENT: TRANSFORMING LEARNING, SKILLS, AND EMPLOYABILITY IN THE DIGITAL AGE",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7222954258",
+    "doi": "https://doi.org/10.62441/actainnovations.vi.1999",
+    "title": "WORKFORCE TRANSFORMATION IN MANUFACTURING INDUSTRIES: THE ROLE OF ARTIFICIAL INTELLIGENCE, AUTOMATION, RESKILLING, UPSKILLING AND SOFT SKILLS",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4411077333",
+    "doi": "https://doi.org/10.35629/8028-14056779",
+    "title": "Navigating the Future of Work: The Impact of Artificial Intelligence on Jobs, Skills, and Workforce Dynamics",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4406658813",
+    "doi": "https://doi.org/10.1109/ist64061.2024.10843517",
+    "title": "Analyzing the Challenges of Applying Artificial Intelligence in the Field of Employment and Offering Solutions to Improve Skills and Workforce Training",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7117278454",
+    "doi": null,
+    "title": "AI impact on sales skills : the implications of artificial intelligence on the required skill set for the B2B sales workforce",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "workflow_automation",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4404701487",
+    "doi": "https://doi.org/10.22381/pihrm11120232",
+    "title": "Exploring the Role of Artificial Intelligence in Shaping and Advancing Workforce Skills within Manufacturing Industries",
+    "publication_year": 2023,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4360976131",
+    "doi": "https://doi.org/10.56556/jtie.v2i1.466",
+    "title": "The impact of Artificial Intelligence and Machine learning on workforce skills and economic mobility in developing countries: A case study of Ghana and Nigeria",
+    "publication_year": 2023,
+    "cited_by_count": 7,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7168421438",
+    "doi": "https://doi.org/10.1177/01678329261468180",
+    "title": "Artificial Intelligence and Transversal Skills for Future Workforce: A Bibliometric Analysis of Research in Higher Education (2020\u20132025)",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4415054342",
+    "doi": "https://doi.org/10.20944/preprints202510.0671.v1",
+    "title": "The Transformative Impact of Artificial Intelligence on US Labor Markets: Workforce Disruption, Skill Evolution, and the Emergence of Prompt Engineering",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7131258964",
+    "doi": "https://doi.org/10.54254/2754-1169/2026.ld31788",
+    "title": "The Impact of Artificial Intelligence on Corporate Digital Technology Innovation: A Perspective Based on Workforce Skill Structure",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7150804614",
+    "doi": "https://doi.org/10.17148/ijarcce.2026.15412",
+    "title": "The Impact of Artificial Intelligence and Digitalization on the Workforce: A Skill-Biased Technological Change and Human Capital Perspective",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4408361543",
+    "doi": "https://doi.org/10.4018/979-8-3373-0502-8.ch006",
+    "title": "Are Critical Thinking and Problem-Solving Skills Enough to Help Prepare Students to Meet the Modern Workforce Demands With Artificial Intelligence?",
+    "publication_year": 2025,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7171539378",
+    "doi": "https://doi.org/10.68152/2226",
+    "title": "Bridging the Skills Gap in the Era of Smart Technology: The Role of Digital Upskilling, Organisational Learning, and Artificial Intelligence in Workforce Readiness",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7204105684",
+    "doi": "https://doi.org/10.17148/ijarcce.2026.15840",
+    "title": "Reskilling the Banking Workforce in the Age of Artificial Intelligence: Emerging HRM Priorities and Future Skill Requirements in the Indian BFSI Sector",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7118145632",
+    "doi": "https://doi.org/10.46287/twku1629",
+    "title": "The Future Competencies & Skills Development Cycle: A New Workforce Model in the Context of Digital Transformation and Artificial Intelligence",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7163153890",
+    "doi": "https://doi.org/10.55041/ijsrem64395",
+    "title": "Engineering Employability in India in the Age of Artificial Intelligence: A Data-Driven Analysis of Skill Development and Workforce Readiness",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7213485553",
+    "doi": null,
+    "title": "Revisiting the occupational impact of AI in the generative AI era",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7171973079",
+    "doi": "https://doi.org/10.1016/j.strueco.2026.07.016",
+    "title": "A rising tide: revisiting the occupational impact of AI in the generative era",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7166094484",
+    "doi": "https://doi.org/10.54691/8v4s5875",
+    "title": "A Dynamic Modeling Framework for Assessing the Impact of Generative AI on Occupational Evolution and Curriculum Adaptation",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7213444759",
+    "doi": "https://doi.org/10.2139/ssrn.7467978",
+    "title": "Modeling the Impact of Generative AI on Global Wages and Trade: A GTAP Framework with Occupational Details",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4410554463",
+    "doi": "https://doi.org/10.54394/hetp0387",
+    "title": "Generative AI and jobs",
+    "publication_year": 2025,
+    "cited_by_count": 46,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7134103928",
+    "doi": null,
+    "title": "Generative AI exposure across occupational sectors and changes in unemployment in Sweden",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4410593547",
+    "doi": "https://doi.org/10.54394/qfbq1907",
+    "title": "Generative AI and jobs",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4375852308",
+    "doi": "https://doi.org/10.3386/w31222",
+    "title": "Generative AI and Firm Values",
+    "publication_year": 2023,
+    "cited_by_count": 165,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7216954669",
+    "doi": null,
+    "title": "Navigating the future workforce : the impact of generative AI on freelance occupations",
+    "publication_year": null,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4411816452",
+    "doi": "https://doi.org/10.1108/9781835491058",
+    "title": "The Generative AI Impact",
+    "publication_year": 2025,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7135071623",
+    "doi": "https://doi.org/10.22214/ijraset.2026.78078",
+    "title": "The Impact of Generative AI on the Future of Employment: Opportunities and Challenges",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4402736895",
+    "doi": "https://doi.org/10.3386/w32966",
+    "title": "The Rapid Adoption of Generative AI",
+    "publication_year": 2024,
+    "cited_by_count": 130,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4388409187",
+    "doi": "https://doi.org/10.1007/s42438-023-00440-6",
+    "title": "Generative AI and the Automating of Academia",
+    "publication_year": 2023,
+    "cited_by_count": 148,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4403475294",
+    "doi": "https://doi.org/10.3389/fmed.2024.1485325",
+    "title": "Enhancing fieldwork readiness in occupational therapy students with generative AI",
+    "publication_year": 2024,
+    "cited_by_count": 18,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4411953254",
+    "doi": "https://doi.org/10.1093/occmed/kqaf051",
+    "title": "Generative AI in peer review process for occupational health",
+    "publication_year": 2025,
+    "cited_by_count": 5,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7139117425",
+    "doi": "https://doi.org/10.47989/ir31iconf64153",
+    "title": "Occupational identities in the age of generative AI: the case of librarianship",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7131115520",
+    "doi": "https://doi.org/10.1109/upwiecon67212.2025.11390506",
+    "title": "The Economic Impact of Generative AI on Labor Markets and Income Distribution",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7162230543",
+    "doi": null,
+    "title": "From Tasks to Skills: How Generative AI Transforms Occupational Skill Portfolios",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4405417826",
+    "doi": "https://doi.org/10.62422/978-81-970328-4-4-010",
+    "title": "Assessing the Impact of Generative AI on Canadian Labor Market: An Empirical Approach",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "data_privacy_pdpa",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4404128062",
+    "doi": "https://doi.org/10.2139/ssrn.5009388",
+    "title": "Assessing the Impact of Generative AI on Canadian Labor Market: An Empirical Approach",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4403622041",
+    "doi": "https://doi.org/10.2139/ssrn.4991774",
+    "title": "Who is AI Replacing? The Impact of Generative AI on Online Freelancing Platforms",
+    "publication_year": 2024,
+    "cited_by_count": 24,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4415098157",
+    "doi": "https://doi.org/10.1007/978-981-96-7963-8_6",
+    "title": "Impact and Perception of Generative AI and Related Automation Tools in the Gulf Region",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W3082947733",
+    "doi": "https://doi.org/10.1613/jair.1.12647",
+    "title": "Measuring the Occupational Impact of AI: Tasks, Cognitive Abilities and AI Benchmarks",
+    "publication_year": 2021,
+    "cited_by_count": 165,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7167829953",
+    "doi": "https://doi.org/10.54394/00034834",
+    "title": "Generative AI and labour markets in ASEAN",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7154201620",
+    "doi": "https://doi.org/10.24251/hicss.2026.569",
+    "title": "Navigating Generative AI Disruptions: A Process Model of Occupational Resilience",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4412167709",
+    "doi": "https://doi.org/10.32996/jcsts.2025.7.7.56",
+    "title": "The Transformative Impact of Generative AI on Society",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4402601985",
+    "doi": "https://doi.org/10.1007/s11023-024-09694-w",
+    "title": "Mapping the Ethics of Generative AI: A Comprehensive Scoping Review",
+    "publication_year": 2024,
+    "cited_by_count": 138,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4415726737",
+    "doi": "https://doi.org/10.2139/ssrn.5618130",
+    "title": "Generative AI at the Workplace and Protection of Workers' Rights",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7161332129",
+    "doi": "https://doi.org/10.1007/s10551-026-06342-4",
+    "title": "The Impacts of Generative AI on the Meaningfulness of Creative Work",
+    "publication_year": 2026,
+    "cited_by_count": 4,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4413658834",
+    "doi": "https://doi.org/10.23887/jet.v9i2.96909",
+    "title": "Reflections on the Impact of Generative AI in Educational Assessment",
+    "publication_year": 2025,
+    "cited_by_count": 2,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7127940944",
+    "doi": "https://doi.org/10.51505/ijaemr.2025.1509",
+    "title": "A Comprehensive Framework for Future-ready AI Competencies: Integrating Prompt Engineering, Automation, and Multimodal Intelligence for the Workforce of 2025",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "process_mapping",
+      "workflow_automation",
+      "rag_knowledge_systems",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4407640145",
+    "doi": "https://doi.org/10.48175/ijarsct-23272",
+    "title": "Retraining US Workforce in the Age of Agentic Gen AI: Role of Prompt Engineering and Up-Skilling Initiatives",
+    "publication_year": 2025,
+    "cited_by_count": 11,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4399597451",
+    "doi": "https://doi.org/10.48550/arxiv.2406.06608",
+    "title": "The Prompt Report: A Systematic Survey of Prompt Engineering Techniques",
+    "publication_year": 2024,
+    "cited_by_count": 116,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7108080096",
+    "doi": "https://doi.org/10.24191/jeesr.v27i1.009",
+    "title": "Engineering Malaysia\u2019s Competitive Edge: Prompt Engineering as Critical Skill for Future Workforce Development",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4393341198",
+    "doi": "https://doi.org/10.62225/2583049x.2024.4.2.2549",
+    "title": "Robotics in Manufacturing: A Review of Advances in Automation and Workforce Implications",
+    "publication_year": 2024,
+    "cited_by_count": 21,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "workflow_automation",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7170487896",
+    "doi": "https://doi.org/10.67228/3071642x/ijcfde-2022pi4i3a",
+    "title": "AI-Powered Automation in Digital Workforce Management",
+    "publication_year": 2022,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "sql_data_analysis",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7164907222",
+    "doi": "https://doi.org/10.5281/zenodo.20715677",
+    "title": "The Rise of the Digital Workforce: Opportunities for the New Generation",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "process_mapping",
+      "data_visualization",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7204892803",
+    "doi": "https://doi.org/10.1201/9781003626909",
+    "title": "Large Language Models and Prompt Engineering",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4407243050",
+    "doi": "https://doi.org/10.3390/educsci15020199",
+    "title": "The Impact of Prompt Engineering and a Generative AI-Driven Tool on Autonomous Learning: A Case Study",
+    "publication_year": 2025,
+    "cited_by_count": 58,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7170048163",
+    "doi": "https://doi.org/10.65138/ijresm.v9i7.3484",
+    "title": "Hyper-Automation Anxiety: Assessing Job Insecurity and Progression Collapse in the Age of Prompt-Driven Engineering",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "prompt_engineering",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7128167751",
+    "doi": "https://doi.org/10.32628/ijsrset2512550",
+    "title": "Generative AI Orchestration for IoT-Enhanced Workforce Automation and Predictive HR Operations Built on SAP SuccessFactors",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "esg_sustainability_reporting",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4385380194",
+    "doi": "https://doi.org/10.9734/jerr/2023/v25i7938",
+    "title": "Automation in Agricultural and Biosystems Engineering",
+    "publication_year": 2023,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "workflow_automation"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4393222739",
+    "doi": "https://doi.org/10.21428/e4baedd9.e39b392d",
+    "title": "From Automation to Augmentation: Redefining Engineering Design and Manufacturing in the Age of NextGen-AI",
+    "publication_year": 2024,
+    "cited_by_count": 24,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W3109367763",
+    "doi": "https://doi.org/10.1007/s43681-020-00028-x",
+    "title": "Automation, work and the achievement gap",
+    "publication_year": 2020,
+    "cited_by_count": 83,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7167688772",
+    "doi": "https://doi.org/10.1145/3832783.3834478",
+    "title": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "workflow_automation",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W2599511405",
+    "doi": "https://doi.org/10.18260/p.23984",
+    "title": "Engineering the Future Workforce Required by a Global Engineering Industry",
+    "publication_year": 2015,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "esg_sustainability_reporting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4412477240",
+    "doi": "https://doi.org/10.55041/ijsrem51388",
+    "title": "A Conceptual Framework for Understanding the Influence of Automation on Maritime Workforce Management",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "process_mapping",
+      "workflow_automation",
+      "esg_sustainability_reporting",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4390403131",
+    "doi": "https://doi.org/10.3390/su16010346",
+    "title": "Global Workforce Challenges for the Mold Making and Engineering Industry",
+    "publication_year": 2023,
+    "cited_by_count": 15,
+    "extracted_taxonomy_skills": [
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4413003865",
+    "doi": "https://doi.org/10.38124/ijisrt/25jul1787",
+    "title": "Promptsecure: Secure Prompt Engineering Protocols for Regulated Genai Environments",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "human_in_the_loop_qa",
+      "api_integration",
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7160825861",
+    "doi": "https://doi.org/10.33050/mentari.v4i2.1019",
+    "title": "Integrating Digital Skills into Vocational Education for Automation-Era Workforce Readiness",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "workflow_automation",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7220369448",
+    "doi": "https://doi.org/10.56506/dssf6074",
+    "title": "Managing the AI Transition: Upskilling and Reskilling Asia\u2019s Workforce in the Age of Automation",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7217816723",
+    "doi": null,
+    "title": "Strategic Shifts in Accounting: Impacts of Intelligent Automation on Reporting and Workforce Structures",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "process_mapping",
+      "python_scripting",
+      "data_visualization",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4385234232",
+    "doi": "https://doi.org/10.21926/obm.geriatr.2303243",
+    "title": "AI Literacy for an Ageing Workforce: Leveraging the Experience of Older Workers",
+    "publication_year": 2023,
+    "cited_by_count": 31,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "sql_data_analysis",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4414092067",
+    "doi": "https://doi.org/10.34218/ijfds_03_02_002",
+    "title": "PROMPT-ROBOTICS: LEVERAGING LARGE LANGUAGE MODEL (LLM) AGENTS TO ENHANCE ROBOTIC PROCESS AUTOMATION (RPA) SUPERVISION AND EFFICIENCY",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W3095723963",
+    "doi": "https://doi.org/10.57022/nqvh2815",
+    "title": "Biomedical engineering a critical workforce in healthcare delivery",
+    "publication_year": 2020,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4405266005",
+    "doi": "https://doi.org/10.71002/res.v4n4p21",
+    "title": "Prompt Engineering 101: Shaping Tomorrow's Critical Thinkers in an AI World",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "prompt_engineering"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7217298418",
+    "doi": null,
+    "title": "The Influence of Prompt Engineering Competency on Employee Performance in Private Companies Using Generative Artificial Intelligence",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "sql_data_analysis",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7162093053",
+    "doi": "https://doi.org/10.17148/iarjset.2026.13562",
+    "title": "From Automation Panic to Workforce Resilience: A Governance Framework for Enterprise AI Transformation",
+    "publication_year": 2026,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7115938739",
+    "doi": "https://doi.org/10.2172/3006948",
+    "title": "Integrating Cyber-Informed Engineering into Process Automation",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7164178281",
+    "doi": "https://doi.org/10.1007/978-3-032-17367-6_16",
+    "title": "Ethics, Governance, Risks, Compliance, and Sovereignty of AI for Cybersecurity",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7217406411",
+    "doi": null,
+    "title": "AI-Powered Governance for Ethics and Compliance Monitoring Systems",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4407857156",
+    "doi": "https://doi.org/10.30574/wjarr.2025.25.2.0571",
+    "title": "Algorithmic bias, data ethics, and governance: Ensuring fairness, transparency and compliance in AI-powered business analytics applications",
+    "publication_year": 2025,
+    "cited_by_count": 86,
+    "extracted_taxonomy_skills": [
+      "sql_data_analysis",
+      "python_scripting",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7213974298",
+    "doi": "https://doi.org/10.14394/edufil.2025.0001",
+    "title": "AI Ethics beyond Compliance: Governance, Power, and Human Flourishing",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7170999504",
+    "doi": null,
+    "title": "AI Ethics beyond Compliance: Governance, Power, and Human Flourishing",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7112529210",
+    "doi": null,
+    "title": "Governance of AI: compliance, ethics, and standardisation are but a distant dream",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7105828128",
+    "doi": "https://doi.org/10.5281/zenodo.17624864",
+    "title": "Building Trust in AI: Governance, Ethics, and Compliance in Healthcare",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7161812668",
+    "doi": "https://doi.org/10.1007/978-3-032-25789-5_3",
+    "title": "Governance, Legal Responsibility, and Post-Compliance Ethics in AI",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7125636964",
+    "doi": "https://doi.org/10.13140/rg.2.2.31358.86084",
+    "title": "Beyond Compliance: Real-World Ethics in AI & Cyber Governance",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7165644792",
+    "doi": "https://doi.org/10.63282/978-93-49929-85-2",
+    "title": "Data Governance and AI Ethics in Healthcare: Balancing Innovation, Privacy, and Regulatory Compliance in Intelligent Systems",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7118118704",
+    "doi": "https://doi.org/10.6084/m9.figshare.30994084",
+    "title": "Data Governance, AI Ethics, and Responsible Digitalisation in Higher Education: A Compliance\u2013Capability Framework for Universities",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7117584789",
+    "doi": "https://doi.org/10.63282/3050-9246.ijetcsit-v5i1p114",
+    "title": "AI Governance in Public Sector Enterprise Systems: Ensuring Trust, Compliance, and Ethics",
+    "publication_year": 2024,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7203550578",
+    "doi": "https://doi.org/10.2139/ssrn.7267018",
+    "title": "From AI Ethics to Compliance: Governance Structures, Roles, and Competencies in the Context of the EU AI Act and ISO/IEC 42001",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4385485193",
+    "doi": "https://doi.org/10.1109/cai54212.2023.00155",
+    "title": "AI Digital Tool Product Lifecycle Governance Framework through Ethics and Compliance by Design\u2020",
+    "publication_year": 2023,
+    "cited_by_count": 14,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7118009070",
+    "doi": "https://doi.org/10.36690/2674-5216-2025-4-12-19",
+    "title": "EU Data Governance, AI Ethics, and Responsible Digitalisation in Higher Education: A Compliance\u2013Capability Framework for Universities",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7118128963",
+    "doi": "https://doi.org/10.5281/zenodo.18139788",
+    "title": "EU Data Governance, AI Ethics, and Responsible Digitalisation in Higher Education: A Compliance\u2013Capability Framework for Universities",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7162441197",
+    "doi": "https://doi.org/10.1007/s43681-026-01142-y",
+    "title": "Compliance without infrastructure: the ethics of AI-driven safety governance in small-scale logistics",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7220062261",
+    "doi": null,
+    "title": "Infrastructure as Code as the Backbone of Continuous AI Governance in Multi-Cloud Enterprises: Integrating Compliance, Risk, and Ethics into Automated Deployment Pipelines",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7203561403",
+    "doi": "https://doi.org/10.65025/icaic26066d",
+    "title": "From Voluntary AI Ethics to Mandatory Compliance: Addressing Enforcement Gaps in Human Rights and Security Governance",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7169543736",
+    "doi": "https://doi.org/10.2139/ssrn.7135861",
+    "title": "Algorithmic Governance and Responsible Innovation: AI Ethics Policy, Corporate Compliance, and Regulatory Quality in Chinese Technology Firms",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7167908302",
+    "doi": "https://doi.org/10.17605/osf.io/v5u6b",
+    "title": "Scoping review of literature looking at Ethics, Governance, Regulation and Compliance in Digital Reality, Robotic and AI-Driven Technologies Addressing Loneliness in Older Adults",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7213268546",
+    "doi": "https://doi.org/10.5281/zenodo.22768229",
+    "title": "Corporate Governance, Algorithmic Risk, and Ethics: A Strategic Compliance Framework for Managing Data Privacy and Bias in UK AI Consumer Operations",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "process_mapping",
+      "data_visualization",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4386142524",
+    "doi": "https://doi.org/10.1093/oso/9780198883098.003.0006",
+    "title": "Soft Ethics and the Governance of AI",
+    "publication_year": 2023,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4311911485",
+    "doi": "https://doi.org/10.1093/oxfordhb/9780197579329.013.10",
+    "title": "The Concept of Accountability in AI Ethics and Governance",
+    "publication_year": 2022,
+    "cited_by_count": 22,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4387618732",
+    "doi": "https://doi.org/10.1016/j.patter.2023.100857",
+    "title": "Worldwide AI ethics: A review of 200 guidelines and recommendations for AI governance",
+    "publication_year": 2023,
+    "cited_by_count": 361,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4415678436",
+    "doi": "https://doi.org/10.18276/978-83-8419-028-9-37",
+    "title": "ETHICS AND GOVERNANCE IN AI MANAGEMENT",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7127426540",
+    "doi": "https://doi.org/10.22471/ai.2025.10.0.53",
+    "title": "An Analysis of the Multilayered Structure of Global AI Ethics Governance",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7214536393",
+    "doi": "https://doi.org/10.58532/nbennur3335c11",
+    "title": "RESPONSIBLE AI AND THE FUTURE OF BUSINESS: GOVERNANCE, ETHICS, AND GLOBAL PERSPECTIVES",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "esg_sustainability_reporting"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7221029421",
+    "doi": "https://doi.org/10.4018/979-8-2600-1970-2.ch007",
+    "title": "Governance, Compliance, and Regulatory Frameworks for Responsible AI",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4404847749",
+    "doi": "https://doi.org/10.30574/gjeta.2024.21.2.0213",
+    "title": "Compliance and Governance issues in Cloud Computing and AI: USA and Africa",
+    "publication_year": 2024,
+    "cited_by_count": 16,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4285086367",
+    "doi": "https://doi.org/10.1007/s10796-022-10308-y",
+    "title": "Reskilling and Upskilling the Future-ready Workforce for Industry 4.0 and Beyond",
+    "publication_year": 2022,
+    "cited_by_count": 762,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7214765304",
+    "doi": "https://doi.org/10.2139/ssrn.7530662",
+    "title": "AI-driven Green HRM for a just Energy Transition: Linking Workforce Reskilling and Sustainable Performance",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7220159077",
+    "doi": null,
+    "title": "Upskilling and Reskilling Strategies for Future Workforce Needs",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7216482967",
+    "doi": "https://doi.org/10.64751/2x1p4v75",
+    "title": "WORKFORCE DEVELOPMENT IN THE AGE OF ARTIFICIAL INTELLIGENCE: UPSKILLING AND RESKILLING STRATEGIES",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "sql_data_analysis",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7216442361",
+    "doi": "https://doi.org/10.62872/hxd0y216",
+    "title": "Future Workforce Readiness: The Role of Upskilling and Reskilling in Enhancing Employee Performance",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7126228531",
+    "doi": "https://doi.org/10.5281/zenodo.18433976",
+    "title": "Autonomous Reskilling Systems in Transportation Workforce: A Framework for Digital Transformation Era",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "workflow_automation",
+      "esg_sustainability_reporting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7160781613",
+    "doi": "https://doi.org/10.62970/ijirct.v12.i2.2604025",
+    "title": "Reskilling for the Gig Economy: Future-ready Competencies for a Changing Workforce",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "esg_sustainability_reporting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7220585919",
+    "doi": null,
+    "title": "IMPORTANCE OF RESKILLING AND UPSKILLING THE WORKFORCE",
+    "publication_year": 2020,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W2571980841",
+    "doi": "https://doi.org/10.1080/22054952.2017.1338228",
+    "title": "Reskilling the manufacturing workforce and developing capabilities for the future",
+    "publication_year": 2017,
+    "cited_by_count": 14,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7211971818",
+    "doi": "https://doi.org/10.31289/perspektif.v14i4.15910",
+    "title": "Reskilling and Upskilling Strategies as the Key to Workforce Adaptation in the Era of Automation and AI",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "esg_sustainability_reporting",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4231644610",
+    "doi": "https://doi.org/10.48009/1_iis_2020_49-54",
+    "title": "THE ROLE OF HIGHER EDUCATION INSTITUTIONS IN RESKILLING THE WORKFORCE",
+    "publication_year": 2020,
+    "cited_by_count": 12,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7128597913",
+    "doi": "https://doi.org/10.51244/ijrsi.2026.13010126",
+    "title": "Impact of Upskilling and Reskilling of Workforce in Manufacturing Companies",
+    "publication_year": 2026,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7203745042",
+    "doi": "https://doi.org/10.56201/wjeds.v11.no5.2026.pg98.111",
+    "title": "Reskilling and Upskilling in the Age of Automation: Continuous Learning Strategies and Workforce Readiness in the Service Industry in Rivers State, Nigeria",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7171963312",
+    "doi": "https://doi.org/10.4314/ajmr.v32i1.2",
+    "title": "Reskilling the workforce: Preparing manufacturing employees for a green future",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "sql_data_analysis",
+      "python_scripting",
+      "esg_sustainability_reporting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4403193908",
+    "doi": "https://doi.org/10.56581/ijrerd.9.5.01-08",
+    "title": "Adapting to the Changing Workforce: Upskilling and Reskilling for Better Job Prospects",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7212218376",
+    "doi": "https://doi.org/10.2139/ssrn.7439321",
+    "title": "Artificial Intelligence and Workforce Reskilling: Building A Future-Ready Workforce for the U.S. Digital Economy",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4321506460",
+    "doi": "https://doi.org/10.28945/5078",
+    "title": "The Impact of Artificial Intelligence on Workers\u2019 Skills: Upskilling and Reskilling in Organisations",
+    "publication_year": 2023,
+    "cited_by_count": 433,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7219984155",
+    "doi": null,
+    "title": "\u0e01\u0e32\u0e23\u0e1e\u0e12\u0e19\u0e32\u0e17\u0e01\u0e29\u0e30\u0e41\u0e25\u0e30\u0e2a\u0e21\u0e23\u0e23\u0e16\u0e19\u0e30\u0e27\u0e0a\u0e32\u0e0a\u0e1e\u0e01\u0e33\u0e25\u0e07\u0e04\u0e19 (Reskill \u2013 Upskill \u2013 New Skills) : \u0e04\u0e32\u0e19\u0e07\u0e14\u0e2a\u0e33\u0e04\u0e0d\u0e43\u0e19\u0e01\u0e32\u0e23\u0e1e\u0e12\u0e19\u0e32\u0e17\u0e19\u0e21\u0e19\u0e29\u0e22\u0e02\u0e2d\u0e07\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7222912510",
+    "doi": null,
+    "title": "The Industrial Skills Crisis and Workforce Transformation in Swedish Manufacturing Companies : Challenges and Pathways for Upskilling and Reskilling",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "esg_sustainability_reporting",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7170410043",
+    "doi": "https://doi.org/10.22271/27069583.2026.v8.i7a.242",
+    "title": "Aviation industry strategic human resource management and workforce reskilling",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7216143425",
+    "doi": "https://doi.org/10.64252/ye0k6r83",
+    "title": "Skill Shifts and Workforce Reskilling in the Age of Automation and AI Integration",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4404364495",
+    "doi": "https://doi.org/10.34190/ecmlg.20.1.2923",
+    "title": "Automation and the Importance of Reskilling Workers: A Case Study in the Automotive Industry",
+    "publication_year": 2024,
+    "cited_by_count": 4,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "esg_sustainability_reporting",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4307030332",
+    "doi": "https://doi.org/10.34190/ecel.21.1.881",
+    "title": "Can MOOCs reskill and upskill the Indian Workforce for the Industrial Revolution 4.0?",
+    "publication_year": 2022,
+    "cited_by_count": 4,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W3164188480",
+    "doi": "https://doi.org/10.1007/978-981-16-0983-1_19",
+    "title": "Reskill to Rebuild: Coursera\u2019s Global Partnership with Government to Support Workforce Recovery at Scale",
+    "publication_year": 2021,
+    "cited_by_count": 6,
+    "extracted_taxonomy_skills": [
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7140283793",
+    "doi": "https://doi.org/10.1108/joepp-12-2025-1109",
+    "title": "Digital reskilling and workforce transformation: exploring identity, capability and adaptation in AI-mediated workplaces",
+    "publication_year": 2026,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4395098706",
+    "doi": "https://doi.org/10.35429/jhrt.2023.24.9.13.20",
+    "title": "Trends and challenges in the upskilling and reskilling of the workforce in the 21st century: an analysis of the strategies and results in the acquisition of skills for adaptation to technological and labor change",
+    "publication_year": 2023,
+    "cited_by_count": 6,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7212148516",
+    "doi": "https://doi.org/10.5937/emc26303s",
+    "title": "Impact of technological drivers on job transformation with implications for reskilling and upskilling",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7204627999",
+    "doi": "https://doi.org/10.15680/ijctece.2025.0804023",
+    "title": "Human Capital Transformation in the AI Era: Organizational Strategies for Continuous Workforce Reskilling",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7214353331",
+    "doi": "https://doi.org/10.68089/202609240448",
+    "title": "AI and Automation in Aviation Human Resource: Reskilling and Adaptation",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7127889780",
+    "doi": "https://doi.org/10.4018/979-8-3373-3912-2.ch003",
+    "title": "Retrieval-Augmented Generation (RAG) for Enterprise Intelligence",
+    "publication_year": 2026,
+    "cited_by_count": 5,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "api_integration",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7221683310",
+    "doi": "https://doi.org/10.5281/zenodo.23341612",
+    "title": "Retrieval-Augmented Generation for Enterprise Knowledge Management",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7138045432",
+    "doi": "https://doi.org/10.1109/icca66035.2025.11430920",
+    "title": "Survey and Benchmarking of Retrieval Methods for Enterprise Retrieval-Augmented Generation",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "rag_knowledge_systems",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7155421897",
+    "doi": "https://doi.org/10.64643/ijirtv12i11-197132-459",
+    "title": "Enterprise Policy Assistant: A Retrieval-Augmented Generation System for Semantic Enterprise Policy Retrieval",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "rag_knowledge_systems"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7171957191",
+    "doi": "https://doi.org/10.63090/ijitrs/3139.3209.0033",
+    "title": "Retrieval-Augmented Generation for Trustworthy Enterprise LLM Assistants",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "workflow_automation",
+      "rag_knowledge_systems",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4403577498",
+    "doi": "https://doi.org/10.1145/3627673.3680117",
+    "title": "Generative AI and Retrieval-Augmented Generation (RAG) Systems for Enterprise",
+    "publication_year": 2024,
+    "cited_by_count": 10,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "python_scripting",
+      "rag_knowledge_systems",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7152649344",
+    "doi": "https://doi.org/10.1051/itmconf/20268502007",
+    "title": "Retrieval augmented generation with LLMs for enterprise proposal automation",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "sql_data_analysis",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "api_integration"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7153544824",
+    "doi": "https://doi.org/10.1051/itmconf/20268502007/pdf",
+    "title": "Retrieval augmented generation with LLMs for enterprise proposal automation",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "sql_data_analysis",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "api_integration"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7171781970",
+    "doi": "https://doi.org/10.5281/zenodo.21697399",
+    "title": "Retrieval-Augmented Generation for Trustworthy Enterprise LLM Assistants",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "workflow_automation",
+      "rag_knowledge_systems",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7163509552",
+    "doi": "https://doi.org/10.1109/icsp69961.2026.11540903",
+    "title": "Problem-Oriented Enterprise Retrieval-Augmented Generation Framework",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "prompt_engineering",
+      "rag_knowledge_systems",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7110630427",
+    "doi": null,
+    "title": "Optimizing Retrieval Augmented Generation Architectures for Enterprise AI Applications",
+    "publication_year": null,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "rag_knowledge_systems",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4415143696",
+    "doi": "https://doi.org/10.48550/arxiv.2507.12425",
+    "title": "Advancing Retrieval-Augmented Generation for Structured Enterprise and Internal Data",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "sql_data_analysis",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7214826508",
+    "doi": null,
+    "title": "Retrieval Augmented Generation for automating enterprise technical queries",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "sql_data_analysis",
+      "rag_knowledge_systems"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4414508135",
+    "doi": "https://doi.org/10.32628/cseit25111702",
+    "title": "Retrieval-Augmented Generation (RAG) and Memory Systems for HR and Enterprise AI",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "sql_data_analysis",
+      "python_scripting",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7161375790",
+    "doi": "https://doi.org/10.11591/ijece.v16i3.pp1407-1416",
+    "title": "Retrieval-augmented generation in enterprise knowledge systems: architecture, benefits, and applications",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "rag_knowledge_systems",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7217308862",
+    "doi": null,
+    "title": "Enhancing Enterprise Retrieval-Augmented Generation Systems through Reinforcement Learning-Based Adaptive Retrieval",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "rag_knowledge_systems",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7131132771",
+    "doi": "https://doi.org/10.1109/icaic67076.2026.11395762",
+    "title": "RAGSec: Retrieval-Augmented Generation for Cybersecurity Threat Intelligence in Enterprise Networks",
+    "publication_year": 2026,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7203706871",
+    "doi": "https://doi.org/10.56975/ijcrt.v14i8.309251",
+    "title": "Enterprise Retrieval-Augmented Generation System for Intelligent Enterprise Knowledge Access",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "rag_knowledge_systems"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7213520237",
+    "doi": "https://doi.org/10.2139/ssrn.7473518",
+    "title": "Retrieval-Augmented Generation for Secure Natural-Language Interaction with Enterprise Data",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "rag_knowledge_systems"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7213306407",
+    "doi": "https://doi.org/10.51483/ijaiml.6.10s.2026.430-439",
+    "title": "Retrieval-Augmented Generation for Natural-Language Access to Enterprise Operational Data",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "data_visualization",
+      "rag_knowledge_systems",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4409166806",
+    "doi": "https://doi.org/10.1007/978-3-031-88720-8_19",
+    "title": "Combining Knowledge Graphs and Retrieval Augmented Generation for Enterprise Resource Planning",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "rag_knowledge_systems"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7212322835",
+    "doi": "https://doi.org/10.48550/arxiv.2609.11023",
+    "title": "RCL: A Retrieval-Confidence Layer for Detecting Insufficient Context in Enterprise Retrieval-Augmented Code Generation",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "python_scripting",
+      "rag_knowledge_systems",
+      "api_integration",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7164894229",
+    "doi": "https://doi.org/10.52783/jisem.v10i36s.15043",
+    "title": "Index-State Uncertainty for Trustworthy Enterprise Retrieval-Augmented Generation (RAG)",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7214155903",
+    "doi": "https://doi.org/10.18267/j.aip.320",
+    "title": "Enterprise Conversational AI with Retrieval-Augmented Generation: A CRM Case Study",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "rag_knowledge_systems",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7213899828",
+    "doi": "https://doi.org/10.58812/esiscs.v2i03.1229",
+    "title": "GovernedRAG: Risk-Adaptive Retrieval-Augmented Generation for Enterprise Compliance Decision Support",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "rag_knowledge_systems",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7141055573",
+    "doi": "https://doi.org/10.18419/opus-18226",
+    "title": "Knowledge graph-based retrieval-augmented generation on enterprise knowledge graphs",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "sql_data_analysis",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4408120198",
+    "doi": "https://doi.org/10.1145/3704137.3704181",
+    "title": "Optimizing and Evaluating Enterprise Retrieval-Augmented Generation (RAG): A Content Design Perspective",
+    "publication_year": 2024,
+    "cited_by_count": 6,
+    "extracted_taxonomy_skills": [
+      "rag_knowledge_systems"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7160047974",
+    "doi": "https://doi.org/10.5281/zenodo.20028435",
+    "title": "Retrieval Augmented Generation in High Stakes Enterprise Domains. An Architectural Pattern Catalog",
+    "publication_year": 2026,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "rag_knowledge_systems",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4403239806",
+    "doi": "https://doi.org/10.55041/ijsrem28465",
+    "title": "The Salesforce Einstein Trust Layer for Retrieval-Augmented Generation (RAG) for Enterprise Applications",
+    "publication_year": 2024,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "rag_knowledge_systems",
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7214552590",
+    "doi": "https://doi.org/10.5281/zenodo.23000753",
+    "title": "Retrieval-Augmented Generation in Enterprise Systems: Architectural Patterns, GraphRAG, and Implementation Challenges",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7210275434",
+    "doi": "https://doi.org/10.5281/zenodo.22492866",
+    "title": "AI untuk Rakyat: Memperkasakan Ekonomi Digital Malaysia",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "sql_data_analysis",
+      "python_scripting",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7124947520",
+    "doi": "https://doi.org/10.1109/icimcis68501.2025.11327174",
+    "title": "AI in Entrepreneurship Education: Adoption, Skill Development, Business Model, and Capabilities",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4404863498",
+    "doi": "https://doi.org/10.2991/978-94-6463-589-8_14",
+    "title": "A Direction for AI Education: An Investigation of Digital Skills among Undergraduate Students in Malaysia",
+    "publication_year": 2024,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7160326375",
+    "doi": "https://doi.org/10.1007/s43545-026-01463-z",
+    "title": "Bridging the smart divide: a cross-cultural study of AI-enhanced learning adoption in Pakistan and Malaysia",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7212357838",
+    "doi": "https://doi.org/10.35335/iacrj.v13i4.646",
+    "title": "AI Adoption and accounting efficiency in Indonesia and Malaysia",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4322709501",
+    "doi": "https://doi.org/10.1007/978-3-031-26953-0_72",
+    "title": "Digital Technologies and Small-Scale Rural Farmers in Malaysia",
+    "publication_year": 2023,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7215054180",
+    "doi": "https://doi.org/10.2139/ssrn.7548118",
+    "title": "The Adoption of Artificial Intelligence (AI) and Digital Learning Technologies among Early Childhood Education Providers in Malaysia",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7196936214",
+    "doi": "https://doi.org/10.36948/ijfmr.2026.v08i04.83401",
+    "title": "The Influence of AI-Powered Marketing on the Business Growth of Malaysian SMEs",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "process_mapping",
+      "python_scripting",
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4414778455",
+    "doi": "https://doi.org/10.63793/isre/0024",
+    "title": "Artificial Intelligence Adoption in Malaysian SMEs: When to Optimize and When to Transform Business Models?",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "sql_data_analysis",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4302023986",
+    "doi": "https://doi.org/10.22617/spr220348",
+    "title": "Digital Jobs and Digital Skills",
+    "publication_year": 2022,
+    "cited_by_count": 105,
+    "extracted_taxonomy_skills": [],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4411925769",
+    "doi": "https://doi.org/10.21203/rs.3.rs-6987750/v1",
+    "title": "The Impact of Artificial Intelligence (AI) in Education Systems: Evidence From Malaysia",
+    "publication_year": 2025,
+    "cited_by_count": 2,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7167492489",
+    "doi": "https://doi.org/10.30880/jtet.2026.18.01.025",
+    "title": "Beyond Digital Skills: Addressing The Technical and Soft Skills Deficit in Malaysian TVET for the Manufacturing Sector",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4415011135",
+    "doi": "https://doi.org/10.6007/ijarafms/v15-i4/25871",
+    "title": "Factors Affecting the Adoption of Artificial Intelligence (AI) among Accountants in Malaysia",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7104037908",
+    "doi": "https://doi.org/10.35631/ijemp.831015",
+    "title": "ENHANCING PERFORMANCE IN SMES: A CONCEPTUAL FRAMEWORK FOR AI ADOPTION THROUGH DIGITAL READINESS AND EMPLOYEE DIGITAL SKILLS",
+    "publication_year": 2025,
+    "cited_by_count": 2,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7217547659",
+    "doi": null,
+    "title": "Foresight Study on the Adoption of Artificial Intelligence (AI) in Employee Wellness Program in Malaysia",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4414614013",
+    "doi": "https://doi.org/10.6007/ijarped/v14-i3/26543",
+    "title": "Digital AML Governance in Transition: A Comparative Institutional Analysis of Malaysia and Indonesia",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4416592209",
+    "doi": "https://doi.org/10.47772/ijriss.2025.910000786",
+    "title": "AI Applications in Higher Education in Malaysia: An Academic Review",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4416668343",
+    "doi": "https://doi.org/10.6007/ijarped/v14-i4/27068",
+    "title": "TVET 4.0: Integrating Digital Pedagogy and Industry 4.0 Skills into Malaysian Community College Programmes",
+    "publication_year": 2025,
+    "cited_by_count": 2,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W3134793493",
+    "doi": "https://doi.org/10.1088/1742-6596/1793/1/012049",
+    "title": "Driving Digital Competency Model Towards IR 4.0 In Malaysia",
+    "publication_year": 2021,
+    "cited_by_count": 34,
+    "extracted_taxonomy_skills": [
+      "sql_data_analysis",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7160912001",
+    "doi": "https://doi.org/10.47772/ijriss.2026.100400410",
+    "title": "AI Adoption among Manufacturing SMEs in Malaysia: Interview Insights from A TOE Perspective",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "esg_sustainability_reporting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W3040086022",
+    "doi": "https://doi.org/10.3390/su12135402",
+    "title": "Smart Digital Marketing Capabilities for Sustainable Property Development: A Case of Malaysia",
+    "publication_year": 2020,
+    "cited_by_count": 177,
+    "extracted_taxonomy_skills": [
+      "stakeholder_communication"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4409680894",
+    "doi": "https://doi.org/10.12688/f1000research.163354.1",
+    "title": "Exploring the challenges of AI-driven business intelligence systems in the Malaysian insurance industry",
+    "publication_year": 2025,
+    "cited_by_count": 2,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "data_visualization",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4413090622",
+    "doi": "https://doi.org/10.53894/ijirss.v8i4.8133",
+    "title": "Strategies for exploring ai-driven business intelligence in the Malaysian insurance industry",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "data_visualization",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7220040949",
+    "doi": null,
+    "title": "AI in Vocational Education: Balancing Digital Skills and Humanism",
+    "publication_year": 2024,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4412638484",
+    "doi": "https://doi.org/10.35631/aijbes.724027",
+    "title": "SME AND ARTIFICIAL INTELLIGENCE (AI) TECHNOLOGY ADOPTION ON SME INDUSTRY IN MALAYSIA",
+    "publication_year": 2025,
+    "cited_by_count": 3,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "process_mapping"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7167458898",
+    "doi": "https://doi.org/10.59953/paperasia.v42i3b.1485",
+    "title": "Unveiling the Drivers of Digital Investment Advisor Adoption in Malaysia: The Role of Financial Literacy",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W4395002304",
+    "doi": "https://doi.org/10.5430/afr.v13n2p80",
+    "title": "Factors Influencing the Adoption of Artificial Intelligence (AI) Based Accounting System in Malaysian Organization: A Conceptual Paper",
+    "publication_year": 2024,
+    "cited_by_count": 4,
+    "extracted_taxonomy_skills": [
+      "ai_literacy"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7129042805",
+    "doi": "https://doi.org/10.6007/ijarbss/v16-i2/27568",
+    "title": "Designing an Empathetic and Inclusive Digital Animal Adoption Marketplace: A Conceptual Framework for Malaysia",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7217790427",
+    "doi": null,
+    "title": "Digital dexterity: Effect and implication through the use of AI among educators in Malaysia",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  },
+  {
+    "openalex_id": "https://openalex.org/W7124935980",
+    "doi": "https://doi.org/10.47772/ijriss.2025.91200317",
+    "title": "AI Adoption Readiness in Universities: A Multivariate Regression and Machine Learning Analysis of Malaysia and Indonesia",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "extracted_taxonomy_skills": [
+      "python_scripting",
+      "instructional_design"
+    ],
+    "role_in_architecture": "EVIDENCE_AND_TREND_SIGNAL_ONLY"
+  }
+]

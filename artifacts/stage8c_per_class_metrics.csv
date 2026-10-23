@@ -1,0 +1,17 @@
+skill,support_v5,f1_candidate_a,f1_candidate_c1,f1_hybrid_h,precision_hybrid_h,recall_hybrid_h,stage7b_historical_f1,delta_vs_historical
+ai_literacy,38,0.6575,0.5843,0.6667,0.6757,0.6579,0.697,-0.0303
+prompt_engineering,31,0.8475,0.72,0.8254,0.8125,0.8387,0.672,0.1534
+process_mapping,99,0.6538,0.627,0.7009,0.6522,0.7576,0.685,0.0159
+sql_data_analysis,62,0.5417,0.5376,0.5263,0.4444,0.6452,0.771,-0.2447
+python_scripting,63,0.6993,0.7324,0.7143,0.6494,0.7937,0.738,-0.0237
+data_visualization,42,0.2745,0.3026,0.2936,0.2388,0.381,0.742,-0.4484
+workflow_automation,65,0.6623,0.5876,0.6842,0.5977,0.8,0.638,0.0462
+human_in_the_loop_qa,59,0.5692,0.5444,0.5655,0.4767,0.6949,0.584,-0.0185
+rag_knowledge_systems,31,0.9333,0.8657,0.9333,0.9655,0.9032,0.612,0.3213
+api_integration,42,0.5745,0.6471,0.6596,0.5962,0.7381,0.718,-0.0584
+ai_ethics_governance,30,0.4688,0.3462,0.4058,0.359,0.4667,0.655,-0.2492
+data_privacy_pdpa,44,0.7912,0.6852,0.7872,0.74,0.8409,0.641,0.1462
+esg_sustainability_reporting,43,0.8864,0.8261,0.907,0.907,0.907,0.669,0.238
+carbon_footprint_analytics,31,0.8254,0.8108,0.8485,0.8,0.9032,0.562,0.2865
+stakeholder_communication,98,0.549,0.5891,0.567,0.454,0.7551,0.675,-0.108
+instructional_design,31,0.0909,0.3636,0.2083,0.2941,0.1613,0.573,-0.3647

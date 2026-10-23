@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "engine_name": "O6 SDG Contribution Aggregation Engine",
+  "framework": "UN 2030 Agenda for Sustainable Development (17 Goals, 169 Targets - Selected Domain-Relevant Subset)",
+  "description": "Descriptive workforce sustainability capability and alignment prevalence aggregation engine across individual, cohort, and regional levels.",
+  "status": "DEVELOPMENT_STAGE_14A",
+  "pinned_dependencies": {
+    "m5_sdg_mapping_version": "1.1.0",
+    "m4_reskilling_pathways_version": "1.1.0",
+    "m3_role_matching_version": "1.1.0",
+    "m6_scenario_engine_version": "1.1.0"
+  },
+  "privacy_safeguards": {
+    "minimum_cohort_size": 5,
+    "policy_type": "PROJECT_ENGINEERING_SAFEGUARD",
+    "legal_basis_disclaimer": "Project-defined privacy safeguard using minimum cohort-size suppression / k-anonymity-style aggregation. This is an internal engineering risk-mitigation policy and does NOT constitute a statutory requirement under Malaysia Personal Data Protection Act 2010 (Act 709).",
+    "suppression_code": "SUPPRESSED_SMALL_COHORT",
+    "enable_complementary_suppression": true,
+    "forbidden_demographic_keys": [
+      "race",
+      "religion",
+      "gender",
+      "ethnicity",
+      "income",
+      "school",
+      "postcode",
+      "family_background",
+      "age",
+      "marital_status",
+      "nationality",
+      "disability"
+    ]
+  },
+  "analytical_levels": [
+    "INDIVIDUAL",
+    "WORKFORCE_COHORT",
+    "REGIONAL_SYNTHETIC"
+  ],
+  "time_dimensions": [
+    "CURRENT",
+    "POST_PATHWAY"
+  ],
+  "post_pathway_semantics": {
+    "label": "PROJECTED CAPABILITY ALIGNMENT IF PATHWAY COMPLETED",
+    "disclaimer": "POST_PATHWAY represents a structured capability scenario assuming successful competency acquisition. It does NOT assert guaranteed training completion, verified skill mastery, employment acquisition, or realized environmental/societal impact."
+  },
+  "methodology_disclaimer": "O6 is a descriptive workforce capability alignment analytics engine, NOT an impact measurement system. Alignment prevalence indicates the proportion of workforce profiles or competencies mapped to UN SDG targets via M5 qualitative evidence. O6 does not measure actual carbon reductions, jobs created, or national progress toward SDGs.",
+  "guardrails": {
+    "forbid_hr_decision_use": true,
+    "hr_decision_warning": "O6 workforce sustainability analytics must NEVER be used to hire, fire, promote, penalize, or score individual employee performance.",
+    "forbid_employee_ranking": true,
+    "forbid_synthetic_impact_quantification": true,
+    "forbid_synthetic_weighting_sums": true,
+    "forbid_backpropagation_to_m3_m4_m5": true,
+    "forbid_protected_demographic_aggregation": true
+  },
+  "allowed_terminology": [
+    "SDG alignment prevalence",
+    "capability alignment",
+    "workforce representation",
+    "target coverage",
+    "direct/enabling/contextual mapping distribution",
+    "descriptive competency ratios",
+    "projected capability alignment if pathway completed"
+  ],
+  "prohibited_terminology": [
+    "SDG impact achieved",
+    "SDG score improved by X%",
+    "company contributes Y% to SDG 13",
+    "tonnes of CO2 saved",
+    "jobs created",
+    "social ROI",
+    "green employee score",
+    "sustainability virtue rank"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "engine_name": "O2 Automatic Replanning & Change Detection Engine",
+  "engine_version": "1.0.0",
+  "status": "STAGE_16A_CANDIDATE_READY_FOR_METHODOLOGY_REVIEW",
+  "timestamp": "2026-10-23T20:57:48.891618+00:00",
+  "files": {
+    "engine_source": {
+      "path": "src/replanning_engine.py",
+      "sha256": "3de7cfc6836e0e7cce497c739eaa83726003eca3906608b37aa8a75c06230742"
+    },
+    "configuration": {
+      "path": "data/replanning/o2_config_v1.json",
+      "sha256": "ec9c77259d79b72d6f392fe895ea812807b5df606485d3d8e4b95130eb29fbf4"
+    },
+    "synthetic_m2_snapshots": {
+      "path": "data/replanning/synthetic_m2_snapshots_v1.json",
+      "sha256": "b0bc3a3a7877a6ae3232cd39c6b9d8cc2f2175f64eb5138d06d7e4aba8bf26b8"
+    },
+    "synthetic_replan_events": {
+      "path": "data/replanning/synthetic_replan_events_v1.json",
+      "sha256": "105304209491dc0da5b70d9e26895e32c3efaef7df4f0d297e768eb521e89ccc"
+    },
+    "benchmark_results": {
+      "path": "data/replanning/o2_benchmark_results_v1.json",
+      "sha256": "7b47e688b39a87c649c439b5fd256eb993708cbba0da292af16755d28bdde330"
+    }
+  },
+  "pinned_upstream_baseline": {
+    "M1": "H_blend_0.70A_0.30C1_W1.0",
+    "M2": "v1.1.1",
+    "M6": "v1.1.0",
+    "M3": "v1.1.0",
+    "M4": "v1.1.0",
+    "M5": "v1.1.0",
+    "O6": "v1.1.0",
+    "O1": "v1.1.0"
+  },
+  "verification_summary": {
+    "benchmarks_passed": "14/14"
+  }
+}

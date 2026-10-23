@@ -1,0 +1,98 @@
+{
+  "manifest_name": "Grouped 5-Fold Cross-Validation Manifest for Dataset v4",
+  "description": "Training-side model selection protocol. Strictly isolates entire occupation families and synthetic template clusters within folds.",
+  "total_training_records": 348,
+  "num_folds": 5,
+  "folds": [
+    {
+      "fold_id": 0,
+      "total_samples": 77,
+      "real_samples": 14,
+      "synthetic_samples": 63,
+      "real_ratio": 0.182,
+      "unique_cluster_keys": 9,
+      "cluster_keys": [
+        "REAL_FW-prompt_engineering",
+        "REAL_2424",
+        "REAL_4132",
+        "REAL_2133",
+        "REAL_FW-human_in_the_loop_qa",
+        "REAL_FW-data_privacy_pdpa",
+        "SYNTH_experienced practitioner",
+        "SYNTH_software quality"
+      ]
+    },
+    {
+      "fold_id": 1,
+      "total_samples": 59,
+      "real_samples": 7,
+      "synthetic_samples": 52,
+      "real_ratio": 0.119,
+      "unique_cluster_keys": 9,
+      "cluster_keys": [
+        "REAL_FW-python_scripting",
+        "REAL_2512",
+        "REAL_FW-ai_literacy",
+        "REAL_FW-workflow_automation",
+        "REAL_2422",
+        "REAL_FW-esg_sustainability_reporting",
+        "SYNTH_designed competency",
+        "SYNTH_analyzing relational"
+      ]
+    },
+    {
+      "fold_id": 2,
+      "total_samples": 73,
+      "real_samples": 20,
+      "synthetic_samples": 53,
+      "real_ratio": 0.274,
+      "unique_cluster_keys": 9,
+      "cluster_keys": [
+        "REAL_2511",
+        "REAL_FW-sql_data_analysis",
+        "REAL_41/42",
+        "REAL_2511/2512/2521",
+        "REAL_FW-process_mapping",
+        "REAL_2521",
+        "SYNTH_data engineer",
+        "SYNTH_specializing in"
+      ]
+    },
+    {
+      "fold_id": 3,
+      "total_samples": 69,
+      "real_samples": 12,
+      "synthetic_samples": 57,
+      "real_ratio": 0.174,
+      "unique_cluster_keys": 9,
+      "cluster_keys": [
+        "REAL_4120",
+        "REAL_FW-data_visualization",
+        "REAL_FW-api_integration",
+        "REAL_4110",
+        "REAL_41/43",
+        "REAL_FW-ai_ethics_governance",
+        "SYNTH_responsible for",
+        "SYNTH_conducting comprehensive"
+      ]
+    },
+    {
+      "fold_id": 4,
+      "total_samples": 70,
+      "real_samples": 45,
+      "synthetic_samples": 25,
+      "real_ratio": 0.643,
+      "unique_cluster_keys": 8,
+      "cluster_keys": [
+        "REAL_33/41",
+        "REAL_FW-carbon_footprint_analytics",
+        "REAL_FW-rag_knowledge_systems",
+        "REAL_24/25",
+        "REAL_FW-instructional_design",
+        "REAL_FW-stakeholder_communication",
+        "SYNTH_architecting autonomous",
+        "SYNTH_proficient in"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "source_name": "OpenAlex CC0 Scholarly AI Literature",
+    "source_url": "https://api.openalex.org/works",
+    "publisher": "OurResearch (OpenAlex)",
+    "acquisition_method": "Official REST API",
+    "acquisition_date": "2026-10-22",
+    "license": "CC0 (Public Domain)",
+    "attribution_requirements": "OpenAlex CC0 terms; citation via DOI",
+    "records_downloaded": 208,
+    "records_retained": 205,
+    "quality_tier": "GOLD",
+    "permitted_use_notes": "Unrestricted commercial, academic and hackathon usage under CC0."
+  },
+  {
+    "source_name": "European Skills, Competences, Qualifications and Occupations (ESCO)",
+    "source_url": "https://ec.europa.eu/esco/api",
+    "publisher": "European Commission",
+    "acquisition_method": "Official ESCO REST API v1.1",
+    "acquisition_date": "2026-10-22",
+    "license": "Open Data (EU Free Reuse Notice)",
+    "attribution_requirements": "Acknowledge European Commission ESCO taxonomy",
+    "records_downloaded": 104,
+    "records_retained": 104,
+    "quality_tier": "GOLD",
+    "permitted_use_notes": "Free for commercial and non-commercial reuse with attribution."
+  },
+  {
+    "source_name": "Malaysia Standard Classification of Occupations (MASCO 2020) & MyMahir MyCOL",
+    "source_url": "https://www.mohr.gov.my / https://www.talentcorp.com.my",
+    "publisher": "Ministry of Human Resources (MOHR) & TalentCorp Malaysia",
+    "acquisition_method": "Official Government Benchmark Framework Ingestion",
+    "acquisition_date": "2026-10-22",
+    "license": "Government Open Data Policy",
+    "attribution_requirements": "MOHR MASCO 2020 and TalentCorp Critical Occupations List 2024/2025",
+    "records_downloaded": 10,
+    "records_retained": 10,
+    "quality_tier": "GOLD",
+    "permitted_use_notes": "Official Malaysian benchmark reference standards."
+  },
+  {
+    "source_name": "Synthetic Malaysian Worker Task Profiles",
+    "source_url": "Internal pipeline",
+    "publisher": "AI Skills Compass Project",
+    "acquisition_method": "Rule-based persona generation (Domain 1 Item #1)",
+    "acquisition_date": "2026-10-21",
+    "license": "MIT License",
+    "attribution_requirements": "Internal project artifact",
+    "records_downloaded": 1200,
+    "records_retained": 640,
+    "quality_tier": "BRONZE",
+    "permitted_use_notes": "Down-weighted and balanced 1:2 to prevent synthetic distribution skew."
+  }
+]

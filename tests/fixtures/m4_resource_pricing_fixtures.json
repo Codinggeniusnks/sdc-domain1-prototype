@@ -1,0 +1,81 @@
+{
+  "version": "1.1.0",
+  "module": "M4_PERSONALISED_RESKILLING_PATHWAY_ENGINE",
+  "test_only": true,
+  "description": "Synthetic edge-case pricing test fixtures for verifying LOW_COST and UNKNOWN cost arithmetic in unit test suites. Strictly excluded from production catalogs.",
+  "total_fixtures": 2,
+  "fixtures": [
+    {
+      "resource_id": "RES_LOWCOST_01",
+      "title": "Practical Enterprise API Testing Lab",
+      "provider": "Community Technical Academy",
+      "provider_display_name": "Community Technical Academy",
+      "provider_group_id": "COMMUNITY_TECH_ACADEMY",
+      "provider_group_name": "Community Technical Academy (Test Fixture)",
+      "official_url": "https://academy.postman.com/pricing",
+      "skill_ids": [
+        "api_integration"
+      ],
+      "resource_type": "PRACTICE_LAB",
+      "access_model": "PAID_ONLY",
+      "cost_status": "LOW_COST",
+      "cost_amount_if_verified": 99.0,
+      "currency_if_verified": "MYR",
+      "certificate_available": true,
+      "certificate_cost_if_verified": 0.0,
+      "provider_stated_duration": "8 hours",
+      "provider_stated_hours": [
+        8,
+        12
+      ],
+      "language": "English",
+      "learning_level": "INTERMEDIATE",
+      "last_verified_date": "2026-10-23",
+      "verification_source": "Synthetic Pricing Test Fixture for Unit Tests",
+      "test_only": true,
+      "fixture_type": "BENCHMARK_SYNTHETIC_TEST_FIXTURE",
+      "quality_flags": [
+        "BELOW_LOW_COST_THRESHOLD",
+        "TEST_ONLY_SYNTHETIC_FIXTURE"
+      ],
+      "skill_alignment": 0.92,
+      "provider_reliability": 0.9
+    },
+    {
+      "resource_id": "RES_VAR_01",
+      "title": "Advanced Enterprise ESG Disclosure Workshop",
+      "provider": "Regional Sustainability Institute",
+      "provider_display_name": "Regional Sustainability Institute",
+      "provider_group_id": "REGIONAL_SUSTAINABILITY_INSTITUTE",
+      "provider_group_name": "Regional Sustainability Institute (Test Fixture)",
+      "official_url": "https://unglobalcompact.org",
+      "skill_ids": [
+        "esg_sustainability_reporting"
+      ],
+      "resource_type": "COURSE",
+      "access_model": "PAID_ONLY",
+      "cost_status": "UNKNOWN",
+      "cost_amount_if_verified": null,
+      "currency_if_verified": null,
+      "certificate_available": true,
+      "certificate_cost_if_verified": null,
+      "provider_stated_duration": "16 hours",
+      "provider_stated_hours": [
+        15,
+        25
+      ],
+      "language": "English",
+      "learning_level": "ADVANCED",
+      "last_verified_date": "2026-10-23",
+      "verification_source": "Synthetic Pricing Test Fixture for Unit Tests",
+      "test_only": true,
+      "fixture_type": "BENCHMARK_SYNTHETIC_TEST_FIXTURE",
+      "quality_flags": [
+        "VARIABLE_INSTITUTIONAL_PRICING",
+        "TEST_ONLY_SYNTHETIC_FIXTURE"
+      ],
+      "skill_alignment": 0.88,
+      "provider_reliability": 0.88
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "engine_name": "O6 SDG Contribution Aggregation Engine",
+  "engine_version": "1.0.0",
+  "status": "INITIAL_BUILD_STAGE_14A",
+  "timestamp": "2026-10-23T17:50:13.554309Z",
+  "benchmarks_passed": "8/8",
+  "pinned_upstream_dependencies": {
+    "m5_sdg_mapping_freeze_hash": "94c1f42b46a1fa5e9b026fb82d5225e21c24547cdd58c234f2843cd84eb32ec7",
+    "m4_reskilling_freeze_hash": "448545188ba4e196eaf3502d7803c3d9cfbb1247ec453208cafae990c8db5f2f",
+    "m3_role_matching_build_hash": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c",
+    "m2_trend_intelligence_freeze_hash": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542",
+    "m6_scenario_engine_build_hash": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+  },
+  "file_manifest": {
+    "data/aggregation/o6_config_v1.json": {
+      "sha256": "db696f2199321976473255bf47fd062da5129306cd8959680f750a441c69e0f4",
+      "bytes": 3280
+    },
+    "data/aggregation/synthetic_workforce_v1.json": {
+      "sha256": "1c54586161a86b116117aaa6754817f15ad78e155fc6c9faed8266e650df2b1c",
+      "bytes": 50312
+    },
+    "data/aggregation/o6_benchmark_results_v1.json": {
+      "sha256": "70b99363557c9822e729349810acfad035c1b2f8fdef3bf2e299d9412a3086e2",
+      "bytes": 3855
+    },
+    "src/sdg_aggregation_engine.py": {
+      "sha256": "bc51a5cc1b9761a8ca6f67405dae0bb47c3a0327b76194bdf08f9868246d13a4",
+      "bytes": 37503
+    },
+    "scripts/build_synthetic_workforce.py": {
+      "sha256": "2d1637c8241cff257e83e991d896ec9c66b91d0f37891b8a822817be099cbd9e",
+      "bytes": 23139
+    },
+    "scripts/run_o6_benchmarks.py": {
+      "sha256": "0569466a96603706d123d24a31da1049501b0f0057ab7f66f8e52178d6a0f19f",
+      "bytes": 16715
+    }
+  }
+}

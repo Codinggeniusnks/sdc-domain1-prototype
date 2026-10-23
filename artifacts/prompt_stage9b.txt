@@ -1,0 +1,1306 @@
+<USER_REQUEST>
+Act as a Senior Labour-Market Quantitative Researcher, ML Systems Engineer and Explainable-AI Architect.
+
+Stage 9A has completed successfully.
+
+Current evidence foundation:
+
+248 normalized trend signals
+
+16 / 16 core skills represented
+
+29 occupational entities
+
+28 sectors
+
+75% direct Malaysian evidence
+
+7 independent evidence families
+
+Time coverage:
+2010–2026
+
+Stage 9A verdict:
+
+READY TO BUILD M2 TREND SCORING ENGINE
+
+Your task is to build the EXPLAINABLE M2 TREND SCORING ENGINE.
+
+Use Gemini 3.8 Flash.
+
+Do NOT modify M1.
+
+Do NOT retrain M1.
+
+Do NOT build M3 role matching.
+
+Do NOT build final M6 scenarios.
+
+Do NOT deploy.
+
+Do NOT push to GitHub.
+
+==================================================
+SOURCE OF TRUTH
+==================================================
+
+Read:
+
+data/trends/manifests/trend_source_manifest.json
+
+data/trends/processed/trend_signals_v1.json
+
+data/trends/processed/skill_source_crosswalk.json
+
+data/trends/processed/occupation_source_crosswalk.json
+
+data/trends/processed/source_freshness.json
+
+artifacts/m2_source_inventory.md
+
+artifacts/m2_source_quality_matrix.csv
+
+artifacts/m2_signal_schema.md
+
+artifacts/m2_normalisation_spec.md
+
+artifacts/m2_freshness_policy.md
+
+artifacts/m2_taxonomy_crosswalk_report.md
+
+artifacts/m2_update_pipeline.md
+
+artifacts/m2_m1_interface.md
+
+artifacts/m2_m3_interface.md
+
+artifacts/stage9b_readiness.md
+
+==================================================
+PRIMARY DESIGN PRINCIPLE
+==================================================
+
+DO NOT create one opaque:
+
+"Future Score"
+
+and pretend it explains everything.
+
+The M2 output must remain decomposed.
+
+For every skill and occupation, calculate separate dimensions:
+
+1. DEMAND / SHORTAGE LEVEL
+
+2. DEMAND MOMENTUM
+
+3. EMPLOYMENT / WAGE MOMENTUM
+
+4. RESEARCH / TECHNOLOGY MOMENTUM
+
+5. AI EXPOSURE
+
+6. AUTOMATION EXPOSURE
+
+7. AUGMENTATION POTENTIAL
+
+8. POLICY / INDUSTRIAL PRIORITY
+
+9. EVIDENCE CONFIDENCE
+
+10. FRESHNESS
+
+These dimensions must remain inspectable.
+
+==================================================
+CRITICAL DISTINCTION — LEVEL VS TREND
+==================================================
+
+Do NOT confuse:
+
+HIGH LEVEL
+
+with:
+
+RISING TREND.
+
+Example:
+
+An occupation appearing in MyCOL for many editions may indicate:
+
+PERSISTENT SHORTAGE
+
+but not necessarily:
+
+ACCELERATING SHORTAGE.
+
+Model separately:
+
+STATE / LEVEL
+
+and:
+
+MOMENTUM / CHANGE.
+
+Similarly:
+
+high wage
+
+is not equivalent to:
+
+high wage growth.
+
+==================================================
+CRITICAL DISTINCTION — EXPOSURE VS DECLINE
+==================================================
+
+Do NOT interpret:
+
+high AI exposure
+
+as:
+
+job decline.
+
+AI exposure must remain separate from:
+
+automation potential
+
+augmentation potential
+
+labour demand
+
+skill scarcity
+
+policy priority.
+
+A highly exposed occupation may still have strong demand if AI primarily augments the work.
+
+==================================================
+OUTPUT ENTITY TYPES
+==================================================
+
+Generate M2 profiles for:
+
+SKILLS
+
+and:
+
+OCCUPATIONS.
+
+Do NOT yet generate user-specific recommendations.
+
+==================================================
+SECTION 1 — SIGNAL GROUPING
+==================================================
+
+Group the 248 source signals into analytical dimensions.
+
+Examples:
+
+MyCOL critical status / persistence:
+→ demand_shortage_level
+→ demand_persistence
+
+OpenDOSM wage changes:
+→ wage_momentum
+
+OpenDOSM employment changes:
+→ employment_momentum
+
+TalentCorp Impact Study:
+→ emerging_role
+→ future_skill
+→ transformation_pressure
+
+ILO:
+→ AI_exposure
+→ automation_potential
+→ augmentation_potential
+
+OpenAlex:
+→ research_activity
+→ research_momentum
+
+Malaysian government policy:
+→ policy_priority
+→ green_transition
+→ digital_transition
+
+Do not cross-assign a signal to unrelated dimensions.
+
+==================================================
+SECTION 2 — WITHIN-SOURCE TEMPORAL FEATURES
+==================================================
+
+For sources with time series, compute meaningful temporal features.
+
+MYCOL:
+
+editions_present
+first_seen
+latest_seen
+persistence_ratio
+consecutive_editions
+newly_critical
+recently_dropped
+reentered
+sector_breadth
+future_skill_mentions
+
+Do NOT infer linear growth merely from repeated critical status.
+
+------------------------------
+
+OPENDOSM:
+
+where the granularity permits calculate:
+
+level
+
+YoY change
+
+multi-year CAGR where statistically appropriate
+
+rolling trend
+
+trend direction
+
+volatility
+
+Do not calculate occupational trends using national-only aggregates.
+
+------------------------------
+
+OPENALEX:
+
+for each mapped skill/topic calculate:
+
+publication_count_by_year
+
+recent_3y_count
+
+prior_3y_count
+
+growth_ratio
+
+log growth
+
+recent_share
+
+citation velocity if available
+
+Do not equate research publications with employment demand.
+
+------------------------------
+
+ILO:
+
+preserve categorical / ordinal exposure evidence.
+
+Do NOT create temporal growth from a static methodology paper.
+
+==================================================
+SECTION 3 — NORMALIZED COMPONENT INDICES
+==================================================
+
+Construct interpretable bounded component indices.
+
+Preferred range:
+
+0–100
+
+BUT explicitly label them:
+
+INDEX SCORES
+
+NOT probabilities.
+
+Examples:
+
+Demand Shortage Index = 82 / 100
+
+Research Momentum Index = 71 / 100
+
+AI Exposure Index = 65 / 100
+
+These scores must have transparent derivations.
+
+==================================================
+SECTION 4 — ROBUST NORMALISATION
+==================================================
+
+Use source-appropriate normalisation.
+
+For numerical time-series variables:
+
+consider:
+
+robust percentile rank
+
+winsorised z-score transformed to bounded scale
+
+median-relative growth
+
+or another defensible transformation.
+
+For binary / categorical authoritative evidence:
+
+preserve category meaning.
+
+Do not create fake precision such as:
+
+73.428194%.
+
+Round public-facing component scores appropriately.
+
+==================================================
+SECTION 5 — SOURCE AUTHORITY
+==================================================
+
+Use Stage 9A source tiers.
+
+Represent authority separately.
+
+Example conceptual scale:
+
+Tier A Malaysian authoritative:
+highest relevance for Malaysia-specific labour evidence
+
+Tier B international authoritative:
+high methodological authority but lower Malaysia specificity
+
+Tier C research:
+valid technology momentum evidence but not direct labour demand
+
+Do NOT allow OpenAlex volume to overpower Malaysian labour evidence merely because it contains many papers.
+
+==================================================
+SECTION 6 — SOURCE FAMILY INDEPENDENCE
+==================================================
+
+Use:
+
+evidence_family
+
+publisher_family
+
+parent_source
+
+to prevent double counting.
+
+Two pages summarizing the same TalentCorp study must count as:
+
+ONE underlying evidence family.
+
+Cross-source confidence should reward genuinely independent evidence families.
+
+==================================================
+SECTION 7 — WITHIN-DIMENSION FUSION
+==================================================
+
+Fuse multiple signals only WITHIN the same analytical dimension.
+
+Use a robust method such as:
+
+weighted median
+
+trimmed weighted mean
+
+or another transparent aggregation.
+
+Weight factors may include:
+
+source authority
+
+Malaysia relevance
+
+freshness
+
+mapping confidence
+
+data coverage
+
+BUT:
+
+do not assign arbitrary large weights without justification.
+
+Document every factor.
+
+==================================================
+SECTION 8 — DO NOT FORCE CROSS-DIMENSION FUSION
+==================================================
+
+At this stage, DO NOT collapse:
+
+Demand
+
+Research
+
+AI Exposure
+
+Augmentation
+
+Policy
+
+into a single final score.
+
+Instead return a TREND VECTOR.
+
+Example:
+
+Skill: AI Governance
+
+Demand Shortage:
+76
+
+Demand Momentum:
+68
+
+Research Momentum:
+81
+
+AI Exposure:
+72
+
+Automation:
+35
+
+Augmentation:
+84
+
+Policy Priority:
+92
+
+Confidence:
+HIGH
+
+This is much more defensible than:
+
+Future Score = 87.
+
+==================================================
+SECTION 9 — OPTIONAL OUTLOOK CLASSIFICATION
+==================================================
+
+You MAY generate an explainable high-level outlook classification.
+
+Possible labels:
+
+STRONGLY RISING
+
+RISING
+
+STABLE
+
+MIXED / UNCERTAIN
+
+DECLINING
+
+STRONGLY DECLINING
+
+BUT the classification must come from documented rules using the component vector.
+
+Do NOT train a black-box classifier.
+
+==================================================
+OUTLOOK RULE PRINCIPLE
+==================================================
+
+An outlook should consider:
+
+demand momentum
+
+persistent shortage
+
+employment/wage momentum
+
+research momentum
+
+policy priority
+
+and:
+
+automation vs augmentation balance.
+
+Example:
+
+High AI exposure
+
++
+
+High augmentation
+
++
+
+Strong demand
+
+should NOT be classified as declining.
+
+==================================================
+SECTION 10 — BACKTEST WHERE POSSIBLE
+==================================================
+
+Before accepting temporal scoring rules, perform historical backtests where the source supports them.
+
+MYCOL example:
+
+Using only editions up to year t:
+
+calculate trend features
+
+then check whether they align with:
+
+critical status / persistence in t+1.
+
+Do not use future editions to construct past-period features.
+
+------------------------------
+
+OPENDOSM example:
+
+Use historical windows to see whether:
+
+multi-year trend features
+
+correctly predict the SIGN of the subsequent observation where meaningful.
+
+------------------------------
+
+OPENALEX:
+
+test whether research momentum features predict subsequent publication direction.
+
+Do NOT claim this validates labour demand.
+
+==================================================
+BACKTEST GOAL
+==================================================
+
+Backtesting is used to choose:
+
+normalisation
+
+time windows
+
+direction thresholds
+
+not to overfit dozens of free parameters.
+
+Keep the scoring framework simple.
+
+==================================================
+SECTION 11 — SENSITIVITY ANALYSIS
+==================================================
+
+Test whether reasonable changes in:
+
+freshness penalties
+
+source authority multipliers
+
+normalisation method
+
+cause major direction flips.
+
+For each skill / occupation report stability.
+
+If:
+
+small assumption changes
+
+flip:
+
+RISING → DECLINING
+
+classify:
+
+MIXED / UNCERTAIN.
+
+==================================================
+SECTION 12 — CONFIDENCE ENGINE
+==================================================
+
+Build an evidence-confidence framework.
+
+Confidence is NOT:
+
+probability trend is correct.
+
+Use dimensions such as:
+
+SOURCE AUTHORITY
+
+INDEPENDENT SOURCE COUNT
+
+CROSS-SOURCE AGREEMENT
+
+MAPPING CONFIDENCE
+
+TEMPORAL COVERAGE
+
+FRESHNESS
+
+MALAYSIA RELEVANCE
+
+SIGNAL COVERAGE
+
+Generate:
+
+confidence_index 0–100
+
+and:
+
+HIGH
+
+MEDIUM
+
+LOW
+
+INSUFFICIENT
+
+==================================================
+CONFIDENCE GUARDRAIL
+==================================================
+
+A single strong source should not automatically generate:
+
+HIGH confidence
+
+if independent confirmation is absent.
+
+Likewise:
+
+ten derived signals from the same report
+
+must not be interpreted as:
+
+ten independent sources.
+
+==================================================
+SECTION 13 — AGREEMENT / CONFLICT
+==================================================
+
+Explicitly identify conflicting evidence.
+
+Example:
+
+MyCOL:
+persistent shortage
+
+OpenDOSM:
+flat employment
+
+OpenAlex:
+rapid research growth
+
+ILO:
+high automation exposure
+
+This should produce:
+
+MIXED evidence
+
+rather than hiding disagreement.
+
+Store:
+
+supporting signals
+
+contradicting signals
+
+neutral signals.
+
+==================================================
+SECTION 14 — FRESHNESS CORRECTION
+==================================================
+
+Audit Stage 9A freshness behavior.
+
+IMPORTANT:
+
+Freshness must be SIGNAL-TYPE aware.
+
+An old:
+
+ILO benchmark methodology
+
+may remain:
+
+ARCHIVAL_VALID.
+
+An old:
+
+annual wage observation
+
+should NOT automatically remain:
+
+ACCEPTABLE
+
+if newer annual observations should reasonably exist.
+
+Review each source's:
+
+expected update cadence
+
+latest observation date
+
+latest retrieved data
+
+and distinguish:
+
+SOURCE PUBLICATION AGE
+
+from:
+
+LATEST OBSERVATION AGE.
+
+Create both fields if necessary.
+
+==================================================
+SECTION 15 — STALENESS FLAGS
+==================================================
+
+For dynamic sources create:
+
+FRESH
+
+AGING
+
+STALE
+
+MISSING_EXPECTED_UPDATE
+
+For structural benchmarks:
+
+CURRENT_STANDARD
+
+ARCHIVAL_VALID
+
+SUPERSEDED
+
+Do not apply one freshness classification to all source types.
+
+==================================================
+SECTION 16 — SKILL TREND PROFILE
+==================================================
+
+For every Level 1 core skill generate a structured object such as:
+
+skill_id
+
+skill_name
+
+demand_shortage_index
+
+demand_momentum_index
+
+employment_wage_index
+
+research_momentum_index
+
+ai_exposure_index
+
+automation_index
+
+augmentation_index
+
+policy_priority_index
+
+overall_outlook
+
+confidence_index
+
+confidence_label
+
+source_count
+
+independent_evidence_families
+
+supporting_evidence
+
+contradicting_evidence
+
+last_dynamic_observation
+
+last_updated
+
+freshness_status
+
+==================================================
+SECTION 17 — OCCUPATION TREND PROFILE
+==================================================
+
+For each supported MASCO occupation create:
+
+occupation_code
+
+occupation_title
+
+criticality_level
+
+criticality_persistence
+
+demand_momentum
+
+wage_employment_momentum
+
+ai_exposure
+
+automation_potential
+
+augmentation_potential
+
+future_skill_pressure
+
+policy_alignment
+
+overall_outlook
+
+confidence
+
+sources
+
+evidence
+
+==================================================
+SECTION 18 — ROLE OUTLOOK MUST NOT BE SKILL AVERAGE ONLY
+==================================================
+
+Do NOT calculate role trend simply as:
+
+average(all skill scores).
+
+Occupation-specific evidence must take priority where it exists.
+
+Skill trends may enrich:
+
+future skill pressure
+
+but should not replace:
+
+occupation-level labour evidence.
+
+==================================================
+SECTION 19 — EXPLAINABILITY ENGINE
+==================================================
+
+Generate machine-readable explanations.
+
+For every outlook produce:
+
+TOP POSITIVE DRIVERS
+
+TOP NEGATIVE DRIVERS
+
+UNCERTAINTIES
+
+SOURCES
+
+DATES
+
+Example:
+
+RISING
+
+because:
+
+- MyCOL shows persistent critical demand across 4 recent editions.
+- Wage data shows positive medium-term movement.
+- TalentCorp identifies new AI-related task requirements.
+
+Caution:
+
+- ILO shows substantial automation exposure for routine subtasks.
+
+==================================================
+SECTION 20 — CITATION TRACEABILITY
+==================================================
+
+Every explanation driver must reference:
+
+signal_id
+
+source_id
+
+publisher
+
+observation date
+
+evidence reference
+
+Do not generate explanations from values with no traceable source.
+
+==================================================
+SECTION 21 — M1 INTERFACE
+==================================================
+
+Implement/prepare:
+
+get_skill_trend(skill_id)
+
+Input:
+
+canonical skill ID
+
+Output:
+
+trend vector
+
+outlook
+
+confidence
+
+sources
+
+last updated
+
+M1 confidence must NOT alter M2 evidence.
+
+User-confirmed skills can simply query M2.
+
+==================================================
+SECTION 22 — M3 INTERFACE
+==================================================
+
+Prepare:
+
+get_role_trend(masco_code)
+
+and optionally:
+
+get_trend_batch(ids)
+
+M3 later needs:
+
+occupation outlook
+
+skill trends
+
+AI exposure
+
+augmentation
+
+confidence
+
+evidence freshness
+
+Do NOT calculate user-role match yet.
+
+==================================================
+SECTION 23 — API/SERVICE IMPLEMENTATION
+==================================================
+
+Implement the M2 logic as an independent reusable module.
+
+Suggested architecture:
+
+src/trend_engine.py
+
+or equivalent appropriate to repository structure.
+
+Functions may include:
+
+load_trend_store()
+
+get_skill_trend()
+
+get_occupation_trend()
+
+explain_trend()
+
+get_source_freshness()
+
+refresh_if_needed()
+
+Do NOT tightly couple to HTTP/UI handlers.
+
+==================================================
+SECTION 24 — REPRODUCIBLE BUILD SCRIPT
+==================================================
+
+Create a deterministic scoring command such as:
+
+python scripts/build_trend_scores.py
+
+It should:
+
+load normalized Stage 9A signals
+
+validate manifests
+
+calculate components
+
+generate confidence
+
+generate explanations
+
+write versioned outputs
+
+Output must be reproducible from the same source snapshot.
+
+==================================================
+SECTION 25 — VERSIONING
+==================================================
+
+Generate:
+
+trend_scoring_version
+
+signal_snapshot_hash
+
+scoring_config_hash
+
+build_timestamp
+
+Store them in output metadata.
+
+==================================================
+SECTION 26 — NO FAKE REAL-TIME CLAIM
+==================================================
+
+The system may be:
+
+UPDATABLE
+
+without being:
+
+real-time.
+
+If MyCOL is annual/multi-year and wage data is annual:
+
+say so.
+
+Do not advertise:
+
+live labour-market monitoring
+
+unless data genuinely refreshes at that cadence.
+
+==================================================
+SECTION 27 — OBSERVED VS INFERRED
+==================================================
+
+Separate:
+
+OBSERVED
+
+and:
+
+DERIVED
+
+fields.
+
+Example:
+
+Observed:
+MyCOL critical status = true
+
+Derived:
+Demand Shortage Index = 81
+
+Observed:
+OpenAlex publications 2025 = X
+
+Derived:
+Research Momentum = Rising
+
+==================================================
+SECTION 28 — QUALITY FLAGS
+==================================================
+
+For every profile support flags such as:
+
+LOW_SOURCE_COUNT
+
+STALE_DYNAMIC_DATA
+
+LOW_MAPPING_CONFIDENCE
+
+CONFLICTING_EVIDENCE
+
+INTERNATIONAL_ONLY_EVIDENCE
+
+NO_OCCUPATION_SPECIFIC_DATA
+
+SPARSE_TEMPORAL_HISTORY
+
+==================================================
+SECTION 29 — NO COVERAGE = NO SCORE
+==================================================
+
+Do NOT fill missing components with neutral 50 automatically.
+
+Missing evidence must remain:
+
+null
+
+or:
+
+INSUFFICIENT_DATA.
+
+Aggregation functions must handle missingness explicitly.
+
+==================================================
+SECTION 30 — TESTS
+==================================================
+
+Create automated tests for:
+
+component bounds
+
+null handling
+
+source-family independence
+
+freshness logic
+
+level-vs-momentum separation
+
+exposure-vs-demand separation
+
+outlook classification
+
+confidence calculation
+
+conflicting evidence
+
+explanation traceability
+
+deterministic build hashes
+
+M1 API interface
+
+M3 API interface
+
+idempotent rebuild
+
+No invented source IDs.
+
+==================================================
+SECTION 31 — REQUIRED DATA OUTPUTS
+==================================================
+
+Create:
+
+data/trends/processed/skill_trend_profiles_v1.json
+
+data/trends/processed/occupation_trend_profiles_v1.json
+
+data/trends/processed/m2_scoring_config_v1.json
+
+data/trends/processed/m2_confidence_config_v1.json
+
+data/trends/processed/m2_build_manifest_v1.json
+
+==================================================
+SECTION 32 — REQUIRED ANALYSIS OUTPUTS
+==================================================
+
+Create:
+
+artifacts/m2_component_backtest.csv
+
+artifacts/m2_backtest_report.md
+
+artifacts/m2_sensitivity_analysis.csv
+
+artifacts/m2_confidence_validation.md
+
+artifacts/m2_freshness_audit.md
+
+artifacts/m2_outlook_distribution.csv
+
+artifacts/m2_explainability_examples.md
+
+artifacts/m2_scoring_methodology.md
+
+artifacts/m2_quality_flags_report.md
+
+artifacts/stage9c_readiness.md
+
+==================================================
+SECTION 33 — FINAL REPORT
+==================================================
+
+Report:
+
+1. Skills scored / total skills
+
+2. Occupations scored / total occupations
+
+3. Component coverage by dimension
+
+4. Skills with HIGH / MEDIUM / LOW / INSUFFICIENT confidence
+
+5. Occupations by confidence level
+
+6. Outlook distribution
+
+7. Number of conflicting-evidence profiles
+
+8. Number of stale dynamic-data profiles
+
+9. Backtest results by source family
+
+10. Sensitivity stability rate
+
+11. Source-family contribution summary
+
+12. Top rising skills
+
+13. Top declining / weakening skills if genuinely supported
+
+14. Top augmentation-heavy skills
+
+15. Top automation-exposed skills
+
+16. Occupations with strongest positive outlook
+
+17. Occupations with mixed/uncertain outlook
+
+18. Data gaps preventing reliable scoring
+
+19. Freshness corrections made
+
+20. Whether the scoring framework is ready for independent methodology review
+
+==================================================
+READINESS VERDICT
+==================================================
+
+Return exactly ONE:
+
+READY FOR ARGON M2 METHODOLOGY REVIEW
+
+MORE M2 EVIDENCE REQUIRED
+
+M2 SCORING METHODOLOGY REQUIRES REWORK
+
+==================================================
+STRICT STOP
+==================================================
+
+DO NOT:
+
+build M3
+
+build personalised role recommendations
+
+change M1
+
+build final M6 scenario scores
+
+invent labour statistics
+
+deploy
+
+push Git
+
+integrate production UI
+
+STOP after Stage 9B.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-23T14:43:03+08:00.
+</ADDITIONAL_METADATA>

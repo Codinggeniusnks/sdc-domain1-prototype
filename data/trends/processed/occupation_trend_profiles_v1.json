@@ -1,0 +1,1456 @@
+{
+  "version": "1.0.0",
+  "scoring_date": "2026-10-23",
+  "total_occupations_scored": 28,
+  "profiles": [
+    {
+      "occupation_code": "2512",
+      "occupation_title": "Software Developers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 100.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 54.0,
+      "automation_exposure": 6.0,
+      "augmentation_potential": 48.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 100.0,
+      "confidence_label": "HIGH",
+      "source_count": 11,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2512",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2512",
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2512",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 251",
+          "summary": "High augmentation potential of 48.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MOSTI-AIGE-2024-2512",
+          "source_id": "POL-MOSTI-AIGE-2024",
+          "publisher": "Ministry of Science, Technology and Innovation (MOSTI) & National AI Office (NAIO)",
+          "source_date": "2024-09-20",
+          "evidence_reference": "MOSTI National Guidelines on AI Governance and Ethics (AIGE), Document ID: MOSTI/NAIO/2024/01",
+          "summary": "National policy mandate: National Guidelines on Artificial Intelligence Governance and Ethics (AIGE) targeting MASCO 2512."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-2512",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "summary": "National policy mandate: Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy targeting MASCO 2512."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MITI-NSS-2024-2512",
+          "source_id": "POL-MITI-NSS-2024",
+          "publisher": "Ministry of Investment, Trade and Industry (MITI)",
+          "source_date": "2024-05-28",
+          "evidence_reference": "MITI National Semiconductor Strategy Policy Document (Launched May 2024)",
+          "summary": "National policy mandate: National Semiconductor Strategy (NSS) targeting MASCO 2512."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 660,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2511",
+      "occupation_title": "Systems Analysts",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 100.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2511",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2511",
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MOSTI-AIGE-2024-2511",
+          "source_id": "POL-MOSTI-AIGE-2024",
+          "publisher": "Ministry of Science, Technology and Innovation (MOSTI) & National AI Office (NAIO)",
+          "source_date": "2024-09-20",
+          "evidence_reference": "MOSTI National Guidelines on AI Governance and Ethics (AIGE), Document ID: MOSTI/NAIO/2024/01",
+          "summary": "National policy mandate: National Guidelines on Artificial Intelligence Governance and Ethics (AIGE) targeting MASCO 2511."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-2511",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "summary": "National policy mandate: Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy targeting MASCO 2511."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2521",
+      "occupation_title": "Database Designers & Administrators",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 87.5,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 47.0,
+      "automation_exposure": 5.0,
+      "augmentation_potential": 42.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2521",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2521",
+          "summary": "Identified as critical in 7/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2521",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 252",
+          "summary": "High augmentation potential of 42.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-POL-POL-JPDP-PDPA-2024-2521",
+          "source_id": "POL-JPDP-PDPA-2024",
+          "publisher": "Personal Data Protection Department (JPDP) & Ministry of Digital",
+          "source_date": "2024-07-31",
+          "evidence_reference": "Laws of Malaysia, Act A1720, Personal Data Protection (Amendment) Act 2024",
+          "summary": "National policy mandate: Personal Data Protection Act 2010 (Amendment Act 2024) targeting MASCO 2521."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 721,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2529",
+      "occupation_title": "Database & Network Professionals NEC (AI & Data Science Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 75.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 70.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 3,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2529",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2529",
+          "summary": "Identified as critical in 6/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-2529",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "summary": "National policy mandate: Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy targeting MASCO 2529."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 721,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2519",
+      "occupation_title": "Software & Applications Developers & Analysts NEC (Cloud & Full-Stack)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 75.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 50.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2519",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2519",
+          "summary": "Identified as critical in 6/8 editions (Status: PERSISTENT_CRITICAL)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "LOW_SOURCE_COUNT"
+      ],
+      "freshness_days": 721,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2522",
+      "occupation_title": "Systems Administrators & Cloud Infrastructure Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 70.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 3,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2522",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2522",
+          "summary": "Identified as critical in 5/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-JPDP-PDPA-2024-2522",
+          "source_id": "POL-JPDP-PDPA-2024",
+          "publisher": "Personal Data Protection Department (JPDP) & Ministry of Digital",
+          "source_date": "2024-07-31",
+          "evidence_reference": "Laws of Malaysia, Act A1720, Personal Data Protection (Amendment) Act 2024",
+          "summary": "National policy mandate: Personal Data Protection Act 2010 (Amendment Act 2024) targeting MASCO 2522."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 721,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2411",
+      "occupation_title": "Accountants & Financial Auditors",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 100.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 44.0,
+      "automation_exposure": 8.0,
+      "augmentation_potential": 36.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 100.0,
+      "confidence_label": "HIGH",
+      "source_count": 7,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2411",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2411",
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2411",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 241",
+          "summary": "High augmentation potential of 36.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-POL-POL-BURSA-ESG-2024-2411",
+          "source_id": "POL-BURSA-ESG-2024",
+          "publisher": "Bursa Malaysia Berhad & Securities Commission Malaysia",
+          "source_date": "2024-06-15",
+          "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition, 2024 Update), Listing Requirements Rule 9.45",
+          "summary": "National policy mandate: Bursa Malaysia Enhanced Sustainability Reporting Framework (Main & ACE Market) targeting MASCO 2411."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2421",
+      "occupation_title": "Management & Organization Analysts (Transformation Consultants)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 75.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 70.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 3,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2421",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2421",
+          "summary": "Identified as critical in 6/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-BURSA-ESG-2024-2421",
+          "source_id": "POL-BURSA-ESG-2024",
+          "publisher": "Bursa Malaysia Berhad & Securities Commission Malaysia",
+          "source_date": "2024-06-15",
+          "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition, 2024 Update), Listing Requirements Rule 9.45",
+          "summary": "National policy mandate: Bursa Malaysia Enhanced Sustainability Reporting Framework (Main & ACE Market) targeting MASCO 2421."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 721,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2422",
+      "occupation_title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 46.0,
+      "automation_exposure": 6.0,
+      "augmentation_potential": 40.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 100.0,
+      "confidence_label": "HIGH",
+      "source_count": 8,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2422",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2422",
+          "summary": "Identified as critical in 5/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2422",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 242",
+          "summary": "High augmentation potential of 40.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MOSTI-AIGE-2024-2422",
+          "source_id": "POL-MOSTI-AIGE-2024",
+          "publisher": "Ministry of Science, Technology and Innovation (MOSTI) & National AI Office (NAIO)",
+          "source_date": "2024-09-20",
+          "evidence_reference": "MOSTI National Guidelines on AI Governance and Ethics (AIGE), Document ID: MOSTI/NAIO/2024/01",
+          "summary": "National policy mandate: National Guidelines on Artificial Intelligence Governance and Ethics (AIGE) targeting MASCO 2422."
+        },
+        {
+          "signal_id": "SIG-POL-POL-JPDP-PDPA-2024-2422",
+          "source_id": "POL-JPDP-PDPA-2024",
+          "publisher": "Personal Data Protection Department (JPDP) & Ministry of Digital",
+          "source_date": "2024-07-31",
+          "evidence_reference": "Laws of Malaysia, Act A1720, Personal Data Protection (Amendment) Act 2024",
+          "summary": "National policy mandate: Personal Data Protection Act 2010 (Amendment Act 2024) targeting MASCO 2422."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2151",
+      "occupation_title": "Electrical Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 100.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 5,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2151",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2151",
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-BURSA-ESG-2024-2151",
+          "source_id": "POL-BURSA-ESG-2024",
+          "publisher": "Bursa Malaysia Berhad & Securities Commission Malaysia",
+          "source_date": "2024-06-15",
+          "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition, 2024 Update), Listing Requirements Rule 9.45",
+          "summary": "National policy mandate: Bursa Malaysia Enhanced Sustainability Reporting Framework (Main & ACE Market) targeting MASCO 2151."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MITI-NSS-2024-2151",
+          "source_id": "POL-MITI-NSS-2024",
+          "publisher": "Ministry of Investment, Trade and Industry (MITI)",
+          "source_date": "2024-05-28",
+          "evidence_reference": "MITI National Semiconductor Strategy Policy Document (Launched May 2024)",
+          "summary": "National policy mandate: National Semiconductor Strategy (NSS) targeting MASCO 2151."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2152",
+      "occupation_title": "Electronic Engineers (Semiconductor IC Design Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 100.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 3.0,
+      "augmentation_potential": 32.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 100.0,
+      "confidence_label": "HIGH",
+      "source_count": 7,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2152",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2152",
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2152",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 215",
+          "summary": "High augmentation potential of 32.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MITI-NSS-2024-2152",
+          "source_id": "POL-MITI-NSS-2024",
+          "publisher": "Ministry of Investment, Trade and Industry (MITI)",
+          "source_date": "2024-05-28",
+          "evidence_reference": "MITI National Semiconductor Strategy Policy Document (Launched May 2024)",
+          "summary": "National policy mandate: National Semiconductor Strategy (NSS) targeting MASCO 2152."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2143",
+      "occupation_title": "Environmental Engineers & Sustainability Specialists",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 60.0,
+      "demand_momentum": 88.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 4,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2143",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2143",
+          "summary": "Identified as critical in 2/8 editions (Status: NEWLY_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-BURSA-ESG-2024-2143",
+          "source_id": "POL-BURSA-ESG-2024",
+          "publisher": "Bursa Malaysia Berhad & Securities Commission Malaysia",
+          "source_date": "2024-06-15",
+          "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition, 2024 Update), Listing Requirements Rule 9.45",
+          "summary": "National policy mandate: Bursa Malaysia Enhanced Sustainability Reporting Framework (Main & ACE Market) targeting MASCO 2143."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2424",
+      "occupation_title": "Training & Staff Development Professionals (Reskilling Architects)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 30.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 5,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2424",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2424",
+          "summary": "Identified as critical in 3/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-2424",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "summary": "National policy mandate: Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy targeting MASCO 2424."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MITI-NSS-2024-2424",
+          "source_id": "POL-MITI-NSS-2024",
+          "publisher": "Ministry of Investment, Trade and Industry (MITI)",
+          "source_date": "2024-05-28",
+          "evidence_reference": "MITI National Semiconductor Strategy Policy Document (Launched May 2024)",
+          "summary": "National policy mandate: National Semiconductor Strategy (NSS) targeting MASCO 2424."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.508765+00:00"
+    },
+    {
+      "occupation_code": "2166",
+      "occupation_title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 40.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 70.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 3,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2166",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2166",
+          "summary": "Identified as critical in 4/8 editions (Status: CYCLICAL_CRITICAL)."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "1330",
+      "occupation_title": "Information & Communications Technology Services Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "demand_shortage_level": 87.5,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 68.0,
+      "research_momentum": null,
+      "ai_exposure": 29.0,
+      "automation_exposure": 3.0,
+      "augmentation_potential": 26.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 9,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-1330",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 1330",
+          "summary": "Identified as critical in 7/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-1330",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 133",
+          "summary": "High augmentation potential of 26.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MOSTI-AIGE-2024-1330",
+          "source_id": "POL-MOSTI-AIGE-2024",
+          "publisher": "Ministry of Science, Technology and Innovation (MOSTI) & National AI Office (NAIO)",
+          "source_date": "2024-09-20",
+          "evidence_reference": "MOSTI National Guidelines on AI Governance and Ethics (AIGE), Document ID: MOSTI/NAIO/2024/01",
+          "summary": "National policy mandate: National Guidelines on Artificial Intelligence Governance and Ethics (AIGE) targeting MASCO 1330."
+        },
+        {
+          "signal_id": "SIG-POL-POL-JPDP-PDPA-2024-1330",
+          "source_id": "POL-JPDP-PDPA-2024",
+          "publisher": "Personal Data Protection Department (JPDP) & Ministry of Digital",
+          "source_date": "2024-07-31",
+          "evidence_reference": "Laws of Malaysia, Act A1720, Personal Data Protection (Amendment) Act 2024",
+          "summary": "National policy mandate: Personal Data Protection Act 2010 (Amendment Act 2024) targeting MASCO 1330."
+        },
+        {
+          "signal_id": "SIG-POL-POL-MYDIGITAL-MDEC-2021-1330",
+          "source_id": "POL-MYDIGITAL-MDEC-2021",
+          "publisher": "Economic Planning Unit (EPU) / Ministry of Digital / MDEC",
+          "source_date": "2021-02-19",
+          "evidence_reference": "Economic Planning Unit, Prime Minister's Department, Malaysia Digital Economy Blueprint (2021)",
+          "summary": "National policy mandate: Malaysia Digital Economy Blueprint (MyDIGITAL) & National 4IR Policy targeting MASCO 1330."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 660,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "3514",
+      "occupation_title": "Web Technicians & Cloud Application Operators",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "demand_shortage_level": 40.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 66.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 28.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 70.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-3514",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 3514",
+          "summary": "Identified as critical in 4/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-3514",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 351",
+          "summary": "High augmentation potential of 28.0% across complex cognitive and analytical tasks."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 660,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "3322",
+      "occupation_title": "Commercial Sales Representatives",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "demand_shortage_level": 75.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 66.0,
+      "research_momentum": null,
+      "ai_exposure": 28.0,
+      "automation_exposure": 6.0,
+      "augmentation_potential": 22.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 70.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-3322",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 3322",
+          "summary": "Identified as critical in 6/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-3322",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 332",
+          "summary": "High augmentation potential of 22.0% across complex cognitive and analytical tasks."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 660,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "4311",
+      "occupation_title": "Accounting and Bookkeeping Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "demand_shortage_level": 20.0,
+      "demand_momentum": 25.0,
+      "employment_wage_momentum": 42.0,
+      "research_momentum": null,
+      "ai_exposure": 36.0,
+      "automation_exposure": 26.0,
+      "augmentation_potential": 10.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STRONGLY DECLINING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-4311",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 4311",
+          "summary": "Identified as critical in 3/8 editions (Status: DROPPED_FROM_LATEST)."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-4311",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 431",
+          "summary": "Automation potential of 26.0% affecting routine administrative and procedural subtasks."
+        },
+        {
+          "signal_id": "SIG-MYCOL-DROP-4311",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL 2024/2025 Edition Exclusions, MASCO 4311",
+          "summary": "Dropped from latest national Critical Occupations List due to easing shortage or routine role consolidation."
+        }
+      ],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 704,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "4110",
+      "occupation_title": "General Office Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "demand_shortage_level": 20.0,
+      "demand_momentum": 25.0,
+      "employment_wage_momentum": 42.0,
+      "research_momentum": null,
+      "ai_exposure": 36.0,
+      "automation_exposure": 28.0,
+      "augmentation_potential": 8.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STRONGLY DECLINING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 7,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_IMPACT_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-4110",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 4110",
+          "summary": "Identified as critical in 1/8 editions (Status: DROPPED_FROM_LATEST)."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-4110",
+          "source_id": "SRC-ILO-WP96",
+          "publisher": "International Labour Organization",
+          "source_date": "2023-08-01",
+          "evidence_reference": "ILO Working Paper 96, ISCO 411",
+          "summary": "Automation potential of 28.0% affecting routine administrative and procedural subtasks."
+        },
+        {
+          "signal_id": "SIG-MYCOL-DROP-4110",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL 2024/2025 Edition Exclusions, MASCO 4110",
+          "summary": "Dropped from latest national Critical Occupations List due to easing shortage or routine role consolidation."
+        }
+      ],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [],
+      "freshness_days": 660,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "3343",
+      "occupation_title": "Administrative & Executive Secretaries",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "demand_shortage_level": 20.0,
+      "demand_momentum": 25.0,
+      "employment_wage_momentum": 66.0,
+      "research_momentum": null,
+      "ai_exposure": 40.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 30.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "MIXED / UNCERTAIN",
+      "confidence_index": 50.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "TALENTCORP_MYCOL"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-3343",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 3343",
+          "summary": "Identified as critical in 2/8 editions (Status: DROPPED_FROM_LATEST)."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-DROP-3343",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL 2024/2025 Edition Exclusions, MASCO 3343",
+          "summary": "Dropped from latest national Critical Occupations List due to easing shortage or routine role consolidation."
+        }
+      ],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "LOW_SOURCE_COUNT"
+      ],
+      "freshness_days": 721,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_1",
+      "occupation_title": "Major Group 1: Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 68.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_1",
+          "source_id": "SRC-OPENDOSM-WAGES",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "summary": "National median wage benchmarks for MASCO Major Group 1."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_2",
+      "occupation_title": "Major Group 2: Professionals",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_2",
+          "source_id": "SRC-OPENDOSM-WAGES",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "summary": "National median wage benchmarks for MASCO Major Group 2."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_3",
+      "occupation_title": "Major Group 3: Technicians and Associate Professionals",
+      "major_group": "3",
+      "major_group_name": "Technicians and Associate Professionals",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 66.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_3",
+          "source_id": "SRC-OPENDOSM-WAGES",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "summary": "National median wage benchmarks for MASCO Major Group 3."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_4",
+      "occupation_title": "Major Group 4: Clerical Support Workers",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 42.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_4",
+          "source_id": "SRC-OPENDOSM-WAGES",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "summary": "National median wage benchmarks for MASCO Major Group 4."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_5",
+      "occupation_title": "Major Group 5: Service and Sales Workers",
+      "major_group": "5",
+      "major_group_name": "Service and Sales Workers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 50.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_5",
+          "source_id": "SRC-OPENDOSM-WAGES",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "summary": "National median wage benchmarks for MASCO Major Group 5."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_7",
+      "occupation_title": "Major Group 7: Craft and Related Trades Workers",
+      "major_group": "7",
+      "major_group_name": "Craft and Related Trades Workers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 48.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_7",
+          "source_id": "SRC-OPENDOSM-WAGES",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "summary": "National median wage benchmarks for MASCO Major Group 7."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_8",
+      "occupation_title": "Major Group 8: Plant and Machine Operators and Assemblers",
+      "major_group": "8",
+      "major_group_name": "Plant and Machine Operators and Assemblers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 46.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_8",
+          "source_id": "SRC-OPENDOSM-WAGES",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "summary": "National median wage benchmarks for MASCO Major Group 8."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_9",
+      "occupation_title": "Major Group 9: Elementary Occupations",
+      "major_group": "9",
+      "major_group_name": "Elementary Occupations",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 40.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_9",
+          "source_id": "SRC-OPENDOSM-WAGES",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "summary": "National median wage benchmarks for MASCO Major Group 9."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:00:17.509771+00:00"
+    }
+  ]
+}

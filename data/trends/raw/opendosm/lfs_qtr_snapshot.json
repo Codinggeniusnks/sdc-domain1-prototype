@@ -1,0 +1,672 @@
+{
+  "dataset_id": "lfs_qtr",
+  "title": "Quarterly Labour Force Statistics",
+  "source_url": "https://api.data.gov.my/data-catalogue?id=lfs_qtr&limit=500",
+  "publisher": "Department of Statistics Malaysia (DOSM) / OpenDOSM",
+  "portal": "data.gov.my",
+  "licence": "Open Data Commons Open Database License (ODbL) / Creative Commons Attribution 4.0",
+  "retrieved_at": "2026-10-23T06:22:49.808992+00:00",
+  "record_count": 66,
+  "data": [
+    {
+      "lf": 12239.3,
+      "date": "2010-01-01",
+      "p_rate": 63.5,
+      "u_rate": 3.6,
+      "ep_ratio": 61.2,
+      "lf_outside": 7030.8,
+      "lf_employed": 11801.2,
+      "lf_unemployed": 438.1
+    },
+    {
+      "lf": 12304.9,
+      "date": "2010-04-01",
+      "p_rate": 63.6,
+      "u_rate": 3.3,
+      "ep_ratio": 61.5,
+      "lf_outside": 7047.5,
+      "lf_employed": 11900.6,
+      "lf_unemployed": 404.3
+    },
+    {
+      "lf": 12354.6,
+      "date": "2010-07-01",
+      "p_rate": 63.6,
+      "u_rate": 3.2,
+      "ep_ratio": 61.6,
+      "lf_outside": 7073.5,
+      "lf_employed": 11961.3,
+      "lf_unemployed": 393.3
+    },
+    {
+      "lf": 12522.4,
+      "date": "2010-10-01",
+      "p_rate": 64.2,
+      "u_rate": 3.1,
+      "ep_ratio": 62.2,
+      "lf_outside": 6992.9,
+      "lf_employed": 12137.4,
+      "lf_unemployed": 385.0
+    },
+    {
+      "lf": 12718.3,
+      "date": "2011-01-01",
+      "p_rate": 64.5,
+      "u_rate": 3.0,
+      "ep_ratio": 62.5,
+      "lf_outside": 7004.9,
+      "lf_employed": 12333.5,
+      "lf_unemployed": 384.8
+    },
+    {
+      "lf": 12756.0,
+      "date": "2011-04-01",
+      "p_rate": 64.4,
+      "u_rate": 3.0,
+      "ep_ratio": 62.4,
+      "lf_outside": 7048.8,
+      "lf_employed": 12367.4,
+      "lf_unemployed": 388.6
+    },
+    {
+      "lf": 12889.0,
+      "date": "2011-07-01",
+      "p_rate": 64.9,
+      "u_rate": 3.1,
+      "ep_ratio": 62.9,
+      "lf_outside": 6977.2,
+      "lf_employed": 12493.0,
+      "lf_unemployed": 396.0
+    },
+    {
+      "lf": 12842.5,
+      "date": "2011-10-01",
+      "p_rate": 64.4,
+      "u_rate": 3.1,
+      "ep_ratio": 62.4,
+      "lf_outside": 7098.6,
+      "lf_employed": 12447.9,
+      "lf_unemployed": 394.7
+    },
+    {
+      "lf": 13169.2,
+      "date": "2012-01-01",
+      "p_rate": 65.6,
+      "u_rate": 3.1,
+      "ep_ratio": 63.6,
+      "lf_outside": 6915.1,
+      "lf_employed": 12765.2,
+      "lf_unemployed": 404.0
+    },
+    {
+      "lf": 13237.0,
+      "date": "2012-04-01",
+      "p_rate": 65.6,
+      "u_rate": 3.0,
+      "ep_ratio": 63.6,
+      "lf_outside": 6946.1,
+      "lf_employed": 12837.1,
+      "lf_unemployed": 400.0
+    },
+    {
+      "lf": 13401.7,
+      "date": "2012-07-01",
+      "p_rate": 66.0,
+      "u_rate": 3.0,
+      "ep_ratio": 64.1,
+      "lf_outside": 6897.9,
+      "lf_employed": 13005.4,
+      "lf_unemployed": 396.3
+    },
+    {
+      "lf": 13376.2,
+      "date": "2012-10-01",
+      "p_rate": 65.4,
+      "u_rate": 3.0,
+      "ep_ratio": 63.5,
+      "lf_outside": 7062.8,
+      "lf_employed": 12971.2,
+      "lf_unemployed": 405.0
+    },
+    {
+      "lf": 13539.5,
+      "date": "2013-01-01",
+      "p_rate": 65.6,
+      "u_rate": 3.1,
+      "ep_ratio": 63.6,
+      "lf_outside": 7090.0,
+      "lf_employed": 13118.0,
+      "lf_unemployed": 421.5
+    },
+    {
+      "lf": 13945.1,
+      "date": "2013-04-01",
+      "p_rate": 67.2,
+      "u_rate": 3.0,
+      "ep_ratio": 65.1,
+      "lf_outside": 6819.6,
+      "lf_employed": 13524.1,
+      "lf_unemployed": 421.0
+    },
+    {
+      "lf": 14214.2,
+      "date": "2013-07-01",
+      "p_rate": 68.2,
+      "u_rate": 3.1,
+      "ep_ratio": 66.1,
+      "lf_outside": 6613.0,
+      "lf_employed": 13776.0,
+      "lf_unemployed": 438.3
+    },
+    {
+      "lf": 14195.1,
+      "date": "2013-10-01",
+      "p_rate": 67.8,
+      "u_rate": 3.2,
+      "ep_ratio": 65.7,
+      "lf_outside": 6730.7,
+      "lf_employed": 13739.5,
+      "lf_unemployed": 455.6
+    },
+    {
+      "lf": 14230.8,
+      "date": "2014-01-01",
+      "p_rate": 67.6,
+      "u_rate": 3.1,
+      "ep_ratio": 65.6,
+      "lf_outside": 6805.9,
+      "lf_employed": 13791.4,
+      "lf_unemployed": 439.4
+    },
+    {
+      "lf": 14296.1,
+      "date": "2014-04-01",
+      "p_rate": 67.8,
+      "u_rate": 2.9,
+      "ep_ratio": 65.9,
+      "lf_outside": 6793.0,
+      "lf_employed": 13888.5,
+      "lf_unemployed": 407.6
+    },
+    {
+      "lf": 14346.9,
+      "date": "2014-07-01",
+      "p_rate": 67.8,
+      "u_rate": 2.7,
+      "ep_ratio": 66.0,
+      "lf_outside": 6810.3,
+      "lf_employed": 13960.6,
+      "lf_unemployed": 386.3
+    },
+    {
+      "lf": 14403.3,
+      "date": "2014-10-01",
+      "p_rate": 67.7,
+      "u_rate": 2.8,
+      "ep_ratio": 65.8,
+      "lf_outside": 6860.9,
+      "lf_employed": 13998.7,
+      "lf_unemployed": 404.6
+    },
+    {
+      "lf": 14544.8,
+      "date": "2015-01-01",
+      "p_rate": 68.1,
+      "u_rate": 3.1,
+      "ep_ratio": 66.0,
+      "lf_outside": 6798.5,
+      "lf_employed": 14091.0,
+      "lf_unemployed": 453.9
+    },
+    {
+      "lf": 14535.6,
+      "date": "2015-04-01",
+      "p_rate": 67.8,
+      "u_rate": 3.1,
+      "ep_ratio": 65.7,
+      "lf_outside": 6897.9,
+      "lf_employed": 14087.8,
+      "lf_unemployed": 447.8
+    },
+    {
+      "lf": 14561.0,
+      "date": "2015-07-01",
+      "p_rate": 67.8,
+      "u_rate": 3.2,
+      "ep_ratio": 65.6,
+      "lf_outside": 6930.6,
+      "lf_employed": 14093.7,
+      "lf_unemployed": 467.3
+    },
+    {
+      "lf": 14600.2,
+      "date": "2015-10-01",
+      "p_rate": 67.7,
+      "u_rate": 3.2,
+      "ep_ratio": 65.6,
+      "lf_outside": 6952.7,
+      "lf_employed": 14127.9,
+      "lf_unemployed": 472.3
+    },
+    {
+      "lf": 14596.8,
+      "date": "2016-01-01",
+      "p_rate": 67.6,
+      "u_rate": 3.4,
+      "ep_ratio": 65.2,
+      "lf_outside": 7011.5,
+      "lf_employed": 14095.8,
+      "lf_unemployed": 501.0
+    },
+    {
+      "lf": 14665.4,
+      "date": "2016-04-01",
+      "p_rate": 67.6,
+      "u_rate": 3.4,
+      "ep_ratio": 65.3,
+      "lf_outside": 7026.0,
+      "lf_employed": 14161.5,
+      "lf_unemployed": 503.9
+    },
+    {
+      "lf": 14710.6,
+      "date": "2016-07-01",
+      "p_rate": 67.6,
+      "u_rate": 3.5,
+      "ep_ratio": 65.3,
+      "lf_outside": 7044.6,
+      "lf_employed": 14202.0,
+      "lf_unemployed": 508.5
+    },
+    {
+      "lf": 14771.4,
+      "date": "2016-10-01",
+      "p_rate": 67.6,
+      "u_rate": 3.5,
+      "ep_ratio": 65.3,
+      "lf_outside": 7071.7,
+      "lf_employed": 14260.6,
+      "lf_unemployed": 510.8
+    },
+    {
+      "lf": 14870.1,
+      "date": "2017-01-01",
+      "p_rate": 67.7,
+      "u_rate": 3.5,
+      "ep_ratio": 65.4,
+      "lf_outside": 7093.8,
+      "lf_employed": 14355.9,
+      "lf_unemployed": 514.2
+    },
+    {
+      "lf": 14926.4,
+      "date": "2017-04-01",
+      "p_rate": 67.7,
+      "u_rate": 3.4,
+      "ep_ratio": 65.4,
+      "lf_outside": 7123.3,
+      "lf_employed": 14414.8,
+      "lf_unemployed": 511.6
+    },
+    {
+      "lf": 15000.2,
+      "date": "2017-07-01",
+      "p_rate": 67.9,
+      "u_rate": 3.4,
+      "ep_ratio": 65.6,
+      "lf_outside": 7091.0,
+      "lf_employed": 14484.0,
+      "lf_unemployed": 516.2
+    },
+    {
+      "lf": 15088.3,
+      "date": "2017-10-01",
+      "p_rate": 68.0,
+      "u_rate": 3.4,
+      "ep_ratio": 65.8,
+      "lf_outside": 7085.0,
+      "lf_employed": 14580.5,
+      "lf_unemployed": 507.8
+    },
+    {
+      "lf": 15192.4,
+      "date": "2018-01-01",
+      "p_rate": 68.2,
+      "u_rate": 3.3,
+      "ep_ratio": 65.9,
+      "lf_outside": 7093.7,
+      "lf_employed": 14683.6,
+      "lf_unemployed": 508.9
+    },
+    {
+      "lf": 15278.3,
+      "date": "2018-04-01",
+      "p_rate": 68.4,
+      "u_rate": 3.3,
+      "ep_ratio": 66.1,
+      "lf_outside": 7073.4,
+      "lf_employed": 14767.2,
+      "lf_unemployed": 511.1
+    },
+    {
+      "lf": 15381.3,
+      "date": "2018-07-01",
+      "p_rate": 68.5,
+      "u_rate": 3.4,
+      "ep_ratio": 66.2,
+      "lf_outside": 7077.9,
+      "lf_employed": 14856.8,
+      "lf_unemployed": 524.4
+    },
+    {
+      "lf": 15449.9,
+      "date": "2018-10-01",
+      "p_rate": 68.6,
+      "u_rate": 3.3,
+      "ep_ratio": 66.3,
+      "lf_outside": 7070.7,
+      "lf_employed": 14933.4,
+      "lf_unemployed": 516.5
+    },
+    {
+      "lf": 15526.8,
+      "date": "2019-01-01",
+      "p_rate": 68.7,
+      "u_rate": 3.3,
+      "ep_ratio": 66.4,
+      "lf_outside": 7064.2,
+      "lf_employed": 15010.2,
+      "lf_unemployed": 516.6
+    },
+    {
+      "lf": 15598.8,
+      "date": "2019-04-01",
+      "p_rate": 68.8,
+      "u_rate": 3.3,
+      "ep_ratio": 66.5,
+      "lf_outside": 7088.1,
+      "lf_employed": 15078.2,
+      "lf_unemployed": 520.6
+    },
+    {
+      "lf": 15674.3,
+      "date": "2019-07-01",
+      "p_rate": 68.9,
+      "u_rate": 3.3,
+      "ep_ratio": 66.6,
+      "lf_outside": 7088.7,
+      "lf_employed": 15162.1,
+      "lf_unemployed": 512.1
+    },
+    {
+      "lf": 15766.7,
+      "date": "2019-10-01",
+      "p_rate": 69.1,
+      "u_rate": 3.2,
+      "ep_ratio": 66.8,
+      "lf_outside": 7066.1,
+      "lf_employed": 15254.5,
+      "lf_unemployed": 512.2
+    },
+    {
+      "lf": 15790.1,
+      "date": "2020-01-01",
+      "p_rate": 68.8,
+      "u_rate": 3.5,
+      "ep_ratio": 66.4,
+      "lf_outside": 7163.1,
+      "lf_employed": 15243.5,
+      "lf_unemployed": 546.6
+    },
+    {
+      "lf": 15675.5,
+      "date": "2020-04-01",
+      "p_rate": 68.1,
+      "u_rate": 5.1,
+      "ep_ratio": 64.6,
+      "lf_outside": 7350.5,
+      "lf_employed": 14883.7,
+      "lf_unemployed": 791.8
+    },
+    {
+      "lf": 15840.6,
+      "date": "2020-07-01",
+      "p_rate": 68.4,
+      "u_rate": 4.7,
+      "ep_ratio": 65.2,
+      "lf_outside": 7324.6,
+      "lf_employed": 15095.6,
+      "lf_unemployed": 745.0
+    },
+    {
+      "lf": 15922.3,
+      "date": "2020-10-01",
+      "p_rate": 68.5,
+      "u_rate": 4.8,
+      "ep_ratio": 65.2,
+      "lf_outside": 7318.4,
+      "lf_employed": 15161.6,
+      "lf_unemployed": 760.7
+    },
+    {
+      "lf": 16008.4,
+      "date": "2021-01-01",
+      "p_rate": 68.6,
+      "u_rate": 4.8,
+      "ep_ratio": 65.3,
+      "lf_outside": 7316.0,
+      "lf_employed": 15236.5,
+      "lf_unemployed": 771.8
+    },
+    {
+      "lf": 15972.2,
+      "date": "2021-04-01",
+      "p_rate": 68.3,
+      "u_rate": 4.8,
+      "ep_ratio": 65.0,
+      "lf_outside": 7424.9,
+      "lf_employed": 15207.3,
+      "lf_unemployed": 764.9
+    },
+    {
+      "lf": 16021.0,
+      "date": "2021-07-01",
+      "p_rate": 68.3,
+      "u_rate": 4.7,
+      "ep_ratio": 65.1,
+      "lf_outside": 7430.1,
+      "lf_employed": 15274.8,
+      "lf_unemployed": 746.2
+    },
+    {
+      "lf": 16135.0,
+      "date": "2021-10-01",
+      "p_rate": 68.7,
+      "u_rate": 4.3,
+      "ep_ratio": 65.7,
+      "lf_outside": 7361.5,
+      "lf_employed": 15440.7,
+      "lf_unemployed": 694.4
+    },
+    {
+      "lf": 16246.1,
+      "date": "2022-01-01",
+      "p_rate": 69.0,
+      "u_rate": 4.1,
+      "ep_ratio": 66.2,
+      "lf_outside": 7289.9,
+      "lf_employed": 15574.9,
+      "lf_unemployed": 671.2
+    },
+    {
+      "lf": 16343.3,
+      "date": "2022-04-01",
+      "p_rate": 69.2,
+      "u_rate": 3.9,
+      "ep_ratio": 66.5,
+      "lf_outside": 7258.5,
+      "lf_employed": 15701.2,
+      "lf_unemployed": 642.0
+    },
+    {
+      "lf": 16442.9,
+      "date": "2022-07-01",
+      "p_rate": 69.4,
+      "u_rate": 3.7,
+      "ep_ratio": 66.8,
+      "lf_outside": 7250.6,
+      "lf_employed": 15831.1,
+      "lf_unemployed": 611.8
+    },
+    {
+      "lf": 16542.2,
+      "date": "2022-10-01",
+      "p_rate": 69.5,
+      "u_rate": 3.6,
+      "ep_ratio": 67.0,
+      "lf_outside": 7246.1,
+      "lf_employed": 15941.7,
+      "lf_unemployed": 600.5
+    },
+    {
+      "lf": 16648.9,
+      "date": "2023-01-01",
+      "p_rate": 69.8,
+      "u_rate": 3.5,
+      "ep_ratio": 67.3,
+      "lf_outside": 7215.7,
+      "lf_employed": 16062.0,
+      "lf_unemployed": 586.9
+    },
+    {
+      "lf": 16727.4,
+      "date": "2023-04-01",
+      "p_rate": 70.0,
+      "u_rate": 3.5,
+      "ep_ratio": 67.5,
+      "lf_outside": 7180.2,
+      "lf_employed": 16146.1,
+      "lf_unemployed": 581.4
+    },
+    {
+      "lf": 16824.0,
+      "date": "2023-07-01",
+      "p_rate": 70.1,
+      "u_rate": 3.4,
+      "ep_ratio": 67.7,
+      "lf_outside": 7182.3,
+      "lf_employed": 16250.9,
+      "lf_unemployed": 573.1
+    },
+    {
+      "lf": 16911.7,
+      "date": "2023-10-01",
+      "p_rate": 70.1,
+      "u_rate": 3.3,
+      "ep_ratio": 67.8,
+      "lf_outside": 7197.6,
+      "lf_employed": 16346.7,
+      "lf_unemployed": 565.0
+    },
+    {
+      "lf": 16810.1,
+      "date": "2024-01-01",
+      "p_rate": 70.5,
+      "u_rate": 3.3,
+      "ep_ratio": 68.2,
+      "lf_outside": 7021.3,
+      "lf_employed": 16258.5,
+      "lf_unemployed": 551.6
+    },
+    {
+      "lf": 16956.5,
+      "date": "2024-04-01",
+      "p_rate": 70.6,
+      "u_rate": 3.2,
+      "ep_ratio": 68.4,
+      "lf_outside": 7046.8,
+      "lf_employed": 16408.2,
+      "lf_unemployed": 548.3
+    },
+    {
+      "lf": 17045.6,
+      "date": "2024-07-01",
+      "p_rate": 70.6,
+      "u_rate": 3.2,
+      "ep_ratio": 68.3,
+      "lf_outside": 7109.1,
+      "lf_employed": 16503.4,
+      "lf_unemployed": 542.2
+    },
+    {
+      "lf": 17061.2,
+      "date": "2024-10-01",
+      "p_rate": 70.7,
+      "u_rate": 3.1,
+      "ep_ratio": 68.5,
+      "lf_outside": 7056.2,
+      "lf_employed": 16530.7,
+      "lf_unemployed": 530.6
+    },
+    {
+      "lf": 17086.6,
+      "date": "2025-01-01",
+      "p_rate": 70.8,
+      "u_rate": 3.1,
+      "ep_ratio": 68.6,
+      "lf_outside": 7046.5,
+      "lf_employed": 16564.1,
+      "lf_unemployed": 522.5
+    },
+    {
+      "lf": 17104.7,
+      "date": "2025-04-01",
+      "p_rate": 70.8,
+      "u_rate": 3.0,
+      "ep_ratio": 68.7,
+      "lf_outside": 7038.4,
+      "lf_employed": 16586.9,
+      "lf_unemployed": 517.8
+    },
+    {
+      "lf": 17136.4,
+      "date": "2025-07-01",
+      "p_rate": 70.9,
+      "u_rate": 3.0,
+      "ep_ratio": 68.7,
+      "lf_outside": 7047.3,
+      "lf_employed": 16622.8,
+      "lf_unemployed": 513.6
+    },
+    {
+      "lf": 17185.4,
+      "date": "2025-10-01",
+      "p_rate": 70.9,
+      "u_rate": 3.0,
+      "ep_ratio": 68.8,
+      "lf_outside": 7057.9,
+      "lf_employed": 16677.1,
+      "lf_unemployed": 508.3
+    },
+    {
+      "lf": 17232.0,
+      "date": "2026-01-01",
+      "p_rate": 70.9,
+      "u_rate": 2.9,
+      "ep_ratio": 68.8,
+      "lf_outside": 7075.4,
+      "lf_employed": 16725.6,
+      "lf_unemployed": 506.5
+    },
+    {
+      "lf": 17275.8,
+      "date": "2026-04-01",
+      "p_rate": 70.9,
+      "u_rate": 3.0,
+      "ep_ratio": 68.9,
+      "lf_outside": 7075.1,
+      "lf_employed": 16766.1,
+      "lf_unemployed": 509.7
+    }
+  ]
+}

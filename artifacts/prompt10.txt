@@ -1,0 +1,666 @@
+<USER_REQUEST>
+Act as a Senior ML Dataset Engineer and Reproducibility Auditor.
+
+Stage 8A completed successfully with:
+
+Starting GOLD:
+98
+
+New accepted GOLD:
+207
+
+Final GOLD corpus:
+305
+
+All 16 skill classes:
+>= 20 independent authoritative real positives
+
+Stage 8A verdict:
+
+READY TO BUILD DATASET V5
+
+Your task is to construct the next VERSIONED TRAINING DATASET.
+
+DO NOT train models.
+
+DO NOT evaluate models.
+
+DO NOT access final holdouts.
+
+DO NOT use RunPod.
+
+DO NOT integrate into production.
+
+DO NOT push to GitHub.
+
+DO NOT deploy.
+
+==================================================
+SOURCE OF TRUTH
+==================================================
+
+Read:
+
+data/processed/gold_corpus_v5_candidate.json
+
+data/manifests/gold_corpus_v5_manifest.json
+
+artifacts/stage8a_gold_expansion_report.md
+
+artifacts/stage8a_class_coverage.csv
+
+artifacts/stage8a_source_diversity.csv
+
+artifacts/stage8a_label_evidence_audit.csv
+
+artifacts/stage8a_dataset_quality.md
+
+artifacts/argon_stage7c_methodology_review.md
+
+artifacts/model_architecture_decision.md
+
+artifacts/next_experiment_gate.md
+
+Existing synthetic source:
+
+data/processed/dataset_v4_clean_multisource.json
+
+Do NOT modify any previous dataset.
+
+==================================================
+HARD HOLDOUT PROTECTION
+==================================================
+
+DO NOT READ:
+
+data/splits/real_world_test_set.json
+
+DO NOT READ:
+
+data/splits/unseen_occupation_test_set_v2.json
+
+Use only their already-created quarantine manifests where required.
+
+Protocol B:
+
+SEALED
+
+Protocol C v2:
+
+SEALED
+
+Access count must remain:
+
+0
+
+==================================================
+PRIMARY OBJECTIVE
+==================================================
+
+Build:
+
+data/processed/dataset_v5_clean_multisource.json
+
+Dataset v5 should be:
+
+REAL-DATA DOMINANT
+
+rather than:
+
+SYNTHETIC DOMINANT.
+
+Start with all approved:
+
+305 GOLD records.
+
+Add synthetic examples ONLY when they provide justified label support.
+
+==================================================
+SYNTHETIC POLICY
+==================================================
+
+Follow the approved class-conditional policy concept:
+
+synthetic support for skill k decreases as N_gold(k) increases.
+
+The Stage 7C reference rule was:
+
+synthetic_target(k) =
+max(0, 30 - N_gold(k))
+
+However:
+
+DO NOT mechanically select records independently for every label because records can contain multiple labels.
+
+Implement a deterministic multi-label selection algorithm.
+
+==================================================
+SYNTHETIC SELECTION ALGORITHM
+==================================================
+
+STEP 1
+
+Calculate real GOLD support:
+
+N_gold(k)
+
+for every one of the 16 skill labels.
+
+STEP 2
+
+Calculate the nominal synthetic gap:
+
+gap(k) =
+max(0, 30 - N_gold(k))
+
+STEP 3
+
+Identify only labels requiring additional support.
+
+Based on current Stage 8A results, examples likely include classes around:
+
+rag_knowledge_systems
+carbon_footprint_analytics
+instructional_design
+
+and any other class with fewer than 30 GOLD positives.
+
+Verify from the real data.
+
+STEP 4
+
+Rank existing approved synthetic records by marginal utility.
+
+Prefer synthetic records that:
+
+- contribute to under-supported labels
+- cover multiple legitimate under-supported labels
+- add new language/task variation
+- come from distinct synthetic template families
+- are dissimilar from GOLD records
+- do not unnecessarily reinforce already overrepresented skills
+
+STEP 5
+
+Select the MINIMUM synthetic subset required to improve under-supported class coverage.
+
+Do NOT automatically retain all 250 synthetic records.
+
+==================================================
+AVOID SYNTHETIC OVERSHOOT
+==================================================
+
+Because synthetic records are multi-label, adding one record may support multiple classes.
+
+After every selected record, recalculate deficits.
+
+Stop adding records when:
+
+all targeted deficits are satisfied
+
+OR
+
+no additional high-quality, non-redundant synthetic record provides meaningful support.
+
+Avoid overshooting class targets unnecessarily.
+
+==================================================
+SYNTHETIC CAP
+==================================================
+
+Synthetic data should now be a minority of Dataset v5.
+
+Target:
+
+<= 20% synthetic records
+
+if this can be achieved while satisfying the approved support policy.
+
+Prefer materially below 20% if adequate label coverage already exists.
+
+If the algorithm requires >20% synthetic records:
+
+DO NOT silently exceed the target.
+
+Report why.
+
+==================================================
+NO PHYSICAL OVERSAMPLING
+==================================================
+
+Do NOT duplicate GOLD records.
+
+Do NOT duplicate synthetic records.
+
+Dataset v5 must contain unique records only.
+
+Sample weighting belongs to the later model-training stage.
+
+==================================================
+DEDUPLICATION
+==================================================
+
+Perform deduplication among:
+
+305 GOLD records
+
+and
+
+candidate synthetic records
+
+using:
+
+exact SHA-256 hashing
+
+normalised-text matching
+
+high string similarity
+
+semantic similarity
+
+Detect synthetic records that paraphrase GOLD data too closely.
+
+Remove them.
+
+==================================================
+SEMANTIC SIMILARITY SAFETY
+==================================================
+
+Flag synthetic records that have suspiciously high semantic similarity to a GOLD record.
+
+Use an appropriate conservative threshold.
+
+Do not automatically delete legitimate occupational similarity.
+
+Distinguish:
+
+same domain
+
+from
+
+near-paraphrase.
+
+Document the threshold and review logic.
+
+==================================================
+TEMPLATE DIVERSITY
+==================================================
+
+Ensure selected synthetic records are not concentrated in a small number of templates.
+
+Report:
+
+number of synthetic records
+
+number of template families
+
+records per template family
+
+maximum template-family concentration
+
+Prefer diverse templates.
+
+==================================================
+SOURCE BALANCE
+==================================================
+
+Report Dataset v5 composition by:
+
+GOLD vs synthetic
+
+source
+
+occupation group
+
+sector
+
+skill class
+
+Malaysia vs international context
+
+quality tier
+
+==================================================
+MALAYSIA REPRESENTATION
+==================================================
+
+Report:
+
+total Malaysian-context records
+
+percentage Malaysian-context
+
+direct Malaysian authoritative records
+
+international crosswalked records
+
+synthetic Malaysian-context records
+
+Do not label international crosswalks as direct Malaysian observations.
+
+==================================================
+LABEL DISTRIBUTION
+==================================================
+
+For all 16 classes report:
+
+GOLD positives
+
+synthetic positives
+
+total positives
+
+percentage of positives originating from GOLD
+
+percentage originating from synthetic
+
+Flag any class where synthetic evidence still contributes excessively.
+
+==================================================
+REAL-DATA DOMINANCE GATE
+==================================================
+
+Dataset v5 should preferably satisfy:
+
+TOTAL GOLD RECORDS > TOTAL SYNTHETIC RECORDS
+
+and:
+
+GOLD >= 80% of records
+
+where possible.
+
+Also assess label-level dominance.
+
+A dataset can be 90% GOLD by rows but still depend excessively on synthetic labels for one rare class.
+
+Report both.
+
+==================================================
+QUALITY TIER
+==================================================
+
+Preserve:
+
+GOLD
+
+BRONZE
+
+and any other existing quality tiers.
+
+Do not upgrade synthetic records to GOLD.
+
+==================================================
+PROVENANCE
+==================================================
+
+Every record must retain sufficient provenance for later audit.
+
+For GOLD:
+
+source
+publisher
+source record
+source URL/reference
+date
+label evidence
+quality tier
+
+For synthetic:
+
+generator/source
+template family
+generation version
+skill labels
+is_synthetic = true
+
+==================================================
+DATASET VERSION MANIFEST
+==================================================
+
+Generate:
+
+data/manifests/dataset_v5_manifest.json
+
+Include:
+
+dataset_name
+version
+creation_timestamp
+schema_version
+total_records
+gold_records
+synthetic_records
+gold_percentage
+synthetic_percentage
+source_counts
+skill_distribution
+occupation_distribution
+dataset_sha256
+parent_dataset_versions
+selection_algorithm_version
+
+==================================================
+DATASET HASH
+==================================================
+
+Generate a deterministic SHA-256 for the complete Dataset v5 artifact.
+
+Record this hash in the manifest.
+
+The next modelling stage must train only against this frozen hash.
+
+==================================================
+GROUPED CV PREPARATION
+==================================================
+
+Prepare the grouped-CV structure for Dataset v5.
+
+Create:
+
+artifacts/cv_split_manifest_v3.json
+
+Do NOT train models.
+
+Group by:
+
+real occupational/MASCO family
+
+and
+
+synthetic template family.
+
+Ensure:
+
+zero group leakage
+
+zero template-family leakage
+
+Each validation fold should contain meaningful GOLD coverage.
+
+Prefer 5 folds if statistically valid.
+
+==================================================
+CV FOLD QUALITY REPORT
+==================================================
+
+For each fold report:
+
+train count
+validation count
+
+GOLD train
+GOLD validation
+
+synthetic train
+synthetic validation
+
+occupation groups
+
+synthetic template families
+
+skill positive counts in validation
+
+Flag any fold where a skill has zero validation positives.
+
+Do NOT fix this by violating group separation.
+
+If necessary recommend:
+
+different number of folds
+
+or
+
+alternative grouped strategy.
+
+==================================================
+NO FINAL HOLDOUT ACCESS
+==================================================
+
+Do not use Protocol B/C contents to check Dataset v5 similarity.
+
+Their previous quarantine IDs/manifests remain the only allowed exclusion reference.
+
+==================================================
+DATASET COMPARISON
+==================================================
+
+Compare:
+
+Dataset v4
+
+vs
+
+Dataset v5
+
+Report:
+
+total records
+
+GOLD records
+
+synthetic records
+
+GOLD percentage
+
+synthetic percentage
+
+classes with adequate real coverage
+
+Malaysia-specific coverage
+
+occupation-group coverage
+
+source diversity
+
+==================================================
+EXPECTED CHANGE
+==================================================
+
+Dataset v4 was approximately:
+
+98 GOLD
++
+250 synthetic
+
+Dataset v5 should reflect the new reality:
+
+305 GOLD
++
+only the minimal synthetic support that remains justified.
+
+Do not preserve the old 250 synthetic examples merely for historical consistency.
+
+==================================================
+DO NOT TRAIN YET
+==================================================
+
+Do NOT run:
+
+Candidate A
+
+MiniLM
+
+Hybrid
+
+PyTorch
+
+threshold optimisation
+
+model evaluation
+
+This stage ends after Dataset v5 and CV manifests are ready.
+
+==================================================
+REQUIRED OUTPUTS
+==================================================
+
+Create:
+
+data/processed/dataset_v5_clean_multisource.json
+
+data/manifests/dataset_v5_manifest.json
+
+artifacts/cv_split_manifest_v3.json
+
+artifacts/stage8b_synthetic_selection.csv
+
+artifacts/stage8b_label_balance.csv
+
+artifacts/stage8b_dataset_comparison.md
+
+artifacts/stage8b_cv_quality.md
+
+artifacts/stage8b_dataset_build_report.md
+
+artifacts/stage8c_readiness.md
+
+==================================================
+FINAL REPORT
+==================================================
+
+Report:
+
+1. Dataset v5 total records
+2. GOLD count
+3. Synthetic count
+4. GOLD percentage
+5. Synthetic percentage
+6. Synthetic records removed compared with v4
+7. Synthetic template-family diversity
+8. All 16 label distributions
+9. Classes still relying heavily on synthetic support
+10. Malaysian-context percentage
+11. Number of occupation groups
+12. Number of sources
+13. Dataset SHA-256
+14. CV fold quality
+15. Whether any methodology concerns remain
+
+==================================================
+READINESS VERDICT
+==================================================
+
+Return exactly ONE:
+
+READY FOR DATASET V5 MODEL SCREENING
+
+DATASET V5 NEEDS MINOR BALANCE ADJUSTMENTS
+
+DATASET V5 CONSTRUCTION FAILED QUALITY GATE
+
+Do NOT train.
+
+Do NOT access final holdouts.
+
+Do NOT integrate.
+
+Do NOT push.
+
+Do NOT deploy.
+
+STOP after Stage 8B.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-23T12:12:08+08:00.
+</ADDITIONAL_METADATA>

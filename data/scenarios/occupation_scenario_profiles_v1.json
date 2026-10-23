@@ -1,0 +1,6267 @@
+{
+  "engine_version": "1.0.0",
+  "parent_m2_version": "1.1.1",
+  "build_timestamp": "2026-10-23T12:30:42.000005+00:00",
+  "total_occupations": 28,
+  "total_scenario_profiles": 84,
+  "scenarios": [
+    "REFERENCE_2026",
+    "MODERATE_COPILOT",
+    "FAST_AGENTIC"
+  ],
+  "profiles": [
+    {
+      "masco_code": "2512",
+      "occupation_title": "Software Developers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 62.0,
+      "automation_pressure": 8.0,
+      "augmentation_opportunity": 54.0,
+      "demand_resilience": 75.5,
+      "policy_buffer": 36.0,
+      "transition_pressure": 20.2,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 20.2,
+        "central": 20.2,
+        "upper": 20.2
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 62.0,
+          "central": 62.0,
+          "upper": 62.0
+        },
+        "automation_pressure": {
+          "lower": 8.0,
+          "central": 8.0,
+          "upper": 8.0
+        },
+        "augmentation_opportunity": {
+          "lower": 54.0,
+          "central": 54.0,
+          "upper": 54.0
+        },
+        "demand_resilience": {
+          "lower": 75.5,
+          "central": 75.5,
+          "upper": 75.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (75.5) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (54.0) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (36.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2511",
+      "occupation_title": "Systems Analysts",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 56.0,
+      "automation_pressure": 6.0,
+      "augmentation_opportunity": 50.0,
+      "demand_resilience": 75.5,
+      "policy_buffer": 36.0,
+      "transition_pressure": 18.3,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 18.3,
+        "central": 18.3,
+        "upper": 18.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.0,
+          "central": 56.0,
+          "upper": 56.0
+        },
+        "automation_pressure": {
+          "lower": 6.0,
+          "central": 6.0,
+          "upper": 6.0
+        },
+        "augmentation_opportunity": {
+          "lower": 50.0,
+          "central": 50.0,
+          "upper": 50.0
+        },
+        "demand_resilience": {
+          "lower": 75.5,
+          "central": 75.5,
+          "upper": 75.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (75.5) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (50.0) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (36.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2521",
+      "occupation_title": "Database Designers & Administrators",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 51.0,
+      "automation_pressure": 6.0,
+      "augmentation_opportunity": 45.0,
+      "demand_resilience": 73.6,
+      "policy_buffer": 34.0,
+      "transition_pressure": 17.9,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 17.9,
+        "central": 17.9,
+        "upper": 17.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 51.0,
+          "central": 51.0,
+          "upper": 51.0
+        },
+        "automation_pressure": {
+          "lower": 6.0,
+          "central": 6.0,
+          "upper": 6.0
+        },
+        "augmentation_opportunity": {
+          "lower": 45.0,
+          "central": 45.0,
+          "upper": 45.0
+        },
+        "demand_resilience": {
+          "lower": 73.6,
+          "central": 73.6,
+          "upper": 73.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (73.6) buffers occupational transition."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2529",
+      "occupation_title": "Database & Network Professionals NEC (AI & Data Science Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 58.0,
+      "automation_pressure": 7.0,
+      "augmentation_opportunity": 51.0,
+      "demand_resilience": 69.3,
+      "policy_buffer": 36.0,
+      "transition_pressure": 20.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 20.6,
+        "central": 20.6,
+        "upper": 20.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 58.0,
+          "central": 58.0,
+          "upper": 58.0
+        },
+        "automation_pressure": {
+          "lower": 7.0,
+          "central": 7.0,
+          "upper": 7.0
+        },
+        "augmentation_opportunity": {
+          "lower": 51.0,
+          "central": 51.0,
+          "upper": 51.0
+        },
+        "demand_resilience": {
+          "lower": 69.3,
+          "central": 69.3,
+          "upper": 69.3
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (51.0) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (36.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2519",
+      "occupation_title": "Software & Applications Developers & Analysts NEC (Cloud & Full-Stack)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 60.0,
+      "automation_pressure": 8.0,
+      "augmentation_opportunity": 52.0,
+      "demand_resilience": 66.9,
+      "policy_buffer": 20.0,
+      "transition_pressure": 22.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 22.0,
+        "central": 22.0,
+        "upper": 22.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 60.0,
+          "central": 60.0,
+          "upper": 60.0
+        },
+        "automation_pressure": {
+          "lower": 8.0,
+          "central": 8.0,
+          "upper": 8.0
+        },
+        "augmentation_opportunity": {
+          "lower": 52.0,
+          "central": 52.0,
+          "upper": 52.0
+        },
+        "demand_resilience": {
+          "lower": 66.9,
+          "central": 66.9,
+          "upper": 66.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (52.0) enhances worker productivity."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2522",
+      "occupation_title": "Systems Administrators & Cloud Infrastructure Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 46.0,
+      "automation_pressure": 9.0,
+      "augmentation_opportunity": 37.0,
+      "demand_resilience": 52.4,
+      "policy_buffer": 34.0,
+      "transition_pressure": 23.5,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 23.5,
+        "central": 23.5,
+        "upper": 23.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 46.0,
+          "central": 46.0,
+          "upper": 46.0
+        },
+        "automation_pressure": {
+          "lower": 9.0,
+          "central": 9.0,
+          "upper": 9.0
+        },
+        "augmentation_opportunity": {
+          "lower": 37.0,
+          "central": 37.0,
+          "upper": 37.0
+        },
+        "demand_resilience": {
+          "lower": 52.4,
+          "central": 52.4,
+          "upper": 52.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2411",
+      "occupation_title": "Accountants & Financial Auditors",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 49.0,
+      "automation_pressure": 10.0,
+      "augmentation_opportunity": 39.0,
+      "demand_resilience": 75.2,
+      "policy_buffer": 34.0,
+      "transition_pressure": 18.8,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 18.8,
+        "central": 18.8,
+        "upper": 18.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 49.0,
+          "central": 49.0,
+          "upper": 49.0
+        },
+        "automation_pressure": {
+          "lower": 10.0,
+          "central": 10.0,
+          "upper": 10.0
+        },
+        "augmentation_opportunity": {
+          "lower": 39.0,
+          "central": 39.0,
+          "upper": 39.0
+        },
+        "demand_resilience": {
+          "lower": 75.2,
+          "central": 75.2,
+          "upper": 75.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (75.2) buffers occupational transition."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2421",
+      "occupation_title": "Management & Organization Analysts (Transformation Consultants)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 52.0,
+      "automation_pressure": 7.0,
+      "augmentation_opportunity": 45.0,
+      "demand_resilience": 69.0,
+      "policy_buffer": 34.0,
+      "transition_pressure": 19.6,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 19.6,
+        "central": 19.6,
+        "upper": 19.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 52.0,
+          "central": 52.0,
+          "upper": 52.0
+        },
+        "automation_pressure": {
+          "lower": 7.0,
+          "central": 7.0,
+          "upper": 7.0
+        },
+        "augmentation_opportunity": {
+          "lower": 45.0,
+          "central": 45.0,
+          "upper": 45.0
+        },
+        "demand_resilience": {
+          "lower": 69.0,
+          "central": 69.0,
+          "upper": 69.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2422",
+      "occupation_title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 49.0,
+      "automation_pressure": 7.0,
+      "augmentation_opportunity": 42.0,
+      "demand_resilience": 52.7,
+      "policy_buffer": 36.0,
+      "transition_pressure": 23.2,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 23.2,
+        "central": 23.2,
+        "upper": 23.2
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 49.0,
+          "central": 49.0,
+          "upper": 49.0
+        },
+        "automation_pressure": {
+          "lower": 7.0,
+          "central": 7.0,
+          "upper": 7.0
+        },
+        "augmentation_opportunity": {
+          "lower": 42.0,
+          "central": 42.0,
+          "upper": 42.0
+        },
+        "demand_resilience": {
+          "lower": 52.7,
+          "central": 52.7,
+          "upper": 52.7
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Active national policy alignment provides transition buffer (36.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2151",
+      "occupation_title": "Electrical Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 4.0,
+      "augmentation_opportunity": 31.0,
+      "demand_resilience": 75.5,
+      "policy_buffer": 36.0,
+      "transition_pressure": 13.8,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 13.8,
+        "central": 13.8,
+        "upper": 13.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 4.0,
+          "central": 4.0,
+          "upper": 4.0
+        },
+        "augmentation_opportunity": {
+          "lower": 31.0,
+          "central": 31.0,
+          "upper": 31.0
+        },
+        "demand_resilience": {
+          "lower": 75.5,
+          "central": 75.5,
+          "upper": 75.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (75.5) buffers occupational transition.",
+        "Active national policy alignment provides transition buffer (36.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2152",
+      "occupation_title": "Electronic Engineers (Semiconductor IC Design Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 38.0,
+      "automation_pressure": 4.0,
+      "augmentation_opportunity": 34.0,
+      "demand_resilience": 75.5,
+      "policy_buffer": 36.0,
+      "transition_pressure": 14.4,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 14.4,
+        "central": 14.4,
+        "upper": 14.4
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 38.0,
+          "central": 38.0,
+          "upper": 38.0
+        },
+        "automation_pressure": {
+          "lower": 4.0,
+          "central": 4.0,
+          "upper": 4.0
+        },
+        "augmentation_opportunity": {
+          "lower": 34.0,
+          "central": 34.0,
+          "upper": 34.0
+        },
+        "demand_resilience": {
+          "lower": 75.5,
+          "central": 75.5,
+          "upper": 75.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (75.5) buffers occupational transition.",
+        "Active national policy alignment provides transition buffer (36.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2143",
+      "occupation_title": "Environmental Engineers & Sustainability Specialists",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 32.0,
+      "automation_pressure": 3.0,
+      "augmentation_opportunity": 29.0,
+      "demand_resilience": 66.8,
+      "policy_buffer": 36.0,
+      "transition_pressure": 15.1,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 15.1,
+        "central": 15.1,
+        "upper": 15.1
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 32.0,
+          "central": 32.0,
+          "upper": 32.0
+        },
+        "automation_pressure": {
+          "lower": 3.0,
+          "central": 3.0,
+          "upper": 3.0
+        },
+        "augmentation_opportunity": {
+          "lower": 29.0,
+          "central": 29.0,
+          "upper": 29.0
+        },
+        "demand_resilience": {
+          "lower": 66.8,
+          "central": 66.8,
+          "upper": 66.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Active national policy alignment provides transition buffer (36.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2424",
+      "occupation_title": "Training & Staff Development Professionals (Reskilling Architects)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 46.0,
+      "automation_pressure": 6.0,
+      "augmentation_opportunity": 40.0,
+      "demand_resilience": 43.9,
+      "policy_buffer": 34.0,
+      "transition_pressure": 24.5,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.5,
+        "central": 24.5,
+        "upper": 24.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 46.0,
+          "central": 46.0,
+          "upper": 46.0
+        },
+        "automation_pressure": {
+          "lower": 6.0,
+          "central": 6.0,
+          "upper": 6.0
+        },
+        "augmentation_opportunity": {
+          "lower": 40.0,
+          "central": 40.0,
+          "upper": 40.0
+        },
+        "demand_resilience": {
+          "lower": 43.9,
+          "central": 43.9,
+          "upper": 43.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2166",
+      "occupation_title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 58.0,
+      "automation_pressure": 18.0,
+      "augmentation_opportunity": 40.0,
+      "demand_resilience": 46.1,
+      "policy_buffer": 20.0,
+      "transition_pressure": 30.8,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 30.8,
+        "central": 30.8,
+        "upper": 30.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 58.0,
+          "central": 58.0,
+          "upper": 58.0
+        },
+        "automation_pressure": {
+          "lower": 18.0,
+          "central": 18.0,
+          "upper": 18.0
+        },
+        "augmentation_opportunity": {
+          "lower": 40.0,
+          "central": 40.0,
+          "upper": 40.0
+        },
+        "demand_resilience": {
+          "lower": 46.1,
+          "central": 46.1,
+          "upper": 46.1
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "1330",
+      "occupation_title": "Information & Communications Technology Services Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 33.0,
+      "automation_pressure": 4.0,
+      "augmentation_opportunity": 29.0,
+      "demand_resilience": 72.5,
+      "policy_buffer": 34.0,
+      "transition_pressure": 14.2,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 14.2,
+        "central": 14.2,
+        "upper": 14.2
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 33.0,
+          "central": 33.0,
+          "upper": 33.0
+        },
+        "automation_pressure": {
+          "lower": 4.0,
+          "central": 4.0,
+          "upper": 4.0
+        },
+        "augmentation_opportunity": {
+          "lower": 29.0,
+          "central": 29.0,
+          "upper": 29.0
+        },
+        "demand_resilience": {
+          "lower": 72.5,
+          "central": 72.5,
+          "upper": 72.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (72.5) buffers occupational transition."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3514",
+      "occupation_title": "Web Technicians & Cloud Application Operators",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 44.0,
+      "automation_pressure": 15.0,
+      "augmentation_opportunity": 29.0,
+      "demand_resilience": 44.8,
+      "policy_buffer": 20.0,
+      "transition_pressure": 27.5,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 27.5,
+        "central": 27.5,
+        "upper": 27.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 44.0,
+          "central": 44.0,
+          "upper": 44.0
+        },
+        "automation_pressure": {
+          "lower": 15.0,
+          "central": 15.0,
+          "upper": 15.0
+        },
+        "augmentation_opportunity": {
+          "lower": 29.0,
+          "central": 29.0,
+          "upper": 29.0
+        },
+        "demand_resilience": {
+          "lower": 44.8,
+          "central": 44.8,
+          "upper": 44.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3322",
+      "occupation_title": "Commercial Sales Representatives",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 31.0,
+      "automation_pressure": 7.0,
+      "augmentation_opportunity": 24.0,
+      "demand_resilience": 65.6,
+      "policy_buffer": 20.0,
+      "transition_pressure": 16.8,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 16.8,
+        "central": 16.8,
+        "upper": 16.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 31.0,
+          "central": 31.0,
+          "upper": 31.0
+        },
+        "automation_pressure": {
+          "lower": 7.0,
+          "central": 7.0,
+          "upper": 7.0
+        },
+        "augmentation_opportunity": {
+          "lower": 24.0,
+          "central": 24.0,
+          "upper": 24.0
+        },
+        "demand_resilience": {
+          "lower": 65.6,
+          "central": 65.6,
+          "upper": 65.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "4311",
+      "occupation_title": "Accounting and Bookkeeping Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY DECLINING",
+      "effective_ai_pressure": 39.0,
+      "automation_pressure": 29.0,
+      "augmentation_opportunity": 10.0,
+      "demand_resilience": 24.3,
+      "policy_buffer": 20.0,
+      "transition_pressure": 37.4,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "HIGHLY PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 37.4,
+        "central": 37.4,
+        "upper": 37.4
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 39.0,
+          "central": 39.0,
+          "upper": 39.0
+        },
+        "automation_pressure": {
+          "lower": 29.0,
+          "central": 29.0,
+          "upper": 29.0
+        },
+        "augmentation_opportunity": {
+          "lower": 10.0,
+          "central": 10.0,
+          "upper": 10.0
+        },
+        "demand_resilience": {
+          "lower": 24.3,
+          "central": 24.3,
+          "upper": 24.3
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "4110",
+      "occupation_title": "General Office Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY DECLINING",
+      "effective_ai_pressure": 38.0,
+      "automation_pressure": 30.0,
+      "augmentation_opportunity": 8.0,
+      "demand_resilience": 24.3,
+      "policy_buffer": 20.0,
+      "transition_pressure": 37.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "HIGHLY PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 37.6,
+        "central": 37.6,
+        "upper": 37.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 38.0,
+          "central": 38.0,
+          "upper": 38.0
+        },
+        "automation_pressure": {
+          "lower": 30.0,
+          "central": 30.0,
+          "upper": 30.0
+        },
+        "augmentation_opportunity": {
+          "lower": 8.0,
+          "central": 8.0,
+          "upper": 8.0
+        },
+        "demand_resilience": {
+          "lower": 24.3,
+          "central": 24.3,
+          "upper": 24.3
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Elevated automation pressure (30.0) targets routine task components.",
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3343",
+      "occupation_title": "Administrative & Executive Secretaries",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "DECLINING",
+      "effective_ai_pressure": 42.0,
+      "automation_pressure": 25.0,
+      "augmentation_opportunity": 17.0,
+      "demand_resilience": 27.4,
+      "policy_buffer": 20.0,
+      "transition_pressure": 35.5,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 35.5,
+        "central": 35.5,
+        "upper": 35.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 42.0,
+          "central": 42.0,
+          "upper": 42.0
+        },
+        "automation_pressure": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "augmentation_opportunity": {
+          "lower": 17.0,
+          "central": 17.0,
+          "upper": 17.0
+        },
+        "demand_resilience": {
+          "lower": 27.4,
+          "central": 27.4,
+          "upper": 27.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_1",
+      "occupation_title": "Major Group 1: Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 25.0,
+      "demand_resilience": 47.8,
+      "policy_buffer": 20.0,
+      "transition_pressure": 24.3,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.3,
+        "central": 24.3,
+        "upper": 24.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 12.0,
+          "upper": 12.0
+        },
+        "augmentation_opportunity": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "demand_resilience": {
+          "lower": 47.8,
+          "central": 47.8,
+          "upper": 47.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_2",
+      "occupation_title": "Major Group 2: Professionals",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 25.0,
+      "demand_resilience": 48.8,
+      "policy_buffer": 20.0,
+      "transition_pressure": 24.1,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.1,
+        "central": 24.1,
+        "upper": 24.1
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 12.0,
+          "upper": 12.0
+        },
+        "augmentation_opportunity": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "demand_resilience": {
+          "lower": 48.8,
+          "central": 48.8,
+          "upper": 48.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_3",
+      "occupation_title": "Major Group 3: Technicians and Associate Professionals",
+      "major_group": "3",
+      "major_group_name": "Technicians and Associate Professionals",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 25.0,
+      "demand_resilience": 47.5,
+      "policy_buffer": 20.0,
+      "transition_pressure": 24.4,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.4,
+        "central": 24.4,
+        "upper": 24.4
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 12.0,
+          "upper": 12.0
+        },
+        "augmentation_opportunity": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "demand_resilience": {
+          "lower": 47.5,
+          "central": 47.5,
+          "upper": 47.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_4",
+      "occupation_title": "Major Group 4: Clerical Support Workers",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 25.0,
+      "demand_resilience": 44.5,
+      "policy_buffer": 20.0,
+      "transition_pressure": 25.1,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 25.1,
+        "central": 25.1,
+        "upper": 25.1
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 12.0,
+          "upper": 12.0
+        },
+        "augmentation_opportunity": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "demand_resilience": {
+          "lower": 44.5,
+          "central": 44.5,
+          "upper": 44.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_5",
+      "occupation_title": "Major Group 5: Service and Sales Workers",
+      "major_group": "5",
+      "major_group_name": "Service and Sales Workers",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 25.0,
+      "demand_resilience": 45.5,
+      "policy_buffer": 20.0,
+      "transition_pressure": 24.9,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.9,
+        "central": 24.9,
+        "upper": 24.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 12.0,
+          "upper": 12.0
+        },
+        "augmentation_opportunity": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "demand_resilience": {
+          "lower": 45.5,
+          "central": 45.5,
+          "upper": 45.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_7",
+      "occupation_title": "Major Group 7: Craft and Related Trades Workers",
+      "major_group": "7",
+      "major_group_name": "Craft and Related Trades Workers",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 25.0,
+      "demand_resilience": 45.2,
+      "policy_buffer": 20.0,
+      "transition_pressure": 25.0,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 25.0,
+        "central": 25.0,
+        "upper": 25.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 12.0,
+          "upper": 12.0
+        },
+        "augmentation_opportunity": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "demand_resilience": {
+          "lower": 45.2,
+          "central": 45.2,
+          "upper": 45.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_8",
+      "occupation_title": "Major Group 8: Plant and Machine Operators and Assemblers",
+      "major_group": "8",
+      "major_group_name": "Plant and Machine Operators and Assemblers",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 25.0,
+      "demand_resilience": 45.0,
+      "policy_buffer": 20.0,
+      "transition_pressure": 25.0,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 25.0,
+        "central": 25.0,
+        "upper": 25.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 12.0,
+          "upper": 12.0
+        },
+        "augmentation_opportunity": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "demand_resilience": {
+          "lower": 45.0,
+          "central": 45.0,
+          "upper": 45.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_9",
+      "occupation_title": "Major Group 9: Elementary Occupations",
+      "major_group": "9",
+      "major_group_name": "Elementary Occupations",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 35.0,
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 25.0,
+      "demand_resilience": 44.2,
+      "policy_buffer": 20.0,
+      "transition_pressure": 25.2,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 25.2,
+        "central": 25.2,
+        "upper": 25.2
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 35.0,
+          "central": 35.0,
+          "upper": 35.0
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 12.0,
+          "upper": 12.0
+        },
+        "augmentation_opportunity": {
+          "lower": 25.0,
+          "central": 25.0,
+          "upper": 25.0
+        },
+        "demand_resilience": {
+          "lower": 44.2,
+          "central": 44.2,
+          "upper": 44.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2512",
+      "occupation_title": "Software Developers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 59.6,
+      "automation_pressure": 8.4,
+      "augmentation_opportunity": 77.2,
+      "demand_resilience": 78.9,
+      "policy_buffer": 58.5,
+      "transition_pressure": 23.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 20.6,
+        "central": 23.6,
+        "upper": 26.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 45.6,
+          "central": 59.6,
+          "upper": 73.4
+        },
+        "automation_pressure": {
+          "lower": 6.4,
+          "central": 8.4,
+          "upper": 10.3
+        },
+        "augmentation_opportunity": {
+          "lower": 64.7,
+          "central": 77.2,
+          "upper": 89.7
+        },
+        "demand_resilience": {
+          "lower": 77.5,
+          "central": 78.9,
+          "upper": 80.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 3.4,
+        "automation_pressure_delta": 0.4,
+        "augmentation_opportunity_delta": 23.2,
+        "demand_resilience_delta": 3.4
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.9) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (77.2) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (58.5)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2511",
+      "occupation_title": "Systems Analysts",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 53.8,
+      "automation_pressure": 6.3,
+      "augmentation_opportunity": 71.5,
+      "demand_resilience": 78.9,
+      "policy_buffer": 58.5,
+      "transition_pressure": 21.4,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 18.9,
+        "central": 21.4,
+        "upper": 23.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 41.2,
+          "central": 53.8,
+          "upper": 66.3
+        },
+        "automation_pressure": {
+          "lower": 4.8,
+          "central": 6.3,
+          "upper": 7.7
+        },
+        "augmentation_opportunity": {
+          "lower": 59.9,
+          "central": 71.5,
+          "upper": 83.0
+        },
+        "demand_resilience": {
+          "lower": 77.5,
+          "central": 78.9,
+          "upper": 80.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 3.1,
+        "automation_pressure_delta": 0.3,
+        "augmentation_opportunity_delta": 21.5,
+        "demand_resilience_delta": 3.4
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.9) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (71.5) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (58.5)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2521",
+      "occupation_title": "Database Designers & Administrators",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 49.0,
+      "automation_pressure": 6.3,
+      "augmentation_opportunity": 64.3,
+      "demand_resilience": 76.7,
+      "policy_buffer": 55.2,
+      "transition_pressure": 20.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 18.3,
+        "central": 20.7,
+        "upper": 23.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 37.5,
+          "central": 49.0,
+          "upper": 60.4
+        },
+        "automation_pressure": {
+          "lower": 4.8,
+          "central": 6.3,
+          "upper": 7.7
+        },
+        "augmentation_opportunity": {
+          "lower": 53.9,
+          "central": 64.3,
+          "upper": 74.7
+        },
+        "demand_resilience": {
+          "lower": 75.5,
+          "central": 76.7,
+          "upper": 78.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 2.8,
+        "automation_pressure_delta": 0.3,
+        "augmentation_opportunity_delta": 19.3,
+        "demand_resilience_delta": 3.1
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (76.7) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (64.3) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (55.2)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2529",
+      "occupation_title": "Database & Network Professionals NEC (AI & Data Science Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 55.7,
+      "automation_pressure": 7.3,
+      "augmentation_opportunity": 72.9,
+      "demand_resilience": 72.7,
+      "policy_buffer": 58.5,
+      "transition_pressure": 23.8,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 21.1,
+        "central": 23.8,
+        "upper": 26.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 42.6,
+          "central": 55.7,
+          "upper": 68.7
+        },
+        "automation_pressure": {
+          "lower": 5.6,
+          "central": 7.3,
+          "upper": 9.0
+        },
+        "augmentation_opportunity": {
+          "lower": 61.1,
+          "central": 72.9,
+          "upper": 84.7
+        },
+        "demand_resilience": {
+          "lower": 71.3,
+          "central": 72.7,
+          "upper": 74.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 3.2,
+        "automation_pressure_delta": 0.3,
+        "augmentation_opportunity_delta": 21.9,
+        "demand_resilience_delta": 3.4
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (72.7) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (72.9) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (58.5)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2519",
+      "occupation_title": "Software & Applications Developers & Analysts NEC (Cloud & Full-Stack)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 57.6,
+      "automation_pressure": 8.4,
+      "augmentation_opportunity": 74.4,
+      "demand_resilience": 68.8,
+      "policy_buffer": 32.5,
+      "transition_pressure": 25.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 22.6,
+        "central": 25.7,
+        "upper": 28.7
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 44.1,
+          "central": 57.6,
+          "upper": 71.0
+        },
+        "automation_pressure": {
+          "lower": 6.4,
+          "central": 8.4,
+          "upper": 10.3
+        },
+        "augmentation_opportunity": {
+          "lower": 62.3,
+          "central": 74.4,
+          "upper": 86.4
+        },
+        "demand_resilience": {
+          "lower": 68.0,
+          "central": 68.8,
+          "upper": 69.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 3.7,
+        "automation_pressure_delta": 0.4,
+        "augmentation_opportunity_delta": 22.4,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (74.4) enhances worker productivity."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2522",
+      "occupation_title": "Systems Administrators & Cloud Infrastructure Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 44.2,
+      "automation_pressure": 9.4,
+      "augmentation_opportunity": 52.9,
+      "demand_resilience": 55.6,
+      "policy_buffer": 55.2,
+      "transition_pressure": 25.8,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 23.3,
+        "central": 25.8,
+        "upper": 28.2
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 33.8,
+          "central": 44.2,
+          "upper": 54.5
+        },
+        "automation_pressure": {
+          "lower": 7.2,
+          "central": 9.4,
+          "upper": 11.6
+        },
+        "augmentation_opportunity": {
+          "lower": 44.3,
+          "central": 52.9,
+          "upper": 61.5
+        },
+        "demand_resilience": {
+          "lower": 54.3,
+          "central": 55.6,
+          "upper": 56.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 2.3,
+        "automation_pressure_delta": 0.4,
+        "augmentation_opportunity_delta": 15.9,
+        "demand_resilience_delta": 3.2
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (52.9) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (55.2)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2411",
+      "occupation_title": "Accountants & Financial Auditors",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 47.1,
+      "automation_pressure": 10.5,
+      "augmentation_opportunity": 55.8,
+      "demand_resilience": 78.4,
+      "policy_buffer": 55.2,
+      "transition_pressure": 21.2,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 18.5,
+        "central": 21.2,
+        "upper": 23.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 36.0,
+          "central": 47.1,
+          "upper": 58.0
+        },
+        "automation_pressure": {
+          "lower": 8.0,
+          "central": 10.5,
+          "upper": 12.9
+        },
+        "augmentation_opportunity": {
+          "lower": 46.7,
+          "central": 55.8,
+          "upper": 64.8
+        },
+        "demand_resilience": {
+          "lower": 77.1,
+          "central": 78.4,
+          "upper": 79.7
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 2.4,
+        "automation_pressure_delta": 0.5,
+        "augmentation_opportunity_delta": 16.8,
+        "demand_resilience_delta": 3.2
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.4) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (55.8) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (55.2)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2421",
+      "occupation_title": "Management & Organization Analysts (Transformation Consultants)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 49.9,
+      "automation_pressure": 7.3,
+      "augmentation_opportunity": 64.3,
+      "demand_resilience": 72.2,
+      "policy_buffer": 55.2,
+      "transition_pressure": 22.4,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 19.9,
+        "central": 22.4,
+        "upper": 24.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 38.2,
+          "central": 49.9,
+          "upper": 61.6
+        },
+        "automation_pressure": {
+          "lower": 5.6,
+          "central": 7.3,
+          "upper": 9.0
+        },
+        "augmentation_opportunity": {
+          "lower": 53.9,
+          "central": 64.3,
+          "upper": 74.7
+        },
+        "demand_resilience": {
+          "lower": 70.9,
+          "central": 72.2,
+          "upper": 73.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 2.8,
+        "automation_pressure_delta": 0.3,
+        "augmentation_opportunity_delta": 19.3,
+        "demand_resilience_delta": 3.2
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (72.2) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (64.3) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (55.2)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2422",
+      "occupation_title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 47.1,
+      "automation_pressure": 7.3,
+      "augmentation_opportunity": 60.1,
+      "demand_resilience": 56.1,
+      "policy_buffer": 58.5,
+      "transition_pressure": 25.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 23.3,
+        "central": 25.7,
+        "upper": 28.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 36.0,
+          "central": 47.1,
+          "upper": 58.0
+        },
+        "automation_pressure": {
+          "lower": 5.6,
+          "central": 7.3,
+          "upper": 9.0
+        },
+        "augmentation_opportunity": {
+          "lower": 50.3,
+          "central": 60.1,
+          "upper": 69.8
+        },
+        "demand_resilience": {
+          "lower": 54.7,
+          "central": 56.1,
+          "upper": 57.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 2.5,
+        "automation_pressure_delta": 0.3,
+        "augmentation_opportunity_delta": 18.1,
+        "demand_resilience_delta": 3.4
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (60.1) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (58.5)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2151",
+      "occupation_title": "Electrical Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 4.2,
+      "augmentation_opportunity": 44.3,
+      "demand_resilience": 78.9,
+      "policy_buffer": 58.5,
+      "transition_pressure": 15.4,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 14.0,
+        "central": 15.4,
+        "upper": 17.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 3.2,
+          "central": 4.2,
+          "upper": 5.2
+        },
+        "augmentation_opportunity": {
+          "lower": 37.2,
+          "central": 44.3,
+          "upper": 51.5
+        },
+        "demand_resilience": {
+          "lower": 77.5,
+          "central": 78.9,
+          "upper": 80.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.6,
+        "automation_pressure_delta": 0.2,
+        "augmentation_opportunity_delta": 13.3,
+        "demand_resilience_delta": 3.4
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.9) buffers occupational transition.",
+        "Active national policy alignment provides transition buffer (58.5)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2152",
+      "occupation_title": "Electronic Engineers (Semiconductor IC Design Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 36.5,
+      "automation_pressure": 4.2,
+      "augmentation_opportunity": 48.6,
+      "demand_resilience": 78.9,
+      "policy_buffer": 58.5,
+      "transition_pressure": 16.2,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 14.6,
+        "central": 16.2,
+        "upper": 17.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 27.9,
+          "central": 36.5,
+          "upper": 45.0
+        },
+        "automation_pressure": {
+          "lower": 3.2,
+          "central": 4.2,
+          "upper": 5.2
+        },
+        "augmentation_opportunity": {
+          "lower": 40.7,
+          "central": 48.6,
+          "upper": 56.5
+        },
+        "demand_resilience": {
+          "lower": 77.5,
+          "central": 78.9,
+          "upper": 80.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.8,
+        "automation_pressure_delta": 0.2,
+        "augmentation_opportunity_delta": 14.6,
+        "demand_resilience_delta": 3.4
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.9) buffers occupational transition.",
+        "Active national policy alignment provides transition buffer (58.5)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2143",
+      "occupation_title": "Environmental Engineers & Sustainability Specialists",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 30.7,
+      "automation_pressure": 3.1,
+      "augmentation_opportunity": 41.5,
+      "demand_resilience": 70.1,
+      "policy_buffer": 58.5,
+      "transition_pressure": 16.5,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 15.3,
+        "central": 16.5,
+        "upper": 17.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 23.5,
+          "central": 30.7,
+          "upper": 37.9
+        },
+        "automation_pressure": {
+          "lower": 2.4,
+          "central": 3.1,
+          "upper": 3.9
+        },
+        "augmentation_opportunity": {
+          "lower": 34.8,
+          "central": 41.5,
+          "upper": 48.2
+        },
+        "demand_resilience": {
+          "lower": 68.8,
+          "central": 70.1,
+          "upper": 71.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.4,
+        "automation_pressure_delta": 0.1,
+        "augmentation_opportunity_delta": 12.5,
+        "demand_resilience_delta": 3.3
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (70.1) buffers occupational transition.",
+        "Active national policy alignment provides transition buffer (58.5)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2424",
+      "occupation_title": "Training & Staff Development Professionals (Reskilling Architects)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 44.2,
+      "automation_pressure": 6.3,
+      "augmentation_opportunity": 57.2,
+      "demand_resilience": 47.1,
+      "policy_buffer": 55.2,
+      "transition_pressure": 26.9,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.7,
+        "central": 26.9,
+        "upper": 28.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 33.8,
+          "central": 44.2,
+          "upper": 54.5
+        },
+        "automation_pressure": {
+          "lower": 4.8,
+          "central": 6.3,
+          "upper": 7.7
+        },
+        "augmentation_opportunity": {
+          "lower": 47.9,
+          "central": 57.2,
+          "upper": 66.4
+        },
+        "demand_resilience": {
+          "lower": 45.8,
+          "central": 47.1,
+          "upper": 48.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 2.4,
+        "automation_pressure_delta": 0.3,
+        "augmentation_opportunity_delta": 17.2,
+        "demand_resilience_delta": 3.2
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (57.2) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (55.2)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2166",
+      "occupation_title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 55.7,
+      "automation_pressure": 18.9,
+      "augmentation_opportunity": 57.2,
+      "demand_resilience": 47.9,
+      "policy_buffer": 32.5,
+      "transition_pressure": 33.9,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 29.9,
+        "central": 33.9,
+        "upper": 37.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 42.6,
+          "central": 55.7,
+          "upper": 68.7
+        },
+        "automation_pressure": {
+          "lower": 14.4,
+          "central": 18.9,
+          "upper": 23.2
+        },
+        "augmentation_opportunity": {
+          "lower": 47.9,
+          "central": 57.2,
+          "upper": 66.4
+        },
+        "demand_resilience": {
+          "lower": 47.2,
+          "central": 47.9,
+          "upper": 48.7
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 3.1,
+        "automation_pressure_delta": 0.9,
+        "augmentation_opportunity_delta": 17.2,
+        "demand_resilience_delta": 1.8
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (57.2) enhances worker productivity."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "1330",
+      "occupation_title": "Information & Communications Technology Services Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 31.7,
+      "automation_pressure": 4.2,
+      "augmentation_opportunity": 41.5,
+      "demand_resilience": 75.7,
+      "policy_buffer": 55.2,
+      "transition_pressure": 15.8,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 14.3,
+        "central": 15.8,
+        "upper": 17.2
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 24.3,
+          "central": 31.7,
+          "upper": 39.1
+        },
+        "automation_pressure": {
+          "lower": 3.2,
+          "central": 4.2,
+          "upper": 5.2
+        },
+        "augmentation_opportunity": {
+          "lower": 34.8,
+          "central": 41.5,
+          "upper": 48.2
+        },
+        "demand_resilience": {
+          "lower": 74.5,
+          "central": 75.7,
+          "upper": 77.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.6,
+        "automation_pressure_delta": 0.2,
+        "augmentation_opportunity_delta": 12.5,
+        "demand_resilience_delta": 3.2
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (75.7) buffers occupational transition.",
+        "Active national policy alignment provides transition buffer (55.2)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3514",
+      "occupation_title": "Web Technicians & Cloud Application Operators",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 42.3,
+      "automation_pressure": 15.7,
+      "augmentation_opportunity": 41.5,
+      "demand_resilience": 46.7,
+      "policy_buffer": 32.5,
+      "transition_pressure": 29.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 26.5,
+        "central": 29.6,
+        "upper": 32.7
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 32.3,
+          "central": 42.3,
+          "upper": 52.1
+        },
+        "automation_pressure": {
+          "lower": 12.0,
+          "central": 15.7,
+          "upper": 19.4
+        },
+        "augmentation_opportunity": {
+          "lower": 34.8,
+          "central": 41.5,
+          "upper": 48.2
+        },
+        "demand_resilience": {
+          "lower": 45.9,
+          "central": 46.7,
+          "upper": 47.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 2.1,
+        "automation_pressure_delta": 0.7,
+        "augmentation_opportunity_delta": 12.5,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3322",
+      "occupation_title": "Commercial Sales Representatives",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 29.8,
+      "automation_pressure": 7.3,
+      "augmentation_opportunity": 34.3,
+      "demand_resilience": 67.5,
+      "policy_buffer": 32.5,
+      "transition_pressure": 18.3,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 16.6,
+        "central": 18.3,
+        "upper": 20.1
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 22.8,
+          "central": 29.8,
+          "upper": 36.7
+        },
+        "automation_pressure": {
+          "lower": 5.6,
+          "central": 7.3,
+          "upper": 9.0
+        },
+        "augmentation_opportunity": {
+          "lower": 28.8,
+          "central": 34.3,
+          "upper": 39.9
+        },
+        "demand_resilience": {
+          "lower": 66.7,
+          "central": 67.5,
+          "upper": 68.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.5,
+        "automation_pressure_delta": 0.3,
+        "augmentation_opportunity_delta": 10.3,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "4311",
+      "occupation_title": "Accounting and Bookkeeping Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY DECLINING",
+      "effective_ai_pressure": 37.5,
+      "automation_pressure": 30.4,
+      "augmentation_opportunity": 14.3,
+      "demand_resilience": 26.2,
+      "policy_buffer": 32.5,
+      "transition_pressure": 38.4,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "HIGHLY PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 34.1,
+        "central": 38.4,
+        "upper": 42.7
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 28.7,
+          "central": 37.5,
+          "upper": 46.2
+        },
+        "automation_pressure": {
+          "lower": 23.2,
+          "central": 30.4,
+          "upper": 37.5
+        },
+        "augmentation_opportunity": {
+          "lower": 12.0,
+          "central": 14.3,
+          "upper": 16.6
+        },
+        "demand_resilience": {
+          "lower": 25.4,
+          "central": 26.2,
+          "upper": 26.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.0,
+        "automation_pressure_delta": 1.4,
+        "augmentation_opportunity_delta": 4.3,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Elevated automation pressure (30.4) targets routine task components.",
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "4110",
+      "occupation_title": "General Office Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY DECLINING",
+      "effective_ai_pressure": 36.5,
+      "automation_pressure": 31.4,
+      "augmentation_opportunity": 11.4,
+      "demand_resilience": 26.2,
+      "policy_buffer": 32.5,
+      "transition_pressure": 38.5,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "HIGHLY PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 34.2,
+        "central": 38.5,
+        "upper": 42.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 27.9,
+          "central": 36.5,
+          "upper": 45.0
+        },
+        "automation_pressure": {
+          "lower": 24.1,
+          "central": 31.4,
+          "upper": 38.7
+        },
+        "augmentation_opportunity": {
+          "lower": 9.6,
+          "central": 11.4,
+          "upper": 13.3
+        },
+        "demand_resilience": {
+          "lower": 25.4,
+          "central": 26.2,
+          "upper": 26.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 0.9,
+        "automation_pressure_delta": 1.4,
+        "augmentation_opportunity_delta": 3.4,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Elevated automation pressure (31.4) targets routine task components.",
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3343",
+      "occupation_title": "Administrative & Executive Secretaries",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "DECLINING",
+      "effective_ai_pressure": 40.3,
+      "automation_pressure": 26.2,
+      "augmentation_opportunity": 24.3,
+      "demand_resilience": 29.2,
+      "policy_buffer": 32.5,
+      "transition_pressure": 37.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "HIGHLY PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 32.9,
+        "central": 37.0,
+        "upper": 41.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 30.9,
+          "central": 40.3,
+          "upper": 49.7
+        },
+        "automation_pressure": {
+          "lower": 20.0,
+          "central": 26.2,
+          "upper": 32.3
+        },
+        "augmentation_opportunity": {
+          "lower": 20.4,
+          "central": 24.3,
+          "upper": 28.2
+        },
+        "demand_resilience": {
+          "lower": 28.5,
+          "central": 29.2,
+          "upper": 30.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.5,
+        "automation_pressure_delta": 1.2,
+        "augmentation_opportunity_delta": 7.3,
+        "demand_resilience_delta": 1.8
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_1",
+      "occupation_title": "Major Group 1: Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 12.6,
+      "augmentation_opportunity": 35.8,
+      "demand_resilience": 49.7,
+      "policy_buffer": 32.5,
+      "transition_pressure": 26.1,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 23.5,
+        "central": 26.1,
+        "upper": 28.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 9.6,
+          "central": 12.6,
+          "upper": 15.5
+        },
+        "augmentation_opportunity": {
+          "lower": 30.0,
+          "central": 35.8,
+          "upper": 41.5
+        },
+        "demand_resilience": {
+          "lower": 48.9,
+          "central": 49.7,
+          "upper": 50.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.8,
+        "automation_pressure_delta": 0.6,
+        "augmentation_opportunity_delta": 10.8,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_2",
+      "occupation_title": "Major Group 2: Professionals",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 12.6,
+      "augmentation_opportunity": 35.8,
+      "demand_resilience": 50.7,
+      "policy_buffer": 32.5,
+      "transition_pressure": 25.8,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 23.3,
+        "central": 25.8,
+        "upper": 28.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 9.6,
+          "central": 12.6,
+          "upper": 15.5
+        },
+        "augmentation_opportunity": {
+          "lower": 30.0,
+          "central": 35.8,
+          "upper": 41.5
+        },
+        "demand_resilience": {
+          "lower": 49.9,
+          "central": 50.7,
+          "upper": 51.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.7,
+        "automation_pressure_delta": 0.6,
+        "augmentation_opportunity_delta": 10.8,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_3",
+      "occupation_title": "Major Group 3: Technicians and Associate Professionals",
+      "major_group": "3",
+      "major_group_name": "Technicians and Associate Professionals",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 12.6,
+      "augmentation_opportunity": 35.8,
+      "demand_resilience": 49.4,
+      "policy_buffer": 32.5,
+      "transition_pressure": 26.2,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 23.6,
+        "central": 26.2,
+        "upper": 28.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 9.6,
+          "central": 12.6,
+          "upper": 15.5
+        },
+        "augmentation_opportunity": {
+          "lower": 30.0,
+          "central": 35.8,
+          "upper": 41.5
+        },
+        "demand_resilience": {
+          "lower": 48.7,
+          "central": 49.4,
+          "upper": 50.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.8,
+        "automation_pressure_delta": 0.6,
+        "augmentation_opportunity_delta": 10.8,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_4",
+      "occupation_title": "Major Group 4: Clerical Support Workers",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 12.6,
+      "augmentation_opportunity": 35.8,
+      "demand_resilience": 46.4,
+      "policy_buffer": 32.5,
+      "transition_pressure": 26.9,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.4,
+        "central": 26.9,
+        "upper": 29.4
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 9.6,
+          "central": 12.6,
+          "upper": 15.5
+        },
+        "augmentation_opportunity": {
+          "lower": 30.0,
+          "central": 35.8,
+          "upper": 41.5
+        },
+        "demand_resilience": {
+          "lower": 45.6,
+          "central": 46.4,
+          "upper": 47.1
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.8,
+        "automation_pressure_delta": 0.6,
+        "augmentation_opportunity_delta": 10.8,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_5",
+      "occupation_title": "Major Group 5: Service and Sales Workers",
+      "major_group": "5",
+      "major_group_name": "Service and Sales Workers",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 12.6,
+      "augmentation_opportunity": 35.8,
+      "demand_resilience": 47.4,
+      "policy_buffer": 32.5,
+      "transition_pressure": 26.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.1,
+        "central": 26.7,
+        "upper": 29.1
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 9.6,
+          "central": 12.6,
+          "upper": 15.5
+        },
+        "augmentation_opportunity": {
+          "lower": 30.0,
+          "central": 35.8,
+          "upper": 41.5
+        },
+        "demand_resilience": {
+          "lower": 46.6,
+          "central": 47.4,
+          "upper": 48.1
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.8,
+        "automation_pressure_delta": 0.6,
+        "augmentation_opportunity_delta": 10.8,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_7",
+      "occupation_title": "Major Group 7: Craft and Related Trades Workers",
+      "major_group": "7",
+      "major_group_name": "Craft and Related Trades Workers",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 12.6,
+      "augmentation_opportunity": 35.8,
+      "demand_resilience": 47.1,
+      "policy_buffer": 32.5,
+      "transition_pressure": 26.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.2,
+        "central": 26.7,
+        "upper": 29.2
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 9.6,
+          "central": 12.6,
+          "upper": 15.5
+        },
+        "augmentation_opportunity": {
+          "lower": 30.0,
+          "central": 35.8,
+          "upper": 41.5
+        },
+        "demand_resilience": {
+          "lower": 46.4,
+          "central": 47.1,
+          "upper": 47.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.7,
+        "automation_pressure_delta": 0.6,
+        "augmentation_opportunity_delta": 10.8,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_8",
+      "occupation_title": "Major Group 8: Plant and Machine Operators and Assemblers",
+      "major_group": "8",
+      "major_group_name": "Plant and Machine Operators and Assemblers",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 12.6,
+      "augmentation_opportunity": 35.8,
+      "demand_resilience": 46.9,
+      "policy_buffer": 32.5,
+      "transition_pressure": 26.8,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.2,
+        "central": 26.8,
+        "upper": 29.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 9.6,
+          "central": 12.6,
+          "upper": 15.5
+        },
+        "augmentation_opportunity": {
+          "lower": 30.0,
+          "central": 35.8,
+          "upper": 41.5
+        },
+        "demand_resilience": {
+          "lower": 46.1,
+          "central": 46.9,
+          "upper": 47.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.8,
+        "automation_pressure_delta": 0.6,
+        "augmentation_opportunity_delta": 10.8,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_9",
+      "occupation_title": "Major Group 9: Elementary Occupations",
+      "major_group": "9",
+      "major_group_name": "Elementary Occupations",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 33.6,
+      "automation_pressure": 12.6,
+      "augmentation_opportunity": 35.8,
+      "demand_resilience": 46.1,
+      "policy_buffer": 32.5,
+      "transition_pressure": 27.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.4,
+        "central": 27.0,
+        "upper": 29.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 25.7,
+          "central": 33.6,
+          "upper": 41.4
+        },
+        "automation_pressure": {
+          "lower": 9.6,
+          "central": 12.6,
+          "upper": 15.5
+        },
+        "augmentation_opportunity": {
+          "lower": 30.0,
+          "central": 35.8,
+          "upper": 41.5
+        },
+        "demand_resilience": {
+          "lower": 45.4,
+          "central": 46.1,
+          "upper": 46.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 1.8,
+        "automation_pressure_delta": 0.6,
+        "augmentation_opportunity_delta": 10.8,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2512",
+      "occupation_title": "Software Developers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 100.0,
+      "automation_pressure": 15.9,
+      "augmentation_opportunity": 84.0,
+      "demand_resilience": 78.2,
+      "policy_buffer": 54.0,
+      "transition_pressure": 29.3,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 26.3,
+        "central": 29.3,
+        "upper": 32.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 99.5,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 14.0,
+          "central": 15.9,
+          "upper": 17.8
+        },
+        "augmentation_opportunity": {
+          "lower": 71.0,
+          "central": 84.0,
+          "upper": 96.9
+        },
+        "demand_resilience": {
+          "lower": 76.8,
+          "central": 78.2,
+          "upper": 79.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 9.1,
+        "automation_pressure_delta": 7.9,
+        "augmentation_opportunity_delta": 30.0,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.2) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (84.0) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (54.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2511",
+      "occupation_title": "Systems Analysts",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 100.0,
+      "automation_pressure": 11.9,
+      "augmentation_opportunity": 77.8,
+      "demand_resilience": 78.2,
+      "policy_buffer": 54.0,
+      "transition_pressure": 25.9,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 23.3,
+        "central": 25.9,
+        "upper": 28.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 89.9,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 10.5,
+          "central": 11.9,
+          "upper": 13.4
+        },
+        "augmentation_opportunity": {
+          "lower": 65.7,
+          "central": 77.8,
+          "upper": 89.7
+        },
+        "demand_resilience": {
+          "lower": 76.8,
+          "central": 78.2,
+          "upper": 79.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 7.6,
+        "automation_pressure_delta": 5.9,
+        "augmentation_opportunity_delta": 27.8,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.2) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (77.8) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (54.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2521",
+      "occupation_title": "Database Designers & Administrators",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 93.1,
+      "automation_pressure": 11.9,
+      "augmentation_opportunity": 70.0,
+      "demand_resilience": 76.1,
+      "policy_buffer": 51.0,
+      "transition_pressure": 25.1,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 22.7,
+        "central": 25.1,
+        "upper": 27.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 81.9,
+          "central": 93.1,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 10.5,
+          "central": 11.9,
+          "upper": 13.4
+        },
+        "augmentation_opportunity": {
+          "lower": 59.2,
+          "central": 70.0,
+          "upper": 80.7
+        },
+        "demand_resilience": {
+          "lower": 74.8,
+          "central": 76.1,
+          "upper": 77.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 7.2,
+        "automation_pressure_delta": 5.9,
+        "augmentation_opportunity_delta": 25.0,
+        "demand_resilience_delta": 2.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (76.1) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (70.0) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (51.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2529",
+      "occupation_title": "Database & Network Professionals NEC (AI & Data Science Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 100.0,
+      "automation_pressure": 13.9,
+      "augmentation_opportunity": 79.4,
+      "demand_resilience": 72.0,
+      "policy_buffer": 54.0,
+      "transition_pressure": 28.9,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 26.2,
+        "central": 28.9,
+        "upper": 31.7
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 93.1,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 12.3,
+          "central": 13.9,
+          "upper": 15.6
+        },
+        "augmentation_opportunity": {
+          "lower": 67.1,
+          "central": 79.4,
+          "upper": 91.5
+        },
+        "demand_resilience": {
+          "lower": 70.6,
+          "central": 72.0,
+          "upper": 73.3
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.3,
+        "automation_pressure_delta": 6.9,
+        "augmentation_opportunity_delta": 28.4,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (72.0) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (79.4) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (54.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2519",
+      "occupation_title": "Software & Applications Developers & Analysts NEC (Cloud & Full-Stack)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 100.0,
+      "automation_pressure": 15.9,
+      "augmentation_opportunity": 80.9,
+      "demand_resilience": 68.4,
+      "policy_buffer": 30.0,
+      "transition_pressure": 31.2,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 28.1,
+        "central": 31.2,
+        "upper": 34.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 96.3,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 14.0,
+          "central": 15.9,
+          "upper": 17.8
+        },
+        "augmentation_opportunity": {
+          "lower": 68.4,
+          "central": 80.9,
+          "upper": 93.3
+        },
+        "demand_resilience": {
+          "lower": 67.6,
+          "central": 68.4,
+          "upper": 69.1
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 9.2,
+        "automation_pressure_delta": 7.9,
+        "augmentation_opportunity_delta": 28.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (80.9) enhances worker productivity."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2522",
+      "occupation_title": "Systems Administrators & Cloud Infrastructure Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 84.0,
+      "automation_pressure": 17.9,
+      "augmentation_opportunity": 57.6,
+      "demand_resilience": 55.0,
+      "policy_buffer": 51.0,
+      "transition_pressure": 31.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 29.2,
+        "central": 31.6,
+        "upper": 34.1
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 73.8,
+          "central": 84.0,
+          "upper": 94.1
+        },
+        "automation_pressure": {
+          "lower": 15.8,
+          "central": 17.9,
+          "upper": 20.1
+        },
+        "augmentation_opportunity": {
+          "lower": 48.6,
+          "central": 57.6,
+          "upper": 66.4
+        },
+        "demand_resilience": {
+          "lower": 53.7,
+          "central": 55.0,
+          "upper": 56.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.1,
+        "automation_pressure_delta": 8.9,
+        "augmentation_opportunity_delta": 20.6,
+        "demand_resilience_delta": 2.6
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (57.6) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (51.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2411",
+      "occupation_title": "Accountants & Financial Auditors",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 89.4,
+      "automation_pressure": 19.9,
+      "augmentation_opportunity": 60.7,
+      "demand_resilience": 77.7,
+      "policy_buffer": 51.0,
+      "transition_pressure": 27.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.9,
+        "central": 27.6,
+        "upper": 30.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 78.6,
+          "central": 89.4,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 17.5,
+          "central": 19.9,
+          "upper": 22.3
+        },
+        "augmentation_opportunity": {
+          "lower": 51.3,
+          "central": 60.7,
+          "upper": 70.0
+        },
+        "demand_resilience": {
+          "lower": 76.5,
+          "central": 77.7,
+          "upper": 79.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.8,
+        "automation_pressure_delta": 9.9,
+        "augmentation_opportunity_delta": 21.7,
+        "demand_resilience_delta": 2.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (77.7) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (60.7) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (51.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2421",
+      "occupation_title": "Management & Organization Analysts (Transformation Consultants)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 94.9,
+      "automation_pressure": 13.9,
+      "augmentation_opportunity": 70.0,
+      "demand_resilience": 71.5,
+      "policy_buffer": 51.0,
+      "transition_pressure": 27.4,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 24.9,
+        "central": 27.4,
+        "upper": 29.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 83.5,
+          "central": 94.9,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 12.3,
+          "central": 13.9,
+          "upper": 15.6
+        },
+        "augmentation_opportunity": {
+          "lower": 59.2,
+          "central": 70.0,
+          "upper": 80.7
+        },
+        "demand_resilience": {
+          "lower": 70.3,
+          "central": 71.5,
+          "upper": 72.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 7.8,
+        "automation_pressure_delta": 6.9,
+        "augmentation_opportunity_delta": 25.0,
+        "demand_resilience_delta": 2.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (71.5) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (70.0) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (51.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2422",
+      "occupation_title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 89.4,
+      "automation_pressure": 13.9,
+      "augmentation_opportunity": 65.3,
+      "demand_resilience": 55.4,
+      "policy_buffer": 54.0,
+      "transition_pressure": 30.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 28.2,
+        "central": 30.6,
+        "upper": 32.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 78.6,
+          "central": 89.4,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 12.3,
+          "central": 13.9,
+          "upper": 15.6
+        },
+        "augmentation_opportunity": {
+          "lower": 55.2,
+          "central": 65.3,
+          "upper": 75.3
+        },
+        "demand_resilience": {
+          "lower": 54.1,
+          "central": 55.4,
+          "upper": 56.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 7.4,
+        "automation_pressure_delta": 6.9,
+        "augmentation_opportunity_delta": 23.3,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (65.3) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (54.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2151",
+      "occupation_title": "Electrical Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 8.0,
+      "augmentation_opportunity": 48.2,
+      "demand_resilience": 78.2,
+      "policy_buffer": 54.0,
+      "transition_pressure": 18.5,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 17.0,
+        "central": 18.5,
+        "upper": 20.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 7.0,
+          "central": 8.0,
+          "upper": 8.9
+        },
+        "augmentation_opportunity": {
+          "lower": 40.8,
+          "central": 48.2,
+          "upper": 55.6
+        },
+        "demand_resilience": {
+          "lower": 76.8,
+          "central": 78.2,
+          "upper": 79.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 4.7,
+        "automation_pressure_delta": 4.0,
+        "augmentation_opportunity_delta": 17.2,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.2) buffers occupational transition.",
+        "Active national policy alignment provides transition buffer (54.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2152",
+      "occupation_title": "Electronic Engineers (Semiconductor IC Design Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 69.4,
+      "automation_pressure": 8.0,
+      "augmentation_opportunity": 52.9,
+      "demand_resilience": 78.2,
+      "policy_buffer": 54.0,
+      "transition_pressure": 19.3,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 17.6,
+        "central": 19.3,
+        "upper": 20.9
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 61.0,
+          "central": 69.4,
+          "upper": 77.7
+        },
+        "automation_pressure": {
+          "lower": 7.0,
+          "central": 8.0,
+          "upper": 8.9
+        },
+        "augmentation_opportunity": {
+          "lower": 44.7,
+          "central": 52.9,
+          "upper": 61.0
+        },
+        "demand_resilience": {
+          "lower": 76.8,
+          "central": 78.2,
+          "upper": 79.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 4.9,
+        "automation_pressure_delta": 4.0,
+        "augmentation_opportunity_delta": 18.9,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (78.2) buffers occupational transition.",
+        "Substantial AI augmentation opportunity (52.9) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (54.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2143",
+      "occupation_title": "Environmental Engineers & Sustainability Specialists",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 58.4,
+      "automation_pressure": 6.0,
+      "augmentation_opportunity": 45.1,
+      "demand_resilience": 69.5,
+      "policy_buffer": 54.0,
+      "transition_pressure": 19.0,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 17.7,
+        "central": 19.0,
+        "upper": 20.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 51.4,
+          "central": 58.4,
+          "upper": 65.4
+        },
+        "automation_pressure": {
+          "lower": 5.3,
+          "central": 6.0,
+          "upper": 6.7
+        },
+        "augmentation_opportunity": {
+          "lower": 38.1,
+          "central": 45.1,
+          "upper": 52.0
+        },
+        "demand_resilience": {
+          "lower": 68.1,
+          "central": 69.5,
+          "upper": 70.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 3.9,
+        "automation_pressure_delta": 3.0,
+        "augmentation_opportunity_delta": 16.1,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Active national policy alignment provides transition buffer (54.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2424",
+      "occupation_title": "Training & Staff Development Professionals (Reskilling Architects)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 84.0,
+      "automation_pressure": 11.9,
+      "augmentation_opportunity": 62.2,
+      "demand_resilience": 46.5,
+      "policy_buffer": 51.0,
+      "transition_pressure": 31.1,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 28.9,
+        "central": 31.1,
+        "upper": 33.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 73.8,
+          "central": 84.0,
+          "upper": 94.1
+        },
+        "automation_pressure": {
+          "lower": 10.5,
+          "central": 11.9,
+          "upper": 13.4
+        },
+        "augmentation_opportunity": {
+          "lower": 52.6,
+          "central": 62.2,
+          "upper": 71.7
+        },
+        "demand_resilience": {
+          "lower": 45.2,
+          "central": 46.5,
+          "upper": 47.7
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 6.6,
+        "automation_pressure_delta": 5.9,
+        "augmentation_opportunity_delta": 22.2,
+        "demand_resilience_delta": 2.6
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (62.2) enhances worker productivity.",
+        "Active national policy alignment provides transition buffer (51.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "2166",
+      "occupation_title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 100.0,
+      "automation_pressure": 35.8,
+      "augmentation_opportunity": 62.2,
+      "demand_resilience": 47.6,
+      "policy_buffer": 30.0,
+      "transition_pressure": 44.6,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 40.6,
+        "central": 44.6,
+        "upper": 48.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 93.1,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "automation_pressure": {
+          "lower": 31.5,
+          "central": 35.8,
+          "upper": 40.2
+        },
+        "augmentation_opportunity": {
+          "lower": 52.6,
+          "central": 62.2,
+          "upper": 71.7
+        },
+        "demand_resilience": {
+          "lower": 46.8,
+          "central": 47.6,
+          "upper": 48.3
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 13.8,
+        "automation_pressure_delta": 17.8,
+        "augmentation_opportunity_delta": 22.2,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Substantial AI augmentation opportunity (62.2) enhances worker productivity."
+      ],
+      "negative_drivers": [
+        "Elevated automation pressure (35.8) targets routine task components.",
+        "High role transition friction (44.6) requires continuous workforce adaptation."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "1330",
+      "occupation_title": "Information & Communications Technology Services Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 60.2,
+      "automation_pressure": 8.0,
+      "augmentation_opportunity": 45.1,
+      "demand_resilience": 75.1,
+      "policy_buffer": 51.0,
+      "transition_pressure": 18.7,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 17.2,
+        "central": 18.7,
+        "upper": 20.1
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 53.0,
+          "central": 60.2,
+          "upper": 67.5
+        },
+        "automation_pressure": {
+          "lower": 7.0,
+          "central": 8.0,
+          "upper": 8.9
+        },
+        "augmentation_opportunity": {
+          "lower": 38.1,
+          "central": 45.1,
+          "upper": 52.0
+        },
+        "demand_resilience": {
+          "lower": 73.8,
+          "central": 75.1,
+          "upper": 76.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 4.5,
+        "automation_pressure_delta": 4.0,
+        "augmentation_opportunity_delta": 16.1,
+        "demand_resilience_delta": 2.6
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Strong labour market demand resilience (75.1) buffers occupational transition.",
+        "Active national policy alignment provides transition buffer (51.0)."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3514",
+      "occupation_title": "Web Technicians & Cloud Application Operators",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 80.3,
+      "automation_pressure": 29.9,
+      "augmentation_opportunity": 45.1,
+      "demand_resilience": 46.3,
+      "policy_buffer": 30.0,
+      "transition_pressure": 38.5,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 35.4,
+        "central": 38.5,
+        "upper": 41.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 70.6,
+          "central": 80.3,
+          "upper": 90.0
+        },
+        "automation_pressure": {
+          "lower": 26.3,
+          "central": 29.9,
+          "upper": 33.5
+        },
+        "augmentation_opportunity": {
+          "lower": 38.1,
+          "central": 45.1,
+          "upper": 52.0
+        },
+        "demand_resilience": {
+          "lower": 45.5,
+          "central": 46.3,
+          "upper": 47.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 11.0,
+        "automation_pressure_delta": 14.9,
+        "augmentation_opportunity_delta": 16.1,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3322",
+      "occupation_title": "Commercial Sales Representatives",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "effective_ai_pressure": 56.6,
+      "automation_pressure": 13.9,
+      "augmentation_opportunity": 37.3,
+      "demand_resilience": 67.1,
+      "policy_buffer": 30.0,
+      "transition_pressure": 22.7,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 21.0,
+        "central": 22.7,
+        "upper": 24.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 49.8,
+          "central": 56.6,
+          "upper": 63.4
+        },
+        "automation_pressure": {
+          "lower": 12.3,
+          "central": 13.9,
+          "upper": 15.6
+        },
+        "augmentation_opportunity": {
+          "lower": 31.6,
+          "central": 37.3,
+          "upper": 43.0
+        },
+        "demand_resilience": {
+          "lower": 66.4,
+          "central": 67.1,
+          "upper": 67.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 5.9,
+        "automation_pressure_delta": 6.9,
+        "augmentation_opportunity_delta": 13.3,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "4311",
+      "occupation_title": "Accounting and Bookkeeping Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY DECLINING",
+      "effective_ai_pressure": 71.2,
+      "automation_pressure": 57.7,
+      "augmentation_opportunity": 15.6,
+      "demand_resilience": 25.8,
+      "policy_buffer": 30.0,
+      "transition_pressure": 54.5,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "HIGHLY PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 50.3,
+        "central": 54.5,
+        "upper": 58.7
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 62.6,
+          "central": 71.2,
+          "upper": 79.8
+        },
+        "automation_pressure": {
+          "lower": 50.8,
+          "central": 57.7,
+          "upper": 64.7
+        },
+        "augmentation_opportunity": {
+          "lower": 13.1,
+          "central": 15.6,
+          "upper": 17.9
+        },
+        "demand_resilience": {
+          "lower": 25.0,
+          "central": 25.8,
+          "upper": 26.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 17.1,
+        "automation_pressure_delta": 28.7,
+        "augmentation_opportunity_delta": 5.6,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Elevated automation pressure (57.7) targets routine task components.",
+        "High role transition friction (54.5) requires continuous workforce adaptation.",
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "4110",
+      "occupation_title": "General Office Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY DECLINING",
+      "effective_ai_pressure": 69.4,
+      "automation_pressure": 59.7,
+      "augmentation_opportunity": 12.4,
+      "demand_resilience": 25.8,
+      "policy_buffer": 30.0,
+      "transition_pressure": 55.0,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "HIGHLY PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 50.8,
+        "central": 55.0,
+        "upper": 59.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 61.0,
+          "central": 69.4,
+          "upper": 77.7
+        },
+        "automation_pressure": {
+          "lower": 52.5,
+          "central": 59.7,
+          "upper": 66.9
+        },
+        "augmentation_opportunity": {
+          "lower": 10.5,
+          "central": 12.4,
+          "upper": 14.3
+        },
+        "demand_resilience": {
+          "lower": 25.0,
+          "central": 25.8,
+          "upper": 26.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 17.4,
+        "automation_pressure_delta": 29.7,
+        "augmentation_opportunity_delta": 4.4,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Elevated automation pressure (59.7) targets routine task components.",
+        "High role transition friction (55.0) requires continuous workforce adaptation.",
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "3343",
+      "occupation_title": "Administrative & Executive Secretaries",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "DECLINING",
+      "effective_ai_pressure": 76.7,
+      "automation_pressure": 49.8,
+      "augmentation_opportunity": 26.5,
+      "demand_resilience": 28.9,
+      "policy_buffer": 30.0,
+      "transition_pressure": 51.0,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "HIGHLY PRESSURED",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 47.1,
+        "central": 51.0,
+        "upper": 55.0
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 67.4,
+          "central": 76.7,
+          "upper": 85.9
+        },
+        "automation_pressure": {
+          "lower": 43.8,
+          "central": 49.8,
+          "upper": 55.8
+        },
+        "augmentation_opportunity": {
+          "lower": 22.4,
+          "central": 26.5,
+          "upper": 30.5
+        },
+        "demand_resilience": {
+          "lower": 28.1,
+          "central": 28.9,
+          "upper": 29.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 15.5,
+        "automation_pressure_delta": 24.8,
+        "augmentation_opportunity_delta": 9.5,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Elevated automation pressure (49.8) targets routine task components.",
+        "High role transition friction (51.0) requires continuous workforce adaptation.",
+        "Weak hiring momentum and baseline surplus create structural transition exposure."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_1",
+      "occupation_title": "Major Group 1: Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 23.9,
+      "augmentation_opportunity": 38.9,
+      "demand_resilience": 49.3,
+      "policy_buffer": 30.0,
+      "transition_pressure": 33.2,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 30.7,
+        "central": 33.2,
+        "upper": 35.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 21.0,
+          "central": 23.9,
+          "upper": 26.8
+        },
+        "augmentation_opportunity": {
+          "lower": 32.9,
+          "central": 38.9,
+          "upper": 44.8
+        },
+        "demand_resilience": {
+          "lower": 48.5,
+          "central": 49.3,
+          "upper": 50.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.9,
+        "automation_pressure_delta": 11.9,
+        "augmentation_opportunity_delta": 13.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_2",
+      "occupation_title": "Major Group 2: Professionals",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 23.9,
+      "augmentation_opportunity": 38.9,
+      "demand_resilience": 50.3,
+      "policy_buffer": 30.0,
+      "transition_pressure": 33.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 30.4,
+        "central": 33.0,
+        "upper": 35.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 21.0,
+          "central": 23.9,
+          "upper": 26.8
+        },
+        "augmentation_opportunity": {
+          "lower": 32.9,
+          "central": 38.9,
+          "upper": 44.8
+        },
+        "demand_resilience": {
+          "lower": 49.6,
+          "central": 50.3,
+          "upper": 51.1
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.9,
+        "automation_pressure_delta": 11.9,
+        "augmentation_opportunity_delta": 13.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_3",
+      "occupation_title": "Major Group 3: Technicians and Associate Professionals",
+      "major_group": "3",
+      "major_group_name": "Technicians and Associate Professionals",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 23.9,
+      "augmentation_opportunity": 38.9,
+      "demand_resilience": 49.0,
+      "policy_buffer": 30.0,
+      "transition_pressure": 33.3,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 30.8,
+        "central": 33.3,
+        "upper": 35.8
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 21.0,
+          "central": 23.9,
+          "upper": 26.8
+        },
+        "augmentation_opportunity": {
+          "lower": 32.9,
+          "central": 38.9,
+          "upper": 44.8
+        },
+        "demand_resilience": {
+          "lower": 48.3,
+          "central": 49.0,
+          "upper": 49.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.9,
+        "automation_pressure_delta": 11.9,
+        "augmentation_opportunity_delta": 13.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_4",
+      "occupation_title": "Major Group 4: Clerical Support Workers",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 23.9,
+      "augmentation_opportunity": 38.9,
+      "demand_resilience": 46.0,
+      "policy_buffer": 30.0,
+      "transition_pressure": 34.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 31.5,
+        "central": 34.0,
+        "upper": 36.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 21.0,
+          "central": 23.9,
+          "upper": 26.8
+        },
+        "augmentation_opportunity": {
+          "lower": 32.9,
+          "central": 38.9,
+          "upper": 44.8
+        },
+        "demand_resilience": {
+          "lower": 45.2,
+          "central": 46.0,
+          "upper": 46.7
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.9,
+        "automation_pressure_delta": 11.9,
+        "augmentation_opportunity_delta": 13.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_5",
+      "occupation_title": "Major Group 5: Service and Sales Workers",
+      "major_group": "5",
+      "major_group_name": "Service and Sales Workers",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 23.9,
+      "augmentation_opportunity": 38.9,
+      "demand_resilience": 47.0,
+      "policy_buffer": 30.0,
+      "transition_pressure": 33.8,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 31.3,
+        "central": 33.8,
+        "upper": 36.3
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 21.0,
+          "central": 23.9,
+          "upper": 26.8
+        },
+        "augmentation_opportunity": {
+          "lower": 32.9,
+          "central": 38.9,
+          "upper": 44.8
+        },
+        "demand_resilience": {
+          "lower": 46.2,
+          "central": 47.0,
+          "upper": 47.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.9,
+        "automation_pressure_delta": 11.9,
+        "augmentation_opportunity_delta": 13.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_7",
+      "occupation_title": "Major Group 7: Craft and Related Trades Workers",
+      "major_group": "7",
+      "major_group_name": "Craft and Related Trades Workers",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 23.9,
+      "augmentation_opportunity": 38.9,
+      "demand_resilience": 46.7,
+      "policy_buffer": 30.0,
+      "transition_pressure": 33.9,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 31.3,
+        "central": 33.9,
+        "upper": 36.4
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 21.0,
+          "central": 23.9,
+          "upper": 26.8
+        },
+        "augmentation_opportunity": {
+          "lower": 32.9,
+          "central": 38.9,
+          "upper": 44.8
+        },
+        "demand_resilience": {
+          "lower": 46.0,
+          "central": 46.7,
+          "upper": 47.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.9,
+        "automation_pressure_delta": 11.9,
+        "augmentation_opportunity_delta": 13.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_8",
+      "occupation_title": "Major Group 8: Plant and Machine Operators and Assemblers",
+      "major_group": "8",
+      "major_group_name": "Plant and Machine Operators and Assemblers",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 23.9,
+      "augmentation_opportunity": 38.9,
+      "demand_resilience": 46.5,
+      "policy_buffer": 30.0,
+      "transition_pressure": 33.9,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 31.4,
+        "central": 33.9,
+        "upper": 36.5
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 21.0,
+          "central": 23.9,
+          "upper": 26.8
+        },
+        "augmentation_opportunity": {
+          "lower": 32.9,
+          "central": 38.9,
+          "upper": 44.8
+        },
+        "demand_resilience": {
+          "lower": 45.7,
+          "central": 46.5,
+          "upper": 47.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.9,
+        "automation_pressure_delta": 11.9,
+        "augmentation_opportunity_delta": 13.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    },
+    {
+      "masco_code": "MAJOR_9",
+      "occupation_title": "Major Group 9: Elementary Occupations",
+      "major_group": "9",
+      "major_group_name": "Elementary Occupations",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STABLE",
+      "effective_ai_pressure": 63.9,
+      "automation_pressure": 23.9,
+      "augmentation_opportunity": 38.9,
+      "demand_resilience": 45.7,
+      "policy_buffer": 30.0,
+      "transition_pressure": 34.1,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "uncertainty_band": {
+        "metric": "transition_pressure",
+        "lower": 31.6,
+        "central": 34.1,
+        "upper": 36.6
+      },
+      "range_metrics": {
+        "effective_ai_pressure": {
+          "lower": 56.2,
+          "central": 63.9,
+          "upper": 71.6
+        },
+        "automation_pressure": {
+          "lower": 21.0,
+          "central": 23.9,
+          "upper": 26.8
+        },
+        "augmentation_opportunity": {
+          "lower": 32.9,
+          "central": 38.9,
+          "upper": 44.8
+        },
+        "demand_resilience": {
+          "lower": 45.0,
+          "central": 45.7,
+          "upper": 46.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transition_pressure_delta": 8.9,
+        "automation_pressure_delta": 11.9,
+        "augmentation_opportunity_delta": 13.9,
+        "demand_resilience_delta": 1.5
+      },
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "AGGREGATE_MAJOR_GROUP"
+      ],
+      "positive_drivers": [
+        "Foundational occupational continuity across core operational tasks."
+      ],
+      "negative_drivers": [
+        "Low direct automation exposure under current scenario parameters."
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ],
+      "research_momentum": null
+    }
+  ]
+}

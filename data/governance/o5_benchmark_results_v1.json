@@ -1,0 +1,116 @@
+{
+  "BM01": {
+    "title": "Upstream Freeze Integrity Verification",
+    "passed": true,
+    "modules_checked": 10,
+    "manifest_details": {
+      "M2": {
+        "status": "VERIFIED",
+        "path": "artifacts/m2_v1_1_1_freeze_manifest.json",
+        "sha256": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542",
+        "declared_verdict": null
+      },
+      "M6": {
+        "status": "VERIFIED",
+        "path": "data/scenarios/scenario_build_manifest_v1_1.json",
+        "sha256": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5",
+        "declared_verdict": null
+      },
+      "M3": {
+        "status": "VERIFIED",
+        "path": "data/matching/m3_build_manifest_v1_1.json",
+        "sha256": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c",
+        "declared_verdict": null
+      },
+      "M4": {
+        "status": "VERIFIED",
+        "path": "artifacts/m4_v1_1_freeze_manifest.json",
+        "sha256": "448545188ba4e196eaf3502d7803c3d9cfbb1247ec453208cafae990c8db5f2f",
+        "declared_verdict": null
+      },
+      "M5": {
+        "status": "VERIFIED",
+        "path": "artifacts/m5_v1_1_freeze_manifest.json",
+        "sha256": "94c1f42b46a1fa5e9b026fb82d5225e21c24547cdd58c234f2843cd84eb32ec7",
+        "declared_verdict": null
+      },
+      "O6": {
+        "status": "VERIFIED",
+        "path": "artifacts/o6_v1_1_freeze_manifest.json",
+        "sha256": "0fb13557e4a6665c6c85e2c2904dc4e99e41dfdf9019c49fb2a01b416f93ef5e",
+        "declared_verdict": "FORMALLY_FROZEN_READ_ONLY"
+      },
+      "O1": {
+        "status": "VERIFIED",
+        "path": "artifacts/o1_v1_1_freeze_manifest.json",
+        "sha256": "c4a58baf74549f05ceeb3063b779b680762aec98d1edf531b909fcf041bce1f9",
+        "declared_verdict": null
+      },
+      "O2": {
+        "status": "VERIFIED",
+        "path": "artifacts/o2_v1_0_0_freeze_manifest.json",
+        "sha256": "6d71fbf5d26f412e63269f7f0c75aa3e03e4ccfbce432f59d684229747dd29ff",
+        "declared_verdict": "O2 V1.0 APPROVED AND READY TO FREEZE"
+      },
+      "O3": {
+        "status": "VERIFIED",
+        "path": "artifacts/o3_v1_0_0_freeze_manifest.json",
+        "sha256": "53818527f9dd4f8e656b68eccad1c93fcce15b374507714fc386c4178f537703",
+        "declared_verdict": "O3 V1.0 APPROVED AND READY TO FREEZE"
+      },
+      "O4": {
+        "status": "VERIFIED",
+        "path": "artifacts/o4_v1_0_0_freeze_manifest.json",
+        "sha256": "c6184fd40dbebd283fecc9d6fb370ee5ec16a54423c0b0011c9d0050b898f111",
+        "declared_verdict": "O4 V1.0 APPROVED AND READY TO FREEZE"
+      }
+    }
+  },
+  "BM02": {
+    "title": "Clean Dataset Proxy Attribute Exclusion",
+    "passed": true
+  },
+  "BM03": {
+    "title": "Adversarial Demographic Proxy Detection",
+    "passed": true,
+    "violations_detected": 3
+  },
+  "BM04": {
+    "title": "Counterfactual Demographic Invariance Audit",
+    "passed": true,
+    "pairs_tested": 3,
+    "pair_results": [
+      {
+        "pair_id": "PAIR_001",
+        "passed": true
+      },
+      {
+        "pair_id": "PAIR_002",
+        "passed": true
+      },
+      {
+        "pair_id": "PAIR_003",
+        "passed": true
+      }
+    ]
+  },
+  "BM05": {
+    "title": "Counterfactual Bias Detection Gate",
+    "passed": true,
+    "bias_detected_correctly": true
+  },
+  "BM06": {
+    "title": "Small-Cell Privacy Clean Verification (k=5)",
+    "passed": true
+  },
+  "BM07": {
+    "title": "Small-Cell Privacy Leak Detection Gate",
+    "passed": true,
+    "leaks_caught": 1
+  },
+  "BM08": {
+    "title": "Comprehensive Audit Ledger Generation",
+    "passed": true,
+    "verdict": "APPROVED_RESPONSIBLE_AI_COMPLIANT"
+  }
+}

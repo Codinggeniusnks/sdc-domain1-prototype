@@ -1,0 +1,23 @@
+{
+  "trend_scoring_version": "1.0.0",
+  "build_timestamp": "2026-10-23T07:00:17.514772+00:00",
+  "reference_date": "2026-10-23",
+  "input_hashes": {
+    "trend_signals_v1.json": "d4285fc91d36ffd48dd655a4327d471de1d2ed635a74a98550aa4e0eb4b541e9",
+    "skill_source_crosswalk.json": "fee5244f3f12a40a7a16eaeec6656ac296d88b1aded5f97d9e3a92d0b3c26497",
+    "occupation_source_crosswalk.json": "1fbe13c1c129da7b3ac61d8d7f20d298dbb6d1883323612b9aae114cc1f0f974",
+    "source_freshness.json": "246f0a5b4978e8a140cac0ebe91a8b51a8e220c411496b5a0b20fddc9a73a18e"
+  },
+  "output_hashes": {
+    "skill_trend_profiles_v1.json": "618b8615d3418fc70cc2116690cefd4dd33424221257fe41055df2b7e811a48c",
+    "occupation_trend_profiles_v1.json": "0a565659d22337517d2ca42eeb192e835333ab90ada9b6b36dda416aa7e95db5",
+    "m2_scoring_config_v1.json": "cc73df878335e64235db83d3d5637de8dc9fa28f3b039098a3836ca331c7ce25",
+    "m2_confidence_config_v1.json": "7de16ce99fcbba950a414704d609171ac564f8ea91a1357a05cef1d5b693550e"
+  },
+  "summary_counts": {
+    "skills_scored": 16,
+    "occupations_scored": 28,
+    "backtest_records": 40,
+    "sensitivity_records": 36
+  }
+}

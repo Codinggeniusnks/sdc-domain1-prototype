@@ -1,0 +1,1362 @@
+{
+  "dataset_id": "employment_sector",
+  "title": "Employment by Economic Sector (Annual)",
+  "source_url": "https://api.data.gov.my/data-catalogue?id=employment_sector&limit=1000",
+  "publisher": "Department of Statistics Malaysia (DOSM) / OpenDOSM",
+  "portal": "data.gov.my",
+  "licence": "Open Data Commons Open Database License (ODbL) / Creative Commons Attribution 4.0",
+  "retrieved_at": "2026-10-23T06:22:49.808992+00:00",
+  "record_count": 225,
+  "data": [
+    {
+      "sex": "both",
+      "date": "2001-01-01",
+      "sector": "agriculture",
+      "proportion": 15.1
+    },
+    {
+      "sex": "both",
+      "date": "2002-01-01",
+      "sector": "agriculture",
+      "proportion": 14.9
+    },
+    {
+      "sex": "both",
+      "date": "2003-01-01",
+      "sector": "agriculture",
+      "proportion": 14.3
+    },
+    {
+      "sex": "both",
+      "date": "2004-01-01",
+      "sector": "agriculture",
+      "proportion": 14.6
+    },
+    {
+      "sex": "both",
+      "date": "2005-01-01",
+      "sector": "agriculture",
+      "proportion": 14.6
+    },
+    {
+      "sex": "both",
+      "date": "2006-01-01",
+      "sector": "agriculture",
+      "proportion": 14.6
+    },
+    {
+      "sex": "both",
+      "date": "2007-01-01",
+      "sector": "agriculture",
+      "proportion": 14.8
+    },
+    {
+      "sex": "both",
+      "date": "2008-01-01",
+      "sector": "agriculture",
+      "proportion": 14.0
+    },
+    {
+      "sex": "both",
+      "date": "2009-01-01",
+      "sector": "agriculture",
+      "proportion": 13.5
+    },
+    {
+      "sex": "both",
+      "date": "2010-01-01",
+      "sector": "agriculture",
+      "proportion": 13.6
+    },
+    {
+      "sex": "both",
+      "date": "2011-01-01",
+      "sector": "agriculture",
+      "proportion": 11.5
+    },
+    {
+      "sex": "both",
+      "date": "2012-01-01",
+      "sector": "agriculture",
+      "proportion": 12.7
+    },
+    {
+      "sex": "both",
+      "date": "2013-01-01",
+      "sector": "agriculture",
+      "proportion": 13.0
+    },
+    {
+      "sex": "both",
+      "date": "2014-01-01",
+      "sector": "agriculture",
+      "proportion": 12.2
+    },
+    {
+      "sex": "both",
+      "date": "2015-01-01",
+      "sector": "agriculture",
+      "proportion": 12.5
+    },
+    {
+      "sex": "both",
+      "date": "2016-01-01",
+      "sector": "agriculture",
+      "proportion": 11.4
+    },
+    {
+      "sex": "both",
+      "date": "2017-01-01",
+      "sector": "agriculture",
+      "proportion": 11.3
+    },
+    {
+      "sex": "both",
+      "date": "2018-01-01",
+      "sector": "agriculture",
+      "proportion": 10.6
+    },
+    {
+      "sex": "both",
+      "date": "2019-01-01",
+      "sector": "agriculture",
+      "proportion": 10.2
+    },
+    {
+      "sex": "both",
+      "date": "2020-01-01",
+      "sector": "agriculture",
+      "proportion": 9.9
+    },
+    {
+      "sex": "both",
+      "date": "2021-01-01",
+      "sector": "agriculture",
+      "proportion": 9.5
+    },
+    {
+      "sex": "both",
+      "date": "2022-01-01",
+      "sector": "agriculture",
+      "proportion": 9.3
+    },
+    {
+      "sex": "both",
+      "date": "2023-01-01",
+      "sector": "agriculture",
+      "proportion": 9.1
+    },
+    {
+      "sex": "both",
+      "date": "2024-01-01",
+      "sector": "agriculture",
+      "proportion": 9.0
+    },
+    {
+      "sex": "both",
+      "date": "2025-01-01",
+      "sector": "agriculture",
+      "proportion": 8.9
+    },
+    {
+      "sex": "male",
+      "date": "2001-01-01",
+      "sector": "agriculture",
+      "proportion": 16.8
+    },
+    {
+      "sex": "male",
+      "date": "2002-01-01",
+      "sector": "agriculture",
+      "proportion": 16.8
+    },
+    {
+      "sex": "male",
+      "date": "2003-01-01",
+      "sector": "agriculture",
+      "proportion": 16.1
+    },
+    {
+      "sex": "male",
+      "date": "2004-01-01",
+      "sector": "agriculture",
+      "proportion": 16.8
+    },
+    {
+      "sex": "male",
+      "date": "2005-01-01",
+      "sector": "agriculture",
+      "proportion": 17.1
+    },
+    {
+      "sex": "male",
+      "date": "2006-01-01",
+      "sector": "agriculture",
+      "proportion": 17.2
+    },
+    {
+      "sex": "male",
+      "date": "2007-01-01",
+      "sector": "agriculture",
+      "proportion": 17.5
+    },
+    {
+      "sex": "male",
+      "date": "2008-01-01",
+      "sector": "agriculture",
+      "proportion": 16.7
+    },
+    {
+      "sex": "male",
+      "date": "2009-01-01",
+      "sector": "agriculture",
+      "proportion": 16.0
+    },
+    {
+      "sex": "male",
+      "date": "2010-01-01",
+      "sector": "agriculture",
+      "proportion": 16.3
+    },
+    {
+      "sex": "male",
+      "date": "2011-01-01",
+      "sector": "agriculture",
+      "proportion": 14.2
+    },
+    {
+      "sex": "male",
+      "date": "2012-01-01",
+      "sector": "agriculture",
+      "proportion": 15.2
+    },
+    {
+      "sex": "male",
+      "date": "2013-01-01",
+      "sector": "agriculture",
+      "proportion": 15.7
+    },
+    {
+      "sex": "male",
+      "date": "2014-01-01",
+      "sector": "agriculture",
+      "proportion": 14.6
+    },
+    {
+      "sex": "male",
+      "date": "2015-01-01",
+      "sector": "agriculture",
+      "proportion": 15.3
+    },
+    {
+      "sex": "male",
+      "date": "2016-01-01",
+      "sector": "agriculture",
+      "proportion": 14.2
+    },
+    {
+      "sex": "male",
+      "date": "2017-01-01",
+      "sector": "agriculture",
+      "proportion": 14.2
+    },
+    {
+      "sex": "male",
+      "date": "2018-01-01",
+      "sector": "agriculture",
+      "proportion": 13.5
+    },
+    {
+      "sex": "male",
+      "date": "2019-01-01",
+      "sector": "agriculture",
+      "proportion": 13.3
+    },
+    {
+      "sex": "male",
+      "date": "2020-01-01",
+      "sector": "agriculture",
+      "proportion": 12.6
+    },
+    {
+      "sex": "male",
+      "date": "2021-01-01",
+      "sector": "agriculture",
+      "proportion": 12.7
+    },
+    {
+      "sex": "male",
+      "date": "2022-01-01",
+      "sector": "agriculture",
+      "proportion": 12.3
+    },
+    {
+      "sex": "male",
+      "date": "2023-01-01",
+      "sector": "agriculture",
+      "proportion": 12.1
+    },
+    {
+      "sex": "male",
+      "date": "2024-01-01",
+      "sector": "agriculture",
+      "proportion": 11.7
+    },
+    {
+      "sex": "male",
+      "date": "2025-01-01",
+      "sector": "agriculture",
+      "proportion": 12.1
+    },
+    {
+      "sex": "female",
+      "date": "2001-01-01",
+      "sector": "agriculture",
+      "proportion": 12.0
+    },
+    {
+      "sex": "female",
+      "date": "2002-01-01",
+      "sector": "agriculture",
+      "proportion": 11.6
+    },
+    {
+      "sex": "female",
+      "date": "2003-01-01",
+      "sector": "agriculture",
+      "proportion": 11.0
+    },
+    {
+      "sex": "female",
+      "date": "2004-01-01",
+      "sector": "agriculture",
+      "proportion": 10.5
+    },
+    {
+      "sex": "female",
+      "date": "2005-01-01",
+      "sector": "agriculture",
+      "proportion": 10.2
+    },
+    {
+      "sex": "female",
+      "date": "2006-01-01",
+      "sector": "agriculture",
+      "proportion": 10.0
+    },
+    {
+      "sex": "female",
+      "date": "2007-01-01",
+      "sector": "agriculture",
+      "proportion": 10.0
+    },
+    {
+      "sex": "female",
+      "date": "2008-01-01",
+      "sector": "agriculture",
+      "proportion": 9.0
+    },
+    {
+      "sex": "female",
+      "date": "2009-01-01",
+      "sector": "agriculture",
+      "proportion": 9.0
+    },
+    {
+      "sex": "female",
+      "date": "2010-01-01",
+      "sector": "agriculture",
+      "proportion": 8.6
+    },
+    {
+      "sex": "female",
+      "date": "2011-01-01",
+      "sector": "agriculture",
+      "proportion": 6.7
+    },
+    {
+      "sex": "female",
+      "date": "2012-01-01",
+      "sector": "agriculture",
+      "proportion": 8.3
+    },
+    {
+      "sex": "female",
+      "date": "2013-01-01",
+      "sector": "agriculture",
+      "proportion": 8.4
+    },
+    {
+      "sex": "female",
+      "date": "2014-01-01",
+      "sector": "agriculture",
+      "proportion": 8.4
+    },
+    {
+      "sex": "female",
+      "date": "2015-01-01",
+      "sector": "agriculture",
+      "proportion": 7.9
+    },
+    {
+      "sex": "female",
+      "date": "2016-01-01",
+      "sector": "agriculture",
+      "proportion": 6.8
+    },
+    {
+      "sex": "female",
+      "date": "2017-01-01",
+      "sector": "agriculture",
+      "proportion": 6.7
+    },
+    {
+      "sex": "female",
+      "date": "2018-01-01",
+      "sector": "agriculture",
+      "proportion": 6.1
+    },
+    {
+      "sex": "female",
+      "date": "2019-01-01",
+      "sector": "agriculture",
+      "proportion": 5.5
+    },
+    {
+      "sex": "female",
+      "date": "2020-01-01",
+      "sector": "agriculture",
+      "proportion": 5.4
+    },
+    {
+      "sex": "female",
+      "date": "2021-01-01",
+      "sector": "agriculture",
+      "proportion": 4.2
+    },
+    {
+      "sex": "female",
+      "date": "2022-01-01",
+      "sector": "agriculture",
+      "proportion": 4.3
+    },
+    {
+      "sex": "female",
+      "date": "2023-01-01",
+      "sector": "agriculture",
+      "proportion": 4.1
+    },
+    {
+      "sex": "female",
+      "date": "2024-01-01",
+      "sector": "agriculture",
+      "proportion": 4.6
+    },
+    {
+      "sex": "female",
+      "date": "2025-01-01",
+      "sector": "agriculture",
+      "proportion": 3.6
+    },
+    {
+      "sex": "both",
+      "date": "2001-01-01",
+      "sector": "industry",
+      "proportion": 33.1
+    },
+    {
+      "sex": "both",
+      "date": "2002-01-01",
+      "sector": "industry",
+      "proportion": 32.0
+    },
+    {
+      "sex": "both",
+      "date": "2003-01-01",
+      "sector": "industry",
+      "proportion": 32.0
+    },
+    {
+      "sex": "both",
+      "date": "2004-01-01",
+      "sector": "industry",
+      "proportion": 30.1
+    },
+    {
+      "sex": "both",
+      "date": "2005-01-01",
+      "sector": "industry",
+      "proportion": 29.7
+    },
+    {
+      "sex": "both",
+      "date": "2006-01-01",
+      "sector": "industry",
+      "proportion": 30.3
+    },
+    {
+      "sex": "both",
+      "date": "2007-01-01",
+      "sector": "industry",
+      "proportion": 28.5
+    },
+    {
+      "sex": "both",
+      "date": "2008-01-01",
+      "sector": "industry",
+      "proportion": 28.7
+    },
+    {
+      "sex": "both",
+      "date": "2009-01-01",
+      "sector": "industry",
+      "proportion": 27.0
+    },
+    {
+      "sex": "both",
+      "date": "2010-01-01",
+      "sector": "industry",
+      "proportion": 28.4
+    },
+    {
+      "sex": "both",
+      "date": "2011-01-01",
+      "sector": "industry",
+      "proportion": 29.1
+    },
+    {
+      "sex": "both",
+      "date": "2012-01-01",
+      "sector": "industry",
+      "proportion": 28.6
+    },
+    {
+      "sex": "both",
+      "date": "2013-01-01",
+      "sector": "industry",
+      "proportion": 28.3
+    },
+    {
+      "sex": "both",
+      "date": "2014-01-01",
+      "sector": "industry",
+      "proportion": 28.0
+    },
+    {
+      "sex": "both",
+      "date": "2015-01-01",
+      "sector": "industry",
+      "proportion": 27.4
+    },
+    {
+      "sex": "both",
+      "date": "2016-01-01",
+      "sector": "industry",
+      "proportion": 27.4
+    },
+    {
+      "sex": "both",
+      "date": "2017-01-01",
+      "sector": "industry",
+      "proportion": 27.7
+    },
+    {
+      "sex": "both",
+      "date": "2018-01-01",
+      "sector": "industry",
+      "proportion": 27.1
+    },
+    {
+      "sex": "both",
+      "date": "2019-01-01",
+      "sector": "industry",
+      "proportion": 28.0
+    },
+    {
+      "sex": "both",
+      "date": "2020-01-01",
+      "sector": "industry",
+      "proportion": 26.5
+    },
+    {
+      "sex": "both",
+      "date": "2021-01-01",
+      "sector": "industry",
+      "proportion": 26.3
+    },
+    {
+      "sex": "both",
+      "date": "2022-01-01",
+      "sector": "industry",
+      "proportion": 26.4
+    },
+    {
+      "sex": "both",
+      "date": "2023-01-01",
+      "sector": "industry",
+      "proportion": 26.1
+    },
+    {
+      "sex": "both",
+      "date": "2024-01-01",
+      "sector": "industry",
+      "proportion": 26.4
+    },
+    {
+      "sex": "both",
+      "date": "2025-01-01",
+      "sector": "industry",
+      "proportion": 26.1
+    },
+    {
+      "sex": "male",
+      "date": "2001-01-01",
+      "sector": "industry",
+      "proportion": 35.0
+    },
+    {
+      "sex": "male",
+      "date": "2002-01-01",
+      "sector": "industry",
+      "proportion": 34.6
+    },
+    {
+      "sex": "male",
+      "date": "2003-01-01",
+      "sector": "industry",
+      "proportion": 34.9
+    },
+    {
+      "sex": "male",
+      "date": "2004-01-01",
+      "sector": "industry",
+      "proportion": 33.1
+    },
+    {
+      "sex": "male",
+      "date": "2005-01-01",
+      "sector": "industry",
+      "proportion": 32.7
+    },
+    {
+      "sex": "male",
+      "date": "2006-01-01",
+      "sector": "industry",
+      "proportion": 33.3
+    },
+    {
+      "sex": "male",
+      "date": "2007-01-01",
+      "sector": "industry",
+      "proportion": 31.7
+    },
+    {
+      "sex": "male",
+      "date": "2008-01-01",
+      "sector": "industry",
+      "proportion": 32.0
+    },
+    {
+      "sex": "male",
+      "date": "2009-01-01",
+      "sector": "industry",
+      "proportion": 31.0
+    },
+    {
+      "sex": "male",
+      "date": "2010-01-01",
+      "sector": "industry",
+      "proportion": 32.2
+    },
+    {
+      "sex": "male",
+      "date": "2011-01-01",
+      "sector": "industry",
+      "proportion": 33.3
+    },
+    {
+      "sex": "male",
+      "date": "2012-01-01",
+      "sector": "industry",
+      "proportion": 33.2
+    },
+    {
+      "sex": "male",
+      "date": "2013-01-01",
+      "sector": "industry",
+      "proportion": 33.3
+    },
+    {
+      "sex": "male",
+      "date": "2014-01-01",
+      "sector": "industry",
+      "proportion": 33.1
+    },
+    {
+      "sex": "male",
+      "date": "2015-01-01",
+      "sector": "industry",
+      "proportion": 32.6
+    },
+    {
+      "sex": "male",
+      "date": "2016-01-01",
+      "sector": "industry",
+      "proportion": 32.1
+    },
+    {
+      "sex": "male",
+      "date": "2017-01-01",
+      "sector": "industry",
+      "proportion": 32.1
+    },
+    {
+      "sex": "male",
+      "date": "2018-01-01",
+      "sector": "industry",
+      "proportion": 31.4
+    },
+    {
+      "sex": "male",
+      "date": "2019-01-01",
+      "sector": "industry",
+      "proportion": 33.0
+    },
+    {
+      "sex": "male",
+      "date": "2020-01-01",
+      "sector": "industry",
+      "proportion": 30.0
+    },
+    {
+      "sex": "male",
+      "date": "2021-01-01",
+      "sector": "industry",
+      "proportion": 30.9
+    },
+    {
+      "sex": "male",
+      "date": "2022-01-01",
+      "sector": "industry",
+      "proportion": 31.4
+    },
+    {
+      "sex": "male",
+      "date": "2023-01-01",
+      "sector": "industry",
+      "proportion": 30.8
+    },
+    {
+      "sex": "male",
+      "date": "2024-01-01",
+      "sector": "industry",
+      "proportion": 30.5
+    },
+    {
+      "sex": "male",
+      "date": "2025-01-01",
+      "sector": "industry",
+      "proportion": 31.0
+    },
+    {
+      "sex": "female",
+      "date": "2001-01-01",
+      "sector": "industry",
+      "proportion": 29.7
+    },
+    {
+      "sex": "female",
+      "date": "2002-01-01",
+      "sector": "industry",
+      "proportion": 27.3
+    },
+    {
+      "sex": "female",
+      "date": "2003-01-01",
+      "sector": "industry",
+      "proportion": 26.9
+    },
+    {
+      "sex": "female",
+      "date": "2004-01-01",
+      "sector": "industry",
+      "proportion": 24.9
+    },
+    {
+      "sex": "female",
+      "date": "2005-01-01",
+      "sector": "industry",
+      "proportion": 24.4
+    },
+    {
+      "sex": "female",
+      "date": "2006-01-01",
+      "sector": "industry",
+      "proportion": 24.7
+    },
+    {
+      "sex": "female",
+      "date": "2007-01-01",
+      "sector": "industry",
+      "proportion": 22.8
+    },
+    {
+      "sex": "female",
+      "date": "2008-01-01",
+      "sector": "industry",
+      "proportion": 22.7
+    },
+    {
+      "sex": "female",
+      "date": "2009-01-01",
+      "sector": "industry",
+      "proportion": 20.0
+    },
+    {
+      "sex": "female",
+      "date": "2010-01-01",
+      "sector": "industry",
+      "proportion": 21.3
+    },
+    {
+      "sex": "female",
+      "date": "2011-01-01",
+      "sector": "industry",
+      "proportion": 21.6
+    },
+    {
+      "sex": "female",
+      "date": "2012-01-01",
+      "sector": "industry",
+      "proportion": 20.3
+    },
+    {
+      "sex": "female",
+      "date": "2013-01-01",
+      "sector": "industry",
+      "proportion": 19.9
+    },
+    {
+      "sex": "female",
+      "date": "2014-01-01",
+      "sector": "industry",
+      "proportion": 19.6
+    },
+    {
+      "sex": "female",
+      "date": "2015-01-01",
+      "sector": "industry",
+      "proportion": 19.2
+    },
+    {
+      "sex": "female",
+      "date": "2016-01-01",
+      "sector": "industry",
+      "proportion": 20.1
+    },
+    {
+      "sex": "female",
+      "date": "2017-01-01",
+      "sector": "industry",
+      "proportion": 20.7
+    },
+    {
+      "sex": "female",
+      "date": "2018-01-01",
+      "sector": "industry",
+      "proportion": 20.3
+    },
+    {
+      "sex": "female",
+      "date": "2019-01-01",
+      "sector": "industry",
+      "proportion": 20.2
+    },
+    {
+      "sex": "female",
+      "date": "2020-01-01",
+      "sector": "industry",
+      "proportion": 20.5
+    },
+    {
+      "sex": "female",
+      "date": "2021-01-01",
+      "sector": "industry",
+      "proportion": 18.5
+    },
+    {
+      "sex": "female",
+      "date": "2022-01-01",
+      "sector": "industry",
+      "proportion": 18.2
+    },
+    {
+      "sex": "female",
+      "date": "2023-01-01",
+      "sector": "industry",
+      "proportion": 18.5
+    },
+    {
+      "sex": "female",
+      "date": "2024-01-01",
+      "sector": "industry",
+      "proportion": 19.5
+    },
+    {
+      "sex": "female",
+      "date": "2025-01-01",
+      "sector": "industry",
+      "proportion": 17.9
+    },
+    {
+      "sex": "both",
+      "date": "2001-01-01",
+      "sector": "services",
+      "proportion": 51.7
+    },
+    {
+      "sex": "both",
+      "date": "2002-01-01",
+      "sector": "services",
+      "proportion": 53.1
+    },
+    {
+      "sex": "both",
+      "date": "2003-01-01",
+      "sector": "services",
+      "proportion": 53.7
+    },
+    {
+      "sex": "both",
+      "date": "2004-01-01",
+      "sector": "services",
+      "proportion": 55.3
+    },
+    {
+      "sex": "both",
+      "date": "2005-01-01",
+      "sector": "services",
+      "proportion": 55.6
+    },
+    {
+      "sex": "both",
+      "date": "2006-01-01",
+      "sector": "services",
+      "proportion": 55.1
+    },
+    {
+      "sex": "both",
+      "date": "2007-01-01",
+      "sector": "services",
+      "proportion": 56.7
+    },
+    {
+      "sex": "both",
+      "date": "2008-01-01",
+      "sector": "services",
+      "proportion": 57.3
+    },
+    {
+      "sex": "both",
+      "date": "2009-01-01",
+      "sector": "services",
+      "proportion": 59.5
+    },
+    {
+      "sex": "both",
+      "date": "2010-01-01",
+      "sector": "services",
+      "proportion": 58.1
+    },
+    {
+      "sex": "both",
+      "date": "2011-01-01",
+      "sector": "services",
+      "proportion": 59.4
+    },
+    {
+      "sex": "both",
+      "date": "2012-01-01",
+      "sector": "services",
+      "proportion": 58.7
+    },
+    {
+      "sex": "both",
+      "date": "2013-01-01",
+      "sector": "services",
+      "proportion": 58.6
+    },
+    {
+      "sex": "both",
+      "date": "2014-01-01",
+      "sector": "services",
+      "proportion": 59.7
+    },
+    {
+      "sex": "both",
+      "date": "2015-01-01",
+      "sector": "services",
+      "proportion": 60.1
+    },
+    {
+      "sex": "both",
+      "date": "2016-01-01",
+      "sector": "services",
+      "proportion": 61.2
+    },
+    {
+      "sex": "both",
+      "date": "2017-01-01",
+      "sector": "services",
+      "proportion": 60.9
+    },
+    {
+      "sex": "both",
+      "date": "2018-01-01",
+      "sector": "services",
+      "proportion": 62.4
+    },
+    {
+      "sex": "both",
+      "date": "2019-01-01",
+      "sector": "services",
+      "proportion": 61.8
+    },
+    {
+      "sex": "both",
+      "date": "2020-01-01",
+      "sector": "services",
+      "proportion": 63.6
+    },
+    {
+      "sex": "both",
+      "date": "2021-01-01",
+      "sector": "services",
+      "proportion": 64.4
+    },
+    {
+      "sex": "both",
+      "date": "2022-01-01",
+      "sector": "services",
+      "proportion": 64.3
+    },
+    {
+      "sex": "both",
+      "date": "2023-01-01",
+      "sector": "services",
+      "proportion": 64.9
+    },
+    {
+      "sex": "both",
+      "date": "2024-01-01",
+      "sector": "services",
+      "proportion": 64.6
+    },
+    {
+      "sex": "both",
+      "date": "2025-01-01",
+      "sector": "services",
+      "proportion": 65.0
+    },
+    {
+      "sex": "male",
+      "date": "2001-01-01",
+      "sector": "services",
+      "proportion": 48.2
+    },
+    {
+      "sex": "male",
+      "date": "2002-01-01",
+      "sector": "services",
+      "proportion": 48.6
+    },
+    {
+      "sex": "male",
+      "date": "2003-01-01",
+      "sector": "services",
+      "proportion": 49.0
+    },
+    {
+      "sex": "male",
+      "date": "2004-01-01",
+      "sector": "services",
+      "proportion": 50.1
+    },
+    {
+      "sex": "male",
+      "date": "2005-01-01",
+      "sector": "services",
+      "proportion": 50.2
+    },
+    {
+      "sex": "male",
+      "date": "2006-01-01",
+      "sector": "services",
+      "proportion": 49.5
+    },
+    {
+      "sex": "male",
+      "date": "2007-01-01",
+      "sector": "services",
+      "proportion": 50.8
+    },
+    {
+      "sex": "male",
+      "date": "2008-01-01",
+      "sector": "services",
+      "proportion": 51.3
+    },
+    {
+      "sex": "male",
+      "date": "2009-01-01",
+      "sector": "services",
+      "proportion": 53.0
+    },
+    {
+      "sex": "male",
+      "date": "2010-01-01",
+      "sector": "services",
+      "proportion": 51.4
+    },
+    {
+      "sex": "male",
+      "date": "2011-01-01",
+      "sector": "services",
+      "proportion": 52.4
+    },
+    {
+      "sex": "male",
+      "date": "2012-01-01",
+      "sector": "services",
+      "proportion": 51.6
+    },
+    {
+      "sex": "male",
+      "date": "2013-01-01",
+      "sector": "services",
+      "proportion": 50.8
+    },
+    {
+      "sex": "male",
+      "date": "2014-01-01",
+      "sector": "services",
+      "proportion": 52.4
+    },
+    {
+      "sex": "male",
+      "date": "2015-01-01",
+      "sector": "services",
+      "proportion": 52.3
+    },
+    {
+      "sex": "male",
+      "date": "2016-01-01",
+      "sector": "services",
+      "proportion": 53.7
+    },
+    {
+      "sex": "male",
+      "date": "2017-01-01",
+      "sector": "services",
+      "proportion": 53.8
+    },
+    {
+      "sex": "male",
+      "date": "2018-01-01",
+      "sector": "services",
+      "proportion": 55.2
+    },
+    {
+      "sex": "male",
+      "date": "2019-01-01",
+      "sector": "services",
+      "proportion": 53.8
+    },
+    {
+      "sex": "male",
+      "date": "2020-01-01",
+      "sector": "services",
+      "proportion": 57.3
+    },
+    {
+      "sex": "male",
+      "date": "2021-01-01",
+      "sector": "services",
+      "proportion": 56.0
+    },
+    {
+      "sex": "male",
+      "date": "2022-01-01",
+      "sector": "services",
+      "proportion": 56.4
+    },
+    {
+      "sex": "male",
+      "date": "2023-01-01",
+      "sector": "services",
+      "proportion": 57.1
+    },
+    {
+      "sex": "male",
+      "date": "2024-01-01",
+      "sector": "services",
+      "proportion": 57.8
+    },
+    {
+      "sex": "male",
+      "date": "2025-01-01",
+      "sector": "services",
+      "proportion": 56.9
+    },
+    {
+      "sex": "female",
+      "date": "2001-01-01",
+      "sector": "services",
+      "proportion": 58.3
+    },
+    {
+      "sex": "female",
+      "date": "2002-01-01",
+      "sector": "services",
+      "proportion": 61.1
+    },
+    {
+      "sex": "female",
+      "date": "2003-01-01",
+      "sector": "services",
+      "proportion": 62.1
+    },
+    {
+      "sex": "female",
+      "date": "2004-01-01",
+      "sector": "services",
+      "proportion": 64.6
+    },
+    {
+      "sex": "female",
+      "date": "2005-01-01",
+      "sector": "services",
+      "proportion": 65.4
+    },
+    {
+      "sex": "female",
+      "date": "2006-01-01",
+      "sector": "services",
+      "proportion": 65.2
+    },
+    {
+      "sex": "female",
+      "date": "2007-01-01",
+      "sector": "services",
+      "proportion": 67.2
+    },
+    {
+      "sex": "female",
+      "date": "2008-01-01",
+      "sector": "services",
+      "proportion": 68.3
+    },
+    {
+      "sex": "female",
+      "date": "2009-01-01",
+      "sector": "services",
+      "proportion": 71.0
+    },
+    {
+      "sex": "female",
+      "date": "2010-01-01",
+      "sector": "services",
+      "proportion": 70.4
+    },
+    {
+      "sex": "female",
+      "date": "2011-01-01",
+      "sector": "services",
+      "proportion": 71.9
+    },
+    {
+      "sex": "female",
+      "date": "2012-01-01",
+      "sector": "services",
+      "proportion": 71.4
+    },
+    {
+      "sex": "female",
+      "date": "2013-01-01",
+      "sector": "services",
+      "proportion": 71.7
+    },
+    {
+      "sex": "female",
+      "date": "2014-01-01",
+      "sector": "services",
+      "proportion": 72.1
+    },
+    {
+      "sex": "female",
+      "date": "2015-01-01",
+      "sector": "services",
+      "proportion": 72.7
+    },
+    {
+      "sex": "female",
+      "date": "2016-01-01",
+      "sector": "services",
+      "proportion": 73.2
+    },
+    {
+      "sex": "female",
+      "date": "2017-01-01",
+      "sector": "services",
+      "proportion": 72.8
+    },
+    {
+      "sex": "female",
+      "date": "2018-01-01",
+      "sector": "services",
+      "proportion": 73.5
+    },
+    {
+      "sex": "female",
+      "date": "2019-01-01",
+      "sector": "services",
+      "proportion": 74.3
+    },
+    {
+      "sex": "female",
+      "date": "2020-01-01",
+      "sector": "services",
+      "proportion": 74.2
+    },
+    {
+      "sex": "female",
+      "date": "2021-01-01",
+      "sector": "services",
+      "proportion": 77.2
+    },
+    {
+      "sex": "female",
+      "date": "2022-01-01",
+      "sector": "services",
+      "proportion": 77.4
+    },
+    {
+      "sex": "female",
+      "date": "2023-01-01",
+      "sector": "services",
+      "proportion": 77.5
+    },
+    {
+      "sex": "female",
+      "date": "2024-01-01",
+      "sector": "services",
+      "proportion": 75.9
+    },
+    {
+      "sex": "female",
+      "date": "2025-01-01",
+      "sector": "services",
+      "proportion": 78.5
+    }
+  ]
+}

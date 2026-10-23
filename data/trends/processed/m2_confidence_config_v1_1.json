@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "confidence_metric": "EVIDENCE_CONFIDENCE_INDEX_RECALIBRATED",
+  "scale": {
+    "min": 0,
+    "max": 100
+  },
+  "categorical_tiers": {
+    "HIGH": {
+      "min_index": 70,
+      "min_independent_families": 3,
+      "conflict_allowed": false
+    },
+    "MEDIUM": {
+      "min_index": 50,
+      "min_independent_families": 2,
+      "conflict_allowed": true
+    },
+    "LOW": {
+      "min_index": 25,
+      "min_independent_families": 1,
+      "conflict_allowed": true
+    },
+    "INSUFFICIENT": {
+      "max_index": 24,
+      "min_independent_families": 0
+    }
+  },
+  "publisher_authority_groups": {
+    "TALENTCORP_GROUP": {
+      "sources": [
+        "SRC-MYCOL-2024",
+        "SRC-TALENTCORP-IMPACT-2024"
+      ],
+      "cap": 35,
+      "individual_weights": {
+        "TALENTCORP_MYCOL": 25,
+        "TALENTCORP_IMPACT_STUDY": 15
+      }
+    },
+    "DOSM_GROUP": {
+      "sources": [
+        "SRC-OPENDOSM-LIVE"
+      ],
+      "cap": 30,
+      "individual_weights": {
+        "DOSM_WAGES": 20,
+        "DOSM_LABOUR_FORCE": 15
+      }
+    },
+    "POLICY_GROUP": {
+      "sources": [
+        "SRC-MYS-POLICY-2024"
+      ],
+      "cap": 20,
+      "individual_weights": {
+        "MALAYSIAN_GOVERNMENT_POLICY": 20
+      }
+    },
+    "MULTILATERAL_RESEARCH_GROUP": {
+      "sources": [
+        "SRC-ILO-GENAI-2023",
+        "SRC-ILO-GENAI-2025",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "cap": 25,
+      "individual_weights": {
+        "ILO_GENAI_STUDY": 20,
+        "OPENALEX_SCHOLARLY": 15
+      }
+    }
+  },
+  "skill_evidence_rule": "SKILLS_REQUIRE_DIRECT_EVIDENCE_ONLY. ILO_GENAI_STUDY and DOSM_WAGES proxy injection strictly prohibited."
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "engine_name": "O1 Employer Workforce Gap & Cohort Reskilling Engine",
+  "framework": "Deterministic Multi-Criteria Workforce Capability Planning",
+  "description": "Enterprise workforce planning layer for cohort skill gap analysis, transition pressure evaluation, and aggregate reskilling prioritisation.",
+  "status": "PROPOSED_CANDIDATE",
+  "reference_date": "2026-10-24",
+  "pinned_dependencies": {
+    "m1_skills_extraction": "H_blend_0.70A_0.30C1_W1.0",
+    "m2_trend_intelligence": "1.1.1",
+    "m6_scenario_engine": "1.1.0",
+    "m3_role_matching": "1.1.0",
+    "m4_reskilling_pathways": "1.1.0",
+    "m5_sdg_impact_mapping": "1.1.0",
+    "o6_sdg_aggregation": "1.1.0"
+  },
+  "priority_weights": {
+    "core_gap_prevalence": 0.35,
+    "important_gap_prevalence": 0.20,
+    "average_deficit": 0.15,
+    "cross_role_transferability": 0.15,
+    "scenario_urgency": 0.10,
+    "prerequisite_centrality": 0.05
+  },
+  "privacy_safeguards": {
+    "minimum_cohort_threshold": 5,
+    "small_cell_display_label": "SUPPRESSED_SMALL_COHORT",
+    "mask_exact_counts_on_suppressed": true,
+    "complementary_suppression_enabled": true,
+    "cross_query_differencing_protection": "PARTIAL",
+    "differential_privacy_claimed": false
+  },
+  "governance_safeguards": {
+    "protected_attributes_used": false,
+    "demographic_fairness_evaluated": false,
+    "employee_ranking_prohibited": true,
+    "performance_scoring_prohibited": true,
+    "hr_decision_use_prohibited": true,
+    "raw_cv_exposure_prohibited": true,
+    "corporate_sdg_impact_scoring_prohibited": true,
+    "disparate_impact_claims_prohibited": true,
+    "prohibited_uses": [
+      "HIRING_DECISIONS",
+      "TERMINATION_DECISIONS",
+      "PROMOTION_DECISIONS",
+      "COMPENSATION_DECISIONS",
+      "DISCIPLINARY_DECISIONS",
+      "INDIVIDUAL_PERFORMANCE_SCORING",
+      "WORKER_SURVEILLANCE"
+    ]
+  },
+  "scenarios_supported": [
+    "REFERENCE_2026",
+    "MODERATE_COPILOT",
+    "FAST_AGENTIC"
+  ],
+  "roadmap_phases": [
+    "PHASE 1 — FOUNDATIONS",
+    "PHASE 2 — CORE HIGH-PREVALENCE GAPS",
+    "PHASE 3 — ROLE-SPECIFIC APPLICATION",
+    "PHASE 4 — ADVANCED / SCENARIO-SENSITIVE CAPABILITIES"
+  ],
+  "data_classification": "SYNTHETIC_DEMO",
+  "representativeness_disclaimer": "Synthetic demonstration workforce; not statistically representative of any real organisation or the Malaysian national workforce.",
+  "semantics_notice": "Deterministic workforce planning prioritisation index. Not a probability, forecast accuracy, employee performance score, or employment risk score."
+}

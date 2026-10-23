@@ -1,0 +1,87 @@
+{
+  "manifest_version": "1.0.0",
+  "engine": "O4 Learning Progress & Milestone Tracking Engine",
+  "engine_version": "v1.0.0",
+  "frozen_at_utc": "2026-10-24T05:20:00Z",
+  "status": "FORMALLY_FROZEN_READ_ONLY",
+  "verdict": "O4 V1.0 APPROVED AND READY TO FREEZE",
+  "defect_summary": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "upstream_frozen_baseline": {
+    "M1": {
+      "model": "H_blend_0.70A_0.30C1_W1.0",
+      "provenance": "Protocol B and Protocol C v2 unsealed Stage 8E"
+    },
+    "M2": {
+      "version": "v1.1.1",
+      "manifest_sha256": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542"
+    },
+    "M6": {
+      "version": "v1.1.0",
+      "manifest_sha256": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+    },
+    "M3": {
+      "version": "v1.1.0",
+      "manifest_sha256": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c"
+    },
+    "M4": {
+      "version": "v1.1.0",
+      "manifest_sha256": "448545188ba4e196eaf3502d7803c3d9cfbb1247ec453208cafae990c8db5f2f"
+    },
+    "M5": {
+      "version": "v1.1.0",
+      "manifest_sha256": "94c1f42b46a1fa5e9b026fb82d5225e21c24547cdd58c234f2843cd84eb32ec7"
+    },
+    "O6": {
+      "version": "v1.1.0",
+      "manifest_sha256": "0fb13557e4a6665c6c85e2c2904dc4e99e41dfdf9019c49fb2a01b416f93ef5e"
+    },
+    "O1": {
+      "version": "v1.1.0",
+      "manifest_sha256": "c4a58baf74549f05ceeb3063b779b680762aec98d1edf531b909fcf041bce1f9"
+    },
+    "O2": {
+      "version": "v1.0.0",
+      "manifest_sha256": "6d71fbf5d26f412e63269f7f0c75aa3e03e4ccfbce432f59d684229747dd29ff"
+    },
+    "O3": {
+      "version": "v1.0.0",
+      "manifest_sha256": "53818527f9dd4f8e656b68eccad1c93fcce15b374507714fc386c4178f537703"
+    }
+  },
+  "engine_components": {
+    "src/progress_engine.py": "7708271183dfb4978e276d440c5a39eb352f33e375de0776ebd9735fc25aef0f",
+    "data/progress/o4_config_v1.json": "5af8b9d40a335789d6eff0b915fbce9ba836a261aae2e1c58c516daca52b5ca4",
+    "data/progress/synthetic_learner_progress_v1.json": "421b7ef30b4cda3f275ea53abac08a8fe939c3717ce5110c01a53f5d12905c99",
+    "scripts/run_o4_benchmarks.py": "7f288a5dfc3f3a5f9545e963afe05fbe7a44d378d9f65c784182fd2edc5d519d",
+    "tests/test_progress_engine.py": "d28e5a557836588b5eb9b0ce259d53c3cc0fe2491903e85ece7628801f334076",
+    "data/progress/o4_benchmark_results_v1.json": "c240198b3f2d933e67f7d66714e6f1b865e8d8db9649ca16a9f430049743f466",
+    "data/progress/o4_build_manifest_v1.json": "d2d96df1b8d64c9ed08a5e5c5bbce2bf2f12e635d5d5fb6544703f50167b625d"
+  },
+  "methodology_reports": {
+    "artifacts/o4_progress_methodology.md": "present",
+    "artifacts/o4_badge_governance.md": "present",
+    "artifacts/o4_credential_verification_contract.md": "present",
+    "artifacts/stage18b_o4_methodology_review.md": "present",
+    "artifacts/stage18d_o4_final_freeze_review.md": "present"
+  },
+  "verification_results": {
+    "unit_tests": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "duration_seconds": 0.002
+    },
+    "benchmarks": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0
+    },
+    "non_competitive_compliance": "100.0%",
+    "employment_disclaimer_compliance": "100.0%"
+  }
+}

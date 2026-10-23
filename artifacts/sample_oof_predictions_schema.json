@@ -1,0 +1,706 @@
+[
+  {
+    "record_id": "masco-2512-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2512",
+    "true_skills": [
+      "sql_data_analysis",
+      "python_scripting",
+      "api_integration"
+    ],
+    "pred_skills_cand_a": [
+      "sql_data_analysis",
+      "python_scripting",
+      "api_integration"
+    ],
+    "prob_skills_cand_a": [
+      0.1101,
+      0.0941,
+      0.041,
+      0.3808,
+      0.5279,
+      0.1455,
+      0.0522,
+      0.0859,
+      0.0967,
+      0.6886,
+      0.0706,
+      0.0999,
+      0.1467,
+      0.0793,
+      0.2614,
+      0.1806
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.5659,
+    "demand_prob_cal": 0.5875
+  },
+  {
+    "record_id": "masco-2512-02",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2512",
+    "true_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "python_scripting",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems",
+      "api_integration"
+    ],
+    "pred_skills_cand_a": [
+      "ai_literacy",
+      "prompt_engineering",
+      "python_scripting",
+      "rag_knowledge_systems",
+      "api_integration",
+      "stakeholder_communication"
+    ],
+    "prob_skills_cand_a": [
+      0.6763,
+      0.5636,
+      0.2711,
+      0.3033,
+      0.5905,
+      0.1071,
+      0.1016,
+      0.3067,
+      0.5765,
+      0.5488,
+      0.037,
+      0.153,
+      0.0636,
+      0.0463,
+      0.4733,
+      0.0836
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.8406,
+    "demand_prob_cal": 0.8026
+  },
+  {
+    "record_id": "masco-2511-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2511",
+    "true_skills": [
+      "process_mapping",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "api_integration",
+      "stakeholder_communication"
+    ],
+    "pred_skills_cand_a": [
+      "ai_literacy",
+      "process_mapping",
+      "api_integration"
+    ],
+    "prob_skills_cand_a": [
+      0.429,
+      0.0653,
+      0.9566,
+      0.2469,
+      0.0966,
+      0.1367,
+      0.1057,
+      0.3198,
+      0.1457,
+      0.7624,
+      0.0456,
+      0.1485,
+      0.1002,
+      0.0754,
+      0.3112,
+      0.0263
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.3147,
+    "demand_prob_cal": 0.4336
+  },
+  {
+    "record_id": "masco-2511-02",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2511",
+    "true_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "pred_skills_cand_a": [
+      "ai_literacy",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "prob_skills_cand_a": [
+      0.5811,
+      0.0583,
+      0.856,
+      0.0848,
+      0.0581,
+      0.098,
+      0.2204,
+      0.0596,
+      0.0343,
+      0.0559,
+      0.0724,
+      0.0459,
+      0.1173,
+      0.0452,
+      0.608,
+      0.0354
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.2568,
+    "demand_prob_cal": 0.3935
+  },
+  {
+    "record_id": "masco-2521-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2521",
+    "true_skills": [
+      "sql_data_analysis",
+      "data_visualization",
+      "data_privacy_pdpa"
+    ],
+    "pred_skills_cand_a": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "prob_skills_cand_a": [
+      0.4542,
+      0.1487,
+      0.1492,
+      0.8095,
+      0.1233,
+      0.3158,
+      0.0283,
+      0.3471,
+      0.1582,
+      0.1333,
+      0.1419,
+      0.9463,
+      0.0398,
+      0.0622,
+      0.3942,
+      0.1281
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.7924,
+    "demand_prob_cal": 0.8517
+  },
+  {
+    "record_id": "masco-2521-02",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2521",
+    "true_skills": [
+      "sql_data_analysis",
+      "python_scripting",
+      "rag_knowledge_systems",
+      "api_integration",
+      "data_privacy_pdpa"
+    ],
+    "pred_skills_cand_a": [
+      "ai_literacy",
+      "prompt_engineering",
+      "sql_data_analysis",
+      "python_scripting",
+      "rag_knowledge_systems",
+      "api_integration"
+    ],
+    "prob_skills_cand_a": [
+      0.4862,
+      0.3772,
+      0.0645,
+      0.3825,
+      0.3829,
+      0.083,
+      0.0508,
+      0.1486,
+      0.8316,
+      0.5137,
+      0.181,
+      0.2093,
+      0.0474,
+      0.079,
+      0.1509,
+      0.0787
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.7104,
+    "demand_prob_cal": 0.7777
+  },
+  {
+    "record_id": "masco-2133-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2133",
+    "true_skills": [
+      "sql_data_analysis",
+      "data_visualization",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "pred_skills_cand_a": [
+      "sql_data_analysis",
+      "data_visualization",
+      "esg_sustainability_reporting"
+    ],
+    "prob_skills_cand_a": [
+      0.0436,
+      0.0487,
+      0.0687,
+      0.8817,
+      0.0767,
+      0.7781,
+      0.0259,
+      0.1628,
+      0.0517,
+      0.0605,
+      0.1065,
+      0.2904,
+      0.7878,
+      0.3372,
+      0.137,
+      0.0341
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.2579,
+    "demand_prob_cal": 0.4353
+  },
+  {
+    "record_id": "masco-2422-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2422",
+    "true_skills": [
+      "ai_literacy",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "pred_skills_cand_a": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "prob_skills_cand_a": [
+      0.1231,
+      0.0606,
+      0.0947,
+      0.3038,
+      0.0896,
+      0.2127,
+      0.066,
+      0.293,
+      0.0779,
+      0.1062,
+      0.8362,
+      0.8321,
+      0.0606,
+      0.0774,
+      0.2845,
+      0.1356
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.888,
+    "demand_prob_cal": 0.8348
+  },
+  {
+    "record_id": "masco-2424-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "2424",
+    "true_skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "process_mapping",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "pred_skills_cand_a": [
+      "ai_literacy",
+      "prompt_engineering",
+      "instructional_design"
+    ],
+    "prob_skills_cand_a": [
+      0.5454,
+      0.3589,
+      0.3064,
+      0.0688,
+      0.2465,
+      0.0419,
+      0.2193,
+      0.1051,
+      0.2032,
+      0.096,
+      0.2583,
+      0.0613,
+      0.0858,
+      0.0497,
+      0.2414,
+      0.4441
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.6956,
+    "demand_prob_cal": 0.6593
+  },
+  {
+    "record_id": "masco-4110-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "4110",
+    "true_skills": [],
+    "pred_skills_cand_a": [
+      "python_scripting"
+    ],
+    "prob_skills_cand_a": [
+      0.0961,
+      0.052,
+      0.0776,
+      0.1736,
+      0.378,
+      0.167,
+      0.0954,
+      0.075,
+      0.0614,
+      0.1688,
+      0.1549,
+      0.2905,
+      0.0836,
+      0.0721,
+      0.202,
+      0.0715
+    ],
+    "demand_truth": 0,
+    "demand_prob_uncal": 0.3153,
+    "demand_prob_cal": 0.4357
+  },
+  {
+    "record_id": "masco-4132-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "4132",
+    "true_skills": [],
+    "pred_skills_cand_a": [
+      "sql_data_analysis",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "prob_skills_cand_a": [
+      0.1302,
+      0.1435,
+      0.2508,
+      0.5361,
+      0.163,
+      0.137,
+      0.578,
+      0.1867,
+      0.08,
+      0.078,
+      0.121,
+      0.1288,
+      0.1047,
+      0.0692,
+      0.494,
+      0.1483
+    ],
+    "demand_truth": 0,
+    "demand_prob_uncal": 0.6398,
+    "demand_prob_cal": 0.6312
+  },
+  {
+    "record_id": "masco-4120-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_group": "4120",
+    "true_skills": [
+      "ai_literacy",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "pred_skills_cand_a": [
+      "ai_literacy",
+      "prompt_engineering",
+      "process_mapping",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "prob_skills_cand_a": [
+      0.7672,
+      0.3546,
+      0.9232,
+      0.0552,
+      0.0436,
+      0.065,
+      0.2043,
+      0.2306,
+      0.0447,
+      0.1334,
+      0.2131,
+      0.1025,
+      0.0732,
+      0.0584,
+      0.9201,
+      0.5443
+    ],
+    "demand_truth": 0,
+    "demand_prob_uncal": 0.8912,
+    "demand_prob_cal": 0.9055
+  },
+  {
+    "record_id": "fw-practitioner-ai_literacy",
+    "source": "Public Competency Framework (AI Untuk Rakyat (MyDIGITAL & MDEC National Self-Paced Programme) / Elements of AI)",
+    "occupation_group": "FW-ai_literacy",
+    "true_skills": [
+      "ai_literacy"
+    ],
+    "pred_skills_cand_a": [
+      "ai_literacy"
+    ],
+    "prob_skills_cand_a": [
+      0.9986,
+      0.0323,
+      0.0577,
+      0.0214,
+      0.0588,
+      0.0665,
+      0.1354,
+      0.1744,
+      0.0496,
+      0.0606,
+      0.1233,
+      0.0335,
+      0.1286,
+      0.1168,
+      0.1176,
+      0.0318
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.4437,
+    "demand_prob_cal": 0.5008
+  },
+  {
+    "record_id": "fw-practitioner-prompt_engineering",
+    "source": "Public Competency Framework (Skill Objective: Structured Prompt & Rubric Design (HRD Corp e-LATiH / Open Documentation))",
+    "occupation_group": "FW-prompt_engineering",
+    "true_skills": [
+      "prompt_engineering"
+    ],
+    "pred_skills_cand_a": [
+      "prompt_engineering"
+    ],
+    "prob_skills_cand_a": [
+      0.1015,
+      0.9983,
+      0.0453,
+      0.0172,
+      0.1016,
+      0.0193,
+      0.108,
+      0.0194,
+      0.0227,
+      0.0661,
+      0.0578,
+      0.0532,
+      0.0914,
+      0.0867,
+      0.2105,
+      0.0845
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.8304,
+    "demand_prob_cal": 0.7825
+  },
+  {
+    "record_id": "fw-practitioner-process_mapping",
+    "source": "Public Competency Framework (Skill Objective: Operational Workflow Mapping & Bottleneck Analysis (e-LATiH))",
+    "occupation_group": "FW-process_mapping",
+    "true_skills": [
+      "process_mapping"
+    ],
+    "pred_skills_cand_a": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "prob_skills_cand_a": [
+      0.1373,
+      0.114,
+      0.9968,
+      0.1068,
+      0.0336,
+      0.0364,
+      0.4468,
+      0.2556,
+      0.033,
+      0.0544,
+      0.072,
+      0.0367,
+      0.0591,
+      0.1076,
+      0.6028,
+      0.0776
+    ],
+    "demand_truth": 0,
+    "demand_prob_uncal": 0.8455,
+    "demand_prob_cal": 0.8861
+  },
+  {
+    "record_id": "fw-practitioner-sql_data_analysis",
+    "source": "Public Competency Framework (PostgreSQL / SQLite Official Documentation & Interactive SQL Exercises)",
+    "occupation_group": "FW-sql_data_analysis",
+    "true_skills": [
+      "sql_data_analysis"
+    ],
+    "pred_skills_cand_a": [
+      "sql_data_analysis"
+    ],
+    "prob_skills_cand_a": [
+      0.0372,
+      0.2342,
+      0.0472,
+      0.9932,
+      0.1718,
+      0.1506,
+      0.0418,
+      0.0712,
+      0.1255,
+      0.1294,
+      0.0678,
+      0.1767,
+      0.0531,
+      0.0496,
+      0.0306,
+      0.1032
+    ],
+    "demand_truth": 0,
+    "demand_prob_uncal": 0.6197,
+    "demand_prob_cal": 0.6699
+  },
+  {
+    "record_id": "fw-practitioner-python_scripting",
+    "source": "Public Competency Framework (Official Python 3 Tutorial & Standard Library Reference)",
+    "occupation_group": "FW-python_scripting",
+    "true_skills": [
+      "python_scripting"
+    ],
+    "pred_skills_cand_a": [
+      "python_scripting"
+    ],
+    "prob_skills_cand_a": [
+      0.0467,
+      0.1524,
+      0.0361,
+      0.1752,
+      0.9976,
+      0.1073,
+      0.1848,
+      0.0516,
+      0.1032,
+      0.1946,
+      0.0338,
+      0.2036,
+      0.0489,
+      0.0438,
+      0.07,
+      0.0256
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.7097,
+    "demand_prob_cal": 0.6316
+  },
+  {
+    "record_id": "fw-practitioner-data_visualization",
+    "source": "Public Competency Framework (Skill Objective: Evidence-Based Dashboard & Uncertainty Reporting)",
+    "occupation_group": "FW-data_visualization",
+    "true_skills": [
+      "data_visualization"
+    ],
+    "pred_skills_cand_a": [
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "prob_skills_cand_a": [
+      0.0549,
+      0.0772,
+      0.0406,
+      0.1945,
+      0.1507,
+      0.9829,
+      0.0598,
+      0.0462,
+      0.1289,
+      0.0629,
+      0.0196,
+      0.0792,
+      0.0522,
+      0.0769,
+      0.462,
+      0.0775
+    ],
+    "demand_truth": 0,
+    "demand_prob_uncal": 0.1733,
+    "demand_prob_cal": 0.3403
+  },
+  {
+    "record_id": "fw-practitioner-workflow_automation",
+    "source": "Public Competency Framework (Skill Objective: Human-in-the-Loop AI Workflow Orchestration & Fallback Design)",
+    "occupation_group": "FW-workflow_automation",
+    "true_skills": [
+      "workflow_automation"
+    ],
+    "pred_skills_cand_a": [
+      "workflow_automation"
+    ],
+    "prob_skills_cand_a": [
+      0.123,
+      0.085,
+      0.13,
+      0.0282,
+      0.048,
+      0.0584,
+      0.995,
+      0.0632,
+      0.0487,
+      0.0333,
+      0.118,
+      0.0796,
+      0.0282,
+      0.0923,
+      0.0934,
+      0.0591
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.8161,
+    "demand_prob_cal": 0.7562
+  },
+  {
+    "record_id": "fw-practitioner-human_in_the_loop_qa",
+    "source": "Public Competency Framework (NIST AI Risk Management Framework (AI RMF 1.0) \u2014 Measure & Verify Playbook)",
+    "occupation_group": "FW-human_in_the_loop_qa",
+    "true_skills": [
+      "human_in_the_loop_qa"
+    ],
+    "pred_skills_cand_a": [
+      "human_in_the_loop_qa"
+    ],
+    "prob_skills_cand_a": [
+      0.0745,
+      0.0192,
+      0.0472,
+      0.0523,
+      0.0618,
+      0.0382,
+      0.0827,
+      0.9982,
+      0.1215,
+      0.1785,
+      0.2905,
+      0.0204,
+      0.0355,
+      0.0773,
+      0.1116,
+      0.1321
+    ],
+    "demand_truth": 1,
+    "demand_prob_uncal": 0.8857,
+    "demand_prob_cal": 0.8159
+  }
+]

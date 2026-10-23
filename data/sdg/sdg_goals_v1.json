@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "module": "M5_SDG_IMPACT_MAPPING_ENGINE",
+  "reference_standard": "United Nations 2030 Agenda for Sustainable Development",
+  "total_goals": 17,
+  "generated_date": "2026-10-24",
+  "goals": [
+    {
+      "sdg_id": "SDG_01",
+      "sdg_number": 1,
+      "official_name": "No Poverty",
+      "official_summary": "End poverty in all its forms everywhere.",
+      "official_source_url": "https://sdgs.un.org/goals/goal1",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_02",
+      "sdg_number": 2,
+      "official_name": "Zero Hunger",
+      "official_summary": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture.",
+      "official_source_url": "https://sdgs.un.org/goals/goal2",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_03",
+      "sdg_number": 3,
+      "official_name": "Good Health and Well-Being",
+      "official_summary": "Ensure healthy lives and promote well-being for all at all ages.",
+      "official_source_url": "https://sdgs.un.org/goals/goal3",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_04",
+      "sdg_number": 4,
+      "official_name": "Quality Education",
+      "official_summary": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
+      "official_source_url": "https://sdgs.un.org/goals/goal4",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_05",
+      "sdg_number": 5,
+      "official_name": "Gender Equality",
+      "official_summary": "Achieve gender equality and empower all women and girls.",
+      "official_source_url": "https://sdgs.un.org/goals/goal5",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_06",
+      "sdg_number": 6,
+      "official_name": "Clean Water and Sanitation",
+      "official_summary": "Ensure availability and sustainable management of water and sanitation for all.",
+      "official_source_url": "https://sdgs.un.org/goals/goal6",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_07",
+      "sdg_number": 7,
+      "official_name": "Affordable and Clean Energy",
+      "official_summary": "Ensure access to affordable, reliable, sustainable and modern energy for all.",
+      "official_source_url": "https://sdgs.un.org/goals/goal7",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_08",
+      "sdg_number": 8,
+      "official_name": "Decent Work and Economic Growth",
+      "official_summary": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.",
+      "official_source_url": "https://sdgs.un.org/goals/goal8",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_09",
+      "sdg_number": 9,
+      "official_name": "Industry, Innovation and Infrastructure",
+      "official_summary": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.",
+      "official_source_url": "https://sdgs.un.org/goals/goal9",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_10",
+      "sdg_number": 10,
+      "official_name": "Reduced Inequalities",
+      "official_summary": "Reduce inequality within and among countries.",
+      "official_source_url": "https://sdgs.un.org/goals/goal10",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_11",
+      "sdg_number": 11,
+      "official_name": "Sustainable Cities and Communities",
+      "official_summary": "Make cities and human settlements inclusive, safe, resilient and sustainable.",
+      "official_source_url": "https://sdgs.un.org/goals/goal11",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_12",
+      "sdg_number": 12,
+      "official_name": "Responsible Consumption and Production",
+      "official_summary": "Ensure sustainable consumption and production patterns.",
+      "official_source_url": "https://sdgs.un.org/goals/goal12",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_13",
+      "sdg_number": 13,
+      "official_name": "Climate Action",
+      "official_summary": "Take urgent action to combat climate change and its impacts.",
+      "official_source_url": "https://sdgs.un.org/goals/goal13",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_14",
+      "sdg_number": 14,
+      "official_name": "Life Below Water",
+      "official_summary": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development.",
+      "official_source_url": "https://sdgs.un.org/goals/goal14",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_15",
+      "sdg_number": 15,
+      "official_name": "Life on Land",
+      "official_summary": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss.",
+      "official_source_url": "https://sdgs.un.org/goals/goal15",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_16",
+      "sdg_number": 16,
+      "official_name": "Peace, Justice and Strong Institutions",
+      "official_summary": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.",
+      "official_source_url": "https://sdgs.un.org/goals/goal16",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "sdg_id": "SDG_17",
+      "sdg_number": 17,
+      "official_name": "Partnerships for the Goals",
+      "official_summary": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development.",
+      "official_source_url": "https://sdgs.un.org/goals/goal17",
+      "last_verified_date": "2026-10-24"
+    }
+  ]
+}

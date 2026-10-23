@@ -1,0 +1,39 @@
+{
+  "engine_name": "O1 Employer Workforce Gap & Reskilling Engine",
+  "engine_version": "1.0.0",
+  "status": "PROPOSED_CANDIDATE",
+  "build_timestamp": "2026-10-23T18:59:34.148618+00:00",
+  "pinned_dependencies": {
+    "m1": "H_blend_0.70A_0.30C1_W1.0",
+    "m2": "1.1.1",
+    "m6": "1.1.0",
+    "m3": "1.1.0",
+    "m4": "1.1.0",
+    "m5": "1.1.0",
+    "o6": "1.1.0"
+  },
+  "files": {
+    "engine_source": {
+      "path": "src/workforce_gap_engine.py",
+      "sha256": "7b9e509b26e017953254967abfb2bce878d7132486aa062835b8cd09a2698370"
+    },
+    "configuration": {
+      "path": "data/workforce/o1_config_v1.json",
+      "sha256": "ab65f54c5bf1b9b7606a1956f5f7b2163966fc8eb0e2dfb5545423485a24547b"
+    },
+    "benchmark_results": {
+      "path": "data/workforce/o1_benchmark_results_v1.json",
+      "sha256": "64c7a47ca8f6c19c8a7c33c1e8ba4f11845583f066c4fd5321d2f9ebacf88857"
+    }
+  },
+  "verification_summary": {
+    "total_benchmarks": 10,
+    "passed_benchmarks": 10,
+    "all_benchmarks_passed": true,
+    "minimum_cohort_threshold": 5,
+    "cross_query_differencing_protection": "PARTIAL",
+    "protected_attributes_used": false,
+    "demographic_fairness_evaluated": false,
+    "employee_ranking_prohibited": true
+  }
+}

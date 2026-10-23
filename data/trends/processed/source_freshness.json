@@ -1,0 +1,66 @@
+{
+  "reference_date": "2026-10-23",
+  "evaluated_at": "2026-10-23T06:31:15.267175+00:00",
+  "sources": [
+    {
+      "source_id": "SRC-MYCOL-2024",
+      "name": "TalentCorp Malaysia Critical Occupations List (MyCOL)",
+      "quality_tier": "TIER_A",
+      "publication_date": "2024-11-01",
+      "age_days": 721,
+      "cadence_type": "MULTI_YEAR_REPORT",
+      "freshness_category": "FRESH",
+      "status": "VALID_FOR_M2"
+    },
+    {
+      "source_id": "SRC-TALENTCORP-IMPACT-2024",
+      "name": "Impact Study of AI, Digital Economy and Green Economy on the Malaysian Workforce",
+      "quality_tier": "TIER_A",
+      "publication_date": "2024-11-18",
+      "age_days": 704,
+      "cadence_type": "MULTI_YEAR_REPORT",
+      "freshness_category": "FRESH",
+      "status": "VALID_FOR_M2"
+    },
+    {
+      "source_id": "SRC-OPENDOSM-LIVE",
+      "name": "OpenDOSM / data.gov.my Official Labour Market Datasets",
+      "quality_tier": "TIER_A",
+      "publication_date": "2024-01-01",
+      "age_days": 1026,
+      "cadence_type": "MONTHLY_MACRO",
+      "freshness_category": "STALE",
+      "status": "VALID_FOR_M2"
+    },
+    {
+      "source_id": "SRC-ILO-GENAI-2023",
+      "name": "ILO Working Paper 96: Generative AI and Jobs",
+      "quality_tier": "TIER_B",
+      "publication_date": "2023-08-21",
+      "age_days": 1159,
+      "cadence_type": "BENCHMARK_STANDARD",
+      "freshness_category": "ACCEPTABLE",
+      "status": "VALID_FOR_M2"
+    },
+    {
+      "source_id": "SRC-OPENALEX-TEMPORAL",
+      "name": "OpenAlex Scholarly AI Research Corpus",
+      "quality_tier": "TIER_C",
+      "publication_date": "2026-10-21",
+      "age_days": 2,
+      "cadence_type": "MULTI_YEAR_REPORT",
+      "freshness_category": "FRESH",
+      "status": "VALID_FOR_M2"
+    },
+    {
+      "source_id": "SRC-MYS-POLICY-2024",
+      "name": "Malaysian National Policy & Regulatory Directives (MOSTI, Bursa, JPDP, MITI)",
+      "quality_tier": "TIER_A",
+      "publication_date": "2024-09-20",
+      "age_days": 763,
+      "cadence_type": "MULTI_YEAR_REPORT",
+      "freshness_category": "ACCEPTABLE",
+      "status": "VALID_FOR_M2"
+    }
+  ]
+}

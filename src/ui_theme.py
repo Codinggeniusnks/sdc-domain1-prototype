@@ -2124,6 +2124,162 @@ footer {
         transform: none !important;
     }
 }
+
+/* =========================================================================
+   10-TAB NAVIGATION, MULTILINGUAL & LOW-BANDWIDTH UI EXTENSIONS
+   ========================================================================= */
+.tabs-nav-bar {
+    display: flex;
+    gap: var(--space-2);
+    overflow-x: auto;
+    padding: var(--space-2) var(--space-4);
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-default);
+    scrollbar-width: thin;
+    position: sticky;
+    top: 0;
+    z-index: var(--z-nav);
+    backdrop-filter: blur(14px);
+}
+.tab-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: var(--radius-pill);
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: all var(--dur-micro) ease;
+}
+.tab-btn:hover {
+    color: var(--text-primary);
+    background: var(--bg-elevated);
+    border-color: var(--border-subtle);
+}
+.tab-btn.active {
+    color: var(--primary-fg);
+    background: var(--primary);
+    border-color: var(--primary-border);
+    box-shadow: 0 0 12px var(--border-glow);
+}
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+    animation: fadeInTab var(--dur-comp) var(--ease-out-expo);
+}
+@keyframes fadeInTab {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.utility-controls-cluster {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+.lang-btn {
+    padding: 3px 8px;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-default);
+    background: var(--bg-surface);
+    color: var(--text-secondary);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all var(--dur-micro) ease;
+}
+.lang-btn.active {
+    background: var(--primary);
+    color: var(--primary-fg);
+    border-color: var(--primary-border);
+}
+.low-bw-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border-default);
+    background: var(--bg-surface);
+    color: var(--text-secondary);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all var(--dur-micro) ease;
+}
+.low-bw-toggle-btn.active {
+    background: var(--status-warn-bg);
+    color: var(--status-warn-fg);
+    border-color: var(--status-warn-border);
+}
+
+/* Low-Bandwidth Mode Overrides */
+html[data-low-bandwidth="true"] {
+    --bg-canvas: #0A0A0A !important;
+    --bg-surface: #141414 !important;
+    --bg-elevated: #1E1E1E !important;
+}
+html[data-low-bandwidth="true"] * {
+    animation: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+html[data-low-bandwidth="true"] .hero-3d-stage,
+html[data-low-bandwidth="true"] .ui-icon-3d,
+html[data-low-bandwidth="true"] .pulse-dot {
+    display: none !important;
+}
+html[data-low-bandwidth="true"] .card {
+    border: 1px solid #333 !important;
+    background: #111 !important;
+}
+
+/* Intrinsic Badges Grid */
+.badges-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--space-4);
+    margin-top: var(--space-4);
+}
+.badge-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+.badge-card.earned {
+    border-color: var(--status-success-border);
+    background: var(--status-success-bg);
+}
+.badge-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.badge-card-title {
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.badge-card-cat {
+    font-size: var(--text-xs);
+    font-family: var(--font-mono);
+    color: var(--text-muted);
+}
 """
 
 MOTION_ENGINE_JS = """
@@ -2212,5 +2368,49 @@ function syncThemeButtonLabel(theme) {
             card.style.setProperty('--tilt-y', '0deg');
         }, { passive: true });
     });
+
+    // 3. Tab Navigation & Hash Routing
+    window.switchTab = function(tabId) {
+        document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+        const target = document.getElementById(tabId);
+        const btn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+        if (target) target.classList.add('active');
+        if (btn) btn.classList.add('active');
+        try { history.replaceState(null, null, '#' + tabId); } catch(e) {}
+    };
+
+    window.toggleLowBandwidth = function() {
+        const root = document.documentElement;
+        const current = root.getAttribute('data-low-bandwidth') === 'true';
+        const next = !current;
+        root.setAttribute('data-low-bandwidth', next ? 'true' : 'false');
+        try { localStorage.setItem('asc_low_bw', next ? '1' : '0'); } catch(e) {}
+        const btn = document.getElementById('low-bw-btn-label');
+        if (btn) btn.textContent = next ? '⚡ Standard Rich Mode' : '⚡ Low-Bandwidth Mode';
+    };
+
+    window.switchLanguage = function(lang) {
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.location.href = url.toString();
+    };
+
+    // Auto-restore low-bandwidth & tab on load
+    try {
+        if (localStorage.getItem('asc_low_bw') === '1') {
+            root.setAttribute('data-low-bandwidth', 'true');
+            const btn = document.getElementById('low-bw-btn-label');
+            if (btn) btn.textContent = '⚡ Standard Rich Mode';
+        }
+    } catch(e) {}
+
+    const hash = window.location.hash ? window.location.hash.substring(1) : '';
+    if (hash && document.getElementById(hash)) {
+        switchTab(hash);
+    } else {
+        const firstTab = document.querySelector('.tab-pane');
+        if (firstTab) switchTab(firstTab.id);
+    }
 })();
 """

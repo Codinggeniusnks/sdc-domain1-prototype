@@ -1,0 +1,21 @@
+config_id,family,description,mean_macro_f1,std_macro_f1,min_fold_f1,max_fold_f1,pooled_macro_f1,pooled_micro_f1,macro_precision,macro_recall,rare_class_recall
+A_base_C3.0,Candidate A,"Word (1,3)+Char (3,5), C=3.0, balanced, Gold=3.0",0.6658,0.0548,0.5696,0.7219,0.6536,0.6465,0.5924,0.7408,0.7226
+A_word12_C2.2,Candidate A,"Word (1,2)+Char (3,5), C=2.2, balanced, Gold=3.0",0.6608,0.0476,0.5802,0.7128,0.6465,0.6398,0.5742,0.7494,0.7329
+Hybrid_Ens_0.8A_0.2C1,Candidate Hybrid,Probability Ensemble: 0.8 * Candidate A + 0.2 * Candidate C1,0.659,0.0425,0.5797,0.7036,0.6403,0.6322,0.5527,0.7722,0.7456
+A_min_df2_C2.2,Candidate A,"Word (1,3)+Char (3,5), min_df=2, C=2.2, Gold=3.0",0.6568,0.0509,0.5685,0.7184,0.642,0.6355,0.5622,0.7564,0.74
+Hybrid_Ens_0.7A_0.3C1,Candidate Hybrid,Probability Ensemble: 0.7 * Candidate A + 0.3 * Candidate C1,0.6561,0.0422,0.5736,0.6882,0.6353,0.6271,0.5402,0.785,0.759
+A_base_C2.2,Candidate A,"Word (1,3)+Char (3,5), C=2.2, balanced, Gold=3.0",0.653,0.0577,0.5506,0.7159,0.6391,0.6319,0.5612,0.7497,0.7369
+A_char36_C2.2,Candidate A,"Word (1,3)+Char (3,6), C=2.2, balanced, Gold=3.0",0.6528,0.0504,0.5666,0.7095,0.6377,0.6296,0.5575,0.7506,0.7459
+A_expanded_feat_C2.2,Candidate A,"Word 3072 + Char 1536, C=2.2, balanced, Gold=3.0",0.6475,0.0529,0.5554,0.6977,0.6379,0.6277,0.5654,0.742,0.7406
+Hybrid_Ens_0.6A_0.4C1,Candidate Hybrid,Probability Ensemble: 0.6 * Candidate A + 0.4 * Candidate C1,0.6445,0.0465,0.5564,0.6949,0.6264,0.6151,0.5205,0.8019,0.7855
+A_no_sublin_C2.2,Candidate A,"Word (1,3)+Char (3,5), sublinear_tf=False, C=2.2, Gold=3.0",0.6438,0.0566,0.5452,0.6982,0.6388,0.6294,0.5732,0.7357,0.7213
+A_base_C1.5,Candidate A,"Word (1,3)+Char (3,5), C=1.5, balanced, Gold=3.0",0.6365,0.0486,0.5535,0.6901,0.6221,0.6132,0.5291,0.7623,0.757
+A_base_C1.0,Candidate A,"Word (1,3)+Char (3,5), C=1.0, balanced, Gold=3.0",0.6145,0.0507,0.5313,0.6772,0.5944,0.5864,0.488,0.7715,0.7574
+Hybrid_Concat_C2.0,Candidate Hybrid,"Feature Concatenation: Normalized TF-IDF (2048) + MiniLM (384), C=2.0",0.575,0.0452,0.4883,0.6142,0.5519,0.5422,0.4209,0.8227,0.8054
+C1_MiniLM_C3.0,Candidate C1,"Frozen MiniLM + Linear LogReg C=3.0, balanced, Gold=3.0",0.5186,0.0629,0.4085,0.5984,0.5039,0.4929,0.3814,0.7539,0.7641
+C1_MiniLM_C2.0,Candidate C1,"Frozen MiniLM + Linear LogReg C=2.0, balanced, Gold=3.0",0.5023,0.0616,0.3996,0.5824,0.4832,0.4744,0.3528,0.7767,0.7873
+B_PyTorch_NN,Candidate B,"PyTorch SkillsPredictorNN (LayerNorm, Dropout, AdamW, pos_weight)",0.4714,0.0584,0.4159,0.575,0.4555,0.4438,0.3362,0.7395,0.7219
+C1_MiniLM_C1.0,Candidate C1,"Frozen MiniLM + Linear LogReg C=1.0, balanced, Gold=3.0",0.4655,0.0578,0.3616,0.5308,0.4411,0.4347,0.3041,0.8158,0.8258
+A_unbalanced_C2.2,Candidate A,"Word (1,3)+Char (3,5), class_weight=None, C=2.2, Gold=3.0",0.4614,0.0434,0.3994,0.5157,0.4853,0.4955,0.7988,0.3714,0.3216
+C1_MiniLM_C0.5,Candidate C1,"Frozen MiniLM + Linear LogReg C=0.5, balanced, Gold=3.0",0.4128,0.0439,0.3392,0.4548,0.3949,0.3893,0.2569,0.8714,0.8764
+C1_MiniLM_unbalanced,Candidate C1,"Frozen MiniLM + Linear LogReg C=2.0, class_weight=None, Gold=3.0",0.354,0.0268,0.32,0.3914,0.381,0.3865,0.6248,0.2951,0.2473

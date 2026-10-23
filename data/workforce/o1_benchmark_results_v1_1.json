@@ -1,0 +1,162 @@
+{
+  "engine_name": "O1 Employer Workforce Gap & Reskilling Engine",
+  "version": "1.1.0",
+  "timestamp": "2026-10-23T20:23:28.334233+00:00",
+  "total_benchmarks": 18,
+  "passed_count": 18,
+  "all_passed": true,
+  "benchmarks": [
+    {
+      "benchmark_id": "BM01_STANDARD_SYNTHETIC_COHORT",
+      "description": "Validation of complete 50-profile enterprise workforce gap analysis",
+      "eligible_profile_count": 50,
+      "top_skill": "process_mapping",
+      "top_internal_index": 18.37,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM02_HIGH_PREVALENCE_CORE_GAP",
+      "description": "Detection of dominant critical core competency deficit across cohort",
+      "skill_id": "esg_sustainability_reporting",
+      "core_gap_prevalence": 0.22,
+      "profiles_with_core_gap": 11,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM03_MIXED_REQUIREMENT_TIERS",
+      "description": "Validation of stratified requirement tier distribution across catalog",
+      "total_core_gaps": 33,
+      "total_important_gaps": 73,
+      "total_supporting_gaps": 68,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM04_CROSS_ROLE_TRANSFERABILITY",
+      "description": "Validation of multi-role leverage and transferability weighting",
+      "skill_id": "process_mapping",
+      "transferability_pct": 65.0,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM05_PREREQUISITE_COHORT_ROADMAP",
+      "description": "Validation of prerequisite-ordered sequencing in cohort roadmap",
+      "foundation_skills": [
+        "api_integration",
+        "carbon_footprint_analytics"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM06_SCENARIO_COMPARISON",
+      "description": "Validation of multi-scenario reskilling priority sensitivity",
+      "scenarios_evaluated": [
+        "REFERENCE_2026",
+        "MODERATE_COPILOT",
+        "FAST_AGENTIC"
+      ],
+      "most_scenario_sensitive_skills": [
+        "rag_knowledge_systems",
+        "ai_ethics_governance",
+        "api_integration"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM07_SMALL_COHORT_SUPPRESSION",
+      "description": "Enforcement of k=5 k-anonymity privacy floor with masked distributions",
+      "input_count": 4,
+      "suppressed": true,
+      "suppression_reason": "COHORT_SIZE_BELOW_PRIVACY_THRESHOLD",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM08_DENOMINATOR_INTEGRITY",
+      "description": "Deterministic sanitization separating eligible from excluded profiles",
+      "input_profile_count": 8,
+      "eligible_profile_count": 5,
+      "excluded_profile_count": 3,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM09_SHARED_LEARNING_OPPORTUNITIES",
+      "description": "Aggregation of cohort curriculum with explicit learner-hours distinction",
+      "shared_skill": "data_visualization",
+      "profiles_affected": 24,
+      "shared_session_hours": [
+        4,
+        8
+      ],
+      "aggregate_learner_hours": [
+        96,
+        192
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM10_SDG_CAPABILITY_CONTEXT",
+      "description": "Integration of descriptive SDG mapping metadata without corporate score generation",
+      "sdg_status": "DESCRIPTIVE_ALIGNMENT_NOT_IMPACT",
+      "corporate_impact_score_omitted": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM11_SHARED_LEARNING_SMALL_CELL",
+      "description": "Enforce k=5 suppression on shared learning: 1-4 small subgroups withheld",
+      "small_cell_count_tested": 3,
+      "suppressed_from_employer_listing": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM12_PRIORITY_SKILL_SMALL_CELL",
+      "description": "Suppression of priority index, decomposition, and counts when skill gap < 5",
+      "priority_status": "SUPPRESSED_SMALL_CELL",
+      "priority_index_is_none": true,
+      "components_is_none": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM13_ROLE_TRANSITION_SMALL_CELL",
+      "description": "Masking of transition volume and percentage when transition volume < 5",
+      "suppressed": true,
+      "transition_volume_display": "<5",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM14_HEATMAP_CELL_PRIVACY",
+      "description": "Masking of individual heatmap cells with gapped profile count < 5",
+      "small_cells_count": 26,
+      "all_small_cells_suppressed": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM15_COMPLEMENTARY_SUPPRESSION",
+      "description": "Deterministic complementary suppression across partition (Parent 10 / A 6 / B 4)",
+      "child_b_reason": "SMALL_CELL_PRIVACY",
+      "child_a_reason": "SUPPRESSED_COMPLEMENTARY_RULE",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM16_CORE_WEIGHTED_NOT_ABSOLUTE",
+      "description": "Proof that CORE semantics implement weighted preference rather than structural precedence",
+      "widespread_important_score": 28.82,
+      "rare_core_score": 2.06,
+      "semantics_label": "CORE_WEIGHTED_PREFERENCE",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM17_BINARY_DEFICIT_POLICY",
+      "description": "Disabling of non-discriminating deficit ranking component with diagnostic preservation",
+      "deficit_ranking_weight": 0.0,
+      "deficit_signal_status": "BINARY_NON_DISCRIMINATING",
+      "diagnostic_only": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM18_PRIORITY_REGRESSION",
+      "description": "Validation that removal of constant deficit offset preserves rank ordering",
+      "spearman_rank_correlation": 1.0,
+      "rank_stability_threshold": 0.99,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "trend_scoring_version": "1.1.0",
+  "build_timestamp": "2026-10-23T07:49:08.201818+00:00",
+  "reference_date": "2026-10-23",
+  "input_hashes": {
+    "trend_signals_v1.json": "d4285fc91d36ffd48dd655a4327d471de1d2ed635a74a98550aa4e0eb4b541e9",
+    "ilo_genai_occupational_exposure.json (2023)": "a9d05d497fced44b847cfec9dbc48d4cae17bce7af6a685f114a355dc97f8a02",
+    "ilo_wp140_refined_exposure_2025.json (2025)": "c6309e933c8df01e92de1368c27ff258adc528fac4bb28e0895bd2a6c7c3f8c0",
+    "skill_source_crosswalk.json": "fee5244f3f12a40a7a16eaeec6656ac296d88b1aded5f97d9e3a92d0b3c26497",
+    "occupation_source_crosswalk.json": "1fbe13c1c129da7b3ac61d8d7f20d298dbb6d1883323612b9aae114cc1f0f974"
+  },
+  "output_hashes": {
+    "trend_signals_v1_1.json": "fe0d18bbc5c5c014b9868bd07916b65cabd71c681cee57be7cbae8ed688e60c4",
+    "skill_trend_profiles_v1_1.json": "31c6015c996cf1f85787fa368b77b8ed927ee46866f1ea2dd7cf3d933fe920f4",
+    "occupation_trend_profiles_v1_1.json": "428c15b018cc121aa5440b9069f5757db0fcfe5e6bb993ee4e4ba2a1f7cc48bb",
+    "m2_scoring_config_v1_1.json": "fd16a044a12b482f0a72dee49462be547687450475727d5895047a53769b9977",
+    "m2_confidence_config_v1_1.json": "6b8472c6dc5f2d8990faf684383e496eb73df5b46776edd056c1845d1064047a"
+  },
+  "summary_metrics": {
+    "total_signals_v1_1": 298,
+    "skills_scored": 16,
+    "occupations_scored": 28,
+    "skill_confidence_distribution": {
+      "HIGH": 7,
+      "MEDIUM": 7,
+      "LOW": 2,
+      "INSUFFICIENT": 0
+    },
+    "saturated_components_before": 51,
+    "saturated_components_after": 0,
+    "directional_stability_pct": 100.0,
+    "spearman_rank_correlation_skills": 0.9701
+  }
+}

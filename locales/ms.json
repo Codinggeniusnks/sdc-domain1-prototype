@@ -1,0 +1,184 @@
+{
+  "locale": "ms",
+  "name": "Bahasa Melayu",
+  "app": {
+    "title": "Enjin Kebolehsuaian & Pandangan Jauh Tenaga Kerja AI Kebangsaan",
+    "subtitle": "Strategi Tenaga Kerja Pintar & Penjajaran SDG Malaysia 2026–2030",
+    "version": "v1.0.0",
+    "badge_competition": "Cabaran AI Negara Pintar 2026",
+    "disclaimer_legal": "Enjin Sokongan Keputusan Rasmi. Mematuhi Akta Perlindungan Data Peribadi (PDPA) Malaysia 2010. Bersifat nasihat semata-mata — tidak membuat keputusan penggajian secara autonomi.",
+    "footer": "© 2026 Inisiatif Pandangan Jauh Tenaga Kerja Kebangsaan. Berteraskan MASCO 2020, ILO 2025, dan Kerangka SDG PBB."
+  },
+  "nav": {
+    "overview": "Gambaran Keseluruhan",
+    "radar": "Radar Trend",
+    "matching": "Padanan Kerjaya",
+    "gaps": "Diagnostik Jurang Kemahiran",
+    "pathway": "Laluan Peningkatan Kemahiran",
+    "scenarios": "Simulasi Senario",
+    "sdg": "Impak SDG",
+    "replanning": "Perancangan Semula Adaptif",
+    "employer": "Kecerdasan Majikan & HR",
+    "progress": "Pencapaian Pembelajaran",
+    "governance": "AI Bertanggungjawab & Etika",
+    "methodology": "Audit & Metodologi",
+    "low_bandwidth_toggle": "Mod Jalur Lebar Rendah",
+    "language": "Bahasa"
+  },
+  "common": {
+    "actions": {
+      "save": "Simpan Pelan",
+      "export_pdf": "Eksport Ringkasan",
+      "export_json": "Eksport Lejar Audit",
+      "acknowledge": "Sahkan Perubahan",
+      "dismiss": "Tolak Amaran",
+      "refresh": "Segarkan Analisis",
+      "view_details": "Lihat Rasional Terperinci",
+      "filter": "Tapis",
+      "reset": "Tetapkan Semula"
+    },
+    "labels": {
+      "role": "Peranan",
+      "current_role": "Pekerjaan Semasa",
+      "target_role": "Pekerjaan Sasaran",
+      "masco_code": "Kod MASCO",
+      "skills": "Kemahiran",
+      "match_score": "Skor Padanan",
+      "gap_severity": "Keseriusan Jurang",
+      "duration": "Anggaran Tempoh",
+      "hours": "Jam",
+      "weeks": "Minggu",
+      "points": "mata",
+      "status": "Status",
+      "priority": "Keutamaan",
+      "evidence": "Bukti Pengesahan",
+      "timestamp": "Cap Masa",
+      "hash": "Cap Jari Digital",
+      "scenario": "Senario Makro",
+      "privacy_status": "Perlindungan Privasi"
+    },
+    "tiers": {
+      "core": "Keperluan Teras",
+      "important": "Kompetensi Penting",
+      "supporting": "Keupayaan Sokongan"
+    },
+    "materiality": {
+      "high": "Materialiti Tinggi (Tindakan Diperlukan)",
+      "material": "Perubahan Material (Semakan Disyorkan)",
+      "minor": "Penambahbaikan Kecil (Diguna Automatik)",
+      "none": "Tiada Perubahan Material"
+    },
+    "progress_states": {
+      "not_started": "Belum Bermula",
+      "in_progress": "Sedang Berjalan",
+      "completed_self_reported": "Selesai (Laporan Kendiri)",
+      "completed_verified": "Selesai (Kelayakan Disahkan)",
+      "skill_evidence_updated": "Bukti Dikemas Kini"
+    }
+  },
+  "overview": {
+    "heading": "Seni Bina Pandangan Jauh Tenaga Kerja Strategik",
+    "intro": "Enjin Pandangan Jauh Tenaga Kerja Kebangsaan Malaysia menyelaraskan taksonomi pekerjaan (MASCO 2020), isyarat pasaran buruh membujur, dan ujian tekanan makroekonomi ke dalam pelan hala tuju pelajar individu serta agregasi perusahaan yang memelihara privasi.",
+    "kpi_roles": "Pekerjaan Sasaran",
+    "kpi_skills": "Kemahiran Disahkan",
+    "kpi_scenarios": "Senario Makro Disimulasi",
+    "kpi_sdg": "Sasaran SDG Dijajarkan",
+    "architecture_title": "Saluran Modular Hujung-ke-Hujung",
+    "architecture_desc": "Dibina atas 6 Enjin Teras (M1–M6) dan 6 Perkhidmatan Operasi (O1–O6), mengekalkan pembekuan kriptografi ketat, sifar kebocoran demografi, dan kedaulatan manusia dalam kitaran."
+  },
+  "radar": {
+    "heading": "Radar Permintaan & Halaju Kemahiran Membujur",
+    "description": "Isyarat disintesis daripada kekosongan jawatan, premium gaji, kemunculan penyelidikan, dan klasifikasi buruh antarabangsa (ILO 2025).",
+    "velocity_label": "Halaju Permintaan Tahunan",
+    "urgency_label": "Indeks Kekurangan Strategik",
+    "quadrant_emerging": "Pertumbuhan Tinggi & Peneraju Strategik",
+    "quadrant_established": "Permintaan Tinggi & Asas Teras",
+    "quadrant_specialized": "Kepakaran Domain Khusus",
+    "quadrant_declining": "Sedang Peralihan & Boleh Diautomasikan"
+  },
+  "matching": {
+    "heading": "Padanan Kerjaya Berbilang Kriteria",
+    "description": "Menilai laluan pekerjaan calon menggabungkan pertindihan kemahiran, daya maju trajektori, daya tahan makro, dan kebolehlaksanaan peralihan.",
+    "select_persona": "Pilih Persona Penanda Aras Sintetik",
+    "top_recommendations": "Laluan Kerjaya Disyorkan Teratas",
+    "fit_score": "Indeks Keserasian Kerjaya",
+    "viability": "Daya Maju Peralihan",
+    "growth_outlook": "Tinjauan Permintaan 5 Tahun",
+    "rationale": "Rasional Padanan & Penguraian"
+  },
+  "gaps": {
+    "heading": "Pecahan Diagnostik Jurang Kemahiran",
+    "description": "Menguraikan keperluan peranan kepada kompetensi diskret, mengkategorikan defisit kepada peringkat Teras, Penting, dan Sokongan.",
+    "core_gaps": "Jurang Teras (Wajib untuk Pensijilan Peranan)",
+    "important_gaps": "Jurang Penting (Impak Produktiviti Tinggi)",
+    "supporting_gaps": "Jurang Sokongan (Kemahiran Pelengkap Luas)",
+    "deficit_level": "Tahap Defisit Kecekapan"
+  },
+  "pathway": {
+    "heading": "Laluan Peningkatan Kemahiran Berdaulat Peribadi",
+    "description": "Kurikulum berurutan berasaskan pergantungan untuk orang dewasa bekerja, ditentukur pada kadar mampan 5–8 jam seminggu.",
+    "total_hours": "Jumlah Jam Pembelajaran",
+    "calendar_weeks": "Anggaran Minggu Kalendar",
+    "milestones": "Pencapaian & Modul Kurikulum",
+    "weekly_pacing": "Kadar Mingguan Mampan (Jam/Minggu)",
+    "sovereignty_notice": "Kedaulatan Pelajar: Anda mengekalkan kuasa penuh ke atas urutan dan kelajuan pembelajaran. Syor automatik berfungsi sebagai panduan nasihat."
+  },
+  "scenarios": {
+    "heading": "Ujian Tekanan Senario Makroekonomi",
+    "description": "Mensimulasikan anjakan struktur buruh di bawah hala tuju dasar negara dan kejutan luaran global.",
+    "baseline": "Unjuran Dasar Garis Dasar (Rancangan Malaysia Ke-12)",
+    "green_economy": "Peralihan Hijau & Pemecutan Sifar Bersih (NETR 2030)",
+    "ai_automation": "Ledakan AI & Penerimaan Frontier Digital (NIMP 2030)",
+    "supply_disruption": "Penyusunan Semula Rangkaian Bekalan Serantau",
+    "impact_factor": "Delta Pengganda Senario"
+  },
+  "sdg": {
+    "heading": "Sumbangan Matlamat Pembangunan Mampan PBB",
+    "description": "Memetakan kompetensi tenaga kerja dan laluan peralihan kepada Sasaran SDG dengan jenis hubungan sebab-akibat yang jelas.",
+    "direct_contribution": "Pembinaan Keupayaan Langsung",
+    "enabling_contribution": "Prasarana & Tadbir Urus Pemboleh",
+    "contextual_contribution": "Penjajaran Kontekstual",
+    "primary_goals": "SDG Sasaran: Pekerjaan Sesuai (SDG 8), Industri & Inovasi (SDG 9), Pendidikan Berkualiti (SDG 4), Tindakan Iklim (SDG 13)"
+  },
+  "replanning": {
+    "heading": "Perancangan Semula Adaptif & Tadbir Urus Perubahan",
+    "banner_title": "Kemas Kini Isyarat Pasaran Buruh Dikesan",
+    "banner_desc": "Isyarat pasaran huluan telah beralih sejak pengesahan pelan terakhir anda.",
+    "candidate_plan": "Cadangan Laluan Calon",
+    "active_plan": "Laluan Aktif Semasa",
+    "change_summary": "Penerangan & Pengatribusian Perubahan",
+    "root_cause": "Punca Pencetus Dikenal Pasti",
+    "acknowledge_prompt": "Semak pelarasan yang dicadangkan sebelum menaikkan taraf pelan hala tuju calon kepada status aktif.",
+    "audit_ledger": "Lejar Audit Peristiwa Perancangan Semula"
+  },
+  "employer": {
+    "heading": "Diagnostik Tenaga Kerja Majikan & Peningkatan Kemahiran Kohort",
+    "description": "Kecerdasan jurang peringkat perusahaan dengan penyamaran sel kecil k-anonimiti (k=5) yang ketat dan sifar pengawasan individu.",
+    "privacy_banner": "Privasi Sel Kecil Aktif: Semua sel kohort di bawah 5 profil disekat secara ketat (<5) untuk menggagalkan serangan potongan data.",
+    "heatmap_title": "Peta Haba Jurang Kompetensi Perusahaan",
+    "priority_index_title": "Indeks Keutamaan Peningkatan Kemahiran (PRI)",
+    "shared_learning_title": "Kumpulan Pembelajaran Kohort Rentas Pasukan Optimum",
+    "disclaimer_hr": "Had Ketat HR: Metrik perancangan agregat tidak boleh sesekali digunakan untuk pengambilan, penamatan, penilaian prestasi, atau penetapan gaji individu."
+  },
+  "progress": {
+    "heading": "Penjejak Pencapaian & Bukti Kemahiran",
+    "description": "Jejak kemajuan modular, muat naik rujukan pengesahan kelayakan, dan kemas kini portfolio keupayaan yang disahkan.",
+    "overall_completion": "Penyelesaian Laluan",
+    "verified_credentials": "Kelayakan Mikro Disahkan",
+    "evidence_badge": "Ketulenan Kelayakan",
+    "disclaimer_employment": "Notis Rasmi: Penyelesaian modul pembelajaran menunjukkan penglibatan latihan dan pemerolehan keupayaan. Ia bukan jaminan automatik untuk pekerjaan atau kenaikan gaji."
+  },
+  "governance": {
+    "heading": "Seni Bina AI Bertanggungjawab & Audit Ketakvarianan",
+    "principles_title": "Prinsip Teras Kepercayaan & Keselamatan",
+    "demographic_neutrality": "Ketakvarianan Demografi: Seni bina sistem mengecualikan jantina, bangsa, agama, umur dan ketidakupayaan sepenuhnya. Disahkan melalui ujian ketakvarianan kontrafaktual.",
+    "privacy_compliance": "Jaminan Privasi: Mematuhi Akta Perlindungan Data Peribadi (PDPA) Malaysia 2010. Tapak ujian persona sintetik memastikan sifar pendedahan rekod peribadi.",
+    "auditability": "Kebolehauditan Kriptografi: Setiap keluaran enjin terikat dengan manifes beku SHA-256 bersama rekod asal usul yang tidak boleh diubah."
+  },
+  "low_bandwidth": {
+    "active_badge": "Mod Jalur Lebar Rendah Aktif",
+    "savings_summary": "Pemindahan data dioptimumkan: ~75% pengurangan melalui vektor diringkaskan, jadual termampat, dan tipografi ringan.",
+    "standard_mode": "Beralih ke Media Kaya",
+    "offline_ready": "Perwakilan ringan sedia untuk rangkaian pinggir terhad."
+  }
+}

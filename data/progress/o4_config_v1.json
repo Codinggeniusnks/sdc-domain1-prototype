@@ -1,0 +1,63 @@
+{
+  "engine_name": "O4 Learning Progress & Milestone Tracking Engine",
+  "engine_version": "v1.0.0",
+  "build_timestamp_utc": "2026-10-24T05:15:00Z",
+  "allowed_states": [
+    "NOT_STARTED",
+    "IN_PROGRESS",
+    "COMPLETED_SELF_REPORTED",
+    "COMPLETED_VERIFIED",
+    "SKILL_EVIDENCE_UPDATED"
+  ],
+  "state_progression_rules": {
+    "NOT_STARTED": ["IN_PROGRESS"],
+    "IN_PROGRESS": ["COMPLETED_SELF_REPORTED", "COMPLETED_VERIFIED"],
+    "COMPLETED_SELF_REPORTED": ["COMPLETED_VERIFIED", "IN_PROGRESS"],
+    "COMPLETED_VERIFIED": ["SKILL_EVIDENCE_UPDATED"],
+    "SKILL_EVIDENCE_UPDATED": ["SKILL_EVIDENCE_UPDATED"]
+  },
+  "badge_registry": {
+    "FIRST_STEP_TAKEN": {
+      "title": "First Step Taken",
+      "category": "ENGAGEMENT",
+      "description": "Began active instructional learning on your personal reskilling roadmap.",
+      "is_competitive": false
+    },
+    "CORE_FOUNDATION_ACHIEVED": {
+      "title": "Core Foundation Achieved",
+      "category": "MASTERY",
+      "description": "Successfully completed all mandatory CORE requirements for your target occupational role.",
+      "is_competitive": false
+    },
+    "VERIFIED_CREDENTIAL_EARNED": {
+      "title": "Verified Micro-Credential",
+      "category": "VERIFICATION",
+      "description": "Logged cryptographic or accredited evidence for an acquired technical skill.",
+      "is_competitive": false
+    },
+    "RESILIENCE_CHAMPION": {
+      "title": "Strategic Resilience Champion",
+      "category": "SCENARIO_READINESS",
+      "description": "Completed competencies in a high-urgency green economy or AI transformation priority area.",
+      "is_competitive": false
+    },
+    "FULL_PATHWAY_COMPLETED": {
+      "title": "Milestone Pioneer",
+      "category": "COMPLETION",
+      "description": "Completed 100% of planned instructional modules across all roadmap milestones.",
+      "is_competitive": false
+    }
+  },
+  "governance_guardrails": {
+    "prohibit_competitive_leaderboards": true,
+    "prohibit_peer_rankings": true,
+    "prohibit_social_shaming": true,
+    "require_employment_disclaimer": true,
+    "employment_disclaimer_text": "Official Notice: Completion of learning modules demonstrates training engagement and capability acquisition. It does not constitute an automated guarantee of employment, promotion, or wage elevation."
+  },
+  "privacy_rules": {
+    "sovereign_individual_access_only": true,
+    "employer_cohort_min_k": 5,
+    "strip_profile_ids_in_aggregates": true
+  }
+}

@@ -1,0 +1,372 @@
+[
+  {
+    "masco_code": "2512-01",
+    "masco_group": "2512",
+    "occupation_family": "Software & Application Developers",
+    "title": "AI & Backend Software Developer",
+    "sector": "Information & Communication Technology (ICT)",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Designs, develops, and maintains production software systems in Malaysia's digital economy corridor. Writes modular Python scripts, integrates RESTful APIs and webhook microservices, queries SQL relational databases, and deploys containerised backend applications.",
+    "skills": [
+      "python_scripting",
+      "api_integration",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2512-02",
+    "masco_group": "2512",
+    "occupation_family": "Software & Application Developers",
+    "title": "LLM & Retrieval-Augmented Generation (RAG) Application Engineer",
+    "sector": "Information & Communication Technology (ICT)",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Builds enterprise knowledge retrieval systems using large language models, vector databases, semantic search embeddings, and structured prompt engineering. Implements REST APIs, Python data ingestion scripts, and human-in-the-loop hallucination guardrails.",
+    "skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2511-01",
+    "masco_group": "2511",
+    "occupation_family": "Systems Analysts & Process Architects",
+    "title": "Systems Analyst & Digital Workflow Architect",
+    "sector": "ICT / Shared Services & Outsourcing (SSO)",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Evaluates enterprise standard operating procedures and performs business process mapping across Malaysian shared services centres. Designs automated multi-step agentic workflows, integrates REST APIs, and establishes human-in-the-loop quality review checkpoints.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "api_integration",
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2511-02",
+    "masco_group": "2511",
+    "occupation_family": "Systems Analysts & Process Architects",
+    "title": "Enterprise AI Operations & Co-Pilot Specialist",
+    "sector": "Corporate Operations & Global Business Services",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Leads workplace generative AI deployment by mapping business process bottlenecks, authoring structured prompt templates, orchestrating workflow automation pipelines, and communicating KPI impact to management stakeholders.",
+    "skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2521-01",
+    "masco_group": "2521",
+    "occupation_family": "Database & Data Engineering Professionals",
+    "title": "Database Administrator & SQL Analytics Lead",
+    "sector": "Financial Services & Islamic Banking",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Manages enterprise relational databases, writes complex SQL queries and data warehouse transformations, enforces Malaysia Personal Data Protection Act (PDPA 2010) access controls, and builds executive KPI dashboards.",
+    "skills": [
+      "sql_data_analysis",
+      "data_visualization",
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2521-02",
+    "masco_group": "2521",
+    "occupation_family": "Database & Data Engineering Professionals",
+    "title": "Knowledge Base & Vector Data Engineer",
+    "sector": "Information & Communication Technology (ICT)",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Curates structured SQL data marts and unstructured document indexing pipelines for retrieval-augmented generation (RAG). Writes Python ETL scripts, connects REST API endpoints, and enforces PDPA data governance rules.",
+    "skills": [
+      "sql_data_analysis",
+      "python_scripting",
+      "rag_knowledge_systems",
+      "api_integration",
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2519-01",
+    "masco_group": "2519",
+    "occupation_family": "Software Quality Assurance & AI Evaluation",
+    "title": "Software Quality Assurance & AI Red-Team Analyst",
+    "sector": "ICT / Semiconductor & E&E Penang Corridor",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Executes automated software regression tests using Python scripting, conducts human-in-the-loop quality assurance on generative AI outputs, evaluates prompt robustness against hallucination, and verifies algorithmic fairness.",
+    "skills": [
+      "python_scripting",
+      "human_in_the_loop_qa",
+      "prompt_engineering",
+      "ai_ethics_governance",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "2519-02",
+    "masco_group": "2519",
+    "occupation_family": "Software Quality Assurance & AI Evaluation",
+    "title": "AI Output Verification & Evaluation Specialist",
+    "sector": "ICT / Digital Services",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Audits LLM responses and RAG citations for factual accuracy, designs structured prompt evaluation rubrics, logs human-in-the-loop validation metrics in SQL, and escalates bias or PDPA privacy leaks.",
+    "skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "human_in_the_loop_qa",
+      "sql_data_analysis",
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "2133-01",
+    "masco_group": "2133",
+    "occupation_family": "Environmental & Sustainability Professionals",
+    "title": "Corporate ESG & Bursa Sustainability Reporting Specialist",
+    "sector": "Green Economy & Sustainable Energy (NETR)",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Prepares corporate sustainability disclosures aligned with Bursa Malaysia Main Market ESG guidelines and ISSB standards. Conducts Scope 1, Scope 2, and Scope 3 carbon footprint analytics, SQL emissions data analysis, and executive data visualization.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2133-02",
+    "masco_group": "2133",
+    "occupation_family": "Environmental & Sustainability Professionals",
+    "title": "Industrial Decarbonisation & GHG Telemetry Analyst",
+    "sector": "Manufacturing & Petrochemicals (Johor / Sarawak)",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Monitors industrial energy consumption and greenhouse gas emissions using Python data pipelines, SQL telemetry databases, and interactive BI dashboards to support Malaysia's National Energy Transition Roadmap (NETR).",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "python_scripting",
+      "sql_data_analysis",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "2141-01",
+    "masco_group": "2141",
+    "occupation_family": "Industrial & Production Engineers",
+    "title": "Smart Manufacturing Process & Automation Engineer",
+    "sector": "Electrical & Electronics (E&E) Manufacturing",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Maps factory floor production workflows and standard operating procedures under Malaysia Industry4WRD. Automates defect reporting pipelines via Python scripting, SQL analytics, and KPI visualization dashboards.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "python_scripting",
+      "sql_data_analysis",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "2422-01",
+    "masco_group": "2422",
+    "occupation_family": "Governance, Risk & Compliance Specialists",
+    "title": "AI Governance, Ethics & PDPA Compliance Auditor",
+    "sector": "Legal, Regulatory & Corporate Governance",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Audits enterprise AI systems against Malaysia MOSTI National AI Governance and Ethics (AIGE) guidelines and Personal Data Protection Act (PDPA 2010). Conducts algorithmic bias assessments, human-in-the-loop oversight checks, and stakeholder policy briefings.",
+    "skills": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "human_in_the_loop_qa",
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2422-02",
+    "masco_group": "2422",
+    "occupation_family": "Governance, Risk & Compliance Specialists",
+    "title": "Data Protection Officer (DPO) & Privacy Risk Lead",
+    "sector": "Banking, Healthcare & Telecommunications",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Oversees statutory compliance with Malaysia's amended Personal Data Protection Act (PDPA), maps cross-border data flows, establishes redaction guardrails for generative AI tools, and trains staff on ethical data handling.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance",
+      "process_mapping",
+      "instructional_design",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "2424-01",
+    "masco_group": "2424",
+    "occupation_family": "Training & Workforce Development Specialists",
+    "title": "Digital Reskilling & TVET Instructional Designer",
+    "sector": "Education, TVET & HRD Corp Training",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Designs adult reskilling curricula and HRD Corp e-LATiH training modules on foundational AI literacy, structured prompt engineering, and workplace workflow transformation. Facilitates stakeholder change management across departments.",
+    "skills": [
+      "instructional_design",
+      "ai_literacy",
+      "prompt_engineering",
+      "stakeholder_communication",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "2424-02",
+    "masco_group": "2424",
+    "occupation_family": "Training & Workforce Development Specialists",
+    "title": "L&D Workforce Transformation & AI Adoption Manager",
+    "sector": "Human Resources & Corporate L&D",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Leads enterprise-wide AI competency assessment, designs structured learning pathways for displaced clerical staff, tracks cohort reskilling KPIs via data visualization, and manages human-centred organizational change.",
+    "skills": [
+      "instructional_design",
+      "stakeholder_communication",
+      "ai_literacy",
+      "data_visualization",
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "2412-01",
+    "masco_group": "2412",
+    "occupation_family": "Financial & Business Intelligence Analysts",
+    "title": "Financial Data & Business Intelligence Analyst",
+    "sector": "Financial Services & Fintech Kuala Lumpur",
+    "country": "Malaysia",
+    "mycol_status": "Critical Occupation (MyCOL 2024/2025)",
+    "text": "Extracts and reconciles financial transaction records using SQL queries, builds executive KPI dashboards and data visualizations, maps reporting processes, and presents analytical insights to leadership stakeholders.",
+    "skills": [
+      "sql_data_analysis",
+      "data_visualization",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "4110-01",
+    "masco_group": "4110",
+    "occupation_family": "General Office Clerks (Routine Support)",
+    "title": "General Office & Filing Clerk",
+    "sector": "Administrative & Support Services",
+    "country": "Malaysia",
+    "mycol_status": "Non-Critical / High Automation Displacement Risk",
+    "text": "Performs routine clerical duties including photocopying forms, sorting physical mail, filing paper invoices in cabinets, and manual typing of standard letters without digital automation software.",
+    "skills": [],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "4132-01",
+    "masco_group": "4132",
+    "occupation_family": "Data Entry Clerks (Routine Manual Processing)",
+    "title": "Manual Data Entry & Transcription Clerk",
+    "sector": "Administrative & BPO Support",
+    "country": "Malaysia",
+    "mycol_status": "Non-Critical / High Automation Displacement Risk",
+    "text": "Manually keys handwritten receipts, paper survey forms, and shipping dockets into static spreadsheets. Performs repetitive copy-paste transcription without SQL queries or workflow automation tools.",
+    "skills": [],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  },
+  {
+    "masco_code": "4222-01",
+    "masco_group": "4222",
+    "occupation_family": "Contact Centre Information Clerks",
+    "title": "Tier-1 Scripted Call Centre Operator",
+    "sector": "Customer Service & BPO",
+    "country": "Malaysia",
+    "mycol_status": "Non-Critical / High Transformation Risk",
+    "text": "Reads fixed telephone response scripts for routine status inquiries, logs basic ticket numbers manually, and transfers complex customer issues to senior supervisors.",
+    "skills": [],
+    "is_emerging_demand": 0.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "4311-01",
+    "masco_group": "4311",
+    "occupation_family": "Accounting & Bookkeeping Clerks",
+    "title": "Routine Invoice & Voucher Verification Clerk",
+    "sector": "Back-Office Administration",
+    "country": "Malaysia",
+    "mycol_status": "Non-Critical / High Automation Displacement Risk",
+    "text": "Matches paper purchase orders against printed delivery notes, stamps physical payment vouchers, and archives paper ledger binders in storage rooms.",
+    "skills": [],
+    "is_emerging_demand": 0.0,
+    "held_out_group": true
+  },
+  {
+    "masco_code": "4120-01",
+    "masco_group": "4120",
+    "occupation_family": "Secretaries & Administrative Assistants",
+    "title": "Administrative Operations Coordinator (Transitioning Role)",
+    "sector": "Corporate Administration",
+    "country": "Malaysia",
+    "mycol_status": "Transitioning Occupation",
+    "text": "Coordinates departmental schedules, documents standard operating procedures and business process maps, and communicates project updates across stakeholders while beginning foundational AI literacy training.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 0.0,
+    "held_out_group": false
+  }
+]

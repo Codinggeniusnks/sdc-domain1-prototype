@@ -1,0 +1,217 @@
+{
+  "version": "1.1.0",
+  "engine_name": "M3 Explainable Future-Role Matching Engine",
+  "effective_date": "2026-10-23",
+  "candidate_universe": {
+    "target_granularity": "FOUR_DIGIT_OCCUPATION",
+    "candidate_roles_count": 20,
+    "excluded_fallbacks_count": 8,
+    "candidate_masco_codes": [
+      "2512", "2511", "2521", "2529", "2519", "2522", "2411", "2421", "2422", "2151",
+      "2152", "2143", "2424", "2166", "1330", "3514", "3322", "4311", "4110", "3343"
+    ],
+    "excluded_fallback_codes": [
+      "MAJOR_1", "MAJOR_2", "MAJOR_3", "MAJOR_4", "MAJOR_5", "MAJOR_7", "MAJOR_8", "MAJOR_9"
+    ]
+  },
+  "safety_contract_bounds": {
+    "min_m1_weight": 0.55,
+    "max_m2_weight": 0.30,
+    "max_m6_weight": 0.15
+  },
+  "weight_configurations": {
+    "balanced_baseline": {
+      "description": "Primary production weighting balancing worker skill readiness (60%), empirical labor market shortage (25%), and AI scenario foresight (15%).",
+      "m1_skill_weights": {
+        "total_m1": 0.60,
+        "current_skill_fit": 0.35,
+        "core_requirement_coverage": 0.15,
+        "gap_burden_and_transition": 0.10
+      },
+      "m2_labor_weights": {
+        "total_m2": 0.25,
+        "demand_resilience": 0.15,
+        "augmentation_leverage": 0.05,
+        "policy_priority": 0.05
+      },
+      "m6_scenario_weights": {
+        "total_m6": 0.15,
+        "scenario_net_resilience": 0.15
+      }
+    },
+    "skill_heavy": {
+      "description": "Conservative alternative weighting placing 75% emphasis on immediate worker demonstrable skills, 15% on labor market trend, and 10% on scenario outlook.",
+      "m1_skill_weights": {
+        "total_m1": 0.75,
+        "current_skill_fit": 0.45,
+        "core_requirement_coverage": 0.18,
+        "gap_burden_and_transition": 0.12
+      },
+      "m2_labor_weights": {
+        "total_m2": 0.15,
+        "demand_resilience": 0.09,
+        "augmentation_leverage": 0.03,
+        "policy_priority": 0.03
+      },
+      "m6_scenario_weights": {
+        "total_m6": 0.10,
+        "scenario_net_resilience": 0.10
+      }
+    },
+    "scenario_aware": {
+      "description": "Forward-looking alternative weighting placing maximum allowable emphasis on labor trends (30%) and AI scenarios (15%) while strictly maintaining 55% skill primacy.",
+      "m1_skill_weights": {
+        "total_m1": 0.55,
+        "current_skill_fit": 0.30,
+        "core_requirement_coverage": 0.15,
+        "gap_burden_and_transition": 0.10
+      },
+      "m2_labor_weights": {
+        "total_m2": 0.30,
+        "demand_resilience": 0.18,
+        "augmentation_leverage": 0.06,
+        "policy_priority": 0.06
+      },
+      "m6_scenario_weights": {
+        "total_m6": 0.15,
+        "scenario_net_resilience": 0.15
+      }
+    }
+  },
+  "user_confirmation_weights": {
+    "USER_CONFIRMED": 1.0,
+    "USER_ADDED": 1.0,
+    "M1_CORE": 0.85,
+    "M1_SUGGESTED": 0.50,
+    "DISMISSED": 0.0,
+    "ABSENT": 0.0
+  },
+  "skill_requirement_strength_weights": {
+    "CORE_REQUIREMENT": 1.0,
+    "IMPORTANT": 0.60,
+    "SUPPORTING": 0.30
+  },
+  "match_strength_tiers": {
+    "STRONG_CURRENT_FIT": {
+      "min_index": 75.0,
+      "min_core_coverage": 60.0,
+      "label": "STRONG CURRENT FIT"
+    },
+    "GOOD_FIT_WITH_GAPS": {
+      "min_index": 50.0,
+      "min_core_coverage": 30.0,
+      "label": "GOOD FIT WITH GAPS"
+    },
+    "DEVELOPING_TRANSITION": {
+      "min_index": 30.0,
+      "min_core_coverage": 0.0,
+      "label": "DEVELOPING TRANSITION"
+    },
+    "DISTANT_TRANSITION": {
+      "min_index": 0.0,
+      "min_core_coverage": 0.0,
+      "label": "DISTANT TRANSITION"
+    }
+  },
+  "evidence_confidence_config": {
+    "component_weights": {
+      "user_skill_certainty": 0.25,
+      "role_completeness": 0.20,
+      "mapping_confidence": 0.20,
+      "m2_evidence_confidence": 0.20,
+      "m6_scenario_stability": 0.15
+    },
+    "role_completeness_scores": {
+      "COMPLETE": 100.0,
+      "PARTIAL": 65.0,
+      "SPARSE": 35.0
+    },
+    "mapping_confidence_scores": {
+      "HIGH": 100.0,
+      "MEDIUM": 75.0,
+      "LOW": 45.0
+    },
+    "m2_confidence_scores": {
+      "HIGH": 100.0,
+      "MEDIUM": 75.0,
+      "LOW": 45.0,
+      "INSUFFICIENT": 20.0
+    },
+    "m6_stability_scores": {
+      "RESILIENT": 100.0,
+      "MODERATE": 80.0,
+      "VULNERABLE": 55.0
+    },
+    "quality_flag_penalties": {
+      "PROXY_MAPPED_EVIDENCE": -5.0,
+      "LOW_BASE_RESEARCH_SIGNAL": -5.0,
+      "INSUFFICIENT_HISTORICAL_BASELINE": -5.0,
+      "WEIGHT_SENSITIVE_RECOMMENDATION": -5.0
+    },
+    "confidence_tiers": {
+      "HIGH": {
+        "min_score": 75.0,
+        "label": "HIGH"
+      },
+      "MEDIUM": {
+        "min_score": 50.0,
+        "label": "MEDIUM"
+      },
+      "LOW": {
+        "min_score": 25.0,
+        "label": "LOW"
+      },
+      "INSUFFICIENT": {
+        "min_score": 0.0,
+        "label": "INSUFFICIENT"
+      }
+    }
+  },
+  "transition_distance_thresholds": {
+    "SHORT_TRANSITION": {
+      "min_core_coverage": 75.0,
+      "max_missing_core": 1,
+      "label": "SHORT TRANSITION",
+      "score_factor": 1.0
+    },
+    "MODERATE_TRANSITION": {
+      "min_core_coverage": 50.0,
+      "max_missing_core": 2,
+      "label": "MODERATE TRANSITION",
+      "score_factor": 0.75
+    },
+    "SUBSTANTIAL_TRANSITION": {
+      "min_core_coverage": 25.0,
+      "max_missing_core": 3,
+      "label": "SUBSTANTIAL TRANSITION",
+      "score_factor": 0.45
+    },
+    "LONG_TRANSITION": {
+      "min_core_coverage": 0.0,
+      "max_missing_core": 99,
+      "label": "LONG TRANSITION",
+      "score_factor": 0.15
+    }
+  },
+  "guardrails": {
+    "skill_fit_gating_threshold": 20.0,
+    "weight_sensitivity_max_displacement_threshold": 4,
+    "weight_sensitivity_top3_flip_flag": true,
+    "m2_confidence_damping": {
+      "HIGH": 1.0,
+      "MEDIUM": 0.80,
+      "LOW": 0.50,
+      "INSUFFICIENT": 0.20
+    },
+    "m6_scenario_damping": {
+      "medium_confidence_damping": 0.80,
+      "vulnerable_stability_damping": 0.80,
+      "major_group_fallback_damping": 0.50
+    }
+  },
+  "forbidden_demographic_keys": [
+    "age", "gender", "sex", "race", "ethnicity", "religion", "marital_status",
+    "nationality", "disability", "socioeconomic_background", "income",
+    "postcode", "address", "school", "full_address", "family_status"
+  ]
+}

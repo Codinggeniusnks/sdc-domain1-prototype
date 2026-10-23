@@ -1,0 +1,263 @@
+{
+  "version": "1.0.0",
+  "module": "M4_PERSONALISED_RESKILLING_PATHWAY_ENGINE",
+  "benchmark_date": "2026-10-23",
+  "total_test_cases": 8,
+  "test_cases": [
+    {
+      "persona_id": "PERSONA_1_DATA_ANALYTICS",
+      "persona_name": "Senior Tabular Data Analyst",
+      "target_masco": "2521",
+      "occupation_title": "Database Designers & Administrators",
+      "test_category": "Data / Analytics (Short Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 2,
+      "reference_hours_range": [
+        35,
+        65
+      ],
+      "schedule_weeks": 6.5,
+      "copilot_hours_range": [
+        35,
+        65
+      ],
+      "agentic_hours_range": [
+        35,
+        65
+      ],
+      "verified_cost_myr": 0.0,
+      "pathway_evidence_confidence": 94.5,
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Data Privacy Pdpa (OPTIONAL SPECIALISATION)",
+        "2. Rag Knowledge Systems (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_2_SOFTWARE_AUTOMATION",
+      "persona_name": "Full-Stack Software & Systems Developer",
+      "target_masco": "2512",
+      "occupation_title": "Software Developers",
+      "test_category": "Software / Systems (Short/Moderate Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 3,
+      "reference_hours_range": [
+        45,
+        75
+      ],
+      "schedule_weeks": 7.5,
+      "copilot_hours_range": [
+        45,
+        75
+      ],
+      "agentic_hours_range": [
+        45,
+        75
+      ],
+      "verified_cost_myr": 0.0,
+      "pathway_evidence_confidence": 94.5,
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Ai Literacy (FOUNDATION)",
+        "2. Sql Data Analysis (OPTIONAL SPECIALISATION)",
+        "3. Human In The Loop Qa (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_3_BUSINESS_OPERATIONS",
+      "persona_name": "Operations & Transformation Lead",
+      "target_masco": "2511",
+      "occupation_title": "Systems Analysts",
+      "test_category": "Business Operations (Moderate Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 3,
+      "reference_hours_range": [
+        50,
+        90
+      ],
+      "schedule_weeks": 9.0,
+      "copilot_hours_range": [
+        50,
+        90
+      ],
+      "agentic_hours_range": [
+        50,
+        90
+      ],
+      "verified_cost_myr": 0.0,
+      "pathway_evidence_confidence": 94.5,
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Api Integration (OPTIONAL SPECIALISATION)",
+        "2. Sql Data Analysis (OPTIONAL SPECIALISATION)",
+        "3. Ai Ethics Governance (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_4_GOVERNANCE_PRIVACY",
+      "persona_name": "Data Privacy & AI Governance Specialist",
+      "target_masco": "2422",
+      "occupation_title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+      "test_category": "Governance & Privacy (Moderate Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 2,
+      "reference_hours_range": [
+        30,
+        50
+      ],
+      "schedule_weeks": 5.0,
+      "copilot_hours_range": [
+        30,
+        50
+      ],
+      "agentic_hours_range": [
+        30,
+        50
+      ],
+      "verified_cost_myr": 0.0,
+      "pathway_evidence_confidence": 94.5,
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Ai Literacy (OPTIONAL SPECIALISATION)",
+        "2. Esg Sustainability Reporting (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_5_SUSTAINABILITY_ESG",
+      "persona_name": "Environmental & Carbon Accounting Analyst",
+      "target_masco": "2143",
+      "occupation_title": "Environmental Engineers & Sustainability Specialists",
+      "test_category": "Sustainability / ESG (Substantial Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 2,
+      "reference_hours_range": [
+        25,
+        45
+      ],
+      "schedule_weeks": 4.5,
+      "copilot_hours_range": [
+        25,
+        45
+      ],
+      "agentic_hours_range": [
+        25,
+        45
+      ],
+      "verified_cost_myr": 0.0,
+      "pathway_evidence_confidence": 94.5,
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Data Visualization (OPTIONAL SPECIALISATION)",
+        "2. Stakeholder Communication (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_6_COMMUNICATION_INSTRUCTIONAL",
+      "persona_name": "Corporate Learning & Instructional Designer",
+      "target_masco": "2424",
+      "occupation_title": "Training & Staff Development Professionals (Reskilling Architects)",
+      "test_category": "Communication / Instructional (Moderate Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 2,
+      "reference_hours_range": [
+        30,
+        50
+      ],
+      "schedule_weeks": 5.0,
+      "copilot_hours_range": [
+        30,
+        50
+      ],
+      "agentic_hours_range": [
+        30,
+        50
+      ],
+      "verified_cost_myr": 0.0,
+      "pathway_evidence_confidence": 94.5,
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Process Mapping (OPTIONAL SPECIALISATION)",
+        "2. Human In The Loop Qa (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_7_CLERICAL_TRANSITION",
+      "persona_name": "Administrative Assistant in Digital Upskilling",
+      "target_masco": "2511",
+      "occupation_title": "Systems Analysts",
+      "test_category": "Clerical to Digital Systems (Substantial Transition)",
+      "transition_distance": "SHORT TRANSITION",
+      "missing_core_count": 0,
+      "total_steps": 3,
+      "reference_hours_range": [
+        40,
+        75
+      ],
+      "schedule_weeks": 7.5,
+      "copilot_hours_range": [
+        40,
+        75
+      ],
+      "agentic_hours_range": [
+        40,
+        75
+      ],
+      "verified_cost_myr": 0.0,
+      "pathway_evidence_confidence": 94.5,
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Stakeholder Communication (OPTIONAL SPECIALISATION)",
+        "2. Api Integration (OPTIONAL SPECIALISATION)",
+        "3. Ai Ethics Governance (OPTIONAL SPECIALISATION)"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_8_SPARSE_EARLY_CAREER",
+      "persona_name": "Recent Graduate (Foundational AI Literacy)",
+      "target_masco": "3322",
+      "occupation_title": "Commercial Sales Representatives",
+      "test_category": "Sparse Early Career (Substantial Transition)",
+      "transition_distance": "MODERATE TRANSITION",
+      "missing_core_count": 1,
+      "total_steps": 3,
+      "reference_hours_range": [
+        40,
+        70
+      ],
+      "schedule_weeks": 7.0,
+      "copilot_hours_range": [
+        40,
+        70
+      ],
+      "agentic_hours_range": [
+        40,
+        70
+      ],
+      "verified_cost_myr": 0.0,
+      "pathway_evidence_confidence": 94.5,
+      "prerequisite_ordering_valid": true,
+      "sample_step_sequence": [
+        "1. Stakeholder Communication (CORE ROLE SKILLS)",
+        "2. Process Mapping (OPTIONAL SPECIALISATION)",
+        "3. Data Visualization (OPTIONAL SPECIALISATION)"
+      ]
+    }
+  ],
+  "average_hours_by_transition_distance": {
+    "SHORT TRANSITION": 50.4,
+    "MODERATE TRANSITION": 55.0
+  },
+  "sanity_audits": {
+    "core_first_ordering": "PASS",
+    "prerequisite_dag_ordering": "PASS",
+    "demographic_fairness_invariance": "PASS",
+    "resource_failure_independence": "PASS",
+    "cycle_detection_audit": "PASS_ACYCLIC"
+  }
+}

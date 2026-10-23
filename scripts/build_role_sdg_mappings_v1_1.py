@@ -1,0 +1,778 @@
+"""
+Build Canonical Role SDG Mappings v1.1.0 (Stage 13C Remediation)
+Resolves:
+- P1-1: Target 9.c overstretch (purged from 2521, 2519, 2522, 2166, 1330, 3514, 4110)
+- P1-3: Target 17.18 remote disaggregated data claims purged from software/database roles
+- P2-2: Missing sector-dependent flags added (SECTOR_DEPENDENT_ALIGNMENT for 2151, 2143, 2152)
+- P2-3: Confidence recalibration (sector-dependent / contextual -> MEDIUM)
+- P2-4: Target 8.5 clerical beneficiary alignment flagged (CONTEXTUAL_BENEFICIARY_ALIGNMENT for 4110, 4311, 3343)
+"""
+
+import json
+from pathlib import Path
+from datetime import datetime
+
+ROOT = Path(__file__).resolve().parent.parent
+TARGETS_FILE = ROOT / "data" / "sdg" / "sdg_targets_v1_1.json"
+ROLES_INPUT_FILE = ROOT / "data" / "matching" / "role_requirements_v1_1.json"
+OUTPUT_FILE = ROOT / "data" / "sdg" / "role_sdg_mappings_v1_1.json"
+
+def main():
+    with open(TARGETS_FILE, "r", encoding="utf-8") as f:
+        targets_data = json.load(f)
+    valid_targets = {t["target_id"]: t for t in targets_data["targets"]}
+
+    with open(ROLES_INPUT_FILE, "r", encoding="utf-8") as f:
+        roles_data = json.load(f)
+    masco_roles = roles_data["roles"]
+
+    role_mappings = {
+        "2512": {
+            "masco_code": "2512",
+            "role_title": "Software Developers",
+            "occupational_group": "Major Group 2: Professionals (ICT)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.5",
+                    "target_description": valid_targets["9.5"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Software engineers develop enterprise software architectures and technological platforms that upgrade technical capabilities across industrial and services sectors.",
+                    "evidence_references": "UN SDG Indicator 9.5.2 R&D worker definitions; TalentCorp Impact Study 2024 Chapter 4; ESCO 2512.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Enterprise application development automates manual bottlenecks, driving economic productivity in high-value added sectors.",
+                    "evidence_references": "MyCOL 2024/2025 Critical Occupations List; ILO ICT Sector Productivity Framework 2023.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.4",
+                    "target_description": valid_targets["9.4"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "Writing resource-efficient algorithms and optimizing backend compute reduces server energy consumption in data center environments.",
+                    "evidence_references": "Green Software Foundation Principles; ISO/IEC 30134.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "GENERAL_PURPOSE_ROLE_RULE_COMPLIANT", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_ENABLING_INNOVATION", "RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "2511": {
+            "masco_code": "2511",
+            "role_title": "Systems Analysts",
+            "occupational_group": "Major Group 2: Professionals (ICT)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.5",
+                    "target_description": valid_targets["9.5"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Systems analysts assess institutional processes, translate organizational requirements into technical architectures, and steer digital modernization across industrial ecosystems.",
+                    "evidence_references": "ESCO 2511 ICT business analysis taxonomy; MASCO 2020 2511.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "System architecture optimization eliminates operational friction and drives productivity across enterprise value chains.",
+                    "evidence_references": "TalentCorp Impact Study 2024 Chapter 4; ILO Digital Transformation in Services 2023.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED"],
+            "derivation_rules": ["RULE_ROLE_ENABLING_INNOVATION", "RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "2521": {
+            "masco_code": "2521",
+            "role_title": "Database Designers and Administrators",
+            "occupational_group": "Major Group 2: Professionals (ICT)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.5",
+                    "target_description": valid_targets["9.5"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Database architects design high-concurrency, resilient relational and distributed storage systems upgrading enterprise technological capabilities.",
+                    "evidence_references": "ACM/IEEE Database Systems Curricula; MASCO 2020 2521 database architecture mandate.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Optimizing database query execution and persistence engines eliminates data access bottlenecks, lifting enterprise operational productivity.",
+                    "evidence_references": "TalentCorp Impact Study 2024; ESCO 2521.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 16,
+                    "sdg_name": "Peace, Justice and Strong Institutions",
+                    "target_id": "16.6",
+                    "target_description": valid_targets["16.6"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "Database security enforcement and RBAC architectures protect data integrity and statutory auditability.",
+                    "evidence_references": "Malaysia PDPA 2010 database security compliance guidelines; ISO/IEC 27001.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_DATA_INFRASTRUCTURE", "RULE_ROLE_GOVERNANCE_SECURITY"]
+        },
+        "2529": {
+            "masco_code": "2529",
+            "role_title": "Database and Network Professionals NEC (AI & Data Science Specialists)",
+            "occupational_group": "Major Group 2: Professionals (ICT)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.5",
+                    "target_description": valid_targets["9.5"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "AI and data science specialists engineer predictive models, computer vision systems, and cognitive pipelines advancing industrial technological R&D.",
+                    "evidence_references": "National Artificial Intelligence Roadmap 2021-2025 (Malaysia); TalentCorp Impact Study 2024 Chapter 4; ESCO 2529.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Deploying predictive models automates complex operational forecasting and resource allocation, lifting industrial productivity.",
+                    "evidence_references": "World Economic Forum Future of Jobs Report 2023; UN SDG Target 8.2.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_ENABLING_INNOVATION", "RULE_ROLE_DATA_INFRASTRUCTURE"]
+        },
+        "2519": {
+            "masco_code": "2519",
+            "role_title": "Software and Applications Developers NEC (Cloud & Integration Specialists)",
+            "occupational_group": "Major Group 2: Professionals (ICT)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.4",
+                    "target_description": valid_targets["9.4"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Migrating on-premise compute to energy-efficient hyperscale cloud architectures retrofits industrial digital infrastructure for higher resource-use efficiency.",
+                    "evidence_references": "Green Computing / Cloud Sustainability Standard ISO/IEC 30134; MyDigital Blueprint; UN SDG Target 9.4.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Cloud microservice orchestration and API integration accelerate digital service delivery and business operational productivity.",
+                    "evidence_references": "ESCO 2519 cloud architecture competencies; TalentCorp Impact Study 2024.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.5",
+                    "target_description": valid_targets["9.5"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "Deploying scalable serverless architectures upgrades technical execution capabilities across domestic technology enterprises.",
+                    "evidence_references": "IEEE Cloud Engineering Guidelines 2023.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_INFRASTRUCTURE_RETROFIT", "RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "2522": {
+            "masco_code": "2522",
+            "role_title": "Systems Administrators and Cloud Infrastructure Specialists",
+            "occupational_group": "Major Group 2: Professionals (ICT)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.5",
+                    "target_description": valid_targets["9.5"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Systems administrators operate and secure enterprise computing networks, servers, and virtualized clusters upgrading technological infrastructure capabilities.",
+                    "evidence_references": "MASCO 2020 2522 systems maintenance standards; ESCO 2522.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Maintaining high system availability and zero-downtime environments prevents costly operational stoppages, safeguarding enterprise productivity.",
+                    "evidence_references": "TalentCorp Impact Study 2024 Chapter 4; UN SDG Target 8.2.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_DATA_INFRASTRUCTURE", "RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "2411": {
+            "masco_code": "2411",
+            "role_title": "Accountants and Auditors",
+            "occupational_group": "Major Group 2: Professionals (Business & Administration)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 16,
+                    "sdg_name": "Peace, Justice and Strong Institutions",
+                    "target_id": "16.6",
+                    "target_description": valid_targets["16.6"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Accountants and statutory financial auditors verify fiscal compliance, conduct statutory audits, prevent illicit financial flows, and enforce corporate reporting transparency.",
+                    "evidence_references": "Malaysian Institute of Accountants (MIA) Standards; International Federation of Accountants (IFAC) SDG Report; MASCO 2020 2411.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 12,
+                    "sdg_name": "Responsible Consumption and Production",
+                    "target_id": "12.6",
+                    "target_description": valid_targets["12.6"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Auditors and financial controllers prepare and assure non-financial ESG disclosures, carbon accounting statements, and sustainability reporting cycles.",
+                    "evidence_references": "Bursa Malaysia Sustainability Reporting Guide (3rd Edition); ISSB Standards (IFRS S1 & S2); MIA Sustainability Blueprint.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "Fiduciary governance and rigorous capital allocation advisory ensure sustainable business investment and economic stability.",
+                    "evidence_references": "IFAC Value Creation in Professional Accountancy 2023.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "DIRECT_SUSTAINABILITY_ROLE"],
+            "derivation_rules": ["RULE_ROLE_GOVERNANCE_SECURITY", "RULE_ROLE_SUSTAINABILITY_REPORTING"]
+        },
+        "2421": {
+            "masco_code": "2421",
+            "role_title": "Management and Organization Analysts (Transformation Consultants)",
+            "occupational_group": "Major Group 2: Professionals (Business & Administration)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Management consultants guide organizational restructuring, optimize operating models, and champion digital process transformation across domestic enterprises.",
+                    "evidence_references": "TalentCorp Impact Study 2024 Chapter 4; MASCO 2020 2421; MPC Productivity Report.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 12,
+                    "sdg_name": "Responsible Consumption and Production",
+                    "target_id": "12.6",
+                    "target_description": valid_targets["12.6"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Transformation analysts assist enterprises in designing circular economy operating frameworks and integrating sustainability metrics into core business strategies.",
+                    "evidence_references": "World Business Council for Sustainable Development (WBCSD) Guidelines; ESCO 2421.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED"],
+            "derivation_rules": ["RULE_ROLE_PRODUCTIVITY_UPGRADING", "RULE_ROLE_SUSTAINABILITY_REPORTING"]
+        },
+        "2422": {
+            "masco_code": "2422",
+            "role_title": "Policy and Corporate Planning Professionals (Governance Specialists)",
+            "occupational_group": "Major Group 2: Professionals (Business & Administration)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 16,
+                    "sdg_name": "Peace, Justice and Strong Institutions",
+                    "target_id": "16.6",
+                    "target_description": valid_targets["16.6"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Corporate planning and policy professionals draft ethics frameworks, risk compliance policies, and governance charters that build institutional integrity.",
+                    "evidence_references": "OECD Guidelines on Corporate Governance; MASCO 2020 2422; Malaysian Code on Corporate Governance (MCCG).",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 12,
+                    "sdg_name": "Responsible Consumption and Production",
+                    "target_id": "12.6",
+                    "target_description": valid_targets["12.6"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Corporate strategists formulate organizational Net Zero transition roadmaps, ESG key performance indicators, and responsible procurement policies.",
+                    "evidence_references": "UN Global Compact Corporate Sustainability Framework; National Energy Transition Roadmap (NETR).",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_GOVERNANCE_SECURITY", "RULE_ROLE_SUSTAINABILITY_REPORTING"]
+        },
+        "2151": {
+            "masco_code": "2151",
+            "role_title": "Electrical Engineers",
+            "occupational_group": "Major Group 2: Professionals (Engineering)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 7,
+                    "sdg_name": "Affordable and Clean Energy",
+                    "target_id": "7.2",
+                    "target_description": valid_targets["7.2"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "When deployed in renewable energy generation, electrical engineers design, test, and commission solar photovoltaic arrays, grid-scale battery storage, wind converters, and high-voltage transmission interconnectors.",
+                    "evidence_references": "National Energy Transition Roadmap (NETR, Malaysia); Suruhanjaya Tenaga Grid Codes; Board of Engineers Malaysia (BEM); MASCO 2020 2151.",
+                    "confidence": "MEDIUM"
+                },
+                {
+                    "sdg_id": 7,
+                    "sdg_name": "Affordable and Clean Energy",
+                    "target_id": "7.3",
+                    "target_description": valid_targets["7.3"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "When deployed in industrial facilities, engineers optimize heavy electrical motors, variable frequency drives, and smart building power distribution to eliminate parasitic transmission losses.",
+                    "evidence_references": "Energy Efficiency and Conservation Act (EECA) Malaysia; IEEE Power & Energy Society Sustainability Roadmap.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.4",
+                    "target_description": valid_targets["9.4"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Retrofitting legacy power grids with smart distribution automation, IoT sensors, and microgrid controllers.",
+                    "evidence_references": "TNB Grid of the Future Masterplan; NIMP 2030 Mission 3.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "overall_confidence": "MEDIUM",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "DIRECT_SUSTAINABILITY_ROLE", "SECTOR_DEPENDENT_ALIGNMENT", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_CLEAN_ENERGY", "RULE_ROLE_INFRASTRUCTURE_RETROFIT"]
+        },
+        "2152": {
+            "masco_code": "2152",
+            "role_title": "Electronic Engineers (Semiconductor / Microelectronics Specialists)",
+            "occupational_group": "Major Group 2: Professionals (Engineering)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.5",
+                    "target_description": valid_targets["9.5"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Electronic engineers spearhead IC design, advanced semiconductor packaging, wafer fabrication testing, and EDA tool validation across Malaysia's electrical & electronics (E&E) export sector.",
+                    "evidence_references": "New Industrial Master Plan 2030 (NIMP 2030 Mission 1 & 2); Malaysia Semiconductor Strategy (NSS); MASCO 2020 2152.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 7,
+                    "sdg_name": "Affordable and Clean Energy",
+                    "target_id": "7.3",
+                    "target_description": valid_targets["7.3"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Developing wide-bandgap GaN and SiC power electronic components that maximize efficiency in electric vehicle drivetrains and solar power inverters.",
+                    "evidence_references": "Semiconductor Industry Association (SIA) Energy Efficiency Roadmap; IEEE Solid-State Circuits.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Transitioning semiconductor manufacturing into high-complexity front-end design elevates national manufacturing value-add.",
+                    "evidence_references": "MIDA E&E Performance Report 2024; MyCOL 2024/2025.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "STRATEGIC_NIMP_2030_ROLE", "SECTOR_DEPENDENT_ALIGNMENT"],
+            "derivation_rules": ["RULE_ROLE_ENABLING_INNOVATION", "RULE_ROLE_CLEAN_ENERGY", "RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "2143": {
+            "masco_code": "2143",
+            "role_title": "Environmental Engineers",
+            "occupational_group": "Major Group 2: Professionals (Engineering)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 13,
+                    "sdg_name": "Climate Action",
+                    "target_id": "13.2",
+                    "target_description": valid_targets["13.2"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "When deployed in climate mitigation consultancy, environmental engineers engineer industrial carbon capture, calculate life-cycle GHG emissions, and formulate facility decarbonization roadmaps.",
+                    "evidence_references": "IPCC WGIII Assessment; Malaysia National Climate Change Policy 2.0; Board of Engineers Malaysia (BEM); MASCO 2020 2143.",
+                    "confidence": "MEDIUM"
+                },
+                {
+                    "sdg_id": 12,
+                    "sdg_name": "Responsible Consumption and Production",
+                    "target_id": "12.6",
+                    "target_description": valid_targets["12.6"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Environmental engineers audit industrial effluent, conduct toxic lifecycle impact assessments, and verify technical sustainability disclosures for regulatory bodies.",
+                    "evidence_references": "Department of Environment (DOE) Environmental Quality Act 1974; Bursa Malaysia ESG Guide.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 11,
+                    "sdg_name": "Sustainable Cities and Communities",
+                    "target_id": "11.6",
+                    "target_description": valid_targets["11.6"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Design and oversight of municipal wastewater treatment facilities, ambient air quality monitoring arrays, and hazardous waste remediation systems.",
+                    "evidence_references": "WHO Air Quality Guidelines; Solid Waste and Public Cleansing Management Act 2007 (Act 672, Malaysia).",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "DIRECT_SUSTAINABILITY_ROLE", "SECTOR_DEPENDENT_ALIGNMENT", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_CLIMATE_ACTION", "RULE_ROLE_SUSTAINABILITY_REPORTING", "RULE_ROLE_URBAN_SUSTAINABILITY"]
+        },
+        "2424": {
+            "masco_code": "2424",
+            "role_title": "Training and Staff Development Professionals (Reskilling Specialists)",
+            "occupational_group": "Major Group 2: Professionals (Business & Administration)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 4,
+                    "sdg_name": "Quality Education",
+                    "target_id": "4.4",
+                    "target_description": valid_targets["4.4"]["official_target_text"],
+                    "mapping_type": "DIRECT",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Corporate trainers, L&D managers, and reskilling instructional designers formulate adult training curricula, deliver technical reskilling interventions, and track workforce competency acquisition.",
+                    "evidence_references": "HRD Corp National Training Index (Malaysia); UNESCO-UNEVOC Guidelines; MASCO 2020 2424.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.5",
+                    "target_description": valid_targets["8.5"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Reskilling vulnerable and transitioning workers safeguards career longevity, prevents technological displacement, and actively preserves productive employment.",
+                    "evidence_references": "TalentCorp Impact Study 2024 Chapter 5 (Reskilling Roadmap); ILO World Employment and Social Outlook 2023.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "DIRECT_EDUCATION_RESKILLING_ROLE"],
+            "derivation_rules": ["RULE_ROLE_EDUCATION_RESKILLING", "RULE_ROLE_DECENT_WORK"]
+        },
+        "2166": {
+            "masco_code": "2166",
+            "role_title": "Graphic and Multimedia Designers (UI/UX Designers)",
+            "occupational_group": "Major Group 2: Professionals (Design)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 10,
+                    "sdg_name": "Reduced Inequalities",
+                    "target_id": "10.2",
+                    "target_description": valid_targets["10.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Designing accessible, WCAG-compliant digital user interfaces accommodates elderly users, low-literacy populations, and persons with sensory or motor impairments, reducing digital exclusion.",
+                    "evidence_references": "W3C Web Content Accessibility Guidelines (WCAG 2.2); ISO 9241-210 Human-centred design; MASCO 2020 2166.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "Streamlined user experiences reduce operator cognitive load and transactional error rates in administrative and enterprise software.",
+                    "evidence_references": "Nielsen Norman Group Enterprise UX ROI Benchmarks; UN SDG Target 8.2.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_SOCIAL_INCLUSION", "RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "1330": {
+            "masco_code": "1330",
+            "role_title": "Information and Communications Technology Services Managers",
+            "occupational_group": "Major Group 1: Managers (ICT)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 9,
+                    "sdg_name": "Industry, Innovation and Infrastructure",
+                    "target_id": "9.5",
+                    "target_description": valid_targets["9.5"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "ICT services managers steer technological strategy, allocate R&D budgets, lead enterprise digital architecture transitions, and manage mission-critical technical teams.",
+                    "evidence_references": "TalentCorp Impact Study 2024 Chapter 4; MyCOL 2024/2025; MASCO 2020 1330.",
+                    "confidence": "HIGH"
+                },
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Aligning enterprise information systems with core business operations scales technological efficiency and enables higher-margin digital service delivery.",
+                    "evidence_references": "World Bank Digital Development Partnership 2023; ESCO 1330.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_ENABLING_INNOVATION", "RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "3514": {
+            "masco_code": "3514",
+            "role_title": "Web Technicians and Cloud Operators",
+            "occupational_group": "Major Group 3: Technicians and Associate Professionals (ICT)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "CONTEXTUAL",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "Maintaining corporate web servers, handling content deployment, and testing browser compatibility support stable e-commerce and digital service transactions.",
+                    "evidence_references": "MASCO 2020 3514 web technician duties; ESCO 3514; TalentCorp 2024.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "MEDIUM",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "CONTEXT_DEPENDENT_ALIGNMENT", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "3322": {
+            "masco_code": "3322",
+            "role_title": "Commercial Sales Representatives",
+            "occupational_group": "Major Group 3: Technicians and Associate Professionals (Commercial)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.2",
+                    "target_description": valid_targets["8.2"]["official_target_text"],
+                    "mapping_type": "CONTEXTUAL",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "Commercial representatives connect enterprise buyers with advanced technological solutions, accelerating adoption of innovative equipment, software, and services.",
+                    "evidence_references": "MASCO 2020 3322; ILO Trade and Value Chains Report 2023.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "MEDIUM",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "CONTEXT_DEPENDENT_ALIGNMENT"],
+            "derivation_rules": ["RULE_ROLE_PRODUCTIVITY_UPGRADING"]
+        },
+        "4311": {
+            "masco_code": "4311",
+            "role_title": "Accounting and Bookkeeping Clerks",
+            "occupational_group": "Major Group 4: Clerical Support Workers (Financial)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 16,
+                    "sdg_name": "Peace, Justice and Strong Institutions",
+                    "target_id": "16.6",
+                    "target_description": valid_targets["16.6"]["official_target_text"],
+                    "mapping_type": "ENABLING",
+                    "alignment_strength": "STRONG",
+                    "contribution_pathway": "Bookkeeping clerks verify source receipts, maintain precise general ledgers, reconcile accounts, and support the factual integrity of corporate statutory audits.",
+                    "evidence_references": "MASCO 2020 4311 accounting clerk tasks; MIA Bookkeeping Competency Framework.",
+                    "confidence": "HIGH"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.5",
+                    "target_description": valid_targets["8.5"]["official_target_text"],
+                    "mapping_type": "CONTEXTUAL",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "The occupation participates as an employed administrative beneficiary within the decent work objective, supporting institutional payroll and transaction accounting.",
+                    "evidence_references": "ILO Global Wage Report 2023; MASCO 2020 4311.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "overall_confidence": "HIGH",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "CONTEXTUAL_BENEFICIARY_ALIGNMENT", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_GOVERNANCE_SECURITY", "RULE_ROLE_BENEFICIARY_EMPLOYMENT"]
+        },
+        "4110": {
+            "masco_code": "4110",
+            "role_title": "General Office Clerks",
+            "occupational_group": "Major Group 4: Clerical Support Workers (General)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.5",
+                    "target_description": valid_targets["8.5"]["official_target_text"],
+                    "mapping_type": "CONTEXTUAL",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "General office clerks represent stable administrative employment within organizations; the role participates as an employed beneficiary within the decent-work framework.",
+                    "evidence_references": "MASCO 2020 4110 general clerical duties; ILO Employment Policy Guidelines.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "secondary_sdgs": [],
+            "overall_confidence": "MEDIUM",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "CONTEXTUAL_BENEFICIARY_ALIGNMENT", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_BENEFICIARY_EMPLOYMENT"]
+        },
+        "3343": {
+            "masco_code": "3343",
+            "role_title": "Administrative and Executive Secretaries",
+            "occupational_group": "Major Group 3: Technicians and Associate Professionals (Administrative)",
+            "primary_sdgs": [
+                {
+                    "sdg_id": 16,
+                    "sdg_name": "Peace, Justice and Strong Institutions",
+                    "target_id": "16.6",
+                    "target_description": valid_targets["16.6"]["official_target_text"],
+                    "mapping_type": "CONTEXTUAL",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "Maintaining official minute archives, statutory board filings, and executive decision registers ensures procedural transparency and institutional accountability.",
+                    "evidence_references": "Companies Commission of Malaysia (SSM) Secretarial Practice Guide; MASCO 2020 3343.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "secondary_sdgs": [
+                {
+                    "sdg_id": 8,
+                    "sdg_name": "Decent Work and Economic Growth",
+                    "target_id": "8.5",
+                    "target_description": valid_targets["8.5"]["official_target_text"],
+                    "mapping_type": "CONTEXTUAL",
+                    "alignment_strength": "MODERATE",
+                    "contribution_pathway": "The executive secretary role participates as a vital coordination function within the decent-work employment objective.",
+                    "evidence_references": "ILO Decent Work Indicators; MASCO 2020 3343.",
+                    "confidence": "MEDIUM"
+                }
+            ],
+            "overall_confidence": "MEDIUM",
+            "quality_flags": ["OFFICIAL_TARGET_TRACEABLE", "MASCO_TAXONOMY_GROUNDED", "CONTEXTUAL_BENEFICIARY_ALIGNMENT", "TARGET_SEMANTIC_REMEDIATED"],
+            "derivation_rules": ["RULE_ROLE_GOVERNANCE_SECURITY", "RULE_ROLE_BENEFICIARY_EMPLOYMENT"]
+        }
+    }
+
+    # Validation audits
+    assert len(role_mappings) == 20, f"Expected 20 roles, got {len(role_mappings)}"
+    masco_codes_in_input = {r.get("masco_code", r.get("role_code")) for r in masco_roles}
+    assert masco_codes_in_input == set(role_mappings.keys()), f"Mismatch in MASCO codes: {set(role_mappings.keys()) ^ masco_codes_in_input}"
+
+    for code, role in role_mappings.items():
+        assert 1 <= len(role["primary_sdgs"]) <= 3, f"Role {code} primary SDGs out of bounds (1-3): {len(role['primary_sdgs'])}"
+        all_alignments = role["primary_sdgs"] + role["secondary_sdgs"]
+        for al in all_alignments:
+            t_id = al["target_id"]
+            assert t_id in valid_targets, f"Role {code} references invalid target {t_id}"
+            assert al["mapping_type"] in ["DIRECT", "ENABLING", "CONTEXTUAL"]
+            assert al["alignment_strength"] in ["STRONG", "MODERATE", "LIMITED"]
+            assert al["confidence"] in ["HIGH", "MEDIUM", "LOW"]
+
+    manifest = {
+        "version": "1.1.0",
+        "created_at": datetime.utcnow().isoformat() + "Z",
+        "engine": "M5 SDG Impact Mapping Engine v1.1.0",
+        "remediation_stage": "Stage 13C",
+        "total_roles_mapped": len(role_mappings),
+        "target_reference_file": str(TARGETS_FILE.relative_to(ROOT)),
+        "roles_source_file": str(ROLES_INPUT_FILE.relative_to(ROOT)),
+        "roles": role_mappings
+    }
+
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated and validated {len(role_mappings)} remediated role SDG mappings v1.1.0 at {OUTPUT_FILE}")
+
+if __name__ == "__main__":
+    main()

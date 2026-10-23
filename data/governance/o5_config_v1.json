@@ -1,0 +1,51 @@
+{
+  "engine_name": "O5 Responsible-AI & Invariance Governance Audit Layer",
+  "engine_version": "v1.0.0",
+  "build_timestamp_utc": "2026-10-24T05:25:00Z",
+  "prohibited_attributes": [
+    "gender",
+    "sex",
+    "race",
+    "ethnicity",
+    "religion",
+    "age",
+    "date_of_birth",
+    "dob",
+    "nric",
+    "passport",
+    "phone",
+    "email",
+    "home_address",
+    "postal_code",
+    "zip",
+    "marital_status",
+    "disability_status",
+    "current_salary",
+    "socioeconomic_status",
+    "caste",
+    "political_affiliation"
+  ],
+  "counterfactual_invariance_tolerance": 0.000000,
+  "privacy_rules": {
+    "small_cell_k": 5,
+    "require_complementary_suppression": true
+  },
+  "compliance_frameworks": [
+    "Personal Data Protection Act (PDPA) 2010 (Malaysia)",
+    "UNESCO Recommendation on the Ethics of Artificial Intelligence",
+    "National AI Roadmap 2021–2025 (Malaysia)",
+    "IEEE 7000-2021 Model Process for Addressing Ethical Concerns During System Design"
+  ],
+  "frozen_manifest_registry": {
+    "M2": "artifacts/m2_v1_1_1_freeze_manifest.json",
+    "M6": "data/scenarios/scenario_build_manifest_v1_1.json",
+    "M3": "data/matching/m3_build_manifest_v1_1.json",
+    "M4": "artifacts/m4_v1_1_freeze_manifest.json",
+    "M5": "artifacts/m5_v1_1_freeze_manifest.json",
+    "O6": "artifacts/o6_v1_1_freeze_manifest.json",
+    "O1": "artifacts/o1_v1_1_freeze_manifest.json",
+    "O2": "artifacts/o2_v1_0_0_freeze_manifest.json",
+    "O3": "artifacts/o3_v1_0_0_freeze_manifest.json",
+    "O4": "artifacts/o4_v1_0_0_freeze_manifest.json"
+  }
+}

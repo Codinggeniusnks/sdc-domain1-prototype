@@ -1,0 +1,37 @@
+entity_type,entity_id,entity_name,base_outlook,perturbed_outlook,base_sign,perturbed_sign,directional_sign_stable,exact_tier_stable,parameter_margin
+skill,ai_literacy,Foundational AI Literacy & LLM Capabilities,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,27.9
+skill,prompt_engineering,Structured Prompting & Context Engineering,RISING,RISING,POSITIVE,POSITIVE,True,True,20.0
+skill,process_mapping,Business Process Mapping & SOP Design,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,29.1
+skill,sql_data_analysis,SQL & Structured Data Analysis,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,27.9
+skill,python_scripting,Python Scripting & Data Automation,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,20.0
+skill,data_visualization,Data Visualization & KPI Storytelling,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,25.0
+skill,workflow_automation,Agentic Workflow Orchestration & Tool Integration,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,20.0
+skill,human_in_the_loop_qa,Human-in-the-Loop Evaluation & AI Testing,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,29.1
+skill,rag_knowledge_systems,Retrieval-Augmented Generation (RAG) & Citation Grounding,RISING,RISING,POSITIVE,POSITIVE,True,True,15.0
+skill,api_integration,REST API Integration & Resilient Fallbacks,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,20.0
+skill,ai_ethics_governance,"AI Ethics, Fairness Auditing & Governance",STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,20.0
+skill,data_privacy_pdpa,Data Privacy & Malaysian PDPA Compliance,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+skill,esg_sustainability_reporting,ESG Frameworks & UN SDG Impact Mapping,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,25.0
+skill,carbon_footprint_analytics,Carbon-Aware Compute & Resource Telemetry,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,20.0
+skill,stakeholder_communication,Human-Centred Change & Stakeholder Communication,RISING,RISING,POSITIVE,POSITIVE,True,True,25.0
+skill,instructional_design,Competency Matrix & Reskilling Curriculum Design,RISING,RISING,POSITIVE,POSITIVE,True,True,5.0
+occupation,2512,Software Developers,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2511,Systems Analysts,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2521,Database Designers & Administrators,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2529,Database & Network Professionals NEC (AI & Data Science Specialists),STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2519,Software & Applications Developers & Analysts NEC (Cloud & Full-Stack),STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2522,Systems Administrators & Cloud Infrastructure Engineers,STABLE,STABLE,NEUTRAL,NEUTRAL,True,True,5.0
+occupation,2411,Accountants & Financial Auditors,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2421,Management & Organization Analysts (Transformation Consultants),STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2422,Policy & Corporate Planning Professionals (Governance Specialists),STABLE,STABLE,NEUTRAL,NEUTRAL,True,True,5.0
+occupation,2151,Electrical Engineers,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2152,Electronic Engineers (Semiconductor IC Design Specialists),STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,2143,Environmental Engineers & Sustainability Specialists,STRONGLY RISING,STRONGLY RISING,POSITIVE,POSITIVE,True,True,28.0
+occupation,2424,Training & Staff Development Professionals (Reskilling Architects),STABLE,STABLE,NEUTRAL,NEUTRAL,True,True,5.0
+occupation,2166,Graphic & Multimedia Designers (UI-UX & Visual Designers),STABLE,STABLE,NEUTRAL,NEUTRAL,True,True,5.0
+occupation,1330,Information & Communications Technology Services Managers,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,3514,Web Technicians & Cloud Application Operators,STABLE,STABLE,NEUTRAL,NEUTRAL,True,True,5.0
+occupation,3322,Commercial Sales Representatives,STRONGLY RISING,RISING,POSITIVE,POSITIVE,True,False,15.0
+occupation,4311,Accounting and Bookkeeping Clerks,STRONGLY DECLINING,STRONGLY DECLINING,NEGATIVE,NEGATIVE,True,True,35.0
+occupation,4110,General Office Clerks,STRONGLY DECLINING,STRONGLY DECLINING,NEGATIVE,NEGATIVE,True,True,35.0
+occupation,3343,Administrative & Executive Secretaries,DECLINING,DECLINING,NEGATIVE,NEGATIVE,True,True,35.0

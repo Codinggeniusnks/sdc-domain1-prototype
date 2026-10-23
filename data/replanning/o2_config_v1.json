@@ -1,0 +1,104 @@
+{
+  "engine_name": "O2 Automatic Replanning & Change Detection Engine",
+  "engine_version": "1.0.0",
+  "description": "Orchestration and change-detection engine comparing frozen upstream and downstream models over time",
+  "supported_upstream_versions": {
+    "M1": "H_blend_0.70A_0.30C1_W1.0",
+    "M2": "v1.1.1",
+    "M6": "v1.1.0",
+    "M3": "v1.1.0",
+    "M4": "v1.1.0",
+    "M5": "v1.1.0",
+    "O6": "v1.1.0",
+    "O1": "v1.1.0"
+  },
+  "supported_event_types": [
+    "M2_TREND_SNAPSHOT_UPDATED",
+    "M6_SCENARIO_CHANGED",
+    "PROFILE_SKILL_STATE_UPDATED",
+    "COHORT_SNAPSHOT_UPDATED",
+    "MANUAL_REPLAN_REQUESTED",
+    "NO_RELEVANT_CHANGE"
+  ],
+  "future_event_hooks": {
+    "M4_RESOURCE_CATALOG_UPDATED": {
+      "status": "PREPARED_INACTIVE",
+      "description": "Hook for future educational catalog additions; downstream of skill needs"
+    },
+    "PATHWAY_PROGRESS_UPDATED": {
+      "status": "PREPARED_INACTIVE",
+      "description": "Hook for O4 learner milestone completions; does not modify skill demand"
+    },
+    "O3_MULTILINGUAL_HOOK": {
+      "status": "PREPARED_INACTIVE",
+      "description": "Hook for localization token refreshes"
+    },
+    "O5_GOVERNANCE_LEDGER_HOOK": {
+      "status": "READY_ACTIVE",
+      "description": "Hook for appending cryptographic change events to enterprise audit ledger"
+    }
+  },
+  "dependency_rules": {
+    "M2_TREND_SNAPSHOT_UPDATED": {
+      "affected_modules": ["M3", "M4", "O6", "O1"],
+      "recompute_order": ["M3", "M4", "O6", "O1"],
+      "primary_root_cause": "TREND_CHANGE"
+    },
+    "M6_SCENARIO_CHANGED": {
+      "affected_modules": ["M3", "M4", "O6", "O1"],
+      "recompute_order": ["M3", "M4", "O6", "O1"],
+      "primary_root_cause": "SCENARIO_CHANGE"
+    },
+    "PROFILE_SKILL_STATE_UPDATED": {
+      "affected_modules": ["M3", "M4", "O6", "O1"],
+      "recompute_order": ["M3", "M4", "O6", "O1"],
+      "primary_root_cause": "PROFILE_CHANGE"
+    },
+    "COHORT_SNAPSHOT_UPDATED": {
+      "affected_modules": ["O6", "O1"],
+      "recompute_order": ["O6", "O1"],
+      "primary_root_cause": "COHORT_CHANGE",
+      "skip_individual_m3_m4": true
+    },
+    "MANUAL_REPLAN_REQUESTED": {
+      "affected_modules": [],
+      "recompute_order": [],
+      "primary_root_cause": "MANUAL_RECOMPUTE"
+    }
+  },
+  "product_policy_thresholds": {
+    "match_index_materiality_threshold": 0.15,
+    "priority_index_materiality_threshold": 10.0,
+    "learning_hours_substantial_band_delta": 40.0,
+    "minimum_cohort_reporting_threshold": 5,
+    "hysteresis_margin": 0.02
+  },
+  "materiality_definitions": {
+    "HIGH_MATERIALITY": "Structural outcome changes: top recommended role changed, CORE skill gap added/removed, required pathway step added/removed, or privacy threshold breached.",
+    "MATERIAL": "Significant secondary changes: top-3 role membership/order change, IMPORTANT gap set change, recommended pathway order change, O1 top priority skill shift, or learning hours band shift >= 40h.",
+    "MINOR": "Score or index movement with stable rankings, identical gap sets, identical pathway structure, and identical priority skill sets.",
+    "NONE": "Semantically identical outputs across all evaluated dimensions."
+  },
+  "privacy_safe_diff_strings": {
+    "suppressed_to_suppressed": "SUPPRESSED → SUPPRESSED",
+    "suppressed_to_visible": "Previously suppressed; now above reporting threshold.",
+    "visible_to_suppressed": "Previously reportable; now below reporting threshold."
+  },
+  "quality_flags": [
+    "SYNTHETIC_CHANGE_FIXTURE",
+    "NO_SEMANTIC_CHANGE",
+    "MINOR_SCORE_MOVEMENT_ONLY",
+    "MATERIAL_ROLE_CHANGE",
+    "CORE_GAP_CHANGE",
+    "PATHWAY_STRUCTURE_CHANGE",
+    "SCENARIO_ASSUMPTION_CHANGE",
+    "COHORT_COMPOSITION_CHANGE",
+    "SUPPRESSED_CHANGE_DETAILS",
+    "STALE_EVENT",
+    "DUPLICATE_EVENT",
+    "UNSUPPORTED_UPSTREAM_VERSION",
+    "HUMAN_ACKNOWLEDGEMENT_REQUIRED",
+    "PARTIAL_DIFFERENCING_PROTECTION",
+    "NOT_FOR_EMPLOYMENT_DECISIONS"
+  ]
+}

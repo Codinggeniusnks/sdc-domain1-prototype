@@ -1,0 +1,5246 @@
+[
+  {
+    "record_id": "masco-2519-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "2519",
+    "true_labels": [
+      "ai_literacy",
+      "prompt_engineering",
+      "python_scripting",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_literacy",
+      "prompt_engineering",
+      "python_scripting",
+      "human_in_the_loop_qa"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_literacy",
+      "prompt_engineering",
+      "human_in_the_loop_qa"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "python_scripting",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "ai_ethics_governance"
+    ],
+    "P_A": {
+      "ai_literacy": 0.754,
+      "prompt_engineering": 0.5617,
+      "process_mapping": 0.113,
+      "sql_data_analysis": 0.1806,
+      "python_scripting": 0.3422,
+      "data_visualization": 0.2897,
+      "workflow_automation": 0.2716,
+      "human_in_the_loop_qa": 0.8445,
+      "rag_knowledge_systems": 0.1525,
+      "api_integration": 0.1163,
+      "ai_ethics_governance": 0.1758,
+      "data_privacy_pdpa": 0.0567,
+      "esg_sustainability_reporting": 0.0582,
+      "carbon_footprint_analytics": 0.0956,
+      "stakeholder_communication": 0.2072,
+      "instructional_design": 0.1705
+    },
+    "P_C1": {
+      "ai_literacy": 0.8065,
+      "prompt_engineering": 0.5091,
+      "process_mapping": 0.1366,
+      "sql_data_analysis": 0.0948,
+      "python_scripting": 0.5301,
+      "data_visualization": 0.4535,
+      "workflow_automation": 0.5084,
+      "human_in_the_loop_qa": 0.7677,
+      "rag_knowledge_systems": 0.2609,
+      "api_integration": 0.0536,
+      "ai_ethics_governance": 0.0491,
+      "data_privacy_pdpa": 0.106,
+      "esg_sustainability_reporting": 0.0126,
+      "carbon_footprint_analytics": 0.0256,
+      "stakeholder_communication": 0.1089,
+      "instructional_design": 0.1625
+    },
+    "P_final": {
+      "ai_literacy": 0.7698,
+      "prompt_engineering": 0.546,
+      "process_mapping": 0.1201,
+      "sql_data_analysis": 0.1548,
+      "python_scripting": 0.3986,
+      "data_visualization": 0.3389,
+      "workflow_automation": 0.3427,
+      "human_in_the_loop_qa": 0.8215,
+      "rag_knowledge_systems": 0.185,
+      "api_integration": 0.0975,
+      "ai_ethics_governance": 0.1378,
+      "data_privacy_pdpa": 0.0715,
+      "esg_sustainability_reporting": 0.0445,
+      "carbon_footprint_analytics": 0.0746,
+      "stakeholder_communication": 0.1777,
+      "instructional_design": 0.1681
+    }
+  },
+  {
+    "record_id": "masco-2519-02",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "2519",
+    "true_labels": [
+      "ai_literacy",
+      "prompt_engineering",
+      "sql_data_analysis",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_literacy",
+      "prompt_engineering",
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_literacy",
+      "prompt_engineering",
+      "human_in_the_loop_qa"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "sql_data_analysis",
+      "ai_ethics_governance"
+    ],
+    "P_A": {
+      "ai_literacy": 0.7658,
+      "prompt_engineering": 0.8061,
+      "process_mapping": 0.1107,
+      "sql_data_analysis": 0.1181,
+      "python_scripting": 0.2442,
+      "data_visualization": 0.0838,
+      "workflow_automation": 0.1592,
+      "human_in_the_loop_qa": 0.7084,
+      "rag_knowledge_systems": 0.2085,
+      "api_integration": 0.288,
+      "ai_ethics_governance": 0.1308,
+      "data_privacy_pdpa": 0.1923,
+      "esg_sustainability_reporting": 0.0805,
+      "carbon_footprint_analytics": 0.0803,
+      "stakeholder_communication": 0.3074,
+      "instructional_design": 0.3578
+    },
+    "P_C1": {
+      "ai_literacy": 0.3358,
+      "prompt_engineering": 0.3916,
+      "process_mapping": 0.28,
+      "sql_data_analysis": 0.4317,
+      "python_scripting": 0.0718,
+      "data_visualization": 0.1905,
+      "workflow_automation": 0.0845,
+      "human_in_the_loop_qa": 0.8141,
+      "rag_knowledge_systems": 0.1073,
+      "api_integration": 0.1566,
+      "ai_ethics_governance": 0.327,
+      "data_privacy_pdpa": 0.8058,
+      "esg_sustainability_reporting": 0.0337,
+      "carbon_footprint_analytics": 0.0443,
+      "stakeholder_communication": 0.478,
+      "instructional_design": 0.0897
+    },
+    "P_final": {
+      "ai_literacy": 0.6368,
+      "prompt_engineering": 0.6818,
+      "process_mapping": 0.1615,
+      "sql_data_analysis": 0.2122,
+      "python_scripting": 0.1924,
+      "data_visualization": 0.1158,
+      "workflow_automation": 0.1368,
+      "human_in_the_loop_qa": 0.7401,
+      "rag_knowledge_systems": 0.1782,
+      "api_integration": 0.2486,
+      "ai_ethics_governance": 0.1897,
+      "data_privacy_pdpa": 0.3764,
+      "esg_sustainability_reporting": 0.0664,
+      "carbon_footprint_analytics": 0.0695,
+      "stakeholder_communication": 0.3586,
+      "instructional_design": 0.2774
+    }
+  },
+  {
+    "record_id": "masco-2133-02",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "2133",
+    "true_labels": [
+      "sql_data_analysis",
+      "python_scripting",
+      "data_visualization",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "python_scripting",
+      "data_visualization",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "python_scripting",
+      "data_visualization",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "workflow_automation",
+      "api_integration"
+    ],
+    "false_positives": [],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.1116,
+      "prompt_engineering": 0.0781,
+      "process_mapping": 0.0484,
+      "sql_data_analysis": 0.8643,
+      "python_scripting": 0.4856,
+      "data_visualization": 0.5765,
+      "workflow_automation": 0.2504,
+      "human_in_the_loop_qa": 0.0601,
+      "rag_knowledge_systems": 0.1563,
+      "api_integration": 0.3475,
+      "ai_ethics_governance": 0.0761,
+      "data_privacy_pdpa": 0.1661,
+      "esg_sustainability_reporting": 0.4806,
+      "carbon_footprint_analytics": 0.809,
+      "stakeholder_communication": 0.124,
+      "instructional_design": 0.1254
+    },
+    "P_C1": {
+      "ai_literacy": 0.0365,
+      "prompt_engineering": 0.021,
+      "process_mapping": 0.085,
+      "sql_data_analysis": 0.8358,
+      "python_scripting": 0.6882,
+      "data_visualization": 0.8083,
+      "workflow_automation": 0.4664,
+      "human_in_the_loop_qa": 0.0288,
+      "rag_knowledge_systems": 0.1631,
+      "api_integration": 0.2337,
+      "ai_ethics_governance": 0.0539,
+      "data_privacy_pdpa": 0.0345,
+      "esg_sustainability_reporting": 0.7833,
+      "carbon_footprint_analytics": 0.898,
+      "stakeholder_communication": 0.0989,
+      "instructional_design": 0.0324
+    },
+    "P_final": {
+      "ai_literacy": 0.0891,
+      "prompt_engineering": 0.0609,
+      "process_mapping": 0.0594,
+      "sql_data_analysis": 0.8558,
+      "python_scripting": 0.5464,
+      "data_visualization": 0.646,
+      "workflow_automation": 0.3152,
+      "human_in_the_loop_qa": 0.0507,
+      "rag_knowledge_systems": 0.1584,
+      "api_integration": 0.3134,
+      "ai_ethics_governance": 0.0694,
+      "data_privacy_pdpa": 0.1266,
+      "esg_sustainability_reporting": 0.5714,
+      "carbon_footprint_analytics": 0.8357,
+      "stakeholder_communication": 0.1164,
+      "instructional_design": 0.0975
+    }
+  },
+  {
+    "record_id": "masco-2141-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "2141",
+    "true_labels": [
+      "process_mapping",
+      "sql_data_analysis",
+      "python_scripting",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "python_scripting"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0424,
+      "prompt_engineering": 0.0537,
+      "process_mapping": 0.8757,
+      "sql_data_analysis": 0.4065,
+      "python_scripting": 0.1562,
+      "data_visualization": 0.5531,
+      "workflow_automation": 0.8542,
+      "human_in_the_loop_qa": 0.3426,
+      "rag_knowledge_systems": 0.0612,
+      "api_integration": 0.2153,
+      "ai_ethics_governance": 0.041,
+      "data_privacy_pdpa": 0.0717,
+      "esg_sustainability_reporting": 0.1202,
+      "carbon_footprint_analytics": 0.1353,
+      "stakeholder_communication": 0.4078,
+      "instructional_design": 0.0464
+    },
+    "P_C1": {
+      "ai_literacy": 0.0338,
+      "prompt_engineering": 0.0374,
+      "process_mapping": 0.8427,
+      "sql_data_analysis": 0.6065,
+      "python_scripting": 0.3074,
+      "data_visualization": 0.7992,
+      "workflow_automation": 0.8681,
+      "human_in_the_loop_qa": 0.2671,
+      "rag_knowledge_systems": 0.0503,
+      "api_integration": 0.2262,
+      "ai_ethics_governance": 0.0229,
+      "data_privacy_pdpa": 0.0595,
+      "esg_sustainability_reporting": 0.1151,
+      "carbon_footprint_analytics": 0.0586,
+      "stakeholder_communication": 0.3071,
+      "instructional_design": 0.0577
+    },
+    "P_final": {
+      "ai_literacy": 0.0398,
+      "prompt_engineering": 0.0488,
+      "process_mapping": 0.8658,
+      "sql_data_analysis": 0.4665,
+      "python_scripting": 0.2016,
+      "data_visualization": 0.6269,
+      "workflow_automation": 0.8584,
+      "human_in_the_loop_qa": 0.3199,
+      "rag_knowledge_systems": 0.0579,
+      "api_integration": 0.2186,
+      "ai_ethics_governance": 0.0356,
+      "data_privacy_pdpa": 0.068,
+      "esg_sustainability_reporting": 0.1187,
+      "carbon_footprint_analytics": 0.1122,
+      "stakeholder_communication": 0.3776,
+      "instructional_design": 0.0498
+    }
+  },
+  {
+    "record_id": "masco-2422-02",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "2422",
+    "true_labels": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "ai_literacy",
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "api_integration"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "process_mapping",
+      "instructional_design"
+    ],
+    "P_A": {
+      "ai_literacy": 0.3175,
+      "prompt_engineering": 0.1116,
+      "process_mapping": 0.2145,
+      "sql_data_analysis": 0.3472,
+      "python_scripting": 0.075,
+      "data_visualization": 0.2692,
+      "workflow_automation": 0.1972,
+      "human_in_the_loop_qa": 0.163,
+      "rag_knowledge_systems": 0.0622,
+      "api_integration": 0.2994,
+      "ai_ethics_governance": 0.6687,
+      "data_privacy_pdpa": 0.9495,
+      "esg_sustainability_reporting": 0.0665,
+      "carbon_footprint_analytics": 0.0624,
+      "stakeholder_communication": 0.6167,
+      "instructional_design": 0.0933
+    },
+    "P_C1": {
+      "ai_literacy": 0.1848,
+      "prompt_engineering": 0.0587,
+      "process_mapping": 0.6425,
+      "sql_data_analysis": 0.077,
+      "python_scripting": 0.0537,
+      "data_visualization": 0.2485,
+      "workflow_automation": 0.2835,
+      "human_in_the_loop_qa": 0.45,
+      "rag_knowledge_systems": 0.0197,
+      "api_integration": 0.3852,
+      "ai_ethics_governance": 0.8068,
+      "data_privacy_pdpa": 0.9856,
+      "esg_sustainability_reporting": 0.0451,
+      "carbon_footprint_analytics": 0.025,
+      "stakeholder_communication": 0.6768,
+      "instructional_design": 0.0534
+    },
+    "P_final": {
+      "ai_literacy": 0.2777,
+      "prompt_engineering": 0.0957,
+      "process_mapping": 0.3429,
+      "sql_data_analysis": 0.2661,
+      "python_scripting": 0.0686,
+      "data_visualization": 0.2629,
+      "workflow_automation": 0.2231,
+      "human_in_the_loop_qa": 0.2491,
+      "rag_knowledge_systems": 0.0494,
+      "api_integration": 0.3251,
+      "ai_ethics_governance": 0.7102,
+      "data_privacy_pdpa": 0.9603,
+      "esg_sustainability_reporting": 0.0601,
+      "carbon_footprint_analytics": 0.0512,
+      "stakeholder_communication": 0.6347,
+      "instructional_design": 0.0813
+    }
+  },
+  {
+    "record_id": "masco-2424-02",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "2424",
+    "true_labels": [
+      "ai_literacy",
+      "data_visualization",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_literacy",
+      "process_mapping",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_literacy",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "prompt_engineering",
+      "process_mapping",
+      "data_visualization"
+    ],
+    "false_positives": [
+      "process_mapping"
+    ],
+    "false_negatives": [
+      "data_visualization",
+      "ai_ethics_governance"
+    ],
+    "P_A": {
+      "ai_literacy": 0.5324,
+      "prompt_engineering": 0.2896,
+      "process_mapping": 0.3089,
+      "sql_data_analysis": 0.1665,
+      "python_scripting": 0.0563,
+      "data_visualization": 0.3975,
+      "workflow_automation": 0.1533,
+      "human_in_the_loop_qa": 0.0784,
+      "rag_knowledge_systems": 0.1135,
+      "api_integration": 0.1912,
+      "ai_ethics_governance": 0.0693,
+      "data_privacy_pdpa": 0.1967,
+      "esg_sustainability_reporting": 0.1196,
+      "carbon_footprint_analytics": 0.0834,
+      "stakeholder_communication": 0.5258,
+      "instructional_design": 0.7717
+    },
+    "P_C1": {
+      "ai_literacy": 0.8298,
+      "prompt_engineering": 0.4162,
+      "process_mapping": 0.5941,
+      "sql_data_analysis": 0.2544,
+      "python_scripting": 0.0486,
+      "data_visualization": 0.2075,
+      "workflow_automation": 0.2138,
+      "human_in_the_loop_qa": 0.2636,
+      "rag_knowledge_systems": 0.147,
+      "api_integration": 0.0261,
+      "ai_ethics_governance": 0.0814,
+      "data_privacy_pdpa": 0.083,
+      "esg_sustainability_reporting": 0.0166,
+      "carbon_footprint_analytics": 0.0143,
+      "stakeholder_communication": 0.7921,
+      "instructional_design": 0.8103
+    },
+    "P_final": {
+      "ai_literacy": 0.6216,
+      "prompt_engineering": 0.3276,
+      "process_mapping": 0.3945,
+      "sql_data_analysis": 0.1929,
+      "python_scripting": 0.054,
+      "data_visualization": 0.3405,
+      "workflow_automation": 0.1715,
+      "human_in_the_loop_qa": 0.134,
+      "rag_knowledge_systems": 0.1235,
+      "api_integration": 0.1417,
+      "ai_ethics_governance": 0.073,
+      "data_privacy_pdpa": 0.1626,
+      "esg_sustainability_reporting": 0.0887,
+      "carbon_footprint_analytics": 0.0627,
+      "stakeholder_communication": 0.6057,
+      "instructional_design": 0.7833
+    }
+  },
+  {
+    "record_id": "masco-2412-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "2412",
+    "true_labels": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "process_mapping"
+    ],
+    "P_A": {
+      "ai_literacy": 0.064,
+      "prompt_engineering": 0.0465,
+      "process_mapping": 0.3761,
+      "sql_data_analysis": 0.8861,
+      "python_scripting": 0.1869,
+      "data_visualization": 0.897,
+      "workflow_automation": 0.2084,
+      "human_in_the_loop_qa": 0.2037,
+      "rag_knowledge_systems": 0.0478,
+      "api_integration": 0.0736,
+      "ai_ethics_governance": 0.1031,
+      "data_privacy_pdpa": 0.3082,
+      "esg_sustainability_reporting": 0.1399,
+      "carbon_footprint_analytics": 0.0991,
+      "stakeholder_communication": 0.7071,
+      "instructional_design": 0.0879
+    },
+    "P_C1": {
+      "ai_literacy": 0.0371,
+      "prompt_engineering": 0.1153,
+      "process_mapping": 0.2999,
+      "sql_data_analysis": 0.9677,
+      "python_scripting": 0.0917,
+      "data_visualization": 0.7527,
+      "workflow_automation": 0.2483,
+      "human_in_the_loop_qa": 0.09,
+      "rag_knowledge_systems": 0.1042,
+      "api_integration": 0.07,
+      "ai_ethics_governance": 0.1682,
+      "data_privacy_pdpa": 0.2179,
+      "esg_sustainability_reporting": 0.0765,
+      "carbon_footprint_analytics": 0.0978,
+      "stakeholder_communication": 0.8543,
+      "instructional_design": 0.0915
+    },
+    "P_final": {
+      "ai_literacy": 0.0559,
+      "prompt_engineering": 0.0671,
+      "process_mapping": 0.3533,
+      "sql_data_analysis": 0.9106,
+      "python_scripting": 0.1583,
+      "data_visualization": 0.8537,
+      "workflow_automation": 0.2204,
+      "human_in_the_loop_qa": 0.1696,
+      "rag_knowledge_systems": 0.0648,
+      "api_integration": 0.0725,
+      "ai_ethics_governance": 0.1226,
+      "data_privacy_pdpa": 0.2811,
+      "esg_sustainability_reporting": 0.1208,
+      "carbon_footprint_analytics": 0.0988,
+      "stakeholder_communication": 0.7513,
+      "instructional_design": 0.089
+    }
+  },
+  {
+    "record_id": "masco-4222-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "4222",
+    "true_labels": [],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "sql_data_analysis",
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "sql_data_analysis",
+      "data_visualization",
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "sql_data_analysis",
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0959,
+      "prompt_engineering": 0.1119,
+      "process_mapping": 0.3097,
+      "sql_data_analysis": 0.387,
+      "python_scripting": 0.2312,
+      "data_visualization": 0.3968,
+      "workflow_automation": 0.1436,
+      "human_in_the_loop_qa": 0.3909,
+      "rag_knowledge_systems": 0.0727,
+      "api_integration": 0.2047,
+      "ai_ethics_governance": 0.083,
+      "data_privacy_pdpa": 0.4278,
+      "esg_sustainability_reporting": 0.0824,
+      "carbon_footprint_analytics": 0.0945,
+      "stakeholder_communication": 0.3218,
+      "instructional_design": 0.0619
+    },
+    "P_C1": {
+      "ai_literacy": 0.0952,
+      "prompt_engineering": 0.2279,
+      "process_mapping": 0.802,
+      "sql_data_analysis": 0.369,
+      "python_scripting": 0.0905,
+      "data_visualization": 0.1194,
+      "workflow_automation": 0.3697,
+      "human_in_the_loop_qa": 0.5624,
+      "rag_knowledge_systems": 0.0668,
+      "api_integration": 0.1798,
+      "ai_ethics_governance": 0.1186,
+      "data_privacy_pdpa": 0.4342,
+      "esg_sustainability_reporting": 0.0092,
+      "carbon_footprint_analytics": 0.0075,
+      "stakeholder_communication": 0.5731,
+      "instructional_design": 0.0566
+    },
+    "P_final": {
+      "ai_literacy": 0.0957,
+      "prompt_engineering": 0.1467,
+      "process_mapping": 0.4574,
+      "sql_data_analysis": 0.3816,
+      "python_scripting": 0.189,
+      "data_visualization": 0.3136,
+      "workflow_automation": 0.2114,
+      "human_in_the_loop_qa": 0.4423,
+      "rag_knowledge_systems": 0.0709,
+      "api_integration": 0.1972,
+      "ai_ethics_governance": 0.0937,
+      "data_privacy_pdpa": 0.4297,
+      "esg_sustainability_reporting": 0.0604,
+      "carbon_footprint_analytics": 0.0684,
+      "stakeholder_communication": 0.3972,
+      "instructional_design": 0.0603
+    }
+  },
+  {
+    "record_id": "masco-4311-01",
+    "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+    "occupation_title": "",
+    "occupation_group": "4311",
+    "true_labels": [],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "workflow_automation",
+      "human_in_the_loop_qa"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "workflow_automation",
+      "human_in_the_loop_qa"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "python_scripting",
+      "api_integration",
+      "data_privacy_pdpa"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "workflow_automation",
+      "human_in_the_loop_qa"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.1063,
+      "prompt_engineering": 0.0774,
+      "process_mapping": 0.4839,
+      "sql_data_analysis": 0.2376,
+      "python_scripting": 0.3018,
+      "data_visualization": 0.1863,
+      "workflow_automation": 0.4248,
+      "human_in_the_loop_qa": 0.4664,
+      "rag_knowledge_systems": 0.1199,
+      "api_integration": 0.2109,
+      "ai_ethics_governance": 0.0999,
+      "data_privacy_pdpa": 0.2094,
+      "esg_sustainability_reporting": 0.13,
+      "carbon_footprint_analytics": 0.1085,
+      "stakeholder_communication": 0.2359,
+      "instructional_design": 0.1138
+    },
+    "P_C1": {
+      "ai_literacy": 0.0118,
+      "prompt_engineering": 0.0379,
+      "process_mapping": 0.5238,
+      "sql_data_analysis": 0.2778,
+      "python_scripting": 0.2595,
+      "data_visualization": 0.0782,
+      "workflow_automation": 0.612,
+      "human_in_the_loop_qa": 0.5424,
+      "rag_knowledge_systems": 0.1253,
+      "api_integration": 0.3929,
+      "ai_ethics_governance": 0.1061,
+      "data_privacy_pdpa": 0.4415,
+      "esg_sustainability_reporting": 0.0275,
+      "carbon_footprint_analytics": 0.0218,
+      "stakeholder_communication": 0.1595,
+      "instructional_design": 0.0345
+    },
+    "P_final": {
+      "ai_literacy": 0.0779,
+      "prompt_engineering": 0.0656,
+      "process_mapping": 0.4959,
+      "sql_data_analysis": 0.2496,
+      "python_scripting": 0.2891,
+      "data_visualization": 0.1539,
+      "workflow_automation": 0.481,
+      "human_in_the_loop_qa": 0.4892,
+      "rag_knowledge_systems": 0.1215,
+      "api_integration": 0.2655,
+      "ai_ethics_governance": 0.1018,
+      "data_privacy_pdpa": 0.279,
+      "esg_sustainability_reporting": 0.0993,
+      "carbon_footprint_analytics": 0.0825,
+      "stakeholder_communication": 0.213,
+      "instructional_design": 0.09
+    }
+  },
+  {
+    "record_id": "fw-applied-ai_literacy",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-ai_literacy",
+    "true_labels": [
+      "ai_literacy"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_literacy",
+      "prompt_engineering",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_literacy",
+      "prompt_engineering",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping"
+    ],
+    "false_positives": [
+      "prompt_engineering",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.8519,
+      "prompt_engineering": 0.3645,
+      "process_mapping": 0.3754,
+      "sql_data_analysis": 0.1659,
+      "python_scripting": 0.0778,
+      "data_visualization": 0.1622,
+      "workflow_automation": 0.1987,
+      "human_in_the_loop_qa": 0.1757,
+      "rag_knowledge_systems": 0.0986,
+      "api_integration": 0.0829,
+      "ai_ethics_governance": 0.0705,
+      "data_privacy_pdpa": 0.0818,
+      "esg_sustainability_reporting": 0.1736,
+      "carbon_footprint_analytics": 0.1298,
+      "stakeholder_communication": 0.4808,
+      "instructional_design": 0.1875
+    },
+    "P_C1": {
+      "ai_literacy": 0.9378,
+      "prompt_engineering": 0.6797,
+      "process_mapping": 0.4192,
+      "sql_data_analysis": 0.067,
+      "python_scripting": 0.0469,
+      "data_visualization": 0.1263,
+      "workflow_automation": 0.1995,
+      "human_in_the_loop_qa": 0.3879,
+      "rag_knowledge_systems": 0.0566,
+      "api_integration": 0.1122,
+      "ai_ethics_governance": 0.2487,
+      "data_privacy_pdpa": 0.0505,
+      "esg_sustainability_reporting": 0.0679,
+      "carbon_footprint_analytics": 0.0419,
+      "stakeholder_communication": 0.5661,
+      "instructional_design": 0.226
+    },
+    "P_final": {
+      "ai_literacy": 0.8776,
+      "prompt_engineering": 0.4591,
+      "process_mapping": 0.3886,
+      "sql_data_analysis": 0.1362,
+      "python_scripting": 0.0685,
+      "data_visualization": 0.1514,
+      "workflow_automation": 0.1989,
+      "human_in_the_loop_qa": 0.2393,
+      "rag_knowledge_systems": 0.086,
+      "api_integration": 0.0917,
+      "ai_ethics_governance": 0.1239,
+      "data_privacy_pdpa": 0.0725,
+      "esg_sustainability_reporting": 0.1419,
+      "carbon_footprint_analytics": 0.1034,
+      "stakeholder_communication": 0.5064,
+      "instructional_design": 0.199
+    }
+  },
+  {
+    "record_id": "fw-applied-prompt_engineering",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-prompt_engineering",
+    "true_labels": [
+      "prompt_engineering"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_literacy",
+      "prompt_engineering"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_literacy",
+      "prompt_engineering"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "human_in_the_loop_qa",
+      "api_integration",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "false_positives": [
+      "ai_literacy"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.5077,
+      "prompt_engineering": 0.8943,
+      "process_mapping": 0.2591,
+      "sql_data_analysis": 0.1166,
+      "python_scripting": 0.0554,
+      "data_visualization": 0.0647,
+      "workflow_automation": 0.1967,
+      "human_in_the_loop_qa": 0.3162,
+      "rag_knowledge_systems": 0.0711,
+      "api_integration": 0.3123,
+      "ai_ethics_governance": 0.059,
+      "data_privacy_pdpa": 0.0412,
+      "esg_sustainability_reporting": 0.1337,
+      "carbon_footprint_analytics": 0.0534,
+      "stakeholder_communication": 0.2513,
+      "instructional_design": 0.2464
+    },
+    "P_C1": {
+      "ai_literacy": 0.8514,
+      "prompt_engineering": 0.93,
+      "process_mapping": 0.2672,
+      "sql_data_analysis": 0.0861,
+      "python_scripting": 0.0609,
+      "data_visualization": 0.0746,
+      "workflow_automation": 0.1962,
+      "human_in_the_loop_qa": 0.5053,
+      "rag_knowledge_systems": 0.0506,
+      "api_integration": 0.2379,
+      "ai_ethics_governance": 0.0434,
+      "data_privacy_pdpa": 0.0326,
+      "esg_sustainability_reporting": 0.0284,
+      "carbon_footprint_analytics": 0.0238,
+      "stakeholder_communication": 0.3751,
+      "instructional_design": 0.2683
+    },
+    "P_final": {
+      "ai_literacy": 0.6108,
+      "prompt_engineering": 0.905,
+      "process_mapping": 0.2615,
+      "sql_data_analysis": 0.1075,
+      "python_scripting": 0.0571,
+      "data_visualization": 0.0677,
+      "workflow_automation": 0.1966,
+      "human_in_the_loop_qa": 0.373,
+      "rag_knowledge_systems": 0.0649,
+      "api_integration": 0.29,
+      "ai_ethics_governance": 0.0544,
+      "data_privacy_pdpa": 0.0386,
+      "esg_sustainability_reporting": 0.1021,
+      "carbon_footprint_analytics": 0.0445,
+      "stakeholder_communication": 0.2884,
+      "instructional_design": 0.253
+    }
+  },
+  {
+    "record_id": "fw-applied-process_mapping",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-process_mapping",
+    "true_labels": [
+      "process_mapping"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "ai_literacy",
+      "sql_data_analysis"
+    ],
+    "false_positives": [
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.2918,
+      "prompt_engineering": 0.1622,
+      "process_mapping": 0.9159,
+      "sql_data_analysis": 0.3315,
+      "python_scripting": 0.0604,
+      "data_visualization": 0.1237,
+      "workflow_automation": 0.6055,
+      "human_in_the_loop_qa": 0.1174,
+      "rag_knowledge_systems": 0.0294,
+      "api_integration": 0.1679,
+      "ai_ethics_governance": 0.0503,
+      "data_privacy_pdpa": 0.0631,
+      "esg_sustainability_reporting": 0.0636,
+      "carbon_footprint_analytics": 0.0329,
+      "stakeholder_communication": 0.6157,
+      "instructional_design": 0.1257
+    },
+    "P_C1": {
+      "ai_literacy": 0.1941,
+      "prompt_engineering": 0.116,
+      "process_mapping": 0.9413,
+      "sql_data_analysis": 0.3524,
+      "python_scripting": 0.1017,
+      "data_visualization": 0.1631,
+      "workflow_automation": 0.8299,
+      "human_in_the_loop_qa": 0.4593,
+      "rag_knowledge_systems": 0.0193,
+      "api_integration": 0.1734,
+      "ai_ethics_governance": 0.0882,
+      "data_privacy_pdpa": 0.0759,
+      "esg_sustainability_reporting": 0.0647,
+      "carbon_footprint_analytics": 0.0339,
+      "stakeholder_communication": 0.7949,
+      "instructional_design": 0.0319
+    },
+    "P_final": {
+      "ai_literacy": 0.2625,
+      "prompt_engineering": 0.1483,
+      "process_mapping": 0.9235,
+      "sql_data_analysis": 0.3377,
+      "python_scripting": 0.0728,
+      "data_visualization": 0.1356,
+      "workflow_automation": 0.6728,
+      "human_in_the_loop_qa": 0.22,
+      "rag_knowledge_systems": 0.0264,
+      "api_integration": 0.1696,
+      "ai_ethics_governance": 0.0617,
+      "data_privacy_pdpa": 0.0669,
+      "esg_sustainability_reporting": 0.064,
+      "carbon_footprint_analytics": 0.0332,
+      "stakeholder_communication": 0.6695,
+      "instructional_design": 0.0976
+    }
+  },
+  {
+    "record_id": "fw-applied-sql_data_analysis",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-sql_data_analysis",
+    "true_labels": [
+      "sql_data_analysis"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0868,
+      "prompt_engineering": 0.0563,
+      "process_mapping": 0.3538,
+      "sql_data_analysis": 0.9709,
+      "python_scripting": 0.1633,
+      "data_visualization": 0.4071,
+      "workflow_automation": 0.2006,
+      "human_in_the_loop_qa": 0.0852,
+      "rag_knowledge_systems": 0.1625,
+      "api_integration": 0.2229,
+      "ai_ethics_governance": 0.0769,
+      "data_privacy_pdpa": 0.2936,
+      "esg_sustainability_reporting": 0.1146,
+      "carbon_footprint_analytics": 0.1159,
+      "stakeholder_communication": 0.436,
+      "instructional_design": 0.1449
+    },
+    "P_C1": {
+      "ai_literacy": 0.0597,
+      "prompt_engineering": 0.0482,
+      "process_mapping": 0.5571,
+      "sql_data_analysis": 0.9116,
+      "python_scripting": 0.1279,
+      "data_visualization": 0.5721,
+      "workflow_automation": 0.3398,
+      "human_in_the_loop_qa": 0.2883,
+      "rag_knowledge_systems": 0.0772,
+      "api_integration": 0.0918,
+      "ai_ethics_governance": 0.0862,
+      "data_privacy_pdpa": 0.3425,
+      "esg_sustainability_reporting": 0.081,
+      "carbon_footprint_analytics": 0.0938,
+      "stakeholder_communication": 0.4917,
+      "instructional_design": 0.0609
+    },
+    "P_final": {
+      "ai_literacy": 0.0787,
+      "prompt_engineering": 0.0539,
+      "process_mapping": 0.4148,
+      "sql_data_analysis": 0.9531,
+      "python_scripting": 0.1526,
+      "data_visualization": 0.4566,
+      "workflow_automation": 0.2424,
+      "human_in_the_loop_qa": 0.1461,
+      "rag_knowledge_systems": 0.1369,
+      "api_integration": 0.1835,
+      "ai_ethics_governance": 0.0797,
+      "data_privacy_pdpa": 0.3083,
+      "esg_sustainability_reporting": 0.1046,
+      "carbon_footprint_analytics": 0.1093,
+      "stakeholder_communication": 0.4527,
+      "instructional_design": 0.1197
+    }
+  },
+  {
+    "record_id": "fw-applied-python_scripting",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-python_scripting",
+    "true_labels": [
+      "python_scripting"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "python_scripting",
+      "workflow_automation",
+      "api_integration"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "python_scripting",
+      "workflow_automation"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "api_integration"
+    ],
+    "false_positives": [
+      "sql_data_analysis",
+      "workflow_automation",
+      "api_integration"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.1431,
+      "prompt_engineering": 0.1351,
+      "process_mapping": 0.2574,
+      "sql_data_analysis": 0.5369,
+      "python_scripting": 0.7881,
+      "data_visualization": 0.1985,
+      "workflow_automation": 0.5219,
+      "human_in_the_loop_qa": 0.0982,
+      "rag_knowledge_systems": 0.157,
+      "api_integration": 0.3967,
+      "ai_ethics_governance": 0.0684,
+      "data_privacy_pdpa": 0.085,
+      "esg_sustainability_reporting": 0.0583,
+      "carbon_footprint_analytics": 0.058,
+      "stakeholder_communication": 0.0739,
+      "instructional_design": 0.0619
+    },
+    "P_C1": {
+      "ai_literacy": 0.285,
+      "prompt_engineering": 0.1275,
+      "process_mapping": 0.1674,
+      "sql_data_analysis": 0.4997,
+      "python_scripting": 0.8477,
+      "data_visualization": 0.2257,
+      "workflow_automation": 0.6314,
+      "human_in_the_loop_qa": 0.1803,
+      "rag_knowledge_systems": 0.0522,
+      "api_integration": 0.3545,
+      "ai_ethics_governance": 0.0324,
+      "data_privacy_pdpa": 0.1507,
+      "esg_sustainability_reporting": 0.0126,
+      "carbon_footprint_analytics": 0.014,
+      "stakeholder_communication": 0.2018,
+      "instructional_design": 0.0545
+    },
+    "P_final": {
+      "ai_literacy": 0.1857,
+      "prompt_engineering": 0.1328,
+      "process_mapping": 0.2304,
+      "sql_data_analysis": 0.5257,
+      "python_scripting": 0.806,
+      "data_visualization": 0.2067,
+      "workflow_automation": 0.5548,
+      "human_in_the_loop_qa": 0.1228,
+      "rag_knowledge_systems": 0.1255,
+      "api_integration": 0.384,
+      "ai_ethics_governance": 0.0576,
+      "data_privacy_pdpa": 0.1047,
+      "esg_sustainability_reporting": 0.0446,
+      "carbon_footprint_analytics": 0.0448,
+      "stakeholder_communication": 0.1122,
+      "instructional_design": 0.0597
+    }
+  },
+  {
+    "record_id": "fw-applied-data_visualization",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-data_visualization",
+    "true_labels": [
+      "data_visualization"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "workflow_automation"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "sql_data_analysis",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0697,
+      "prompt_engineering": 0.0592,
+      "process_mapping": 0.4417,
+      "sql_data_analysis": 0.3463,
+      "python_scripting": 0.08,
+      "data_visualization": 0.8401,
+      "workflow_automation": 0.3018,
+      "human_in_the_loop_qa": 0.1139,
+      "rag_knowledge_systems": 0.1132,
+      "api_integration": 0.1588,
+      "ai_ethics_governance": 0.0597,
+      "data_privacy_pdpa": 0.1468,
+      "esg_sustainability_reporting": 0.1631,
+      "carbon_footprint_analytics": 0.1097,
+      "stakeholder_communication": 0.3995,
+      "instructional_design": 0.1556
+    },
+    "P_C1": {
+      "ai_literacy": 0.121,
+      "prompt_engineering": 0.0736,
+      "process_mapping": 0.6676,
+      "sql_data_analysis": 0.7249,
+      "python_scripting": 0.048,
+      "data_visualization": 0.8935,
+      "workflow_automation": 0.5459,
+      "human_in_the_loop_qa": 0.2394,
+      "rag_knowledge_systems": 0.0223,
+      "api_integration": 0.0369,
+      "ai_ethics_governance": 0.0205,
+      "data_privacy_pdpa": 0.1008,
+      "esg_sustainability_reporting": 0.1381,
+      "carbon_footprint_analytics": 0.1075,
+      "stakeholder_communication": 0.6116,
+      "instructional_design": 0.1384
+    },
+    "P_final": {
+      "ai_literacy": 0.0851,
+      "prompt_engineering": 0.0636,
+      "process_mapping": 0.5095,
+      "sql_data_analysis": 0.4599,
+      "python_scripting": 0.0704,
+      "data_visualization": 0.8561,
+      "workflow_automation": 0.375,
+      "human_in_the_loop_qa": 0.1515,
+      "rag_knowledge_systems": 0.0859,
+      "api_integration": 0.1223,
+      "ai_ethics_governance": 0.0479,
+      "data_privacy_pdpa": 0.133,
+      "esg_sustainability_reporting": 0.1556,
+      "carbon_footprint_analytics": 0.109,
+      "stakeholder_communication": 0.4632,
+      "instructional_design": 0.1504
+    }
+  },
+  {
+    "record_id": "fw-applied-workflow_automation",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-workflow_automation",
+    "true_labels": [
+      "workflow_automation"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "api_integration",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.1332,
+      "prompt_engineering": 0.1616,
+      "process_mapping": 0.5205,
+      "sql_data_analysis": 0.1487,
+      "python_scripting": 0.0946,
+      "data_visualization": 0.0654,
+      "workflow_automation": 0.8964,
+      "human_in_the_loop_qa": 0.2097,
+      "rag_knowledge_systems": 0.0572,
+      "api_integration": 0.2429,
+      "ai_ethics_governance": 0.0428,
+      "data_privacy_pdpa": 0.0837,
+      "esg_sustainability_reporting": 0.0497,
+      "carbon_footprint_analytics": 0.0421,
+      "stakeholder_communication": 0.3912,
+      "instructional_design": 0.0915
+    },
+    "P_C1": {
+      "ai_literacy": 0.3769,
+      "prompt_engineering": 0.2061,
+      "process_mapping": 0.4798,
+      "sql_data_analysis": 0.2092,
+      "python_scripting": 0.2772,
+      "data_visualization": 0.1538,
+      "workflow_automation": 0.8972,
+      "human_in_the_loop_qa": 0.3339,
+      "rag_knowledge_systems": 0.0232,
+      "api_integration": 0.3641,
+      "ai_ethics_governance": 0.1032,
+      "data_privacy_pdpa": 0.069,
+      "esg_sustainability_reporting": 0.0208,
+      "carbon_footprint_analytics": 0.0128,
+      "stakeholder_communication": 0.3698,
+      "instructional_design": 0.017
+    },
+    "P_final": {
+      "ai_literacy": 0.2063,
+      "prompt_engineering": 0.175,
+      "process_mapping": 0.5083,
+      "sql_data_analysis": 0.1668,
+      "python_scripting": 0.1494,
+      "data_visualization": 0.0919,
+      "workflow_automation": 0.8966,
+      "human_in_the_loop_qa": 0.2469,
+      "rag_knowledge_systems": 0.047,
+      "api_integration": 0.2792,
+      "ai_ethics_governance": 0.0609,
+      "data_privacy_pdpa": 0.0793,
+      "esg_sustainability_reporting": 0.0411,
+      "carbon_footprint_analytics": 0.0333,
+      "stakeholder_communication": 0.3848,
+      "instructional_design": 0.0692
+    }
+  },
+  {
+    "record_id": "fw-applied-human_in_the_loop_qa",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-human_in_the_loop_qa",
+    "true_labels": [
+      "human_in_the_loop_qa"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_literacy",
+      "process_mapping",
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "ai_literacy",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.4575,
+      "prompt_engineering": 0.1933,
+      "process_mapping": 0.2496,
+      "sql_data_analysis": 0.0926,
+      "python_scripting": 0.1157,
+      "data_visualization": 0.1099,
+      "workflow_automation": 0.2304,
+      "human_in_the_loop_qa": 0.7218,
+      "rag_knowledge_systems": 0.1804,
+      "api_integration": 0.1814,
+      "ai_ethics_governance": 0.1084,
+      "data_privacy_pdpa": 0.0585,
+      "esg_sustainability_reporting": 0.0991,
+      "carbon_footprint_analytics": 0.1305,
+      "stakeholder_communication": 0.3863,
+      "instructional_design": 0.1818
+    },
+    "P_C1": {
+      "ai_literacy": 0.7082,
+      "prompt_engineering": 0.3287,
+      "process_mapping": 0.7385,
+      "sql_data_analysis": 0.0403,
+      "python_scripting": 0.0543,
+      "data_visualization": 0.3072,
+      "workflow_automation": 0.5281,
+      "human_in_the_loop_qa": 0.8394,
+      "rag_knowledge_systems": 0.052,
+      "api_integration": 0.0368,
+      "ai_ethics_governance": 0.1011,
+      "data_privacy_pdpa": 0.1283,
+      "esg_sustainability_reporting": 0.0437,
+      "carbon_footprint_analytics": 0.036,
+      "stakeholder_communication": 0.5944,
+      "instructional_design": 0.1989
+    },
+    "P_final": {
+      "ai_literacy": 0.5327,
+      "prompt_engineering": 0.234,
+      "process_mapping": 0.3963,
+      "sql_data_analysis": 0.0769,
+      "python_scripting": 0.0973,
+      "data_visualization": 0.1691,
+      "workflow_automation": 0.3197,
+      "human_in_the_loop_qa": 0.7571,
+      "rag_knowledge_systems": 0.1419,
+      "api_integration": 0.138,
+      "ai_ethics_governance": 0.1062,
+      "data_privacy_pdpa": 0.0794,
+      "esg_sustainability_reporting": 0.0825,
+      "carbon_footprint_analytics": 0.1021,
+      "stakeholder_communication": 0.4487,
+      "instructional_design": 0.1869
+    }
+  },
+  {
+    "record_id": "fw-applied-rag_knowledge_systems",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-rag_knowledge_systems",
+    "true_labels": [
+      "rag_knowledge_systems"
+    ],
+    "predicted_labels_at_0.375": [
+      "python_scripting",
+      "rag_knowledge_systems",
+      "api_integration"
+    ],
+    "core_skills_ge_0.45": [
+      "python_scripting",
+      "rag_knowledge_systems"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "api_integration"
+    ],
+    "false_positives": [
+      "python_scripting",
+      "api_integration"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0597,
+      "prompt_engineering": 0.0681,
+      "process_mapping": 0.2567,
+      "sql_data_analysis": 0.3539,
+      "python_scripting": 0.5655,
+      "data_visualization": 0.1078,
+      "workflow_automation": 0.0951,
+      "human_in_the_loop_qa": 0.1084,
+      "rag_knowledge_systems": 0.9729,
+      "api_integration": 0.3814,
+      "ai_ethics_governance": 0.0972,
+      "data_privacy_pdpa": 0.1606,
+      "esg_sustainability_reporting": 0.0565,
+      "carbon_footprint_analytics": 0.0644,
+      "stakeholder_communication": 0.1767,
+      "instructional_design": 0.0854
+    },
+    "P_C1": {
+      "ai_literacy": 0.0361,
+      "prompt_engineering": 0.1048,
+      "process_mapping": 0.406,
+      "sql_data_analysis": 0.2927,
+      "python_scripting": 0.3257,
+      "data_visualization": 0.1173,
+      "workflow_automation": 0.1788,
+      "human_in_the_loop_qa": 0.3949,
+      "rag_knowledge_systems": 0.8587,
+      "api_integration": 0.4058,
+      "ai_ethics_governance": 0.1522,
+      "data_privacy_pdpa": 0.0666,
+      "esg_sustainability_reporting": 0.1086,
+      "carbon_footprint_analytics": 0.0542,
+      "stakeholder_communication": 0.3335,
+      "instructional_design": 0.0454
+    },
+    "P_final": {
+      "ai_literacy": 0.0526,
+      "prompt_engineering": 0.0791,
+      "process_mapping": 0.3015,
+      "sql_data_analysis": 0.3356,
+      "python_scripting": 0.4936,
+      "data_visualization": 0.1107,
+      "workflow_automation": 0.1202,
+      "human_in_the_loop_qa": 0.1943,
+      "rag_knowledge_systems": 0.9387,
+      "api_integration": 0.3887,
+      "ai_ethics_governance": 0.1137,
+      "data_privacy_pdpa": 0.1324,
+      "esg_sustainability_reporting": 0.0722,
+      "carbon_footprint_analytics": 0.0613,
+      "stakeholder_communication": 0.2238,
+      "instructional_design": 0.0734
+    }
+  },
+  {
+    "record_id": "fw-applied-api_integration",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-api_integration",
+    "true_labels": [
+      "api_integration"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "workflow_automation",
+      "api_integration"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "workflow_automation",
+      "api_integration"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "python_scripting"
+    ],
+    "false_positives": [
+      "sql_data_analysis",
+      "workflow_automation"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0558,
+      "prompt_engineering": 0.0602,
+      "process_mapping": 0.3265,
+      "sql_data_analysis": 0.4789,
+      "python_scripting": 0.3521,
+      "data_visualization": 0.0761,
+      "workflow_automation": 0.4037,
+      "human_in_the_loop_qa": 0.0827,
+      "rag_knowledge_systems": 0.1005,
+      "api_integration": 0.9603,
+      "ai_ethics_governance": 0.0543,
+      "data_privacy_pdpa": 0.1873,
+      "esg_sustainability_reporting": 0.0652,
+      "carbon_footprint_analytics": 0.0429,
+      "stakeholder_communication": 0.2273,
+      "instructional_design": 0.0805
+    },
+    "P_C1": {
+      "ai_literacy": 0.0878,
+      "prompt_engineering": 0.0863,
+      "process_mapping": 0.2999,
+      "sql_data_analysis": 0.5059,
+      "python_scripting": 0.3888,
+      "data_visualization": 0.1206,
+      "workflow_automation": 0.6432,
+      "human_in_the_loop_qa": 0.1935,
+      "rag_knowledge_systems": 0.0581,
+      "api_integration": 0.9533,
+      "ai_ethics_governance": 0.0389,
+      "data_privacy_pdpa": 0.1568,
+      "esg_sustainability_reporting": 0.0666,
+      "carbon_footprint_analytics": 0.0418,
+      "stakeholder_communication": 0.1963,
+      "instructional_design": 0.0238
+    },
+    "P_final": {
+      "ai_literacy": 0.0654,
+      "prompt_engineering": 0.0681,
+      "process_mapping": 0.3185,
+      "sql_data_analysis": 0.487,
+      "python_scripting": 0.3631,
+      "data_visualization": 0.0895,
+      "workflow_automation": 0.4755,
+      "human_in_the_loop_qa": 0.1159,
+      "rag_knowledge_systems": 0.0878,
+      "api_integration": 0.9582,
+      "ai_ethics_governance": 0.0497,
+      "data_privacy_pdpa": 0.1781,
+      "esg_sustainability_reporting": 0.0656,
+      "carbon_footprint_analytics": 0.0426,
+      "stakeholder_communication": 0.218,
+      "instructional_design": 0.0635
+    }
+  },
+  {
+    "record_id": "fw-applied-ai_ethics_governance",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-ai_ethics_governance",
+    "true_labels": [
+      "ai_ethics_governance"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_literacy",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa"
+    ],
+    "false_positives": [
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.5867,
+      "prompt_engineering": 0.0605,
+      "process_mapping": 0.2576,
+      "sql_data_analysis": 0.2951,
+      "python_scripting": 0.0805,
+      "data_visualization": 0.1027,
+      "workflow_automation": 0.1795,
+      "human_in_the_loop_qa": 0.217,
+      "rag_knowledge_systems": 0.0418,
+      "api_integration": 0.085,
+      "ai_ethics_governance": 0.8991,
+      "data_privacy_pdpa": 0.235,
+      "esg_sustainability_reporting": 0.2156,
+      "carbon_footprint_analytics": 0.1052,
+      "stakeholder_communication": 0.6058,
+      "instructional_design": 0.0607
+    },
+    "P_C1": {
+      "ai_literacy": 0.6783,
+      "prompt_engineering": 0.0852,
+      "process_mapping": 0.3877,
+      "sql_data_analysis": 0.3065,
+      "python_scripting": 0.1449,
+      "data_visualization": 0.1574,
+      "workflow_automation": 0.1648,
+      "human_in_the_loop_qa": 0.5354,
+      "rag_knowledge_systems": 0.0323,
+      "api_integration": 0.1563,
+      "ai_ethics_governance": 0.894,
+      "data_privacy_pdpa": 0.5076,
+      "esg_sustainability_reporting": 0.0765,
+      "carbon_footprint_analytics": 0.071,
+      "stakeholder_communication": 0.6774,
+      "instructional_design": 0.0684
+    },
+    "P_final": {
+      "ai_literacy": 0.6142,
+      "prompt_engineering": 0.0679,
+      "process_mapping": 0.2966,
+      "sql_data_analysis": 0.2985,
+      "python_scripting": 0.0998,
+      "data_visualization": 0.1191,
+      "workflow_automation": 0.1751,
+      "human_in_the_loop_qa": 0.3126,
+      "rag_knowledge_systems": 0.039,
+      "api_integration": 0.1064,
+      "ai_ethics_governance": 0.8975,
+      "data_privacy_pdpa": 0.3168,
+      "esg_sustainability_reporting": 0.1739,
+      "carbon_footprint_analytics": 0.0949,
+      "stakeholder_communication": 0.6273,
+      "instructional_design": 0.063
+    }
+  },
+  {
+    "record_id": "fw-applied-data_privacy_pdpa",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-data_privacy_pdpa",
+    "true_labels": [
+      "data_privacy_pdpa"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0995,
+      "prompt_engineering": 0.0435,
+      "process_mapping": 0.388,
+      "sql_data_analysis": 0.3941,
+      "python_scripting": 0.0877,
+      "data_visualization": 0.2037,
+      "workflow_automation": 0.2111,
+      "human_in_the_loop_qa": 0.0995,
+      "rag_knowledge_systems": 0.056,
+      "api_integration": 0.2473,
+      "ai_ethics_governance": 0.4986,
+      "data_privacy_pdpa": 0.9723,
+      "esg_sustainability_reporting": 0.0561,
+      "carbon_footprint_analytics": 0.0483,
+      "stakeholder_communication": 0.357,
+      "instructional_design": 0.0598
+    },
+    "P_C1": {
+      "ai_literacy": 0.0352,
+      "prompt_engineering": 0.0131,
+      "process_mapping": 0.4585,
+      "sql_data_analysis": 0.224,
+      "python_scripting": 0.0828,
+      "data_visualization": 0.4995,
+      "workflow_automation": 0.176,
+      "human_in_the_loop_qa": 0.2742,
+      "rag_knowledge_systems": 0.0065,
+      "api_integration": 0.1814,
+      "ai_ethics_governance": 0.7027,
+      "data_privacy_pdpa": 0.9924,
+      "esg_sustainability_reporting": 0.088,
+      "carbon_footprint_analytics": 0.0824,
+      "stakeholder_communication": 0.5122,
+      "instructional_design": 0.0248
+    },
+    "P_final": {
+      "ai_literacy": 0.0802,
+      "prompt_engineering": 0.0344,
+      "process_mapping": 0.4091,
+      "sql_data_analysis": 0.3431,
+      "python_scripting": 0.0862,
+      "data_visualization": 0.2925,
+      "workflow_automation": 0.2006,
+      "human_in_the_loop_qa": 0.1519,
+      "rag_knowledge_systems": 0.0411,
+      "api_integration": 0.2275,
+      "ai_ethics_governance": 0.5598,
+      "data_privacy_pdpa": 0.9783,
+      "esg_sustainability_reporting": 0.0657,
+      "carbon_footprint_analytics": 0.0585,
+      "stakeholder_communication": 0.4036,
+      "instructional_design": 0.0493
+    }
+  },
+  {
+    "record_id": "fw-applied-esg_sustainability_reporting",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-esg_sustainability_reporting",
+    "true_labels": [
+      "esg_sustainability_reporting"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "sql_data_analysis",
+      "workflow_automation",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "sql_data_analysis",
+      "data_visualization",
+      "workflow_automation",
+      "carbon_footprint_analytics"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "sql_data_analysis",
+      "workflow_automation",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0808,
+      "prompt_engineering": 0.0585,
+      "process_mapping": 0.4355,
+      "sql_data_analysis": 0.3615,
+      "python_scripting": 0.0542,
+      "data_visualization": 0.2518,
+      "workflow_automation": 0.3882,
+      "human_in_the_loop_qa": 0.0787,
+      "rag_knowledge_systems": 0.0494,
+      "api_integration": 0.1001,
+      "ai_ethics_governance": 0.0595,
+      "data_privacy_pdpa": 0.0624,
+      "esg_sustainability_reporting": 0.8574,
+      "carbon_footprint_analytics": 0.3157,
+      "stakeholder_communication": 0.4862,
+      "instructional_design": 0.1043
+    },
+    "P_C1": {
+      "ai_literacy": 0.1227,
+      "prompt_engineering": 0.0563,
+      "process_mapping": 0.5449,
+      "sql_data_analysis": 0.5532,
+      "python_scripting": 0.0701,
+      "data_visualization": 0.4676,
+      "workflow_automation": 0.4227,
+      "human_in_the_loop_qa": 0.094,
+      "rag_knowledge_systems": 0.02,
+      "api_integration": 0.1383,
+      "ai_ethics_governance": 0.0605,
+      "data_privacy_pdpa": 0.0288,
+      "esg_sustainability_reporting": 0.9147,
+      "carbon_footprint_analytics": 0.6597,
+      "stakeholder_communication": 0.497,
+      "instructional_design": 0.0815
+    },
+    "P_final": {
+      "ai_literacy": 0.0934,
+      "prompt_engineering": 0.0578,
+      "process_mapping": 0.4683,
+      "sql_data_analysis": 0.419,
+      "python_scripting": 0.059,
+      "data_visualization": 0.3166,
+      "workflow_automation": 0.3986,
+      "human_in_the_loop_qa": 0.0833,
+      "rag_knowledge_systems": 0.0406,
+      "api_integration": 0.1116,
+      "ai_ethics_governance": 0.0598,
+      "data_privacy_pdpa": 0.0523,
+      "esg_sustainability_reporting": 0.8746,
+      "carbon_footprint_analytics": 0.4189,
+      "stakeholder_communication": 0.4894,
+      "instructional_design": 0.0975
+    }
+  },
+  {
+    "record_id": "fw-applied-carbon_footprint_analytics",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-carbon_footprint_analytics",
+    "true_labels": [
+      "carbon_footprint_analytics"
+    ],
+    "predicted_labels_at_0.375": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "core_skills_ge_0.45": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "sql_data_analysis",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "false_positives": [
+      "esg_sustainability_reporting"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.1213,
+      "prompt_engineering": 0.0722,
+      "process_mapping": 0.2238,
+      "sql_data_analysis": 0.2635,
+      "python_scripting": 0.052,
+      "data_visualization": 0.2356,
+      "workflow_automation": 0.188,
+      "human_in_the_loop_qa": 0.0399,
+      "rag_knowledge_systems": 0.0676,
+      "api_integration": 0.0944,
+      "ai_ethics_governance": 0.1028,
+      "data_privacy_pdpa": 0.068,
+      "esg_sustainability_reporting": 0.4637,
+      "carbon_footprint_analytics": 0.9182,
+      "stakeholder_communication": 0.2952,
+      "instructional_design": 0.1033
+    },
+    "P_C1": {
+      "ai_literacy": 0.1198,
+      "prompt_engineering": 0.0138,
+      "process_mapping": 0.1916,
+      "sql_data_analysis": 0.3235,
+      "python_scripting": 0.298,
+      "data_visualization": 0.5481,
+      "workflow_automation": 0.4109,
+      "human_in_the_loop_qa": 0.0602,
+      "rag_knowledge_systems": 0.0543,
+      "api_integration": 0.1089,
+      "ai_ethics_governance": 0.1089,
+      "data_privacy_pdpa": 0.0769,
+      "esg_sustainability_reporting": 0.6626,
+      "carbon_footprint_analytics": 0.9015,
+      "stakeholder_communication": 0.0917,
+      "instructional_design": 0.0324
+    },
+    "P_final": {
+      "ai_literacy": 0.1208,
+      "prompt_engineering": 0.0547,
+      "process_mapping": 0.2141,
+      "sql_data_analysis": 0.2815,
+      "python_scripting": 0.1258,
+      "data_visualization": 0.3294,
+      "workflow_automation": 0.2549,
+      "human_in_the_loop_qa": 0.046,
+      "rag_knowledge_systems": 0.0636,
+      "api_integration": 0.0987,
+      "ai_ethics_governance": 0.1046,
+      "data_privacy_pdpa": 0.0707,
+      "esg_sustainability_reporting": 0.5234,
+      "carbon_footprint_analytics": 0.9132,
+      "stakeholder_communication": 0.2341,
+      "instructional_design": 0.082
+    }
+  },
+  {
+    "record_id": "fw-applied-stakeholder_communication",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-stakeholder_communication",
+    "true_labels": [
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [],
+    "false_positives": [
+      "process_mapping"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.1022,
+      "prompt_engineering": 0.0604,
+      "process_mapping": 0.4156,
+      "sql_data_analysis": 0.2028,
+      "python_scripting": 0.0687,
+      "data_visualization": 0.2317,
+      "workflow_automation": 0.2046,
+      "human_in_the_loop_qa": 0.1537,
+      "rag_knowledge_systems": 0.0575,
+      "api_integration": 0.0916,
+      "ai_ethics_governance": 0.0516,
+      "data_privacy_pdpa": 0.0867,
+      "esg_sustainability_reporting": 0.2206,
+      "carbon_footprint_analytics": 0.1336,
+      "stakeholder_communication": 0.851,
+      "instructional_design": 0.1606
+    },
+    "P_C1": {
+      "ai_literacy": 0.5271,
+      "prompt_engineering": 0.1641,
+      "process_mapping": 0.6548,
+      "sql_data_analysis": 0.075,
+      "python_scripting": 0.0204,
+      "data_visualization": 0.2644,
+      "workflow_automation": 0.3119,
+      "human_in_the_loop_qa": 0.211,
+      "rag_knowledge_systems": 0.0182,
+      "api_integration": 0.0543,
+      "ai_ethics_governance": 0.0988,
+      "data_privacy_pdpa": 0.1549,
+      "esg_sustainability_reporting": 0.0988,
+      "carbon_footprint_analytics": 0.069,
+      "stakeholder_communication": 0.9211,
+      "instructional_design": 0.1975
+    },
+    "P_final": {
+      "ai_literacy": 0.2297,
+      "prompt_engineering": 0.0915,
+      "process_mapping": 0.4873,
+      "sql_data_analysis": 0.1645,
+      "python_scripting": 0.0542,
+      "data_visualization": 0.2415,
+      "workflow_automation": 0.2368,
+      "human_in_the_loop_qa": 0.1709,
+      "rag_knowledge_systems": 0.0457,
+      "api_integration": 0.0804,
+      "ai_ethics_governance": 0.0658,
+      "data_privacy_pdpa": 0.1072,
+      "esg_sustainability_reporting": 0.1841,
+      "carbon_footprint_analytics": 0.1142,
+      "stakeholder_communication": 0.872,
+      "instructional_design": 0.1717
+    }
+  },
+  {
+    "record_id": "fw-applied-instructional_design",
+    "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+    "occupation_title": "",
+    "occupation_group": "FW-instructional_design",
+    "true_labels": [
+      "instructional_design"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "ai_literacy"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.4005,
+      "prompt_engineering": 0.1427,
+      "process_mapping": 0.5483,
+      "sql_data_analysis": 0.244,
+      "python_scripting": 0.0457,
+      "data_visualization": 0.0951,
+      "workflow_automation": 0.2066,
+      "human_in_the_loop_qa": 0.0554,
+      "rag_knowledge_systems": 0.0903,
+      "api_integration": 0.128,
+      "ai_ethics_governance": 0.0634,
+      "data_privacy_pdpa": 0.0663,
+      "esg_sustainability_reporting": 0.1266,
+      "carbon_footprint_analytics": 0.083,
+      "stakeholder_communication": 0.4729,
+      "instructional_design": 0.9639
+    },
+    "P_C1": {
+      "ai_literacy": 0.271,
+      "prompt_engineering": 0.1317,
+      "process_mapping": 0.622,
+      "sql_data_analysis": 0.2386,
+      "python_scripting": 0.0629,
+      "data_visualization": 0.2131,
+      "workflow_automation": 0.1386,
+      "human_in_the_loop_qa": 0.1386,
+      "rag_knowledge_systems": 0.0723,
+      "api_integration": 0.1279,
+      "ai_ethics_governance": 0.1372,
+      "data_privacy_pdpa": 0.1064,
+      "esg_sustainability_reporting": 0.1561,
+      "carbon_footprint_analytics": 0.0595,
+      "stakeholder_communication": 0.7146,
+      "instructional_design": 0.8869
+    },
+    "P_final": {
+      "ai_literacy": 0.3616,
+      "prompt_engineering": 0.1394,
+      "process_mapping": 0.5704,
+      "sql_data_analysis": 0.2424,
+      "python_scripting": 0.0509,
+      "data_visualization": 0.1305,
+      "workflow_automation": 0.1862,
+      "human_in_the_loop_qa": 0.0804,
+      "rag_knowledge_systems": 0.0849,
+      "api_integration": 0.128,
+      "ai_ethics_governance": 0.0855,
+      "data_privacy_pdpa": 0.0783,
+      "esg_sustainability_reporting": 0.1354,
+      "carbon_footprint_analytics": 0.0759,
+      "stakeholder_communication": 0.5455,
+      "instructional_design": 0.9408
+    }
+  },
+  {
+    "record_id": "esco-74dc314d",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2511/2512/2521",
+    "true_labels": [
+      "python_scripting",
+      "workflow_automation"
+    ],
+    "predicted_labels_at_0.375": [
+      "python_scripting",
+      "data_visualization"
+    ],
+    "core_skills_ge_0.45": [
+      "python_scripting",
+      "data_visualization"
+    ],
+    "suggested_skills_0.25_to_0.45": [],
+    "false_positives": [
+      "data_visualization"
+    ],
+    "false_negatives": [
+      "workflow_automation"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0783,
+      "prompt_engineering": 0.0873,
+      "process_mapping": 0.2337,
+      "sql_data_analysis": 0.2007,
+      "python_scripting": 0.663,
+      "data_visualization": 0.5319,
+      "workflow_automation": 0.205,
+      "human_in_the_loop_qa": 0.1667,
+      "rag_knowledge_systems": 0.0243,
+      "api_integration": 0.1067,
+      "ai_ethics_governance": 0.1274,
+      "data_privacy_pdpa": 0.0611,
+      "esg_sustainability_reporting": 0.0921,
+      "carbon_footprint_analytics": 0.0425,
+      "stakeholder_communication": 0.208,
+      "instructional_design": 0.0801
+    },
+    "P_C1": {
+      "ai_literacy": 0.2091,
+      "prompt_engineering": 0.0612,
+      "process_mapping": 0.0424,
+      "sql_data_analysis": 0.3408,
+      "python_scripting": 0.8239,
+      "data_visualization": 0.5003,
+      "workflow_automation": 0.0548,
+      "human_in_the_loop_qa": 0.0316,
+      "rag_knowledge_systems": 0.0767,
+      "api_integration": 0.1145,
+      "ai_ethics_governance": 0.3272,
+      "data_privacy_pdpa": 0.0938,
+      "esg_sustainability_reporting": 0.0806,
+      "carbon_footprint_analytics": 0.0346,
+      "stakeholder_communication": 0.2264,
+      "instructional_design": 0.2108
+    },
+    "P_final": {
+      "ai_literacy": 0.1175,
+      "prompt_engineering": 0.0794,
+      "process_mapping": 0.1763,
+      "sql_data_analysis": 0.2427,
+      "python_scripting": 0.7113,
+      "data_visualization": 0.5224,
+      "workflow_automation": 0.1599,
+      "human_in_the_loop_qa": 0.1262,
+      "rag_knowledge_systems": 0.04,
+      "api_integration": 0.109,
+      "ai_ethics_governance": 0.1873,
+      "data_privacy_pdpa": 0.0709,
+      "esg_sustainability_reporting": 0.0887,
+      "carbon_footprint_analytics": 0.0402,
+      "stakeholder_communication": 0.2135,
+      "instructional_design": 0.1193
+    }
+  },
+  {
+    "record_id": "esco-b19baa63",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2511/2512/2521",
+    "true_labels": [
+      "python_scripting",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "python_scripting"
+    ],
+    "core_skills_ge_0.45": [
+      "python_scripting"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "workflow_automation",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "P_A": {
+      "ai_literacy": 0.1796,
+      "prompt_engineering": 0.0784,
+      "process_mapping": 0.284,
+      "sql_data_analysis": 0.365,
+      "python_scripting": 0.7385,
+      "data_visualization": 0.3083,
+      "workflow_automation": 0.247,
+      "human_in_the_loop_qa": 0.1106,
+      "rag_knowledge_systems": 0.0303,
+      "api_integration": 0.1958,
+      "ai_ethics_governance": 0.1879,
+      "data_privacy_pdpa": 0.0628,
+      "esg_sustainability_reporting": 0.2354,
+      "carbon_footprint_analytics": 0.0561,
+      "stakeholder_communication": 0.3057,
+      "instructional_design": 0.1597
+    },
+    "P_C1": {
+      "ai_literacy": 0.3025,
+      "prompt_engineering": 0.0689,
+      "process_mapping": 0.2636,
+      "sql_data_analysis": 0.1566,
+      "python_scripting": 0.7967,
+      "data_visualization": 0.2394,
+      "workflow_automation": 0.39,
+      "human_in_the_loop_qa": 0.0816,
+      "rag_knowledge_systems": 0.0519,
+      "api_integration": 0.2143,
+      "ai_ethics_governance": 0.4142,
+      "data_privacy_pdpa": 0.069,
+      "esg_sustainability_reporting": 0.1602,
+      "carbon_footprint_analytics": 0.0591,
+      "stakeholder_communication": 0.1354,
+      "instructional_design": 0.1613
+    },
+    "P_final": {
+      "ai_literacy": 0.2165,
+      "prompt_engineering": 0.0755,
+      "process_mapping": 0.2778,
+      "sql_data_analysis": 0.3025,
+      "python_scripting": 0.7559,
+      "data_visualization": 0.2876,
+      "workflow_automation": 0.2899,
+      "human_in_the_loop_qa": 0.1019,
+      "rag_knowledge_systems": 0.0368,
+      "api_integration": 0.2014,
+      "ai_ethics_governance": 0.2558,
+      "data_privacy_pdpa": 0.0646,
+      "esg_sustainability_reporting": 0.2128,
+      "carbon_footprint_analytics": 0.057,
+      "stakeholder_communication": 0.2546,
+      "instructional_design": 0.1602
+    }
+  },
+  {
+    "record_id": "esco-3145367f",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "33/41",
+    "true_labels": [
+      "sql_data_analysis"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "false_positives": [
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0696,
+      "prompt_engineering": 0.0257,
+      "process_mapping": 0.316,
+      "sql_data_analysis": 0.4585,
+      "python_scripting": 0.0989,
+      "data_visualization": 0.8459,
+      "workflow_automation": 0.0792,
+      "human_in_the_loop_qa": 0.1254,
+      "rag_knowledge_systems": 0.0281,
+      "api_integration": 0.0417,
+      "ai_ethics_governance": 0.3182,
+      "data_privacy_pdpa": 0.1954,
+      "esg_sustainability_reporting": 0.1853,
+      "carbon_footprint_analytics": 0.0929,
+      "stakeholder_communication": 0.4384,
+      "instructional_design": 0.2094
+    },
+    "P_C1": {
+      "ai_literacy": 0.0459,
+      "prompt_engineering": 0.0195,
+      "process_mapping": 0.0944,
+      "sql_data_analysis": 0.6377,
+      "python_scripting": 0.1446,
+      "data_visualization": 0.8367,
+      "workflow_automation": 0.0099,
+      "human_in_the_loop_qa": 0.0718,
+      "rag_knowledge_systems": 0.0486,
+      "api_integration": 0.0128,
+      "ai_ethics_governance": 0.4544,
+      "data_privacy_pdpa": 0.3161,
+      "esg_sustainability_reporting": 0.1667,
+      "carbon_footprint_analytics": 0.1023,
+      "stakeholder_communication": 0.4946,
+      "instructional_design": 0.3448
+    },
+    "P_final": {
+      "ai_literacy": 0.0625,
+      "prompt_engineering": 0.0238,
+      "process_mapping": 0.2495,
+      "sql_data_analysis": 0.5123,
+      "python_scripting": 0.1126,
+      "data_visualization": 0.8431,
+      "workflow_automation": 0.0584,
+      "human_in_the_loop_qa": 0.1093,
+      "rag_knowledge_systems": 0.0343,
+      "api_integration": 0.033,
+      "ai_ethics_governance": 0.3591,
+      "data_privacy_pdpa": 0.2316,
+      "esg_sustainability_reporting": 0.1797,
+      "carbon_footprint_analytics": 0.0957,
+      "stakeholder_communication": 0.4553,
+      "instructional_design": 0.25
+    }
+  },
+  {
+    "record_id": "esco-d43e3761",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2511/2512/2521",
+    "true_labels": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "python_scripting"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "python_scripting",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_literacy",
+      "sql_data_analysis",
+      "python_scripting",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "ai_ethics_governance"
+    ],
+    "false_positives": [
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.7838,
+      "prompt_engineering": 0.1386,
+      "process_mapping": 0.2165,
+      "sql_data_analysis": 0.6591,
+      "python_scripting": 0.801,
+      "data_visualization": 0.1633,
+      "workflow_automation": 0.0945,
+      "human_in_the_loop_qa": 0.135,
+      "rag_knowledge_systems": 0.0669,
+      "api_integration": 0.1577,
+      "ai_ethics_governance": 0.2743,
+      "data_privacy_pdpa": 0.0468,
+      "esg_sustainability_reporting": 0.097,
+      "carbon_footprint_analytics": 0.0762,
+      "stakeholder_communication": 0.5151,
+      "instructional_design": 0.2509
+    },
+    "P_C1": {
+      "ai_literacy": 0.6797,
+      "prompt_engineering": 0.1477,
+      "process_mapping": 0.1171,
+      "sql_data_analysis": 0.4577,
+      "python_scripting": 0.9125,
+      "data_visualization": 0.3059,
+      "workflow_automation": 0.3261,
+      "human_in_the_loop_qa": 0.0768,
+      "rag_knowledge_systems": 0.1355,
+      "api_integration": 0.2683,
+      "ai_ethics_governance": 0.5335,
+      "data_privacy_pdpa": 0.0421,
+      "esg_sustainability_reporting": 0.0435,
+      "carbon_footprint_analytics": 0.0281,
+      "stakeholder_communication": 0.326,
+      "instructional_design": 0.1728
+    },
+    "P_final": {
+      "ai_literacy": 0.7525,
+      "prompt_engineering": 0.1414,
+      "process_mapping": 0.1867,
+      "sql_data_analysis": 0.5987,
+      "python_scripting": 0.8344,
+      "data_visualization": 0.2061,
+      "workflow_automation": 0.164,
+      "human_in_the_loop_qa": 0.1176,
+      "rag_knowledge_systems": 0.0875,
+      "api_integration": 0.1909,
+      "ai_ethics_governance": 0.3521,
+      "data_privacy_pdpa": 0.0454,
+      "esg_sustainability_reporting": 0.081,
+      "carbon_footprint_analytics": 0.0617,
+      "stakeholder_communication": 0.4584,
+      "instructional_design": 0.2274
+    }
+  },
+  {
+    "record_id": "esco-16979f41",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [],
+    "predicted_labels_at_0.375": [],
+    "core_skills_ge_0.45": [],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "false_positives": [],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0764,
+      "prompt_engineering": 0.1065,
+      "process_mapping": 0.2336,
+      "sql_data_analysis": 0.1721,
+      "python_scripting": 0.2056,
+      "data_visualization": 0.0728,
+      "workflow_automation": 0.0525,
+      "human_in_the_loop_qa": 0.212,
+      "rag_knowledge_systems": 0.0463,
+      "api_integration": 0.1815,
+      "ai_ethics_governance": 0.3177,
+      "data_privacy_pdpa": 0.109,
+      "esg_sustainability_reporting": 0.4698,
+      "carbon_footprint_analytics": 0.0924,
+      "stakeholder_communication": 0.148,
+      "instructional_design": 0.0527
+    },
+    "P_C1": {
+      "ai_literacy": 0.121,
+      "prompt_engineering": 0.0759,
+      "process_mapping": 0.4551,
+      "sql_data_analysis": 0.2908,
+      "python_scripting": 0.255,
+      "data_visualization": 0.2635,
+      "workflow_automation": 0.1222,
+      "human_in_the_loop_qa": 0.2705,
+      "rag_knowledge_systems": 0.0634,
+      "api_integration": 0.0703,
+      "ai_ethics_governance": 0.1749,
+      "data_privacy_pdpa": 0.0816,
+      "esg_sustainability_reporting": 0.114,
+      "carbon_footprint_analytics": 0.0593,
+      "stakeholder_communication": 0.1263,
+      "instructional_design": 0.2056
+    },
+    "P_final": {
+      "ai_literacy": 0.0898,
+      "prompt_engineering": 0.0973,
+      "process_mapping": 0.3001,
+      "sql_data_analysis": 0.2077,
+      "python_scripting": 0.2205,
+      "data_visualization": 0.13,
+      "workflow_automation": 0.0734,
+      "human_in_the_loop_qa": 0.2296,
+      "rag_knowledge_systems": 0.0514,
+      "api_integration": 0.1482,
+      "ai_ethics_governance": 0.2749,
+      "data_privacy_pdpa": 0.1008,
+      "esg_sustainability_reporting": 0.3631,
+      "carbon_footprint_analytics": 0.0825,
+      "stakeholder_communication": 0.1415,
+      "instructional_design": 0.0986
+    }
+  },
+  {
+    "record_id": "esco-0c1e0c35",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "33/41",
+    "true_labels": [
+      "process_mapping"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "data_visualization",
+      "human_in_the_loop_qa"
+    ],
+    "false_positives": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0373,
+      "prompt_engineering": 0.0308,
+      "process_mapping": 0.4164,
+      "sql_data_analysis": 0.1111,
+      "python_scripting": 0.133,
+      "data_visualization": 0.3378,
+      "workflow_automation": 0.1242,
+      "human_in_the_loop_qa": 0.2744,
+      "rag_knowledge_systems": 0.0284,
+      "api_integration": 0.0893,
+      "ai_ethics_governance": 0.5853,
+      "data_privacy_pdpa": 0.0967,
+      "esg_sustainability_reporting": 0.4847,
+      "carbon_footprint_analytics": 0.1409,
+      "stakeholder_communication": 0.2008,
+      "instructional_design": 0.0906
+    },
+    "P_C1": {
+      "ai_literacy": 0.0528,
+      "prompt_engineering": 0.0198,
+      "process_mapping": 0.4588,
+      "sql_data_analysis": 0.1605,
+      "python_scripting": 0.2682,
+      "data_visualization": 0.158,
+      "workflow_automation": 0.2317,
+      "human_in_the_loop_qa": 0.231,
+      "rag_knowledge_systems": 0.0794,
+      "api_integration": 0.0835,
+      "ai_ethics_governance": 0.3816,
+      "data_privacy_pdpa": 0.0105,
+      "esg_sustainability_reporting": 0.4899,
+      "carbon_footprint_analytics": 0.1928,
+      "stakeholder_communication": 0.2752,
+      "instructional_design": 0.1098
+    },
+    "P_final": {
+      "ai_literacy": 0.0419,
+      "prompt_engineering": 0.0275,
+      "process_mapping": 0.4291,
+      "sql_data_analysis": 0.1259,
+      "python_scripting": 0.1735,
+      "data_visualization": 0.2839,
+      "workflow_automation": 0.1565,
+      "human_in_the_loop_qa": 0.2614,
+      "rag_knowledge_systems": 0.0437,
+      "api_integration": 0.0876,
+      "ai_ethics_governance": 0.5242,
+      "data_privacy_pdpa": 0.0708,
+      "esg_sustainability_reporting": 0.4862,
+      "carbon_footprint_analytics": 0.1564,
+      "stakeholder_communication": 0.2231,
+      "instructional_design": 0.0963
+    }
+  },
+  {
+    "record_id": "esco-5f76f51c",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2511/2512/2521",
+    "true_labels": [
+      "data_privacy_pdpa"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "sql_data_analysis",
+      "python_scripting",
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "data_privacy_pdpa"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0569,
+      "prompt_engineering": 0.0372,
+      "process_mapping": 0.3938,
+      "sql_data_analysis": 0.2877,
+      "python_scripting": 0.3947,
+      "data_visualization": 0.0802,
+      "workflow_automation": 0.1243,
+      "human_in_the_loop_qa": 0.2276,
+      "rag_knowledge_systems": 0.0472,
+      "api_integration": 0.1026,
+      "ai_ethics_governance": 0.2948,
+      "data_privacy_pdpa": 0.2645,
+      "esg_sustainability_reporting": 0.1263,
+      "carbon_footprint_analytics": 0.0454,
+      "stakeholder_communication": 0.4628,
+      "instructional_design": 0.143
+    },
+    "P_C1": {
+      "ai_literacy": 0.0378,
+      "prompt_engineering": 0.0266,
+      "process_mapping": 0.6634,
+      "sql_data_analysis": 0.3102,
+      "python_scripting": 0.1991,
+      "data_visualization": 0.0823,
+      "workflow_automation": 0.2796,
+      "human_in_the_loop_qa": 0.3632,
+      "rag_knowledge_systems": 0.0558,
+      "api_integration": 0.2035,
+      "ai_ethics_governance": 0.0934,
+      "data_privacy_pdpa": 0.5196,
+      "esg_sustainability_reporting": 0.0671,
+      "carbon_footprint_analytics": 0.0337,
+      "stakeholder_communication": 0.303,
+      "instructional_design": 0.1334
+    },
+    "P_final": {
+      "ai_literacy": 0.0512,
+      "prompt_engineering": 0.034,
+      "process_mapping": 0.4747,
+      "sql_data_analysis": 0.2944,
+      "python_scripting": 0.336,
+      "data_visualization": 0.0809,
+      "workflow_automation": 0.1709,
+      "human_in_the_loop_qa": 0.2683,
+      "rag_knowledge_systems": 0.0498,
+      "api_integration": 0.1328,
+      "ai_ethics_governance": 0.2344,
+      "data_privacy_pdpa": 0.341,
+      "esg_sustainability_reporting": 0.1086,
+      "carbon_footprint_analytics": 0.0419,
+      "stakeholder_communication": 0.4149,
+      "instructional_design": 0.1401
+    }
+  },
+  {
+    "record_id": "esco-20734b64",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2511/2512/2521",
+    "true_labels": [
+      "sql_data_analysis",
+      "python_scripting",
+      "data_visualization"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "python_scripting"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "python_scripting"
+    ],
+    "suggested_skills_0.25_to_0.45": [],
+    "false_positives": [],
+    "false_negatives": [
+      "data_visualization"
+    ],
+    "P_A": {
+      "ai_literacy": 0.087,
+      "prompt_engineering": 0.0287,
+      "process_mapping": 0.2418,
+      "sql_data_analysis": 0.807,
+      "python_scripting": 0.9106,
+      "data_visualization": 0.1518,
+      "workflow_automation": 0.1468,
+      "human_in_the_loop_qa": 0.0515,
+      "rag_knowledge_systems": 0.0855,
+      "api_integration": 0.284,
+      "ai_ethics_governance": 0.1229,
+      "data_privacy_pdpa": 0.1275,
+      "esg_sustainability_reporting": 0.0621,
+      "carbon_footprint_analytics": 0.0468,
+      "stakeholder_communication": 0.21,
+      "instructional_design": 0.1837
+    },
+    "P_C1": {
+      "ai_literacy": 0.0673,
+      "prompt_engineering": 0.0173,
+      "process_mapping": 0.2021,
+      "sql_data_analysis": 0.9191,
+      "python_scripting": 0.6956,
+      "data_visualization": 0.3374,
+      "workflow_automation": 0.1034,
+      "human_in_the_loop_qa": 0.0607,
+      "rag_knowledge_systems": 0.0687,
+      "api_integration": 0.1227,
+      "ai_ethics_governance": 0.3594,
+      "data_privacy_pdpa": 0.4074,
+      "esg_sustainability_reporting": 0.0445,
+      "carbon_footprint_analytics": 0.0246,
+      "stakeholder_communication": 0.3281,
+      "instructional_design": 0.1578
+    },
+    "P_final": {
+      "ai_literacy": 0.0811,
+      "prompt_engineering": 0.0253,
+      "process_mapping": 0.2299,
+      "sql_data_analysis": 0.8406,
+      "python_scripting": 0.8461,
+      "data_visualization": 0.2075,
+      "workflow_automation": 0.1338,
+      "human_in_the_loop_qa": 0.0543,
+      "rag_knowledge_systems": 0.0805,
+      "api_integration": 0.2356,
+      "ai_ethics_governance": 0.1938,
+      "data_privacy_pdpa": 0.2115,
+      "esg_sustainability_reporting": 0.0568,
+      "carbon_footprint_analytics": 0.0401,
+      "stakeholder_communication": 0.2455,
+      "instructional_design": 0.1759
+    }
+  },
+  {
+    "record_id": "esco-e224904f",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "process_mapping",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "data_visualization",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "data_visualization",
+      "human_in_the_loop_qa"
+    ],
+    "false_positives": [
+      "data_visualization",
+      "esg_sustainability_reporting"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0166,
+      "prompt_engineering": 0.0113,
+      "process_mapping": 0.7134,
+      "sql_data_analysis": 0.1356,
+      "python_scripting": 0.0639,
+      "data_visualization": 0.4426,
+      "workflow_automation": 0.0655,
+      "human_in_the_loop_qa": 0.2802,
+      "rag_knowledge_systems": 0.0189,
+      "api_integration": 0.0396,
+      "ai_ethics_governance": 0.4409,
+      "data_privacy_pdpa": 0.1831,
+      "esg_sustainability_reporting": 0.4809,
+      "carbon_footprint_analytics": 0.1228,
+      "stakeholder_communication": 0.6629,
+      "instructional_design": 0.1007
+    },
+    "P_C1": {
+      "ai_literacy": 0.0227,
+      "prompt_engineering": 0.0105,
+      "process_mapping": 0.8094,
+      "sql_data_analysis": 0.1625,
+      "python_scripting": 0.0488,
+      "data_visualization": 0.3402,
+      "workflow_automation": 0.2725,
+      "human_in_the_loop_qa": 0.7181,
+      "rag_knowledge_systems": 0.0611,
+      "api_integration": 0.0482,
+      "ai_ethics_governance": 0.5533,
+      "data_privacy_pdpa": 0.1375,
+      "esg_sustainability_reporting": 0.3861,
+      "carbon_footprint_analytics": 0.0807,
+      "stakeholder_communication": 0.4993,
+      "instructional_design": 0.0736
+    },
+    "P_final": {
+      "ai_literacy": 0.0184,
+      "prompt_engineering": 0.0111,
+      "process_mapping": 0.7422,
+      "sql_data_analysis": 0.1436,
+      "python_scripting": 0.0594,
+      "data_visualization": 0.4119,
+      "workflow_automation": 0.1276,
+      "human_in_the_loop_qa": 0.4116,
+      "rag_knowledge_systems": 0.0316,
+      "api_integration": 0.0422,
+      "ai_ethics_governance": 0.4746,
+      "data_privacy_pdpa": 0.1694,
+      "esg_sustainability_reporting": 0.4525,
+      "carbon_footprint_analytics": 0.1102,
+      "stakeholder_communication": 0.6139,
+      "instructional_design": 0.0925
+    }
+  },
+  {
+    "record_id": "esco-bb08ce8e",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "process_mapping",
+      "esg_sustainability_reporting"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "esg_sustainability_reporting"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "esg_sustainability_reporting"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "false_positives": [],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0525,
+      "prompt_engineering": 0.0302,
+      "process_mapping": 0.4111,
+      "sql_data_analysis": 0.1644,
+      "python_scripting": 0.1298,
+      "data_visualization": 0.243,
+      "workflow_automation": 0.0984,
+      "human_in_the_loop_qa": 0.1243,
+      "rag_knowledge_systems": 0.0232,
+      "api_integration": 0.0921,
+      "ai_ethics_governance": 0.2754,
+      "data_privacy_pdpa": 0.2468,
+      "esg_sustainability_reporting": 0.5248,
+      "carbon_footprint_analytics": 0.091,
+      "stakeholder_communication": 0.3812,
+      "instructional_design": 0.2154
+    },
+    "P_C1": {
+      "ai_literacy": 0.0439,
+      "prompt_engineering": 0.0182,
+      "process_mapping": 0.6363,
+      "sql_data_analysis": 0.039,
+      "python_scripting": 0.098,
+      "data_visualization": 0.2107,
+      "workflow_automation": 0.1992,
+      "human_in_the_loop_qa": 0.6492,
+      "rag_knowledge_systems": 0.0584,
+      "api_integration": 0.0791,
+      "ai_ethics_governance": 0.1845,
+      "data_privacy_pdpa": 0.0701,
+      "esg_sustainability_reporting": 0.5295,
+      "carbon_footprint_analytics": 0.0768,
+      "stakeholder_communication": 0.1054,
+      "instructional_design": 0.2649
+    },
+    "P_final": {
+      "ai_literacy": 0.0499,
+      "prompt_engineering": 0.0266,
+      "process_mapping": 0.4787,
+      "sql_data_analysis": 0.1268,
+      "python_scripting": 0.1203,
+      "data_visualization": 0.2333,
+      "workflow_automation": 0.1286,
+      "human_in_the_loop_qa": 0.2818,
+      "rag_knowledge_systems": 0.0338,
+      "api_integration": 0.0882,
+      "ai_ethics_governance": 0.2481,
+      "data_privacy_pdpa": 0.1938,
+      "esg_sustainability_reporting": 0.5262,
+      "carbon_footprint_analytics": 0.0868,
+      "stakeholder_communication": 0.2985,
+      "instructional_design": 0.2302
+    }
+  },
+  {
+    "record_id": "esco-c6c585e3",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "human_in_the_loop_qa",
+      "ai_ethics_governance"
+    ],
+    "predicted_labels_at_0.375": [
+      "python_scripting",
+      "data_visualization",
+      "ai_ethics_governance"
+    ],
+    "core_skills_ge_0.45": [],
+    "suggested_skills_0.25_to_0.45": [
+      "python_scripting",
+      "data_visualization",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "python_scripting",
+      "data_visualization"
+    ],
+    "false_negatives": [
+      "human_in_the_loop_qa"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0679,
+      "prompt_engineering": 0.0354,
+      "process_mapping": 0.2522,
+      "sql_data_analysis": 0.1748,
+      "python_scripting": 0.3227,
+      "data_visualization": 0.3851,
+      "workflow_automation": 0.0778,
+      "human_in_the_loop_qa": 0.3388,
+      "rag_knowledge_systems": 0.02,
+      "api_integration": 0.1054,
+      "ai_ethics_governance": 0.5123,
+      "data_privacy_pdpa": 0.2011,
+      "esg_sustainability_reporting": 0.372,
+      "carbon_footprint_analytics": 0.0957,
+      "stakeholder_communication": 0.3153,
+      "instructional_design": 0.1076
+    },
+    "P_C1": {
+      "ai_literacy": 0.1944,
+      "prompt_engineering": 0.072,
+      "process_mapping": 0.1549,
+      "sql_data_analysis": 0.3625,
+      "python_scripting": 0.5921,
+      "data_visualization": 0.5259,
+      "workflow_automation": 0.1318,
+      "human_in_the_loop_qa": 0.267,
+      "rag_knowledge_systems": 0.0859,
+      "api_integration": 0.1179,
+      "ai_ethics_governance": 0.2876,
+      "data_privacy_pdpa": 0.083,
+      "esg_sustainability_reporting": 0.1065,
+      "carbon_footprint_analytics": 0.0463,
+      "stakeholder_communication": 0.2944,
+      "instructional_design": 0.5513
+    },
+    "P_final": {
+      "ai_literacy": 0.1058,
+      "prompt_engineering": 0.0464,
+      "process_mapping": 0.223,
+      "sql_data_analysis": 0.2311,
+      "python_scripting": 0.4035,
+      "data_visualization": 0.4274,
+      "workflow_automation": 0.094,
+      "human_in_the_loop_qa": 0.3172,
+      "rag_knowledge_systems": 0.0397,
+      "api_integration": 0.1091,
+      "ai_ethics_governance": 0.4449,
+      "data_privacy_pdpa": 0.1657,
+      "esg_sustainability_reporting": 0.2924,
+      "carbon_footprint_analytics": 0.0809,
+      "stakeholder_communication": 0.3091,
+      "instructional_design": 0.2407
+    }
+  },
+  {
+    "record_id": "esco-c0f46cc9",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "human_in_the_loop_qa",
+      "ai_ethics_governance"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "data_visualization",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "human_in_the_loop_qa"
+    ],
+    "P_A": {
+      "ai_literacy": 0.023,
+      "prompt_engineering": 0.0221,
+      "process_mapping": 0.4191,
+      "sql_data_analysis": 0.1241,
+      "python_scripting": 0.0863,
+      "data_visualization": 0.3429,
+      "workflow_automation": 0.0531,
+      "human_in_the_loop_qa": 0.2767,
+      "rag_knowledge_systems": 0.0268,
+      "api_integration": 0.0805,
+      "ai_ethics_governance": 0.4344,
+      "data_privacy_pdpa": 0.1568,
+      "esg_sustainability_reporting": 0.4275,
+      "carbon_footprint_analytics": 0.1521,
+      "stakeholder_communication": 0.5323,
+      "instructional_design": 0.055
+    },
+    "P_C1": {
+      "ai_literacy": 0.1171,
+      "prompt_engineering": 0.0372,
+      "process_mapping": 0.5647,
+      "sql_data_analysis": 0.0661,
+      "python_scripting": 0.0995,
+      "data_visualization": 0.2981,
+      "workflow_automation": 0.2358,
+      "human_in_the_loop_qa": 0.4284,
+      "rag_knowledge_systems": 0.0805,
+      "api_integration": 0.0752,
+      "ai_ethics_governance": 0.457,
+      "data_privacy_pdpa": 0.0408,
+      "esg_sustainability_reporting": 0.405,
+      "carbon_footprint_analytics": 0.1687,
+      "stakeholder_communication": 0.3259,
+      "instructional_design": 0.1597
+    },
+    "P_final": {
+      "ai_literacy": 0.0512,
+      "prompt_engineering": 0.0267,
+      "process_mapping": 0.4627,
+      "sql_data_analysis": 0.1067,
+      "python_scripting": 0.0903,
+      "data_visualization": 0.3295,
+      "workflow_automation": 0.1079,
+      "human_in_the_loop_qa": 0.3222,
+      "rag_knowledge_systems": 0.0429,
+      "api_integration": 0.0789,
+      "ai_ethics_governance": 0.4412,
+      "data_privacy_pdpa": 0.122,
+      "esg_sustainability_reporting": 0.4207,
+      "carbon_footprint_analytics": 0.1571,
+      "stakeholder_communication": 0.4704,
+      "instructional_design": 0.0864
+    }
+  },
+  {
+    "record_id": "esco-5bd8904c",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "process_mapping",
+      "sql_data_analysis",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "data_visualization",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "data_visualization"
+    ],
+    "false_positives": [
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "sql_data_analysis",
+      "human_in_the_loop_qa"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0274,
+      "prompt_engineering": 0.0148,
+      "process_mapping": 0.7362,
+      "sql_data_analysis": 0.2077,
+      "python_scripting": 0.1027,
+      "data_visualization": 0.4774,
+      "workflow_automation": 0.0775,
+      "human_in_the_loop_qa": 0.1537,
+      "rag_knowledge_systems": 0.0215,
+      "api_integration": 0.0792,
+      "ai_ethics_governance": 0.5447,
+      "data_privacy_pdpa": 0.3026,
+      "esg_sustainability_reporting": 0.2351,
+      "carbon_footprint_analytics": 0.0723,
+      "stakeholder_communication": 0.6555,
+      "instructional_design": 0.0794
+    },
+    "P_C1": {
+      "ai_literacy": 0.0223,
+      "prompt_engineering": 0.0109,
+      "process_mapping": 0.752,
+      "sql_data_analysis": 0.3112,
+      "python_scripting": 0.0545,
+      "data_visualization": 0.3456,
+      "workflow_automation": 0.1862,
+      "human_in_the_loop_qa": 0.462,
+      "rag_knowledge_systems": 0.0514,
+      "api_integration": 0.1248,
+      "ai_ethics_governance": 0.4577,
+      "data_privacy_pdpa": 0.1006,
+      "esg_sustainability_reporting": 0.191,
+      "carbon_footprint_analytics": 0.0986,
+      "stakeholder_communication": 0.5271,
+      "instructional_design": 0.0828
+    },
+    "P_final": {
+      "ai_literacy": 0.0259,
+      "prompt_engineering": 0.0136,
+      "process_mapping": 0.7409,
+      "sql_data_analysis": 0.2387,
+      "python_scripting": 0.0882,
+      "data_visualization": 0.4379,
+      "workflow_automation": 0.1101,
+      "human_in_the_loop_qa": 0.2462,
+      "rag_knowledge_systems": 0.0304,
+      "api_integration": 0.0929,
+      "ai_ethics_governance": 0.5186,
+      "data_privacy_pdpa": 0.242,
+      "esg_sustainability_reporting": 0.2219,
+      "carbon_footprint_analytics": 0.0802,
+      "stakeholder_communication": 0.617,
+      "instructional_design": 0.0804
+    }
+  },
+  {
+    "record_id": "esco-004f9f9f",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "24/25",
+    "true_labels": [
+      "python_scripting",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "predicted_labels_at_0.375": [
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "core_skills_ge_0.45": [
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "ai_ethics_governance"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "python_scripting"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0804,
+      "prompt_engineering": 0.0353,
+      "process_mapping": 0.3226,
+      "sql_data_analysis": 0.1932,
+      "python_scripting": 0.1428,
+      "data_visualization": 0.1398,
+      "workflow_automation": 0.0923,
+      "human_in_the_loop_qa": 0.0376,
+      "rag_knowledge_systems": 0.0286,
+      "api_integration": 0.0655,
+      "ai_ethics_governance": 0.2809,
+      "data_privacy_pdpa": 0.1281,
+      "esg_sustainability_reporting": 0.2149,
+      "carbon_footprint_analytics": 0.1074,
+      "stakeholder_communication": 0.7197,
+      "instructional_design": 0.5854
+    },
+    "P_C1": {
+      "ai_literacy": 0.0303,
+      "prompt_engineering": 0.0206,
+      "process_mapping": 0.4627,
+      "sql_data_analysis": 0.2542,
+      "python_scripting": 0.1767,
+      "data_visualization": 0.2087,
+      "workflow_automation": 0.0282,
+      "human_in_the_loop_qa": 0.0992,
+      "rag_knowledge_systems": 0.073,
+      "api_integration": 0.0309,
+      "ai_ethics_governance": 0.5514,
+      "data_privacy_pdpa": 0.231,
+      "esg_sustainability_reporting": 0.3299,
+      "carbon_footprint_analytics": 0.1298,
+      "stakeholder_communication": 0.766,
+      "instructional_design": 0.3739
+    },
+    "P_final": {
+      "ai_literacy": 0.0654,
+      "prompt_engineering": 0.0309,
+      "process_mapping": 0.3646,
+      "sql_data_analysis": 0.2115,
+      "python_scripting": 0.1529,
+      "data_visualization": 0.1605,
+      "workflow_automation": 0.0731,
+      "human_in_the_loop_qa": 0.0561,
+      "rag_knowledge_systems": 0.0419,
+      "api_integration": 0.0551,
+      "ai_ethics_governance": 0.3621,
+      "data_privacy_pdpa": 0.159,
+      "esg_sustainability_reporting": 0.2494,
+      "carbon_footprint_analytics": 0.1141,
+      "stakeholder_communication": 0.7336,
+      "instructional_design": 0.522
+    }
+  },
+  {
+    "record_id": "esco-b06e7ead",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "33/41",
+    "true_labels": [
+      "workflow_automation"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "core_skills_ge_0.45": [],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "process_mapping"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.027,
+      "prompt_engineering": 0.0202,
+      "process_mapping": 0.3375,
+      "sql_data_analysis": 0.3055,
+      "python_scripting": 0.1082,
+      "data_visualization": 0.1987,
+      "workflow_automation": 0.2408,
+      "human_in_the_loop_qa": 0.1134,
+      "rag_knowledge_systems": 0.0236,
+      "api_integration": 0.1568,
+      "ai_ethics_governance": 0.1739,
+      "data_privacy_pdpa": 0.0932,
+      "esg_sustainability_reporting": 0.18,
+      "carbon_footprint_analytics": 0.0802,
+      "stakeholder_communication": 0.2713,
+      "instructional_design": 0.1102
+    },
+    "P_C1": {
+      "ai_literacy": 0.0366,
+      "prompt_engineering": 0.0172,
+      "process_mapping": 0.5227,
+      "sql_data_analysis": 0.1768,
+      "python_scripting": 0.2488,
+      "data_visualization": 0.2573,
+      "workflow_automation": 0.7017,
+      "human_in_the_loop_qa": 0.1653,
+      "rag_knowledge_systems": 0.0331,
+      "api_integration": 0.0333,
+      "ai_ethics_governance": 0.0975,
+      "data_privacy_pdpa": 0.1012,
+      "esg_sustainability_reporting": 0.0347,
+      "carbon_footprint_analytics": 0.0155,
+      "stakeholder_communication": 0.2049,
+      "instructional_design": 0.0523
+    },
+    "P_final": {
+      "ai_literacy": 0.0299,
+      "prompt_engineering": 0.0193,
+      "process_mapping": 0.3931,
+      "sql_data_analysis": 0.2669,
+      "python_scripting": 0.1504,
+      "data_visualization": 0.2163,
+      "workflow_automation": 0.3791,
+      "human_in_the_loop_qa": 0.1289,
+      "rag_knowledge_systems": 0.0265,
+      "api_integration": 0.1197,
+      "ai_ethics_governance": 0.151,
+      "data_privacy_pdpa": 0.0956,
+      "esg_sustainability_reporting": 0.1365,
+      "carbon_footprint_analytics": 0.0608,
+      "stakeholder_communication": 0.2514,
+      "instructional_design": 0.0928
+    }
+  },
+  {
+    "record_id": "esco-c801e5c6",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2133",
+    "true_labels": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "instructional_design"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "carbon_footprint_analytics",
+      "instructional_design"
+    ],
+    "false_positives": [
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0334,
+      "prompt_engineering": 0.0157,
+      "process_mapping": 0.1923,
+      "sql_data_analysis": 0.1452,
+      "python_scripting": 0.0803,
+      "data_visualization": 0.1403,
+      "workflow_automation": 0.0393,
+      "human_in_the_loop_qa": 0.0796,
+      "rag_knowledge_systems": 0.0274,
+      "api_integration": 0.0708,
+      "ai_ethics_governance": 0.9027,
+      "data_privacy_pdpa": 0.1745,
+      "esg_sustainability_reporting": 0.9708,
+      "carbon_footprint_analytics": 0.2986,
+      "stakeholder_communication": 0.5633,
+      "instructional_design": 0.3933
+    },
+    "P_C1": {
+      "ai_literacy": 0.0284,
+      "prompt_engineering": 0.0061,
+      "process_mapping": 0.3289,
+      "sql_data_analysis": 0.2173,
+      "python_scripting": 0.0437,
+      "data_visualization": 0.2153,
+      "workflow_automation": 0.0353,
+      "human_in_the_loop_qa": 0.0717,
+      "rag_knowledge_systems": 0.0213,
+      "api_integration": 0.0731,
+      "ai_ethics_governance": 0.8045,
+      "data_privacy_pdpa": 0.1446,
+      "esg_sustainability_reporting": 0.9803,
+      "carbon_footprint_analytics": 0.7484,
+      "stakeholder_communication": 0.6854,
+      "instructional_design": 0.5122
+    },
+    "P_final": {
+      "ai_literacy": 0.0319,
+      "prompt_engineering": 0.0128,
+      "process_mapping": 0.2333,
+      "sql_data_analysis": 0.1668,
+      "python_scripting": 0.0693,
+      "data_visualization": 0.1628,
+      "workflow_automation": 0.0381,
+      "human_in_the_loop_qa": 0.0773,
+      "rag_knowledge_systems": 0.0256,
+      "api_integration": 0.0714,
+      "ai_ethics_governance": 0.8732,
+      "data_privacy_pdpa": 0.1656,
+      "esg_sustainability_reporting": 0.9736,
+      "carbon_footprint_analytics": 0.4335,
+      "stakeholder_communication": 0.6,
+      "instructional_design": 0.429
+    }
+  },
+  {
+    "record_id": "esco-4f4daa0e",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "24/25",
+    "true_labels": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "data_visualization",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "data_visualization"
+    ],
+    "false_positives": [
+      "data_visualization",
+      "esg_sustainability_reporting"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0291,
+      "prompt_engineering": 0.0284,
+      "process_mapping": 0.3189,
+      "sql_data_analysis": 0.1199,
+      "python_scripting": 0.0816,
+      "data_visualization": 0.4187,
+      "workflow_automation": 0.0399,
+      "human_in_the_loop_qa": 0.1323,
+      "rag_knowledge_systems": 0.0163,
+      "api_integration": 0.0701,
+      "ai_ethics_governance": 0.5536,
+      "data_privacy_pdpa": 0.1564,
+      "esg_sustainability_reporting": 0.6461,
+      "carbon_footprint_analytics": 0.1346,
+      "stakeholder_communication": 0.5268,
+      "instructional_design": 0.1982
+    },
+    "P_C1": {
+      "ai_literacy": 0.0297,
+      "prompt_engineering": 0.0095,
+      "process_mapping": 0.6705,
+      "sql_data_analysis": 0.107,
+      "python_scripting": 0.0428,
+      "data_visualization": 0.3312,
+      "workflow_automation": 0.0621,
+      "human_in_the_loop_qa": 0.2266,
+      "rag_knowledge_systems": 0.039,
+      "api_integration": 0.0818,
+      "ai_ethics_governance": 0.7724,
+      "data_privacy_pdpa": 0.0923,
+      "esg_sustainability_reporting": 0.9346,
+      "carbon_footprint_analytics": 0.2915,
+      "stakeholder_communication": 0.5645,
+      "instructional_design": 0.2697
+    },
+    "P_final": {
+      "ai_literacy": 0.0293,
+      "prompt_engineering": 0.0227,
+      "process_mapping": 0.4244,
+      "sql_data_analysis": 0.116,
+      "python_scripting": 0.07,
+      "data_visualization": 0.3924,
+      "workflow_automation": 0.0466,
+      "human_in_the_loop_qa": 0.1606,
+      "rag_knowledge_systems": 0.0231,
+      "api_integration": 0.0736,
+      "ai_ethics_governance": 0.6192,
+      "data_privacy_pdpa": 0.1372,
+      "esg_sustainability_reporting": 0.7326,
+      "carbon_footprint_analytics": 0.1817,
+      "stakeholder_communication": 0.5381,
+      "instructional_design": 0.2197
+    }
+  },
+  {
+    "record_id": "esco-8ed3e0de",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2133",
+    "true_labels": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [],
+    "false_positives": [],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0615,
+      "prompt_engineering": 0.0506,
+      "process_mapping": 0.1699,
+      "sql_data_analysis": 0.065,
+      "python_scripting": 0.1582,
+      "data_visualization": 0.0885,
+      "workflow_automation": 0.0369,
+      "human_in_the_loop_qa": 0.0978,
+      "rag_knowledge_systems": 0.0329,
+      "api_integration": 0.1769,
+      "ai_ethics_governance": 0.6835,
+      "data_privacy_pdpa": 0.0559,
+      "esg_sustainability_reporting": 0.8313,
+      "carbon_footprint_analytics": 0.1124,
+      "stakeholder_communication": 0.5195,
+      "instructional_design": 0.2427
+    },
+    "P_C1": {
+      "ai_literacy": 0.1036,
+      "prompt_engineering": 0.018,
+      "process_mapping": 0.3938,
+      "sql_data_analysis": 0.225,
+      "python_scripting": 0.2466,
+      "data_visualization": 0.1865,
+      "workflow_automation": 0.1135,
+      "human_in_the_loop_qa": 0.0326,
+      "rag_knowledge_systems": 0.0467,
+      "api_integration": 0.2914,
+      "ai_ethics_governance": 0.733,
+      "data_privacy_pdpa": 0.0226,
+      "esg_sustainability_reporting": 0.9403,
+      "carbon_footprint_analytics": 0.4226,
+      "stakeholder_communication": 0.3987,
+      "instructional_design": 0.1639
+    },
+    "P_final": {
+      "ai_literacy": 0.0741,
+      "prompt_engineering": 0.0408,
+      "process_mapping": 0.2371,
+      "sql_data_analysis": 0.113,
+      "python_scripting": 0.1847,
+      "data_visualization": 0.1179,
+      "workflow_automation": 0.0599,
+      "human_in_the_loop_qa": 0.0782,
+      "rag_knowledge_systems": 0.037,
+      "api_integration": 0.2113,
+      "ai_ethics_governance": 0.6983,
+      "data_privacy_pdpa": 0.0459,
+      "esg_sustainability_reporting": 0.864,
+      "carbon_footprint_analytics": 0.2055,
+      "stakeholder_communication": 0.4833,
+      "instructional_design": 0.219
+    }
+  },
+  {
+    "record_id": "esco-159ab59b",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "data_visualization",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "false_positives": [
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.033,
+      "prompt_engineering": 0.0233,
+      "process_mapping": 0.1589,
+      "sql_data_analysis": 0.1249,
+      "python_scripting": 0.1274,
+      "data_visualization": 0.2897,
+      "workflow_automation": 0.0477,
+      "human_in_the_loop_qa": 0.1401,
+      "rag_knowledge_systems": 0.0251,
+      "api_integration": 0.0821,
+      "ai_ethics_governance": 0.8738,
+      "data_privacy_pdpa": 0.1926,
+      "esg_sustainability_reporting": 0.8797,
+      "carbon_footprint_analytics": 0.1836,
+      "stakeholder_communication": 0.4537,
+      "instructional_design": 0.2617
+    },
+    "P_C1": {
+      "ai_literacy": 0.0343,
+      "prompt_engineering": 0.0177,
+      "process_mapping": 0.4325,
+      "sql_data_analysis": 0.0995,
+      "python_scripting": 0.0695,
+      "data_visualization": 0.1656,
+      "workflow_automation": 0.0408,
+      "human_in_the_loop_qa": 0.1897,
+      "rag_knowledge_systems": 0.037,
+      "api_integration": 0.2334,
+      "ai_ethics_governance": 0.7519,
+      "data_privacy_pdpa": 0.3726,
+      "esg_sustainability_reporting": 0.8049,
+      "carbon_footprint_analytics": 0.2602,
+      "stakeholder_communication": 0.3442,
+      "instructional_design": 0.3093
+    },
+    "P_final": {
+      "ai_literacy": 0.0334,
+      "prompt_engineering": 0.0216,
+      "process_mapping": 0.241,
+      "sql_data_analysis": 0.1173,
+      "python_scripting": 0.11,
+      "data_visualization": 0.2525,
+      "workflow_automation": 0.0456,
+      "human_in_the_loop_qa": 0.155,
+      "rag_knowledge_systems": 0.0287,
+      "api_integration": 0.1275,
+      "ai_ethics_governance": 0.8373,
+      "data_privacy_pdpa": 0.2466,
+      "esg_sustainability_reporting": 0.8573,
+      "carbon_footprint_analytics": 0.2066,
+      "stakeholder_communication": 0.4209,
+      "instructional_design": 0.276
+    }
+  },
+  {
+    "record_id": "esco-12d53880",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "sql_data_analysis",
+      "python_scripting",
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "ai_ethics_governance"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "python_scripting",
+      "ai_ethics_governance"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0307,
+      "prompt_engineering": 0.0147,
+      "process_mapping": 0.5667,
+      "sql_data_analysis": 0.6786,
+      "python_scripting": 0.1977,
+      "data_visualization": 0.4431,
+      "workflow_automation": 0.0634,
+      "human_in_the_loop_qa": 0.1092,
+      "rag_knowledge_systems": 0.042,
+      "api_integration": 0.0993,
+      "ai_ethics_governance": 0.3174,
+      "data_privacy_pdpa": 0.462,
+      "esg_sustainability_reporting": 0.1559,
+      "carbon_footprint_analytics": 0.065,
+      "stakeholder_communication": 0.524,
+      "instructional_design": 0.1168
+    },
+    "P_C1": {
+      "ai_literacy": 0.0199,
+      "prompt_engineering": 0.0051,
+      "process_mapping": 0.5557,
+      "sql_data_analysis": 0.7877,
+      "python_scripting": 0.2895,
+      "data_visualization": 0.5225,
+      "workflow_automation": 0.1718,
+      "human_in_the_loop_qa": 0.1449,
+      "rag_knowledge_systems": 0.171,
+      "api_integration": 0.0783,
+      "ai_ethics_governance": 0.5015,
+      "data_privacy_pdpa": 0.5026,
+      "esg_sustainability_reporting": 0.1235,
+      "carbon_footprint_analytics": 0.0626,
+      "stakeholder_communication": 0.5944,
+      "instructional_design": 0.1366
+    },
+    "P_final": {
+      "ai_literacy": 0.0275,
+      "prompt_engineering": 0.0118,
+      "process_mapping": 0.5634,
+      "sql_data_analysis": 0.7113,
+      "python_scripting": 0.2252,
+      "data_visualization": 0.4669,
+      "workflow_automation": 0.0959,
+      "human_in_the_loop_qa": 0.1199,
+      "rag_knowledge_systems": 0.0807,
+      "api_integration": 0.093,
+      "ai_ethics_governance": 0.3726,
+      "data_privacy_pdpa": 0.4742,
+      "esg_sustainability_reporting": 0.1462,
+      "carbon_footprint_analytics": 0.0643,
+      "stakeholder_communication": 0.5451,
+      "instructional_design": 0.1227
+    }
+  },
+  {
+    "record_id": "esco-57d955f4",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "24/25",
+    "true_labels": [
+      "process_mapping",
+      "ai_ethics_governance"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_privacy_pdpa"
+    ],
+    "false_positives": [
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0287,
+      "prompt_engineering": 0.0131,
+      "process_mapping": 0.3538,
+      "sql_data_analysis": 0.2975,
+      "python_scripting": 0.1866,
+      "data_visualization": 0.1437,
+      "workflow_automation": 0.042,
+      "human_in_the_loop_qa": 0.0834,
+      "rag_knowledge_systems": 0.0345,
+      "api_integration": 0.0886,
+      "ai_ethics_governance": 0.5063,
+      "data_privacy_pdpa": 0.2405,
+      "esg_sustainability_reporting": 0.2744,
+      "carbon_footprint_analytics": 0.0819,
+      "stakeholder_communication": 0.5777,
+      "instructional_design": 0.1463
+    },
+    "P_C1": {
+      "ai_literacy": 0.0524,
+      "prompt_engineering": 0.0199,
+      "process_mapping": 0.589,
+      "sql_data_analysis": 0.2202,
+      "python_scripting": 0.0931,
+      "data_visualization": 0.1458,
+      "workflow_automation": 0.0848,
+      "human_in_the_loop_qa": 0.1428,
+      "rag_knowledge_systems": 0.0367,
+      "api_integration": 0.0465,
+      "ai_ethics_governance": 0.6875,
+      "data_privacy_pdpa": 0.315,
+      "esg_sustainability_reporting": 0.1409,
+      "carbon_footprint_analytics": 0.0563,
+      "stakeholder_communication": 0.6293,
+      "instructional_design": 0.1789
+    },
+    "P_final": {
+      "ai_literacy": 0.0358,
+      "prompt_engineering": 0.0151,
+      "process_mapping": 0.4244,
+      "sql_data_analysis": 0.2743,
+      "python_scripting": 0.1585,
+      "data_visualization": 0.1443,
+      "workflow_automation": 0.0549,
+      "human_in_the_loop_qa": 0.1012,
+      "rag_knowledge_systems": 0.0352,
+      "api_integration": 0.0759,
+      "ai_ethics_governance": 0.5606,
+      "data_privacy_pdpa": 0.2628,
+      "esg_sustainability_reporting": 0.2343,
+      "carbon_footprint_analytics": 0.0742,
+      "stakeholder_communication": 0.5932,
+      "instructional_design": 0.1561
+    }
+  },
+  {
+    "record_id": "esco-f3cae3eb",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "data_visualization",
+      "human_in_the_loop_qa",
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "data_visualization",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "data_visualization",
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0362,
+      "prompt_engineering": 0.023,
+      "process_mapping": 0.3229,
+      "sql_data_analysis": 0.0805,
+      "python_scripting": 0.053,
+      "data_visualization": 0.481,
+      "workflow_automation": 0.0808,
+      "human_in_the_loop_qa": 0.2449,
+      "rag_knowledge_systems": 0.0157,
+      "api_integration": 0.0385,
+      "ai_ethics_governance": 0.5377,
+      "data_privacy_pdpa": 0.4074,
+      "esg_sustainability_reporting": 0.2642,
+      "carbon_footprint_analytics": 0.1731,
+      "stakeholder_communication": 0.6813,
+      "instructional_design": 0.1626
+    },
+    "P_C1": {
+      "ai_literacy": 0.0093,
+      "prompt_engineering": 0.0142,
+      "process_mapping": 0.7045,
+      "sql_data_analysis": 0.1162,
+      "python_scripting": 0.0277,
+      "data_visualization": 0.5526,
+      "workflow_automation": 0.1123,
+      "human_in_the_loop_qa": 0.8,
+      "rag_knowledge_systems": 0.0186,
+      "api_integration": 0.0289,
+      "ai_ethics_governance": 0.7873,
+      "data_privacy_pdpa": 0.4099,
+      "esg_sustainability_reporting": 0.1449,
+      "carbon_footprint_analytics": 0.151,
+      "stakeholder_communication": 0.7477,
+      "instructional_design": 0.072
+    },
+    "P_final": {
+      "ai_literacy": 0.0281,
+      "prompt_engineering": 0.0203,
+      "process_mapping": 0.4374,
+      "sql_data_analysis": 0.0912,
+      "python_scripting": 0.0454,
+      "data_visualization": 0.5025,
+      "workflow_automation": 0.0903,
+      "human_in_the_loop_qa": 0.4114,
+      "rag_knowledge_systems": 0.0166,
+      "api_integration": 0.0356,
+      "ai_ethics_governance": 0.6126,
+      "data_privacy_pdpa": 0.4081,
+      "esg_sustainability_reporting": 0.2284,
+      "carbon_footprint_analytics": 0.1665,
+      "stakeholder_communication": 0.7012,
+      "instructional_design": 0.1354
+    }
+  },
+  {
+    "record_id": "esco-e0df0f24",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "2422/2519",
+    "true_labels": [
+      "sql_data_analysis",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "data_privacy_pdpa",
+      "esg_sustainability_reporting"
+    ],
+    "false_positives": [],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0515,
+      "prompt_engineering": 0.0131,
+      "process_mapping": 0.181,
+      "sql_data_analysis": 0.6047,
+      "python_scripting": 0.1396,
+      "data_visualization": 0.1931,
+      "workflow_automation": 0.0287,
+      "human_in_the_loop_qa": 0.1519,
+      "rag_knowledge_systems": 0.0298,
+      "api_integration": 0.0743,
+      "ai_ethics_governance": 0.6459,
+      "data_privacy_pdpa": 0.3389,
+      "esg_sustainability_reporting": 0.255,
+      "carbon_footprint_analytics": 0.1605,
+      "stakeholder_communication": 0.7926,
+      "instructional_design": 0.0736
+    },
+    "P_C1": {
+      "ai_literacy": 0.0381,
+      "prompt_engineering": 0.019,
+      "process_mapping": 0.2918,
+      "sql_data_analysis": 0.6488,
+      "python_scripting": 0.046,
+      "data_visualization": 0.1592,
+      "workflow_automation": 0.0125,
+      "human_in_the_loop_qa": 0.3595,
+      "rag_knowledge_systems": 0.0356,
+      "api_integration": 0.0272,
+      "ai_ethics_governance": 0.8663,
+      "data_privacy_pdpa": 0.3111,
+      "esg_sustainability_reporting": 0.2927,
+      "carbon_footprint_analytics": 0.2621,
+      "stakeholder_communication": 0.9215,
+      "instructional_design": 0.1049
+    },
+    "P_final": {
+      "ai_literacy": 0.0475,
+      "prompt_engineering": 0.0149,
+      "process_mapping": 0.2143,
+      "sql_data_analysis": 0.6179,
+      "python_scripting": 0.1115,
+      "data_visualization": 0.183,
+      "workflow_automation": 0.0238,
+      "human_in_the_loop_qa": 0.2142,
+      "rag_knowledge_systems": 0.0316,
+      "api_integration": 0.0602,
+      "ai_ethics_governance": 0.712,
+      "data_privacy_pdpa": 0.3306,
+      "esg_sustainability_reporting": 0.2663,
+      "carbon_footprint_analytics": 0.191,
+      "stakeholder_communication": 0.8312,
+      "instructional_design": 0.0829
+    }
+  },
+  {
+    "record_id": "esco-7cc43ae9",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "41/43",
+    "true_labels": [],
+    "predicted_labels_at_0.375": [
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_privacy_pdpa"
+    ],
+    "false_positives": [
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0223,
+      "prompt_engineering": 0.0286,
+      "process_mapping": 0.2516,
+      "sql_data_analysis": 0.2359,
+      "python_scripting": 0.1013,
+      "data_visualization": 0.1475,
+      "workflow_automation": 0.0304,
+      "human_in_the_loop_qa": 0.1454,
+      "rag_knowledge_systems": 0.0325,
+      "api_integration": 0.087,
+      "ai_ethics_governance": 0.2628,
+      "data_privacy_pdpa": 0.3317,
+      "esg_sustainability_reporting": 0.1212,
+      "carbon_footprint_analytics": 0.0829,
+      "stakeholder_communication": 0.4718,
+      "instructional_design": 0.0615
+    },
+    "P_C1": {
+      "ai_literacy": 0.0224,
+      "prompt_engineering": 0.0571,
+      "process_mapping": 0.3644,
+      "sql_data_analysis": 0.4294,
+      "python_scripting": 0.1388,
+      "data_visualization": 0.1018,
+      "workflow_automation": 0.2643,
+      "human_in_the_loop_qa": 0.1536,
+      "rag_knowledge_systems": 0.0367,
+      "api_integration": 0.0672,
+      "ai_ethics_governance": 0.0593,
+      "data_privacy_pdpa": 0.3082,
+      "esg_sustainability_reporting": 0.0127,
+      "carbon_footprint_analytics": 0.0116,
+      "stakeholder_communication": 0.538,
+      "instructional_design": 0.0961
+    },
+    "P_final": {
+      "ai_literacy": 0.0223,
+      "prompt_engineering": 0.0371,
+      "process_mapping": 0.2855,
+      "sql_data_analysis": 0.2939,
+      "python_scripting": 0.1126,
+      "data_visualization": 0.1338,
+      "workflow_automation": 0.1006,
+      "human_in_the_loop_qa": 0.1478,
+      "rag_knowledge_systems": 0.0338,
+      "api_integration": 0.081,
+      "ai_ethics_governance": 0.2017,
+      "data_privacy_pdpa": 0.3247,
+      "esg_sustainability_reporting": 0.0886,
+      "carbon_footprint_analytics": 0.0615,
+      "stakeholder_communication": 0.4917,
+      "instructional_design": 0.0719
+    }
+  },
+  {
+    "record_id": "esco-061a5fb8",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "41/42",
+    "true_labels": [
+      "sql_data_analysis",
+      "python_scripting"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "python_scripting",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "data_privacy_pdpa"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "python_scripting",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0448,
+      "prompt_engineering": 0.0179,
+      "process_mapping": 0.288,
+      "sql_data_analysis": 0.804,
+      "python_scripting": 0.4172,
+      "data_visualization": 0.2354,
+      "workflow_automation": 0.0513,
+      "human_in_the_loop_qa": 0.1689,
+      "rag_knowledge_systems": 0.0854,
+      "api_integration": 0.0485,
+      "ai_ethics_governance": 0.2472,
+      "data_privacy_pdpa": 0.3973,
+      "esg_sustainability_reporting": 0.0483,
+      "carbon_footprint_analytics": 0.0386,
+      "stakeholder_communication": 0.3908,
+      "instructional_design": 0.0386
+    },
+    "P_C1": {
+      "ai_literacy": 0.0374,
+      "prompt_engineering": 0.0219,
+      "process_mapping": 0.3671,
+      "sql_data_analysis": 0.8201,
+      "python_scripting": 0.3627,
+      "data_visualization": 0.2206,
+      "workflow_automation": 0.1085,
+      "human_in_the_loop_qa": 0.17,
+      "rag_knowledge_systems": 0.0925,
+      "api_integration": 0.0723,
+      "ai_ethics_governance": 0.2279,
+      "data_privacy_pdpa": 0.5744,
+      "esg_sustainability_reporting": 0.0187,
+      "carbon_footprint_analytics": 0.0151,
+      "stakeholder_communication": 0.3527,
+      "instructional_design": 0.1124
+    },
+    "P_final": {
+      "ai_literacy": 0.0426,
+      "prompt_engineering": 0.0191,
+      "process_mapping": 0.3118,
+      "sql_data_analysis": 0.8089,
+      "python_scripting": 0.4009,
+      "data_visualization": 0.231,
+      "workflow_automation": 0.0685,
+      "human_in_the_loop_qa": 0.1692,
+      "rag_knowledge_systems": 0.0875,
+      "api_integration": 0.0557,
+      "ai_ethics_governance": 0.2414,
+      "data_privacy_pdpa": 0.4504,
+      "esg_sustainability_reporting": 0.0394,
+      "carbon_footprint_analytics": 0.0316,
+      "stakeholder_communication": 0.3794,
+      "instructional_design": 0.0607
+    }
+  },
+  {
+    "record_id": "esco-17a7ecf2",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "41/42",
+    "true_labels": [
+      "process_mapping",
+      "python_scripting"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "ai_ethics_governance"
+    ],
+    "false_positives": [
+      "sql_data_analysis",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "process_mapping",
+      "python_scripting"
+    ],
+    "P_A": {
+      "ai_literacy": 0.034,
+      "prompt_engineering": 0.0216,
+      "process_mapping": 0.3376,
+      "sql_data_analysis": 0.6166,
+      "python_scripting": 0.2151,
+      "data_visualization": 0.1847,
+      "workflow_automation": 0.0982,
+      "human_in_the_loop_qa": 0.0719,
+      "rag_knowledge_systems": 0.0311,
+      "api_integration": 0.0979,
+      "ai_ethics_governance": 0.3576,
+      "data_privacy_pdpa": 0.333,
+      "esg_sustainability_reporting": 0.1184,
+      "carbon_footprint_analytics": 0.0489,
+      "stakeholder_communication": 0.5186,
+      "instructional_design": 0.1324
+    },
+    "P_C1": {
+      "ai_literacy": 0.0401,
+      "prompt_engineering": 0.0169,
+      "process_mapping": 0.4127,
+      "sql_data_analysis": 0.7918,
+      "python_scripting": 0.2999,
+      "data_visualization": 0.3768,
+      "workflow_automation": 0.1618,
+      "human_in_the_loop_qa": 0.0312,
+      "rag_knowledge_systems": 0.0303,
+      "api_integration": 0.1183,
+      "ai_ethics_governance": 0.3841,
+      "data_privacy_pdpa": 0.754,
+      "esg_sustainability_reporting": 0.0712,
+      "carbon_footprint_analytics": 0.0218,
+      "stakeholder_communication": 0.4808,
+      "instructional_design": 0.1984
+    },
+    "P_final": {
+      "ai_literacy": 0.0358,
+      "prompt_engineering": 0.0202,
+      "process_mapping": 0.3602,
+      "sql_data_analysis": 0.6691,
+      "python_scripting": 0.2405,
+      "data_visualization": 0.2423,
+      "workflow_automation": 0.1173,
+      "human_in_the_loop_qa": 0.0597,
+      "rag_knowledge_systems": 0.0309,
+      "api_integration": 0.104,
+      "ai_ethics_governance": 0.3655,
+      "data_privacy_pdpa": 0.4593,
+      "esg_sustainability_reporting": 0.1043,
+      "carbon_footprint_analytics": 0.0408,
+      "stakeholder_communication": 0.5073,
+      "instructional_design": 0.1522
+    }
+  },
+  {
+    "record_id": "esco-6c786ac1",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "41/43",
+    "true_labels": [
+      "sql_data_analysis",
+      "data_privacy_pdpa"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "sql_data_analysis"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0403,
+      "prompt_engineering": 0.0219,
+      "process_mapping": 0.4185,
+      "sql_data_analysis": 0.2344,
+      "python_scripting": 0.1198,
+      "data_visualization": 0.1246,
+      "workflow_automation": 0.0822,
+      "human_in_the_loop_qa": 0.1281,
+      "rag_knowledge_systems": 0.026,
+      "api_integration": 0.0659,
+      "ai_ethics_governance": 0.1392,
+      "data_privacy_pdpa": 0.5044,
+      "esg_sustainability_reporting": 0.1242,
+      "carbon_footprint_analytics": 0.0498,
+      "stakeholder_communication": 0.5193,
+      "instructional_design": 0.1953
+    },
+    "P_C1": {
+      "ai_literacy": 0.0418,
+      "prompt_engineering": 0.0399,
+      "process_mapping": 0.4173,
+      "sql_data_analysis": 0.2108,
+      "python_scripting": 0.2136,
+      "data_visualization": 0.0687,
+      "workflow_automation": 0.1182,
+      "human_in_the_loop_qa": 0.2175,
+      "rag_knowledge_systems": 0.0501,
+      "api_integration": 0.0713,
+      "ai_ethics_governance": 0.179,
+      "data_privacy_pdpa": 0.7856,
+      "esg_sustainability_reporting": 0.0222,
+      "carbon_footprint_analytics": 0.0132,
+      "stakeholder_communication": 0.391,
+      "instructional_design": 0.0947
+    },
+    "P_final": {
+      "ai_literacy": 0.0408,
+      "prompt_engineering": 0.0273,
+      "process_mapping": 0.4182,
+      "sql_data_analysis": 0.2273,
+      "python_scripting": 0.148,
+      "data_visualization": 0.1078,
+      "workflow_automation": 0.093,
+      "human_in_the_loop_qa": 0.1549,
+      "rag_knowledge_systems": 0.0332,
+      "api_integration": 0.0675,
+      "ai_ethics_governance": 0.1511,
+      "data_privacy_pdpa": 0.5887,
+      "esg_sustainability_reporting": 0.0936,
+      "carbon_footprint_analytics": 0.0388,
+      "stakeholder_communication": 0.4808,
+      "instructional_design": 0.1651
+    }
+  },
+  {
+    "record_id": "esco-36a8ef7b",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "33/41",
+    "true_labels": [],
+    "predicted_labels_at_0.375": [
+      "process_mapping"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "process_mapping"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0358,
+      "prompt_engineering": 0.0523,
+      "process_mapping": 0.3862,
+      "sql_data_analysis": 0.2035,
+      "python_scripting": 0.1216,
+      "data_visualization": 0.1374,
+      "workflow_automation": 0.0523,
+      "human_in_the_loop_qa": 0.2811,
+      "rag_knowledge_systems": 0.0219,
+      "api_integration": 0.171,
+      "ai_ethics_governance": 0.1924,
+      "data_privacy_pdpa": 0.1726,
+      "esg_sustainability_reporting": 0.1381,
+      "carbon_footprint_analytics": 0.0502,
+      "stakeholder_communication": 0.3308,
+      "instructional_design": 0.1619
+    },
+    "P_C1": {
+      "ai_literacy": 0.1013,
+      "prompt_engineering": 0.0314,
+      "process_mapping": 0.6689,
+      "sql_data_analysis": 0.1025,
+      "python_scripting": 0.1435,
+      "data_visualization": 0.0701,
+      "workflow_automation": 0.0476,
+      "human_in_the_loop_qa": 0.2006,
+      "rag_knowledge_systems": 0.0268,
+      "api_integration": 0.2192,
+      "ai_ethics_governance": 0.1998,
+      "data_privacy_pdpa": 0.1462,
+      "esg_sustainability_reporting": 0.1024,
+      "carbon_footprint_analytics": 0.0297,
+      "stakeholder_communication": 0.2714,
+      "instructional_design": 0.357
+    },
+    "P_final": {
+      "ai_literacy": 0.0554,
+      "prompt_engineering": 0.046,
+      "process_mapping": 0.471,
+      "sql_data_analysis": 0.1732,
+      "python_scripting": 0.1282,
+      "data_visualization": 0.1172,
+      "workflow_automation": 0.0509,
+      "human_in_the_loop_qa": 0.2569,
+      "rag_knowledge_systems": 0.0234,
+      "api_integration": 0.1855,
+      "ai_ethics_governance": 0.1946,
+      "data_privacy_pdpa": 0.1647,
+      "esg_sustainability_reporting": 0.1274,
+      "carbon_footprint_analytics": 0.044,
+      "stakeholder_communication": 0.313,
+      "instructional_design": 0.2205
+    }
+  },
+  {
+    "record_id": "esco-2f1c3797",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "24/25",
+    "true_labels": [
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "data_privacy_pdpa"
+    ],
+    "core_skills_ge_0.45": [
+      "data_privacy_pdpa"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "sql_data_analysis",
+      "python_scripting",
+      "stakeholder_communication"
+    ],
+    "false_positives": [
+      "sql_data_analysis"
+    ],
+    "false_negatives": [
+      "process_mapping"
+    ],
+    "P_A": {
+      "ai_literacy": 0.038,
+      "prompt_engineering": 0.0296,
+      "process_mapping": 0.2432,
+      "sql_data_analysis": 0.3925,
+      "python_scripting": 0.2261,
+      "data_visualization": 0.1849,
+      "workflow_automation": 0.0787,
+      "human_in_the_loop_qa": 0.1262,
+      "rag_knowledge_systems": 0.026,
+      "api_integration": 0.1054,
+      "ai_ethics_governance": 0.1754,
+      "data_privacy_pdpa": 0.5396,
+      "esg_sustainability_reporting": 0.1015,
+      "carbon_footprint_analytics": 0.0577,
+      "stakeholder_communication": 0.3176,
+      "instructional_design": 0.0808
+    },
+    "P_C1": {
+      "ai_literacy": 0.1938,
+      "prompt_engineering": 0.0615,
+      "process_mapping": 0.1533,
+      "sql_data_analysis": 0.3808,
+      "python_scripting": 0.5792,
+      "data_visualization": 0.1685,
+      "workflow_automation": 0.2378,
+      "human_in_the_loop_qa": 0.1862,
+      "rag_knowledge_systems": 0.0284,
+      "api_integration": 0.2328,
+      "ai_ethics_governance": 0.4153,
+      "data_privacy_pdpa": 0.419,
+      "esg_sustainability_reporting": 0.0267,
+      "carbon_footprint_analytics": 0.0165,
+      "stakeholder_communication": 0.4564,
+      "instructional_design": 0.0913
+    },
+    "P_final": {
+      "ai_literacy": 0.0848,
+      "prompt_engineering": 0.0392,
+      "process_mapping": 0.2162,
+      "sql_data_analysis": 0.389,
+      "python_scripting": 0.3321,
+      "data_visualization": 0.18,
+      "workflow_automation": 0.1264,
+      "human_in_the_loop_qa": 0.1442,
+      "rag_knowledge_systems": 0.0267,
+      "api_integration": 0.1436,
+      "ai_ethics_governance": 0.2473,
+      "data_privacy_pdpa": 0.5035,
+      "esg_sustainability_reporting": 0.079,
+      "carbon_footprint_analytics": 0.0453,
+      "stakeholder_communication": 0.3593,
+      "instructional_design": 0.0839
+    }
+  },
+  {
+    "record_id": "esco-f811de91",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "33/41",
+    "true_labels": [],
+    "predicted_labels_at_0.375": [],
+    "core_skills_ge_0.45": [],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "python_scripting",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "false_positives": [],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.1008,
+      "prompt_engineering": 0.0634,
+      "process_mapping": 0.2925,
+      "sql_data_analysis": 0.1629,
+      "python_scripting": 0.2736,
+      "data_visualization": 0.1329,
+      "workflow_automation": 0.0519,
+      "human_in_the_loop_qa": 0.0565,
+      "rag_knowledge_systems": 0.038,
+      "api_integration": 0.1022,
+      "ai_ethics_governance": 0.3963,
+      "data_privacy_pdpa": 0.0781,
+      "esg_sustainability_reporting": 0.354,
+      "carbon_footprint_analytics": 0.1012,
+      "stakeholder_communication": 0.3223,
+      "instructional_design": 0.1062
+    },
+    "P_C1": {
+      "ai_literacy": 0.1922,
+      "prompt_engineering": 0.0927,
+      "process_mapping": 0.2688,
+      "sql_data_analysis": 0.1405,
+      "python_scripting": 0.4679,
+      "data_visualization": 0.3252,
+      "workflow_automation": 0.1028,
+      "human_in_the_loop_qa": 0.0686,
+      "rag_knowledge_systems": 0.0343,
+      "api_integration": 0.2462,
+      "ai_ethics_governance": 0.2963,
+      "data_privacy_pdpa": 0.0267,
+      "esg_sustainability_reporting": 0.3465,
+      "carbon_footprint_analytics": 0.0744,
+      "stakeholder_communication": 0.2366,
+      "instructional_design": 0.0646
+    },
+    "P_final": {
+      "ai_literacy": 0.1282,
+      "prompt_engineering": 0.0722,
+      "process_mapping": 0.2854,
+      "sql_data_analysis": 0.1562,
+      "python_scripting": 0.3319,
+      "data_visualization": 0.1906,
+      "workflow_automation": 0.0672,
+      "human_in_the_loop_qa": 0.0601,
+      "rag_knowledge_systems": 0.0369,
+      "api_integration": 0.1454,
+      "ai_ethics_governance": 0.3663,
+      "data_privacy_pdpa": 0.0627,
+      "esg_sustainability_reporting": 0.3517,
+      "carbon_footprint_analytics": 0.0932,
+      "stakeholder_communication": 0.2966,
+      "instructional_design": 0.0937
+    }
+  },
+  {
+    "record_id": "esco-9d4417e2",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "24/25",
+    "true_labels": [
+      "process_mapping",
+      "instructional_design"
+    ],
+    "predicted_labels_at_0.375": [
+      "esg_sustainability_reporting"
+    ],
+    "core_skills_ge_0.45": [
+      "esg_sustainability_reporting"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "python_scripting",
+      "data_visualization",
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "instructional_design"
+    ],
+    "false_positives": [
+      "esg_sustainability_reporting"
+    ],
+    "false_negatives": [
+      "process_mapping",
+      "instructional_design"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0541,
+      "prompt_engineering": 0.0407,
+      "process_mapping": 0.3583,
+      "sql_data_analysis": 0.0777,
+      "python_scripting": 0.3296,
+      "data_visualization": 0.2301,
+      "workflow_automation": 0.1541,
+      "human_in_the_loop_qa": 0.1132,
+      "rag_knowledge_systems": 0.0348,
+      "api_integration": 0.0832,
+      "ai_ethics_governance": 0.3063,
+      "data_privacy_pdpa": 0.0599,
+      "esg_sustainability_reporting": 0.4477,
+      "carbon_footprint_analytics": 0.1254,
+      "stakeholder_communication": 0.3017,
+      "instructional_design": 0.184
+    },
+    "P_C1": {
+      "ai_literacy": 0.0534,
+      "prompt_engineering": 0.0143,
+      "process_mapping": 0.3492,
+      "sql_data_analysis": 0.0569,
+      "python_scripting": 0.1876,
+      "data_visualization": 0.339,
+      "workflow_automation": 0.0334,
+      "human_in_the_loop_qa": 0.1477,
+      "rag_knowledge_systems": 0.0814,
+      "api_integration": 0.0425,
+      "ai_ethics_governance": 0.3124,
+      "data_privacy_pdpa": 0.0583,
+      "esg_sustainability_reporting": 0.7345,
+      "carbon_footprint_analytics": 0.3881,
+      "stakeholder_communication": 0.1906,
+      "instructional_design": 0.4191
+    },
+    "P_final": {
+      "ai_literacy": 0.0539,
+      "prompt_engineering": 0.0328,
+      "process_mapping": 0.3556,
+      "sql_data_analysis": 0.0715,
+      "python_scripting": 0.287,
+      "data_visualization": 0.2628,
+      "workflow_automation": 0.1179,
+      "human_in_the_loop_qa": 0.1235,
+      "rag_knowledge_systems": 0.0488,
+      "api_integration": 0.071,
+      "ai_ethics_governance": 0.3081,
+      "data_privacy_pdpa": 0.0594,
+      "esg_sustainability_reporting": 0.5338,
+      "carbon_footprint_analytics": 0.2042,
+      "stakeholder_communication": 0.2683,
+      "instructional_design": 0.2546
+    }
+  },
+  {
+    "record_id": "esco-9d7adf00",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "33/41",
+    "true_labels": [
+      "ai_ethics_governance"
+    ],
+    "predicted_labels_at_0.375": [
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "python_scripting",
+      "data_visualization",
+      "data_privacy_pdpa",
+      "instructional_design"
+    ],
+    "false_positives": [
+      "stakeholder_communication"
+    ],
+    "false_negatives": [
+      "ai_ethics_governance"
+    ],
+    "P_A": {
+      "ai_literacy": 0.0398,
+      "prompt_engineering": 0.0224,
+      "process_mapping": 0.2301,
+      "sql_data_analysis": 0.1466,
+      "python_scripting": 0.2719,
+      "data_visualization": 0.1979,
+      "workflow_automation": 0.0671,
+      "human_in_the_loop_qa": 0.0911,
+      "rag_knowledge_systems": 0.0327,
+      "api_integration": 0.1161,
+      "ai_ethics_governance": 0.1327,
+      "data_privacy_pdpa": 0.216,
+      "esg_sustainability_reporting": 0.2777,
+      "carbon_footprint_analytics": 0.1043,
+      "stakeholder_communication": 0.4729,
+      "instructional_design": 0.2812
+    },
+    "P_C1": {
+      "ai_literacy": 0.0892,
+      "prompt_engineering": 0.089,
+      "process_mapping": 0.2008,
+      "sql_data_analysis": 0.1802,
+      "python_scripting": 0.2035,
+      "data_visualization": 0.5068,
+      "workflow_automation": 0.0167,
+      "human_in_the_loop_qa": 0.2655,
+      "rag_knowledge_systems": 0.0517,
+      "api_integration": 0.0713,
+      "ai_ethics_governance": 0.1145,
+      "data_privacy_pdpa": 0.6111,
+      "esg_sustainability_reporting": 0.0774,
+      "carbon_footprint_analytics": 0.082,
+      "stakeholder_communication": 0.6468,
+      "instructional_design": 0.3364
+    },
+    "P_final": {
+      "ai_literacy": 0.0546,
+      "prompt_engineering": 0.0424,
+      "process_mapping": 0.2213,
+      "sql_data_analysis": 0.1567,
+      "python_scripting": 0.2514,
+      "data_visualization": 0.2906,
+      "workflow_automation": 0.052,
+      "human_in_the_loop_qa": 0.1434,
+      "rag_knowledge_systems": 0.0384,
+      "api_integration": 0.1026,
+      "ai_ethics_governance": 0.1273,
+      "data_privacy_pdpa": 0.3345,
+      "esg_sustainability_reporting": 0.2176,
+      "carbon_footprint_analytics": 0.0976,
+      "stakeholder_communication": 0.5251,
+      "instructional_design": 0.2978
+    }
+  },
+  {
+    "record_id": "esco-b5a2b91c",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "33/41",
+    "true_labels": [
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "data_visualization",
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "false_positives": [
+      "ai_ethics_governance"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0675,
+      "prompt_engineering": 0.0268,
+      "process_mapping": 0.2883,
+      "sql_data_analysis": 0.1103,
+      "python_scripting": 0.0927,
+      "data_visualization": 0.423,
+      "workflow_automation": 0.0906,
+      "human_in_the_loop_qa": 0.0233,
+      "rag_knowledge_systems": 0.0257,
+      "api_integration": 0.1306,
+      "ai_ethics_governance": 0.2583,
+      "data_privacy_pdpa": 0.0716,
+      "esg_sustainability_reporting": 0.3694,
+      "carbon_footprint_analytics": 0.2014,
+      "stakeholder_communication": 0.6612,
+      "instructional_design": 0.1971
+    },
+    "P_C1": {
+      "ai_literacy": 0.0642,
+      "prompt_engineering": 0.0707,
+      "process_mapping": 0.3678,
+      "sql_data_analysis": 0.4547,
+      "python_scripting": 0.032,
+      "data_visualization": 0.1747,
+      "workflow_automation": 0.034,
+      "human_in_the_loop_qa": 0.0713,
+      "rag_knowledge_systems": 0.0275,
+      "api_integration": 0.0771,
+      "ai_ethics_governance": 0.6523,
+      "data_privacy_pdpa": 0.094,
+      "esg_sustainability_reporting": 0.3275,
+      "carbon_footprint_analytics": 0.1951,
+      "stakeholder_communication": 0.8245,
+      "instructional_design": 0.1397
+    },
+    "P_final": {
+      "ai_literacy": 0.0665,
+      "prompt_engineering": 0.0399,
+      "process_mapping": 0.3122,
+      "sql_data_analysis": 0.2136,
+      "python_scripting": 0.0745,
+      "data_visualization": 0.3485,
+      "workflow_automation": 0.0736,
+      "human_in_the_loop_qa": 0.0377,
+      "rag_knowledge_systems": 0.0263,
+      "api_integration": 0.1146,
+      "ai_ethics_governance": 0.3765,
+      "data_privacy_pdpa": 0.0783,
+      "esg_sustainability_reporting": 0.3568,
+      "carbon_footprint_analytics": 0.1995,
+      "stakeholder_communication": 0.7102,
+      "instructional_design": 0.1799
+    }
+  },
+  {
+    "record_id": "esco-3537f5b1",
+    "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+    "occupation_title": "",
+    "occupation_group": "33/41",
+    "true_labels": [
+      "process_mapping"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "python_scripting",
+      "data_visualization"
+    ],
+    "false_positives": [
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0887,
+      "prompt_engineering": 0.034,
+      "process_mapping": 0.4738,
+      "sql_data_analysis": 0.5268,
+      "python_scripting": 0.2886,
+      "data_visualization": 0.3081,
+      "workflow_automation": 0.1416,
+      "human_in_the_loop_qa": 0.0799,
+      "rag_knowledge_systems": 0.0229,
+      "api_integration": 0.1266,
+      "ai_ethics_governance": 0.1353,
+      "data_privacy_pdpa": 0.1226,
+      "esg_sustainability_reporting": 0.2125,
+      "carbon_footprint_analytics": 0.0812,
+      "stakeholder_communication": 0.5239,
+      "instructional_design": 0.1018
+    },
+    "P_C1": {
+      "ai_literacy": 0.0922,
+      "prompt_engineering": 0.0554,
+      "process_mapping": 0.4369,
+      "sql_data_analysis": 0.3192,
+      "python_scripting": 0.4488,
+      "data_visualization": 0.5525,
+      "workflow_automation": 0.382,
+      "human_in_the_loop_qa": 0.142,
+      "rag_knowledge_systems": 0.0378,
+      "api_integration": 0.1505,
+      "ai_ethics_governance": 0.3583,
+      "data_privacy_pdpa": 0.1727,
+      "esg_sustainability_reporting": 0.1843,
+      "carbon_footprint_analytics": 0.0521,
+      "stakeholder_communication": 0.5418,
+      "instructional_design": 0.0594
+    },
+    "P_final": {
+      "ai_literacy": 0.0898,
+      "prompt_engineering": 0.0404,
+      "process_mapping": 0.4627,
+      "sql_data_analysis": 0.4645,
+      "python_scripting": 0.3366,
+      "data_visualization": 0.3814,
+      "workflow_automation": 0.2138,
+      "human_in_the_loop_qa": 0.0985,
+      "rag_knowledge_systems": 0.0274,
+      "api_integration": 0.1338,
+      "ai_ethics_governance": 0.2022,
+      "data_privacy_pdpa": 0.1376,
+      "esg_sustainability_reporting": 0.204,
+      "carbon_footprint_analytics": 0.0725,
+      "stakeholder_communication": 0.5292,
+      "instructional_design": 0.0891
+    }
+  },
+  {
+    "record_id": "benchmark-persona-ops_exec_selangor",
+    "source": "Domain 1 Malaysian Benchmark Persona",
+    "occupation_title": "",
+    "occupation_group": "4120",
+    "true_labels": [
+      "ai_literacy",
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "process_mapping",
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "ai_literacy"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "ai_literacy"
+    ],
+    "P_A": {
+      "ai_literacy": 0.38,
+      "prompt_engineering": 0.0976,
+      "process_mapping": 0.6755,
+      "sql_data_analysis": 0.3805,
+      "python_scripting": 0.0757,
+      "data_visualization": 0.6547,
+      "workflow_automation": 0.1638,
+      "human_in_the_loop_qa": 0.0594,
+      "rag_knowledge_systems": 0.1496,
+      "api_integration": 0.107,
+      "ai_ethics_governance": 0.0756,
+      "data_privacy_pdpa": 0.1576,
+      "esg_sustainability_reporting": 0.139,
+      "carbon_footprint_analytics": 0.0689,
+      "stakeholder_communication": 0.6263,
+      "instructional_design": 0.1033
+    },
+    "P_C1": {
+      "ai_literacy": 0.2683,
+      "prompt_engineering": 0.1034,
+      "process_mapping": 0.6837,
+      "sql_data_analysis": 0.7347,
+      "python_scripting": 0.0623,
+      "data_visualization": 0.5632,
+      "workflow_automation": 0.1875,
+      "human_in_the_loop_qa": 0.1243,
+      "rag_knowledge_systems": 0.0523,
+      "api_integration": 0.0557,
+      "ai_ethics_governance": 0.1759,
+      "data_privacy_pdpa": 0.0586,
+      "esg_sustainability_reporting": 0.0703,
+      "carbon_footprint_analytics": 0.0624,
+      "stakeholder_communication": 0.8875,
+      "instructional_design": 0.4899
+    },
+    "P_final": {
+      "ai_literacy": 0.3465,
+      "prompt_engineering": 0.0993,
+      "process_mapping": 0.678,
+      "sql_data_analysis": 0.4868,
+      "python_scripting": 0.0717,
+      "data_visualization": 0.6273,
+      "workflow_automation": 0.1709,
+      "human_in_the_loop_qa": 0.0789,
+      "rag_knowledge_systems": 0.1204,
+      "api_integration": 0.0916,
+      "ai_ethics_governance": 0.1057,
+      "data_privacy_pdpa": 0.1279,
+      "esg_sustainability_reporting": 0.1184,
+      "carbon_footprint_analytics": 0.067,
+      "stakeholder_communication": 0.7046,
+      "instructional_design": 0.2193
+    }
+  },
+  {
+    "record_id": "benchmark-persona-qa_analyst_penang",
+    "source": "Domain 1 Malaysian Benchmark Persona",
+    "occupation_title": "",
+    "occupation_group": "2519",
+    "true_labels": [
+      "sql_data_analysis",
+      "python_scripting",
+      "human_in_the_loop_qa",
+      "api_integration"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "python_scripting",
+      "human_in_the_loop_qa",
+      "api_integration"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "python_scripting",
+      "api_integration"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "data_visualization",
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems"
+    ],
+    "false_positives": [],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0796,
+      "prompt_engineering": 0.0536,
+      "process_mapping": 0.136,
+      "sql_data_analysis": 0.6638,
+      "python_scripting": 0.7941,
+      "data_visualization": 0.2855,
+      "workflow_automation": 0.3475,
+      "human_in_the_loop_qa": 0.4427,
+      "rag_knowledge_systems": 0.3091,
+      "api_integration": 0.6469,
+      "ai_ethics_governance": 0.0352,
+      "data_privacy_pdpa": 0.0533,
+      "esg_sustainability_reporting": 0.0659,
+      "carbon_footprint_analytics": 0.1025,
+      "stakeholder_communication": 0.0903,
+      "instructional_design": 0.1325
+    },
+    "P_C1": {
+      "ai_literacy": 0.3108,
+      "prompt_engineering": 0.2511,
+      "process_mapping": 0.0651,
+      "sql_data_analysis": 0.4845,
+      "python_scripting": 0.8027,
+      "data_visualization": 0.4653,
+      "workflow_automation": 0.3632,
+      "human_in_the_loop_qa": 0.2912,
+      "rag_knowledge_systems": 0.3195,
+      "api_integration": 0.3552,
+      "ai_ethics_governance": 0.0199,
+      "data_privacy_pdpa": 0.0432,
+      "esg_sustainability_reporting": 0.0146,
+      "carbon_footprint_analytics": 0.0298,
+      "stakeholder_communication": 0.227,
+      "instructional_design": 0.3704
+    },
+    "P_final": {
+      "ai_literacy": 0.1489,
+      "prompt_engineering": 0.1128,
+      "process_mapping": 0.1147,
+      "sql_data_analysis": 0.61,
+      "python_scripting": 0.7967,
+      "data_visualization": 0.3395,
+      "workflow_automation": 0.3522,
+      "human_in_the_loop_qa": 0.3973,
+      "rag_knowledge_systems": 0.3122,
+      "api_integration": 0.5594,
+      "ai_ethics_governance": 0.0306,
+      "data_privacy_pdpa": 0.0503,
+      "esg_sustainability_reporting": 0.0505,
+      "carbon_footprint_analytics": 0.0807,
+      "stakeholder_communication": 0.1313,
+      "instructional_design": 0.2039
+    }
+  },
+  {
+    "record_id": "benchmark-persona-esg_coord_kl",
+    "source": "Domain 1 Malaysian Benchmark Persona",
+    "occupation_title": "",
+    "occupation_group": "2133",
+    "true_labels": [
+      "data_visualization",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "predicted_labels_at_0.375": [
+      "sql_data_analysis",
+      "data_visualization",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "core_skills_ge_0.45": [
+      "sql_data_analysis",
+      "data_visualization",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "suggested_skills_0.25_to_0.45": [],
+    "false_positives": [
+      "sql_data_analysis"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.0568,
+      "prompt_engineering": 0.0337,
+      "process_mapping": 0.074,
+      "sql_data_analysis": 0.6305,
+      "python_scripting": 0.0524,
+      "data_visualization": 0.8618,
+      "workflow_automation": 0.0761,
+      "human_in_the_loop_qa": 0.0424,
+      "rag_knowledge_systems": 0.0783,
+      "api_integration": 0.085,
+      "ai_ethics_governance": 0.2043,
+      "data_privacy_pdpa": 0.1068,
+      "esg_sustainability_reporting": 0.9673,
+      "carbon_footprint_analytics": 0.8522,
+      "stakeholder_communication": 0.6601,
+      "instructional_design": 0.0694
+    },
+    "P_C1": {
+      "ai_literacy": 0.0686,
+      "prompt_engineering": 0.0295,
+      "process_mapping": 0.1134,
+      "sql_data_analysis": 0.7972,
+      "python_scripting": 0.0281,
+      "data_visualization": 0.7987,
+      "workflow_automation": 0.0685,
+      "human_in_the_loop_qa": 0.0216,
+      "rag_knowledge_systems": 0.0164,
+      "api_integration": 0.0594,
+      "ai_ethics_governance": 0.2381,
+      "data_privacy_pdpa": 0.0357,
+      "esg_sustainability_reporting": 0.9789,
+      "carbon_footprint_analytics": 0.9314,
+      "stakeholder_communication": 0.7598,
+      "instructional_design": 0.211
+    },
+    "P_final": {
+      "ai_literacy": 0.0603,
+      "prompt_engineering": 0.0324,
+      "process_mapping": 0.0858,
+      "sql_data_analysis": 0.6805,
+      "python_scripting": 0.0451,
+      "data_visualization": 0.8429,
+      "workflow_automation": 0.0738,
+      "human_in_the_loop_qa": 0.0362,
+      "rag_knowledge_systems": 0.0597,
+      "api_integration": 0.0773,
+      "ai_ethics_governance": 0.2145,
+      "data_privacy_pdpa": 0.0855,
+      "esg_sustainability_reporting": 0.9708,
+      "carbon_footprint_analytics": 0.876,
+      "stakeholder_communication": 0.69,
+      "instructional_design": 0.1119
+    }
+  },
+  {
+    "record_id": "benchmark-persona-clerical_admin_ipoh",
+    "source": "Domain 1 Malaysian Benchmark Persona",
+    "occupation_title": "",
+    "occupation_group": "4110",
+    "true_labels": [],
+    "predicted_labels_at_0.375": [
+      "process_mapping",
+      "workflow_automation",
+      "human_in_the_loop_qa"
+    ],
+    "core_skills_ge_0.45": [
+      "workflow_automation"
+    ],
+    "suggested_skills_0.25_to_0.45": [
+      "process_mapping",
+      "human_in_the_loop_qa"
+    ],
+    "false_positives": [
+      "process_mapping",
+      "workflow_automation",
+      "human_in_the_loop_qa"
+    ],
+    "false_negatives": [],
+    "P_A": {
+      "ai_literacy": 0.1147,
+      "prompt_engineering": 0.1042,
+      "process_mapping": 0.2933,
+      "sql_data_analysis": 0.171,
+      "python_scripting": 0.1424,
+      "data_visualization": 0.184,
+      "workflow_automation": 0.4066,
+      "human_in_the_loop_qa": 0.3662,
+      "rag_knowledge_systems": 0.0472,
+      "api_integration": 0.07,
+      "ai_ethics_governance": 0.0521,
+      "data_privacy_pdpa": 0.1626,
+      "esg_sustainability_reporting": 0.0656,
+      "carbon_footprint_analytics": 0.0679,
+      "stakeholder_communication": 0.1792,
+      "instructional_design": 0.1464
+    },
+    "P_C1": {
+      "ai_literacy": 0.1001,
+      "prompt_engineering": 0.141,
+      "process_mapping": 0.8034,
+      "sql_data_analysis": 0.1565,
+      "python_scripting": 0.1995,
+      "data_visualization": 0.1231,
+      "workflow_automation": 0.7102,
+      "human_in_the_loop_qa": 0.5718,
+      "rag_knowledge_systems": 0.0756,
+      "api_integration": 0.05,
+      "ai_ethics_governance": 0.0389,
+      "data_privacy_pdpa": 0.3146,
+      "esg_sustainability_reporting": 0.0083,
+      "carbon_footprint_analytics": 0.0099,
+      "stakeholder_communication": 0.1631,
+      "instructional_design": 0.0627
+    },
+    "P_final": {
+      "ai_literacy": 0.1103,
+      "prompt_engineering": 0.1153,
+      "process_mapping": 0.4464,
+      "sql_data_analysis": 0.1667,
+      "python_scripting": 0.1595,
+      "data_visualization": 0.1658,
+      "workflow_automation": 0.4976,
+      "human_in_the_loop_qa": 0.4279,
+      "rag_knowledge_systems": 0.0557,
+      "api_integration": 0.064,
+      "ai_ethics_governance": 0.0481,
+      "data_privacy_pdpa": 0.2082,
+      "esg_sustainability_reporting": 0.0484,
+      "carbon_footprint_analytics": 0.0505,
+      "stakeholder_communication": 0.1744,
+      "instructional_design": 0.1213
+    }
+  }
+]

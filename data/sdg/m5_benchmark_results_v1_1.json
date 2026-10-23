@@ -1,0 +1,208 @@
+{
+  "suite_version": "1.1.0",
+  "evaluated_at": "2026-10-23T17:05:37.921696Z",
+  "total_benchmarks": 13,
+  "passed_benchmarks": 13,
+  "all_passed": true,
+  "remediation_status": "ALL_DEFECTS_RESOLVED",
+  "results": [
+    {
+      "benchmark_id": "BM01_SUSTAINABILITY_SKILLS",
+      "description": "Validation of direct corporate reporting (12.6) and enabling climate policy (13.2) competencies",
+      "entities": [
+        "carbon_footprint_analytics",
+        "esg_sustainability_reporting"
+      ],
+      "expected_direct_sdgs": [
+        12
+      ],
+      "observed_direct_sdgs": [
+        12
+      ],
+      "observed_enabling_sdgs": [
+        13
+      ],
+      "passed": true,
+      "details": {
+        "carbon_primary": [
+          "12.6 (DIRECT)",
+          "13.2 (ENABLING)"
+        ],
+        "esg_primary": [
+          "12.6 (DIRECT)"
+        ]
+      }
+    },
+    {
+      "benchmark_id": "BM02_GENERAL_PURPOSE_SAFETY",
+      "description": "Validation that general-purpose tech skills NEVER receive DIRECT SDG mapping",
+      "entities": [
+        "python_scripting",
+        "sql_data_analysis",
+        "api_integration",
+        "workflow_automation",
+        "prompt_engineering"
+      ],
+      "direct_mapping_count": 0,
+      "enabling_mapping_count": 10,
+      "passed": true,
+      "rule_enforced": "RULE_GP_NON_DIRECT_STRICT"
+    },
+    {
+      "benchmark_id": "BM03_AI_GOVERNANCE_PRIVACY",
+      "description": "Validation of institutional accountability and data privacy alignment to Target 16.6",
+      "entities": [
+        "ai_ethics_governance",
+        "data_privacy_pdpa"
+      ],
+      "expected_sdg": 16,
+      "observed_sdgs": [
+        16
+      ],
+      "pdpa_targets": [
+        "16.6"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM04_EDUCATION_AND_HUMAN_CAPITAL",
+      "description": "Validation of human capital formation and workforce learning alignment to SDG 4",
+      "entities": [
+        "instructional_design"
+      ],
+      "expected_sdg": 4,
+      "observed_targets": [
+        "4.4"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM05_GREEN_ENGINEERING_OCCUPATIONS",
+      "description": "Validation of environmental and clean energy engineering roles with SECTOR_DEPENDENT_ALIGNMENT",
+      "entities": [
+        "2143 (Environmental Engineers)",
+        "2151 (Electrical Engineers)"
+      ],
+      "env_direct_sdgs": [
+        12,
+        13
+      ],
+      "elec_direct_sdgs": [
+        7
+      ],
+      "env_flags": [
+        "OFFICIAL_TARGET_TRACEABLE",
+        "MASCO_TAXONOMY_GROUNDED",
+        "DIRECT_SUSTAINABILITY_ROLE",
+        "SECTOR_DEPENDENT_ALIGNMENT",
+        "TARGET_SEMANTIC_REMEDIATED"
+      ],
+      "elec_flags": [
+        "OFFICIAL_TARGET_TRACEABLE",
+        "MASCO_TAXONOMY_GROUNDED",
+        "DIRECT_SUSTAINABILITY_ROLE",
+        "SECTOR_DEPENDENT_ALIGNMENT",
+        "TARGET_SEMANTIC_REMEDIATED"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM06_SOFTWARE_TECH_OCCUPATIONS",
+      "description": "Validation of technological upgrading roles (MASCO 2512 & 2511) to Target 9.5 without 9.c overstretch",
+      "entities": [
+        "2512 (Software Developers)",
+        "2511 (Systems Analysts)"
+      ],
+      "dev_enabling_sdgs": [
+        8,
+        9
+      ],
+      "dev_targets": [
+        "9.5",
+        "8.2",
+        "9.4"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM07_ADMINISTRATIVE_CLERICAL_CONTEXTUAL",
+      "description": "Validation that clerical roles receive CONTEXTUAL mappings and CONTEXTUAL_BENEFICIARY_ALIGNMENT on 8.5",
+      "entities": [
+        "4110 (General Office Clerks)",
+        "3343 (Administrative Secretaries)"
+      ],
+      "clerk_mapping_types": [
+        "CONTEXTUAL"
+      ],
+      "sec_mapping_types": [
+        "CONTEXTUAL"
+      ],
+      "clerk_flags": [
+        "OFFICIAL_TARGET_TRACEABLE",
+        "MASCO_TAXONOMY_GROUNDED",
+        "CONTEXTUAL_BENEFICIARY_ALIGNMENT",
+        "TARGET_SEMANTIC_REMEDIATED"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM08_PATHWAY_SDG_SYNTHESIS",
+      "description": "Validation of multi-competency pathway alignment synthesis distinguishing skills from role horizon",
+      "target_role": "2529 (AI & Data Science Specialists)",
+      "skills_count": 4,
+      "total_sdgs_aligned": 6,
+      "direct_sdgs": [
+        12,
+        16
+      ],
+      "enabling_sdgs": [
+        8,
+        9,
+        10,
+        13
+      ],
+      "has_methodology_disclaimer": true,
+      "has_fake_metrics": false,
+      "narrative_has_competency_distinction": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM09_TARGET_9C_PURGE_REGRESSION",
+      "description": "Rigorous verification that Target 9.c is 100% purged from all skills and roles",
+      "skills_with_9c": [],
+      "roles_with_9c": [],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM10_TARGET_16_10_BOUNDARY",
+      "description": "Verification that data_privacy_pdpa aligns to Target 16.6 DIRECT and 16.10 FOI is purged",
+      "skills_with_16_10": [],
+      "pdpa_has_16_6_direct": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM11_TARGET_17_18_SQL_BOUNDARY",
+      "description": "Verification that sql_data_analysis aligns to 9.5 & 8.2 ENABLING and 17.18 census capacity is purged",
+      "skills_with_17_18": [],
+      "sql_has_9_5": true,
+      "sql_has_8_2": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM12_CARBON_ACCOUNTING_PRECISION",
+      "description": "Verification that carbon_footprint_analytics maps to 12.6 DIRECT, 13.2 ENABLING, and 13.3 is purged",
+      "has_12_6_direct": true,
+      "has_13_2_enabling": true,
+      "has_13_3_purged": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM13_CONFIDENCE_CALIBRATION",
+      "description": "Verification that confidence ratings are recalibrated and not saturated (< 80% HIGH)",
+      "total_alignments": 76,
+      "high_confidence_count": 59,
+      "high_confidence_percentage": 77.6,
+      "passed": true
+    }
+  ]
+}

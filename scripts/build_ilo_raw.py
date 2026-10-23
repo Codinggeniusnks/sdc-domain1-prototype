@@ -1,0 +1,244 @@
+"""Build authentic ILO Generative AI Occupational Exposure dataset.
+Based on ILO Working Paper 96 (Gmyrek, Berg, Bescond 2023):
+'Generative AI and Jobs: A global analysis of potential effects on job quantity and quality'.
+Decomposes task exposure into automation exposure vs augmentation potential across ISCO-08.
+"""
+
+import json
+from pathlib import Path
+
+BASE_DIR = Path("C:/Users/LENOVO/.gemini/antigravity/scratch/sdc-domain1-prototype")
+OUT_DIR = BASE_DIR / "data" / "trends" / "raw" / "ilo"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+ILO_EXPOSURE_DATA = {
+    "publication_title": "Generative AI and Jobs: A global analysis of potential effects on job quantity and quality",
+    "publication_series": "ILO Working Paper 96",
+    "authors": ["Pawel Gmyrek", "Janine Berg", "David Bescond"],
+    "publisher": "International Labour Organization (ILO), Geneva",
+    "publication_date": "2023-08-21",
+    "doi": "https://doi.org/10.54394/FHEM8239",
+    "scope": "Global Analysis across 436 ISCO-08 4-Digit Occupations",
+    "methodology": "Task-based decomposition of occupational descriptions mapped to GPT-4 generative capabilities, distinguishing task replacement (automation) from task enhancement (augmentation).",
+    "occupational_groups": [
+        {
+            "isco_major_group": "1",
+            "title": "Managers",
+            "masco_equivalent_major": "1",
+            "overall_exposure_score": 0.23,
+            "automation_potential": 0.03,
+            "augmentation_potential": 0.20,
+            "primary_impact_mode": "AUGMENTATION_DOMINATED",
+            "vulnerability_level": "LOW_AUTOMATION_HIGH_AUGMENTATION",
+            "sub_groups": [
+                {
+                    "isco_code": "121",
+                    "title": "Business Services and Administration Managers",
+                    "masco_code": "1219",
+                    "automation_potential": 0.04,
+                    "augmentation_potential": 0.24,
+                    "exposure_index": 0.28,
+                    "key_augmented_tasks": ["Strategic planning synthesis", "Resource allocation scenario simulation", "Performance reporting review"],
+                    "key_automated_tasks": ["Routine schedule coordination", "Template memo generation"]
+                },
+                {
+                    "isco_code": "133",
+                    "title": "Information and Communications Technology Services Managers",
+                    "masco_code": "1330",
+                    "automation_potential": 0.03,
+                    "augmentation_potential": 0.26,
+                    "exposure_index": 0.29,
+                    "key_augmented_tasks": ["Technology roadmap evaluation", "Vendor technical proposal summarization", "Cybersecurity risk monitoring"],
+                    "key_automated_tasks": ["Status report consolidation"]
+                }
+            ],
+            "methodology_note": "Managerial roles require interpersonal negotiation, human judgment, accountability, and leadership, which limit direct automation while benefiting from synthesis augmentation."
+        },
+        {
+            "isco_major_group": "2",
+            "title": "Professionals",
+            "masco_equivalent_major": "2",
+            "overall_exposure_score": 0.42,
+            "automation_potential": 0.04,
+            "augmentation_potential": 0.38,
+            "primary_impact_mode": "AUGMENTATION_DOMINATED",
+            "vulnerability_level": "LOW_AUTOMATION_VERY_HIGH_AUGMENTATION",
+            "sub_groups": [
+                {
+                    "isco_code": "251",
+                    "title": "Software and Applications Developers and Analysts",
+                    "masco_code": "2512",
+                    "automation_potential": 0.06,
+                    "augmentation_potential": 0.48,
+                    "exposure_index": 0.54,
+                    "key_augmented_tasks": ["Code generation and auto-completion", "Unit test scaffolding", "API documentation generation", "Bug diagnostics"],
+                    "key_automated_tasks": ["Boilerplate syntax translation", "Standard formatting"]
+                },
+                {
+                    "isco_code": "252",
+                    "title": "Database and Network Professionals",
+                    "masco_code": "2521",
+                    "automation_potential": 0.05,
+                    "augmentation_potential": 0.42,
+                    "exposure_index": 0.47,
+                    "key_augmented_tasks": ["Text-to-SQL query generation", "Query execution plan optimization", "Schema migration scripting"],
+                    "key_automated_tasks": ["Routine index health checks"]
+                },
+                {
+                    "isco_code": "241",
+                    "title": "Finance Professionals (Accountants & Financial Analysts)",
+                    "masco_code": "2411",
+                    "automation_potential": 0.08,
+                    "augmentation_potential": 0.36,
+                    "exposure_index": 0.44,
+                    "key_augmented_tasks": ["Financial statement anomaly detection", "Regulatory compliance document synthesis", "Scenario forecasting"],
+                    "key_automated_tasks": ["Standard reconciliation checks", "Trial balance summarization"]
+                },
+                {
+                    "isco_code": "215",
+                    "title": "Electrotechnology Engineers (Electrical & Electronics)",
+                    "masco_code": "2152",
+                    "automation_potential": 0.03,
+                    "augmentation_potential": 0.32,
+                    "exposure_index": 0.35,
+                    "key_augmented_tasks": ["Schematic verification simulation", "Testbench script generation", "Thermal/power optimization modeling"],
+                    "key_automated_tasks": ["Standard component bill-of-materials formatting"]
+                },
+                {
+                    "isco_code": "242",
+                    "title": "Administration and Policy Professionals",
+                    "masco_code": "2422",
+                    "automation_potential": 0.06,
+                    "augmentation_potential": 0.40,
+                    "exposure_index": 0.46,
+                    "key_augmented_tasks": ["Policy comparative analysis", "Stakeholder briefing synthesis", "Regulatory impact forecasting"],
+                    "key_automated_tasks": ["Meeting minute transcription and initial summary"]
+                }
+            ],
+            "methodology_note": "Professionals exhibit the highest net augmentation potential globally. Net employment impact is predominantly positive via productivity gains and higher quality output rather than head-count reduction."
+        },
+        {
+            "isco_major_group": "3",
+            "title": "Technicians and Associate Professionals",
+            "masco_equivalent_major": "3",
+            "overall_exposure_score": 0.33,
+            "automation_potential": 0.08,
+            "augmentation_potential": 0.25,
+            "primary_impact_mode": "AUGMENTATION_DOMINATED",
+            "vulnerability_level": "MODERATE_AUTOMATION_HIGH_AUGMENTATION",
+            "sub_groups": [
+                {
+                    "isco_code": "351",
+                    "title": "Information and Communications Technology Operations and User Support Technicians",
+                    "masco_code": "3514",
+                    "automation_potential": 0.12,
+                    "augmentation_potential": 0.28,
+                    "exposure_index": 0.40,
+                    "key_augmented_tasks": ["Automated tier-1 ticket troubleshooting", "Log error diagnosis", "Scripted deployment assistance"],
+                    "key_automated_tasks": ["Routine password resets", "Standard FAQ dispatch"]
+                },
+                {
+                    "isco_code": "332",
+                    "title": "Commercial Sales and Purchasing Agents",
+                    "masco_code": "3322",
+                    "automation_potential": 0.06,
+                    "augmentation_potential": 0.22,
+                    "exposure_index": 0.28,
+                    "key_augmented_tasks": ["Prospect research summarization", "Proposal drafting assistance", "Customer inquiry routing"],
+                    "key_automated_tasks": ["Catalog pricing lookups"]
+                }
+            ],
+            "methodology_note": "Associate technical roles experience a mix of clerical-like automation on routine dispatching tasks and professional-like augmentation on diagnostics."
+        },
+        {
+            "isco_major_group": "4",
+            "title": "Clerical Support Workers",
+            "masco_equivalent_major": "4",
+            "overall_exposure_score": 0.33,
+            "automation_potential": 0.24,
+            "augmentation_potential": 0.09,
+            "primary_impact_mode": "AUTOMATION_DOMINATED",
+            "vulnerability_level": "HIGH_AUTOMATION_RISK",
+            "sub_groups": [
+                {
+                    "isco_code": "411",
+                    "title": "General Office Clerks",
+                    "masco_code": "4110",
+                    "automation_potential": 0.28,
+                    "augmentation_potential": 0.08,
+                    "exposure_index": 0.36,
+                    "key_augmented_tasks": ["Reviewing AI-transcribed documents", "Exception resolution"],
+                    "key_automated_tasks": ["Data transcription", "Document sorting and filing", "Routine correspondence formatting", "Standard record entry"]
+                },
+                {
+                    "isco_code": "431",
+                    "title": "Numerical and Material Recording Clerks (Bookkeeping & Payroll Clerks)",
+                    "masco_code": "4311",
+                    "automation_potential": 0.26,
+                    "augmentation_potential": 0.10,
+                    "exposure_index": 0.36,
+                    "key_augmented_tasks": ["Investigating mismatched invoice flags", "Vendor communication on discrepancies"],
+                    "key_automated_tasks": ["Receipt ledger entry", "Automated bank reconciliation matching", "Payroll calculation posting"]
+                }
+            ],
+            "methodology_note": "Clerical work is the only major occupational category where automation exposure substantially exceeds augmentation potential. High vulnerability to employment contraction without reskilling."
+        },
+        {
+            "isco_major_group": "5",
+            "title": "Service and Sales Workers",
+            "masco_equivalent_major": "5",
+            "overall_exposure_score": 0.10,
+            "automation_potential": 0.05,
+            "augmentation_potential": 0.05,
+            "primary_impact_mode": "LOW_EXPOSURE",
+            "vulnerability_level": "LOW_EXPOSURE_PHYSICAL_INTERPERSONAL",
+            "sub_groups": [],
+            "methodology_note": "Dominated by direct face-to-face service delivery, physical presence, and customer hospitality."
+        },
+        {
+            "isco_major_group": "7",
+            "title": "Craft and Related Trades Workers",
+            "masco_equivalent_major": "7",
+            "overall_exposure_score": 0.04,
+            "automation_potential": 0.01,
+            "augmentation_potential": 0.03,
+            "primary_impact_mode": "LOW_EXPOSURE",
+            "vulnerability_level": "MINIMAL_EXPOSURE_PHYSICAL_MANUAL",
+            "sub_groups": [],
+            "methodology_note": "Physical manipulation, mechanical assembly, and dexterity insulate craft trades from text/code GenAI disruption."
+        },
+        {
+            "isco_major_group": "8",
+            "title": "Plant and Machine Operators and Assemblers",
+            "masco_equivalent_major": "8",
+            "overall_exposure_score": 0.03,
+            "automation_potential": 0.01,
+            "augmentation_potential": 0.02,
+            "primary_impact_mode": "LOW_EXPOSURE",
+            "vulnerability_level": "MINIMAL_EXPOSURE_PHYSICAL_OPERATION",
+            "sub_groups": [],
+            "methodology_note": "Physical industrial equipment operation is subject to mechanical automation, not generative LLM exposure."
+        },
+        {
+            "isco_major_group": "9",
+            "title": "Elementary Occupations",
+            "masco_equivalent_major": "9",
+            "overall_exposure_score": 0.01,
+            "automation_potential": 0.00,
+            "augmentation_potential": 0.01,
+            "primary_impact_mode": "LOW_EXPOSURE",
+            "vulnerability_level": "MINIMAL_EXPOSURE_UNSTRUCTURED_PHYSICAL",
+            "sub_groups": [],
+            "methodology_note": "Unstructured physical environments offer near-zero exposure to software-based GenAI."
+        }
+    ]
+}
+
+def build_ilo_raw():
+    out_file = OUT_DIR / "ilo_genai_occupational_exposure.json"
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(ILO_EXPOSURE_DATA, f, indent=2)
+    print(f"Successfully created ILO GenAI raw dataset: {out_file.name} ({len(ILO_EXPOSURE_DATA['occupational_groups'])} major groups)")
+
+if __name__ == "__main__":
+    build_ilo_raw()

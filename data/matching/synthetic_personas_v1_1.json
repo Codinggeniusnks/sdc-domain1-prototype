@@ -1,0 +1,187 @@
+{
+  "version": "1.1.0",
+  "generated_date": "2026-10-23",
+  "total_personas": 8,
+  "purpose": "Public synthetic benchmark personas for testing M3 matching sanity invariants, explainability, sensitivity, and fairness.",
+  "personas": [
+    {
+      "persona_id": "PERSONA_1_DATA_ANALYTICS",
+      "category": "Data / Analytics-Oriented",
+      "persona_name": "Senior Tabular Data Analyst",
+      "background_summary": "Extensive experience querying structured databases, building analytical dashboards, and writing data processing scripts.",
+      "skills": {
+        "sql_data_analysis": "USER_CONFIRMED",
+        "python_scripting": "USER_CONFIRMED",
+        "data_visualization": "USER_CONFIRMED",
+        "workflow_automation": "M1_SUGGESTED"
+      },
+      "expected_high_fit_roles": [
+        "2521",
+        "2529",
+        "2411"
+      ],
+      "expected_low_fit_roles": [
+        "2151",
+        "2166",
+        "2424"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_2_SOFTWARE_AUTOMATION",
+      "category": "Software / Automation-Oriented",
+      "persona_name": "Full-Stack Software & Systems Developer",
+      "background_summary": "Background in backend microservice engineering, REST API integrations, and retrieval systems architecture.",
+      "skills": {
+        "python_scripting": "USER_CONFIRMED",
+        "api_integration": "USER_CONFIRMED",
+        "workflow_automation": "USER_CONFIRMED",
+        "rag_knowledge_systems": "USER_ADDED"
+      },
+      "expected_high_fit_roles": [
+        "2512",
+        "2519",
+        "2522",
+        "3514"
+      ],
+      "expected_low_fit_roles": [
+        "2411",
+        "2143",
+        "4110"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_3_BUSINESS_OPERATIONS",
+      "category": "Business Process / Operations-Oriented",
+      "persona_name": "Operations & Transformation Lead",
+      "background_summary": "Specializes in enterprise business process re-engineering, SOP optimization, and stakeholder management.",
+      "skills": {
+        "process_mapping": "USER_CONFIRMED",
+        "workflow_automation": "USER_CONFIRMED",
+        "stakeholder_communication": "USER_CONFIRMED",
+        "ai_literacy": "M1_SUGGESTED"
+      },
+      "expected_high_fit_roles": [
+        "2511",
+        "2421",
+        "1330"
+      ],
+      "expected_low_fit_roles": [
+        "2152",
+        "2151",
+        "2529"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_4_GOVERNANCE_PRIVACY",
+      "category": "Governance / Privacy-Oriented",
+      "persona_name": "Data Privacy & AI Governance Specialist",
+      "background_summary": "Expert in corporate compliance, regulatory data protection under PDPA, and algorithmic safety frameworks.",
+      "skills": {
+        "ai_ethics_governance": "USER_CONFIRMED",
+        "data_privacy_pdpa": "USER_CONFIRMED",
+        "stakeholder_communication": "USER_CONFIRMED",
+        "human_in_the_loop_qa": "M1_CORE"
+      },
+      "expected_high_fit_roles": [
+        "2422",
+        "1330",
+        "2511"
+      ],
+      "expected_low_fit_roles": [
+        "2151",
+        "2152",
+        "2166"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_5_SUSTAINABILITY_ESG",
+      "category": "Sustainability-Oriented",
+      "persona_name": "Environmental & Carbon Accounting Analyst",
+      "background_summary": "Experienced in calculating greenhouse gas emissions, sustainability disclosures, and environmental engineering metrics.",
+      "skills": {
+        "esg_sustainability_reporting": "USER_CONFIRMED",
+        "carbon_footprint_analytics": "USER_CONFIRMED",
+        "sql_data_analysis": "USER_CONFIRMED",
+        "process_mapping": "M1_SUGGESTED"
+      },
+      "expected_high_fit_roles": [
+        "2143",
+        "2151",
+        "2411"
+      ],
+      "expected_low_fit_roles": [
+        "2512",
+        "2522",
+        "2166"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_6_COMMUNICATION_INSTRUCTIONAL",
+      "category": "Communication / Instructional-Oriented",
+      "persona_name": "Corporate Learning & Instructional Designer",
+      "background_summary": "Designs corporate adult-learning curricula, manages training workshops, and creates interactive educational content.",
+      "skills": {
+        "instructional_design": "USER_CONFIRMED",
+        "stakeholder_communication": "USER_CONFIRMED",
+        "ai_literacy": "USER_CONFIRMED",
+        "prompt_engineering": "M1_SUGGESTED"
+      },
+      "expected_high_fit_roles": [
+        "2424",
+        "2421",
+        "3322"
+      ],
+      "expected_low_fit_roles": [
+        "2512",
+        "2521",
+        "2152"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_7_CLERICAL_TRANSITION",
+      "category": "Administrative / Clerical Transition-Oriented",
+      "persona_name": "Administrative Assistant in Digital Upskilling",
+      "background_summary": "Routine clerical background currently learning business process mapping and digital workplace workflow automation.",
+      "skills": {
+        "process_mapping": "USER_CONFIRMED",
+        "ai_literacy": "USER_CONFIRMED",
+        "workflow_automation": "USER_ADDED",
+        "sql_data_analysis": "M1_SUGGESTED"
+      },
+      "expected_high_fit_roles": [
+        "4110",
+        "4311",
+        "3343",
+        "2511"
+      ],
+      "expected_low_fit_roles": [
+        "2529",
+        "2152",
+        "2151"
+      ]
+    },
+    {
+      "persona_id": "PERSONA_8_SPARSE_EARLY_CAREER",
+      "category": "Sparse Early-Career Profile",
+      "persona_name": "Recent Graduate (Foundational AI Literacy)",
+      "background_summary": "Entry-level candidate who has completed foundational AI literacy coursework with minimal practical industry specialization.",
+      "skills": {
+        "ai_literacy": "USER_CONFIRMED",
+        "prompt_engineering": "M1_SUGGESTED"
+      },
+      "expected_high_fit_roles": [
+        "4110",
+        "3322",
+        "3343"
+      ],
+      "expected_low_fit_roles": [
+        "2529",
+        "2152",
+        "2143"
+      ]
+    }
+  ],
+  "parent_version": "1.0.0",
+  "parent_sha256": "5095b8e8b0e60192d89862a1bd29e5b57cbb509e75fbfddf31efed7ea39ffc92",
+  "description": "8 standardized synthetic benchmark personas for M3 v1.1.0 matching and sensitivity evaluation."
+}

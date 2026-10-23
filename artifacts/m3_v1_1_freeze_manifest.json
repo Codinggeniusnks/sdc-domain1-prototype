@@ -1,0 +1,47 @@
+{
+  "version": "1.1.0",
+  "module": "M3_EXPLAINABLE_FUTURE_ROLE_MATCHING_ENGINE",
+  "status": "FORMALLY_FROZEN",
+  "freeze_timestamp": "2026-10-23T22:55:00+08:00",
+  "reference_date": "2026-10-23",
+  "parent_version": "1.0.0",
+  "upstream_dependencies": {
+    "m1_skills_extraction": {
+      "model": "H_blend_0.70A_0.30C1_W1.0",
+      "status": "FROZEN",
+      "provenance": "Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward."
+    },
+    "m2_trend_intelligence": {
+      "version": "v1.1.1",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542"
+    },
+    "m6_scenario_engine": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+    }
+  },
+  "candidate_universe": {
+    "target_granularity": "FOUR_DIGIT_OCCUPATION",
+    "candidate_role_count": 20,
+    "excluded_fallback_count": 8
+  },
+  "artifacts_sha256": {
+    "role_requirements": "18cf35803d6f8a0991c1092c7e7e999d1f1846cf49cc5ba67d394b2e93684b96",
+    "scoring_config": "d822c244fb749728bd493ab62369d58172f986167a99fdfd1179669b438f87d9",
+    "synthetic_personas": "4ff19b686f836edf21a3397b5df0b06913cfa485944747f806092b6c073c7542",
+    "benchmark_results": "41fb1b1c16e064e85e5e2f29f5dd6ccea7af551671b66936fea2f92f561f18ed",
+    "source_code": "b8dba4a71cb2fae79434a0e67ce8ad03b78ccb3ab0c9209403d00f0a58f32a04",
+    "build_requirements_script": "5e75602e645e0da19a262468a0b99ea9aceaca8714a2bf9e3f3f4f7e0a97e6de",
+    "run_benchmarks_script": "1bdd1eadbdc5967d96c370a9f6e3c318f64b4e9ba8eef7499ddcf7c07ef809f9",
+    "test_suite": "d9fc26e01d1e865f1a90d53fa5f3580bcc515a0b53fea0c5036f9a57d544d154",
+    "build_manifest": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c"
+  },
+  "test_summary": {
+    "tests_passed": 28,
+    "tests_total": 28,
+    "pass_rate_pct": 100.0,
+    "verdict": "ALL_TESTS_PASSING"
+  }
+}

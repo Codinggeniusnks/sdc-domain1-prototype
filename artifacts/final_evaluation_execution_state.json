@@ -1,0 +1,332 @@
+{
+  "dataset_v5_sha256_verified": true,
+  "dataset_v5_sha256": "9c59cc584167b3047e0d5f4177f205937e297da0605e99b369edfc738124032d",
+  "bundle_composite_sha256": "13fb05838e923dc8d008173ba9c719a4929b6ba3c4b8f064777dff6a2eef19b3",
+  "artifact_hashes": {
+    "candidate_a_joblib_sha256": "43f01ab7107cd7be484c17d23e8d1312ad902dbf21017584681e95d56d13d759",
+    "candidate_c1_head_joblib_sha256": "b0ab7a9de28ab7a8f25272a77fa40ed12cc68b9b37fe9986e8e198de202c6c6c",
+    "ensemble_config_json_sha256": "70b9a8be5075d6f49a4529e6f4bdc9ccdbe7b8bd3fe8624684c9df651ed7f6f8",
+    "metadata_json_sha256": "8fc8bc7022a1da3d5e5d447f97ac24c8195772356b6ff316df3cb60931b8e9d1",
+    "model_bundle_composite_sha256": "13fb05838e923dc8d008173ba9c719a4929b6ba3c4b8f064777dff6a2eef19b3"
+  },
+  "metrics_b": {
+    "macro_f1": 0.6703,
+    "micro_f1": 0.609,
+    "macro_precision": 0.6112,
+    "macro_recall": 0.8029,
+    "micro_precision": 0.505,
+    "micro_recall": 0.7669,
+    "hamming_loss": 0.13,
+    "subset_accuracy": 0.1111,
+    "rare_class_recall": 0.8375,
+    "per_class": {
+      "ai_literacy": {
+        "support": 6,
+        "precision": 0.625,
+        "recall": 0.8333,
+        "f1": 0.7143
+      },
+      "prompt_engineering": {
+        "support": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "process_mapping": {
+        "support": 15,
+        "precision": 0.3333,
+        "recall": 0.6667,
+        "f1": 0.4444
+      },
+      "sql_data_analysis": {
+        "support": 15,
+        "precision": 0.5714,
+        "recall": 0.8,
+        "f1": 0.6667
+      },
+      "python_scripting": {
+        "support": 13,
+        "precision": 0.8182,
+        "recall": 0.6923,
+        "f1": 0.75
+      },
+      "data_visualization": {
+        "support": 9,
+        "precision": 0.375,
+        "recall": 0.6667,
+        "f1": 0.48
+      },
+      "workflow_automation": {
+        "support": 4,
+        "precision": 0.3,
+        "recall": 0.75,
+        "f1": 0.4286
+      },
+      "human_in_the_loop_qa": {
+        "support": 8,
+        "precision": 0.5556,
+        "recall": 0.625,
+        "f1": 0.5882
+      },
+      "rag_knowledge_systems": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "api_integration": {
+        "support": 2,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "ai_ethics_governance": {
+        "support": 18,
+        "precision": 0.8125,
+        "recall": 0.7222,
+        "f1": 0.7647
+      },
+      "data_privacy_pdpa": {
+        "support": 8,
+        "precision": 0.7,
+        "recall": 0.875,
+        "f1": 0.7778
+      },
+      "esg_sustainability_reporting": {
+        "support": 8,
+        "precision": 0.5385,
+        "recall": 0.875,
+        "f1": 0.6667
+      },
+      "carbon_footprint_analytics": {
+        "support": 4,
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1": 0.6667
+      },
+      "stakeholder_communication": {
+        "support": 13,
+        "precision": 0.3,
+        "recall": 0.9231,
+        "f1": 0.4528
+      },
+      "instructional_design": {
+        "support": 6,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8
+      }
+    }
+  },
+  "ci_b": {
+    "macro_f1": {
+      "point_mean": 0.6173,
+      "ci_95_lower": 0.4855,
+      "ci_95_upper": 0.7231,
+      "std": 0.0626
+    },
+    "micro_f1": {
+      "point_mean": 0.6054,
+      "ci_95_lower": 0.5129,
+      "ci_95_upper": 0.6938,
+      "std": 0.0452
+    },
+    "macro_precision": {
+      "point_mean": 0.5739,
+      "ci_95_lower": 0.4419,
+      "ci_95_upper": 0.6838,
+      "std": 0.0631
+    },
+    "macro_recall": {
+      "point_mean": 0.7556,
+      "ci_95_lower": 0.6149,
+      "ci_95_upper": 0.8755,
+      "std": 0.0688
+    },
+    "rare_class_recall": {
+      "point_mean": 0.8291,
+      "ci_95_lower": 0.6258,
+      "ci_95_upper": 0.9878,
+      "std": 0.0937
+    },
+    "bootstrap_method": "cluster_by_occupation_group",
+    "iterations": 2000
+  },
+  "hitl_b": {
+    "core_precision": 0.7128,
+    "core_recall": 0.7165,
+    "suggested_precision": 0.1576,
+    "missed_by_core_total": 44,
+    "recovered_by_suggested": 26,
+    "recovery_rate_pct": 59.09,
+    "false_suggestion_burden_per_doc": 2.21
+  },
+  "metrics_c": {
+    "macro_f1": 0.7443,
+    "micro_f1": 0.7897,
+    "macro_precision": 0.6792,
+    "macro_recall": 0.8509,
+    "micro_precision": 0.7,
+    "micro_recall": 0.9059,
+    "hamming_loss": 0.1025,
+    "subset_accuracy": 0.12,
+    "rare_class_recall": 0.9,
+    "per_class": {
+      "ai_literacy": {
+        "support": 2,
+        "precision": 0.3333,
+        "recall": 0.5,
+        "f1": 0.4
+      },
+      "prompt_engineering": {
+        "support": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "process_mapping": {
+        "support": 11,
+        "precision": 0.8182,
+        "recall": 0.8182,
+        "f1": 0.8182
+      },
+      "sql_data_analysis": {
+        "support": 8,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "python_scripting": {
+        "support": 9,
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1": 0.9474
+      },
+      "data_visualization": {
+        "support": 7,
+        "precision": 0.5455,
+        "recall": 0.8571,
+        "f1": 0.6667
+      },
+      "workflow_automation": {
+        "support": 7,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "human_in_the_loop_qa": {
+        "support": 5,
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8
+      },
+      "rag_knowledge_systems": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "api_integration": {
+        "support": 7,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333
+      },
+      "ai_ethics_governance": {
+        "support": 1,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "data_privacy_pdpa": {
+        "support": 8,
+        "precision": 0.8571,
+        "recall": 0.75,
+        "f1": 0.8
+      },
+      "esg_sustainability_reporting": {
+        "support": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "carbon_footprint_analytics": {
+        "support": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "stakeholder_communication": {
+        "support": 9,
+        "precision": 0.5714,
+        "recall": 0.8889,
+        "f1": 0.6957
+      },
+      "instructional_design": {
+        "support": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "ci_c": {
+    "macro_f1": {
+      "point_mean": 0.7103,
+      "ci_95_lower": 0.613,
+      "ci_95_upper": 0.7866,
+      "std": 0.0441
+    },
+    "micro_f1": {
+      "point_mean": 0.7894,
+      "ci_95_lower": 0.7549,
+      "ci_95_upper": 0.8272,
+      "std": 0.0187
+    },
+    "macro_precision": {
+      "point_mean": 0.6646,
+      "ci_95_lower": 0.5727,
+      "ci_95_upper": 0.7477,
+      "std": 0.0445
+    },
+    "macro_recall": {
+      "point_mean": 0.8094,
+      "ci_95_lower": 0.6925,
+      "ci_95_upper": 0.9069,
+      "std": 0.0557
+    },
+    "rare_class_recall": {
+      "point_mean": 0.9053,
+      "ci_95_lower": 0.7333,
+      "ci_95_upper": 1.0,
+      "std": 0.0838
+    },
+    "bootstrap_method": "cluster_by_occupation_group",
+    "iterations": 2000
+  },
+  "hitl_c": {
+    "core_precision": 0.7361,
+    "core_recall": 0.7879,
+    "suggested_precision": 0.1481,
+    "missed_by_core_total": 13,
+    "recovered_by_suggested": 8,
+    "recovery_rate_pct": 61.54,
+    "false_suggestion_burden_per_doc": 1.84
+  },
+  "gap": {
+    "b_macro": 0.0269,
+    "b_micro": -0.0267,
+    "c_macro": 0.1009,
+    "c_micro": 0.154
+  },
+  "performance": {
+    "model_bundle_size_mb": 0.39,
+    "mean_latency_ms": 54.75,
+    "p50_latency_ms": 54.33,
+    "p95_latency_ms": 61.23,
+    "min_latency_ms": 49.34,
+    "max_latency_ms": 77.24,
+    "throughput_docs_per_sec": 18.3
+  },
+  "total_elapsed_sec": 97.64
+}

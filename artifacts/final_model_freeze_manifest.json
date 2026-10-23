@@ -1,0 +1,73 @@
+{
+  "manifest_name": "Final M1 Model Freeze Manifest",
+  "stage": "Stage 8E Final Evaluation",
+  "frozen_timestamp": "2026-10-23T13:43:55.309998",
+  "status": "FROZEN_IMMUTABLE",
+  "primary_model_configuration": "H_blend_0.70A_0.30C1_W1.0",
+  "dataset_v5_sha256": "9c59cc584167b3047e0d5f4177f205937e297da0605e99b369edfc738124032d",
+  "artifact_hashes": {
+    "candidate_a_joblib_sha256": "43f01ab7107cd7be484c17d23e8d1312ad902dbf21017584681e95d56d13d759",
+    "candidate_c1_head_joblib_sha256": "b0ab7a9de28ab7a8f25272a77fa40ed12cc68b9b37fe9986e8e198de202c6c6c",
+    "ensemble_config_json_sha256": "70b9a8be5075d6f49a4529e6f4bdc9ccdbe7b8bd3fe8624684c9df651ed7f6f8",
+    "metadata_json_sha256": "8fc8bc7022a1da3d5e5d447f97ac24c8195772356b6ff316df3cb60931b8e9d1",
+    "model_bundle_composite_sha256": "13fb05838e923dc8d008173ba9c719a4929b6ba3c4b8f064777dff6a2eef19b3"
+  },
+  "artifact_file_sizes": {
+    "candidate_a_joblib_bytes": 362433,
+    "candidate_c1_head_joblib_bytes": 48649,
+    "ensemble_config_json_bytes": 1282,
+    "metadata_json_bytes": 417
+  },
+  "hyperparameters": {
+    "branch_a": {
+      "word_ngram": [
+        1,
+        3
+      ],
+      "word_max_feat": 2048,
+      "word_min_df": 1,
+      "char_ngram": [
+        3,
+        5
+      ],
+      "char_max_feat": 1024,
+      "char_min_df": 2,
+      "C": 2.5,
+      "class_weight": "balanced",
+      "solver": "liblinear",
+      "sample_weight": 1.0,
+      "random_state": 42
+    },
+    "branch_c1": {
+      "C": 3.0,
+      "class_weight": "balanced",
+      "solver": "liblinear",
+      "sample_weight": 1.0,
+      "random_state": 42
+    },
+    "ensemble": {
+      "candidate_a": 0.7,
+      "candidate_c1": 0.3
+    },
+    "evaluation_threshold": 0.375,
+    "product_thresholds": {
+      "core_threshold": 0.45,
+      "suggested_threshold_min": 0.25,
+      "suggested_threshold_max": 0.45,
+      "noise_threshold": 0.25
+    }
+  },
+  "environment": {
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "scikit_learn_version": "1.7.1",
+    "torch_version": "2.14.1+cpu",
+    "sentence_transformers_version": "3.3.1",
+    "joblib_version": "1.5.1",
+    "numpy_version": "2.3.2",
+    "training_seed": 42,
+    "branch_a_fit_seconds": 0.78,
+    "branch_c1_fit_seconds": 9.31
+  },
+  "hard_freeze_gate": "PASSED_VERIFIED"
+}

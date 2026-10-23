@@ -1,0 +1,1385 @@
+<USER_REQUEST>
+Act as an independent Senior Learning-Pathway Methodologist, Education-Resource Auditor, Workforce-Reskilling Researcher and Reproducibility Engineer.
+
+This is a BOUNDED methodology review of:
+
+M4 Personalised Reskilling Pathway Engine v1.0.0
+
+Do NOT rebuild M4.
+
+Do NOT build M5.
+
+Do NOT build UI.
+
+Do NOT modify frozen M1.
+
+Do NOT modify frozen M2.
+
+Do NOT modify frozen M3.
+
+Do NOT modify frozen M6.
+
+Do NOT use RunPod.
+
+Do NOT use Argon.
+
+Use Gemini 3.8 Flash with LIVE WEB ACCESS because learning-resource availability, pricing and access models are time-sensitive.
+
+==================================================
+UPSTREAM FROZEN SYSTEMS
+==================================================
+
+M1:
+
+H_blend_0.70A_0.30C1_W1.0
+
+Canonical provenance:
+
+"Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward."
+
+
+M2:
+
+M2 Trend Intelligence v1.1.1
+
+Freeze SHA-256:
+
+cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542
+
+
+M6:
+
+M6 Scenario Engine v1.1.0
+
+Freeze SHA-256:
+
+ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5
+
+
+M3:
+
+M3 Role Matching Engine v1.1.0
+
+Freeze/Build SHA-256:
+
+15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c
+
+All upstream systems remain READ ONLY.
+
+==================================================
+CURRENT M4 STATUS
+==================================================
+
+Version:
+
+M4 Personalised Reskilling Pathway Engine v1.0.0
+
+Stage 12A reports:
+
+16 skills
+
+20 target occupations
+
+15 prerequisite relations
+
+38 learning resources
+
+29 providers
+
+31 FREE
+
+5 FREE_TO_AUDIT
+
+1 LOW_COST
+
+1 UNKNOWN / variable-cost
+
+8 synthetic pathways
+
+23/23 M4 tests passing.
+
+Current verdict:
+
+READY FOR M4 METHODOLOGY REVIEW
+
+==================================================
+SOURCE OF TRUTH
+==================================================
+
+Inspect actual implementation, JSON records and live provider pages.
+
+Read:
+
+data/reskilling/skill_prerequisites_v1.json
+
+data/reskilling/learning_resources_v1.json
+
+data/reskilling/m4_scoring_config_v1.json
+
+data/reskilling/m4_benchmark_results_v1.json
+
+data/reskilling/m4_build_manifest_v1.json
+
+src/reskilling_pathway_engine.py
+
+scripts/build_skill_prerequisites.py
+
+scripts/build_learning_resources.py
+
+scripts/run_m4_benchmarks.py
+
+tests/test_reskilling_pathway_engine.py
+
+artifacts/m4_pathway_methodology.md
+
+artifacts/m4_prerequisite_graph_audit.md
+
+artifacts/m4_learning_resource_provenance.md
+
+artifacts/m4_learning_time_methodology.md
+
+artifacts/m4_cost_accessibility_audit.md
+
+artifacts/m4_synthetic_pathway_results.md
+
+artifacts/m4_scenario_adjustment_audit.md
+
+artifacts/m4_fairness_audit.md
+
+artifacts/m4_m5_interface.md
+
+artifacts/stage12b_readiness.md
+
+==================================================
+PRIMARY REVIEW QUESTION
+==================================================
+
+Determine whether M4 v1.0.0 is methodologically and factually safe enough to generate user-facing reskilling pathways.
+
+The engine must remain:
+
+GAP-DRIVEN
+
+PREREQUISITE-AWARE
+
+SOURCE-GROUNDED
+
+FREE/LOW-COST FIRST
+
+SCENARIO-AWARE
+
+FAIR
+
+and:
+
+NOT A LEARNING-SUCCESS PREDICTION MODEL.
+
+==================================================
+AUDIT 1 — M3 GAP CONTRACT
+==================================================
+
+Verify M4 consumes:
+
+missing CORE
+
+missing IMPORTANT
+
+missing SUPPORTING
+
+deficit
+
+transition distance
+
+requirement source evidence
+
+without recomputing or modifying M3 role matching.
+
+Confirm:
+
+M3 Evidence Confidence
+
+does NOT increase:
+
+number of steps
+
+learning hours
+
+difficulty
+
+or skill deficit.
+
+Return:
+
+VALID
+
+or:
+
+NEEDS FIX.
+
+==================================================
+AUDIT 2 — CORE-FIRST ORDERING
+==================================================
+
+Verify CORE gaps have higher structural priority than IMPORTANT/SUPPORTING gaps.
+
+However:
+
+a prerequisite may legitimately appear before the CORE target skill.
+
+Check actual pathways.
+
+There must be no case where:
+
+optional/supporting skill crowds out unresolved CORE gaps
+
+without prerequisite justification.
+
+==================================================
+AUDIT 3 — PREREQUISITE GRAPH GROUNDING
+==================================================
+
+This is critical.
+
+Audit all:
+
+15 prerequisite relations.
+
+For every relation verify:
+
+prerequisite_skill_id
+
+target_skill_id
+
+dependency_strength
+
+reason
+
+source_id
+
+evidence_reference
+
+mapping_confidence.
+
+Classify each as:
+
+SUPPORTED
+
+WEAKLY SUPPORTED
+
+UNSUPPORTED.
+
+==================================================
+AUDIT 4 — REQUIRED DEPENDENCY STANDARD
+==================================================
+
+REQUIRED prerequisite is a strong claim.
+
+Verify REQUIRED is used only when:
+
+the downstream skill genuinely cannot reasonably be learned/applied without the prerequisite
+
+or:
+
+an authoritative learning/technical source explicitly defines the dependency.
+
+If a prerequisite is merely:
+
+helpful
+
+common
+
+recommended
+
+it must not be REQUIRED.
+
+==================================================
+AUDIT 5 — RECOMMENDED / OPTIONAL DISTINCTION
+==================================================
+
+Verify:
+
+RECOMMENDED
+
+and:
+
+OPTIONAL
+
+have deterministic meanings.
+
+Do not let subjective intuition determine strength.
+
+==================================================
+AUDIT 6 — PREREQUISITE CYCLES
+==================================================
+
+Recompute the graph independently.
+
+Verify:
+
+0 cycles among REQUIRED dependencies.
+
+Also inspect:
+
+RECOMMENDED chains
+
+for practical circularity.
+
+==================================================
+AUDIT 7 — PREREQUISITE COVERAGE
+==================================================
+
+Determine whether 15 relations across 16 skills are:
+
+reasonable coverage
+
+or:
+
+artificially dense.
+
+A skill does NOT need a prerequisite solely to make the graph connected.
+
+Report:
+
+skills with zero prerequisites
+
+skills with multiple prerequisites
+
+maximum chain depth.
+
+==================================================
+AUDIT 8 — LIVE RESOURCE EXISTENCE
+==================================================
+
+Independently re-verify ALL 38 resource records using the CURRENT OFFICIAL PROVIDER PAGE.
+
+Do not trust Stage 12A verification metadata.
+
+For every resource verify:
+
+resource exists
+
+official page resolves
+
+title matches
+
+provider matches
+
+content still available.
+
+Return counts:
+
+VERIFIED
+
+CHANGED
+
+UNAVAILABLE
+
+UNVERIFIABLE.
+
+==================================================
+AUDIT 9 — OFFICIAL URL
+==================================================
+
+Every primary resource must use:
+
+official provider URL
+
+not:
+
+blog mirror
+
+search result
+
+affiliate page
+
+third-party course directory.
+
+==================================================
+AUDIT 10 — FREE STATUS
+==================================================
+
+Independently verify all 31 claimed:
+
+FREE
+
+resources.
+
+FREE means:
+
+learning content can be accessed without payment.
+
+Do not count:
+
+free trial
+
+preview only
+
+sample lesson
+
+temporary promotion
+
+as FREE.
+
+Any incorrect status is at least P1 because competition documentation relies on cost accessibility.
+
+==================================================
+AUDIT 11 — FREE_TO_AUDIT STATUS
+==================================================
+
+Verify the 5 claimed FREE_TO_AUDIT resources.
+
+Confirm:
+
+course content can actually be audited without payment
+
+as of the current verification date.
+
+If provider access rules changed:
+
+reclassify.
+
+==================================================
+AUDIT 12 — CERTIFICATE COST SEPARATION
+==================================================
+
+Verify:
+
+free learning access
+
+is not confused with:
+
+free certificate.
+
+Example valid structure:
+
+content_access = FREE_TO_AUDIT
+
+certificate = PAID / UNKNOWN.
+
+Do not imply certification is free when only course content is free.
+
+==================================================
+AUDIT 13 — LOW_COST RESOURCE
+==================================================
+
+Stage 12A reports:
+
+1 LOW_COST resource at RM99.
+
+Verify:
+
+current official price
+
+currency
+
+whether mandatory taxes/fees are excluded
+
+whether price is permanent or promotional.
+
+If current price cannot be verified:
+
+reclassify as:
+
+VARIABLE_PRICE
+
+or:
+
+UNKNOWN.
+
+==================================================
+AUDIT 14 — LOW-COST THRESHOLD
+==================================================
+
+Stage 12A uses:
+
+RM150
+
+as project LOW_COST threshold.
+
+Audit whether this threshold is:
+
+explicitly documented as a PRODUCT POLICY
+
+rather than:
+
+objective affordability fact.
+
+Preferred wording:
+
+"For this prototype, LOW_COST is operationally defined as verified direct resource price <= RM150."
+
+Do not claim:
+
+RM150 is universally affordable.
+
+==================================================
+AUDIT 15 — UNKNOWN COST
+==================================================
+
+Verify unknown/variable-cost resources never contribute:
+
+RM0
+
+to minimum or maximum verified-cost calculations incorrectly.
+
+==================================================
+AUDIT 16 — RESOURCE LANGUAGE
+==================================================
+
+Stage 12A reports:
+
+100% English verified.
+
+Verify actual provider metadata/content supports this.
+
+Do NOT infer language from:
+
+English title only.
+
+If language cannot be confirmed:
+
+UNSPECIFIED.
+
+==================================================
+AUDIT 17 — RESOURCE LEVEL
+==================================================
+
+Verify BEGINNER / INTERMEDIATE / ADVANCED labels are sourced from provider evidence.
+
+If provider does not specify level:
+
+use UNSPECIFIED.
+
+==================================================
+AUDIT 18 — SKILL ALIGNMENT
+==================================================
+
+For each resource verify:
+
+the syllabus / learning objectives
+
+materially teach the assigned skill.
+
+Keyword mention is insufficient.
+
+Classify alignment:
+
+HIGH
+
+MEDIUM
+
+LOW.
+
+Primary resource should generally be HIGH.
+
+==================================================
+AUDIT 19 — RESOURCE-TO-SKILL OVERREACH
+==================================================
+
+Check whether one generic course is mapped to multiple skills more broadly than its syllabus justifies.
+
+Avoid:
+
+course duplication creating fake catalog coverage.
+
+==================================================
+AUDIT 20 — RESOURCE PROVIDER DIVERSITY
+==================================================
+
+Stage 12A reports:
+
+29 providers for 38 resources.
+
+Verify this number.
+
+Check whether provider aliases create inflated diversity, for example:
+
+Google
+
+Google Cloud
+
+Grow with Google
+
+being counted as unrelated institutions.
+
+Report:
+
+raw provider labels
+
+normalized provider groups.
+
+==================================================
+AUDIT 21 — RESOURCE FRESHNESS
+==================================================
+
+Verify:
+
+last_verified_date
+
+exists for all resources.
+
+Check that the verification date represents:
+
+actual live verification
+
+not dataset creation timestamp.
+
+==================================================
+AUDIT 22 — RESOURCE FAILURE INDEPENDENCE
+==================================================
+
+Remove primary resource from a test skill.
+
+Verify:
+
+skill remains in pathway
+
+priority unchanged
+
+alternative may replace resource
+
+or:
+
+resource list becomes empty.
+
+Course availability must not alter:
+
+which skill is a gap.
+
+==================================================
+AUDIT 23 — LEARNING TIME FORMULA
+==================================================
+
+Stage 12A reports:
+
+M_eff = 0.50 + 0.50 × deficit.
+
+Audit this formula.
+
+Explain exactly what base-hour value it scales.
+
+Determine whether:
+
+a near-complete skill still requiring 50% of full learning effort
+
+is defensible.
+
+Do not accept formula solely because it is continuous.
+
+==================================================
+AUDIT 24 — LEARNING TIME SOURCE
+==================================================
+
+For every step distinguish:
+
+PROVIDER_STATED
+
+SYSTEM_ESTIMATE
+
+MIXED_EVIDENCE.
+
+Verify provider-stated duration is actually on official page.
+
+==================================================
+AUDIT 25 — TIME ESTIMATE CALIBRATION
+==================================================
+
+Audit skill-level base hour ranges.
+
+Check whether:
+
+AI literacy
+
+Python
+
+SQL
+
+RAG
+
+PDPA
+
+stakeholder communication
+
+etc.
+
+receive reasonable ranges relative to actual learning depth.
+
+Do NOT require exact truth.
+
+But reject clearly implausible ranges.
+
+==================================================
+AUDIT 26 — FAKE PRECISION
+==================================================
+
+Stage 12A reports pathway averages such as:
+
+50.4 hours
+
+55.0 hours.
+
+Internal averages may have decimals.
+
+But user-facing pathway estimates should remain rounded ranges.
+
+Verify UI-facing contract does not output false precision.
+
+==================================================
+AUDIT 27 — WEEK CALCULATION
+==================================================
+
+Stage 12A reports examples such as:
+
+5.0–7.5 weeks @10h/week.
+
+Verify week estimates only appear when:
+
+hours_per_week assumption
+
+is explicitly supplied.
+
+If benchmark default assumes 10h/week:
+
+label it as:
+
+TEST ASSUMPTION
+
+not user-specific estimate.
+
+==================================================
+AUDIT 28 — PATHWAY TOTAL HOURS
+==================================================
+
+Recompute multiple benchmark pathways.
+
+Verify total low/high hours equal:
+
+sum of required active pathway steps
+
+with no duplicate counting.
+
+==================================================
+AUDIT 29 — PARTIAL SKILL DEFICIT
+==================================================
+
+Verify:
+
+M1_SUGGESTED / partial skill evidence
+
+reduces learning effort
+
+but does not erase:
+
+CORE gap
+
+without user confirmation.
+
+==================================================
+AUDIT 30 — MASTERY UPDATE
+==================================================
+
+Mark a missing skill as:
+
+USER_CONFIRMED.
+
+Recompute.
+
+Verify:
+
+step removed or appropriately reduced
+
+dependent steps remain logically ordered.
+
+==================================================
+AUDIT 31 — SCENARIO INFLUENCE
+==================================================
+
+Inspect:
+
+REFERENCE_2026
+
+MODERATE_COPILOT
+
+FAST_AGENTIC.
+
+M6 may reorder already-grounded relevant gaps.
+
+It must NOT add a skill absent from:
+
+role requirements
+
+or documented transition requirements.
+
+==================================================
+AUDIT 32 — SCENARIO BONUS MAGNITUDE
+==================================================
+
+Quantify maximum scenario-induced priority shift.
+
+M6 should not override:
+
+CORE requirement structure
+
+without legitimate dependency logic.
+
+==================================================
+AUDIT 33 — TRANSFERABILITY
+==================================================
+
+Verify transferability is calculated from:
+
+number / strength of role requirements across the 20-role catalog.
+
+Do not use manually assigned:
+
+"highly transferable"
+
+labels.
+
+==================================================
+AUDIT 34 — PATHWAY PRIORITY FORMULA
+==================================================
+
+Reconstruct priority score.
+
+Check contributions from:
+
+requirement strength
+
+deficit
+
+prerequisites
+
+scenario relevance
+
+effort
+
+transferability.
+
+No hidden constants.
+
+==================================================
+AUDIT 35 — LEARNING EFFORT EFFECT
+==================================================
+
+Ensure easier skills do not always outrank critical difficult skills merely because they are faster.
+
+Effort should influence sequencing:
+
+not replace role importance.
+
+==================================================
+AUDIT 36 — TOPOLOGICAL ORDER
+==================================================
+
+Verify pathway order respects:
+
+all REQUIRED prerequisite edges.
+
+If priority conflicts with prerequisite:
+
+prerequisite wins.
+
+==================================================
+AUDIT 37 — RESOURCE ORDER INDEPENDENCE
+==================================================
+
+Verify changing resource catalog order does not change:
+
+skill pathway order.
+
+==================================================
+AUDIT 38 — FREE-FIRST POLICY
+==================================================
+
+Confirm:
+
+FREE_FIRST
+
+selects verified free resources when:
+
+skill alignment
+
+level suitability
+
+and prerequisite fit
+
+are comparable.
+
+Do not always choose free if resource is materially misaligned.
+
+==================================================
+AUDIT 39 — FREE PATHWAY CLAIM
+==================================================
+
+Stage 12A reports:
+
+100% benchmark primary pathways achieve RM0 direct cost.
+
+Independently verify.
+
+Make sure this refers to:
+
+minimum learning-content access cost
+
+not:
+
+certification cost.
+
+Use precise wording.
+
+==================================================
+AUDIT 40 — CERTIFICATION
+==================================================
+
+No explanation should imply:
+
+certificate completion = competency
+
+or:
+
+certificate = employment advantage
+
+unless appropriately qualified.
+
+==================================================
+AUDIT 41 — PATHWAY EVIDENCE CONFIDENCE
+==================================================
+
+Stage 12A reports components:
+
+gap evidence 0.30
+
+prerequisite quality 0.25
+
+resource verification 0.25
+
+freshness 0.20.
+
+Verify:
+
+these sum to 1.00
+
+and are genuinely independent enough.
+
+Critically verify:
+
+M3 Evidence Confidence
+
+does NOT directly inflate pathway confidence.
+
+==================================================
+AUDIT 42 — BENCHMARK CONFIDENCE 94.5
+==================================================
+
+Stage 12A reports:
+
+benchmark pathway confidence = 94.5 HIGH.
+
+Check whether this is:
+
+one sample pathway
+
+average across pathways
+
+or hardcoded/near-saturated.
+
+Evidence-confidence distribution should show meaningful variation.
+
+==================================================
+AUDIT 43 — CONFIDENCE VS PATHWAY LENGTH
+==================================================
+
+Low pathway confidence must NOT automatically create:
+
+more steps
+
+more hours
+
+harder resources.
+
+Verify.
+
+==================================================
+AUDIT 44 — FAIRNESS
+==================================================
+
+Verify pathway generation ignores/strips:
+
+age
+
+gender
+
+race
+
+ethnicity
+
+religion
+
+school prestige
+
+income
+
+postcode
+
+family background.
+
+==================================================
+AUDIT 45 — FAIRNESS INVARIANCE
+==================================================
+
+Duplicate skill-gap/target-role profiles with demographic perturbations.
+
+Require identical:
+
+step order
+
+hours
+
+priority
+
+resource selection
+
+cost estimates.
+
+==================================================
+AUDIT 46 — EMPTY GAP CASE
+==================================================
+
+If target role has:
+
+no unresolved gaps
+
+return:
+
+NO_RESKILLING_REQUIRED
+
+or equivalent.
+
+Do not invent learning steps.
+
+==================================================
+AUDIT 47 — NO CORE GAP CASE
+==================================================
+
+If only:
+
+IMPORTANT / SUPPORTING
+
+gaps remain:
+
+do not fabricate CORE gaps.
+
+==================================================
+AUDIT 48 — PATHWAY STEP SKIP
+==================================================
+
+Verify:
+
+SKIPPED_BY_USER
+
+does not silently mark skill as mastered.
+
+Skipping a resource and skipping skill acquisition are different concepts.
+
+Audit data model.
+
+==================================================
+AUDIT 49 — RESOURCE REPLACEMENT
+==================================================
+
+If user rejects a resource:
+
+allow another resource
+
+without changing skill priority.
+
+==================================================
+AUDIT 50 — PROGRESS STATUS
+==================================================
+
+Verify:
+
+NOT_STARTED
+
+IN_PROGRESS
+
+COMPLETED
+
+SKIPPED_BY_USER
+
+do not themselves alter evidence history incorrectly.
+
+COMPLETED should require explicit user action.
+
+==================================================
+AUDIT 51 — M4 → M5 CONTRACT
+==================================================
+
+Verify M5 interface receives:
+
+skills in pathway
+
+role
+
+priority
+
+scenario context
+
+source evidence.
+
+M5 must not depend on commercial resource choice.
+
+==================================================
+AUDIT 52 — NO EMPLOYMENT CLAIMS
+==================================================
+
+Search active M4 docs for claims such as:
+
+"complete this pathway and you will get a job"
+
+"employment probability"
+
+"career success probability."
+
+None allowed.
+
+==================================================
+AUDIT 53 — UPSTREAM IMMUTABILITY
+==================================================
+
+Verify frozen M1/M2/M3/M6 hashes remain unchanged.
+
+==================================================
+AUDIT 54 — DETERMINISTIC BUILD
+==================================================
+
+Rebuild:
+
+prerequisite graph
+
+resource catalog metadata
+
+benchmark outputs
+
+manifest.
+
+Dynamic live verification timestamps may differ.
+
+Separate:
+
+DETERMINISTIC LOGIC ARTIFACTS
+
+from:
+
+TIME-SENSITIVE VERIFICATION METADATA.
+
+Do not falsely claim byte-identical resource metadata if verification timestamps changed.
+
+==================================================
+AUDIT 55 — RESOURCE UPDATEABILITY
+==================================================
+
+Verify resource catalog can be refreshed without rebuilding:
+
+skill-gap logic
+
+prerequisite graph
+
+or M3.
+
+==================================================
+AUDIT 56 — CURRENT WEB CITATION RECORD
+==================================================
+
+For each live resource store sufficient provenance:
+
+official page
+
+verification date
+
+provider
+
+access status.
+
+Do not store scraped marketing prose unnecessarily.
+
+==================================================
+DEFECT CLASSIFICATION
+==================================================
+
+P0 — INVALIDATES M4
+
+Examples:
+
+fabricated resource
+
+protected attributes change pathway
+
+cycles break learning order
+
+upstream M3 modified
+
+P1 — MUST FIX BEFORE USER-FACING UI/M5 FREEZE
+
+Examples:
+
+false FREE claim
+
+unsupported REQUIRED prerequisite
+
+course availability changes skill pathway
+
+learning-time formula structurally misleading
+
+scenario invents skill gaps
+
+P2 — SHOULD IMPROVE
+
+Examples:
+
+confidence calibration
+
+threshold wording
+
+resource/provider normalization
+
+time-estimate clarity
+
+P3 — DOCUMENTATION / POLISH
+
+==================================================
+OUTPUT FILES
+==================================================
+
+Create:
+
+artifacts/stage12b_m4_methodology_review.md
+
+artifacts/m4_prerequisite_forensic_audit.md
+
+artifacts/m4_resource_live_verification_audit.md
+
+artifacts/m4_cost_truthfulness_audit.md
+
+artifacts/m4_learning_time_forensic_audit.md
+
+artifacts/m4_pathway_confidence_audit.md
+
+artifacts/m4_scenario_priority_audit.md
+
+artifacts/m4_fairness_methodology_review.md
+
+artifacts/m4_m5_safety_signoff.md
+
+artifacts/stage12c_readiness.md
+
+==================================================
+FINAL RESPONSE
+==================================================
+
+Report:
+
+Methodology:
+VALID / VALID WITH MINOR FIXES / REQUIRES REMEDIATION / INVALID
+
+P0 count
+
+P1 count
+
+P2 count
+
+P3 count
+
+Prerequisite graph:
+VALID / NEEDS FIX
+
+Unsupported REQUIRED prerequisites:
+[count]
+
+Live resources verified:
+[count / 38]
+
+Resources changed:
+[count]
+
+Resources unavailable:
+[count]
+
+FREE claims:
+VALID / NEEDS FIX
+
+FREE_TO_AUDIT claims:
+VALID / NEEDS FIX
+
+LOW_COST claim:
+VALID / NEEDS FIX
+
+Cost aggregation:
+VALID / NEEDS FIX
+
+Language claims:
+VALID / NEEDS FIX
+
+Resource alignment:
+VALID / NEEDS FIX
+
+Provider diversity:
+VALID / NEEDS NORMALIZATION
+
+Learning-time methodology:
+VALID / NEEDS FIX
+
+Fake precision protection:
+VALID / NEEDS FIX
+
+Scenario adjustment:
+VALID / NEEDS FIX
+
+Core-first ordering:
+VALID / NEEDS FIX
+
+Pathway confidence:
+VALID / NEEDS RECALIBRATION
+
+Fairness:
+VALID / NEEDS FIX
+
+Resource failure independence:
+VALID / NEEDS FIX
+
+Deterministic logic:
+VALID / NEEDS FIX
+
+Resource updateability:
+VALID / NEEDS FIX
+
+Safe for M5:
+YES / AFTER FIXES / NO
+
+Safe for UI:
+YES / AFTER FIXES / NO
+
+==================================================
+FINAL VERDICT
+==================================================
+
+Return exactly ONE:
+
+M4 V1.0 APPROVED FOR FINAL FREEZE REVIEW
+
+TARGETED M4 REMEDIATION REQUIRED
+
+M4 METHODOLOGY REQUIRES MAJOR REWORK
+
+Do NOT implement remediation.
+
+Do NOT build M5.
+
+Do NOT build UI.
+
+STOP.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-23T23:27:49+08:00.
+</ADDITIONAL_METADATA>

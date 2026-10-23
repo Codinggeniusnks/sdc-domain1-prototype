@@ -1,0 +1,113 @@
+{
+  "manifest_version": "1.0.0",
+  "engine_name": "SDC Domain 1 - O1 Employer / HR Workforce Gap & Cohort Reskilling Engine",
+  "engine_version": "1.1.0",
+  "parent_version": "1.0.0",
+  "freeze_status": "FORMALLY FROZEN / READ ONLY",
+  "freeze_verdict": "O1 V1.1 APPROVED AND READY TO FREEZE",
+  "freeze_timestamp": "2026-10-23T20:29:33.412758+00:00",
+  "upstream_baseline": {
+    "M1": {
+      "model_identifier": "H_blend_0.70A_0.30C1_W1.0",
+      "provenance": "Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward.",
+      "status": "FROZEN"
+    },
+    "M2": {
+      "version": "v1.1.1",
+      "freeze_sha256": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542",
+      "status": "FROZEN"
+    },
+    "M6": {
+      "version": "v1.1.0",
+      "freeze_sha256": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5",
+      "status": "FROZEN"
+    },
+    "M3": {
+      "version": "v1.1.0",
+      "freeze_sha256": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c",
+      "status": "FROZEN"
+    },
+    "M4": {
+      "version": "v1.1.0",
+      "canonical_freeze_manifest_sha256": "448545188ba4e196eaf3502d7803c3d9cfbb1247ec453208cafae990c8db5f2f",
+      "status": "FROZEN"
+    },
+    "M5": {
+      "version": "v1.1.0",
+      "canonical_freeze_manifest_sha256": "94c1f42b46a1fa5e9b026fb82d5225e21c24547cdd58c234f2843cd84eb32ec7",
+      "status": "FROZEN"
+    },
+    "O6": {
+      "version": "v1.1.0",
+      "canonical_freeze_manifest_sha256": "0fb13557e4a6665c6c85e2c2904dc4e99e41dfdf9019c49fb2a01b416f93ef5e",
+      "status": "FROZEN"
+    }
+  },
+  "candidate_files": {
+    "engine_source": {
+      "path": "src/workforce_gap_engine.py",
+      "sha256": "2b7744215858f3dcc2916d998ad688e8847acc8c5cfb6570cacb8bb8a37784a9"
+    },
+    "configuration": {
+      "path": "data/workforce/o1_config_v1_1.json",
+      "sha256": "8105702497ee4f178c690c286407f5b0d985c51e99321c80e71883cd6f492691"
+    },
+    "benchmark_results": {
+      "path": "data/workforce/o1_benchmark_results_v1_1.json",
+      "sha256": "bf1ba74c9095c87736aa15ce1f7fda14bb5e6c35a8f32812ed8fbcc82812af90"
+    },
+    "build_manifest": {
+      "path": "data/workforce/o1_build_manifest_v1_1.json",
+      "sha256": "e338c367969876cb93940b7a55554bbb72e942ba597b12a015ded71468b29063"
+    },
+    "test_suite": {
+      "path": "tests/test_workforce_gap_engine.py",
+      "sha256": "c0ceb7c739d0024dc2dc5ab329f263c6fed444790151baa10c4d63961775512d"
+    },
+    "synthetic_workforce_reference": {
+      "path": "data/aggregation/synthetic_workforce_v1.json",
+      "sha256": "1c54586161a86b116117aaa6754817f15ad78e155fc6c9faed8266e650df2b1c"
+    }
+  },
+  "privacy_specification": {
+    "privacy_classification": "k-anonymity (k=5) with complementary suppression, PARTIAL cross-query protection, no Differential Privacy claim",
+    "minimum_cohort_threshold": 5,
+    "small_cell_masking": "Values in [1, 4] replaced with null and display string '<5'",
+    "subcell_reconstruction_defense": "SUPPRESSED_SUBCELL_RECONSTRUCTION status, priority index nulling when underlying counts < 5",
+    "complementary_suppression": "Complementary cell masked in 2-element partition to prevent algebraic residual derivation",
+    "cross_query_protection": "PARTIAL (bounded static queries, lacks dynamic query differencing budget)"
+  },
+  "priority_index_specification": {
+    "formula": "100.0 * (0.4117647059 * core_prev + 0.2352941176 * imp_prev + 0.1764705882 * trans + 0.1176470588 * urg + 0.0588235294 * pre + 0.0 * def)",
+    "effective_weights": {
+      "core_gap_prevalence": 0.4117647059,
+      "important_gap_prevalence": 0.2352941176,
+      "cross_role_transferability": 0.1764705882,
+      "scenario_urgency": 0.1176470588,
+      "prerequisite_centrality": 0.0588235294,
+      "average_deficit": 0.0
+    },
+    "weight_sum": 1.0,
+    "deficit_signal_status": "DIAGNOSTIC_ONLY (weight=0.0)",
+    "zero_gap_gating": true,
+    "score_range": [
+      0.0,
+      100.0
+    ]
+  },
+  "verification_summary": {
+    "unit_tests": "65/65 passing (100%)",
+    "benchmarks": "18/18 passing (100%)",
+    "stage15b_defects_closed": "10/10 (100%)",
+    "new_blocking_defects": 0,
+    "remaining_p0": 0,
+    "remaining_p1": 0,
+    "remaining_p2": 0,
+    "remaining_p3": 0,
+    "downstream_readiness": {
+      "safe_for_o2": true,
+      "safe_for_o5": true,
+      "safe_for_employer_ui": true
+    }
+  }
+}

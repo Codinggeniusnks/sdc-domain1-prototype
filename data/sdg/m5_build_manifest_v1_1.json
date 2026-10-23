@@ -1,0 +1,57 @@
+{
+  "engine_version": "1.1.0",
+  "engine_name": "M5 SDG Impact Mapping Engine",
+  "built_at": "2026-10-23T17:05:37.923740Z",
+  "status": "REMEDIATED_READY_FOR_FREEZE",
+  "stage": "Stage 13C",
+  "canonical_skills_mapped": 16,
+  "masco_occupations_mapped": 20,
+  "official_sdg_goals_covered": 17,
+  "official_targets_indexed": 21,
+  "target_universe_reference": "UN 2030 Agenda (169 official targets; domain-relevant subset indexed)",
+  "benchmarks_passed": "13/13",
+  "remediation_summary": {
+    "P1_defects_resolved": 3,
+    "P2_defects_resolved": 4,
+    "P3_defects_resolved": 3,
+    "total_defects_resolved": 10
+  },
+  "file_manifest": {
+    "data/sdg/sdg_goals_v1.json": {
+      "sha256": "5a2746dbe7531db8a218cb7fc8d7bc18aa77911cfc91499ee83f910165d5083d",
+      "bytes": 6127
+    },
+    "data/sdg/sdg_targets_v1_1.json": {
+      "sha256": "b8c7bed5a3cd3d61300b3dbb45a100177bdd5c494e7d3c6a1dcb55ee29b13bc7",
+      "bytes": 9959
+    },
+    "data/sdg/skill_sdg_mappings_v1_1.json": {
+      "sha256": "b17c3e9af7fae706397cb6a8f9cc83f4bb44bc78515ce212d9b6d28c4547101a",
+      "bytes": 42450
+    },
+    "data/sdg/role_sdg_mappings_v1_1.json": {
+      "sha256": "4a2e9e6268060b05d8241ba2170301e4c9cf0feda5f5289ef1570af8bb89cd4c",
+      "bytes": 46412
+    },
+    "data/sdg/m5_config_v1_1.json": {
+      "sha256": "c5b8d82bc690d876e66ee3996741995975fa25274e09caddd0acd2b78ad0d8d8",
+      "bytes": 5357
+    },
+    "src/sdg_impact_engine.py": {
+      "sha256": "4bd9ffe9783731e837f7824ebf50677175cbba62ca8621670dd09a1cb1450349",
+      "bytes": 35495
+    },
+    "scripts/build_skill_sdg_mappings_v1_1.py": {
+      "sha256": "9af3140932dde9e96da344b4caafdc1f0d448b18b2dbebdb52e475fdd815a2e1",
+      "bytes": 43914
+    },
+    "scripts/build_role_sdg_mappings_v1_1.py": {
+      "sha256": "362b155f91676b59868cb9524f4c559a9b39a74a203b407d589ef8e15b29d941",
+      "bytes": 46984
+    },
+    "scripts/run_m5_benchmarks_v1_1.py": {
+      "sha256": "eee43e94e7621058a92b141050962295784b9171c11a72f93b97ec82135fdd5e",
+      "bytes": 18517
+    }
+  }
+}

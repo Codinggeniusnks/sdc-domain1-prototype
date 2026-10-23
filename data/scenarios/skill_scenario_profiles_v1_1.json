@@ -1,0 +1,3829 @@
+{
+  "engine_version": "1.1.0",
+  "parent_m2_version": "1.1.1",
+  "build_timestamp": "2026-10-23T13:25:02.567032+00:00",
+  "total_skills": 16,
+  "total_scenario_profiles": 48,
+  "scenarios": [
+    "REFERENCE_2026",
+    "MODERATE_COPILOT",
+    "FAST_AGENTIC"
+  ],
+  "profiles": [
+    {
+      "skill_id": "ai_literacy",
+      "skill_name": "Foundational AI Literacy & LLM Capabilities",
+      "category": "AI Core",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 78.0,
+      "demand_resilience": 83.4,
+      "transformation_pressure": 45.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 40.9,
+        "central": 45.0,
+        "upper": 48.4
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 10.2,
+          "central": 12.0,
+          "upper": 13.4
+        },
+        "augmentation_opportunity": {
+          "lower": 71.6,
+          "central": 78.0,
+          "upper": 83.4
+        },
+        "demand_resilience": {
+          "lower": 82.1,
+          "central": 83.4,
+          "upper": 84.7
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (78.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (83.4)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "prompt_engineering",
+      "skill_name": "Structured Prompting & Context Engineering",
+      "category": "AI Core",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 78.0,
+      "demand_resilience": 76.1,
+      "transformation_pressure": 45.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "LOW",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 40.9,
+        "central": 45.0,
+        "upper": 48.4
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 10.2,
+          "central": 12.0,
+          "upper": 13.4
+        },
+        "augmentation_opportunity": {
+          "lower": 71.6,
+          "central": 78.0,
+          "upper": 83.4
+        },
+        "demand_resilience": {
+          "lower": 75.2,
+          "central": 76.1,
+          "upper": 77.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_SOURCE_COUNT",
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (78.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (76.1)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "process_mapping",
+      "skill_name": "Business Process Mapping & SOP Design",
+      "category": "Operations",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 18.0,
+      "augmentation_opportunity": 48.0,
+      "demand_resilience": 84.1,
+      "transformation_pressure": 33.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NEUTRAL_BOUNDARY_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 29.6,
+        "central": 33.0,
+        "upper": 35.7
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 15.2,
+          "central": 18.0,
+          "upper": 20.1
+        },
+        "augmentation_opportunity": {
+          "lower": 44.1,
+          "central": 48.0,
+          "upper": 51.3
+        },
+        "demand_resilience": {
+          "lower": 82.9,
+          "central": 84.1,
+          "upper": 85.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (84.1)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "sql_data_analysis",
+      "skill_name": "SQL & Structured Data Analysis",
+      "category": "Data & Engineering",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 15.0,
+      "augmentation_opportunity": 65.0,
+      "demand_resilience": 83.6,
+      "transformation_pressure": 40.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 36.2,
+        "central": 40.0,
+        "upper": 43.1
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 12.7,
+          "central": 15.0,
+          "upper": 16.8
+        },
+        "augmentation_opportunity": {
+          "lower": 59.7,
+          "central": 65.0,
+          "upper": 69.5
+        },
+        "demand_resilience": {
+          "lower": 82.3,
+          "central": 83.6,
+          "upper": 85.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (65.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (83.6)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "python_scripting",
+      "skill_name": "Python Scripting & Data Automation",
+      "category": "Data & Engineering",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 15.0,
+      "augmentation_opportunity": 65.0,
+      "demand_resilience": 79.8,
+      "transformation_pressure": 40.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 36.2,
+        "central": 40.0,
+        "upper": 43.1
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 12.7,
+          "central": 15.0,
+          "upper": 16.8
+        },
+        "augmentation_opportunity": {
+          "lower": 59.7,
+          "central": 65.0,
+          "upper": 69.5
+        },
+        "demand_resilience": {
+          "lower": 78.5,
+          "central": 79.8,
+          "upper": 81.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (65.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (79.8)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "data_visualization",
+      "skill_name": "Data Visualization & KPI Storytelling",
+      "category": "Operations",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 18.0,
+      "augmentation_opportunity": 48.0,
+      "demand_resilience": 79.3,
+      "transformation_pressure": 33.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NEUTRAL_BOUNDARY_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 29.6,
+        "central": 33.0,
+        "upper": 35.7
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 15.2,
+          "central": 18.0,
+          "upper": 20.1
+        },
+        "augmentation_opportunity": {
+          "lower": 44.1,
+          "central": 48.0,
+          "upper": 51.3
+        },
+        "demand_resilience": {
+          "lower": 77.9,
+          "central": 79.3,
+          "upper": 80.7
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (79.3)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "workflow_automation",
+      "skill_name": "Agentic Workflow Orchestration & Tool Integration",
+      "category": "AI Core",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 12.0,
+      "augmentation_opportunity": 78.0,
+      "demand_resilience": 79.4,
+      "transformation_pressure": 45.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 40.9,
+        "central": 45.0,
+        "upper": 48.4
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 10.2,
+          "central": 12.0,
+          "upper": 13.4
+        },
+        "augmentation_opportunity": {
+          "lower": 71.6,
+          "central": 78.0,
+          "upper": 83.4
+        },
+        "demand_resilience": {
+          "lower": 78.3,
+          "central": 79.4,
+          "upper": 80.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (78.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (79.4)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "human_in_the_loop_qa",
+      "skill_name": "Human-in-the-Loop Evaluation & AI Testing",
+      "category": "Governance & QA",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 8.0,
+      "augmentation_opportunity": 60.0,
+      "demand_resilience": 83.0,
+      "transformation_pressure": 34.0,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 30.9,
+        "central": 34.0,
+        "upper": 36.6
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 6.8,
+          "central": 8.0,
+          "upper": 8.9
+        },
+        "augmentation_opportunity": {
+          "lower": 55.1,
+          "central": 60.0,
+          "upper": 64.2
+        },
+        "demand_resilience": {
+          "lower": 81.7,
+          "central": 83.0,
+          "upper": 84.3
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (83.0)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "rag_knowledge_systems",
+      "skill_name": "Retrieval-Augmented Generation (RAG) & Citation Grounding",
+      "category": "Data & Engineering",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 15.0,
+      "augmentation_opportunity": 65.0,
+      "demand_resilience": 73.2,
+      "transformation_pressure": 40.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "LOW",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "RESILIENT",
+          "RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 36.2,
+        "central": 40.0,
+        "upper": 43.1
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 12.7,
+          "central": 15.0,
+          "upper": 16.8
+        },
+        "augmentation_opportunity": {
+          "lower": 59.7,
+          "central": 65.0,
+          "upper": 69.5
+        },
+        "demand_resilience": {
+          "lower": 72.4,
+          "central": 73.2,
+          "upper": 74.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_SOURCE_COUNT",
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (65.0) expands practitioner capabilities."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "api_integration",
+      "skill_name": "REST API Integration & Resilient Fallbacks",
+      "category": "Data & Engineering",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 15.0,
+      "augmentation_opportunity": 65.0,
+      "demand_resilience": 79.6,
+      "transformation_pressure": 40.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 36.2,
+        "central": 40.0,
+        "upper": 43.1
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 12.7,
+          "central": 15.0,
+          "upper": 16.8
+        },
+        "augmentation_opportunity": {
+          "lower": 59.7,
+          "central": 65.0,
+          "upper": 69.5
+        },
+        "demand_resilience": {
+          "lower": 78.2,
+          "central": 79.6,
+          "upper": 81.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (65.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (79.6)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "ai_ethics_governance",
+      "skill_name": "AI Ethics, Fairness Auditing & Governance",
+      "category": "Governance & QA",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 8.0,
+      "augmentation_opportunity": 60.0,
+      "demand_resilience": 79.6,
+      "transformation_pressure": 34.0,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 30.9,
+        "central": 34.0,
+        "upper": 36.6
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 6.8,
+          "central": 8.0,
+          "upper": 8.9
+        },
+        "augmentation_opportunity": {
+          "lower": 55.1,
+          "central": 60.0,
+          "upper": 64.2
+        },
+        "demand_resilience": {
+          "lower": 78.2,
+          "central": 79.6,
+          "upper": 81.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (79.6)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "data_privacy_pdpa",
+      "skill_name": "Data Privacy & Malaysian PDPA Compliance",
+      "category": "Governance & QA",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 8.0,
+      "augmentation_opportunity": 60.0,
+      "demand_resilience": 75.4,
+      "transformation_pressure": 34.0,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 30.9,
+        "central": 34.0,
+        "upper": 36.6
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 6.8,
+          "central": 8.0,
+          "upper": 8.9
+        },
+        "augmentation_opportunity": {
+          "lower": 55.1,
+          "central": 60.0,
+          "upper": 64.2
+        },
+        "demand_resilience": {
+          "lower": 74.0,
+          "central": 75.4,
+          "upper": 76.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (75.4)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "esg_sustainability_reporting",
+      "skill_name": "ESG Frameworks & UN SDG Impact Mapping",
+      "category": "Sustainability",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 5.0,
+      "augmentation_opportunity": 45.0,
+      "demand_resilience": 81.8,
+      "transformation_pressure": 25.0,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 22.8,
+        "central": 25.0,
+        "upper": 26.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 4.2,
+          "central": 5.0,
+          "upper": 5.6
+        },
+        "augmentation_opportunity": {
+          "lower": 41.3,
+          "central": 45.0,
+          "upper": 48.1
+        },
+        "demand_resilience": {
+          "lower": 80.4,
+          "central": 81.8,
+          "upper": 83.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (81.8)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "carbon_footprint_analytics",
+      "skill_name": "Carbon-Aware Compute & Resource Telemetry",
+      "category": "Sustainability",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 5.0,
+      "augmentation_opportunity": 45.0,
+      "demand_resilience": 78.0,
+      "transformation_pressure": 25.0,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 22.8,
+        "central": 25.0,
+        "upper": 26.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 4.2,
+          "central": 5.0,
+          "upper": 5.6
+        },
+        "augmentation_opportunity": {
+          "lower": 41.3,
+          "central": 45.0,
+          "upper": 48.1
+        },
+        "demand_resilience": {
+          "lower": 76.6,
+          "central": 78.0,
+          "upper": 79.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (78.0)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "stakeholder_communication",
+      "skill_name": "Human-Centred Change & Stakeholder Communication",
+      "category": "Operations",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 18.0,
+      "augmentation_opportunity": 48.0,
+      "demand_resilience": 81.1,
+      "transformation_pressure": 33.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "RESILIENT",
+          "RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 29.6,
+        "central": 33.0,
+        "upper": 35.7
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 15.2,
+          "central": 18.0,
+          "upper": 20.1
+        },
+        "augmentation_opportunity": {
+          "lower": 44.1,
+          "central": 48.0,
+          "upper": 51.3
+        },
+        "demand_resilience": {
+          "lower": 80.2,
+          "central": 81.1,
+          "upper": 82.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (81.1)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "instructional_design",
+      "skill_name": "Competency Matrix & Reskilling Curriculum Design",
+      "category": "Operations",
+      "scenario_id": "REFERENCE_2026",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 18.0,
+      "augmentation_opportunity": 48.0,
+      "demand_resilience": 62.0,
+      "transformation_pressure": 33.0,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "RESILIENT",
+          "RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 29.6,
+        "central": 33.0,
+        "upper": 35.7
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 15.2,
+          "central": 18.0,
+          "upper": 20.1
+        },
+        "augmentation_opportunity": {
+          "lower": 44.1,
+          "central": 48.0,
+          "upper": 51.3
+        },
+        "demand_resilience": {
+          "lower": 60.8,
+          "central": 62.0,
+          "upper": 63.3
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 0.0,
+        "automation_pressure_delta": 0.0,
+        "augmentation_opportunity_delta": 0.0,
+        "demand_resilience_delta": 0.0
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "Stable foundational technical utility across domains."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-TALENTCORP-IMPACT-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-REF-ADOPT",
+        "PARAM-REF-REACH",
+        "PARAM-REF-AUTO",
+        "PARAM-REF-AUG",
+        "PARAM-REF-DIFF",
+        "PARAM-REF-RESKILL",
+        "PARAM-REF-POLICY",
+        "PARAM-REF-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "ai_literacy",
+      "skill_name": "Foundational AI Literacy & LLM Capabilities",
+      "category": "AI Core",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 17.5,
+      "augmentation_opportunity": 100.0,
+      "demand_resilience": 86.7,
+      "transformation_pressure": 58.8,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 55.9,
+        "central": 58.8,
+        "upper": 59.5
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 15.7,
+          "central": 17.5,
+          "upper": 19.1
+        },
+        "augmentation_opportunity": {
+          "lower": 96.1,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "demand_resilience": {
+          "lower": 85.4,
+          "central": 86.7,
+          "upper": 88.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 13.8,
+        "automation_pressure_delta": 5.5,
+        "augmentation_opportunity_delta": 22.0,
+        "demand_resilience_delta": 3.3
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (100.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (86.7)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "prompt_engineering",
+      "skill_name": "Structured Prompting & Context Engineering",
+      "category": "AI Core",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 17.5,
+      "augmentation_opportunity": 100.0,
+      "demand_resilience": 78.3,
+      "transformation_pressure": 58.8,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "LOW",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 55.9,
+        "central": 58.8,
+        "upper": 59.5
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 15.7,
+          "central": 17.5,
+          "upper": 19.1
+        },
+        "augmentation_opportunity": {
+          "lower": 96.1,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "demand_resilience": {
+          "lower": 77.5,
+          "central": 78.3,
+          "upper": 79.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 13.8,
+        "automation_pressure_delta": 5.5,
+        "augmentation_opportunity_delta": 22.0,
+        "demand_resilience_delta": 2.2
+      },
+      "quality_flags": [
+        "LOW_SOURCE_COUNT",
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (100.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (78.3)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "process_mapping",
+      "skill_name": "Business Process Mapping & SOP Design",
+      "category": "Operations",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 26.2,
+      "augmentation_opportunity": 63.0,
+      "demand_resilience": 87.3,
+      "transformation_pressure": 44.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 41.4,
+        "central": 44.6,
+        "upper": 47.5
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 23.5,
+          "central": 26.2,
+          "upper": 28.6
+        },
+        "augmentation_opportunity": {
+          "lower": 59.2,
+          "central": 63.0,
+          "upper": 66.5
+        },
+        "demand_resilience": {
+          "lower": 86.0,
+          "central": 87.3,
+          "upper": 88.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.6,
+        "automation_pressure_delta": 8.2,
+        "augmentation_opportunity_delta": 15.0,
+        "demand_resilience_delta": 3.2
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (87.3)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (26.2)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "sql_data_analysis",
+      "skill_name": "SQL & Structured Data Analysis",
+      "category": "Data & Engineering",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 21.9,
+      "augmentation_opportunity": 85.4,
+      "demand_resilience": 87.1,
+      "transformation_pressure": 53.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 49.8,
+        "central": 53.7,
+        "upper": 56.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 19.6,
+          "central": 21.9,
+          "upper": 23.8
+        },
+        "augmentation_opportunity": {
+          "lower": 80.1,
+          "central": 85.4,
+          "upper": 90.1
+        },
+        "demand_resilience": {
+          "lower": 85.7,
+          "central": 87.1,
+          "upper": 88.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 13.7,
+        "automation_pressure_delta": 6.9,
+        "augmentation_opportunity_delta": 20.4,
+        "demand_resilience_delta": 3.5
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (85.4) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (87.1)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "python_scripting",
+      "skill_name": "Python Scripting & Data Automation",
+      "category": "Data & Engineering",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 21.9,
+      "augmentation_opportunity": 85.4,
+      "demand_resilience": 82.9,
+      "transformation_pressure": 53.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 49.8,
+        "central": 53.7,
+        "upper": 56.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 19.6,
+          "central": 21.9,
+          "upper": 23.8
+        },
+        "augmentation_opportunity": {
+          "lower": 80.1,
+          "central": 85.4,
+          "upper": 90.1
+        },
+        "demand_resilience": {
+          "lower": 81.7,
+          "central": 82.9,
+          "upper": 84.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 13.7,
+        "automation_pressure_delta": 6.9,
+        "augmentation_opportunity_delta": 20.4,
+        "demand_resilience_delta": 3.1
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (85.4) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (82.9)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "data_visualization",
+      "skill_name": "Data Visualization & KPI Storytelling",
+      "category": "Operations",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 26.2,
+      "augmentation_opportunity": 63.0,
+      "demand_resilience": 82.7,
+      "transformation_pressure": 44.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "RESILIENT",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 41.4,
+        "central": 44.6,
+        "upper": 47.5
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 23.5,
+          "central": 26.2,
+          "upper": 28.6
+        },
+        "augmentation_opportunity": {
+          "lower": 59.2,
+          "central": 63.0,
+          "upper": 66.5
+        },
+        "demand_resilience": {
+          "lower": 81.3,
+          "central": 82.7,
+          "upper": 84.1
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.6,
+        "automation_pressure_delta": 8.2,
+        "augmentation_opportunity_delta": 15.0,
+        "demand_resilience_delta": 3.4
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (82.7)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (26.2)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "workflow_automation",
+      "skill_name": "Agentic Workflow Orchestration & Tool Integration",
+      "category": "AI Core",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 17.5,
+      "augmentation_opportunity": 100.0,
+      "demand_resilience": 82.4,
+      "transformation_pressure": 58.8,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 55.9,
+        "central": 58.8,
+        "upper": 59.5
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 15.7,
+          "central": 17.5,
+          "upper": 19.1
+        },
+        "augmentation_opportunity": {
+          "lower": 96.1,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "demand_resilience": {
+          "lower": 81.2,
+          "central": 82.4,
+          "upper": 83.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 13.8,
+        "automation_pressure_delta": 5.5,
+        "augmentation_opportunity_delta": 22.0,
+        "demand_resilience_delta": 3.0
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (100.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (82.4)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "human_in_the_loop_qa",
+      "skill_name": "Human-in-the-Loop Evaluation & AI Testing",
+      "category": "Governance & QA",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 11.7,
+      "augmentation_opportunity": 78.8,
+      "demand_resilience": 86.3,
+      "transformation_pressure": 45.2,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 42.2,
+        "central": 45.2,
+        "upper": 47.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 10.4,
+          "central": 11.7,
+          "upper": 12.7
+        },
+        "augmentation_opportunity": {
+          "lower": 73.9,
+          "central": 78.8,
+          "upper": 83.1
+        },
+        "demand_resilience": {
+          "lower": 85.0,
+          "central": 86.3,
+          "upper": 87.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.2,
+        "automation_pressure_delta": 3.7,
+        "augmentation_opportunity_delta": 18.8,
+        "demand_resilience_delta": 3.3
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (78.8) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (86.3)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "rag_knowledge_systems",
+      "skill_name": "Retrieval-Augmented Generation (RAG) & Citation Grounding",
+      "category": "Data & Engineering",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 21.9,
+      "augmentation_opportunity": 85.4,
+      "demand_resilience": 75.5,
+      "transformation_pressure": 53.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "LOW",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 49.8,
+        "central": 53.7,
+        "upper": 56.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 19.6,
+          "central": 21.9,
+          "upper": 23.8
+        },
+        "augmentation_opportunity": {
+          "lower": 80.1,
+          "central": 85.4,
+          "upper": 90.1
+        },
+        "demand_resilience": {
+          "lower": 74.6,
+          "central": 75.5,
+          "upper": 76.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 13.7,
+        "automation_pressure_delta": 6.9,
+        "augmentation_opportunity_delta": 20.4,
+        "demand_resilience_delta": 2.3
+      },
+      "quality_flags": [
+        "LOW_SOURCE_COUNT",
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (85.4) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (75.5)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "api_integration",
+      "skill_name": "REST API Integration & Resilient Fallbacks",
+      "category": "Data & Engineering",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 21.9,
+      "augmentation_opportunity": 85.4,
+      "demand_resilience": 83.2,
+      "transformation_pressure": 53.7,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 49.8,
+        "central": 53.7,
+        "upper": 56.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 19.6,
+          "central": 21.9,
+          "upper": 23.8
+        },
+        "augmentation_opportunity": {
+          "lower": 80.1,
+          "central": 85.4,
+          "upper": 90.1
+        },
+        "demand_resilience": {
+          "lower": 81.8,
+          "central": 83.2,
+          "upper": 84.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 13.7,
+        "automation_pressure_delta": 6.9,
+        "augmentation_opportunity_delta": 20.4,
+        "demand_resilience_delta": 3.6
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (85.4) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (83.2)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "ai_ethics_governance",
+      "skill_name": "AI Ethics, Fairness Auditing & Governance",
+      "category": "Governance & QA",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 11.7,
+      "augmentation_opportunity": 78.8,
+      "demand_resilience": 83.2,
+      "transformation_pressure": 45.2,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 42.2,
+        "central": 45.2,
+        "upper": 47.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 10.4,
+          "central": 11.7,
+          "upper": 12.7
+        },
+        "augmentation_opportunity": {
+          "lower": 73.9,
+          "central": 78.8,
+          "upper": 83.1
+        },
+        "demand_resilience": {
+          "lower": 81.8,
+          "central": 83.2,
+          "upper": 84.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.2,
+        "automation_pressure_delta": 3.7,
+        "augmentation_opportunity_delta": 18.8,
+        "demand_resilience_delta": 3.6
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (78.8) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (83.2)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "data_privacy_pdpa",
+      "skill_name": "Data Privacy & Malaysian PDPA Compliance",
+      "category": "Governance & QA",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 11.7,
+      "augmentation_opportunity": 78.8,
+      "demand_resilience": 79.0,
+      "transformation_pressure": 45.2,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 42.2,
+        "central": 45.2,
+        "upper": 47.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 10.4,
+          "central": 11.7,
+          "upper": 12.7
+        },
+        "augmentation_opportunity": {
+          "lower": 73.9,
+          "central": 78.8,
+          "upper": 83.1
+        },
+        "demand_resilience": {
+          "lower": 77.6,
+          "central": 79.0,
+          "upper": 80.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.2,
+        "automation_pressure_delta": 3.7,
+        "augmentation_opportunity_delta": 18.8,
+        "demand_resilience_delta": 3.6
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (78.8) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (79.0)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "esg_sustainability_reporting",
+      "skill_name": "ESG Frameworks & UN SDG Impact Mapping",
+      "category": "Sustainability",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 7.3,
+      "augmentation_opportunity": 59.1,
+      "demand_resilience": 85.2,
+      "transformation_pressure": 33.2,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 31.0,
+        "central": 33.2,
+        "upper": 35.1
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 6.5,
+          "central": 7.3,
+          "upper": 7.9
+        },
+        "augmentation_opportunity": {
+          "lower": 55.5,
+          "central": 59.1,
+          "upper": 62.4
+        },
+        "demand_resilience": {
+          "lower": 83.8,
+          "central": 85.2,
+          "upper": 86.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 8.2,
+        "automation_pressure_delta": 2.3,
+        "augmentation_opportunity_delta": 14.1,
+        "demand_resilience_delta": 3.4
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (85.2)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "carbon_footprint_analytics",
+      "skill_name": "Carbon-Aware Compute & Resource Telemetry",
+      "category": "Sustainability",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 7.3,
+      "augmentation_opportunity": 59.1,
+      "demand_resilience": 81.5,
+      "transformation_pressure": 33.2,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 31.0,
+        "central": 33.2,
+        "upper": 35.1
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 6.5,
+          "central": 7.3,
+          "upper": 7.9
+        },
+        "augmentation_opportunity": {
+          "lower": 55.5,
+          "central": 59.1,
+          "upper": 62.4
+        },
+        "demand_resilience": {
+          "lower": 80.1,
+          "central": 81.5,
+          "upper": 82.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 8.2,
+        "automation_pressure_delta": 2.3,
+        "augmentation_opportunity_delta": 14.1,
+        "demand_resilience_delta": 3.5
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (81.5)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "stakeholder_communication",
+      "skill_name": "Human-Centred Change & Stakeholder Communication",
+      "category": "Operations",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 26.2,
+      "augmentation_opportunity": 63.0,
+      "demand_resilience": 83.3,
+      "transformation_pressure": 44.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "VULNERABLE",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "DOWNSIDE_PRESSURE",
+        "scenario_range": [
+          "RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 41.4,
+        "central": 44.6,
+        "upper": 47.5
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 23.5,
+          "central": 26.2,
+          "upper": 28.6
+        },
+        "augmentation_opportunity": {
+          "lower": 59.2,
+          "central": 63.0,
+          "upper": 66.5
+        },
+        "demand_resilience": {
+          "lower": 82.5,
+          "central": 83.3,
+          "upper": 84.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.6,
+        "automation_pressure_delta": 8.2,
+        "augmentation_opportunity_delta": 15.0,
+        "demand_resilience_delta": 2.2
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (83.3)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (26.2)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "instructional_design",
+      "skill_name": "Competency Matrix & Reskilling Curriculum Design",
+      "category": "Operations",
+      "scenario_id": "MODERATE_COPILOT",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 26.2,
+      "augmentation_opportunity": 63.0,
+      "demand_resilience": 65.2,
+      "transformation_pressure": 44.6,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "PRESSURED",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "HIGHLY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "VULNERABLE",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "DOWNSIDE_PRESSURE",
+        "scenario_range": [
+          "RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 41.4,
+        "central": 44.6,
+        "upper": 47.5
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 23.5,
+          "central": 26.2,
+          "upper": 28.6
+        },
+        "augmentation_opportunity": {
+          "lower": 59.2,
+          "central": 63.0,
+          "upper": 66.5
+        },
+        "demand_resilience": {
+          "lower": 63.9,
+          "central": 65.2,
+          "upper": 66.5
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.6,
+        "automation_pressure_delta": 8.2,
+        "augmentation_opportunity_delta": 15.0,
+        "demand_resilience_delta": 3.2
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "Stable foundational technical utility across domains."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (26.2)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-TALENTCORP-IMPACT-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-COP-ADOPT",
+        "PARAM-COP-REACH",
+        "PARAM-COP-AUTO",
+        "PARAM-COP-AUG",
+        "PARAM-COP-DIFF",
+        "PARAM-COP-RESKILL",
+        "PARAM-COP-POLICY",
+        "PARAM-COP-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "ai_literacy",
+      "skill_name": "Foundational AI Literacy & LLM Capabilities",
+      "category": "AI Core",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 22.9,
+      "augmentation_opportunity": 100.0,
+      "demand_resilience": 86.0,
+      "transformation_pressure": 61.5,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 60.9,
+        "central": 61.5,
+        "upper": 62.0
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 21.7,
+          "central": 22.9,
+          "upper": 23.9
+        },
+        "augmentation_opportunity": {
+          "lower": 100.0,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "demand_resilience": {
+          "lower": 84.7,
+          "central": 86.0,
+          "upper": 87.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 16.5,
+        "automation_pressure_delta": 10.9,
+        "augmentation_opportunity_delta": 22.0,
+        "demand_resilience_delta": 2.6
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (100.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (86.0)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "prompt_engineering",
+      "skill_name": "Structured Prompting & Context Engineering",
+      "category": "AI Core",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 22.9,
+      "augmentation_opportunity": 100.0,
+      "demand_resilience": 77.9,
+      "transformation_pressure": 61.5,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "LOW",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 60.9,
+        "central": 61.5,
+        "upper": 62.0
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 21.7,
+          "central": 22.9,
+          "upper": 23.9
+        },
+        "augmentation_opportunity": {
+          "lower": 100.0,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "demand_resilience": {
+          "lower": 77.0,
+          "central": 77.9,
+          "upper": 78.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 16.5,
+        "automation_pressure_delta": 10.9,
+        "augmentation_opportunity_delta": 22.0,
+        "demand_resilience_delta": 1.8
+      },
+      "quality_flags": [
+        "LOW_SOURCE_COUNT",
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (100.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (77.9)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "process_mapping",
+      "skill_name": "Business Process Mapping & SOP Design",
+      "category": "Operations",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 34.3,
+      "augmentation_opportunity": 66.9,
+      "demand_resilience": 86.6,
+      "transformation_pressure": 50.6,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 48.0,
+        "central": 50.6,
+        "upper": 53.0
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 32.6,
+          "central": 34.3,
+          "upper": 35.9
+        },
+        "augmentation_opportunity": {
+          "lower": 63.3,
+          "central": 66.9,
+          "upper": 70.1
+        },
+        "demand_resilience": {
+          "lower": 85.4,
+          "central": 86.6,
+          "upper": 87.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 17.6,
+        "automation_pressure_delta": 16.3,
+        "augmentation_opportunity_delta": 18.9,
+        "demand_resilience_delta": 2.5
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (66.9) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (86.6)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (34.3)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "sql_data_analysis",
+      "skill_name": "SQL & Structured Data Analysis",
+      "category": "Data & Engineering",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 28.6,
+      "augmentation_opportunity": 90.5,
+      "demand_resilience": 86.4,
+      "transformation_pressure": 59.5,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 56.4,
+        "central": 59.5,
+        "upper": 62.4
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 27.1,
+          "central": 28.6,
+          "upper": 29.9
+        },
+        "augmentation_opportunity": {
+          "lower": 85.7,
+          "central": 90.5,
+          "upper": 94.9
+        },
+        "demand_resilience": {
+          "lower": 85.0,
+          "central": 86.4,
+          "upper": 87.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 19.5,
+        "automation_pressure_delta": 13.6,
+        "augmentation_opportunity_delta": 25.5,
+        "demand_resilience_delta": 2.8
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (90.5) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (86.4)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (28.6)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "python_scripting",
+      "skill_name": "Python Scripting & Data Automation",
+      "category": "Data & Engineering",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 28.6,
+      "augmentation_opportunity": 90.5,
+      "demand_resilience": 82.3,
+      "transformation_pressure": 59.5,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 56.4,
+        "central": 59.5,
+        "upper": 62.4
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 27.1,
+          "central": 28.6,
+          "upper": 29.9
+        },
+        "augmentation_opportunity": {
+          "lower": 85.7,
+          "central": 90.5,
+          "upper": 94.9
+        },
+        "demand_resilience": {
+          "lower": 81.0,
+          "central": 82.3,
+          "upper": 83.6
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 19.5,
+        "automation_pressure_delta": 13.6,
+        "augmentation_opportunity_delta": 25.5,
+        "demand_resilience_delta": 2.5
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (90.5) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (82.3)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (28.6)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "data_visualization",
+      "skill_name": "Data Visualization & KPI Storytelling",
+      "category": "Operations",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 34.3,
+      "augmentation_opportunity": 66.9,
+      "demand_resilience": 82.0,
+      "transformation_pressure": 50.6,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "UPSIDE_TRANSFORMATION",
+        "scenario_range": [
+          "RESILIENT",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 48.0,
+        "central": 50.6,
+        "upper": 53.0
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 32.6,
+          "central": 34.3,
+          "upper": 35.9
+        },
+        "augmentation_opportunity": {
+          "lower": 63.3,
+          "central": 66.9,
+          "upper": 70.1
+        },
+        "demand_resilience": {
+          "lower": 80.7,
+          "central": 82.0,
+          "upper": 83.4
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 17.6,
+        "automation_pressure_delta": 16.3,
+        "augmentation_opportunity_delta": 18.9,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (66.9) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (82.0)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (34.3)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "workflow_automation",
+      "skill_name": "Agentic Workflow Orchestration & Tool Integration",
+      "category": "AI Core",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 22.9,
+      "augmentation_opportunity": 100.0,
+      "demand_resilience": 81.8,
+      "transformation_pressure": 61.5,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 60.9,
+        "central": 61.5,
+        "upper": 62.0
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 21.7,
+          "central": 22.9,
+          "upper": 23.9
+        },
+        "augmentation_opportunity": {
+          "lower": 100.0,
+          "central": 100.0,
+          "upper": 100.0
+        },
+        "demand_resilience": {
+          "lower": 80.6,
+          "central": 81.8,
+          "upper": 82.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 16.5,
+        "automation_pressure_delta": 10.9,
+        "augmentation_opportunity_delta": 22.0,
+        "demand_resilience_delta": 2.4
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (100.0) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (81.8)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "human_in_the_loop_qa",
+      "skill_name": "Human-in-the-Loop Evaluation & AI Testing",
+      "category": "Governance & QA",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 15.2,
+      "augmentation_opportunity": 83.6,
+      "demand_resilience": 85.7,
+      "transformation_pressure": 49.4,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 46.8,
+        "central": 49.4,
+        "upper": 51.8
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 14.5,
+          "central": 15.2,
+          "upper": 16.0
+        },
+        "augmentation_opportunity": {
+          "lower": 79.1,
+          "central": 83.6,
+          "upper": 87.6
+        },
+        "demand_resilience": {
+          "lower": 84.3,
+          "central": 85.7,
+          "upper": 87.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 15.4,
+        "automation_pressure_delta": 7.2,
+        "augmentation_opportunity_delta": 23.6,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (83.6) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (85.7)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "rag_knowledge_systems",
+      "skill_name": "Retrieval-Augmented Generation (RAG) & Citation Grounding",
+      "category": "Data & Engineering",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 28.6,
+      "augmentation_opportunity": 90.5,
+      "demand_resilience": 75.1,
+      "transformation_pressure": 59.5,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "LOW",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 56.4,
+        "central": 59.5,
+        "upper": 62.4
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 27.1,
+          "central": 28.6,
+          "upper": 29.9
+        },
+        "augmentation_opportunity": {
+          "lower": 85.7,
+          "central": 90.5,
+          "upper": 94.9
+        },
+        "demand_resilience": {
+          "lower": 74.2,
+          "central": 75.1,
+          "upper": 76.0
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 19.5,
+        "automation_pressure_delta": 13.6,
+        "augmentation_opportunity_delta": 25.5,
+        "demand_resilience_delta": 1.9
+      },
+      "quality_flags": [
+        "LOW_SOURCE_COUNT",
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (90.5) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (75.1)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (28.6)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "api_integration",
+      "skill_name": "REST API Integration & Resilient Fallbacks",
+      "category": "Data & Engineering",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 28.6,
+      "augmentation_opportunity": 90.5,
+      "demand_resilience": 82.5,
+      "transformation_pressure": 59.5,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "HIGH",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 56.4,
+        "central": 59.5,
+        "upper": 62.4
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 27.1,
+          "central": 28.6,
+          "upper": 29.9
+        },
+        "augmentation_opportunity": {
+          "lower": 85.7,
+          "central": 90.5,
+          "upper": 94.9
+        },
+        "demand_resilience": {
+          "lower": 81.0,
+          "central": 82.5,
+          "upper": 83.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 19.5,
+        "automation_pressure_delta": 13.6,
+        "augmentation_opportunity_delta": 25.5,
+        "demand_resilience_delta": 2.9
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (90.5) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (82.5)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (28.6)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "ai_ethics_governance",
+      "skill_name": "AI Ethics, Fairness Auditing & Governance",
+      "category": "Governance & QA",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 15.2,
+      "augmentation_opportunity": 83.6,
+      "demand_resilience": 82.5,
+      "transformation_pressure": 49.4,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 46.8,
+        "central": 49.4,
+        "upper": 51.8
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 14.5,
+          "central": 15.2,
+          "upper": 16.0
+        },
+        "augmentation_opportunity": {
+          "lower": 79.1,
+          "central": 83.6,
+          "upper": 87.6
+        },
+        "demand_resilience": {
+          "lower": 81.0,
+          "central": 82.5,
+          "upper": 83.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 15.4,
+        "automation_pressure_delta": 7.2,
+        "augmentation_opportunity_delta": 23.6,
+        "demand_resilience_delta": 2.9
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (83.6) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (82.5)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "data_privacy_pdpa",
+      "skill_name": "Data Privacy & Malaysian PDPA Compliance",
+      "category": "Governance & QA",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 15.2,
+      "augmentation_opportunity": 83.6,
+      "demand_resilience": 78.3,
+      "transformation_pressure": 49.4,
+      "reskilling_urgency": "MODERATE",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "TRANSFORMING",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 46.8,
+        "central": 49.4,
+        "upper": 51.8
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 14.5,
+          "central": 15.2,
+          "upper": 16.0
+        },
+        "augmentation_opportunity": {
+          "lower": 79.1,
+          "central": 83.6,
+          "upper": 87.6
+        },
+        "demand_resilience": {
+          "lower": 76.9,
+          "central": 78.3,
+          "upper": 79.7
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 15.4,
+        "automation_pressure_delta": 7.2,
+        "augmentation_opportunity_delta": 23.6,
+        "demand_resilience_delta": 2.9
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (83.6) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (78.3)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MOSTI-AIGE-2024",
+        "POL-JPDP-PDPA-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "esg_sustainability_reporting",
+      "skill_name": "ESG Frameworks & UN SDG Impact Mapping",
+      "category": "Sustainability",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 9.5,
+      "augmentation_opportunity": 62.7,
+      "demand_resilience": 84.5,
+      "transformation_pressure": 36.1,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 34.1,
+        "central": 36.1,
+        "upper": 37.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 9.0,
+          "central": 9.5,
+          "upper": 10.0
+        },
+        "augmentation_opportunity": {
+          "lower": 59.3,
+          "central": 62.7,
+          "upper": 65.7
+        },
+        "demand_resilience": {
+          "lower": 83.2,
+          "central": 84.5,
+          "upper": 85.9
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.1,
+        "automation_pressure_delta": 4.5,
+        "augmentation_opportunity_delta": 17.7,
+        "demand_resilience_delta": 2.7
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (84.5)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "carbon_footprint_analytics",
+      "skill_name": "Carbon-Aware Compute & Resource Telemetry",
+      "category": "Sustainability",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "STRONGLY RISING",
+      "automation_pressure": 9.5,
+      "augmentation_opportunity": 62.7,
+      "demand_resilience": 80.8,
+      "transformation_pressure": 36.1,
+      "reskilling_urgency": "LOW",
+      "scenario_outlook": "STRONGLY RESILIENT",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "ROBUST",
+      "sensitivity_profile": {
+        "exact_category_stability": "STABLE",
+        "downside_risk_stability": "ROBUST",
+        "transformation_sensitivity": "LOW",
+        "movement_type": "NO_SHIFT",
+        "scenario_range": [
+          "STRONGLY RESILIENT",
+          "STRONGLY RESILIENT"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 34.1,
+        "central": 36.1,
+        "upper": 37.9
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 9.0,
+          "central": 9.5,
+          "upper": 10.0
+        },
+        "augmentation_opportunity": {
+          "lower": 59.3,
+          "central": 62.7,
+          "upper": 65.7
+        },
+        "demand_resilience": {
+          "lower": 79.4,
+          "central": 80.8,
+          "upper": 82.2
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 11.1,
+        "automation_pressure_delta": 4.5,
+        "augmentation_opportunity_delta": 17.7,
+        "demand_resilience_delta": 2.8
+      },
+      "quality_flags": [
+        "LOW_BASE_RESEARCH_SIGNAL",
+        "INSUFFICIENT_HISTORICAL_BASELINE"
+      ],
+      "positive_drivers": [
+        "Strong market shortage & employer demand persistence (80.8)."
+      ],
+      "negative_drivers": [
+        "Low automation susceptibility under scenario reach."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-BURSA-ESG-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "stakeholder_communication",
+      "skill_name": "Human-Centred Change & Stakeholder Communication",
+      "category": "Operations",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 34.3,
+      "augmentation_opportunity": 66.9,
+      "demand_resilience": 82.9,
+      "transformation_pressure": 50.6,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "VULNERABLE",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "DOWNSIDE_PRESSURE",
+        "scenario_range": [
+          "PRESSURED",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 48.0,
+        "central": 50.6,
+        "upper": 53.0
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 32.6,
+          "central": 34.3,
+          "upper": 35.9
+        },
+        "augmentation_opportunity": {
+          "lower": 63.3,
+          "central": 66.9,
+          "upper": 70.1
+        },
+        "demand_resilience": {
+          "lower": 82.0,
+          "central": 82.9,
+          "upper": 83.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 17.6,
+        "automation_pressure_delta": 16.3,
+        "augmentation_opportunity_delta": 18.9,
+        "demand_resilience_delta": 1.8
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (66.9) expands practitioner capabilities.",
+        "Strong market shortage & employer demand persistence (82.9)."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (34.3)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-MYCOL-2024",
+        "SRC-OPENALEX-TEMPORAL"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    },
+    {
+      "skill_id": "instructional_design",
+      "skill_name": "Competency Matrix & Reskilling Curriculum Design",
+      "category": "Operations",
+      "scenario_id": "FAST_AGENTIC",
+      "baseline_outlook": "RISING",
+      "automation_pressure": 34.3,
+      "augmentation_opportunity": 66.9,
+      "demand_resilience": 64.6,
+      "transformation_pressure": 50.6,
+      "reskilling_urgency": "HIGH",
+      "scenario_outlook": "TRANSFORMING",
+      "scenario_confidence": "MEDIUM",
+      "sensitivity_classification": "MODERATELY SENSITIVE",
+      "sensitivity_profile": {
+        "exact_category_stability": "SHIFTING",
+        "downside_risk_stability": "VULNERABLE",
+        "transformation_sensitivity": "HIGH",
+        "movement_type": "DOWNSIDE_PRESSURE",
+        "scenario_range": [
+          "PRESSURED",
+          "TRANSFORMING"
+        ]
+      },
+      "uncertainty_band": {
+        "metric": "transformation_pressure",
+        "lower": 48.0,
+        "central": 50.6,
+        "upper": 53.0
+      },
+      "range_metrics": {
+        "automation_pressure": {
+          "lower": 32.6,
+          "central": 34.3,
+          "upper": 35.9
+        },
+        "augmentation_opportunity": {
+          "lower": 63.3,
+          "central": 66.9,
+          "upper": 70.1
+        },
+        "demand_resilience": {
+          "lower": 63.3,
+          "central": 64.6,
+          "upper": 65.8
+        }
+      },
+      "scenario_delta_from_reference": {
+        "transformation_pressure_delta": 17.6,
+        "automation_pressure_delta": 16.3,
+        "augmentation_opportunity_delta": 18.9,
+        "demand_resilience_delta": 2.6
+      },
+      "quality_flags": [],
+      "positive_drivers": [
+        "High generative AI augmentation synergy (66.9) expands practitioner capabilities."
+      ],
+      "negative_drivers": [
+        "Codifiable subcomponents face partial automation pressure (34.3)."
+      ],
+      "baseline_source_refs": [
+        "SRC-MYCOL-2024",
+        "SRC-TALENTCORP-IMPACT-2024",
+        "SRC-OPENALEX-TEMPORAL",
+        "POL-MYDIGITAL-MDEC-2021",
+        "POL-MITI-NSS-2024"
+      ],
+      "scenario_assumptions_used": [
+        "PARAM-AGE-ADOPT",
+        "PARAM-AGE-REACH",
+        "PARAM-AGE-AUTO",
+        "PARAM-AGE-AUG",
+        "PARAM-AGE-DIFF",
+        "PARAM-AGE-RESKILL",
+        "PARAM-AGE-POLICY",
+        "PARAM-AGE-ADAPT"
+      ]
+    }
+  ]
+}

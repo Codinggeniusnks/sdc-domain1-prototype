@@ -1,0 +1,73 @@
+{
+  "synthetic_progress_benchmark": [
+    {
+      "profile_id": "SYNTH_LEARNER_001",
+      "target_role": "2512",
+      "target_title": "Software Developers",
+      "total_milestones": 3,
+      "milestones_progress": {
+        "M1": {
+          "status": "COMPLETED_VERIFIED",
+          "completion_pct": 100.0,
+          "verified_skills": ["programming_principles", "version_control"],
+          "evidence": {
+            "credential_id": "CERT-2026-MALAYSIA-001",
+            "issuer": "National Digital Academy",
+            "issue_date": "2026-08-15",
+            "sha256": "4a7d1ed414474e4033ac29ccb8653d9b002c9a9307ff819c961e06d9a9cb2ff4"
+          }
+        },
+        "M2": {
+          "status": "IN_PROGRESS",
+          "completion_pct": 50.0,
+          "verified_skills": ["data_structures"],
+          "evidence": null
+        },
+        "M3": {
+          "status": "NOT_STARTED",
+          "completion_pct": 0.0,
+          "verified_skills": [],
+          "evidence": null
+        }
+      },
+      "earned_badges": ["FIRST_STEP_TAKEN", "VERIFIED_CREDENTIAL_EARNED"]
+    },
+    {
+      "profile_id": "SYNTH_LEARNER_002",
+      "target_role": "2511",
+      "target_title": "Data Scientists",
+      "total_milestones": 3,
+      "milestones_progress": {
+        "M1": {
+          "status": "COMPLETED_VERIFIED",
+          "completion_pct": 100.0,
+          "verified_skills": ["python_programming", "statistical_analysis"],
+          "evidence": {
+            "credential_id": "CERT-2026-MALAYSIA-002",
+            "issuer": "MDEC Digital Talent",
+            "issue_date": "2026-09-01",
+            "sha256": "8f3b2cd290141e8c784732049d3215be11ec4bca2801482810d2105152865912"
+          }
+        },
+        "M2": {
+          "status": "COMPLETED_VERIFIED",
+          "completion_pct": 100.0,
+          "verified_skills": ["machine_learning_fundamentals"],
+          "evidence": {
+            "credential_id": "CERT-2026-MALAYSIA-003",
+            "issuer": "Universiti Malaya Continuing Education",
+            "issue_date": "2026-09-20",
+            "sha256": "9e51c20141e8c784732049d3215be11ec4bca2801482810d2105152865912345"
+          }
+        },
+        "M3": {
+          "status": "COMPLETED_SELF_REPORTED",
+          "completion_pct": 100.0,
+          "verified_skills": ["data_storytelling"],
+          "evidence": null
+        }
+      },
+      "earned_badges": ["FIRST_STEP_TAKEN", "CORE_FOUNDATION_ACHIEVED", "VERIFIED_CREDENTIAL_EARNED", "FULL_PATHWAY_COMPLETED"]
+    }
+  ]
+}

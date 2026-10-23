@@ -1,0 +1,1548 @@
+{
+  "dataset_id": "wages_skill",
+  "title": "Salaries & Wages by Skill Level (Annual)",
+  "source_url": "https://api.data.gov.my/data-catalogue?id=wages_skill&limit=1000",
+  "publisher": "Department of Statistics Malaysia (DOSM) / OpenDOSM",
+  "portal": "data.gov.my",
+  "licence": "Open Data Commons Open Database License (ODbL) / Creative Commons Attribution 4.0",
+  "retrieved_at": "2026-10-23T06:22:49.808992+00:00",
+  "record_count": 192,
+  "data": [
+    {
+      "sex": "both",
+      "date": "2010-01-01",
+      "skill": "overall",
+      "recipients": 7149.2,
+      "wages_mean": 1936,
+      "wages_median": 1500
+    },
+    {
+      "sex": "male",
+      "date": "2010-01-01",
+      "skill": "overall",
+      "recipients": 4432.6,
+      "wages_mean": 2003,
+      "wages_median": 1500
+    },
+    {
+      "sex": "female",
+      "date": "2010-01-01",
+      "skill": "overall",
+      "recipients": 2716.6,
+      "wages_mean": 1825,
+      "wages_median": 1498
+    },
+    {
+      "sex": "both",
+      "date": "2010-01-01",
+      "skill": "skilled",
+      "recipients": 2463.5,
+      "wages_mean": 3083,
+      "wages_median": 2600
+    },
+    {
+      "sex": "male",
+      "date": "2010-01-01",
+      "skill": "skilled",
+      "recipients": 1437.6,
+      "wages_mean": 3248,
+      "wages_median": 2631
+    },
+    {
+      "sex": "female",
+      "date": "2010-01-01",
+      "skill": "skilled",
+      "recipients": 1025.9,
+      "wages_mean": 2853,
+      "wages_median": 2548
+    },
+    {
+      "sex": "both",
+      "date": "2010-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4074.2,
+      "wages_mean": 1384,
+      "wages_median": 1200
+    },
+    {
+      "sex": "male",
+      "date": "2010-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2526.8,
+      "wages_mean": 1471,
+      "wages_median": 1250
+    },
+    {
+      "sex": "female",
+      "date": "2010-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1547.4,
+      "wages_mean": 1242,
+      "wages_median": 1050
+    },
+    {
+      "sex": "both",
+      "date": "2010-01-01",
+      "skill": "low_skilled",
+      "recipients": 611.6,
+      "wages_mean": 987,
+      "wages_median": 840
+    },
+    {
+      "sex": "male",
+      "date": "2010-01-01",
+      "skill": "low_skilled",
+      "recipients": 468.2,
+      "wages_mean": 1054,
+      "wages_median": 900
+    },
+    {
+      "sex": "female",
+      "date": "2010-01-01",
+      "skill": "low_skilled",
+      "recipients": 143.3,
+      "wages_mean": 770,
+      "wages_median": 600
+    },
+    {
+      "sex": "both",
+      "date": "2011-01-01",
+      "skill": "overall",
+      "recipients": 7634.0,
+      "wages_mean": 1959,
+      "wages_median": 1500
+    },
+    {
+      "sex": "male",
+      "date": "2011-01-01",
+      "skill": "overall",
+      "recipients": 4680.1,
+      "wages_mean": 2035,
+      "wages_median": 1500
+    },
+    {
+      "sex": "female",
+      "date": "2011-01-01",
+      "skill": "overall",
+      "recipients": 2953.9,
+      "wages_mean": 1838,
+      "wages_median": 1467
+    },
+    {
+      "sex": "both",
+      "date": "2011-01-01",
+      "skill": "skilled",
+      "recipients": 2519.1,
+      "wages_mean": 3168,
+      "wages_median": 2760
+    },
+    {
+      "sex": "male",
+      "date": "2011-01-01",
+      "skill": "skilled",
+      "recipients": 1462.2,
+      "wages_mean": 3352,
+      "wages_median": 2800
+    },
+    {
+      "sex": "female",
+      "date": "2011-01-01",
+      "skill": "skilled",
+      "recipients": 1056.9,
+      "wages_mean": 2914,
+      "wages_median": 2700
+    },
+    {
+      "sex": "both",
+      "date": "2011-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4468.8,
+      "wages_mean": 1417,
+      "wages_median": 1200
+    },
+    {
+      "sex": "male",
+      "date": "2011-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2737.2,
+      "wages_mean": 1500,
+      "wages_median": 1300
+    },
+    {
+      "sex": "female",
+      "date": "2011-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1731.6,
+      "wages_mean": 1285,
+      "wages_median": 1100
+    },
+    {
+      "sex": "both",
+      "date": "2011-01-01",
+      "skill": "low_skilled",
+      "recipients": 646.1,
+      "wages_mean": 990,
+      "wages_median": 821
+    },
+    {
+      "sex": "male",
+      "date": "2011-01-01",
+      "skill": "low_skilled",
+      "recipients": 480.7,
+      "wages_mean": 1074,
+      "wages_median": 935
+    },
+    {
+      "sex": "female",
+      "date": "2011-01-01",
+      "skill": "low_skilled",
+      "recipients": 165.4,
+      "wages_mean": 746,
+      "wages_median": 600
+    },
+    {
+      "sex": "both",
+      "date": "2012-01-01",
+      "skill": "overall",
+      "recipients": 7782.9,
+      "wages_mean": 2052,
+      "wages_median": 1566
+    },
+    {
+      "sex": "male",
+      "date": "2012-01-01",
+      "skill": "overall",
+      "recipients": 4745.0,
+      "wages_mean": 2126,
+      "wages_median": 1600
+    },
+    {
+      "sex": "female",
+      "date": "2012-01-01",
+      "skill": "overall",
+      "recipients": 3037.9,
+      "wages_mean": 1935,
+      "wages_median": 1500
+    },
+    {
+      "sex": "both",
+      "date": "2012-01-01",
+      "skill": "skilled",
+      "recipients": 2575.0,
+      "wages_mean": 3344,
+      "wages_median": 3000
+    },
+    {
+      "sex": "male",
+      "date": "2012-01-01",
+      "skill": "skilled",
+      "recipients": 1470.9,
+      "wages_mean": 3531,
+      "wages_median": 3000
+    },
+    {
+      "sex": "female",
+      "date": "2012-01-01",
+      "skill": "skilled",
+      "recipients": 1104.1,
+      "wages_mean": 3094,
+      "wages_median": 2905
+    },
+    {
+      "sex": "both",
+      "date": "2012-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4491.7,
+      "wages_mean": 1475,
+      "wages_median": 1300
+    },
+    {
+      "sex": "male",
+      "date": "2012-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2758.2,
+      "wages_mean": 1568,
+      "wages_median": 1395
+    },
+    {
+      "sex": "female",
+      "date": "2012-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1733.5,
+      "wages_mean": 1328,
+      "wages_median": 1200
+    },
+    {
+      "sex": "both",
+      "date": "2012-01-01",
+      "skill": "low_skilled",
+      "recipients": 716.1,
+      "wages_mean": 1019,
+      "wages_median": 836
+    },
+    {
+      "sex": "male",
+      "date": "2012-01-01",
+      "skill": "low_skilled",
+      "recipients": 515.9,
+      "wages_mean": 1108,
+      "wages_median": 950
+    },
+    {
+      "sex": "female",
+      "date": "2012-01-01",
+      "skill": "low_skilled",
+      "recipients": 200.3,
+      "wages_mean": 793,
+      "wages_median": 600
+    },
+    {
+      "sex": "both",
+      "date": "2013-01-01",
+      "skill": "overall",
+      "recipients": 7903.1,
+      "wages_mean": 2186,
+      "wages_median": 1700
+    },
+    {
+      "sex": "male",
+      "date": "2013-01-01",
+      "skill": "overall",
+      "recipients": 4784.2,
+      "wages_mean": 2259,
+      "wages_median": 1800
+    },
+    {
+      "sex": "female",
+      "date": "2013-01-01",
+      "skill": "overall",
+      "recipients": 3118.9,
+      "wages_mean": 2072,
+      "wages_median": 1600
+    },
+    {
+      "sex": "both",
+      "date": "2013-01-01",
+      "skill": "skilled",
+      "recipients": 2546.6,
+      "wages_mean": 3542,
+      "wages_median": 3000
+    },
+    {
+      "sex": "male",
+      "date": "2013-01-01",
+      "skill": "skilled",
+      "recipients": 1431.6,
+      "wages_mean": 3710,
+      "wages_median": 3000
+    },
+    {
+      "sex": "female",
+      "date": "2013-01-01",
+      "skill": "skilled",
+      "recipients": 1115.0,
+      "wages_mean": 3326,
+      "wages_median": 3000
+    },
+    {
+      "sex": "both",
+      "date": "2013-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4655.1,
+      "wages_mean": 1605,
+      "wages_median": 1400
+    },
+    {
+      "sex": "male",
+      "date": "2013-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2844.6,
+      "wages_mean": 1715,
+      "wages_median": 1500
+    },
+    {
+      "sex": "female",
+      "date": "2013-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1810.5,
+      "wages_mean": 1430,
+      "wages_median": 1200
+    },
+    {
+      "sex": "both",
+      "date": "2013-01-01",
+      "skill": "low_skilled",
+      "recipients": 701.4,
+      "wages_mean": 1118,
+      "wages_median": 900
+    },
+    {
+      "sex": "male",
+      "date": "2013-01-01",
+      "skill": "low_skilled",
+      "recipients": 508.0,
+      "wages_mean": 1218,
+      "wages_median": 1008
+    },
+    {
+      "sex": "female",
+      "date": "2013-01-01",
+      "skill": "low_skilled",
+      "recipients": 193.4,
+      "wages_mean": 854,
+      "wages_median": 700
+    },
+    {
+      "sex": "both",
+      "date": "2014-01-01",
+      "skill": "overall",
+      "recipients": 8392.4,
+      "wages_mean": 2377,
+      "wages_median": 1800
+    },
+    {
+      "sex": "male",
+      "date": "2014-01-01",
+      "skill": "overall",
+      "recipients": 5070.7,
+      "wages_mean": 2455,
+      "wages_median": 1888
+    },
+    {
+      "sex": "female",
+      "date": "2014-01-01",
+      "skill": "overall",
+      "recipients": 3321.8,
+      "wages_mean": 2259,
+      "wages_median": 1700
+    },
+    {
+      "sex": "both",
+      "date": "2014-01-01",
+      "skill": "skilled",
+      "recipients": 2749.6,
+      "wages_mean": 3908,
+      "wages_median": 3450
+    },
+    {
+      "sex": "male",
+      "date": "2014-01-01",
+      "skill": "skilled",
+      "recipients": 1552.8,
+      "wages_mean": 4083,
+      "wages_median": 3430
+    },
+    {
+      "sex": "female",
+      "date": "2014-01-01",
+      "skill": "skilled",
+      "recipients": 1196.7,
+      "wages_mean": 3682,
+      "wages_median": 3450
+    },
+    {
+      "sex": "both",
+      "date": "2014-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4909.9,
+      "wages_mean": 1695,
+      "wages_median": 1500
+    },
+    {
+      "sex": "male",
+      "date": "2014-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2994.8,
+      "wages_mean": 1809,
+      "wages_median": 1500
+    },
+    {
+      "sex": "female",
+      "date": "2014-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1915.1,
+      "wages_mean": 1517,
+      "wages_median": 1300
+    },
+    {
+      "sex": "both",
+      "date": "2014-01-01",
+      "skill": "low_skilled",
+      "recipients": 732.9,
+      "wages_mean": 1201,
+      "wages_median": 1000
+    },
+    {
+      "sex": "male",
+      "date": "2014-01-01",
+      "skill": "low_skilled",
+      "recipients": 523.0,
+      "wages_mean": 1314,
+      "wages_median": 1100
+    },
+    {
+      "sex": "female",
+      "date": "2014-01-01",
+      "skill": "low_skilled",
+      "recipients": 209.9,
+      "wages_mean": 920,
+      "wages_median": 800
+    },
+    {
+      "sex": "both",
+      "date": "2015-01-01",
+      "skill": "overall",
+      "recipients": 8348.6,
+      "wages_mean": 2487,
+      "wages_median": 1942
+    },
+    {
+      "sex": "male",
+      "date": "2015-01-01",
+      "skill": "overall",
+      "recipients": 5049.4,
+      "wages_mean": 2558,
+      "wages_median": 2000
+    },
+    {
+      "sex": "female",
+      "date": "2015-01-01",
+      "skill": "overall",
+      "recipients": 3299.2,
+      "wages_mean": 2380,
+      "wages_median": 1855
+    },
+    {
+      "sex": "both",
+      "date": "2015-01-01",
+      "skill": "skilled",
+      "recipients": 2765.5,
+      "wages_mean": 4095,
+      "wages_median": 3500
+    },
+    {
+      "sex": "male",
+      "date": "2015-01-01",
+      "skill": "skilled",
+      "recipients": 1538.1,
+      "wages_mean": 4313,
+      "wages_median": 3500
+    },
+    {
+      "sex": "female",
+      "date": "2015-01-01",
+      "skill": "skilled",
+      "recipients": 1227.4,
+      "wages_mean": 3821,
+      "wages_median": 3500
+    },
+    {
+      "sex": "both",
+      "date": "2015-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4811.5,
+      "wages_mean": 1756,
+      "wages_median": 1500
+    },
+    {
+      "sex": "male",
+      "date": "2015-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2948.2,
+      "wages_mean": 1864,
+      "wages_median": 1600
+    },
+    {
+      "sex": "female",
+      "date": "2015-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1863.3,
+      "wages_mean": 1584,
+      "wages_median": 1350
+    },
+    {
+      "sex": "both",
+      "date": "2015-01-01",
+      "skill": "low_skilled",
+      "recipients": 771.5,
+      "wages_mean": 1288,
+      "wages_median": 1000
+    },
+    {
+      "sex": "male",
+      "date": "2015-01-01",
+      "skill": "low_skilled",
+      "recipients": 563.0,
+      "wages_mean": 1394,
+      "wages_median": 1180
+    },
+    {
+      "sex": "female",
+      "date": "2015-01-01",
+      "skill": "low_skilled",
+      "recipients": 208.5,
+      "wages_mean": 1001,
+      "wages_median": 900
+    },
+    {
+      "sex": "both",
+      "date": "2016-01-01",
+      "skill": "overall",
+      "recipients": 8424.1,
+      "wages_mean": 2657,
+      "wages_median": 2000
+    },
+    {
+      "sex": "male",
+      "date": "2016-01-01",
+      "skill": "overall",
+      "recipients": 5034.4,
+      "wages_mean": 2741,
+      "wages_median": 2000
+    },
+    {
+      "sex": "female",
+      "date": "2016-01-01",
+      "skill": "overall",
+      "recipients": 3389.7,
+      "wages_mean": 2532,
+      "wages_median": 2000
+    },
+    {
+      "sex": "both",
+      "date": "2016-01-01",
+      "skill": "skilled",
+      "recipients": 3092.3,
+      "wages_mean": 4219,
+      "wages_median": 3500
+    },
+    {
+      "sex": "male",
+      "date": "2016-01-01",
+      "skill": "skilled",
+      "recipients": 1711.2,
+      "wages_mean": 4458,
+      "wages_median": 3553
+    },
+    {
+      "sex": "female",
+      "date": "2016-01-01",
+      "skill": "skilled",
+      "recipients": 1381.1,
+      "wages_mean": 3923,
+      "wages_median": 3500
+    },
+    {
+      "sex": "both",
+      "date": "2016-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4621.0,
+      "wages_mean": 1816,
+      "wages_median": 1600
+    },
+    {
+      "sex": "male",
+      "date": "2016-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2811.6,
+      "wages_mean": 1934,
+      "wages_median": 1650
+    },
+    {
+      "sex": "female",
+      "date": "2016-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1809.4,
+      "wages_mean": 1634,
+      "wages_median": 1460
+    },
+    {
+      "sex": "both",
+      "date": "2016-01-01",
+      "skill": "low_skilled",
+      "recipients": 710.8,
+      "wages_mean": 1323,
+      "wages_median": 1050
+    },
+    {
+      "sex": "male",
+      "date": "2016-01-01",
+      "skill": "low_skilled",
+      "recipients": 511.5,
+      "wages_mean": 1433,
+      "wages_median": 1200
+    },
+    {
+      "sex": "female",
+      "date": "2016-01-01",
+      "skill": "low_skilled",
+      "recipients": 199.2,
+      "wages_mean": 1041,
+      "wages_median": 900
+    },
+    {
+      "sex": "both",
+      "date": "2017-01-01",
+      "skill": "overall",
+      "recipients": 8677.1,
+      "wages_mean": 2879,
+      "wages_median": 2160
+    },
+    {
+      "sex": "male",
+      "date": "2017-01-01",
+      "skill": "overall",
+      "recipients": 5151.2,
+      "wages_mean": 2953,
+      "wages_median": 2170
+    },
+    {
+      "sex": "female",
+      "date": "2017-01-01",
+      "skill": "overall",
+      "recipients": 3525.9,
+      "wages_mean": 2772,
+      "wages_median": 2145
+    },
+    {
+      "sex": "both",
+      "date": "2017-01-01",
+      "skill": "skilled",
+      "recipients": 3192.8,
+      "wages_mean": 4574,
+      "wages_median": 3600
+    },
+    {
+      "sex": "male",
+      "date": "2017-01-01",
+      "skill": "skilled",
+      "recipients": 1757.9,
+      "wages_mean": 4828,
+      "wages_median": 3600
+    },
+    {
+      "sex": "female",
+      "date": "2017-01-01",
+      "skill": "skilled",
+      "recipients": 1434.9,
+      "wages_mean": 4262,
+      "wages_median": 3551
+    },
+    {
+      "sex": "both",
+      "date": "2017-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4775.0,
+      "wages_mean": 1947,
+      "wages_median": 1680
+    },
+    {
+      "sex": "male",
+      "date": "2017-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2872.0,
+      "wages_mean": 2049,
+      "wages_median": 1789
+    },
+    {
+      "sex": "female",
+      "date": "2017-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1903.0,
+      "wages_mean": 1793,
+      "wages_median": 1600
+    },
+    {
+      "sex": "both",
+      "date": "2017-01-01",
+      "skill": "low_skilled",
+      "recipients": 709.3,
+      "wages_mean": 1531,
+      "wages_median": 1200
+    },
+    {
+      "sex": "male",
+      "date": "2017-01-01",
+      "skill": "low_skilled",
+      "recipients": 521.4,
+      "wages_mean": 1615,
+      "wages_median": 1330
+    },
+    {
+      "sex": "female",
+      "date": "2017-01-01",
+      "skill": "low_skilled",
+      "recipients": 188.0,
+      "wages_mean": 1298,
+      "wages_median": 1000
+    },
+    {
+      "sex": "both",
+      "date": "2018-01-01",
+      "skill": "overall",
+      "recipients": 8761.2,
+      "wages_mean": 3087,
+      "wages_median": 2308
+    },
+    {
+      "sex": "male",
+      "date": "2018-01-01",
+      "skill": "overall",
+      "recipients": 5209.8,
+      "wages_mean": 3174,
+      "wages_median": 2342
+    },
+    {
+      "sex": "female",
+      "date": "2018-01-01",
+      "skill": "overall",
+      "recipients": 3551.4,
+      "wages_mean": 2959,
+      "wages_median": 2227
+    },
+    {
+      "sex": "both",
+      "date": "2018-01-01",
+      "skill": "skilled",
+      "recipients": 3227.6,
+      "wages_mean": 4891,
+      "wages_median": 3974
+    },
+    {
+      "sex": "male",
+      "date": "2018-01-01",
+      "skill": "skilled",
+      "recipients": 1780.1,
+      "wages_mean": 5155,
+      "wages_median": 3997
+    },
+    {
+      "sex": "female",
+      "date": "2018-01-01",
+      "skill": "skilled",
+      "recipients": 1447.5,
+      "wages_mean": 4566,
+      "wages_median": 3947
+    },
+    {
+      "sex": "both",
+      "date": "2018-01-01",
+      "skill": "semi_skilled",
+      "recipients": 4792.7,
+      "wages_mean": 2094,
+      "wages_median": 1817
+    },
+    {
+      "sex": "male",
+      "date": "2018-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2875.7,
+      "wages_mean": 2220,
+      "wages_median": 1917
+    },
+    {
+      "sex": "female",
+      "date": "2018-01-01",
+      "skill": "semi_skilled",
+      "recipients": 1917.1,
+      "wages_mean": 1904,
+      "wages_median": 1679
+    },
+    {
+      "sex": "both",
+      "date": "2018-01-01",
+      "skill": "low_skilled",
+      "recipients": 740.9,
+      "wages_mean": 1648,
+      "wages_median": 1329
+    },
+    {
+      "sex": "male",
+      "date": "2018-01-01",
+      "skill": "low_skilled",
+      "recipients": 554.1,
+      "wages_mean": 1758,
+      "wages_median": 1544
+    },
+    {
+      "sex": "female",
+      "date": "2018-01-01",
+      "skill": "low_skilled",
+      "recipients": 186.8,
+      "wages_mean": 1321,
+      "wages_median": 1123
+    },
+    {
+      "sex": "both",
+      "date": "2019-01-01",
+      "skill": "overall",
+      "recipients": 9195.2,
+      "wages_mean": 3224,
+      "wages_median": 2442
+    },
+    {
+      "sex": "male",
+      "date": "2019-01-01",
+      "skill": "overall",
+      "recipients": 5435.9,
+      "wages_mean": 3304,
+      "wages_median": 2477
+    },
+    {
+      "sex": "female",
+      "date": "2019-01-01",
+      "skill": "overall",
+      "recipients": 3759.3,
+      "wages_mean": 3108,
+      "wages_median": 2370
+    },
+    {
+      "sex": "both",
+      "date": "2019-01-01",
+      "skill": "skilled",
+      "recipients": 3387.9,
+      "wages_mean": 5072,
+      "wages_median": 4468
+    },
+    {
+      "sex": "male",
+      "date": "2019-01-01",
+      "skill": "skilled",
+      "recipients": 1889.4,
+      "wages_mean": 5269,
+      "wages_median": 4497
+    },
+    {
+      "sex": "female",
+      "date": "2019-01-01",
+      "skill": "skilled",
+      "recipients": 1498.5,
+      "wages_mean": 4824,
+      "wages_median": 4428
+    },
+    {
+      "sex": "both",
+      "date": "2019-01-01",
+      "skill": "semi_skilled",
+      "recipients": 5036.6,
+      "wages_mean": 2206,
+      "wages_median": 1900
+    },
+    {
+      "sex": "male",
+      "date": "2019-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2979.9,
+      "wages_mean": 2331,
+      "wages_median": 2004
+    },
+    {
+      "sex": "female",
+      "date": "2019-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2056.7,
+      "wages_mean": 2023,
+      "wages_median": 1725
+    },
+    {
+      "sex": "both",
+      "date": "2019-01-01",
+      "skill": "low_skilled",
+      "recipients": 770.7,
+      "wages_mean": 1751,
+      "wages_median": 1422
+    },
+    {
+      "sex": "male",
+      "date": "2019-01-01",
+      "skill": "low_skilled",
+      "recipients": 566.6,
+      "wages_mean": 1861,
+      "wages_median": 1560
+    },
+    {
+      "sex": "female",
+      "date": "2019-01-01",
+      "skill": "low_skilled",
+      "recipients": 204.1,
+      "wages_mean": 1444,
+      "wages_median": 1208
+    },
+    {
+      "sex": "both",
+      "date": "2020-01-01",
+      "skill": "overall",
+      "recipients": 9456.0,
+      "wages_mean": 2954,
+      "wages_median": 2076
+    },
+    {
+      "sex": "male",
+      "date": "2020-01-01",
+      "skill": "overall",
+      "recipients": 5586.8,
+      "wages_mean": 3011,
+      "wages_median": 2107
+    },
+    {
+      "sex": "female",
+      "date": "2020-01-01",
+      "skill": "overall",
+      "recipients": 3869.2,
+      "wages_mean": 2872,
+      "wages_median": 2026
+    },
+    {
+      "sex": "both",
+      "date": "2020-01-01",
+      "skill": "skilled",
+      "recipients": 3454.0,
+      "wages_mean": 4636,
+      "wages_median": 3980
+    },
+    {
+      "sex": "male",
+      "date": "2020-01-01",
+      "skill": "skilled",
+      "recipients": 1895.8,
+      "wages_mean": 4824,
+      "wages_median": 3965
+    },
+    {
+      "sex": "female",
+      "date": "2020-01-01",
+      "skill": "skilled",
+      "recipients": 1558.3,
+      "wages_mean": 4408,
+      "wages_median": 3995
+    },
+    {
+      "sex": "both",
+      "date": "2020-01-01",
+      "skill": "semi_skilled",
+      "recipients": 5218.8,
+      "wages_mean": 2023,
+      "wages_median": 1605
+    },
+    {
+      "sex": "male",
+      "date": "2020-01-01",
+      "skill": "semi_skilled",
+      "recipients": 3136.2,
+      "wages_mean": 2125,
+      "wages_median": 1703
+    },
+    {
+      "sex": "female",
+      "date": "2020-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2082.6,
+      "wages_mean": 1868,
+      "wages_median": 1595
+    },
+    {
+      "sex": "both",
+      "date": "2020-01-01",
+      "skill": "low_skilled",
+      "recipients": 783.1,
+      "wages_mean": 1744,
+      "wages_median": 1290
+    },
+    {
+      "sex": "male",
+      "date": "2020-01-01",
+      "skill": "low_skilled",
+      "recipients": 554.9,
+      "wages_mean": 1828,
+      "wages_median": 1432
+    },
+    {
+      "sex": "female",
+      "date": "2020-01-01",
+      "skill": "low_skilled",
+      "recipients": 228.3,
+      "wages_mean": 1541,
+      "wages_median": 1230
+    },
+    {
+      "sex": "both",
+      "date": "2021-01-01",
+      "skill": "overall",
+      "recipients": 9769.0,
+      "wages_mean": 3049,
+      "wages_median": 2256
+    },
+    {
+      "sex": "male",
+      "date": "2021-01-01",
+      "skill": "overall",
+      "recipients": 5769.1,
+      "wages_mean": 3114,
+      "wages_median": 2323
+    },
+    {
+      "sex": "female",
+      "date": "2021-01-01",
+      "skill": "overall",
+      "recipients": 4000.0,
+      "wages_mean": 2955,
+      "wages_median": 2150
+    },
+    {
+      "sex": "both",
+      "date": "2021-01-01",
+      "skill": "skilled",
+      "recipients": 3556.2,
+      "wages_mean": 4838,
+      "wages_median": 4583
+    },
+    {
+      "sex": "male",
+      "date": "2021-01-01",
+      "skill": "skilled",
+      "recipients": 2047.7,
+      "wages_mean": 4948,
+      "wages_median": 4572
+    },
+    {
+      "sex": "female",
+      "date": "2021-01-01",
+      "skill": "skilled",
+      "recipients": 1508.4,
+      "wages_mean": 4689,
+      "wages_median": 4605
+    },
+    {
+      "sex": "both",
+      "date": "2021-01-01",
+      "skill": "semi_skilled",
+      "recipients": 5422.5,
+      "wages_mean": 2063,
+      "wages_median": 1668
+    },
+    {
+      "sex": "male",
+      "date": "2021-01-01",
+      "skill": "semi_skilled",
+      "recipients": 3147.7,
+      "wages_mean": 2159,
+      "wages_median": 1773
+    },
+    {
+      "sex": "female",
+      "date": "2021-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2274.7,
+      "wages_mean": 1929,
+      "wages_median": 1595
+    },
+    {
+      "sex": "both",
+      "date": "2021-01-01",
+      "skill": "low_skilled",
+      "recipients": 790.4,
+      "wages_mean": 1760,
+      "wages_median": 1533
+    },
+    {
+      "sex": "male",
+      "date": "2021-01-01",
+      "skill": "low_skilled",
+      "recipients": 573.6,
+      "wages_mean": 1801,
+      "wages_median": 1531
+    },
+    {
+      "sex": "female",
+      "date": "2021-01-01",
+      "skill": "low_skilled",
+      "recipients": 216.8,
+      "wages_mean": 1651,
+      "wages_median": 1541
+    },
+    {
+      "sex": "both",
+      "date": "2022-01-01",
+      "skill": "overall",
+      "recipients": 9996.4,
+      "wages_mean": 3219,
+      "wages_median": 2429
+    },
+    {
+      "sex": "male",
+      "date": "2022-01-01",
+      "skill": "overall",
+      "recipients": 5892.9,
+      "wages_mean": 3288,
+      "wages_median": 2498
+    },
+    {
+      "sex": "female",
+      "date": "2022-01-01",
+      "skill": "overall",
+      "recipients": 4103.6,
+      "wages_mean": 3119,
+      "wages_median": 2305
+    },
+    {
+      "sex": "both",
+      "date": "2022-01-01",
+      "skill": "skilled",
+      "recipients": 3631.1,
+      "wages_mean": 4878,
+      "wages_median": 4411
+    },
+    {
+      "sex": "male",
+      "date": "2022-01-01",
+      "skill": "skilled",
+      "recipients": 2110.9,
+      "wages_mean": 4961,
+      "wages_median": 4361
+    },
+    {
+      "sex": "female",
+      "date": "2022-01-01",
+      "skill": "skilled",
+      "recipients": 1520.2,
+      "wages_mean": 4762,
+      "wages_median": 4539
+    },
+    {
+      "sex": "both",
+      "date": "2022-01-01",
+      "skill": "semi_skilled",
+      "recipients": 5568.5,
+      "wages_mean": 2335,
+      "wages_median": 1821
+    },
+    {
+      "sex": "male",
+      "date": "2022-01-01",
+      "skill": "semi_skilled",
+      "recipients": 3201.2,
+      "wages_mean": 2443,
+      "wages_median": 1928
+    },
+    {
+      "sex": "female",
+      "date": "2022-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2367.3,
+      "wages_mean": 2188,
+      "wages_median": 1764
+    },
+    {
+      "sex": "both",
+      "date": "2022-01-01",
+      "skill": "low_skilled",
+      "recipients": 796.8,
+      "wages_mean": 1835,
+      "wages_median": 1558
+    },
+    {
+      "sex": "male",
+      "date": "2022-01-01",
+      "skill": "low_skilled",
+      "recipients": 580.8,
+      "wages_mean": 1866,
+      "wages_median": 1556
+    },
+    {
+      "sex": "female",
+      "date": "2022-01-01",
+      "skill": "low_skilled",
+      "recipients": 216.0,
+      "wages_mean": 1754,
+      "wages_median": 1578
+    },
+    {
+      "sex": "both",
+      "date": "2023-01-01",
+      "skill": "overall",
+      "recipients": 10105.4,
+      "wages_mean": 3441,
+      "wages_median": 2602
+    },
+    {
+      "sex": "male",
+      "date": "2023-01-01",
+      "skill": "overall",
+      "recipients": 5949.0,
+      "wages_mean": 3532,
+      "wages_median": 2675
+    },
+    {
+      "sex": "female",
+      "date": "2023-01-01",
+      "skill": "overall",
+      "recipients": 4156.4,
+      "wages_mean": 3311,
+      "wages_median": 2464
+    },
+    {
+      "sex": "both",
+      "date": "2023-01-01",
+      "skill": "skilled",
+      "recipients": 3670.2,
+      "wages_mean": 5242,
+      "wages_median": 4565
+    },
+    {
+      "sex": "male",
+      "date": "2023-01-01",
+      "skill": "skilled",
+      "recipients": 2147.7,
+      "wages_mean": 5362,
+      "wages_median": 4565
+    },
+    {
+      "sex": "female",
+      "date": "2023-01-01",
+      "skill": "skilled",
+      "recipients": 1522.6,
+      "wages_mean": 5074,
+      "wages_median": 4784
+    },
+    {
+      "sex": "both",
+      "date": "2023-01-01",
+      "skill": "semi_skilled",
+      "recipients": 5633.8,
+      "wages_mean": 2475,
+      "wages_median": 1916
+    },
+    {
+      "sex": "male",
+      "date": "2023-01-01",
+      "skill": "semi_skilled",
+      "recipients": 3214.5,
+      "wages_mean": 2583,
+      "wages_median": 2045
+    },
+    {
+      "sex": "female",
+      "date": "2023-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2419.3,
+      "wages_mean": 2332,
+      "wages_median": 1878
+    },
+    {
+      "sex": "both",
+      "date": "2023-01-01",
+      "skill": "low_skilled",
+      "recipients": 801.3,
+      "wages_mean": 1982,
+      "wages_median": 1599
+    },
+    {
+      "sex": "male",
+      "date": "2023-01-01",
+      "skill": "low_skilled",
+      "recipients": 586.8,
+      "wages_mean": 2030,
+      "wages_median": 1609
+    },
+    {
+      "sex": "female",
+      "date": "2023-01-01",
+      "skill": "low_skilled",
+      "recipients": 214.5,
+      "wages_mean": 1849,
+      "wages_median": 1529
+    },
+    {
+      "sex": "both",
+      "date": "2024-01-01",
+      "skill": "overall",
+      "recipients": 10238.4,
+      "wages_mean": 3652,
+      "wages_median": 2793
+    },
+    {
+      "sex": "male",
+      "date": "2024-01-01",
+      "skill": "overall",
+      "recipients": 6028.4,
+      "wages_mean": 3759,
+      "wages_median": 2850
+    },
+    {
+      "sex": "female",
+      "date": "2024-01-01",
+      "skill": "overall",
+      "recipients": 4210.0,
+      "wages_mean": 3499,
+      "wages_median": 2641
+    },
+    {
+      "sex": "both",
+      "date": "2024-01-01",
+      "skill": "skilled",
+      "recipients": 3735.6,
+      "wages_mean": 5582,
+      "wages_median": 4679
+    },
+    {
+      "sex": "male",
+      "date": "2024-01-01",
+      "skill": "skilled",
+      "recipients": 2168.6,
+      "wages_mean": 5733,
+      "wages_median": 4614
+    },
+    {
+      "sex": "female",
+      "date": "2024-01-01",
+      "skill": "skilled",
+      "recipients": 1567.0,
+      "wages_mean": 5374,
+      "wages_median": 4921
+    },
+    {
+      "sex": "both",
+      "date": "2024-01-01",
+      "skill": "semi_skilled",
+      "recipients": 5672.3,
+      "wages_mean": 2604,
+      "wages_median": 2050
+    },
+    {
+      "sex": "male",
+      "date": "2024-01-01",
+      "skill": "semi_skilled",
+      "recipients": 3252.3,
+      "wages_mean": 2729,
+      "wages_median": 2139
+    },
+    {
+      "sex": "female",
+      "date": "2024-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2420.0,
+      "wages_mean": 2437,
+      "wages_median": 1947
+    },
+    {
+      "sex": "both",
+      "date": "2024-01-01",
+      "skill": "low_skilled",
+      "recipients": 830.5,
+      "wages_mean": 2128,
+      "wages_median": 1654
+    },
+    {
+      "sex": "male",
+      "date": "2024-01-01",
+      "skill": "low_skilled",
+      "recipients": 607.5,
+      "wages_mean": 2227,
+      "wages_median": 1669
+    },
+    {
+      "sex": "female",
+      "date": "2024-01-01",
+      "skill": "low_skilled",
+      "recipients": 223.0,
+      "wages_mean": 1857,
+      "wages_median": 1620
+    },
+    {
+      "sex": "both",
+      "date": "2025-01-01",
+      "skill": "overall",
+      "recipients": 10381.6,
+      "wages_mean": 3803,
+      "wages_median": 2940
+    },
+    {
+      "sex": "male",
+      "date": "2025-01-01",
+      "skill": "overall",
+      "recipients": 6084.6,
+      "wages_mean": 3921,
+      "wages_median": 3014
+    },
+    {
+      "sex": "female",
+      "date": "2025-01-01",
+      "skill": "overall",
+      "recipients": 4297.0,
+      "wages_mean": 3635,
+      "wages_median": 2788
+    },
+    {
+      "sex": "both",
+      "date": "2025-01-01",
+      "skill": "skilled",
+      "recipients": 3803.8,
+      "wages_mean": 5799,
+      "wages_median": 5057
+    },
+    {
+      "sex": "male",
+      "date": "2025-01-01",
+      "skill": "skilled",
+      "recipients": 2217.6,
+      "wages_mean": 5904,
+      "wages_median": 5083
+    },
+    {
+      "sex": "female",
+      "date": "2025-01-01",
+      "skill": "skilled",
+      "recipients": 1586.2,
+      "wages_mean": 5652,
+      "wages_median": 5035
+    },
+    {
+      "sex": "both",
+      "date": "2025-01-01",
+      "skill": "semi_skilled",
+      "recipients": 5768.1,
+      "wages_mean": 2714,
+      "wages_median": 2223
+    },
+    {
+      "sex": "male",
+      "date": "2025-01-01",
+      "skill": "semi_skilled",
+      "recipients": 3283.9,
+      "wages_mean": 2871,
+      "wages_median": 2439
+    },
+    {
+      "sex": "female",
+      "date": "2025-01-01",
+      "skill": "semi_skilled",
+      "recipients": 2484.1,
+      "wages_mean": 2507,
+      "wages_median": 2063
+    },
+    {
+      "sex": "both",
+      "date": "2025-01-01",
+      "skill": "low_skilled",
+      "recipients": 809.7,
+      "wages_mean": 2184,
+      "wages_median": 1758
+    },
+    {
+      "sex": "male",
+      "date": "2025-01-01",
+      "skill": "low_skilled",
+      "recipients": 583.0,
+      "wages_mean": 2299,
+      "wages_median": 1778
+    },
+    {
+      "sex": "female",
+      "date": "2025-01-01",
+      "skill": "low_skilled",
+      "recipients": 226.6,
+      "wages_mean": 1886,
+      "wages_median": 1753
+    }
+  ]
+}

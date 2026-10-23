@@ -1,0 +1,151 @@
+{
+  "suite_version": "1.0.0",
+  "evaluated_at": "2026-10-23T16:40:33.132579Z",
+  "total_benchmarks": 8,
+  "passed_benchmarks": 8,
+  "all_passed": true,
+  "results": [
+    {
+      "benchmark_id": "BM01_SUSTAINABILITY_SKILLS",
+      "description": "Validation of direct environmental and sustainability reporting competencies",
+      "entities": [
+        "carbon_footprint_analytics",
+        "esg_sustainability_reporting"
+      ],
+      "expected_direct_sdgs": [
+        12,
+        13
+      ],
+      "observed_direct_sdgs": [
+        12,
+        13
+      ],
+      "passed": true,
+      "details": {
+        "carbon_primary": [
+          "13.2",
+          "13.3"
+        ],
+        "esg_primary": [
+          "12.6"
+        ]
+      }
+    },
+    {
+      "benchmark_id": "BM02_GENERAL_PURPOSE_SAFETY",
+      "description": "Validation that general-purpose tech skills NEVER receive DIRECT SDG mapping",
+      "entities": [
+        "python_scripting",
+        "sql_data_analysis",
+        "api_integration",
+        "workflow_automation",
+        "prompt_engineering"
+      ],
+      "direct_mapping_count": 0,
+      "enabling_mapping_count": 5,
+      "passed": true,
+      "rule_enforced": "RULE_GP_NON_DIRECT_STRICT"
+    },
+    {
+      "benchmark_id": "BM03_AI_GOVERNANCE_PRIVACY",
+      "description": "Validation of institutional accountability and data privacy alignment to SDG 16",
+      "entities": [
+        "ai_ethics_governance",
+        "data_privacy_pdpa"
+      ],
+      "expected_sdg": 16,
+      "observed_sdgs": [
+        16
+      ],
+      "targets": [
+        "16.6",
+        "16.10"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM04_EDUCATION_AND_HUMAN_CAPITAL",
+      "description": "Validation of human capital formation and workforce learning alignment to SDG 4",
+      "entities": [
+        "instructional_design"
+      ],
+      "expected_sdg": 4,
+      "observed_targets": [
+        "4.4"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM05_GREEN_ENGINEERING_OCCUPATIONS",
+      "description": "Validation of direct ecological and clean energy engineering roles (MASCO 2143 & 2151)",
+      "entities": [
+        "2143 (Environmental Engineers)",
+        "2151 (Electrical Engineers)"
+      ],
+      "env_direct_sdgs": [
+        11,
+        12,
+        13
+      ],
+      "elec_direct_sdgs": [
+        7,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM06_SOFTWARE_TECH_OCCUPATIONS",
+      "description": "Validation of enabling technological upgrading roles (MASCO 2512 & 2511)",
+      "entities": [
+        "2512 (Software Developers)",
+        "2511 (Systems Analysts)"
+      ],
+      "dev_enabling_sdgs": [
+        8,
+        9
+      ],
+      "targets": [
+        "9.5",
+        "8.2"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM07_ADMINISTRATIVE_CLERICAL_CONTEXTUAL",
+      "description": "Validation that clerical and administrative roles receive CONTEXTUAL operational mappings",
+      "entities": [
+        "4110 (General Office Clerks)",
+        "3343 (Administrative Secretaries)"
+      ],
+      "clerk_mapping_types": [
+        "CONTEXTUAL"
+      ],
+      "sec_mapping_types": [
+        "CONTEXTUAL",
+        "CONTEXTUAL"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM08_PATHWAY_SDG_SYNTHESIS",
+      "description": "Validation of multi-competency reskilling pathway alignment synthesis",
+      "target_role": "2529 (AI & Data Science Specialists)",
+      "skills_count": 4,
+      "total_sdgs_aligned": 7,
+      "direct_sdgs": [
+        13,
+        16
+      ],
+      "enabling_sdgs": [
+        8,
+        9,
+        10,
+        12,
+        17
+      ],
+      "has_methodology_disclaimer": true,
+      "has_fake_metrics": false,
+      "passed": true
+    }
+  ]
+}

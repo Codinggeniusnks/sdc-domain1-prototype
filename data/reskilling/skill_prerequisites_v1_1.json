@@ -1,0 +1,152 @@
+{
+  "version": "1.1.0",
+  "module": "M4_PERSONALISED_RESKILLING_PATHWAY_ENGINE",
+  "generated_date": "2026-10-23",
+  "total_prerequisite_relations": 15,
+  "relation_strength_counts": {
+    "REQUIRED": 4,
+    "RECOMMENDED": 8,
+    "OPTIONAL": 3
+  },
+  "cycle_audit_result": "PASS_ACYCLIC",
+  "prerequisites": [
+    {
+      "prerequisite_skill_id": "ai_literacy",
+      "target_skill_id": "prompt_engineering",
+      "dependency_strength": "REQUIRED",
+      "reason": "Understanding fundamental LLM capabilities, tokenization, and temperature is essential before constructing systematic prompts.",
+      "source_id": "DEEPLEARNING_AI_PROMPT_CURRICULUM_2024",
+      "evidence_reference": "DeepLearning.AI ChatGPT Prompt Engineering Framework, Section 1: Foundations",
+      "mapping_confidence": 0.95
+    },
+    {
+      "prerequisite_skill_id": "ai_literacy",
+      "target_skill_id": "human_in_the_loop_qa",
+      "dependency_strength": "REQUIRED",
+      "reason": "Evaluating hallucination rates and output fidelity requires conceptual understanding of generative model failure modes.",
+      "source_id": "NIST_AI_RMF_2023",
+      "evidence_reference": "NIST AI Risk Management Framework 1.0, Measure Function 2.3",
+      "mapping_confidence": 0.9
+    },
+    {
+      "prerequisite_skill_id": "ai_literacy",
+      "target_skill_id": "ai_ethics_governance",
+      "dependency_strength": "REQUIRED",
+      "reason": "Governance frameworks and risk mitigation policies require technical comprehension of algorithmic behavior.",
+      "source_id": "MOSTI_NATIONAL_AI_ROADMAP_2021_2025",
+      "evidence_reference": "Ministry of Science, Technology and Innovation Malaysia: AI Ethics Principles, Pillar 3",
+      "mapping_confidence": 0.95
+    },
+    {
+      "prerequisite_skill_id": "python_scripting",
+      "target_skill_id": "rag_knowledge_systems",
+      "dependency_strength": "REQUIRED",
+      "reason": "Developing retrieval pipelines, embedding chunking, and vector index querying requires programmatic Python capability.",
+      "source_id": "LANGCHAIN_ACADEMY_CURRICULUM_2024",
+      "evidence_reference": "LangChain Production RAG Architectures, Module 1: Document Ingestion",
+      "mapping_confidence": 0.95
+    },
+    {
+      "prerequisite_skill_id": "python_scripting",
+      "target_skill_id": "api_integration",
+      "dependency_strength": "RECOMMENDED",
+      "reason": "Consuming REST APIs and parsing JSON responses is most effectively implemented through scripting automation.",
+      "source_id": "MDN_WEB_APIS_GUIDE_2024",
+      "evidence_reference": "Mozilla Developer Network: Client-side Web APIs & Python HTTP Client Practices",
+      "mapping_confidence": 0.9
+    },
+    {
+      "prerequisite_skill_id": "api_integration",
+      "target_skill_id": "rag_knowledge_systems",
+      "dependency_strength": "RECOMMENDED",
+      "reason": "RAG architectures interact heavily with vector search endpoints and LLM inference REST APIs.",
+      "source_id": "OPENAI_EMBEDDING_API_GUIDE_2024",
+      "evidence_reference": "OpenAI Platform Documentation: Embeddings and Vector Search Architecture",
+      "mapping_confidence": 0.9
+    },
+    {
+      "prerequisite_skill_id": "prompt_engineering",
+      "target_skill_id": "rag_knowledge_systems",
+      "dependency_strength": "RECOMMENDED",
+      "reason": "Synthesizing retrieved context chunks requires structured instruction and hallucination-resistant prompting.",
+      "source_id": "ANTHROPIC_CONTEXTUAL_RETRIEVAL_2024",
+      "evidence_reference": "Anthropic Engineering: Contextual Retrieval & Prompt Synthesis Standards",
+      "mapping_confidence": 0.85
+    },
+    {
+      "prerequisite_skill_id": "sql_data_analysis",
+      "target_skill_id": "data_visualization",
+      "dependency_strength": "RECOMMENDED",
+      "reason": "Creating accurate dashboards and executive charts depends on foundational relational querying and tabular aggregation.",
+      "source_id": "MICROSOFT_POWERBI_CURRICULUM_2024",
+      "evidence_reference": "Microsoft PL-300: Power BI Data Analyst Certification Framework, Domain 1",
+      "mapping_confidence": 0.9
+    },
+    {
+      "prerequisite_skill_id": "process_mapping",
+      "target_skill_id": "workflow_automation",
+      "dependency_strength": "RECOMMENDED",
+      "reason": "Automating business workflows requires first documenting decision trees, bottlenecks, and handoffs via BPMN standards.",
+      "source_id": "OMG_BPMN_STANDARDS_2020",
+      "evidence_reference": "Object Management Group BPMN 2.0 Process Modeling Specification",
+      "mapping_confidence": 0.95
+    },
+    {
+      "prerequisite_skill_id": "data_privacy_pdpa",
+      "target_skill_id": "ai_ethics_governance",
+      "dependency_strength": "RECOMMENDED",
+      "reason": "Malaysian AI governance mandates compliance with statutory Personal Data Protection Act (PDPA 2010) principles.",
+      "source_id": "JPDP_MALAYSIA_GUIDELINES_2024",
+      "evidence_reference": "Jabatan Perlindungan Data Peribadi: Guidelines on Personal Data in Cloud & AI Computing",
+      "mapping_confidence": 0.95
+    },
+    {
+      "prerequisite_skill_id": "carbon_footprint_analytics",
+      "target_skill_id": "esg_sustainability_reporting",
+      "dependency_strength": "RECOMMENDED",
+      "reason": "Quantitative Scope 1, 2, and 3 emissions accounting forms the foundation of environmental disclosure frameworks.",
+      "source_id": "BURSA_MALAYSIA_SUSTAINABILITY_REPORTING_GUIDE_2023",
+      "evidence_reference": "Bursa Malaysia Sustainability Reporting Guide (4th Edition), Climate Change Disclosures",
+      "mapping_confidence": 0.9
+    },
+    {
+      "prerequisite_skill_id": "stakeholder_communication",
+      "target_skill_id": "instructional_design",
+      "dependency_strength": "RECOMMENDED",
+      "reason": "Training needs analysis and curriculum sign-off require structured communication with business sponsors.",
+      "source_id": "ATD_INSTRUCTIONAL_DESIGN_BODY_OF_KNOWLEDGE_2023",
+      "evidence_reference": "Association for Talent Development (ATD) Competency Model: Performance Improvement",
+      "mapping_confidence": 0.85
+    },
+    {
+      "prerequisite_skill_id": "sql_data_analysis",
+      "target_skill_id": "carbon_footprint_analytics",
+      "dependency_strength": "OPTIONAL",
+      "reason": "Querying large ERP database activity records facilitates automated emissions calculation.",
+      "source_id": "GHG_PROTOCOL_DATA_MANAGEMENT_2022",
+      "evidence_reference": "Greenhouse Gas Protocol Corporate Standard, Chapter 6: Accounting for GHG Emissions",
+      "mapping_confidence": 0.8
+    },
+    {
+      "prerequisite_skill_id": "process_mapping",
+      "target_skill_id": "instructional_design",
+      "dependency_strength": "OPTIONAL",
+      "reason": "Mapping corporate standard operating procedures provides structured input for vocational training modules.",
+      "source_id": "ILO_COMPETENCY_BASED_TRAINING_2021",
+      "evidence_reference": "ILO Regional Skills Programme: Competency-Based Training Design Manual",
+      "mapping_confidence": 0.75
+    },
+    {
+      "prerequisite_skill_id": "ai_literacy",
+      "target_skill_id": "data_privacy_pdpa",
+      "dependency_strength": "OPTIONAL",
+      "reason": "Awareness of automated decision systems contextualizes statutory rights regarding automated profiling.",
+      "source_id": "JPDP_MALAYSIA_GUIDELINES_2024",
+      "evidence_reference": "JPDP Consultation Paper on Digital Economy Data Governance",
+      "mapping_confidence": 0.8
+    }
+  ],
+  "parent_v1_sha256": "d78846dd7f445aa6950385c9189831439a33d0ae3fb86be6bf418928b7c70f6c",
+  "reference_milestone": "Stage 12C Targeted M4 Remediation",
+  "notes": "Prerequisites semantically identical to verified Stage 12B baseline (0 unsupported REQUIRED prerequisites, PASS_ACYCLIC)."
+}

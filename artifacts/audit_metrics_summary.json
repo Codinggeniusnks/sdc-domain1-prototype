@@ -1,0 +1,309 @@
+{
+  "frozen_test_audit": {
+    "total_frozen_records": 300,
+    "real_records": 0,
+    "synthetic_records": 300,
+    "real_test_percentage": 0.0,
+    "synthetic_test_percentage": 100.0,
+    "source_breakdown": {
+      "Synthetic Malaysian Worker Task Profile": 300
+    },
+    "demand_class_distribution": {
+      "emerging_1": 210,
+      "routine_0": 90
+    },
+    "skill_class_distribution": {
+      "ai_literacy": 26,
+      "prompt_engineering": 30,
+      "process_mapping": 32,
+      "sql_data_analysis": 34,
+      "python_scripting": 34,
+      "data_visualization": 31,
+      "workflow_automation": 29,
+      "human_in_the_loop_qa": 36,
+      "rag_knowledge_systems": 40,
+      "api_integration": 30,
+      "ai_ethics_governance": 40,
+      "data_privacy_pdpa": 38,
+      "esg_sustainability_reporting": 42,
+      "carbon_footprint_analytics": 35,
+      "stakeholder_communication": 36,
+      "instructional_design": 38
+    },
+    "distinct_template_prefixes": 52,
+    "template_prefix_counts": {
+      "Software quality engineer": 13,
+      "Architecting autonomous agentic": 18,
+      "Experienced practitioner specializing": 21,
+      "Repetitive manual data": 13,
+      "Sustainability analyst driving": 18,
+      "Data engineer handling": 21,
+      "Routine manual filing,": 13,
+      "Deeply skilled in": 22,
+      "Proficient in artificial": 1,
+      "Conducting comprehensive audits": 12,
+      "Basic mechanical document": 20,
+      "Conducting training on": 11,
+      "Operations lead responsible": 18,
+      "Specializing in sop,": 1,
+      "Responsible for production": 18,
+      "Analyzing relational databases": 19,
+      "Designed competency frameworks": 24,
+      "Proficient in workflow": 1,
+      "Specializing in apis,": 1,
+      "Specializing in agent": 1,
+      "Specializing in information": 1,
+      "Specializing in scripting,": 1,
+      "Proficient in stakeholders": 1,
+      "Proficient in explainability": 1,
+      "Specializing in reskilling,": 1,
+      "Proficient in model": 1,
+      "Proficient in few-shot": 2,
+      "Proficient in science": 1,
+      "Specializing in visualization,": 1,
+      "Proficient in governance": 1,
+      "Proficient in human-centred": 1,
+      "Proficient in multi-agent": 1,
+      "Proficient in python": 2,
+      "Specializing in foundation": 1,
+      "Proficient in personal": 1,
+      "Proficient in dashboards": 1,
+      "Proficient in enterprise": 1,
+      "Proficient in prompt": 1,
+      "Specializing in carbon": 1,
+      "Proficient in sustainability": 1,
+      "Proficient in human-centered": 1,
+      "Specializing in retrieval": 1,
+      "Specializing in ai": 1,
+      "Specializing in multi-agent,": 1,
+      "Proficient in apis": 1,
+      "Specializing in science": 1,
+      "Proficient in upskilling": 1,
+      "Specializing in ethics,": 1,
+      "Specializing in decision": 1,
+      "Proficient in chain-of-thought": 1,
+      "Proficient in tabular": 1,
+      "Proficient in text-to-sql": 1
+    },
+    "malaysian_explicit_context_count": 24
+  },
+  "dataset_counts": {
+    "real_train_records": 98,
+    "controlled_synth_records": 250,
+    "dataset_v4_total": 348,
+    "openalex_evidence_separated": 208,
+    "real_world_test_records": 63,
+    "unseen_occupation_test_records": 25
+  },
+  "contamination_audit": {
+    "train_vs_real_world_test": {
+      "exact_hash_matches": 0,
+      "normalised_text_matches": 0,
+      "sequence_similarity_gt_085": 0,
+      "tfidf_cosine_similarity_gt_085": 0,
+      "mean_max_tfidf_cosine_similarity": 0.4633
+    },
+    "train_vs_frozen_synthetic_test": {
+      "exact_hash_matches": 0,
+      "sequence_similarity_gt_085_pct": 67,
+      "note": "Frozen test set is 100% synthetic generated from the same 17 WORKPLACE_TEMPLATES as synthetic training records."
+    }
+  },
+  "benchmarks": {
+    "m1_baseline_v1_orig1200": {
+      "train_size": 1200,
+      "frozen_test": {
+        "count": 300,
+        "skills_macro_f1": 0.9531,
+        "skills_micro_f1": 0.9492,
+        "skills_weighted_f1": 0.9517,
+        "skills_macro_precision": 0.9422,
+        "skills_macro_recall": 0.967,
+        "demand_accuracy": 0.92,
+        "demand_macro_f1": 0.8993,
+        "demand_roc_auc": 0.9703,
+        "demand_brier_score": 0.0835
+      },
+      "real_world_test": {
+        "count": 63,
+        "skills_macro_f1": 0.6369,
+        "skills_micro_f1": 0.623,
+        "skills_weighted_f1": 0.6334,
+        "skills_macro_precision": 0.7699,
+        "skills_macro_recall": 0.617,
+        "demand_accuracy": 0.7619,
+        "demand_macro_f1": 0.7352,
+        "demand_roc_auc": 0.8039,
+        "demand_brier_score": 0.1673
+      },
+      "unseen_occupation_test": {
+        "count": 25,
+        "skills_macro_f1": 0.5723,
+        "skills_micro_f1": 0.6519,
+        "skills_weighted_f1": 0.6391,
+        "skills_macro_precision": 0.7059,
+        "skills_macro_recall": 0.5036,
+        "demand_accuracy": 0.76,
+        "demand_macro_f1": 0.7024,
+        "demand_roc_auc": 0.86,
+        "demand_brier_score": 0.1719
+      }
+    },
+    "m2_v2_unseparated_real319": {
+      "train_size": 319,
+      "frozen_test": {
+        "count": 300,
+        "skills_macro_f1": 0.2272,
+        "skills_micro_f1": 0.2441,
+        "skills_weighted_f1": 0.2259,
+        "skills_macro_precision": 0.525,
+        "skills_macro_recall": 0.1621,
+        "demand_accuracy": 0.7867,
+        "demand_macro_f1": 0.658,
+        "demand_roc_auc": 0.7225,
+        "demand_brier_score": 0.159
+      },
+      "real_world_test": {
+        "count": 63,
+        "skills_macro_f1": 0.4877,
+        "skills_micro_f1": 0.4565,
+        "skills_weighted_f1": 0.4327,
+        "skills_macro_precision": 0.8281,
+        "skills_macro_recall": 0.3854,
+        "demand_accuracy": 0.7619,
+        "demand_macro_f1": 0.6465,
+        "demand_roc_auc": 0.7937,
+        "demand_brier_score": 0.1698
+      },
+      "unseen_occupation_test": {
+        "count": 25,
+        "skills_macro_f1": 0.3925,
+        "skills_micro_f1": 0.4272,
+        "skills_weighted_f1": 0.3926,
+        "skills_macro_precision": 0.7031,
+        "skills_macro_recall": 0.3013,
+        "demand_accuracy": 0.96,
+        "demand_macro_f1": 0.9322,
+        "demand_roc_auc": 0.97,
+        "demand_brier_score": 0.0814
+      }
+    },
+    "m3_v3_unseparated_959": {
+      "train_size": 959,
+      "frozen_test": {
+        "count": 300,
+        "skills_macro_f1": 0.9239,
+        "skills_micro_f1": 0.9149,
+        "skills_weighted_f1": 0.9227,
+        "skills_macro_precision": 0.9074,
+        "skills_macro_recall": 0.9568,
+        "demand_accuracy": 0.79,
+        "demand_macro_f1": 0.7607,
+        "demand_roc_auc": 0.8597,
+        "demand_brier_score": 0.161
+      },
+      "real_world_test": {
+        "count": 63,
+        "skills_macro_f1": 0.6743,
+        "skills_micro_f1": 0.6502,
+        "skills_weighted_f1": 0.6161,
+        "skills_macro_precision": 0.9605,
+        "skills_macro_recall": 0.5611,
+        "demand_accuracy": 0.746,
+        "demand_macro_f1": 0.707,
+        "demand_roc_auc": 0.8413,
+        "demand_brier_score": 0.1563
+      },
+      "unseen_occupation_test": {
+        "count": 25,
+        "skills_macro_f1": 0.5529,
+        "skills_micro_f1": 0.6612,
+        "skills_weighted_f1": 0.6083,
+        "skills_macro_precision": 0.7854,
+        "skills_macro_recall": 0.4676,
+        "demand_accuracy": 0.76,
+        "demand_macro_f1": 0.7024,
+        "demand_roc_auc": 0.86,
+        "demand_brier_score": 0.1531
+      }
+    },
+    "m4_v4_real_only_no_openalex": {
+      "train_size": 98,
+      "frozen_test": {
+        "count": 300,
+        "skills_macro_f1": 0.2367,
+        "skills_micro_f1": 0.2534,
+        "skills_weighted_f1": 0.2287,
+        "skills_macro_precision": 0.6313,
+        "skills_macro_recall": 0.1738,
+        "demand_accuracy": 0.7667,
+        "demand_macro_f1": 0.6739,
+        "demand_roc_auc": 0.7994,
+        "demand_brier_score": 0.1743
+      },
+      "real_world_test": {
+        "count": 63,
+        "skills_macro_f1": 0.6458,
+        "skills_micro_f1": 0.6099,
+        "skills_weighted_f1": 0.6051,
+        "skills_macro_precision": 0.8939,
+        "skills_macro_recall": 0.5597,
+        "demand_accuracy": 0.7619,
+        "demand_macro_f1": 0.7455,
+        "demand_roc_auc": 0.8685,
+        "demand_brier_score": 0.1599
+      },
+      "unseen_occupation_test": {
+        "count": 25,
+        "skills_macro_f1": 0.4756,
+        "skills_micro_f1": 0.5645,
+        "skills_weighted_f1": 0.5428,
+        "skills_macro_precision": 0.6698,
+        "skills_macro_recall": 0.4055,
+        "demand_accuracy": 0.6,
+        "demand_macro_f1": 0.5404,
+        "demand_roc_auc": 0.69,
+        "demand_brier_score": 0.2018
+      }
+    },
+    "m5_v4_clean_multisource_weighted": {
+      "train_size": 348,
+      "frozen_test": {
+        "count": 300,
+        "skills_macro_f1": 0.6507,
+        "skills_micro_f1": 0.6389,
+        "skills_weighted_f1": 0.6499,
+        "skills_macro_precision": 0.5635,
+        "skills_macro_recall": 0.793,
+        "demand_accuracy": 0.8033,
+        "demand_macro_f1": 0.6983,
+        "demand_roc_auc": 0.9054,
+        "demand_brier_score": 0.1385
+      },
+      "real_world_test": {
+        "count": 63,
+        "skills_macro_f1": 0.6928,
+        "skills_micro_f1": 0.6612,
+        "skills_weighted_f1": 0.6651,
+        "skills_macro_precision": 0.8446,
+        "skills_macro_recall": 0.6537,
+        "demand_accuracy": 0.746,
+        "demand_macro_f1": 0.7407,
+        "demand_roc_auc": 0.8617,
+        "demand_brier_score": 0.1635
+      },
+      "unseen_occupation_test": {
+        "count": 25,
+        "skills_macro_f1": 0.6045,
+        "skills_micro_f1": 0.6377,
+        "skills_weighted_f1": 0.6367,
+        "skills_macro_precision": 0.7754,
+        "skills_macro_recall": 0.5337,
+        "demand_accuracy": 0.6,
+        "demand_macro_f1": 0.566,
+        "demand_roc_auc": 0.65,
+        "demand_brier_score": 0.2363
+      }
+    }
+  }
+}

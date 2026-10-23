@@ -1,0 +1,247 @@
+{
+  "edition": "2017/2018",
+  "publisher": "TalentCorp Malaysia & ILMIA",
+  "occupations_count": 15,
+  "occupations": [
+    {
+      "masco_code": "2512",
+      "title": "Software Developers",
+      "sectors": [
+        "ICT",
+        "Fintech",
+        "Manufacturing",
+        "Global Business Services (GBS)",
+        "Healthcare"
+      ],
+      "shortage_evidence": "Intense shortage of experienced developers skilled in cloud microservices, REST APIs, and automated CI/CD pipelines; severe cross-border brain drain to Singapore and remote overseas employers.",
+      "future_skills": [
+        "python_scripting",
+        "api_integration",
+        "workflow_automation",
+        "rag_knowledge_systems"
+      ]
+    },
+    {
+      "masco_code": "2511",
+      "title": "Systems Analysts & Solutions Architects",
+      "sectors": [
+        "ICT",
+        "Financial Services",
+        "Public Sector",
+        "Telecommunications"
+      ],
+      "shortage_evidence": "High demand for business process re-engineering, legacy migration, enterprise architecture, and human-in-the-loop workflow redesign.",
+      "future_skills": [
+        "process_mapping",
+        "workflow_automation",
+        "human_in_the_loop_qa",
+        "ai_literacy"
+      ]
+    },
+    {
+      "masco_code": "2521",
+      "title": "Database Designers & Administrators",
+      "sectors": [
+        "ICT",
+        "Banking & Finance",
+        "Healthcare",
+        "Government"
+      ],
+      "shortage_evidence": "Exponential data growth requiring high-concurrency SQL optimization, data warehouse governance, and compliance with data privacy mandates.",
+      "future_skills": [
+        "sql_data_analysis",
+        "data_privacy_pdpa",
+        "rag_knowledge_systems"
+      ]
+    },
+    {
+      "masco_code": "2529",
+      "title": "Database & Network Professionals NEC (Data Scientists & AI Engineers)",
+      "sectors": [
+        "ICT",
+        "Fintech",
+        "Semiconductor E&E",
+        "E-Commerce",
+        "Digital Media"
+      ],
+      "shortage_evidence": "Massive demand surge driven by national AI roadmap, corporate GenAI pilots, predictive analytics, and machine learning deployment.",
+      "future_skills": [
+        "ai_literacy",
+        "prompt_engineering",
+        "python_scripting",
+        "ai_ethics_governance",
+        "rag_knowledge_systems"
+      ]
+    },
+    {
+      "masco_code": "2519",
+      "title": "Software & Applications Developers & Analysts NEC (Full-Stack & Cloud Engineers)",
+      "sectors": [
+        "ICT",
+        "Digital Media",
+        "Fintech",
+        "Logistics"
+      ],
+      "shortage_evidence": "Crucial shortage of engineers capable of building scalable web applications, API integrations, and cloud-native services.",
+      "future_skills": [
+        "api_integration",
+        "python_scripting",
+        "workflow_automation"
+      ]
+    },
+    {
+      "masco_code": "2522",
+      "title": "Systems Administrators & Cloud Infrastructure Engineers",
+      "sectors": [
+        "ICT",
+        "Data Centers",
+        "Telecommunications",
+        "Banking"
+      ],
+      "shortage_evidence": "Hyperscale data center boom in Johor and Cyberjaya creating acute shortage of cloud infrastructure, virtualization, and carbon-aware telemetry engineers.",
+      "future_skills": [
+        "carbon_footprint_analytics",
+        "api_integration",
+        "data_privacy_pdpa"
+      ]
+    },
+    {
+      "masco_code": "2411",
+      "title": "Accountants & Financial Auditors",
+      "sectors": [
+        "Financial Services",
+        "Professional Services / Audit",
+        "Corporate Services",
+        "Manufacturing"
+      ],
+      "shortage_evidence": "Persistent shortage of qualified chartered accountants; rapid transition towards automated financial closing and mandatory Bursa Malaysia ESG sustainability disclosures.",
+      "future_skills": [
+        "esg_sustainability_reporting",
+        "sql_data_analysis",
+        "process_mapping"
+      ]
+    },
+    {
+      "masco_code": "2421",
+      "title": "Management & Organization Analysts (Business Transformation Consultants)",
+      "sectors": [
+        "Management Consulting",
+        "GBS",
+        "Manufacturing",
+        "Energy"
+      ],
+      "shortage_evidence": "High corporate demand for organizational restructuring, post-merger integration, ESG alignment, and AI change management.",
+      "future_skills": [
+        "process_mapping",
+        "stakeholder_communication",
+        "ai_ethics_governance"
+      ]
+    },
+    {
+      "masco_code": "2422",
+      "title": "Policy & Corporate Planning Professionals",
+      "sectors": [
+        "Government-Linked Companies (GLCs)",
+        "Energy & Utilities",
+        "Telecommunications",
+        "Banking"
+      ],
+      "shortage_evidence": "Urgent requirement for regulatory compliance, National Energy Transition Roadmap (NETR) alignment, and AI governance policymaking.",
+      "future_skills": [
+        "ai_ethics_governance",
+        "esg_sustainability_reporting",
+        "stakeholder_communication"
+      ]
+    },
+    {
+      "masco_code": "2151",
+      "title": "Electrical Engineers",
+      "sectors": [
+        "Energy & Power",
+        "Renewable Energy",
+        "Manufacturing",
+        "Infrastructure"
+      ],
+      "shortage_evidence": "Grid modernization, high-voltage infrastructure, and solar farm integration under the National Energy Transition Roadmap.",
+      "future_skills": [
+        "carbon_footprint_analytics",
+        "esg_sustainability_reporting"
+      ]
+    },
+    {
+      "masco_code": "2152",
+      "title": "Electronic Engineers (Semiconductor IC Design & Testing)",
+      "sectors": [
+        "Electrical & Electronics (E&E)",
+        "Semiconductor Assembly & Test",
+        "Automotive Electronics"
+      ],
+      "shortage_evidence": "National Semiconductor Strategy (NSS) targeting 60,000 high-skilled engineers; intense competition for analog/digital IC design and advanced packaging specialists.",
+      "future_skills": [
+        "python_scripting",
+        "human_in_the_loop_qa",
+        "process_mapping"
+      ]
+    },
+    {
+      "masco_code": "1330",
+      "title": "Information and Communications Technology Services Managers",
+      "sectors": [
+        "ICT",
+        "Financial Services",
+        "Telecommunications",
+        "Manufacturing"
+      ],
+      "shortage_evidence": "Leadership deficit in guiding enterprise digital transformation, cloud migrations, AI governance compliance, and cybersecurity resilience.",
+      "future_skills": [
+        "ai_ethics_governance",
+        "data_privacy_pdpa",
+        "stakeholder_communication"
+      ]
+    },
+    {
+      "masco_code": "3514",
+      "title": "Web Technicians & Cloud Application Operators",
+      "sectors": [
+        "ICT",
+        "Retail & E-Commerce",
+        "GBS"
+      ],
+      "shortage_evidence": "Support technicians needed to maintain web endpoints, test API integrations, and manage cloud portal deployments.",
+      "future_skills": [
+        "api_integration",
+        "python_scripting",
+        "workflow_automation"
+      ]
+    },
+    {
+      "masco_code": "4311",
+      "title": "Accounting and Bookkeeping Clerks",
+      "sectors": [
+        "Financial Services",
+        "Retail",
+        "Manufacturing"
+      ],
+      "shortage_evidence": "Listed as critical in early editions due to volume hiring, but dropped in recent editions as cloud ERP, automated bank reconciliations, and robotic process automation eliminated routine entry positions.",
+      "future_skills": [
+        "sql_data_analysis",
+        "process_mapping"
+      ]
+    },
+    {
+      "masco_code": "3343",
+      "title": "Administrative & Executive Secretaries",
+      "sectors": [
+        "Corporate Services",
+        "Legal",
+        "Banking"
+      ],
+      "shortage_evidence": "Dropped from recent critical lists as executive scheduling, transcription, and basic memo drafting are increasingly handled by AI workflow agents.",
+      "future_skills": [
+        "workflow_automation",
+        "prompt_engineering",
+        "stakeholder_communication"
+      ]
+    }
+  ]
+}

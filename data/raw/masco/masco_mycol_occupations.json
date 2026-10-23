@@ -1,0 +1,102 @@
+[
+  {
+    "masco_code": "2512",
+    "title": "Software Developer",
+    "sector": "Information and Communication Technology (ICT)",
+    "description": "Researches, analyzes and evaluates requirements for software applications and operating systems; designs, develops, tests and maintains software solutions.",
+    "tasks": "Writing code in Python, Java, SQL, developing REST APIs, automating test workflows, implementing cloud infrastructure and continuous deployment pipelines.",
+    "mycol_critical": true,
+    "mycol_shortage_status": "Hard to Fill (High Demand)",
+    "mycol_evidence": "TalentCorp MyMahir 2024/2025: Critical shortage across fintech, digital health, and smart manufacturing."
+  },
+  {
+    "masco_code": "2511",
+    "title": "Systems Analyst & Process Automation Architect",
+    "sector": "ICT / Corporate Services",
+    "description": "Analyzes user requests, requirements, and problems to optimize process flows and orchestrate business operations with digital tools.",
+    "tasks": "Business process mapping (BPMN), standard operating procedure (SOP) formalization, robotic and AI workflow orchestration, human-in-the-loop validation.",
+    "mycol_critical": true,
+    "mycol_shortage_status": "Emerging Shortage",
+    "mycol_evidence": "Surge in corporate process automation under Malaysia Digital Economy Blueprint."
+  },
+  {
+    "masco_code": "2521",
+    "title": "Database Designer & Administrator",
+    "sector": "ICT",
+    "description": "Designs, implements, and maintains database management systems ensuring security, data integrity, and performant querying.",
+    "tasks": "Structured Query Language (SQL) optimization, relational data modeling, data pipeline orchestration, data privacy and PDPA access controls.",
+    "mycol_critical": true,
+    "mycol_shortage_status": "Moderate Shortage",
+    "mycol_evidence": "Critical role across government agency modernization and e-commerce."
+  },
+  {
+    "masco_code": "2133",
+    "title": "Environmental & Sustainability Specialist",
+    "sector": "Environmental Science / Green Technology",
+    "description": "Conducts environmental audits, GHG carbon accounting, and sustainability compliance reporting for organizations.",
+    "tasks": "ESG reporting (Bursa Malaysia Sustainability Guidelines), carbon footprint modeling, Scope 1-3 emissions data visualization, environmental impact assessment.",
+    "mycol_critical": true,
+    "mycol_shortage_status": "Acute Emerging Shortage",
+    "mycol_evidence": "National Energy Transition Roadmap (NETR) and Bursa Malaysia mandatory ESG disclosure requirements."
+  },
+  {
+    "masco_code": "2422",
+    "title": "Policy & Governance Compliance Officer",
+    "sector": "Legal / Corporate Governance",
+    "description": "Develops, oversees, and audits organizational compliance with regulatory policies, ethical guidelines, and statutory laws.",
+    "tasks": "AI ethics auditing, bias mitigation assessment, personal data protection (PDPA 2010 compliance), risk assessment frameworks, model performance review.",
+    "mycol_critical": true,
+    "mycol_shortage_status": "Emerging Critical Need",
+    "mycol_evidence": "MOSTI National AI Office (NAIO) launch and National AI Governance and Ethics (AIGE) guidelines."
+  },
+  {
+    "masco_code": "2424",
+    "title": "Training and Workforce Development Professional",
+    "sector": "Human Resources & Education",
+    "description": "Designs and delivers instructional curricula, organizational change programs, and digital reskilling interventions.",
+    "tasks": "Instructional design, AI literacy workshop facilitation, learning analytics, change management, employee capability benchmarking.",
+    "mycol_critical": true,
+    "mycol_shortage_status": "High Demand",
+    "mycol_evidence": "HRD Corp National Training Index: Urgent need for AI transition trainers."
+  },
+  {
+    "masco_code": "2519",
+    "title": "Quality Assurance & Software Tester",
+    "sector": "ICT",
+    "description": "Executes test scenarios, identifies bugs, assesses algorithmic reliability, and ensures conformance to product specifications.",
+    "tasks": "Automated test suite maintenance, human-in-the-loop quality evaluation, edge-case synthetic data verification, API endpoint testing.",
+    "mycol_critical": true,
+    "mycol_shortage_status": "Moderate Shortage",
+    "mycol_evidence": "High demand for AI QA and prompt evaluation in software development houses."
+  },
+  {
+    "masco_code": "4110",
+    "title": "General Office & Clerical Assistant (Routine Tasks)",
+    "sector": "Administrative & Support Services",
+    "description": "Performs clerical tasks in accordance with established procedures: photocopying, document sorting, manual filing.",
+    "tasks": "Physical document collation, paper invoice data entry, sorting incoming mail, routine typing without modern automation software.",
+    "mycol_critical": false,
+    "mycol_shortage_status": "Surplus / High Vulnerability",
+    "mycol_evidence": "High automation displacement risk as projected in Hays Asia 2025 and MOSTI 600,000 reskilling forecast."
+  },
+  {
+    "masco_code": "4132",
+    "title": "Data Entry Clerk (Repetitive Manual Processing)",
+    "sector": "Administrative & Support Services",
+    "description": "Enters numerical and text information from source documents into computer databases using standard keyboard.",
+    "tasks": "Manual data transcription, keying survey records, checking paper forms, basic spreadsheet copying.",
+    "mycol_critical": false,
+    "mycol_shortage_status": "Displacement Risk",
+    "mycol_evidence": "WEF Future of Jobs Report: Rapid decline due to OCR and optical language models."
+  },
+  {
+    "masco_code": "4222",
+    "title": "Contact Centre Call Handler (Tier 1 Routine Support)",
+    "sector": "Customer Support / BPO",
+    "description": "Answers routine customer inquiries via telephone or basic messaging using canned scripts.",
+    "tasks": "Reading predetermined scripts, logging basic support tickets, manual appointment booking, routing phone calls.",
+    "mycol_critical": false,
+    "mycol_shortage_status": "High Transformation Risk",
+    "mycol_evidence": "Widespread transition to AI conversational agents; urgent need for upskilling to AI interaction QA."
+  }
+]

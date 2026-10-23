@@ -1,0 +1,17 @@
+skill,gold_positives,synthetic_positives,total_positives,gold_percentage,synthetic_percentage,status
+ai_literacy,36,2,38,94.74%,5.26%,REAL_DOMINANT
+prompt_engineering,31,0,31,100.0%,0.0%,REAL_DOMINANT
+process_mapping,99,0,99,100.0%,0.0%,REAL_DOMINANT
+sql_data_analysis,62,0,62,100.0%,0.0%,REAL_DOMINANT
+python_scripting,63,0,63,100.0%,0.0%,REAL_DOMINANT
+data_visualization,41,1,42,97.62%,2.38%,REAL_DOMINANT
+workflow_automation,67,0,67,100.0%,0.0%,REAL_DOMINANT
+human_in_the_loop_qa,59,0,59,100.0%,0.0%,REAL_DOMINANT
+rag_knowledge_systems,26,5,31,83.87%,16.13%,REAL_DOMINANT
+api_integration,42,0,42,100.0%,0.0%,REAL_DOMINANT
+ai_ethics_governance,30,0,30,100.0%,0.0%,REAL_DOMINANT
+data_privacy_pdpa,44,0,44,100.0%,0.0%,REAL_DOMINANT
+esg_sustainability_reporting,43,0,43,100.0%,0.0%,REAL_DOMINANT
+carbon_footprint_analytics,29,2,31,93.55%,6.45%,REAL_DOMINANT
+stakeholder_communication,98,0,98,100.0%,0.0%,REAL_DOMINANT
+instructional_design,29,2,31,93.55%,6.45%,REAL_DOMINANT

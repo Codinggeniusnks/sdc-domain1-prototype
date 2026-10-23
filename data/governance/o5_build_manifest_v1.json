@@ -1,0 +1,16 @@
+{
+  "engine": "O5 Responsible-AI & Invariance Governance Audit Layer",
+  "version": "v1.0.0",
+  "timestamp_utc": "2026-10-23T21:13:28Z",
+  "status": "BUILD_VERIFIED",
+  "all_benchmarks_passed": true,
+  "total_benchmarks": 8,
+  "passed_benchmarks": 8,
+  "files": {
+    "src/governance_engine.py": "ca4f54cfce284337031ef6da313470548386f2a9e1bd700f3696f26d75624f6a",
+    "data/governance/o5_config_v1.json": "ad115f10cbc19baed7772d678447fdc50abf85e0d3670e9483d28586c2a826fc",
+    "data/governance/synthetic_perturbation_testbed_v1.json": "0c0c8de1e8e8403612516b2d2c5df6389fc66e25e3e02a7fc7473794f72957f0",
+    "scripts/run_o5_benchmarks.py": "32aeb2d25bc9e72092e8bd1a94edeb711c38a7dd6b66fe175d51f3ab8f4d0902",
+    "tests/test_governance_engine.py": "02975d3c234b68319dbd03d7a54273c0a3153d1094818ecad5282addc7757b08"
+  }
+}

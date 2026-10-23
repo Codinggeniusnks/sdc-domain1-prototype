@@ -1,0 +1,7 @@
+record_id,template_family,skills,target_deficit_reduced,max_gold_cosine_similarity,selection_rank,reason_for_selection
+synth-worker-0200,SYNTH_responsible_for,rag_knowledge_systems|carbon_footprint_analytics,carbon_footprint_analytics|rag_knowledge_systems,0.2657,1,"Optimal marginal utility on deficits: ['carbon_footprint_analytics', 'rag_knowledge_systems']"
+synth-worker-0070,SYNTH_analyzing_relational,rag_knowledge_systems|instructional_design,rag_knowledge_systems|instructional_design,0.2956,2,"Optimal marginal utility on deficits: ['rag_knowledge_systems', 'instructional_design']"
+synth-worker-0197,SYNTH_designed_competency,rag_knowledge_systems|ai_literacy,rag_knowledge_systems,0.2773,3,Optimal marginal utility on deficits: ['rag_knowledge_systems']
+synth-worker-0190,SYNTH_proficient_in,instructional_design|rag_knowledge_systems,rag_knowledge_systems,0.3029,4,Optimal marginal utility on deficits: ['rag_knowledge_systems']
+synth-worker-0063,SYNTH_software_quality,data_visualization|rag_knowledge_systems,cv_fold_balance,0.3629,5,Selected for cross-validation fold balance across rare template families.
+synth-worker-0036,SYNTH_conducting_comprehensive,carbon_footprint_analytics|ai_literacy,cv_fold_balance,0.459,6,Selected for cross-validation fold balance across rare template families.

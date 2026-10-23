@@ -1,0 +1,8307 @@
+[
+  {
+    "id": "synth-worker-1201",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, human-in-the-loop, and vector database regression suites.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1202",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing scripting alongside production climate.",
+    "skills": [
+      "python_scripting",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1203",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in visualization and workflow automation across enterprise operations. Currently upskilling in red-teaming.",
+    "skills": [
+      "data_visualization",
+      "workflow_automation",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1204",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1205",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using knowledge graph and drafting curriculum for Bursa disclosure.",
+    "skills": [
+      "rag_knowledge_systems",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1206",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, database, API gateways, and robust privacy.",
+    "skills": [
+      "sql_data_analysis",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1207",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing information retrieval alongside production model evaluation.",
+    "skills": [
+      "rag_knowledge_systems",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1208",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1209",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in knowledge graph with hands-on project experience in chart and human-centered.",
+    "skills": [
+      "rag_knowledge_systems",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1210",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in artificial intelligence with focus on prompt optimization, validation benchmarking, and multi-agent.",
+    "skills": [
+      "ai_literacy",
+      "workflow_automation"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1211",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing dashboard alongside production sdgs.",
+    "skills": [
+      "data_visualization",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1212",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in lifelong learning with hands-on project experience in sustainability and anonymization.",
+    "skills": [
+      "instructional_design",
+      "esg_sustainability_reporting",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1213",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using stakeholders and drafting fairness for Bursa disclosure.",
+    "skills": [
+      "stakeholder_communication",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1214",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in green ai with hands-on project experience in accountability and api.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "ai_ethics_governance",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1215",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on visualization and ensuring full regulatory compliance with education.",
+    "skills": [
+      "data_visualization",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1216",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in microservice with hands-on project experience in data protection and software engineering.",
+    "skills": [
+      "api_integration",
+      "data_privacy_pdpa",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1217",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, human-centered, and renewable regression suites.",
+    "skills": [
+      "stakeholder_communication",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1218",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1219",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1220",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, data visualization, and compliance auditing for workflow.",
+    "skills": [
+      "data_visualization",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1221",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, information retrieval, and cross-functional data protection.",
+    "skills": [
+      "rag_knowledge_systems",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1222",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on agent orchestration and ensuring full regulatory compliance with business process.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1223",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in sop, telemetry logging, and decision support for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1224",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production generative ai pipelines, automated model evaluation, and implementing esg best practices.",
+    "skills": [
+      "ai_literacy",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1225",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on data analysis and ensuring full regulatory compliance with scripting.",
+    "skills": [
+      "sql_data_analysis",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1226",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on sdg and ensuring full regulatory compliance with scripting.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1227",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using stakeholders and drafting fairness for Bursa disclosure.",
+    "skills": [
+      "stakeholder_communication",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1228",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1229",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with foundation model and delivering stakeholder dashboards via education.",
+    "skills": [
+      "ai_literacy",
+      "instructional_design"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1230",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in vocational with hands-on project experience in human oversight and carbon footprint.",
+    "skills": [
+      "instructional_design",
+      "human_in_the_loop_qa",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1231",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with science communication and delivering stakeholder dashboards via accountability.",
+    "skills": [
+      "stakeholder_communication",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1232",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1233",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using synthetic data and drafting hallucinations for Bursa disclosure.",
+    "skills": [
+      "data_privacy_pdpa",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1234",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on human-centered and ensuring full regulatory compliance with software engineering.",
+    "skills": [
+      "stakeholder_communication",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1235",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, python, and curriculum regression suites.",
+    "skills": [
+      "python_scripting",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1236",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1237",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical anonymization and vocational python.",
+    "skills": [
+      "data_privacy_pdpa",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1238",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1239",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1240",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using generative ai and drafting emissions for Bursa disclosure.",
+    "skills": [
+      "ai_literacy",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1241",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using llm evaluation and drafting esg for Bursa disclosure.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1242",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in workflow automation with focus on prompt optimization, validation benchmarking, and competency.",
+    "skills": [
+      "workflow_automation",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1243",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, human-in-the-loop, API gateways, and robust sop.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1244",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, vector database, and cross-functional chain-of-thought.",
+    "skills": [
+      "rag_knowledge_systems",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1245",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, information retrieval, and cross-functional code generation.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1246",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, ai agent, and compliance auditing for carbon footprint.",
+    "skills": [
+      "workflow_automation",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1247",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical microservices and vocational instruction tuning.",
+    "skills": [
+      "api_integration",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1248",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1249",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, education, and sql regression suites.",
+    "skills": [
+      "instructional_design",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1250",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical prompt and vocational retrieval augmented.",
+    "skills": [
+      "prompt_engineering",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1251",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in apis, telemetry logging, and software engineering for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "api_integration",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1252",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in llm evaluation and instruction tuning across enterprise operations. Currently upskilling in workflow.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "prompt_engineering",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1253",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in energy efficiency with hands-on project experience in code generation and climate.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "python_scripting",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1254",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production fairness pipelines, automated model evaluation, and implementing prompt best practices.",
+    "skills": [
+      "ai_ethics_governance",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1255",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, esg, and instruction tuning regression suites.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1256",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with llm agents and delivering stakeholder dashboards via human-centred.",
+    "skills": [
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1257",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in database and climate across enterprise operations. Currently upskilling in anonymization.",
+    "skills": [
+      "sql_data_analysis",
+      "esg_sustainability_reporting",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1258",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, instruction tuning, and cross-functional data analytics.",
+    "skills": [
+      "prompt_engineering",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1259",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in agent orchestration, telemetry logging, and red teaming for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "workflow_automation",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1260",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in data visualization with hands-on project experience in ai safety and synthetic data.",
+    "skills": [
+      "data_visualization",
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1261",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in information retrieval, telemetry logging, and red teaming for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "rag_knowledge_systems",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1262",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing privacy alongside production science communication.",
+    "skills": [
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1263",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing data analytics alongside production competency.",
+    "skills": [
+      "sql_data_analysis",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1264",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in llm with hands-on project experience in task decomposition and sustainability.",
+    "skills": [
+      "ai_literacy",
+      "process_mapping",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1265",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, llm evaluation, API gateways, and robust ai literacy.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1266",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1267",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical privacy and vocational sdg.",
+    "skills": [
+      "data_privacy_pdpa",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1268",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with education and delivering stakeholder dashboards via chain-of-thought.",
+    "skills": [
+      "instructional_design",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1269",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production chain-of-thought pipelines, automated model evaluation, and implementing visualization best practices.",
+    "skills": [
+      "prompt_engineering",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1270",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in scripting, telemetry logging, and red-teaming for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "python_scripting",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1271",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in stakeholders with focus on prompt optimization, validation benchmarking, and privacy.",
+    "skills": [
+      "stakeholder_communication",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1272",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, pdpa, API gateways, and robust vocational.",
+    "skills": [
+      "data_privacy_pdpa",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1273",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production lifelong learning pipelines, automated model evaluation, and implementing synthetic data best practices.",
+    "skills": [
+      "instructional_design",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1274",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using upskilling and drafting data analysis for Bursa disclosure.",
+    "skills": [
+      "instructional_design",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1275",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in explainability with focus on prompt optimization, validation benchmarking, and personal data.",
+    "skills": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1276",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with workflow and delivering stakeholder dashboards via vector database.",
+    "skills": [
+      "process_mapping",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1277",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using rag and drafting lifelong learning for Bursa disclosure.",
+    "skills": [
+      "rag_knowledge_systems",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1278",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in sustainability and synthetic data across enterprise operations. Currently upskilling in process mining.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "data_privacy_pdpa",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1279",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, ethics, and cross-functional data protection.",
+    "skills": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1280",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, tool use, API gateways, and robust knowledge graph.",
+    "skills": [
+      "workflow_automation",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1281",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical endpoint and vocational charts.",
+    "skills": [
+      "api_integration",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1282",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in data analytics with hands-on project experience in prompt and retrieval-augmented.",
+    "skills": [
+      "sql_data_analysis",
+      "prompt_engineering",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1283",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical data visualization and vocational carbon footprint.",
+    "skills": [
+      "data_visualization",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1284",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in reskilling, telemetry logging, and sql for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "instructional_design",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1285",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, vocational, API gateways, and robust retrieval-augmented.",
+    "skills": [
+      "instructional_design",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1286",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in model evaluation with focus on prompt optimization, validation benchmarking, and api.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1287",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing reskilling alongside production human-centred.",
+    "skills": [
+      "instructional_design",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1288",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production data protection pipelines, automated model evaluation, and implementing vector database best practices.",
+    "skills": [
+      "data_privacy_pdpa",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1289",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in few-shot with focus on prompt optimization, validation benchmarking, and energy consumption.",
+    "skills": [
+      "prompt_engineering",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1290",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1291",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production process mining pipelines, automated model evaluation, and implementing carbon best practices.",
+    "skills": [
+      "process_mapping",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1292",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing data analytics alongside production in-context learning.",
+    "skills": [
+      "sql_data_analysis",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1293",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, workflow automation, API gateways, and robust data analytics.",
+    "skills": [
+      "workflow_automation",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1294",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, charts, and cross-functional knowledge graph.",
+    "skills": [
+      "data_visualization",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1295",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, data analytics, and compliance auditing for esg.",
+    "skills": [
+      "sql_data_analysis",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1296",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in science communication with focus on prompt optimization, validation benchmarking, and anonymization.",
+    "skills": [
+      "stakeholder_communication",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1297",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in visualization, telemetry logging, and esg for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "data_visualization",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1298",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, fairness, API gateways, and robust lifelong learning.",
+    "skills": [
+      "ai_ethics_governance",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1299",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in governance with focus on prompt optimization, validation benchmarking, and rag.",
+    "skills": [
+      "ai_ethics_governance",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1300",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, green computing, and compliance auditing for education.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1301",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, workflow automation, and cross-functional vocational.",
+    "skills": [
+      "workflow_automation",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1302",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in human-centred with focus on prompt optimization, validation benchmarking, and llm evaluation.",
+    "skills": [
+      "stakeholder_communication",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1303",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production api pipelines, automated model evaluation, and implementing upskilling best practices.",
+    "skills": [
+      "api_integration",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1304",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using large language model and drafting scripting for Bursa disclosure.",
+    "skills": [
+      "ai_literacy",
+      "python_scripting"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1305",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in foundation model with hands-on project experience in emissions and energy consumption.",
+    "skills": [
+      "ai_literacy",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1306",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1307",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical text-to-sql and vocational llm.",
+    "skills": [
+      "sql_data_analysis",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1308",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical code generation and vocational workforce training.",
+    "skills": [
+      "python_scripting",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1309",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, rag, and cross-functional sustainability.",
+    "skills": [
+      "rag_knowledge_systems",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1310",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, ai agent, API gateways, and robust data protection.",
+    "skills": [
+      "workflow_automation",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1311",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in reskilling with hands-on project experience in task decomposition and red teaming.",
+    "skills": [
+      "instructional_design",
+      "process_mapping",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1312",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production emissions pipelines, automated model evaluation, and implementing prompt best practices.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1313",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in anonymization with hands-on project experience in human-centred and carbon.",
+    "skills": [
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1314",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, foundation model, and cross-functional accountability.",
+    "skills": [
+      "ai_literacy",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1315",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production api pipelines, automated model evaluation, and implementing rag best practices.",
+    "skills": [
+      "api_integration",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1316",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical algorithmic bias and vocational retrieval augmented.",
+    "skills": [
+      "ai_ethics_governance",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1317",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production emissions pipelines, automated model evaluation, and implementing model evaluation best practices.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1318",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, energy efficiency, and cross-functional scripting.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1319",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical explainability and vocational few-shot.",
+    "skills": [
+      "ai_ethics_governance",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1320",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production sustainability pipelines, automated model evaluation, and implementing software engineering best practices.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1321",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1322",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, scripting, and compliance auditing for climate.",
+    "skills": [
+      "python_scripting",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1323",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing workforce training alongside production workflow automation.",
+    "skills": [
+      "instructional_design",
+      "workflow_automation"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1324",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1325",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, red teaming, and cross-functional instruction tuning.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1326",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in sop with hands-on project experience in instruction tuning and governance.",
+    "skills": [
+      "process_mapping",
+      "prompt_engineering",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1327",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in multi-agent with focus on prompt optimization, validation benchmarking, and chart.",
+    "skills": [
+      "workflow_automation",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1328",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in microservice and sop across enterprise operations. Currently upskilling in chart.",
+    "skills": [
+      "api_integration",
+      "process_mapping",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1329",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical stakeholders and vocational large language model.",
+    "skills": [
+      "stakeholder_communication",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1330",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in python with focus on prompt optimization, validation benchmarking, and sustainability.",
+    "skills": [
+      "python_scripting",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1331",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production hallucination pipelines, automated model evaluation, and implementing rest api best practices.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1332",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in ethics and personal data across enterprise operations. Currently upskilling in climate.",
+    "skills": [
+      "ai_ethics_governance",
+      "data_privacy_pdpa",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1333",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1334",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in ai safety and database across enterprise operations. Currently upskilling in pdpa.",
+    "skills": [
+      "ai_ethics_governance",
+      "sql_data_analysis",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1335",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1336",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, upskilling, and microservices regression suites.",
+    "skills": [
+      "instructional_design",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1337",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in esg and api across enterprise operations. Currently upskilling in ai governance.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "api_integration",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1338",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with in-context learning and delivering stakeholder dashboards via code generation.",
+    "skills": [
+      "prompt_engineering",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1339",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production stakeholder pipelines, automated model evaluation, and implementing ethics best practices.",
+    "skills": [
+      "stakeholder_communication",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1340",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, information retrieval, API gateways, and robust governance.",
+    "skills": [
+      "rag_knowledge_systems",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1341",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in foundation model, telemetry logging, and software engineering for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "ai_literacy",
+      "python_scripting"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1342",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, renewable, and cross-functional retrieval-augmented.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1343",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in reskilling with hands-on project experience in carbon footprint and apis.",
+    "skills": [
+      "instructional_design",
+      "carbon_footprint_analytics",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1344",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1345",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1346",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in context engineering and tabular data across enterprise operations. Currently upskilling in vector database.",
+    "skills": [
+      "prompt_engineering",
+      "sql_data_analysis",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1347",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, dashboard, API gateways, and robust foundation model.",
+    "skills": [
+      "data_visualization",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1348",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in personal data with focus on prompt optimization, validation benchmarking, and algorithmic bias.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1349",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1350",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, context engineering, and accountability regression suites.",
+    "skills": [
+      "prompt_engineering",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1351",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in rag and text-to-sql across enterprise operations. Currently upskilling in enterprise operations.",
+    "skills": [
+      "rag_knowledge_systems",
+      "sql_data_analysis",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1352",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical sop and vocational synthetic data.",
+    "skills": [
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1353",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, green ai, and cross-functional database.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1354",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, microservice, and compliance auditing for human-centered.",
+    "skills": [
+      "api_integration",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1355",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1356",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical ai agents and vocational ai safety.",
+    "skills": [
+      "workflow_automation",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1357",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing scripting alongside production competency.",
+    "skills": [
+      "python_scripting",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1358",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical data visualization and vocational reskilling.",
+    "skills": [
+      "data_visualization",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1359",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with fairness and delivering stakeholder dashboards via green computing.",
+    "skills": [
+      "ai_ethics_governance",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1360",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in accountability and human-centered across enterprise operations. Currently upskilling in tool use.",
+    "skills": [
+      "ai_ethics_governance",
+      "stakeholder_communication",
+      "workflow_automation"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1361",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, scripting, and sustainability regression suites.",
+    "skills": [
+      "python_scripting",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1362",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical chart and vocational ai literacy.",
+    "skills": [
+      "data_visualization",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1363",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, hallucinations, and apis regression suites.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1364",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in anonymization and in-context learning across enterprise operations. Currently upskilling in lifelong learning.",
+    "skills": [
+      "data_privacy_pdpa",
+      "prompt_engineering",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1365",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in dashboards with focus on prompt optimization, validation benchmarking, and energy efficiency.",
+    "skills": [
+      "data_visualization",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1366",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1367",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical visualization and vocational sql.",
+    "skills": [
+      "data_visualization",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1368",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, llm, and compliance auditing for human-centred.",
+    "skills": [
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1369",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, llm agent, and cross-functional sustainability.",
+    "skills": [
+      "workflow_automation",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1370",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with decision support and delivering stakeholder dashboards via energy efficiency.",
+    "skills": [
+      "stakeholder_communication",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1371",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in human-centred with hands-on project experience in competency and sql.",
+    "skills": [
+      "stakeholder_communication",
+      "instructional_design",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1372",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, ai safety, API gateways, and robust workflow automation.",
+    "skills": [
+      "ai_ethics_governance",
+      "workflow_automation"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1373",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production text-to-sql pipelines, automated model evaluation, and implementing llm evaluation best practices.",
+    "skills": [
+      "sql_data_analysis",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1374",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, sustainability, and cross-functional synthetic data.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1375",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, context engineering, API gateways, and robust text-to-sql.",
+    "skills": [
+      "prompt_engineering",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1376",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, rest api, API gateways, and robust climate.",
+    "skills": [
+      "api_integration",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1377",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with green ai and delivering stakeholder dashboards via python.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1378",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1379",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical science communication and vocational energy efficiency.",
+    "skills": [
+      "stakeholder_communication",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1380",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on data analysis and ensuring full regulatory compliance with enterprise operations.",
+    "skills": [
+      "sql_data_analysis",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1381",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical sdgs and vocational tool use.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "workflow_automation"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1382",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in charts and hallucinations across enterprise operations. Currently upskilling in endpoint.",
+    "skills": [
+      "data_visualization",
+      "human_in_the_loop_qa",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1383",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on information retrieval and ensuring full regulatory compliance with charts.",
+    "skills": [
+      "rag_knowledge_systems",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1384",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with sql and delivering stakeholder dashboards via chain-of-thought.",
+    "skills": [
+      "sql_data_analysis",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1385",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1386",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in enterprise operations with focus on prompt optimization, validation benchmarking, and vector database.",
+    "skills": [
+      "process_mapping",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1387",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1388",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with climate and delivering stakeholder dashboards via retrieval-augmented.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1389",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with fairness and delivering stakeholder dashboards via apis.",
+    "skills": [
+      "ai_ethics_governance",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1390",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical charts and vocational sustainability.",
+    "skills": [
+      "data_visualization",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1391",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, microservices, and compliance auditing for software engineering.",
+    "skills": [
+      "api_integration",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1392",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using visualization and drafting in-context learning for Bursa disclosure.",
+    "skills": [
+      "data_visualization",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1393",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in vector database and generative ai across enterprise operations. Currently upskilling in llm evaluation.",
+    "skills": [
+      "rag_knowledge_systems",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1394",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1395",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, tool use, and cross-functional endpoint.",
+    "skills": [
+      "workflow_automation",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1396",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, decision support, and compliance auditing for few-shot.",
+    "skills": [
+      "stakeholder_communication",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1397",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in red teaming and decision support across enterprise operations. Currently upskilling in information retrieval.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "stakeholder_communication",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1398",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing in-context learning alongside production business process.",
+    "skills": [
+      "prompt_engineering",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1399",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in prompt with focus on prompt optimization, validation benchmarking, and enterprise operations.",
+    "skills": [
+      "prompt_engineering",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1400",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using ethics and drafting stakeholder for Bursa disclosure.",
+    "skills": [
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1401",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in carbon footprint, telemetry logging, and enterprise operations for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1402",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using charts and drafting red-teaming for Bursa disclosure.",
+    "skills": [
+      "data_visualization",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1403",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production process mining pipelines, automated model evaluation, and implementing sdgs best practices.",
+    "skills": [
+      "process_mapping",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1404",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in sustainability with focus on prompt optimization, validation benchmarking, and energy efficiency.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1405",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on apis and ensuring full regulatory compliance with model evaluation.",
+    "skills": [
+      "api_integration",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1406",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, accountability, and knowledge graph regression suites.",
+    "skills": [
+      "ai_ethics_governance",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1407",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing agentic alongside production api.",
+    "skills": [
+      "workflow_automation",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1408",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1409",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on vocational and ensuring full regulatory compliance with anonymization.",
+    "skills": [
+      "instructional_design",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1410",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in knowledge graph with hands-on project experience in education and apis.",
+    "skills": [
+      "rag_knowledge_systems",
+      "instructional_design",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1411",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1412",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1413",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1414",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1415",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with red teaming and delivering stakeholder dashboards via pdpa.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1416",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in data analytics and artificial intelligence across enterprise operations. Currently upskilling in hallucinations.",
+    "skills": [
+      "sql_data_analysis",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1417",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, energy consumption, and compliance auditing for llm.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1418",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing large language model alongside production ai governance.",
+    "skills": [
+      "ai_literacy",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1419",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, process mining, and code generation regression suites.",
+    "skills": [
+      "process_mapping",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1420",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in tabular data and accountability across enterprise operations. Currently upskilling in charts.",
+    "skills": [
+      "sql_data_analysis",
+      "ai_ethics_governance",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1421",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in dashboard and data analytics across enterprise operations. Currently upskilling in lifelong learning.",
+    "skills": [
+      "data_visualization",
+      "sql_data_analysis",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1422",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1423",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production scripting pipelines, automated model evaluation, and implementing human oversight best practices.",
+    "skills": [
+      "python_scripting",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1424",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in human-centred with hands-on project experience in renewable and carbon.",
+    "skills": [
+      "stakeholder_communication",
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1425",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1426",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using ai safety and drafting retrieval-augmented for Bursa disclosure.",
+    "skills": [
+      "ai_ethics_governance",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1427",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing governance alongside production sustainability.",
+    "skills": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1428",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical retrieval-augmented and vocational energy consumption.",
+    "skills": [
+      "rag_knowledge_systems",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1429",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, chart, API gateways, and robust endpoint.",
+    "skills": [
+      "data_visualization",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1430",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with tabular data and delivering stakeholder dashboards via green computing.",
+    "skills": [
+      "sql_data_analysis",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1431",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in prompt with hands-on project experience in software engineering and llm agent.",
+    "skills": [
+      "prompt_engineering",
+      "python_scripting",
+      "workflow_automation"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1432",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in human-centered with focus on prompt optimization, validation benchmarking, and carbon footprint.",
+    "skills": [
+      "stakeholder_communication",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1433",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1434",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using dashboard and drafting prompt for Bursa disclosure.",
+    "skills": [
+      "data_visualization",
+      "prompt_engineering"
+    ],
+    "labels": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1435",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing task decomposition alongside production llm evaluation.",
+    "skills": [
+      "process_mapping",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1436",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1437",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1438",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical tool use and vocational charts.",
+    "skills": [
+      "workflow_automation",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1439",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1440",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using ethics and drafting task decomposition for Bursa disclosure.",
+    "skills": [
+      "ai_ethics_governance",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1441",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical agentic and vocational anonymization.",
+    "skills": [
+      "workflow_automation",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1442",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, tabular data, API gateways, and robust artificial intelligence.",
+    "skills": [
+      "sql_data_analysis",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1443",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on ai ethics and ensuring full regulatory compliance with model evaluation.",
+    "skills": [
+      "ai_ethics_governance",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1444",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Basic mechanical document scanning and physical archive organization without software integrations.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1445",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using llm and drafting microservices for Bursa disclosure.",
+    "skills": [
+      "ai_literacy",
+      "api_integration"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1446",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing algorithmic bias alongside production tabular data.",
+    "skills": [
+      "ai_ethics_governance",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1447",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, explainability, and renewable regression suites.",
+    "skills": [
+      "ai_ethics_governance",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1448",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in retrieval augmented, telemetry logging, and process mining for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "rag_knowledge_systems",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1449",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in ai literacy, telemetry logging, and microservice for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "ai_literacy",
+      "api_integration"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1450",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in multi-agent, telemetry logging, and knowledge graph for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "workflow_automation",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1451",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in rag with hands-on project experience in task decomposition and pdpa.",
+    "skills": [
+      "rag_knowledge_systems",
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1452",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with task decomposition and delivering stakeholder dashboards via code generation.",
+    "skills": [
+      "process_mapping",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1453",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1454",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production software engineering pipelines, automated model evaluation, and implementing foundation model best practices.",
+    "skills": [
+      "python_scripting",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1455",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Responsible for production sql pipelines, automated model evaluation, and implementing ai agent best practices.",
+    "skills": [
+      "sql_data_analysis",
+      "workflow_automation"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1456",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting training on ethical AI, renewable, and compliance auditing for task decomposition.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1457",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1458",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in apis with focus on prompt optimization, validation benchmarking, and charts.",
+    "skills": [
+      "api_integration",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1459",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on stakeholders and ensuring full regulatory compliance with api.",
+    "skills": [
+      "stakeholder_communication",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1460",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1461",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in science communication, telemetry logging, and software engineering for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "stakeholder_communication",
+      "python_scripting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1462",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Repetitive manual data entry into spreadsheets, paper invoice filing, and physical mail handling.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1463",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, red teaming, and cross-functional process mining.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1464",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, charts, API gateways, and robust personal data.",
+    "skills": [
+      "data_visualization",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1465",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in stakeholder with hands-on project experience in human oversight and artificial intelligence.",
+    "skills": [
+      "stakeholder_communication",
+      "human_in_the_loop_qa",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1466",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in upskilling with focus on prompt optimization, validation benchmarking, and red teaming.",
+    "skills": [
+      "instructional_design",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1467",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in python with focus on prompt optimization, validation benchmarking, and vector database.",
+    "skills": [
+      "python_scripting",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1468",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in ethics, telemetry logging, and rag for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "ai_ethics_governance",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1469",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1470",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, green ai, API gateways, and robust database.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1471",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with reskilling and delivering stakeholder dashboards via multi-agent.",
+    "skills": [
+      "instructional_design",
+      "workflow_automation"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1472",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing energy efficiency alongside production esg.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1473",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in model evaluation with hands-on project experience in enterprise operations and explainability.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1474",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Specializing in decision support, telemetry logging, and data visualization for sustainable cloud and enterprise architectures.",
+    "skills": [
+      "stakeholder_communication",
+      "data_visualization"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1475",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1476",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with api and delivering stakeholder dashboards via ai agent.",
+    "skills": [
+      "api_integration",
+      "workflow_automation"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1477",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, ai ethics, API gateways, and robust model evaluation.",
+    "skills": [
+      "ai_ethics_governance",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1478",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing python alongside production stakeholders.",
+    "skills": [
+      "python_scripting",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1479",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical human-centered and vocational vector database.",
+    "skills": [
+      "stakeholder_communication",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1480",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1481",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Architecting autonomous agentic workflows utilizing multi-agent alongside production ai governance.",
+    "skills": [
+      "workflow_automation",
+      "ai_ethics_governance"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1482",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using energy consumption and drafting privacy for Bursa disclosure.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1483",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in emissions and energy consumption across enterprise operations. Currently upskilling in business process.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1484",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in chain-of-thought with focus on prompt optimization, validation benchmarking, and ai literacy.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1485",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in tabular data with focus on prompt optimization, validation benchmarking, and carbon.",
+    "skills": [
+      "sql_data_analysis",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1486",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Operations lead responsible for standard operating procedures, green ai, and cross-functional anonymization.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1487",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Deeply skilled in climate with hands-on project experience in workflow automation and stakeholders.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1488",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with workforce training and delivering stakeholder dashboards via task decomposition.",
+    "skills": [
+      "instructional_design",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1489",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, anonymization, API gateways, and robust carbon footprint.",
+    "skills": [
+      "data_privacy_pdpa",
+      "carbon_footprint_analytics"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1490",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Sustainability analyst driving carbon telemetry using python and drafting business process for Bursa disclosure.",
+    "skills": [
+      "python_scripting",
+      "process_mapping"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1491",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in software engineering and pdpa across enterprise operations. Currently upskilling in model evaluation.",
+    "skills": [
+      "python_scripting",
+      "data_privacy_pdpa",
+      "human_in_the_loop_qa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1492",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Designed competency frameworks and training curricula covering practical energy efficiency and vocational competency.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "instructional_design"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1493",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Analyzing relational databases and data marts with human-centred and delivering stakeholder dashboards via knowledge graph.",
+    "skills": [
+      "stakeholder_communication",
+      "rag_knowledge_systems"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1494",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Routine manual filing, paper receipt sorting, and clerical copying without automated software tools.",
+    "skills": [],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1495",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Data engineer handling vector stores, pdpa, API gateways, and robust text-to-sql.",
+    "skills": [
+      "data_privacy_pdpa",
+      "sql_data_analysis"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1496",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Experienced practitioner specializing in workforce training and green computing across enterprise operations. Currently upskilling in synthetic data.",
+    "skills": [
+      "instructional_design",
+      "carbon_footprint_analytics",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1497",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Software quality engineer focusing on automated testing, green ai, and decision support regression suites.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1498",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in few-shot with focus on prompt optimization, validation benchmarking, and generative ai.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy"
+    ],
+    "labels": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  },
+  {
+    "id": "synth-worker-1499",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Proficient in text-to-sql with focus on prompt optimization, validation benchmarking, and microservices.",
+    "skills": [
+      "sql_data_analysis",
+      "api_integration"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 0.0
+  },
+  {
+    "id": "synth-worker-1500",
+    "source": "Synthetic Malaysian Worker Task Profile",
+    "text": "Conducting comprehensive audits on code generation and ensuring full regulatory compliance with anonymization.",
+    "skills": [
+      "python_scripting",
+      "data_privacy_pdpa"
+    ],
+    "labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_emerging_demand": 1.0
+  }
+]

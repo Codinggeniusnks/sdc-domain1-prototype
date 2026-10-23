@@ -1,0 +1,184 @@
+{
+  "locale": "en",
+  "name": "English",
+  "app": {
+    "title": "National AI Workforce Reskilling & Foresight Engine",
+    "subtitle": "Malaysia 2026–2030 Smart Workforce Strategy & SDG Alignment",
+    "version": "v1.0.0",
+    "badge_competition": "Smart Nation AI Challenge 2026",
+    "disclaimer_legal": "Official Decision Support Engine. In compliance with Malaysia Personal Data Protection Act (PDPA) 2010. Purely advisory — does not perform autonomous employment decisions.",
+    "footer": "© 2026 National Workforce Foresight Initiative. Grounded on MASCO 2020, ILO 2025, and UN SDG Framework."
+  },
+  "nav": {
+    "overview": "System Overview",
+    "radar": "Trend Radar",
+    "matching": "Career Matching",
+    "gaps": "Skill Gap Diagnostic",
+    "pathway": "Reskilling Pathway",
+    "scenarios": "Scenario Simulation",
+    "sdg": "SDG Impact",
+    "replanning": "Adaptive Replanning",
+    "employer": "Employer & HR Intelligence",
+    "progress": "Learning Milestones",
+    "governance": "Responsible AI & Ethics",
+    "methodology": "Audit & Methodology",
+    "low_bandwidth_toggle": "Low-Bandwidth Mode",
+    "language": "Language"
+  },
+  "common": {
+    "actions": {
+      "save": "Save Plan",
+      "export_pdf": "Export Summary",
+      "export_json": "Export Audit Ledger",
+      "acknowledge": "Acknowledge Changes",
+      "dismiss": "Dismiss Alert",
+      "refresh": "Refresh Analysis",
+      "view_details": "View Detailed Rationale",
+      "filter": "Filter",
+      "reset": "Reset Filters"
+    },
+    "labels": {
+      "role": "Role",
+      "current_role": "Current Occupation",
+      "target_role": "Target Occupation",
+      "masco_code": "MASCO Code",
+      "skills": "Skills",
+      "match_score": "Match Score",
+      "gap_severity": "Gap Severity",
+      "duration": "Estimated Duration",
+      "hours": "Hours",
+      "weeks": "Weeks",
+      "points": "pts",
+      "status": "Status",
+      "priority": "Priority",
+      "evidence": "Verification Evidence",
+      "timestamp": "Timestamp",
+      "hash": "Fingerprint",
+      "scenario": "Macro Scenario",
+      "privacy_status": "Privacy Protection"
+    },
+    "tiers": {
+      "core": "Core Requirement",
+      "important": "Important Competency",
+      "supporting": "Supporting Capability"
+    },
+    "materiality": {
+      "high": "High Materiality (Action Required)",
+      "material": "Material Change (Recommended Review)",
+      "minor": "Minor Refinement (Auto-applied)",
+      "none": "No Material Change"
+    },
+    "progress_states": {
+      "not_started": "Not Started",
+      "in_progress": "In Progress",
+      "completed_self_reported": "Completed (Self-Reported)",
+      "completed_verified": "Completed (Verified Credential)",
+      "skill_evidence_updated": "Evidence Updated"
+    }
+  },
+  "overview": {
+    "heading": "Strategic Workforce Foresight Architecture",
+    "intro": "The Malaysian National Workforce Foresight Engine synchronizes occupational taxonomy (MASCO 2020), longitudinal labour market signals, and macroeconomic stress-testing into individualized learner roadmaps and privacy-preserving enterprise aggregation.",
+    "kpi_roles": "Target Occupations",
+    "kpi_skills": "Verified Skills",
+    "kpi_scenarios": "Simulated Macro Scenarios",
+    "kpi_sdg": "Aligned SDG Targets",
+    "architecture_title": "End-to-End Modular Pipeline",
+    "architecture_desc": "Built on 6 Core Engines (M1–M6) and 6 Operational Services (O1–O6), maintaining strict cryptographic freezing, zero demographic leakage, and human-in-the-loop sovereignty."
+  },
+  "radar": {
+    "heading": "Longitudinal Skills Demand & Velocity Radar",
+    "description": "Signals synthesized from job vacancy postings, wage premiums, research emergence, and international labour classifications (ILO 2025).",
+    "velocity_label": "Annualized Demand Velocity",
+    "urgency_label": "Strategic Scarcity Index",
+    "quadrant_emerging": "High Growth & Strategic Frontier",
+    "quadrant_established": "High Demand & Core Foundational",
+    "quadrant_specialized": "Niche Domain Expertise",
+    "quadrant_declining": "Transitioning & Automatable"
+  },
+  "matching": {
+    "heading": "Multi-Criteria Career Matching",
+    "description": "Evaluates candidate occupational pathways combining skill overlap, trajectory viability, macro resilience, and transition feasibility.",
+    "select_persona": "Select Synthetic Benchmark Persona",
+    "top_recommendations": "Top Recommended Career Pathways",
+    "fit_score": "Career Compatibility Index",
+    "viability": "Transition Viability",
+    "growth_outlook": "5-Year Demand Outlook",
+    "rationale": "Matching Rationale & Decomposition"
+  },
+  "gaps": {
+    "heading": "Diagnostic Skill Gap Breakdown",
+    "description": "Decomposes role requirements into discrete competencies, categorizing deficits into Core, Important, and Supporting tiers.",
+    "core_gaps": "Core Gaps (Mandatory for Role Certification)",
+    "important_gaps": "Important Gaps (High Productivity Impact)",
+    "supporting_gaps": "Supporting Gaps (Broad Complementary Skills)",
+    "deficit_level": "Proficiency Deficit Level"
+  },
+  "pathway": {
+    "heading": "Personalised Sovereign Reskilling Pathway",
+    "description": "Dependency-aware curriculum sequenced for working adults, calibrated at sustainable pacing of 5–8 hours per calendar week.",
+    "total_hours": "Total Instructional Hours",
+    "calendar_weeks": "Estimated Calendar Weeks",
+    "milestones": "Curriculum Milestones & Modules",
+    "weekly_pacing": "Sustainable Pacing (Hours/Week)",
+    "sovereignty_notice": "Learner Sovereignty: You maintain full agency over learning order and pace. Automated recommendations serve as advisory guidelines."
+  },
+  "scenarios": {
+    "heading": "Macroeconomic Scenario Stress-Testing",
+    "description": "Simulates structural labor shifts under national policy directions and external global shocks.",
+    "baseline": "Baseline Policy Projections (12th Malaysia Plan)",
+    "green_economy": "Green Transition & Net-Zero Acceleration (NETR 2030)",
+    "ai_automation": "AI Boom & Digital Frontier Adoption (NIMP 2030)",
+    "supply_disruption": "Regional Supply Chain Realignment",
+    "impact_factor": "Scenario Multiplier Delta"
+  },
+  "sdg": {
+    "heading": "United Nations Sustainable Development Goals Contribution",
+    "description": "Maps workforce competencies and transition roadmaps to SDG Targets with explicit causal relationship types.",
+    "direct_contribution": "Direct Capability Building",
+    "enabling_contribution": "Enabling Infrastructure & Governance",
+    "contextual_contribution": "Contextual Alignment",
+    "primary_goals": "Targeted SDGs: Decent Work (SDG 8), Industry & Innovation (SDG 9), Quality Education (SDG 4), Climate Action (SDG 13)"
+  },
+  "replanning": {
+    "heading": "Adaptive Replanning & Change Governance",
+    "banner_title": "Labor Market Signal Update Detected",
+    "banner_desc": "Upstream market signals have shifted since your last plan confirmation.",
+    "candidate_plan": "Proposed Candidate Pathway",
+    "active_plan": "Current Active Pathway",
+    "change_summary": "Change Explanation & Attribution",
+    "root_cause": "Identified Trigger Source",
+    "acknowledge_prompt": "Review proposed adjustments before promoting candidate roadmap to active state.",
+    "audit_ledger": "Replanning Event Audit Ledger"
+  },
+  "employer": {
+    "heading": "Employer Workforce Diagnostics & Cohort Reskilling",
+    "description": "Enterprise-level gap intelligence with strict k-anonymity (k=5) small-cell masking and zero individual surveillance.",
+    "privacy_banner": "Small-Cell Privacy Active: All cohort cells under 5 profiles are strictly suppressed (<5) to defeat deduction attacks.",
+    "heatmap_title": "Enterprise Competency Gap Heatmap",
+    "priority_index_title": "Priority Reskilling Index (PRI)",
+    "shared_learning_title": "Optimal Cross-Team Cohort Learning Groups",
+    "disclaimer_hr": "Strict HR Guardrail: Aggregate planning metrics must never be utilized for hiring, termination, performance evaluation, or individual salary determination."
+  },
+  "progress": {
+    "heading": "Milestone & Skill Evidence Tracker",
+    "description": "Track modular progression, upload credential verification references, and update verified capability portfolios.",
+    "overall_completion": "Pathway Completion",
+    "verified_credentials": "Verified Micro-Credentials",
+    "evidence_badge": "Credential Authenticity",
+    "disclaimer_employment": "Official Notice: Completion of learning modules demonstrates training engagement and capability acquisition. It does not constitute an automated guarantee of employment or wage elevation."
+  },
+  "governance": {
+    "heading": "Responsible AI Architecture & Invariance Auditing",
+    "principles_title": "Core Trust & Safety Principles",
+    "demographic_neutrality": "Demographic Invariance: System architecture completely excludes gender, race, religion, age, and disability. Validated via counterfactual invariance testing.",
+    "privacy_compliance": "Privacy Assurance: Compliant with Malaysia Personal Data Protection Act (PDPA) 2010. Synthetic persona testbeds ensure zero personal record exposure.",
+    "auditability": "Cryptographic Auditability: Every engine release is bound by SHA-256 frozen manifests with immutable provenance records."
+  },
+  "low_bandwidth": {
+    "active_badge": "Low-Bandwidth Mode Active",
+    "savings_summary": "Data transfer optimized: ~75% reduction via stripped vectors, compressed tables, and lightweight typography.",
+    "standard_mode": "Switch to Rich Media",
+    "offline_ready": "Lightweight representation ready for constrained edge networks."
+  }
+}

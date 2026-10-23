@@ -1,0 +1,409 @@
+{
+  "manifest_version": "1.0.0",
+  "created_at": "2026-10-22T14:00:00Z",
+  "description": "Protected 100% Real-World Authoritative Generalisation Evaluation Set (Grouped by Occupation Family)",
+  "total_records": 63,
+  "unseen_occupation_subset_count": 25,
+  "real_percentage": 100.0,
+  "synthetic_percentage": 0.0,
+  "sources": {
+    "Domain 1 Malaysian Benchmark Persona": 4,
+    "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)": 34,
+    "MASCO 2020 & TalentCorp MyCOL 2024/2025": 9,
+    "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)": 16
+  },
+  "held_out_occupation_groups": [
+    "2133",
+    "2141",
+    "2412",
+    "2422",
+    "2422/2519",
+    "2424",
+    "2519",
+    "41/42",
+    "4110",
+    "4120",
+    "4222",
+    "4311"
+  ],
+  "records": [
+    {
+      "id": "masco-2519-01",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "2519",
+      "sha256": "6b3e46c74329204b35fdb8a785e73ed9ff2252890ce07be80979225d1cea7e7e"
+    },
+    {
+      "id": "masco-2519-02",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "2519",
+      "sha256": "b7be1a87a1937ae994990ac56bdad35a53ea0c865de8039a4c190b2c36127fe7"
+    },
+    {
+      "id": "masco-2133-02",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "2133",
+      "sha256": "eb5552d4629a74c3ee708c4fa08a592b0441eb414fa65533fd2a9cccf202e9b3"
+    },
+    {
+      "id": "masco-2141-01",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "2141",
+      "sha256": "d349e59cd6b0ae7ec106a137eb8acca1d0c7a4d943a39f67b77f9ea2d093d586"
+    },
+    {
+      "id": "masco-2422-02",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "2422",
+      "sha256": "41457116bf5206052ae114738364ba45b797ad37c4ca81f91b455adbb3e23972"
+    },
+    {
+      "id": "masco-2424-02",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "2424",
+      "sha256": "e828a302109bc80e1280bfe6498a7631b0e92e2f7803fab5a0bd2fac7986a6b3"
+    },
+    {
+      "id": "masco-2412-01",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "2412",
+      "sha256": "2e25a91dfc3c958fb7811e5aafae5df93f6a3942b707aa24233c86dbf0350fe9"
+    },
+    {
+      "id": "masco-4222-01",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "4222",
+      "sha256": "b8d9de2c1dce25feb915bd14fc598513bd2a582ab3328b349aee9dc8c741685c"
+    },
+    {
+      "id": "masco-4311-01",
+      "source": "MASCO 2020 & TalentCorp MyCOL 2024/2025",
+      "occupation_group": "4311",
+      "sha256": "0079c7455b76cdd189476ae47d82746ffef876535accae3f771e879e040e0b37"
+    },
+    {
+      "id": "fw-applied-ai_literacy",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-ai_literacy",
+      "sha256": "5b1ffc923c3b9ef95184b18fc158625e91cdfc475a1ea3574a1efef36715dc98"
+    },
+    {
+      "id": "fw-applied-prompt_engineering",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-prompt_engineering",
+      "sha256": "091d5565ea780ce7013bf723ee520e7e08304d79e420a9ed14a49f9f10939461"
+    },
+    {
+      "id": "fw-applied-process_mapping",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-process_mapping",
+      "sha256": "5d7ea02b56102aa1ed857096158e731ce4c9cf4beabf3cc442b919011c7191bd"
+    },
+    {
+      "id": "fw-applied-sql_data_analysis",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-sql_data_analysis",
+      "sha256": "c0850ab9ddc10ba6f85db803470268c696a0965fc6eb439ceed0f01bb60da163"
+    },
+    {
+      "id": "fw-applied-python_scripting",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-python_scripting",
+      "sha256": "7d7ae5078926dfdaa9df83dcbcdc5d9bdc9e62137ad21723cbec04cec0c85bd0"
+    },
+    {
+      "id": "fw-applied-data_visualization",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-data_visualization",
+      "sha256": "e7ffcc7de71c09df5330d6affc95c691d136e6e37247120bf2676510bed9cf30"
+    },
+    {
+      "id": "fw-applied-workflow_automation",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-workflow_automation",
+      "sha256": "152645e1d77f8568e7f9cef60b34470f437dc418f986d4b3b8449f096ecab85b"
+    },
+    {
+      "id": "fw-applied-human_in_the_loop_qa",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-human_in_the_loop_qa",
+      "sha256": "639c67a675e5dca4b60f435f7bb1acca28a33438ebad3c3d28b9791c8bd911d9"
+    },
+    {
+      "id": "fw-applied-rag_knowledge_systems",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-rag_knowledge_systems",
+      "sha256": "cde822deccc1c962eb6a22e9b717d7ed254e1c94d1b5ae374d33a8e61a902f2f"
+    },
+    {
+      "id": "fw-applied-api_integration",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-api_integration",
+      "sha256": "0bb3bd9822b657ae45bd9a2f0b32af0aa63551f51659840c2293ced5dcc8edc6"
+    },
+    {
+      "id": "fw-applied-ai_ethics_governance",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-ai_ethics_governance",
+      "sha256": "553f1f3cad473950869a98457572a0d46ed17ed3249b989c8f6603850e568e8b"
+    },
+    {
+      "id": "fw-applied-data_privacy_pdpa",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-data_privacy_pdpa",
+      "sha256": "3d2965ba06415aec8fabca6ebd4f335cbc3c21727282159fa19cc11c0195b96c"
+    },
+    {
+      "id": "fw-applied-esg_sustainability_reporting",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-esg_sustainability_reporting",
+      "sha256": "5a11e2dd12ffa7bb5fa447446046c83d89d4c394d33fa053baf7a2072a7050b4"
+    },
+    {
+      "id": "fw-applied-carbon_footprint_analytics",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-carbon_footprint_analytics",
+      "sha256": "a68f8ff3657b7b85af1e37d7a0cbf4a6f3cafececb3d4493e7cd91eed9d50dc7"
+    },
+    {
+      "id": "fw-applied-stakeholder_communication",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-stakeholder_communication",
+      "sha256": "538fb80b9dcb37946fa0f56faa95771b8113e3bd1a838ec797cb3d4010d54aba"
+    },
+    {
+      "id": "fw-applied-instructional_design",
+      "source": "Public Competency Framework (Malaysia National AI & Digital Workforce Competency Standard)",
+      "occupation_group": "FW-instructional_design",
+      "sha256": "39d4ae59c7c98ca4ec1ffcf4b856fa2a81f4d0fc1183b8bfecf5aa18b917d4ed"
+    },
+    {
+      "id": "esco-74dc314d",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2511/2512/2521",
+      "sha256": "8a93b0cc0b0bd74d85888923e95d58cd5c00a222afc11ac23662951afc609bdb"
+    },
+    {
+      "id": "esco-b19baa63",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2511/2512/2521",
+      "sha256": "8f12b0dd03edf6cbad058a3e1807971d5100db88c5fbcb9db4db6de0e286f20c"
+    },
+    {
+      "id": "esco-3145367f",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "33/41",
+      "sha256": "156918102d789230a19bc73bd2dc98b4a16c930eed8ec3ca81f2ddf8838f35e3"
+    },
+    {
+      "id": "esco-d43e3761",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2511/2512/2521",
+      "sha256": "7b416ae8333ff48385bc36d2e4787a74bb1dedacf7e8ad534c24f907036821fa"
+    },
+    {
+      "id": "esco-16979f41",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "4dc8d818f80180d53ed189b30c1fb2c5156ec87aceac3e77e2ee8fbbacb76952"
+    },
+    {
+      "id": "esco-0c1e0c35",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "33/41",
+      "sha256": "ad0343a3db2e2852a2531f0515360ef60f54601bd2aacce8fec8e4a7b433ed0d"
+    },
+    {
+      "id": "esco-5f76f51c",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2511/2512/2521",
+      "sha256": "54816e7caf8a93338d6edf12e7d7a83d15d4e09598dc51f83b3756813299d1c4"
+    },
+    {
+      "id": "esco-20734b64",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2511/2512/2521",
+      "sha256": "c36fc28080f169c04f4570ac1297a7ee9e80f4385b2ef391e7107d7ee0875acc"
+    },
+    {
+      "id": "esco-e224904f",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "07328edff6a8bdd82711d4e5f215057f3d943cadc8998b21b675651a61d950c6"
+    },
+    {
+      "id": "esco-bb08ce8e",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "9a63da16fcbb5f3ae206136a1c32ab02c7944e42bbd0bc45a551499de2d8c8e6"
+    },
+    {
+      "id": "esco-c6c585e3",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "87500f968ba24af175c98caa039f0eccb9ec47908b404d7fc847f2df40f52d39"
+    },
+    {
+      "id": "esco-c0f46cc9",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "e7feef21b1651564fe6405fd266a44c8fd842c963eceb3b3529522f6cf62b822"
+    },
+    {
+      "id": "esco-5bd8904c",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "87aff1d6d06c248018cbe196e17b98ba4d34799091e5f7cd42188315f38de197"
+    },
+    {
+      "id": "esco-004f9f9f",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "24/25",
+      "sha256": "1563e615003bda210bfafcacc296c5f4f3753202bb69a778c2a608d4b8a7cf16"
+    },
+    {
+      "id": "esco-b06e7ead",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "33/41",
+      "sha256": "408e7eb1ae869a3162f792cf3e894a17a00863d751be2c698220bbc86c89334a"
+    },
+    {
+      "id": "esco-c801e5c6",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2133",
+      "sha256": "f1a85585e4ee0697f9d0fa46fd625bd1054a0751f767dc675279fc1ff9085b7f"
+    },
+    {
+      "id": "esco-4f4daa0e",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "24/25",
+      "sha256": "dbf7f9d30a12503d1f19c5e2b082efc84868a7e357b1487d6320b510204501fa"
+    },
+    {
+      "id": "esco-8ed3e0de",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2133",
+      "sha256": "b42cb28ab8afd9f648559e044effe7eaced65a670897ed67a8c6a5ef1a5f4634"
+    },
+    {
+      "id": "esco-159ab59b",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "96ee90c52418c80700ba57b12b558b931dc7fabd536bfbc4b607d1d2feaaa1e6"
+    },
+    {
+      "id": "esco-12d53880",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "05b0d22f846528d6f596a1b787a71ee532f7dec441933e81c3f1ad9ffecbba40"
+    },
+    {
+      "id": "esco-57d955f4",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "24/25",
+      "sha256": "e54b209790fc403d4163946d762f382d46646f81dcc0ea0224d4ecde47790d6f"
+    },
+    {
+      "id": "esco-f3cae3eb",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "96a528689532e022d694c0e24ad5988eb73574d35c0804936aece6362a230d16"
+    },
+    {
+      "id": "esco-e0df0f24",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "2422/2519",
+      "sha256": "310040ce1a1cca5fac223fa0b7bb3f3feb013d1613c0f1ab63b6a5a2d9f23406"
+    },
+    {
+      "id": "esco-7cc43ae9",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "41/43",
+      "sha256": "3f4b1902576d506816d9959a286d18ab30aa0f748b2e1dacbe7b379aa0311c0e"
+    },
+    {
+      "id": "esco-061a5fb8",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "41/42",
+      "sha256": "99effd95f590b0ef0797eb651104f2a5fc82502653b95e73d1e88a313a34485a"
+    },
+    {
+      "id": "esco-17a7ecf2",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "41/42",
+      "sha256": "cdf9eae346fdc669756d9d0440c7e9ccf55589906f09e9763fe2ea1e98dd5ae7"
+    },
+    {
+      "id": "esco-6c786ac1",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "41/43",
+      "sha256": "f02f17e3a27ab62e36469ff0e3909f8fdea46c3e7bd862f1c7defa15b717420e"
+    },
+    {
+      "id": "esco-36a8ef7b",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "33/41",
+      "sha256": "08f58549d522339948182b28096dec1867067ae30f34cfd87f01a17eecd4ade1"
+    },
+    {
+      "id": "esco-2f1c3797",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "24/25",
+      "sha256": "37c6d89652b847d7222a25c928bab99fecf4f8a7d6c06d22c174f37c079535b2"
+    },
+    {
+      "id": "esco-f811de91",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "33/41",
+      "sha256": "e7dc158d23df46d9dbdd4877bffa1ff9a881b62eabc6647d0b3c2594d0dfe4a8"
+    },
+    {
+      "id": "esco-9d4417e2",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "24/25",
+      "sha256": "c9cd828a77aeb9882001a17ed5b2925548ac44c2f815b96a726d33dfc6a9a2f1"
+    },
+    {
+      "id": "esco-9d7adf00",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "33/41",
+      "sha256": "2aa2b959487acf711796ca078e4ed142669e61430463c35b29760e6b16e300ad"
+    },
+    {
+      "id": "esco-b5a2b91c",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "33/41",
+      "sha256": "eae1bb372f4c49645927617410fce486ac3b772684e55a768918ac09fbe8a892"
+    },
+    {
+      "id": "esco-3537f5b1",
+      "source": "ESCO v1.1 (Crosswalked to MASCO/MyCOL Demand)",
+      "occupation_group": "33/41",
+      "sha256": "0414be58ca1b7908a23a55e689299cde916cea4e0dff6d08c97407830feee07b"
+    },
+    {
+      "id": "benchmark-persona-ops_exec_selangor",
+      "source": "Domain 1 Malaysian Benchmark Persona",
+      "occupation_group": "4120",
+      "sha256": "b0ec471cc2cb34ee453f6f9f69386d5a9f459ddcad9a40befa60eec0d088d0e8"
+    },
+    {
+      "id": "benchmark-persona-qa_analyst_penang",
+      "source": "Domain 1 Malaysian Benchmark Persona",
+      "occupation_group": "2519",
+      "sha256": "f077fdd3c9e39fe93faaa26dda2ed13f41d627d72b54b9c95686b9b9af5813d5"
+    },
+    {
+      "id": "benchmark-persona-esg_coord_kl",
+      "source": "Domain 1 Malaysian Benchmark Persona",
+      "occupation_group": "2133",
+      "sha256": "0ba7aaeb0fecea8b7c8cc6a497d4e3ac82e2c7b994fd63d4ae7efc97d69d459c"
+    },
+    {
+      "id": "benchmark-persona-clerical_admin_ipoh",
+      "source": "Domain 1 Malaysian Benchmark Persona",
+      "occupation_group": "4110",
+      "sha256": "26e2c5caacc1f4d67083541186fe8a62aed909dd5f1b3b5e5351d766b161173a"
+    }
+  ]
+}

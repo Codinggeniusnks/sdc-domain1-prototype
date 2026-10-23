@@ -1,0 +1,177 @@
+{
+  "version": "1.0.0",
+  "module": "M5_SDG_IMPACT_MAPPING_ENGINE",
+  "reference_standard": "United Nations Global Indicator Framework for the SDGs",
+  "total_targets": 21,
+  "generated_date": "2026-10-24",
+  "targets": [
+    {
+      "target_id": "4.4",
+      "sdg_number": 4,
+      "official_target_text": "By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship.",
+      "target_short_label": "Relevant Skills for Employment",
+      "source_url": "https://sdgs.un.org/goals/goal4#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "4.7",
+      "sdg_number": 4,
+      "official_target_text": "By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles...",
+      "target_short_label": "Education for Sustainable Development",
+      "source_url": "https://sdgs.un.org/goals/goal4#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "7.1",
+      "sdg_number": 7,
+      "official_target_text": "By 2030, ensure universal access to affordable, reliable and modern energy services.",
+      "target_short_label": "Universal Modern Energy Access",
+      "source_url": "https://sdgs.un.org/goals/goal7#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "7.2",
+      "sdg_number": 7,
+      "official_target_text": "By 2030, increase substantially the share of renewable energy in the global energy mix.",
+      "target_short_label": "Increase Renewable Energy Share",
+      "source_url": "https://sdgs.un.org/goals/goal7#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "7.3",
+      "sdg_number": 7,
+      "official_target_text": "By 2030, double the global rate of improvement in energy efficiency.",
+      "target_short_label": "Double Energy Efficiency Rate",
+      "source_url": "https://sdgs.un.org/goals/goal7#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "8.2",
+      "sdg_number": 8,
+      "official_target_text": "Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors.",
+      "target_short_label": "Productivity & Tech Upgrading",
+      "source_url": "https://sdgs.un.org/goals/goal8#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "8.5",
+      "sdg_number": 8,
+      "official_target_text": "By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.",
+      "target_short_label": "Full Productive Employment & Decent Work",
+      "source_url": "https://sdgs.un.org/goals/goal8#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "8.8",
+      "sdg_number": 8,
+      "official_target_text": "Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment.",
+      "target_short_label": "Safe Working Environments & Rights",
+      "source_url": "https://sdgs.un.org/goals/goal8#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "9.1",
+      "sdg_number": 9,
+      "official_target_text": "Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being...",
+      "target_short_label": "Resilient Quality Infrastructure",
+      "source_url": "https://sdgs.un.org/goals/goal9#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "9.4",
+      "sdg_number": 9,
+      "official_target_text": "By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes...",
+      "target_short_label": "Upgrade Sustainable Industrial Processes",
+      "source_url": "https://sdgs.un.org/goals/goal9#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "9.5",
+      "sdg_number": 9,
+      "official_target_text": "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers...",
+      "target_short_label": "Enhance Scientific Research & R&D",
+      "source_url": "https://sdgs.un.org/goals/goal9#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "9.c",
+      "sdg_number": 9,
+      "official_target_text": "Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020.",
+      "target_short_label": "Universal ICT & Internet Access",
+      "source_url": "https://sdgs.un.org/goals/goal9#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "10.2",
+      "sdg_number": 10,
+      "official_target_text": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status.",
+      "target_short_label": "Promote Socio-Economic Inclusion",
+      "source_url": "https://sdgs.un.org/goals/goal10#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "11.6",
+      "sdg_number": 11,
+      "official_target_text": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.",
+      "target_short_label": "Reduce Urban Environmental Impact",
+      "source_url": "https://sdgs.un.org/goals/goal11#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "12.6",
+      "sdg_number": 12,
+      "official_target_text": "Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle.",
+      "target_short_label": "Adopt Corporate Sustainability Reporting",
+      "source_url": "https://sdgs.un.org/goals/goal12#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "13.2",
+      "sdg_number": 13,
+      "official_target_text": "Integrate climate change measures into national policies, strategies and planning.",
+      "target_short_label": "Integrate Climate Measures into Policies",
+      "source_url": "https://sdgs.un.org/goals/goal13#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "13.3",
+      "sdg_number": 13,
+      "official_target_text": "Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning.",
+      "target_short_label": "Build Climate Institutional Capacity",
+      "source_url": "https://sdgs.un.org/goals/goal13#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "16.6",
+      "sdg_number": 16,
+      "official_target_text": "Develop effective, accountable and transparent institutions at all levels.",
+      "target_short_label": "Effective & Transparent Institutions",
+      "source_url": "https://sdgs.un.org/goals/goal16#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "16.10",
+      "sdg_number": 16,
+      "official_target_text": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements.",
+      "target_short_label": "Public Access to Information & Privacy",
+      "source_url": "https://sdgs.un.org/goals/goal16#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "17.16",
+      "sdg_number": 17,
+      "official_target_text": "Enhance the Global Partnership for Sustainable Development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources...",
+      "target_short_label": "Multi-Stakeholder Partnerships",
+      "source_url": "https://sdgs.un.org/goals/goal17#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    },
+    {
+      "target_id": "17.18",
+      "sdg_number": 17,
+      "official_target_text": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data...",
+      "target_short_label": "High-Quality & Reliable Data Capacity",
+      "source_url": "https://sdgs.un.org/goals/goal17#targets-and-indicators",
+      "last_verified_date": "2026-10-24"
+    }
+  ]
+}

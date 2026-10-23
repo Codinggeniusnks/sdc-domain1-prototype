@@ -1,0 +1,243 @@
+{
+  "SNAPSHOT_A_BASELINE": {
+    "snapshot_id": "M2_SNAP_BASELINE_2026Q1",
+    "version": "1.1.1",
+    "data_source_class": "SYNTHETIC_CHANGE_FIXTURE",
+    "description": "Baseline M2 labor-market trend evidence snapshot",
+    "timestamp": "2026-01-15T00:00:00Z",
+    "occupations": {
+      "2511": {
+        "demand_shortage_level": 89.6,
+        "demand_momentum": 75.0,
+        "augmentation_potential": 50.0,
+        "policy_priority": 90.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 80.0
+      },
+      "2512": {
+        "demand_shortage_level": 82.0,
+        "demand_momentum": 78.0,
+        "augmentation_potential": 55.0,
+        "policy_priority": 85.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 82.0
+      },
+      "2529": {
+        "demand_shortage_level": 86.4,
+        "demand_momentum": 82.0,
+        "augmentation_potential": 60.0,
+        "policy_priority": 88.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 80.0
+      },
+      "2431": {
+        "demand_shortage_level": 64.0,
+        "demand_momentum": 58.0,
+        "augmentation_potential": 45.0,
+        "policy_priority": 50.0,
+        "confidence_label": "MEDIUM",
+        "confidence_index": 70.0
+      }
+    },
+    "skills": {
+      "ai_literacy": {
+        "demand_shortage_index": 94.7,
+        "demand_momentum_index": 87.9,
+        "policy_priority_index": 88.0
+      },
+      "data_visualization": {
+        "demand_shortage_index": 84.0,
+        "demand_momentum_index": 76.0,
+        "policy_priority_index": 75.0
+      },
+      "process_mapping": {
+        "demand_shortage_index": 82.0,
+        "demand_momentum_index": 74.0,
+        "policy_priority_index": 70.0
+      }
+    }
+  },
+  "SNAPSHOT_B_MINOR_CHANGE": {
+    "snapshot_id": "M2_SNAP_MINOR_2026Q2",
+    "version": "1.1.1",
+    "data_source_class": "SYNTHETIC_CHANGE_FIXTURE",
+    "description": "Minor trend fluctuation: shortage shifts by <2 points without changing occupational rankings or gap structures",
+    "timestamp": "2026-04-15T00:00:00Z",
+    "occupations": {
+      "2511": {
+        "demand_shortage_level": 90.5,
+        "demand_momentum": 75.5,
+        "augmentation_potential": 50.0,
+        "policy_priority": 90.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 80.0
+      },
+      "2512": {
+        "demand_shortage_level": 82.8,
+        "demand_momentum": 78.2,
+        "augmentation_potential": 55.0,
+        "policy_priority": 85.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 82.0
+      },
+      "2529": {
+        "demand_shortage_level": 86.9,
+        "demand_momentum": 82.4,
+        "augmentation_potential": 60.0,
+        "policy_priority": 88.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 80.0
+      },
+      "2431": {
+        "demand_shortage_level": 64.5,
+        "demand_momentum": 58.2,
+        "augmentation_potential": 45.0,
+        "policy_priority": 50.0,
+        "confidence_label": "MEDIUM",
+        "confidence_index": 70.0
+      }
+    },
+    "skills": {
+      "ai_literacy": {
+        "demand_shortage_index": 95.0,
+        "demand_momentum_index": 88.2,
+        "policy_priority_index": 88.0
+      },
+      "data_visualization": {
+        "demand_shortage_index": 84.5,
+        "demand_momentum_index": 76.4,
+        "policy_priority_index": 75.0
+      },
+      "process_mapping": {
+        "demand_shortage_index": 82.4,
+        "demand_momentum_index": 74.2,
+        "policy_priority_index": 70.0
+      }
+    }
+  },
+  "SNAPSHOT_C_MATERIAL_TREND_CHANGE": {
+    "snapshot_id": "M2_SNAP_MATERIAL_2026Q3",
+    "version": "1.1.1",
+    "data_source_class": "SYNTHETIC_CHANGE_FIXTURE",
+    "description": "Substantial trend surge in AI Engineering (2529) exceeding Systems Analysis (2511), triggering top-role re-ranking",
+    "timestamp": "2026-07-15T00:00:00Z",
+    "occupations": {
+      "2511": {
+        "demand_shortage_level": 78.0,
+        "demand_momentum": 65.0,
+        "augmentation_potential": 50.0,
+        "policy_priority": 80.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 80.0
+      },
+      "2512": {
+        "demand_shortage_level": 80.0,
+        "demand_momentum": 75.0,
+        "augmentation_potential": 55.0,
+        "policy_priority": 82.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 82.0
+      },
+      "2529": {
+        "demand_shortage_level": 98.5,
+        "demand_momentum": 96.0,
+        "augmentation_potential": 75.0,
+        "policy_priority": 98.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 88.0
+      },
+      "2431": {
+        "demand_shortage_level": 60.0,
+        "demand_momentum": 52.0,
+        "augmentation_potential": 45.0,
+        "policy_priority": 48.0,
+        "confidence_label": "MEDIUM",
+        "confidence_index": 70.0
+      }
+    },
+    "skills": {
+      "ai_literacy": {
+        "demand_shortage_index": 99.0,
+        "demand_momentum_index": 98.0,
+        "policy_priority_index": 98.0
+      },
+      "data_visualization": {
+        "demand_shortage_index": 88.0,
+        "demand_momentum_index": 82.0,
+        "policy_priority_index": 80.0
+      },
+      "process_mapping": {
+        "demand_shortage_index": 75.0,
+        "demand_momentum_index": 68.0,
+        "policy_priority_index": 65.0
+      }
+    }
+  },
+  "SNAPSHOT_D_SEMANTICALLY_IDENTICAL": {
+    "snapshot_id": "M2_SNAP_REPLICATED_2026Q1",
+    "version": "1.1.1",
+    "data_source_class": "SYNTHETIC_CHANGE_FIXTURE",
+    "description": "Identical semantic content as SNAPSHOT_A_BASELINE with different snapshot ID and timestamp",
+    "timestamp": "2026-08-01T12:00:00Z",
+    "occupations": {
+      "2511": {
+        "demand_shortage_level": 89.6,
+        "demand_momentum": 75.0,
+        "augmentation_potential": 50.0,
+        "policy_priority": 90.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 80.0
+      },
+      "2512": {
+        "demand_shortage_level": 82.0,
+        "demand_momentum": 78.0,
+        "augmentation_potential": 55.0,
+        "policy_priority": 85.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 82.0
+      },
+      "2529": {
+        "demand_shortage_level": 86.4,
+        "demand_momentum": 82.0,
+        "augmentation_potential": 60.0,
+        "policy_priority": 88.0,
+        "confidence_label": "HIGH",
+        "confidence_index": 80.0
+      },
+      "2431": {
+        "demand_shortage_level": 64.0,
+        "demand_momentum": 58.0,
+        "augmentation_potential": 45.0,
+        "policy_priority": 50.0,
+        "confidence_label": "MEDIUM",
+        "confidence_index": 70.0
+      }
+    },
+    "skills": {
+      "ai_literacy": {
+        "demand_shortage_index": 94.7,
+        "demand_momentum_index": 87.9,
+        "policy_priority_index": 88.0
+      },
+      "data_visualization": {
+        "demand_shortage_index": 84.0,
+        "demand_momentum_index": 76.0,
+        "policy_priority_index": 75.0
+      },
+      "process_mapping": {
+        "demand_shortage_index": 82.0,
+        "demand_momentum_index": 74.0,
+        "policy_priority_index": 70.0
+      }
+    }
+  },
+  "SNAPSHOT_E_INVALID_VERSION": {
+    "snapshot_id": "M2_SNAP_UNSUPPORTED_2027",
+    "version": "2.0.0",
+    "data_source_class": "SYNTHETIC_CHANGE_FIXTURE",
+    "description": "Snapshot presenting uncertified and unapproved M2 version 2.0.0",
+    "timestamp": "2027-01-01T00:00:00Z",
+    "occupations": {},
+    "skills": {}
+  }
+}

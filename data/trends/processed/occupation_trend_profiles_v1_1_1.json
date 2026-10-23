@@ -1,0 +1,2348 @@
+{
+  "version": "1.1.1",
+  "parent_version": "1.1.0",
+  "scoring_date": "2026-10-23",
+  "total_occupations_scored": 28,
+  "mathematical_change_from_v1_1_0": false,
+  "change_notes": "Occupation profiles are mathematically unchanged from v1.1.0; version stamped to 1.1.1 for unified pipeline release.",
+  "profiles": [
+    {
+      "occupation_code": "2512",
+      "occupation_title": "Software Developers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 89.6,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 62.0,
+      "automation_exposure": 8.0,
+      "augmentation_potential": 54.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 13,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "Simultaneous high occupational shortage/demand and significant AI exposure (62.0), resolved via dominant augmentation potential (54.0 vs automation 8.0).",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.54,
+        "exposure_2025": 0.62,
+        "delta": 0.08,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2512",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2512",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2512",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 251 -> MASCO 2512",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 54.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2512",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Simultaneous high occupational shortage and substantial AI automation vulnerability.",
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "occupation_code": "2511",
+      "occupation_title": "Systems Analysts",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 89.6,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 56.0,
+      "automation_exposure": 6.0,
+      "augmentation_potential": 50.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 9,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "Simultaneous high occupational shortage/demand and significant AI exposure (56.0), resolved via dominant augmentation potential (50.0 vs automation 6.0).",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.56,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2511",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2511",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2511",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 251 -> MASCO 2511",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 50.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2511",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Simultaneous high occupational shortage and substantial AI automation vulnerability.",
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "occupation_code": "2521",
+      "occupation_title": "Database Designers & Administrators",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 85.8,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 51.0,
+      "automation_exposure": 6.0,
+      "augmentation_potential": 45.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 8,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "Simultaneous high occupational shortage/demand and significant AI exposure (51.0), resolved via dominant augmentation potential (45.0 vs automation 6.0).",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.47,
+        "exposure_2025": 0.51,
+        "delta": 0.04,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2521",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2521",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 7/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2521",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 252 -> MASCO 2521",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 45.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2521",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Simultaneous high occupational shortage and substantial AI automation vulnerability.",
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "occupation_code": "2529",
+      "occupation_title": "Database & Network Professionals NEC (AI & Data Science Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 75.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 58.0,
+      "automation_exposure": 7.0,
+      "augmentation_potential": 51.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "Simultaneous high occupational shortage/demand and significant AI exposure (58.0), resolved via dominant augmentation potential (51.0 vs automation 7.0).",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.58,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2529",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2529",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 6/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2529",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 252 -> MASCO 2529",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 51.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2529",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Simultaneous high occupational shortage and substantial AI automation vulnerability.",
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "occupation_code": "2519",
+      "occupation_title": "Software & Applications Developers & Analysts NEC (Cloud & Full-Stack)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 75.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 60.0,
+      "automation_exposure": 8.0,
+      "augmentation_potential": 52.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 60.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 5,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "Simultaneous high occupational shortage/demand and significant AI exposure (60.0), resolved via dominant augmentation potential (52.0 vs automation 8.0).",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.6,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2519",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2519",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 6/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2519",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 251 -> MASCO 2519",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 52.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2519",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Simultaneous high occupational shortage and substantial AI automation vulnerability.",
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.191828+00:00"
+    },
+    {
+      "occupation_code": "2522",
+      "occupation_title": "Systems Administrators & Cloud Infrastructure Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 46.0,
+      "automation_exposure": 9.0,
+      "augmentation_potential": 37.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.46,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2522",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2522",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 5/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2522",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 252 -> MASCO 2522",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 37.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2522",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "2411",
+      "occupation_title": "Accountants & Financial Auditors",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 89.6,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 49.0,
+      "automation_exposure": 10.0,
+      "augmentation_potential": 39.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 9,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.44,
+        "exposure_2025": 0.49,
+        "delta": 0.05,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2411",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2411",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2411",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 241 -> MASCO 2411",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 39.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2411",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "2421",
+      "occupation_title": "Management & Organization Analysts (Transformation Consultants)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 75.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 52.0,
+      "automation_exposure": 7.0,
+      "augmentation_potential": 45.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 80.0,
+      "confidence_label": "HIGH",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "CROSS_DIMENSION_TENSION",
+      "conflict_notes": "Simultaneous high occupational shortage/demand and significant AI exposure (52.0), resolved via dominant augmentation potential (45.0 vs automation 7.0).",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.52,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2421",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2421",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 6/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2421",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 242 -> MASCO 2421",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 45.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2421",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Simultaneous high occupational shortage and substantial AI automation vulnerability.",
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA",
+        "CROSS_DIMENSION_TENSION"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "2422",
+      "occupation_title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 49.0,
+      "automation_exposure": 7.0,
+      "augmentation_potential": 42.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 10,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.46,
+        "exposure_2025": 0.49,
+        "delta": 0.03,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2422",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2422",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 5/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2422",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 242 -> MASCO 2422",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 42.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2422",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "2151",
+      "occupation_title": "Electrical Engineers",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 89.6,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 4.0,
+      "augmentation_potential": 31.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 8,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.35,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2151",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2151",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2151",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 215 -> MASCO 2151",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 31.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2151",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "2152",
+      "occupation_title": "Electronic Engineers (Semiconductor IC Design Specialists)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 89.6,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 38.0,
+      "automation_exposure": 4.0,
+      "augmentation_potential": 34.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 9,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.35,
+        "exposure_2025": 0.38,
+        "delta": 0.03,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2152",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2152",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 8/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2152",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 215 -> MASCO 2152",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 34.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2152",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "2143",
+      "occupation_title": "Environmental Engineers & Sustainability Specialists",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 60.0,
+      "demand_momentum": 88.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 32.0,
+      "automation_exposure": 3.0,
+      "augmentation_potential": 29.0,
+      "policy_priority": 90.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 7,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.32,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2143",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2143",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 2/8 editions (Status: NEWLY_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2143",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 214 -> MASCO 2143",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 29.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2143",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "2424",
+      "occupation_title": "Training & Staff Development Professionals (Reskilling Architects)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 30.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 46.0,
+      "automation_exposure": 6.0,
+      "augmentation_potential": 40.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 8,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.46,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2424",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2424",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 3/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2424",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 242 -> MASCO 2424",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 40.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2424",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "2166",
+      "occupation_title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 40.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 58.0,
+      "automation_exposure": 18.0,
+      "augmentation_potential": 40.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 70.0,
+      "confidence_label": "HIGH",
+      "source_count": 6,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.58,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-2166",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 2166",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 4/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-2166",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 216 -> MASCO 2166",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 40.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-2166",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 2",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_2",
+          "wage_context_label": "Major Group 2: Professionals",
+          "summary": "Professionals broad wage trend = 76.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-2025-2166",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 216 -> MASCO 2166",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "Automation potential of 18.0% affecting routine administrative and procedural subtasks."
+        }
+      ],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "1330",
+      "occupation_title": "Information & Communications Technology Services Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "demand_shortage_level": 85.8,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 68.0,
+      "research_momentum": null,
+      "ai_exposure": 33.0,
+      "automation_exposure": 4.0,
+      "augmentation_potential": 29.0,
+      "policy_priority": 85.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 90.0,
+      "confidence_label": "HIGH",
+      "source_count": 11,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "MALAYSIAN_GOVERNMENT_POLICY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_1",
+      "wage_context_label": "Major Group 1: Managers",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.29,
+        "exposure_2025": 0.33,
+        "delta": 0.04,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-1330",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 1330",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 7/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-1330",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 133 -> MASCO 1330",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 29.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-1330",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 1",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_1",
+          "wage_context_label": "Major Group 1: Managers",
+          "summary": "Managers broad wage trend = 68.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "3514",
+      "occupation_title": "Web Technicians & Cloud Application Operators",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "demand_shortage_level": 40.0,
+      "demand_momentum": 55.0,
+      "employment_wage_momentum": 66.0,
+      "research_momentum": null,
+      "ai_exposure": 44.0,
+      "automation_exposure": 15.0,
+      "augmentation_potential": 29.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 70.0,
+      "confidence_label": "HIGH",
+      "source_count": 8,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_3",
+      "wage_context_label": "Major Group 3: Technicians & Associate Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.4,
+        "exposure_2025": 0.44,
+        "delta": 0.04,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-3514",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 3514",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 4/8 editions (Status: CYCLICAL_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-3514",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 351 -> MASCO 3514",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 29.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-3514",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 3",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_3",
+          "wage_context_label": "Major Group 3: Technicians & Associate Professionals",
+          "summary": "Technicians & Associate Professionals broad wage trend = 66.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-2025-3514",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 351 -> MASCO 3514",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "Automation potential of 15.0% affecting routine administrative and procedural subtasks."
+        }
+      ],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "3322",
+      "occupation_title": "Commercial Sales Representatives",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "demand_shortage_level": 75.0,
+      "demand_momentum": 75.0,
+      "employment_wage_momentum": 66.0,
+      "research_momentum": null,
+      "ai_exposure": 31.0,
+      "automation_exposure": 7.0,
+      "augmentation_potential": 24.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STRONGLY RISING",
+      "confidence_index": 70.0,
+      "confidence_label": "HIGH",
+      "source_count": 8,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_3",
+      "wage_context_label": "Major Group 3: Technicians & Associate Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.28,
+        "exposure_2025": 0.31,
+        "delta": 0.03,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-3322",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 3322",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 6/8 editions (Status: PERSISTENT_CRITICAL)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-3322",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 332 -> MASCO 3322",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 24.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-3322",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 3",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_3",
+          "wage_context_label": "Major Group 3: Technicians & Associate Professionals",
+          "summary": "Technicians & Associate Professionals broad wage trend = 66.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "4311",
+      "occupation_title": "Accounting and Bookkeeping Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "demand_shortage_level": 20.0,
+      "demand_momentum": 25.0,
+      "employment_wage_momentum": 42.0,
+      "research_momentum": null,
+      "ai_exposure": 39.0,
+      "automation_exposure": 29.0,
+      "augmentation_potential": 10.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STRONGLY DECLINING",
+      "confidence_index": 70.0,
+      "confidence_label": "HIGH",
+      "source_count": 8,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_4",
+      "wage_context_label": "Major Group 4: Clerical Support Workers",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.36,
+        "exposure_2025": 0.39,
+        "delta": 0.03,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-4311",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 4311",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 3/8 editions (Status: DROPPED_FROM_LATEST)."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-4311",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 4",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_4",
+          "wage_context_label": "Major Group 4: Clerical Support Workers",
+          "summary": "Clerical Support Workers broad wage trend = 42.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-2025-4311",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 431 -> MASCO 4311",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "Automation potential of 29.0% affecting routine administrative and procedural subtasks."
+        },
+        {
+          "signal_id": "SIG-MYCOL-DROP-4311",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2024-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL 2024/2025 Edition Exclusions, MASCO 4311",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Dropped from latest national Critical Occupations List due to easing shortage or routine role consolidation."
+        }
+      ],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "4110",
+      "occupation_title": "General Office Clerks",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "demand_shortage_level": 20.0,
+      "demand_momentum": 25.0,
+      "employment_wage_momentum": 42.0,
+      "research_momentum": null,
+      "ai_exposure": 38.0,
+      "automation_exposure": 30.0,
+      "augmentation_potential": 8.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STRONGLY DECLINING",
+      "confidence_index": 70.0,
+      "confidence_label": "HIGH",
+      "source_count": 9,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_4",
+      "wage_context_label": "Major Group 4: Clerical Support Workers",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": 0.36,
+        "exposure_2025": 0.38,
+        "delta": 0.02,
+        "classification_change": "INCREASED"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-4110",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 4110",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 1/8 editions (Status: DROPPED_FROM_LATEST)."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-4110",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 4",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_4",
+          "wage_context_label": "Major Group 4: Clerical Support Workers",
+          "summary": "Clerical Support Workers broad wage trend = 42.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-2025-4110",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 411 -> MASCO 4110",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "Automation potential of 30.0% affecting routine administrative and procedural subtasks."
+        },
+        {
+          "signal_id": "SIG-MYCOL-DROP-4110",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2024-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL 2024/2025 Edition Exclusions, MASCO 4110",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Dropped from latest national Critical Occupations List due to easing shortage or routine role consolidation."
+        }
+      ],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "3343",
+      "occupation_title": "Administrative & Executive Secretaries",
+      "major_group": "3",
+      "major_group_name": "Technicians & Associate Professionals",
+      "demand_shortage_level": 20.0,
+      "demand_momentum": 25.0,
+      "employment_wage_momentum": 66.0,
+      "research_momentum": null,
+      "ai_exposure": 42.0,
+      "automation_exposure": 25.0,
+      "augmentation_potential": 17.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "DECLINING",
+      "confidence_index": 70.0,
+      "confidence_label": "HIGH",
+      "source_count": 5,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY",
+        "TALENTCORP_MYCOL"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_3",
+      "wage_context_label": "Major Group 3: Technicians & Associate Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Evidence streams are directionally consistent.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023",
+        "exposure_2023": null,
+        "exposure_2025": 0.42,
+        "delta": null,
+        "classification_change": "NEW_2025_GRANULAR_MAPPING"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-MYCOL-3343",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2015-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp Critical Occupations List, MASCO 3343",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Identified as critical in 2/8 editions (Status: DROPPED_FROM_LATEST)."
+        },
+        {
+          "signal_id": "SIG-ILO-AUG-2025-3343",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 334 -> MASCO 3343",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "High augmentation potential of 17.0% across complex cognitive and analytical tasks."
+        },
+        {
+          "signal_id": "SIG-DOSM-WAGE-CTX-3343",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Salaries & Wages Survey, Major Group 3",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 0.85,
+          "wage_granularity": "MAJOR_GROUP_CONTEXT",
+          "wage_context_code": "MAJOR_3",
+          "wage_context_label": "Major Group 3: Technicians & Associate Professionals",
+          "summary": "Technicians & Associate Professionals broad wage trend = 66.0 index, serving as occupational group context; role-specific 4-digit salary distribution not separately surveyed."
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "signal_id": "SIG-ILO-AUTO-2025-3343",
+          "source_id": "SRC-ILO-GENAI-2025",
+          "publisher": "International Labour Organization",
+          "source_version": "Working Paper 140 (May 2025)",
+          "observation_period": "2023-2025",
+          "publication_date": "2025-05-20",
+          "evidence_reference": "ILO Working Paper 140 Refined Index, ISCO 334 -> MASCO 3343",
+          "measurement_granularity": "Task-Level Multimodal Decomposition",
+          "mapping_confidence": 0.95,
+          "summary": "Automation potential of 25.0% affecting routine administrative and procedural subtasks."
+        },
+        {
+          "signal_id": "SIG-MYCOL-DROP-3343",
+          "source_id": "SRC-MYCOL-2024",
+          "publisher": "TalentCorp Malaysia & ILMIA",
+          "source_version": "Editions 1-8 (2015-2025)",
+          "observation_period": "2024-2025",
+          "publication_date": "2024-11-01",
+          "evidence_reference": "TalentCorp MyCOL 2024/2025 Edition Exclusions, MASCO 3343",
+          "measurement_granularity": "4-Digit Occupational Shortage Survey",
+          "mapping_confidence": 1.0,
+          "summary": "Dropped from latest national Critical Occupations List due to easing shortage or routine role consolidation."
+        }
+      ],
+      "uncertainties": [
+        "Direct academic research momentum not evaluated at occupational level (measured via underlying skills)."
+      ],
+      "quality_flags": [
+        "MAJOR_GROUP_WAGE_CONTEXT",
+        "NO_ROLE_SPECIFIC_WAGE_DATA"
+      ],
+      "freshness_days": 521,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_1",
+      "occupation_title": "Major Group 1: Managers",
+      "major_group": "1",
+      "major_group_name": "Managers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 68.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_1",
+      "wage_context_label": "Major Group 1: Managers",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Aggregated macroeconomic baseline context.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_1",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 1.0,
+          "summary": "National median wage benchmarks for MASCO Major Group 1."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_2",
+      "occupation_title": "Major Group 2: Professionals",
+      "major_group": "2",
+      "major_group_name": "Professionals",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 76.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_2",
+      "wage_context_label": "Major Group 2: Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Aggregated macroeconomic baseline context.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_2",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 1.0,
+          "summary": "National median wage benchmarks for MASCO Major Group 2."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_3",
+      "occupation_title": "Major Group 3: Technicians and Associate Professionals",
+      "major_group": "3",
+      "major_group_name": "Technicians and Associate Professionals",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 66.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_3",
+      "wage_context_label": "Major Group 3: Technicians and Associate Professionals",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Aggregated macroeconomic baseline context.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_3",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 1.0,
+          "summary": "National median wage benchmarks for MASCO Major Group 3."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_4",
+      "occupation_title": "Major Group 4: Clerical Support Workers",
+      "major_group": "4",
+      "major_group_name": "Clerical Support Workers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 42.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_4",
+      "wage_context_label": "Major Group 4: Clerical Support Workers",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Aggregated macroeconomic baseline context.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_4",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 1.0,
+          "summary": "National median wage benchmarks for MASCO Major Group 4."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_5",
+      "occupation_title": "Major Group 5: Service and Sales Workers",
+      "major_group": "5",
+      "major_group_name": "Service and Sales Workers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 50.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_5",
+      "wage_context_label": "Major Group 5: Service and Sales Workers",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Aggregated macroeconomic baseline context.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_5",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 1.0,
+          "summary": "National median wage benchmarks for MASCO Major Group 5."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_7",
+      "occupation_title": "Major Group 7: Craft and Related Trades Workers",
+      "major_group": "7",
+      "major_group_name": "Craft and Related Trades Workers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 48.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_7",
+      "wage_context_label": "Major Group 7: Craft and Related Trades Workers",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Aggregated macroeconomic baseline context.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_7",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 1.0,
+          "summary": "National median wage benchmarks for MASCO Major Group 7."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_8",
+      "occupation_title": "Major Group 8: Plant and Machine Operators and Assemblers",
+      "major_group": "8",
+      "major_group_name": "Plant and Machine Operators and Assemblers",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 46.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_8",
+      "wage_context_label": "Major Group 8: Plant and Machine Operators and Assemblers",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Aggregated macroeconomic baseline context.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_8",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 1.0,
+          "summary": "National median wage benchmarks for MASCO Major Group 8."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    },
+    {
+      "occupation_code": "MAJOR_9",
+      "occupation_title": "Major Group 9: Elementary Occupations",
+      "major_group": "9",
+      "major_group_name": "Elementary Occupations",
+      "demand_shortage_level": 50.0,
+      "demand_momentum": 50.0,
+      "employment_wage_momentum": 40.0,
+      "research_momentum": null,
+      "ai_exposure": 35.0,
+      "automation_exposure": 12.0,
+      "augmentation_potential": 25.0,
+      "policy_priority": 50.0,
+      "overall_outlook": "STABLE",
+      "confidence_index": 55.0,
+      "confidence_label": "MEDIUM",
+      "source_count": 2,
+      "independent_evidence_families": [
+        "DOSM_WAGES",
+        "ILO_GENAI_STUDY"
+      ],
+      "wage_granularity": "MAJOR_GROUP_CONTEXT",
+      "wage_context_code": "MAJOR_9",
+      "wage_context_label": "Major Group 9: Elementary Occupations",
+      "source_measurement_level": "1-Digit MASCO Major Group",
+      "conflict_status": "NO_CONFLICT",
+      "conflict_notes": "Aggregated macroeconomic baseline context.",
+      "ilo_benchmark_comparison": {
+        "primary_benchmark": "ILO_WP140_2025",
+        "historical_benchmark": "ILO_WP96_2023"
+      },
+      "top_positive_drivers": [
+        {
+          "signal_id": "SIG-DOSM-WAGES-MAJOR_9",
+          "source_id": "SRC-OPENDOSM-LIVE",
+          "publisher": "Department of Statistics Malaysia (DOSM)",
+          "source_version": "2024-2025 Release",
+          "observation_period": "2018-2024",
+          "publication_date": "2025-05-01",
+          "evidence_reference": "OpenDOSM Annual Salaries & Wages Survey",
+          "measurement_granularity": "1-Digit MASCO Major Group",
+          "mapping_confidence": 1.0,
+          "summary": "National median wage benchmarks for MASCO Major Group 9."
+        }
+      ],
+      "top_negative_drivers": [],
+      "uncertainties": [
+        "Aggregated major group fallback; does not capture 4-digit occupational variance."
+      ],
+      "quality_flags": [
+        "AGGREGATED_FALLBACK",
+        "MAJOR_GROUP_WAGE_CONTEXT"
+      ],
+      "freshness_days": 540,
+      "freshness_status": "FRESH",
+      "last_updated": "2026-10-23T07:49:08.192826+00:00"
+    }
+  ]
+}

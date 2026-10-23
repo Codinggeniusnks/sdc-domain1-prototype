@@ -1,0 +1,304 @@
+{
+  "candidate_skills_cv": {
+    "A_Hybrid_LogReg": {
+      "skills_macro_f1": 0.653,
+      "skills_micro_f1": 0.6324,
+      "skills_macro_precision": 0.6658,
+      "skills_macro_recall": 0.7497,
+      "rare_class_recall": 0.7497
+    },
+    "B_PyTorch_NN": {
+      "skills_macro_f1": 0.4408,
+      "skills_micro_f1": 0.4136,
+      "skills_macro_precision": 0.3522,
+      "skills_macro_recall": 0.7616,
+      "rare_class_recall": 0.7616
+    },
+    "C1_MiniLM_Linear": {
+      "skills_macro_f1": 0.5023,
+      "skills_micro_f1": 0.4739,
+      "skills_macro_precision": 0.4172,
+      "skills_macro_recall": 0.7692,
+      "rare_class_recall": 0.7692
+    },
+    "C2_MiniLM_MLP": {
+      "skills_macro_f1": 0.3899,
+      "skills_micro_f1": 0.3739,
+      "skills_macro_precision": 0.2835,
+      "skills_macro_recall": 0.7789,
+      "rare_class_recall": 0.7789
+    }
+  },
+  "demand_cv": {
+    "Uncalibrated": {
+      "demand_accuracy": 0.7189,
+      "demand_macro_f1": 0.5837,
+      "demand_roc_auc": 0.7056,
+      "demand_brier_score": 0.2007,
+      "demand_ece": 0.2069
+    },
+    "Calibrated": {
+      "demand_accuracy": 0.7268,
+      "demand_macro_f1": 0.5441,
+      "demand_roc_auc": 0.7026,
+      "demand_brier_score": 0.2067,
+      "demand_ece": 0.2251
+    }
+  },
+  "threshold_search": [
+    {
+      "threshold": 0.25,
+      "skills_macro_f1": 0.5819,
+      "skills_micro_f1": 0.5718,
+      "skills_macro_precision": 0.4493,
+      "skills_macro_recall": 0.8419,
+      "rare_class_recall": 0.8419
+    },
+    {
+      "threshold": 0.27,
+      "skills_macro_f1": 0.593,
+      "skills_micro_f1": 0.5833,
+      "skills_macro_precision": 0.4702,
+      "skills_macro_recall": 0.8169,
+      "rare_class_recall": 0.8169
+    },
+    {
+      "threshold": 0.29,
+      "skills_macro_f1": 0.6063,
+      "skills_micro_f1": 0.5972,
+      "skills_macro_precision": 0.4928,
+      "skills_macro_recall": 0.8004,
+      "rare_class_recall": 0.8004
+    },
+    {
+      "threshold": 0.31,
+      "skills_macro_f1": 0.6238,
+      "skills_micro_f1": 0.6153,
+      "skills_macro_precision": 0.5202,
+      "skills_macro_recall": 0.7888,
+      "rare_class_recall": 0.7888
+    },
+    {
+      "threshold": 0.33,
+      "skills_macro_f1": 0.6324,
+      "skills_micro_f1": 0.6242,
+      "skills_macro_precision": 0.5399,
+      "skills_macro_recall": 0.7709,
+      "rare_class_recall": 0.7709
+    },
+    {
+      "threshold": 0.35,
+      "skills_macro_f1": 0.6391,
+      "skills_micro_f1": 0.6319,
+      "skills_macro_precision": 0.5612,
+      "skills_macro_recall": 0.7497,
+      "rare_class_recall": 0.7497
+    },
+    {
+      "threshold": 0.37,
+      "skills_macro_f1": 0.6502,
+      "skills_micro_f1": 0.6421,
+      "skills_macro_precision": 0.5959,
+      "skills_macro_recall": 0.7272,
+      "rare_class_recall": 0.7272
+    },
+    {
+      "threshold": 0.39,
+      "skills_macro_f1": 0.6552,
+      "skills_micro_f1": 0.6459,
+      "skills_macro_precision": 0.6163,
+      "skills_macro_recall": 0.7099,
+      "rare_class_recall": 0.7099
+    },
+    {
+      "threshold": 0.41,
+      "skills_macro_f1": 0.6553,
+      "skills_micro_f1": 0.6466,
+      "skills_macro_precision": 0.6391,
+      "skills_macro_recall": 0.6869,
+      "rare_class_recall": 0.6869
+    },
+    {
+      "threshold": 0.43,
+      "skills_macro_f1": 0.655,
+      "skills_micro_f1": 0.6465,
+      "skills_macro_precision": 0.6586,
+      "skills_macro_recall": 0.6687,
+      "rare_class_recall": 0.6687
+    },
+    {
+      "threshold": 0.45,
+      "skills_macro_f1": 0.6545,
+      "skills_micro_f1": 0.6442,
+      "skills_macro_precision": 0.6735,
+      "skills_macro_recall": 0.6533,
+      "rare_class_recall": 0.6533
+    },
+    {
+      "threshold": 0.47,
+      "skills_macro_f1": 0.6549,
+      "skills_micro_f1": 0.6445,
+      "skills_macro_precision": 0.6937,
+      "skills_macro_recall": 0.6365,
+      "rare_class_recall": 0.6365
+    },
+    {
+      "threshold": 0.49,
+      "skills_macro_f1": 0.6512,
+      "skills_micro_f1": 0.6435,
+      "skills_macro_precision": 0.707,
+      "skills_macro_recall": 0.6196,
+      "rare_class_recall": 0.6196
+    }
+  ],
+  "fold_details": {
+    "A_Hybrid_LogReg": [
+      {
+        "skills_macro_f1": 0.5506,
+        "skills_micro_f1": 0.5229,
+        "skills_macro_precision": 0.5281,
+        "skills_macro_recall": 0.7486,
+        "rare_class_recall": 0.7486
+      },
+      {
+        "skills_macro_f1": 0.6614,
+        "skills_micro_f1": 0.6327,
+        "skills_macro_precision": 0.6431,
+        "skills_macro_recall": 0.7492,
+        "rare_class_recall": 0.7492
+      },
+      {
+        "skills_macro_f1": 0.7159,
+        "skills_micro_f1": 0.7169,
+        "skills_macro_precision": 0.6919,
+        "skills_macro_recall": 0.7986,
+        "rare_class_recall": 0.7986
+      },
+      {
+        "skills_macro_f1": 0.6975,
+        "skills_micro_f1": 0.65,
+        "skills_macro_precision": 0.6956,
+        "skills_macro_recall": 0.8012,
+        "rare_class_recall": 0.8012
+      },
+      {
+        "skills_macro_f1": 0.6396,
+        "skills_micro_f1": 0.6397,
+        "skills_macro_precision": 0.7703,
+        "skills_macro_recall": 0.6509,
+        "rare_class_recall": 0.6509
+      }
+    ],
+    "B_PyTorch_NN": [
+      {
+        "skills_macro_f1": 0.5061,
+        "skills_micro_f1": 0.4682,
+        "skills_macro_precision": 0.475,
+        "skills_macro_recall": 0.6952,
+        "rare_class_recall": 0.6952
+      },
+      {
+        "skills_macro_f1": 0.4199,
+        "skills_micro_f1": 0.402,
+        "skills_macro_precision": 0.3056,
+        "skills_macro_recall": 0.7693,
+        "rare_class_recall": 0.7693
+      },
+      {
+        "skills_macro_f1": 0.4393,
+        "skills_micro_f1": 0.4339,
+        "skills_macro_precision": 0.3176,
+        "skills_macro_recall": 0.7821,
+        "rare_class_recall": 0.7821
+      },
+      {
+        "skills_macro_f1": 0.4948,
+        "skills_micro_f1": 0.4381,
+        "skills_macro_precision": 0.4231,
+        "skills_macro_recall": 0.7527,
+        "rare_class_recall": 0.7527
+      },
+      {
+        "skills_macro_f1": 0.3441,
+        "skills_micro_f1": 0.3258,
+        "skills_macro_precision": 0.2395,
+        "skills_macro_recall": 0.8089,
+        "rare_class_recall": 0.8089
+      }
+    ],
+    "C1_MiniLM_Linear": [
+      {
+        "skills_macro_f1": 0.3996,
+        "skills_micro_f1": 0.3831,
+        "skills_macro_precision": 0.2965,
+        "skills_macro_recall": 0.743,
+        "rare_class_recall": 0.743
+      },
+      {
+        "skills_macro_f1": 0.4853,
+        "skills_micro_f1": 0.4685,
+        "skills_macro_precision": 0.3842,
+        "skills_macro_recall": 0.7551,
+        "rare_class_recall": 0.7551
+      },
+      {
+        "skills_macro_f1": 0.5438,
+        "skills_micro_f1": 0.5386,
+        "skills_macro_precision": 0.4491,
+        "skills_macro_recall": 0.7996,
+        "rare_class_recall": 0.7996
+      },
+      {
+        "skills_macro_f1": 0.5004,
+        "skills_micro_f1": 0.4481,
+        "skills_macro_precision": 0.4593,
+        "skills_macro_recall": 0.7204,
+        "rare_class_recall": 0.7204
+      },
+      {
+        "skills_macro_f1": 0.5824,
+        "skills_micro_f1": 0.531,
+        "skills_macro_precision": 0.4967,
+        "skills_macro_recall": 0.8278,
+        "rare_class_recall": 0.8278
+      }
+    ],
+    "C2_MiniLM_MLP": [
+      {
+        "skills_macro_f1": 0.3517,
+        "skills_micro_f1": 0.3389,
+        "skills_macro_precision": 0.2566,
+        "skills_macro_recall": 0.7255,
+        "rare_class_recall": 0.7255
+      },
+      {
+        "skills_macro_f1": 0.3596,
+        "skills_micro_f1": 0.3734,
+        "skills_macro_precision": 0.2395,
+        "skills_macro_recall": 0.8029,
+        "rare_class_recall": 0.8029
+      },
+      {
+        "skills_macro_f1": 0.4107,
+        "skills_micro_f1": 0.395,
+        "skills_macro_precision": 0.2972,
+        "skills_macro_recall": 0.7678,
+        "rare_class_recall": 0.7678
+      },
+      {
+        "skills_macro_f1": 0.3732,
+        "skills_micro_f1": 0.3483,
+        "skills_macro_precision": 0.2605,
+        "skills_macro_recall": 0.8218,
+        "rare_class_recall": 0.8218
+      },
+      {
+        "skills_macro_f1": 0.4543,
+        "skills_micro_f1": 0.4139,
+        "skills_macro_precision": 0.3636,
+        "skills_macro_recall": 0.7764,
+        "rare_class_recall": 0.7764
+      }
+    ]
+  }
+}

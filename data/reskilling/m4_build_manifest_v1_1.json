@@ -1,0 +1,40 @@
+{
+  "version": "1.1.0",
+  "module": "M4_PERSONALISED_RESKILLING_PATHWAY_ENGINE",
+  "build_timestamp": "2026-10-23T23:58:30+08:00",
+  "reference_date": "2026-10-23",
+  "reference_milestone": "Stage 12C Targeted M4 Remediation",
+  "upstream_dependencies": {
+    "m1_skills_extraction": {
+      "model": "H_blend_0.70A_0.30C1_W1.0",
+      "status": "FROZEN",
+      "provenance": "Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward."
+    },
+    "m2_trend_intelligence": {
+      "version": "v1.1.1",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542"
+    },
+    "m6_scenario_engine": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+    },
+    "m3_role_matching": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c"
+    }
+  },
+  "artifacts_sha256": {
+    "skill_prerequisites": "e07c548e251541cb8d24decfae2979cd5285fb702ccb65764b8fc9315ffb31cb",
+    "learning_resources": "52b410d8a33f80330a742b420f18caf4249444a1180735f3ea1b6c5ba5a86f17",
+    "scoring_config": "104daa16dd67cd77c3f9e0ec9495fcb64c74dc348b2a476ec1572c5956fa81c2",
+    "benchmark_results": "700fd1e7102b59b6fb99e27a0ade9b78492de253affcb94d77f12e81ecb0ee08",
+    "pricing_fixtures": "864ea96bbfc085a6b838cc77a4cf11d0ef232c6b780b4325983fee79112d6a99",
+    "source_code": "fb99d5bf10772a91103a2c17ea297d21334ba894e200f01ae955a3289f911ce1",
+    "build_prerequisites_script": "4b1b575ef7fb6860c3eb5ce20d24f73c3f56a8ba9e44c7678c5ea2423ef9ecb5",
+    "build_resources_script": "586ea78e9219ce4fcc8a316cea7d61d2ef35ba102c24243e16f4426d633d3580",
+    "run_benchmarks_script": "95a3052e27c4701cdcafde66a96012e85a6bd157309ab1d109855f5f571d8208"
+  }
+}

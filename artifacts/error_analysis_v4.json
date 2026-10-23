@@ -1,0 +1,541 @@
+{
+  "total_protocol_b_records": 63,
+  "records_with_any_error": 40,
+  "record_level_accuracy": 0.3651,
+  "error_category_distribution": {
+    "taxonomy_mismatch": 9,
+    "insufficient_context": 0,
+    "rare_skill": 28,
+    "false_positive": 35,
+    "false_negative": 46,
+    "synthetic_artefact": 0,
+    "semantic_ambiguity": 58
+  },
+  "sector_breakdown": {
+    "clerical_bpo": {
+      "total": 8,
+      "errors": 5
+    },
+    "ict_software": {
+      "total": 23,
+      "errors": 17
+    },
+    "ee_semiconductor": {
+      "total": 5,
+      "errors": 4
+    },
+    "sustainability_esg": {
+      "total": 9,
+      "errors": 4
+    },
+    "banking_finance": {
+      "total": 3,
+      "errors": 3
+    },
+    "other_cross_sector": {
+      "total": 15,
+      "errors": 7
+    }
+  },
+  "masco_group_breakdown": {
+    "2519": {
+      "total": 3,
+      "errors": 2
+    },
+    "2133": {
+      "total": 4,
+      "errors": 2
+    },
+    "2141": {
+      "total": 1,
+      "errors": 1
+    },
+    "2422": {
+      "total": 1,
+      "errors": 1
+    },
+    "2424": {
+      "total": 1,
+      "errors": 1
+    },
+    "2412": {
+      "total": 1,
+      "errors": 1
+    },
+    "4222": {
+      "total": 1,
+      "errors": 0
+    },
+    "4311": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-ai_literacy": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-prompt_engineering": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-process_mapping": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-sql_data_analysis": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-python_scripting": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-data_visualization": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-workflow_automation": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-human_in_the_loop_qa": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-rag_knowledge_systems": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-api_integration": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-ai_ethics_governance": {
+      "total": 1,
+      "errors": 1
+    },
+    "FW-data_privacy_pdpa": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-esg_sustainability_reporting": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-carbon_footprint_analytics": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-stakeholder_communication": {
+      "total": 1,
+      "errors": 0
+    },
+    "FW-instructional_design": {
+      "total": 1,
+      "errors": 0
+    },
+    "2511/2512/2521": {
+      "total": 5,
+      "errors": 5
+    },
+    "33/41": {
+      "total": 8,
+      "errors": 8
+    },
+    "2422/2519": {
+      "total": 10,
+      "errors": 9
+    },
+    "24/25": {
+      "total": 5,
+      "errors": 5
+    },
+    "41/43": {
+      "total": 2,
+      "errors": 1
+    },
+    "41/42": {
+      "total": 2,
+      "errors": 2
+    },
+    "4120": {
+      "total": 1,
+      "errors": 1
+    },
+    "4110": {
+      "total": 1,
+      "errors": 0
+    }
+  },
+  "malaysian_terminology_breakdown": {
+    "total": 10,
+    "errors": 6
+  },
+  "detailed_error_samples": [
+    {
+      "record_id": "masco-2519-01",
+      "masco_code": "2519",
+      "sector": "ICT / Semiconductor & E&E Penang Corridor",
+      "sector_bucket": "ee_semiconductor",
+      "text_snippet": "Executes automated software regression tests using Python scripting, conducts human-in-the-loop quality assurance on gen...",
+      "skill_mismatches": [
+        {
+          "skill": "rag_knowledge_systems",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "carbon_footprint_analytics",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "masco-2519-02",
+      "masco_code": "2519",
+      "sector": "ICT / Digital Services",
+      "sector_bucket": "ict_software",
+      "text_snippet": "Audits LLM responses and RAG citations for factual accuracy, designs structured prompt evaluation rubrics, logs human-in...",
+      "skill_mismatches": [
+        {
+          "skill": "api_integration",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "stakeholder_communication",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        },
+        {
+          "skill": "human_in_the_loop_qa",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "carbon_footprint_analytics",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "masco-2133-02",
+      "masco_code": "2133",
+      "sector": "Manufacturing & Petrochemicals (Johor / Sarawak)",
+      "sector_bucket": "sustainability_esg",
+      "text_snippet": "Monitors industrial energy consumption and greenhouse gas emissions using Python data pipelines, SQL telemetry databases...",
+      "skill_mismatches": [
+        {
+          "skill": "workflow_automation",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "data_privacy_pdpa",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        },
+        {
+          "skill": "ai_literacy",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "masco-2141-01",
+      "masco_code": "2141",
+      "sector": "Electrical & Electronics (E&E) Manufacturing",
+      "sector_bucket": "ee_semiconductor",
+      "text_snippet": "Maps factory floor production workflows and standard operating procedures under Malaysia Industry4WRD. Automates defect ...",
+      "skill_mismatches": [
+        {
+          "skill": "sql_data_analysis",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        }
+      ],
+      "demand_mismatch": true,
+      "true_demand": 1,
+      "pred_demand": 0
+    },
+    {
+      "record_id": "masco-2422-02",
+      "masco_code": "2422",
+      "sector": "Banking, Healthcare & Telecommunications",
+      "sector_bucket": "banking_finance",
+      "text_snippet": "Oversees statutory compliance with Malaysia's amended Personal Data Protection Act (PDPA), maps cross-border data flows,...",
+      "skill_mismatches": [
+        {
+          "skill": "prompt_engineering",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        },
+        {
+          "skill": "python_scripting",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "api_integration",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        },
+        {
+          "skill": "data_visualization",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        },
+        {
+          "skill": "human_in_the_loop_qa",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "carbon_footprint_analytics",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "esg_sustainability_reporting",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "masco-2424-02",
+      "masco_code": "2424",
+      "sector": "Human Resources & Corporate L&D",
+      "sector_bucket": "clerical_bpo",
+      "text_snippet": "Leads enterprise-wide AI competency assessment, designs structured learning pathways for displaced clerical staff, track...",
+      "skill_mismatches": [
+        {
+          "skill": "prompt_engineering",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "human_in_the_loop_qa",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "masco-2412-01",
+      "masco_code": "2412",
+      "sector": "Financial Services & Fintech Kuala Lumpur",
+      "sector_bucket": "ict_software",
+      "text_snippet": "Extracts and reconciles financial transaction records using SQL queries, builds executive KPI dashboards and data visual...",
+      "skill_mismatches": [
+        {
+          "skill": "python_scripting",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        }
+      ],
+      "demand_mismatch": true,
+      "true_demand": 1,
+      "pred_demand": 0
+    },
+    {
+      "record_id": "fw-applied-ai_ethics_governance",
+      "masco_code": "FW-ai_ethics_governance",
+      "sector": "Cross-Sector Competency Standard",
+      "sector_bucket": "other_cross_sector",
+      "text_snippet": "Applies AI Ethics, Fairness Auditing & Governance in daily organizational workflows to audit ai systems for demographic ...",
+      "skill_mismatches": [
+        {
+          "skill": "prompt_engineering",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "esco-74dc314d",
+      "masco_code": "2511/2512/2521",
+      "sector": "Occupational Taxonomy",
+      "sector_bucket": "ict_software",
+      "text_snippet": "Occupation: software developer. Software developers implement or program all kinds of software systems based on specific...",
+      "skill_mismatches": [
+        {
+          "skill": "data_visualization",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        },
+        {
+          "skill": "sql_data_analysis",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "esco-b19baa63",
+      "masco_code": "2511/2512/2521",
+      "sector": "Occupational Taxonomy",
+      "sector_bucket": "ict_software",
+      "text_snippet": "Occupation: embedded system designer. Embedded system designers translate and design requirements and the high-level pla...",
+      "skill_mismatches": [
+        {
+          "skill": "data_visualization",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "esco-3145367f",
+      "masco_code": "33/41",
+      "sector": "Occupational Taxonomy",
+      "sector_bucket": "banking_finance",
+      "text_snippet": "Occupation: statistician. Statisticians collect, tabulate, and, most importantly, analyse quantitative information comin...",
+      "skill_mismatches": [
+        {
+          "skill": "data_visualization",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        },
+        {
+          "skill": "carbon_footprint_analytics",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 0,
+      "pred_demand": 0
+    },
+    {
+      "record_id": "esco-d43e3761",
+      "masco_code": "2511/2512/2521",
+      "sector": "Occupational Taxonomy",
+      "sector_bucket": "ict_software",
+      "text_snippet": "Occupation: ICT intelligent systems designer. ICT intelligent systems designers apply methods of artificial intelligence...",
+      "skill_mismatches": [
+        {
+          "skill": "carbon_footprint_analytics",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    },
+    {
+      "record_id": "esco-16979f41",
+      "masco_code": "2422/2519",
+      "sector": "Occupational Taxonomy",
+      "sector_bucket": "ict_software",
+      "text_snippet": "Occupation: flight test engineer. Flight test engineers work with other systems engineers to plan the tests in detail an...",
+      "skill_mismatches": [],
+      "demand_mismatch": true,
+      "true_demand": 1,
+      "pred_demand": 0
+    },
+    {
+      "record_id": "esco-0c1e0c35",
+      "masco_code": "33/41",
+      "sector": "Occupational Taxonomy",
+      "sector_bucket": "clerical_bpo",
+      "text_snippet": "Occupation: maintenance and repair engineer. Maintenance and repair engineers focus on the optimization of equipment, pr...",
+      "skill_mismatches": [
+        {
+          "skill": "python_scripting",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "human_in_the_loop_qa",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 0,
+      "pred_demand": 0
+    },
+    {
+      "record_id": "esco-5f76f51c",
+      "masco_code": "2511/2512/2521",
+      "sector": "Occupational Taxonomy",
+      "sector_bucket": "ict_software",
+      "text_snippet": "Occupation: picture archiving and communication systems administrator. Picture archiving and communication systems admin...",
+      "skill_mismatches": [
+        {
+          "skill": "data_privacy_pdpa",
+          "pred": 0,
+          "true": 1,
+          "category": "false_negative"
+        },
+        {
+          "skill": "carbon_footprint_analytics",
+          "pred": 1,
+          "true": 0,
+          "category": "false_positive"
+        }
+      ],
+      "demand_mismatch": false,
+      "true_demand": 1,
+      "pred_demand": 1
+    }
+  ]
+}

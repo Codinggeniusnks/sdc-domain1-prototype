@@ -1,0 +1,213 @@
+{
+  "best_a_id": "A_base_C2.5_W1.5",
+  "best_a_res": {
+    "config_id": "A_base_C2.5_W1.5",
+    "family": "Candidate A",
+    "description": "Word (1,3)+Char (3,5), C=2.5, min_df=1, Gold=1.5",
+    "macro_f1": 0.6169,
+    "micro_f1": 0.6075,
+    "macro_precision": 0.5716,
+    "macro_recall": 0.6813,
+    "rare_class_recall": 0.6066,
+    "fold_sd": 0.1217,
+    "min_fold_macro_f1": 0.3673,
+    "max_fold_macro_f1": 0.7231,
+    "elapsed_sec": 3.77
+  },
+  "best_a_thresh": {
+    "model_id": "A_base_C2.5_W1.5",
+    "threshold": 0.375,
+    "macro_f1": 0.6266,
+    "micro_f1": 0.6218,
+    "macro_precision": 0.6006,
+    "macro_recall": 0.6666,
+    "rare_class_recall": 0.5901
+  },
+  "best_c1_id": "C1_MiniLM_C3.0_W1.0",
+  "best_c1_res": {
+    "config_id": "C1_MiniLM_C3.0_W1.0",
+    "family": "Candidate C1",
+    "description": "Frozen MiniLM + LogReg C=3.0, Gold=1.0, balanced",
+    "macro_f1": 0.5946,
+    "micro_f1": 0.5776,
+    "macro_precision": 0.4848,
+    "macro_recall": 0.7937,
+    "rare_class_recall": 0.7479,
+    "fold_sd": 0.1139,
+    "min_fold_macro_f1": 0.3312,
+    "max_fold_macro_f1": 0.6652,
+    "elapsed_sec": 1.39
+  },
+  "best_h_id": "H_blend_0.70A_0.30C1",
+  "best_h_res": {
+    "config_id": "H_blend_0.70A_0.30C1",
+    "family": "Hybrid Ensemble",
+    "description": "Probability blend 70% A_base_C2.5_W1.5 + 30% C1_MiniLM_C3.0_W1.0",
+    "macro_f1": 0.6407,
+    "micro_f1": 0.6265,
+    "macro_precision": 0.5815,
+    "macro_recall": 0.7363,
+    "rare_class_recall": 0.6651,
+    "fold_sd": 0.1061,
+    "min_fold_macro_f1": 0.4247,
+    "max_fold_macro_f1": 0.7316,
+    "elapsed_sec": 0.01
+  },
+  "best_h_thresh": {
+    "model_id": "H_blend_0.70A_0.30C1",
+    "threshold": 0.375,
+    "macro_f1": 0.6434,
+    "micro_f1": 0.6357,
+    "macro_precision": 0.6039,
+    "macro_recall": 0.7028,
+    "rare_class_recall": 0.6313
+  },
+  "dual_policy": {
+    "A_base_C2.5_W1.5": {
+      "core_precision": 0.6474,
+      "core_recall": 0.5865,
+      "suggested_precision": 0.2133,
+      "missed_by_core_total": 327,
+      "recovered_by_suggested": 164,
+      "recovery_rate_pct": 50.15,
+      "false_suggestion_burden_per_doc": 1.95
+    },
+    "C1_MiniLM_C3.0_W1.0": {
+      "core_precision": 0.5647,
+      "core_recall": 0.7006,
+      "suggested_precision": 0.1637,
+      "missed_by_core_total": 230,
+      "recovered_by_suggested": 145,
+      "recovery_rate_pct": 63.04,
+      "false_suggestion_burden_per_doc": 2.38
+    },
+    "H_blend_0.70A_0.30C1": {
+      "core_precision": 0.6524,
+      "core_recall": 0.6319,
+      "suggested_precision": 0.2,
+      "missed_by_core_total": 287,
+      "recovered_by_suggested": 177,
+      "recovery_rate_pct": 61.67,
+      "false_suggestion_burden_per_doc": 2.28
+    }
+  },
+  "calibration": {
+    "raw_ece_a": 0.0654,
+    "cal_ece_a": 0.0134,
+    "raw_brier_a": 0.0904,
+    "cal_brier_a": 0.0874,
+    "raw_f1_a": 0.6169,
+    "cal_f1_a": 0.5786
+  },
+  "complementarity": {
+    "both_correct": 3821,
+    "a_correct_c1_wrong": 486,
+    "a_wrong_c1_correct": 286,
+    "both_wrong": 383,
+    "c1_recovery_rate_pct": 42.75,
+    "disagreement_samples": [
+      {
+        "record_id": "masco-2512-01",
+        "skill": "api_integration",
+        "text_snippet": "Designs, develops, and maintains production software systems in Malaysia's digital economy corridor. Writes modular Pyth",
+        "prob_a": 0.1694,
+        "prob_c1": 0.5638
+      },
+      {
+        "record_id": "masco-2512-02",
+        "skill": "ai_literacy",
+        "text_snippet": "Builds enterprise knowledge retrieval systems using large language models, vector databases, semantic search embeddings,",
+        "prob_a": 0.3246,
+        "prob_c1": 0.6295
+      },
+      {
+        "record_id": "masco-2511-02",
+        "skill": "workflow_automation",
+        "text_snippet": "Leads workplace generative AI deployment by mapping business process bottlenecks, authoring structured prompt templates,",
+        "prob_a": 0.3244,
+        "prob_c1": 0.4583
+      },
+      {
+        "record_id": "masco-2521-01",
+        "skill": "api_integration",
+        "text_snippet": "Manages enterprise relational databases, writes complex SQL queries and data warehouse transformations, enforces Malaysi",
+        "prob_a": 0.3794,
+        "prob_c1": 0.373
+      },
+      {
+        "record_id": "masco-2521-02",
+        "skill": "sql_data_analysis",
+        "text_snippet": "Curates structured SQL data marts and unstructured document indexing pipelines for retrieval-augmented generation (RAG).",
+        "prob_a": 0.164,
+        "prob_c1": 0.6257
+      },
+      {
+        "record_id": "masco-2422-01",
+        "skill": "ai_literacy",
+        "text_snippet": "Audits enterprise AI systems against Malaysia MOSTI National AI Governance and Ethics (AIGE) guidelines and Personal Dat",
+        "prob_a": 0.1131,
+        "prob_c1": 0.4079
+      },
+      {
+        "record_id": "masco-2422-01",
+        "skill": "human_in_the_loop_qa",
+        "text_snippet": "Audits enterprise AI systems against Malaysia MOSTI National AI Governance and Ethics (AIGE) guidelines and Personal Dat",
+        "prob_a": 0.2857,
+        "prob_c1": 0.4877
+      },
+      {
+        "record_id": "masco-2424-01",
+        "skill": "process_mapping",
+        "text_snippet": "Designs adult reskilling curricula and HRD Corp e-LATiH training modules on foundational AI literacy, structured prompt ",
+        "prob_a": 0.2038,
+        "prob_c1": 0.4796
+      },
+      {
+        "record_id": "masco-4110-01",
+        "skill": "data_visualization",
+        "text_snippet": "Performs routine clerical duties including photocopying forms, sorting physical mail, filing paper invoices in cabinets,",
+        "prob_a": 0.3857,
+        "prob_c1": 0.0719
+      },
+      {
+        "record_id": "masco-4132-01",
+        "skill": "sql_data_analysis",
+        "text_snippet": "Manually keys handwritten receipts, paper survey forms, and shipping dockets into static spreadsheets. Performs repetiti",
+        "prob_a": 0.5792,
+        "prob_c1": 0.2917
+      }
+    ]
+  },
+  "complexity": {
+    "Candidate A": {
+      "disk_size_mb": 4.2,
+      "ram_mb": 45.0,
+      "cold_start_ms": 16.6,
+      "mean_latency_ms": 3.26,
+      "p95_latency_ms": 4.02,
+      "dependencies": "scikit-learn, scipy, numpy",
+      "cpu_requirement": "Low (single thread sufficient)",
+      "deployment_complexity": "Minimal (standard Python/wheel)"
+    },
+    "Candidate C1": {
+      "disk_size_mb": 91.5,
+      "ram_mb": 240.0,
+      "cold_start_ms": 59.5,
+      "mean_latency_ms": 0.95,
+      "p95_latency_ms": 1.86,
+      "dependencies": "torch, sentence-transformers, transformers",
+      "cpu_requirement": "Moderate (vectorization overhead)",
+      "deployment_complexity": "Moderate (PyTorch runtime required)"
+    },
+    "Hybrid Ensemble": {
+      "disk_size_mb": 95.7,
+      "ram_mb": 285.0,
+      "cold_start_ms": 76.1,
+      "mean_latency_ms": 4.21,
+      "p95_latency_ms": 5.88,
+      "dependencies": "scikit-learn, torch, sentence-transformers",
+      "cpu_requirement": "Moderate (dual inference paths)",
+      "deployment_complexity": "Moderate (PyTorch runtime + TF-IDF pipeline)"
+    }
+  }
+}

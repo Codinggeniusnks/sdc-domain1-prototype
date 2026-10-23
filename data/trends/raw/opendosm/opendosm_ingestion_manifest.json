@@ -1,0 +1,53 @@
+{
+  "retrieved_at": "2026-10-23T06:22:49.808992+00:00",
+  "datasets": [
+    {
+      "dataset_id": "lfs_month",
+      "title": "Monthly Labour Force Statistics",
+      "status": "LIVE_INGESTED",
+      "record_count": 200,
+      "file": "lfs_month_snapshot.json",
+      "retrieved_at": "2026-10-23T06:22:49.808992+00:00"
+    },
+    {
+      "dataset_id": "lfs_qtr",
+      "title": "Quarterly Labour Force Statistics",
+      "status": "LIVE_INGESTED",
+      "record_count": 66,
+      "file": "lfs_qtr_snapshot.json",
+      "retrieved_at": "2026-10-23T06:22:49.808992+00:00"
+    },
+    {
+      "dataset_id": "wages_occupation",
+      "title": "Salaries & Wages by Occupation (Annual)",
+      "status": "LIVE_INGESTED",
+      "record_count": 480,
+      "file": "wages_occupation_snapshot.json",
+      "retrieved_at": "2026-10-23T06:22:49.808992+00:00"
+    },
+    {
+      "dataset_id": "wages_skill",
+      "title": "Salaries & Wages by Skill Level (Annual)",
+      "status": "LIVE_INGESTED",
+      "record_count": 192,
+      "file": "wages_skill_snapshot.json",
+      "retrieved_at": "2026-10-23T06:22:49.808992+00:00"
+    },
+    {
+      "dataset_id": "employment_sector",
+      "title": "Employment by Economic Sector (Annual)",
+      "status": "LIVE_INGESTED",
+      "record_count": 225,
+      "file": "employment_sector_snapshot.json",
+      "retrieved_at": "2026-10-23T06:22:49.808992+00:00"
+    },
+    {
+      "dataset_id": "wages_industry",
+      "title": "Salaries & Wages by Industry Section (Annual)",
+      "status": "LIVE_INGESTED",
+      "record_count": 960,
+      "file": "wages_industry_snapshot.json",
+      "retrieved_at": "2026-10-23T06:22:49.808992+00:00"
+    }
+  ]
+}

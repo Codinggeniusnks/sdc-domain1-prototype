@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "confidence_metric": "EVIDENCE_CONFIDENCE_INDEX",
+  "scale": {
+    "min": 0,
+    "max": 100
+  },
+  "categorical_tiers": {
+    "HIGH": {
+      "min_index": 75,
+      "min_independent_families": 3,
+      "conflict_allowed": false
+    },
+    "MEDIUM": {
+      "min_index": 50,
+      "min_independent_families": 2,
+      "conflict_allowed": true
+    },
+    "LOW": {
+      "min_index": 25,
+      "min_independent_families": 1,
+      "conflict_allowed": true
+    },
+    "INSUFFICIENT": {
+      "max_index": 24,
+      "min_independent_families": 0
+    }
+  },
+  "family_weights": {
+    "TALENTCORP_MYCOL": 30,
+    "TALENTCORP_IMPACT_STUDY": 25,
+    "DOSM_WAGES": 20,
+    "DOSM_LABOUR_FORCE": 15,
+    "MALAYSIAN_GOVERNMENT_POLICY": 20,
+    "ILO_GENAI_STUDY": 20,
+    "OPENALEX_SCHOLARLY": 15
+  },
+  "penalties": {
+    "single_source_family_cap": 45,
+    "conflicting_evidence_penalty": 20,
+    "stale_dynamic_data_penalty": 15,
+    "low_mapping_confidence_penalty": 10
+  }
+}

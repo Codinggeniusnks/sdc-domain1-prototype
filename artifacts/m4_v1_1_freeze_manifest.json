@@ -1,0 +1,88 @@
+{
+  "engine_version": "1.1.0",
+  "parent_version": "1.0.0",
+  "module": "M4_PERSONALISED_RESKILLING_PATHWAY_ENGINE",
+  "freeze_status": "FORMALLY_FROZEN",
+  "freeze_timestamp": "2026-10-24T00:18:00+08:00",
+  "reference_date": "2026-10-23",
+  "resource_verification_date": "2026-10-23",
+  "reference_milestone": "Stage 12D Formal Freeze Verification",
+  "upstream_dependencies": {
+    "m1_skills_extraction": {
+      "model": "H_blend_0.70A_0.30C1_W1.0",
+      "status": "FROZEN",
+      "provenance": "Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward."
+    },
+    "m2_trend_intelligence": {
+      "version": "v1.1.1",
+      "status": "FORMALLY_FROZEN",
+      "freeze_hash": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542"
+    },
+    "m6_scenario_engine": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "freeze_hash": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+    },
+    "m3_role_matching": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "freeze_hash": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c"
+    }
+  },
+  "asset_hashes_sha256": {
+    "prerequisite_graph": "e07c548e251541cb8d24decfae2979cd5285fb702ccb65764b8fc9315ffb31cb",
+    "production_resource_catalog": "52b410d8a33f80330a742b420f18caf4249444a1180735f3ea1b6c5ba5a86f17",
+    "scoring_config": "104daa16dd67cd77c3f9e0ec9495fcb64c74dc348b2a476ec1572c5956fa81c2",
+    "benchmark_output": "700fd1e7102b59b6fb99e27a0ade9b78492de253affcb94d77f12e81ecb0ee08",
+    "source_code": "fb99d5bf10772a91103a2c17ea297d21334ba894e200f01ae955a3289f911ce1",
+    "build_manifest": "df70619673fdabea418006a14117aeb67c7ea51869a43c3691f6712a8b769ba4",
+    "pricing_fixtures": "864ea96bbfc085a6b838cc77a4cf11d0ef232c6b780b4325983fee79112d6a99"
+  },
+  "production_catalog_summary": {
+    "total_production_resources": 36,
+    "test_fixtures_in_production": 0,
+    "cost_distribution": {
+      "FREE": 31,
+      "FREE_TO_AUDIT": 5,
+      "FREEMIUM": 0,
+      "LOW_COST": 0,
+      "VARIABLE_PRICE": 0,
+      "UNKNOWN": 0
+    },
+    "raw_provider_labels_count": 27,
+    "normalized_provider_groups_count": 21
+  },
+  "prerequisite_graph_summary": {
+    "total_prerequisite_relations": 15,
+    "relation_strength_counts": {
+      "REQUIRED": 4,
+      "RECOMMENDED": 8,
+      "OPTIONAL": 3
+    },
+    "cycle_audit_result": "PASS_ACYCLIC",
+    "unsupported_required_count": 0
+  },
+  "confidence_architecture_summary": {
+    "formula": "0.30 * SkillGap + 0.25 * PrereqQuality + 0.25 * ResourceVerification + 0.20 * Freshness",
+    "weights_sum": 1.00,
+    "benchmark_distribution": {
+      "min": 91.3,
+      "max": 93.6,
+      "mean": 92.54,
+      "std": 0.86,
+      "saturation_status": "ELIMINATED"
+    },
+    "controlled_degradation_test_status": "PASS_HIGH_MEDIUM_LOW_VERIFIED"
+  },
+  "test_summary": {
+    "m4_unit_tests": "24 / 24 PASSED",
+    "m4_freeze_verification_tests": "9 / 9 PASSED",
+    "total_m4_tests": "33 / 33 PASSED",
+    "regression_tests": {
+      "m3_role_matching": "28 / 28 PASSED",
+      "m6_scenario_engine": "12 / 12 PASSED",
+      "m2_trend_intelligence": "13 / 13 PASSED"
+    }
+  },
+  "freeze_verdict": "M4 V1.1 APPROVED AND READY TO FREEZE"
+}

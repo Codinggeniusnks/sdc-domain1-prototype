@@ -1,0 +1,49 @@
+{
+  "BM01": {
+    "title": "Initial Progress Ledger Instantiation",
+    "passed": true,
+    "total_milestones": 3
+  },
+  "BM02": {
+    "title": "State Transition Lifecycle",
+    "passed": true,
+    "final_status": "SKILL_EVIDENCE_UPDATED"
+  },
+  "BM03": {
+    "title": "Illegal State Transition Rejection",
+    "passed": true,
+    "rejection_message": "Illegal state transition from NOT_STARTED to SKILL_EVIDENCE_UPDATED."
+  },
+  "BM04": {
+    "title": "Credential Evidence Verification",
+    "passed": true
+  },
+  "BM05": {
+    "title": "Non-Competitive Recognition Badges",
+    "passed": true,
+    "earned_badges": [
+      "FIRST_STEP_TAKEN",
+      "CORE_FOUNDATION_ACHIEVED",
+      "VERIFIED_CREDENTIAL_EARNED"
+    ]
+  },
+  "BM06": {
+    "title": "Verified Skills Delta for O2 Replanning",
+    "passed": true,
+    "verified_skills": [
+      "git",
+      "python"
+    ]
+  },
+  "BM07": {
+    "title": "Cohort Progress Privacy Preservation (k=5)",
+    "passed": true,
+    "m1_reportable_count": 7,
+    "m2_suppressed_display": "<5"
+  },
+  "BM08": {
+    "title": "Responsible-AI Employment Disclaimer Persistence",
+    "passed": true,
+    "disclaimer_text": "Official Notice: Completion of learning modules demonstrates training engagement and capability acquisition. It does not constitute an automated guarantee of employment, promotion, or wage elevation."
+  }
+}

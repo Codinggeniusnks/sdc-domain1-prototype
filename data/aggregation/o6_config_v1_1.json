@@ -1,0 +1,105 @@
+{
+  "version": "1.1.0",
+  "engine_name": "O6 SDG Contribution Aggregation Engine",
+  "framework": "UN 2030 Agenda for Sustainable Development (17 Goals, 169 Targets - Selected Domain-Relevant Subset)",
+  "description": "Descriptive workforce sustainability capability and alignment prevalence aggregation engine across individual, cohort, and regional levels.",
+  "status": "REMEDIATED_STAGE_14C",
+  "pinned_dependencies": {
+    "m5_sdg_mapping_version": "1.1.0",
+    "m4_reskilling_pathways_version": "1.1.0",
+    "m3_role_matching_version": "1.1.0",
+    "m6_scenario_engine_version": "1.1.0"
+  },
+  "privacy_safeguards": {
+    "minimum_cohort_size": 5,
+    "policy_type": "PROJECT_ENGINEERING_SAFEGUARD",
+    "legal_basis_disclaimer": "Project-defined privacy safeguard using minimum cohort-size suppression / k-anonymity-style aggregation. This is an internal engineering risk-mitigation policy and does NOT constitute a statutory requirement under Malaysia Personal Data Protection Act 2010 (Act 709).",
+    "suppression_code": "SUPPRESSED_SMALL_COHORT",
+    "complementary_suppression_code": "SUPPRESSED_COMPLEMENTARY_RULE",
+    "enable_complementary_suppression": true,
+    "privacy_protection_level": "PROTOTYPE_PARTITION_SUPPRESSION",
+    "cross_query_differencing_protection": "PARTIAL",
+    "privacy_limitations": [
+      "Arbitrary adaptive query-history reconstruction is not fully prevented in this prototype.",
+      "Production deployment with sensitive real-world data would require stronger disclosure controls such as query-history enforcement and/or formally calibrated privacy mechanisms."
+    ],
+    "differencing_warning": "Protection applies to engine-generated partition outputs. Arbitrary repeated/adaptive cross-query differencing is not fully prevented in this prototype.",
+    "differential_privacy_claimed": false,
+    "forbidden_demographic_keys": [
+      "race",
+      "religion",
+      "gender",
+      "ethnicity",
+      "income",
+      "school",
+      "postcode",
+      "family_background",
+      "age",
+      "marital_status",
+      "nationality",
+      "disability"
+    ]
+  },
+  "fairness_safeguards": {
+    "protected_attributes_used": false,
+    "demographic_fairness_evaluated": false,
+    "fairness_scope": "STRUCTURAL_PROTECTED_ATTRIBUTE_NON_USE",
+    "future_fairness_audit_hook": true,
+    "fairness_policy_note": "Protected demographic attributes are excluded from O6 inputs and aggregation logic. Because the synthetic Stage 14 dataset contains no demographic group labels, empirical demographic disparity metrics such as Disparate Impact Ratio are not evaluated."
+  },
+  "metric_specifications": {
+    "mapping_type_counting_unit": "UNIQUE_PROFILE_TARGET_MAPPING_TYPE_RELATION",
+    "mapping_type_counting_unit_formula": "(i, t, tau) unique tuple per profile-target-type",
+    "pathway_alignment_coverage_scope": "PLANNED_CURRICULUM_SKILL_STEPS",
+    "pathway_alignment_coverage_disclaimer": "Coverage reflects planned reskilling curriculum alignment, not verified course completion, skill mastery, or realised SDG impact.",
+    "representativeness_disclaimer": "Synthetic demonstration cohort; not statistically representative of the Malaysian national or regional workforce.",
+    "data_source_class": "SYNTHETIC_DEMO"
+  },
+  "analytical_levels": [
+    "INDIVIDUAL",
+    "WORKFORCE_COHORT",
+    "REGIONAL_SYNTHETIC",
+    "PARTITION_BREAKDOWN"
+  ],
+  "time_dimensions": [
+    "CURRENT",
+    "POST_PATHWAY"
+  ],
+  "post_pathway_semantics": {
+    "label": "PROJECTED CAPABILITY ALIGNMENT IF PATHWAY COMPLETED",
+    "disclaimer": "POST_PATHWAY represents a structured capability scenario assuming successful competency acquisition. It does NOT assert guaranteed training completion, verified skill mastery, employment acquisition, or realized environmental/societal impact."
+  },
+  "methodology_disclaimer": "O6 is a descriptive workforce capability alignment analytics engine, NOT an impact measurement system. Alignment prevalence indicates the proportion of workforce profiles or competencies mapped to UN SDG targets via M5 qualitative evidence. O6 does not measure actual carbon reductions, jobs created, or national progress toward SDGs.",
+  "guardrails": {
+    "forbid_hr_decision_use": true,
+    "hr_decision_warning": "O6 workforce sustainability analytics must NEVER be used to hire, fire, promote, penalize, or score individual employee performance.",
+    "forbid_employee_ranking": true,
+    "forbid_synthetic_impact_quantification": true,
+    "forbid_synthetic_weighting_sums": true,
+    "forbid_backpropagation_to_m3_m4_m5": true,
+    "forbid_protected_demographic_aggregation": true,
+    "forbid_empirical_dir_claims": true
+  },
+  "allowed_terminology": [
+    "SDG alignment prevalence",
+    "capability alignment",
+    "workforce representation",
+    "target coverage",
+    "direct/enabling/contextual mapping distribution",
+    "descriptive competency ratios",
+    "projected capability alignment if pathway completed",
+    "structural protected-attribute non-use"
+  ],
+  "prohibited_terminology": [
+    "SDG impact achieved",
+    "SDG score improved by X%",
+    "company contributes Y% to SDG 13",
+    "tonnes of CO2 saved",
+    "jobs created",
+    "social ROI",
+    "green employee score",
+    "sustainability virtue rank",
+    "disparate impact ratio = 1.000",
+    "empirical demographic parity certified"
+  ]
+}

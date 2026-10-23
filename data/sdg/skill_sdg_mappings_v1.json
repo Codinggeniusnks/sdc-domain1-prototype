@@ -1,0 +1,932 @@
+{
+  "version": "1.0.0",
+  "module": "M5_SDG_IMPACT_MAPPING_ENGINE",
+  "total_skills_mapped": 16,
+  "generated_date": "2026-10-24",
+  "canonical_skills_coverage": "16_OF_16",
+  "mappings": [
+    {
+      "entity_id": "ai_literacy",
+      "entity_name": "AI Literacy & Principles",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        4
+      ],
+      "secondary_sdgs": [
+        8
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 4,
+          "target_ids": [
+            "4.4"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "AI literacy provides foundational digital understanding necessary for workers and citizens to participate effectively in the technology-enabled modern workforce.",
+          "contribution_pathway": "Enables learners to acquire essential technical skills that promote decent employment and lifelong workforce employability in an automated economy.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_4_4",
+            "UNESCO_AI_COMPETENCY_FRAMEWORK_2024"
+          ],
+          "evidence_references": "UNESCO AI Competency Framework for Teachers and Citizens (2024); UN SDG Target 4.4 on youth and adult technical skills.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "FOUNDATIONAL_CAPABILITY"
+          ],
+          "impact_caveats": "Knowledge alone does not guarantee employment without complementary vocational training and market access.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.2"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Basic understanding of artificial intelligence capabilities enables employees to adapt to technological changes, supporting productivity improvements in workplace operations.",
+          "contribution_pathway": "Supports enterprise operational transition toward diversified and technologically upgraded workflows.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_2",
+            "ILO_GENAI_WORKFORCE_REPORT_2023"
+          ],
+          "evidence_references": "ILO GenAI and Jobs Report (2023); UN SDG Target 8.2 on technological upgrading.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "INDIRECT_PRODUCTIVITY_EFFECT"
+          ],
+          "impact_caveats": "Workplace technology adoption must be paired with fair labour transitions to avoid worker displacement.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "prompt_engineering",
+      "entity_name": "Prompt Engineering & LLM Context Design",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        8
+      ],
+      "secondary_sdgs": [
+        9
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.2"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Prompt engineering allows workers to effectively steer generative AI models, improving efficiency and output quality in digital communication, documentation, and analysis tasks.",
+          "contribution_pathway": "Enables workforce productivity enhancement through human-AI augmentation and task-level efficiency gains.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_2",
+            "OECD_AI_POLICY_OBSERVATORY_2024"
+          ],
+          "evidence_references": "OECD AI Policy Observatory Working Paper on Generative AI and Task-Level Productivity (2024).",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "GENERAL_PURPOSE_SKILL",
+            "TASK_AUGMENTATION"
+          ],
+          "impact_caveats": "Risk of hallucinations or over-reliance requires structured verification and human-in-the-loop validation.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 9,
+          "target_ids": [
+            "9.c"
+          ],
+          "mapping_type": "CONTEXTUAL",
+          "alignment_strength": "LIMITED",
+          "alignment_explanation": "Facilitates natural language interaction with complex software platforms and information systems, lowering interface barriers.",
+          "contribution_pathway": "Enables broader user access to enterprise software and technological tools through conversational interfaces.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_9_C",
+            "ITU_DIGITAL_INCLUSION_2023"
+          ],
+          "evidence_references": "ITU Global Connectivity Report (2023) Section 4: Human-Centric Interfaces.",
+          "mapping_confidence": "MEDIUM",
+          "derivation_rule_id": "SKILL_GENERAL_PURPOSE_CONTEXTUAL",
+          "quality_flags": [
+            "CONTEXT_DEPENDENT_ALIGNMENT",
+            "GENERAL_PURPOSE_SKILL"
+          ],
+          "impact_caveats": "Contextual benefit depends on language model linguistic support and computing accessibility.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "process_mapping",
+      "entity_name": "Process Mapping & BPMN Modeling",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        8
+      ],
+      "secondary_sdgs": [
+        12
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.2"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Standardized process modeling allows organizations to identify operational bottlenecks, eliminate redundant steps, and systematically raise labor and resource productivity.",
+          "contribution_pathway": "Enables structured operational diversification and efficiency enhancements across administrative, manufacturing, and service workflows.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_2",
+            "MALAYSIA_PRODUCTIVITY_BLUEPRINT_2024"
+          ],
+          "evidence_references": "Malaysia Productivity Blueprint 2024-2030 (MPC); UN SDG Target 8.2.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "OPERATIONAL_EFFICIENCY"
+          ],
+          "impact_caveats": "Process restructuring should prioritize worker safety and ergonomic well-being alongside output speed.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 12,
+          "target_ids": [
+            "12.6"
+          ],
+          "mapping_type": "CONTEXTUAL",
+          "alignment_strength": "LIMITED",
+          "alignment_explanation": "When applied to enterprise supply chains, process mapping identifies material waste, paper consumption, and energy losses in business operations.",
+          "contribution_pathway": "Enables corporate auditing of resource cycles and supports implementation of circular and lean operational practices.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_12_6",
+            "BURSA_MALAYSIA_ESG_GUIDE_2024"
+          ],
+          "evidence_references": "Bursa Malaysia Sustainability Reporting Guide 2024: Operational Flow Analysis.",
+          "mapping_confidence": "MEDIUM",
+          "derivation_rule_id": "SKILL_GENERAL_PURPOSE_CONTEXTUAL",
+          "quality_flags": [
+            "CONTEXT_DEPENDENT_ALIGNMENT",
+            "SECTOR_DEPENDENT_ALIGNMENT"
+          ],
+          "impact_caveats": "Only contributes to SDG 12 when organizations explicitly optimize for environmental footprints rather than purely financial cost-cutting.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "sql_data_analysis",
+      "entity_name": "SQL Data Analysis & Query Optimization",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        17
+      ],
+      "secondary_sdgs": [
+        8
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 17,
+          "target_ids": [
+            "17.18"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Relational data extraction and querying capabilities are fundamental for aggregating, filtering, and verifying data required for institutional monitoring, accountability, and evidence-based decision-making.",
+          "contribution_pathway": "Directly enables data analysts and institutions to extract timely, reliable metrics from administrative databases for national and corporate reporting.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_17_18",
+            "UNSD_BIG_DATA_FOR_SDGS_2023"
+          ],
+          "evidence_references": "UN Statistics Division (UNSD) Handbook on Using Administrative and Database Data for SDG Monitoring (2023).",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "DATA_INTEGRITY_CAPABILITY",
+            "GENERAL_PURPOSE_SKILL"
+          ],
+          "impact_caveats": "Data analysis quality depends on source database cleanliness, representativeness, and ethical data collection.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.2"
+          ],
+          "mapping_type": "CONTEXTUAL",
+          "alignment_strength": "LIMITED",
+          "alignment_explanation": "Supports operational business intelligence and commercial performance analytics across private sector enterprises.",
+          "contribution_pathway": "Assists managerial decisions regarding resource allocation and operational throughput.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_2"
+          ],
+          "evidence_references": "UN SDG Target 8.2 on economic diversification and productivity.",
+          "mapping_confidence": "MEDIUM",
+          "derivation_rule_id": "SKILL_GENERAL_PURPOSE_CONTEXTUAL",
+          "quality_flags": [
+            "GENERAL_PURPOSE_SKILL"
+          ],
+          "impact_caveats": "Commercial query extraction does not inherently advance sustainable development without dedicated sustainability objectives.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "python_scripting",
+      "entity_name": "Python Scripting & Data Transformation",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        9
+      ],
+      "secondary_sdgs": [
+        8
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 9,
+          "target_ids": [
+            "9.5"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Python serves as the primary programming language for scientific computing, open-source technological research, algorithmic modeling, and engineering automation.",
+          "contribution_pathway": "Provides foundational technological execution capabilities for research institutions, software developers, and engineering innovators.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_9_5",
+            "UNESCO_SCIENCE_REPORT_2021"
+          ],
+          "evidence_references": "UNESCO Science Report: Towards 2030 (Chapter on Open Science and Computational Tools).",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "GENERAL_PURPOSE_SKILL",
+            "OPEN_SOURCE_ECOSYSTEM"
+          ],
+          "impact_caveats": "As a general-purpose programming language, Python's impact is entirely contingent on the domain in which scripts are deployed.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.2"
+          ],
+          "mapping_type": "CONTEXTUAL",
+          "alignment_strength": "LIMITED",
+          "alignment_explanation": "Automates routine data transformation and reporting, reducing manual transcription effort in business offices.",
+          "contribution_pathway": "Assists in workplace technological upgrading and task-level time savings.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_2"
+          ],
+          "evidence_references": "UN SDG Target 8.2 on technical upgrading.",
+          "mapping_confidence": "MEDIUM",
+          "derivation_rule_id": "SKILL_GENERAL_PURPOSE_CONTEXTUAL",
+          "quality_flags": [
+            "GENERAL_PURPOSE_SKILL"
+          ],
+          "impact_caveats": "Does not automatically create net jobs or fair labor conditions.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "data_visualization",
+      "entity_name": "Data Visualization & Dashboard Communication",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        16
+      ],
+      "secondary_sdgs": [
+        17
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 16,
+          "target_ids": [
+            "16.10"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Translates complex operational, governance, and audit datasets into transparent, publicly understandable visual formats, facilitating public access to information and institutional transparency.",
+          "contribution_pathway": "Enables decision-makers and the public to inspect performance metrics, compliance records, and public policy outcomes transparently.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_16_10",
+            "OECD_OPEN_GOVERNMENT_REPORT_2023"
+          ],
+          "evidence_references": "OECD Open Government Data and Visual Accountability Guidelines (2023); UN SDG Target 16.10.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "TRANSPARENCY_CAPABILITY"
+          ],
+          "impact_caveats": "Misleading visual scaling, axis truncations, or selective metric presentation can undermine institutional trust.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 17,
+          "target_ids": [
+            "17.18"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Improves data usability and cross-stakeholder interpretation of complex development indicators and sustainability scorecards.",
+          "contribution_pathway": "Assists multi-agency collaboration by providing shared visual representations of monitoring data.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_17_18"
+          ],
+          "evidence_references": "UN Statistics Division Guidelines for Data Visualisation in Official Statistics (2022).",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "DATA_DISSEMINATION"
+          ],
+          "impact_caveats": "Visual dashboards require digital literacy to be interpreted accurately by diverse demographic groups.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "workflow_automation",
+      "entity_name": "Workflow Automation & Enterprise Orchestration",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        8
+      ],
+      "secondary_sdgs": [
+        9
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.2"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Connects disaggregated software tools and automates repetitive administrative data handoffs, increasing operational throughput and decreasing clerical error rates.",
+          "contribution_pathway": "Enables enterprise technological upgrading and systematic efficiency improvements in knowledge-worker environments.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_2",
+            "WEF_FUTURE_OF_JOBS_2023"
+          ],
+          "evidence_references": "World Economic Forum Future of Jobs Report 2023: Business Automation Strategies; UN SDG Target 8.2.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "GENERAL_PURPOSE_SKILL",
+            "TASK_AUTOMATION"
+          ],
+          "impact_caveats": "Automation must be accompanied by worker redeployment strategies to safeguard employment continuity.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 9,
+          "target_ids": [
+            "9.4"
+          ],
+          "mapping_type": "CONTEXTUAL",
+          "alignment_strength": "LIMITED",
+          "alignment_explanation": "Modernizes digital workflows in enterprise systems, supporting gradual infrastructure digitization.",
+          "contribution_pathway": "Upgrades legacy manual procedures to digitally managed, auditable event-driven architectures.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_9_4"
+          ],
+          "evidence_references": "UN SDG Target 9.4 on retrofitting and modernising industrial infrastructure.",
+          "mapping_confidence": "MEDIUM",
+          "derivation_rule_id": "SKILL_GENERAL_PURPOSE_CONTEXTUAL",
+          "quality_flags": [
+            "GENERAL_PURPOSE_SKILL"
+          ],
+          "impact_caveats": "Requires stable cloud/compute infrastructure; potential increases in server energy consumption must be managed.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "human_in_the_loop_qa",
+      "entity_name": "Human-in-the-Loop Quality Assurance & Oversight",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        8
+      ],
+      "secondary_sdgs": [
+        16
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.8"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Maintains human agency, professional accountability, and intervention rights over autonomous algorithmic outputs, preventing workplace hazards and automated discrimination.",
+          "contribution_pathway": "Protects worker safety, labor rights, and operational integrity by embedding human oversight into algorithmic decision loops.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_8",
+            "ILO_HUMAN_IN_COMMAND_FRAMEWORK_2024"
+          ],
+          "evidence_references": "ILO 'Human in Command' Principle in Workplace Algorithmic Management (2024); UN SDG Target 8.8.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "WORKER_PROTECTION",
+            "HUMAN_AGENCY"
+          ],
+          "impact_caveats": "Human oversight must be substantive; rubber-stamping automated recommendations negates oversight benefits.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 16,
+          "target_ids": [
+            "16.6"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Verifies that autonomous outputs comply with legal, policy, and fairness guidelines before execution, fostering institutional accountability.",
+          "contribution_pathway": "Enhances organizational transparency by maintaining verifiable audit trails for automated operations.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_16_6"
+          ],
+          "evidence_references": "UN SDG Target 16.6 on accountable institutions.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "ACCOUNTABILITY_CAPABILITY"
+          ],
+          "impact_caveats": "Requires clear institutional escalation pathways when human reviewers identify erroneous model outputs.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "rag_knowledge_systems",
+      "entity_name": "RAG Knowledge Architecture & Factual Grounding",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        9
+      ],
+      "secondary_sdgs": [
+        16
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 9,
+          "target_ids": [
+            "9.5"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Architects retrieval-augmented generation pipelines that ground generative systems in authoritative corporate and scientific repositories, enhancing technological capability.",
+          "contribution_pathway": "Fosters industrial and technological innovation by providing structured, low-hallucination semantic access to deep technical archives.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_9_5",
+            "ACM_COMPUTING_SURVEYS_RAG_2024"
+          ],
+          "evidence_references": "ACM Surveys on Semantic Retrieval and Knowledge Grounding in Industrial LLMs (2024); UN SDG Target 9.5.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "TECHNICAL_INNOVATION"
+          ],
+          "impact_caveats": "Effectiveness depends entirely on the accuracy and currency of the connected external knowledge databases.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 16,
+          "target_ids": [
+            "16.10"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Ensures algorithmic outputs cite verified reference documents rather than generating unsubstantiated assertions, promoting verifiable information integrity.",
+          "contribution_pathway": "Supports institutional transparency and public access to accurate information through traceable citation architectures.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_16_10"
+          ],
+          "evidence_references": "UN SDG Target 16.10 on public access to verified information.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "FACTUAL_GROUNDING"
+          ],
+          "impact_caveats": "Information retrieval must respect document-level security access and confidentiality boundaries.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "api_integration",
+      "entity_name": "API Integration & Interoperability Architecture",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        9
+      ],
+      "secondary_sdgs": [
+        8
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 9,
+          "target_ids": [
+            "9.c"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Builds and connects interoperable software interfaces across distributed systems, enabling seamless data communication across cloud, mobile, and institutional infrastructure.",
+          "contribution_pathway": "Directly expands access to digital services and communication technology by connecting siloed applications into unified digital ecosystems.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_9_C",
+            "ITU_INTEROPERABILITY_FRAMEWORK_2023"
+          ],
+          "evidence_references": "ITU Telecommunication Standardization Sector (ITU-T) Interoperability Guidelines (2023); UN SDG Target 9.c.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "GENERAL_PURPOSE_SKILL",
+            "DIGITAL_CONNECTIVITY"
+          ],
+          "impact_caveats": "APIs can introduce cybersecurity attack surfaces and data leakage vectors if not governed with proper token authentication and TLS encryption.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.2"
+          ],
+          "mapping_type": "CONTEXTUAL",
+          "alignment_strength": "LIMITED",
+          "alignment_explanation": "Enables enterprise software systems to synchronize operational data, reducing manual reconciliation effort across business units.",
+          "contribution_pathway": "Assists organizations in achieving technical modernization and operational system efficiency.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_2"
+          ],
+          "evidence_references": "UN SDG Target 8.2 on technological upgrading.",
+          "mapping_confidence": "MEDIUM",
+          "derivation_rule_id": "SKILL_GENERAL_PURPOSE_CONTEXTUAL",
+          "quality_flags": [
+            "GENERAL_PURPOSE_SKILL"
+          ],
+          "impact_caveats": "Integration without robust change management can lead to legacy system fragmentation.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "ai_ethics_governance",
+      "entity_name": "AI Ethics, Bias Auditing & Governance",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        16
+      ],
+      "secondary_sdgs": [
+        10
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 16,
+          "target_ids": [
+            "16.6"
+          ],
+          "mapping_type": "DIRECT",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Directly develops and implements algorithmic audit protocols, transparency frameworks, and accountability mechanisms to ensure automated decision systems operate fairly and transparently.",
+          "contribution_pathway": "Directly fosters effective, accountable, and transparent institutional governance over automated algorithms in public and corporate domains.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_16_6",
+            "UNESCO_RECOMMENDATION_AI_ETHICS_2021",
+            "MALAYSIA_NATIONAL_AI_GUIDELINES_2024"
+          ],
+          "evidence_references": "UNESCO Recommendation on the Ethics of Artificial Intelligence (2021); Ministry of Science, Technology and Innovation (MOSTI) Malaysia National AI Guidelines (2024).",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_DIRECT_FUNCTION_TO_TARGET",
+          "quality_flags": [
+            "DIRECT_REGULATORY_ALIGNMENT",
+            "INSTITUTIONAL_ACCOUNTABILITY"
+          ],
+          "impact_caveats": "Ethical guidelines must be backed by enforceable audit sanctions to prevent mere 'ethics washing'.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 10,
+          "target_ids": [
+            "10.2"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Identifies, measures, and mitigates demographic, gender, racial, and socioeconomic biases embedded in training datasets and model outputs.",
+          "contribution_pathway": "Protects marginalized groups from automated discrimination in credit, hiring, and public service allocation, actively promoting social inclusion.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_10_2",
+            "UN_DISCRIMINATION_AND_AI_REPORT_2023"
+          ],
+          "evidence_references": "UN Human Rights Council Report on AI and the Prohibition of Discrimination (2023); UN SDG Target 10.2.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "EQUITY_AND_INCLUSION"
+          ],
+          "impact_caveats": "Mathematical fairness definitions can conflict (e.g., individual fairness vs demographic parity); trade-offs must be transparently documented.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "data_privacy_pdpa",
+      "entity_name": "Personal Data Protection & Privacy Governance",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        16
+      ],
+      "secondary_sdgs": [
+        9
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 16,
+          "target_ids": [
+            "16.10"
+          ],
+          "mapping_type": "DIRECT",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Implements compliance with national data privacy statutes (Malaysia PDPA Act 709) and international standards, safeguarding individuals' fundamental digital rights, personal data confidentiality, and informational self-determination.",
+          "contribution_pathway": "Directly protects fundamental digital freedoms and ensures institutional compliance with legal data protection mandates.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_16_10",
+            "JPDP_MALAYSIA_PDPA_2010",
+            "UN_SPECIAL_RAPPORTEUR_PRIVACY_2023"
+          ],
+          "evidence_references": "Department of Personal Data Protection (JPDP) Malaysia: Personal Data Protection Act 2010 (Act 709); UN Human Rights Council Report on the Right to Privacy in the Digital Age (2023).",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_DIRECT_FUNCTION_TO_TARGET",
+          "quality_flags": [
+            "DIRECT_LEGAL_MANDATE",
+            "FUNDAMENTAL_RIGHTS"
+          ],
+          "impact_caveats": "Compliance checklists alone do not guarantee privacy without active technical controls (encryption, pseudonymisation, access logs).",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 9,
+          "target_ids": [
+            "9.c"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Ensures enterprise and public cloud systems handle consumer data securely, fostering the user trust necessary for sustained adoption of digital infrastructure.",
+          "contribution_pathway": "Builds resilient, trustworthy communications infrastructure by enforcing strict cybersecurity and data integrity safeguards.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_9_C",
+            "ITU_GLOBAL_CYBERSECURITY_INDEX_2024"
+          ],
+          "evidence_references": "ITU Global Cybersecurity Index 2024: Legal and Technical Measures for Trust; UN SDG Target 9.c.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "TRUST_INFRASTRUCTURE"
+          ],
+          "impact_caveats": "Overly rigid local privacy restrictions can impede regional cloud inter-connectivity if cross-border transfer agreements are lacking.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "esg_sustainability_reporting",
+      "entity_name": "ESG & Corporate Sustainability Reporting",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        12
+      ],
+      "secondary_sdgs": [
+        13
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 12,
+          "target_ids": [
+            "12.6"
+          ],
+          "mapping_type": "DIRECT",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Applies international sustainability frameworks (GRI, ISSB, Bursa Malaysia Sustainability Framework) to collect, verify, and publicly disclose organizational environmental, social, and governance performance metrics.",
+          "contribution_pathway": "Directly fulfills Target 12.6 by operationalizing corporate sustainability reporting and integrating verified ESG data into official annual disclosure cycles.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_12_6",
+            "BURSA_MALAYSIA_LISTING_REQUIREMENTS_2023",
+            "GRI_STANDARDS_2024"
+          ],
+          "evidence_references": "Bursa Malaysia Enhanced Sustainability Listing Requirements (2023); Global Reporting Initiative (GRI) Universal Standards; UN SDG Target 12.6.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_DIRECT_FUNCTION_TO_TARGET",
+          "quality_flags": [
+            "DIRECT_STANDARD_ALIGNMENT",
+            "MANDATORY_DISCLOSURE"
+          ],
+          "impact_caveats": "Reporting transparency must reflect genuine decarbonisation and social progress rather than superficial compliance marketing ('greenwashing').",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 13,
+          "target_ids": [
+            "13.2"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Provides audited corporate data on greenhouse gas emissions, transition risks, and mitigation strategies required to track national carbon reduction commitments.",
+          "contribution_pathway": "Enables corporate and national planning authorities to integrate verified private sector climate metrics into comprehensive mitigation strategies.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_13_2",
+            "UNFCCC_CORPORATE_TRANSPARENCY_2023"
+          ],
+          "evidence_references": "UN Framework Convention on Climate Change (UNFCCC) Non-State Actor Zone for Climate Action (NAZCA); UN SDG Target 13.2.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "CLIMATE_DATA_PIPELINE"
+          ],
+          "impact_caveats": "Emissions disclosure alone does not reduce carbon without executive commitment to capital reallocation.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "carbon_footprint_analytics",
+      "entity_name": "Carbon Footprint Analytics & GHG Accounting",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        13
+      ],
+      "secondary_sdgs": [
+        12
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 13,
+          "target_ids": [
+            "13.2",
+            "13.3"
+          ],
+          "mapping_type": "DIRECT",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Calculates Scope 1, 2, and 3 emissions according to GHG Protocol standards, providing the rigorous quantitative baselines required to set Science-Based Targets (SBTi) and execute decarbonisation pathways.",
+          "contribution_pathway": "Directly integrates empirical climate change mitigation measures into organizational strategies and builds institutional technical capacity for climate accountability.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_13_2",
+            "UN_SDG_TARGET_13_3",
+            "GHG_PROTOCOL_CORPORATE_STANDARD_2023",
+            "MALAYSIA_NATIONAL_ENERGY_TRANSITION_ROADMAP_2023"
+          ],
+          "evidence_references": "Greenhouse Gas Protocol Corporate Accounting Standard; Malaysia National Energy Transition Roadmap (NETR, 2023); UN SDG Targets 13.2 & 13.3.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_DIRECT_FUNCTION_TO_TARGET",
+          "quality_flags": [
+            "DIRECT_TECHNICAL_ACCOUNTING",
+            "DECARBONISATION_CORE"
+          ],
+          "impact_caveats": "Calculation models are sensitive to emission factor selection; Scope 3 supplier data quality remains a significant source of estimation error.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 12,
+          "target_ids": [
+            "12.6"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Supplies quantitative carbon metrics and life-cycle emission assessments to corporate sustainability reports.",
+          "contribution_pathway": "Enables companies to disclose verified environmental indicators in compliance with national and international reporting standards.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_12_6"
+          ],
+          "evidence_references": "UN SDG Target 12.6 on integrating verified sustainability data into reporting cycles.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "VERIFIED_METRIC_FEED"
+          ],
+          "impact_caveats": "Carbon accounting must cover entire product lifecycles rather than shifting emissions upstream to unmonitored contractors.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "stakeholder_communication",
+      "entity_name": "Stakeholder Communication & Change Management",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        17
+      ],
+      "secondary_sdgs": [
+        8
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 17,
+          "target_ids": [
+            "17.16"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Facilitates multi-stakeholder dialogue, cross-functional consensus building, and participatory decision-making across executive, employee, community, and regulatory bodies.",
+          "contribution_pathway": "Directly enhances multi-stakeholder partnerships and knowledge-sharing essential for coordinating complex sustainability and organizational transitions.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_17_16",
+            "UN_GLOBAL_COMPACT_PARTNERSHIPS_2023"
+          ],
+          "evidence_references": "UN Global Compact Multi-Stakeholder Partnership Framework (2023); UN SDG Target 17.16.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "PARTNERSHIP_FACILITATION"
+          ],
+          "impact_caveats": "Effective communication requires transparent information sharing; public relations spin without genuine engagement does not fulfill partnership goals.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.5"
+          ],
+          "mapping_type": "CONTEXTUAL",
+          "alignment_strength": "LIMITED",
+          "alignment_explanation": "Supports workplace coordination, employee onboarding, and transparent change management during enterprise restructuring.",
+          "contribution_pathway": "Contributes to collaborative, respectful working environments and smoother workforce adjustments.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_5"
+          ],
+          "evidence_references": "UN SDG Target 8.5 on decent work and workplace harmony.",
+          "mapping_confidence": "MEDIUM",
+          "derivation_rule_id": "SKILL_GENERAL_PURPOSE_CONTEXTUAL",
+          "quality_flags": [
+            "WORKPLACE_COORDINATION"
+          ],
+          "impact_caveats": "Dependent on leadership sincerity and psychological safety in organizational culture.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "entity_id": "instructional_design",
+      "entity_name": "Instructional Design & Adult Learning Pedagogy",
+      "entity_type": "SKILL",
+      "primary_sdgs": [
+        4
+      ],
+      "secondary_sdgs": [
+        8
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_number": 4,
+          "target_ids": [
+            "4.4"
+          ],
+          "mapping_type": "DIRECT",
+          "alignment_strength": "STRONG",
+          "alignment_explanation": "Directly architects modular curricula, pedagogical learning sequences, formative assessments, and vocational training experiences tailored for adult career transition.",
+          "contribution_pathway": "Directly advances Target 4.4 by creating effective educational architectures that equip youth and adults with relevant vocational and technical skills for employment.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_4_4",
+            "UNESCO_TVET_STRATEGY_2022_2029",
+            "MALAYSIA_NATIONAL_TVET_POLICY_2030"
+          ],
+          "evidence_references": "UNESCO Strategy for Technical and Vocational Education and Training (TVET) 2022-2029; National TVET Policy 2030 (Malaysia); UN SDG Target 4.4.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_DIRECT_FUNCTION_TO_TARGET",
+          "quality_flags": [
+            "DIRECT_EDUCATIONAL_ARCHITECTURE",
+            "VOCATIONAL_TRAINING_CORE"
+          ],
+          "impact_caveats": "Instructional materials must be regularly updated to match evolving labor market technology standards.",
+          "last_verified_date": "2026-10-24"
+        },
+        {
+          "sdg_number": 8,
+          "target_ids": [
+            "8.5"
+          ],
+          "mapping_type": "ENABLING",
+          "alignment_strength": "MODERATE",
+          "alignment_explanation": "Enables displaced and transitioning workers to attain verified competencies required for productive employment and higher-wage roles.",
+          "contribution_pathway": "Supports decent work and workforce mobility by lowering the barrier to technical career transitions.",
+          "evidence_source_ids": [
+            "UN_SDG_TARGET_8_5",
+            "ILO_STANDARDS_ON_APPRENTICESHIPS_2023"
+          ],
+          "evidence_references": "ILO Recommendation on Quality Apprenticeships (2023); UN SDG Target 8.5.",
+          "mapping_confidence": "HIGH",
+          "derivation_rule_id": "SKILL_ENABLING_CAPABILITY",
+          "quality_flags": [
+            "WORKFORCE_RESKILLING"
+          ],
+          "impact_caveats": "Reskilling outcomes depend on employer recognition of credentials and regional hiring demand.",
+          "last_verified_date": "2026-10-24"
+        }
+      ]
+    }
+  ]
+}

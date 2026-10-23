@@ -1,0 +1,81 @@
+{
+  "version": "1.1.0",
+  "system_name": "M5 SDG Impact Mapping Engine",
+  "framework": "UN 2030 Agenda for Sustainable Development (17 Goals, 169 Targets)",
+  "canonical_targets_file": "data/sdg/sdg_targets_v1_1.json",
+  "canonical_skills_file": "data/sdg/skill_sdg_mappings_v1_1.json",
+  "canonical_roles_file": "data/sdg/role_sdg_mappings_v1_1.json",
+  "mapping_types": [
+    {
+      "type": "DIRECT",
+      "definition": "The skill or occupation has an inherent, primary, and domain-specific contribution to the target (e.g. carbon footprint analytics directly aligns to SDG 12.6 corporate sustainability reporting).",
+      "allowed_for_general_purpose": false
+    },
+    {
+      "type": "ENABLING",
+      "definition": "The skill or occupation provides essential technological, methodological, or structural capabilities that empower other domains to achieve the target.",
+      "allowed_for_general_purpose": true
+    },
+    {
+      "type": "CONTEXTUAL",
+      "definition": "The alignment depends on the specific deployment setting, organizational domain, or administrative operational context.",
+      "allowed_for_general_purpose": true
+    }
+  ],
+  "alignment_strengths": ["STRONG", "MODERATE", "LIMITED"],
+  "confidence_levels": ["HIGH", "MEDIUM", "LOW"],
+  "confidence_calibration_rules": {
+    "HIGH": "Requires unambiguous semantic fit to target text, direct or foundational enabling causality, independent multi-source corroboration, and zero unstated sector dependencies.",
+    "MEDIUM": "Applies to valid mappings that are sector-dependent (SECTOR_DEPENDENT_ALIGNMENT), application-dependent (CONTEXT_DEPENDENT_ALIGNMENT), or contextual beneficiary alignments (CONTEXTUAL_BENEFICIARY_ALIGNMENT).",
+    "LOW": "Permissible but weak causal linkage; eliminated from core candidate mappings to prevent noise."
+  },
+  "general_purpose_skill_ids": [
+    "python_scripting",
+    "sql_data_analysis",
+    "api_integration",
+    "prompt_engineering",
+    "workflow_automation"
+  ],
+  "dual_use_broad_capabilities": [
+    "data_visualization",
+    "rag_knowledge_systems",
+    "stakeholder_communication"
+  ],
+  "general_purpose_rule": {
+    "rule_id": "RULE_GP_NON_DIRECT_STRICT",
+    "forbidden_mapping_types": ["DIRECT"],
+    "allowed_mapping_types": ["ENABLING", "CONTEXTUAL"],
+    "rationale": "General-purpose technological and computational skills can be applied to carbon-intensive, extractive, or neutral activities as readily as sustainability projects; therefore they can never be classified as DIRECT SDG impact."
+  },
+  "cardinality_bounds": {
+    "min_primary_sdgs_per_entity": 1,
+    "max_primary_sdgs_per_entity": 3,
+    "max_secondary_sdgs_per_entity": 3
+  },
+  "forbidden_feedback_guardrails": {
+    "forbid_m3_role_filtering_by_sdg": true,
+    "forbid_m4_course_filtering_by_sdg": true,
+    "forbid_synthetic_impact_quantification": true,
+    "forbid_carbon_kg_fabrication": true,
+    "forbid_jobs_created_fabrication": true,
+    "forbid_percentage_sdg_progress_fabrication": true,
+    "rationale": "M5 is an explanatory alignment and mapping lens, NOT an impact measurement or reskilling selection constraint. Upstream career matching and learning pathway engines must remain untainted by SDG selection bias."
+  },
+  "privacy_and_demographic_safeguards": {
+    "k_anonymity_framing": "Project-defined privacy safeguard using cohort-size suppression / k-anonymity-style aggregation (k >= 5) where appropriate, designed to support privacy-conscious analytics in alignment with Malaysian PDPA 2010 data protection principles.",
+    "fairness_framing": "M5 does not consume protected demographic attributes (e.g. gender, ethnicity, age) and does not feed SDG alignment back into M3 role ranking or M4 pathway priority. Consequently, demographic rank shift is mathematically zero."
+  },
+  "quality_flags_definition": {
+    "OFFICIAL_TARGET_TRACEABLE": "Target ID is present in the canonical UN SDG indicator framework (sdg_targets_v1_1.json)",
+    "GENERAL_PURPOSE_SAFE": "Complies strictly with the general-purpose skill non-DIRECT mapping rule",
+    "EVIDENCE_GROUNDED": "Supported by authoritative policy, taxonomy, or peer-reviewed literature citations",
+    "NO_FABRICATED_IMPACT_METRICS": "Produces qualitative and categorical alignment without synthetic quantitative metric claims",
+    "MASCO_TAXONOMY_GROUNDED": "Directly grounded in official 4-digit MASCO 2020 occupational descriptors",
+    "SECTOR_DEPENDENT_ALIGNMENT": "SDG alignment is contingent on employment within a specific industry sector (e.g., clean energy, renewables, environmental remediation)",
+    "CONTEXT_DEPENDENT_ALIGNMENT": "SDG alignment depends on specific operational application or organizational governance framework",
+    "CONTEXTUAL_BENEFICIARY_ALIGNMENT": "Role participates as an employed beneficiary within the decent work objective (Target 8.5) rather than directly executing systemic labor market policy",
+    "LIMITED_DIRECT_EVIDENCE": "Mapping is conceptually sound but direct empirical literature from Malaysian domain is limited",
+    "POLICY_CONTEXT_ONLY": "Mapping is supported by high-level national policy aspirations (e.g. NETR, NIMP 2030) rather than intrinsic occupational tasks",
+    "TARGET_SEMANTIC_REMEDIATED": "Mapping underwent forensic semantic remediation in Stage 13C to resolve P1/P2 methodology review findings"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "system_name": "M5 SDG Impact Mapping Engine",
+  "framework": "UN 2030 Agenda for Sustainable Development (17 Goals, 169 Targets)",
+  "canonical_targets_file": "data/sdg/sdg_targets_v1.json",
+  "canonical_skills_file": "data/sdg/skill_sdg_mappings_v1.json",
+  "canonical_roles_file": "data/sdg/role_sdg_mappings_v1.json",
+  "mapping_types": [
+    {
+      "type": "DIRECT",
+      "definition": "The skill or occupation has an inherent, primary, and domain-specific contribution to the target (e.g. carbon footprint analytics directly aligns to SDG 13 climate mitigation).",
+      "allowed_for_general_purpose": false
+    },
+    {
+      "type": "ENABLING",
+      "definition": "The skill or occupation provides essential technological, methodological, or structural capabilities that empower other domains to achieve the target.",
+      "allowed_for_general_purpose": true
+    },
+    {
+      "type": "CONTEXTUAL",
+      "definition": "The alignment depends heavily on the specific deployment setting, organizational domain, or administrative operational context.",
+      "allowed_for_general_purpose": true
+    }
+  ],
+  "alignment_strengths": ["STRONG", "MODERATE", "LIMITED"],
+  "confidence_levels": ["HIGH", "MEDIUM", "LOW"],
+  "general_purpose_skill_ids": [
+    "python_scripting",
+    "sql_data_analysis",
+    "api_integration",
+    "prompt_engineering",
+    "workflow_automation"
+  ],
+  "general_purpose_rule": {
+    "rule_id": "RULE_GP_NON_DIRECT_STRICT",
+    "forbidden_mapping_types": ["DIRECT"],
+    "allowed_mapping_types": ["ENABLING", "CONTEXTUAL"],
+    "rationale": "General-purpose technological and computational skills can be applied to carbon-intensive, extractive, or neutral activities as readily as sustainability projects; therefore they can never be classified as DIRECT SDG impact."
+  },
+  "cardinality_bounds": {
+    "min_primary_sdgs_per_entity": 1,
+    "max_primary_sdgs_per_entity": 3,
+    "max_secondary_sdgs_per_entity": 3
+  },
+  "forbidden_feedback_guardrails": {
+    "forbid_m3_role_filtering_by_sdg": true,
+    "forbid_m4_course_filtering_by_sdg": true,
+    "forbid_synthetic_impact_quantification": true,
+    "forbid_carbon_kg_fabrication": true,
+    "forbid_jobs_created_fabrication": true,
+    "forbid_percentage_sdg_progress_fabrication": true,
+    "rationale": "M5 is an explanatory alignment and mapping lens, NOT an impact measurement or reskilling selection constraint. Upstream career matching and learning pathway engines must remain untainted by SDG selection bias."
+  },
+  "quality_flags_definition": {
+    "OFFICIAL_TARGET_TRACEABLE": "Target ID is present in the canonical UN SDG indicator framework (sdg_targets_v1.json)",
+    "GENERAL_PURPOSE_SAFE": "Complies strictly with the general-purpose skill non-DIRECT mapping rule",
+    "EVIDENCE_GROUNDED": "Supported by authoritative policy, taxonomy, or peer-reviewed literature citations",
+    "NO_FABRICATED_IMPACT_METRICS": "Produces qualitative and categorical alignment without synthetic quantitative metric claims",
+    "MASCO_TAXONOMY_GROUNDED": "Directly grounded in official 4-digit MASCO 2020 occupational descriptors"
+  }
+}

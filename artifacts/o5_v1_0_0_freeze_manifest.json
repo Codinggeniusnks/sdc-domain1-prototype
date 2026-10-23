@@ -1,0 +1,90 @@
+{
+  "manifest_version": "1.0.0",
+  "engine": "O5 Responsible-AI & Invariance Governance Audit Layer",
+  "engine_version": "v1.0.0",
+  "frozen_at_utc": "2026-10-24T05:30:00Z",
+  "status": "FORMALLY_FROZEN_READ_ONLY",
+  "verdict": "O5 V1.0 APPROVED AND READY TO FREEZE",
+  "defect_summary": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "upstream_frozen_baseline": {
+    "M1": {
+      "model": "H_blend_0.70A_0.30C1_W1.0",
+      "provenance": "Protocol B and Protocol C v2 unsealed Stage 8E"
+    },
+    "M2": {
+      "version": "v1.1.1",
+      "manifest_sha256": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542"
+    },
+    "M6": {
+      "version": "v1.1.0",
+      "manifest_sha256": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+    },
+    "M3": {
+      "version": "v1.1.0",
+      "manifest_sha256": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c"
+    },
+    "M4": {
+      "version": "v1.1.0",
+      "manifest_sha256": "448545188ba4e196eaf3502d7803c3d9cfbb1247ec453208cafae990c8db5f2f"
+    },
+    "M5": {
+      "version": "v1.1.0",
+      "manifest_sha256": "94c1f42b46a1fa5e9b026fb82d5225e21c24547cdd58c234f2843cd84eb32ec7"
+    },
+    "O6": {
+      "version": "v1.1.0",
+      "manifest_sha256": "0fb13557e4a6665c6c85e2c2904dc4e99e41dfdf9019c49fb2a01b416f93ef5e"
+    },
+    "O1": {
+      "version": "v1.1.0",
+      "manifest_sha256": "c4a58baf74549f05ceeb3063b779b680762aec98d1edf531b909fcf041bce1f9"
+    },
+    "O2": {
+      "version": "v1.0.0",
+      "manifest_sha256": "6d71fbf5d26f412e63269f7f0c75aa3e03e4ccfbce432f59d684229747dd29ff"
+    },
+    "O3": {
+      "version": "v1.0.0",
+      "manifest_sha256": "53818527f9dd4f8e656b68eccad1c93fcce15b374507714fc386c4178f537703"
+    },
+    "O4": {
+      "version": "v1.0.0",
+      "manifest_sha256": "c6184fd40dbebd283fecc9d6fb370ee5ec16a54423c0b0011c9d0050b898f111"
+    }
+  },
+  "engine_components": {
+    "src/governance_engine.py": "ca4f54cfce284337031ef6da313470548386f2a9e1bd700f3696f26d75624f6a",
+    "data/governance/o5_config_v1.json": "ad115f10cbc19baed7772d678447fdc50abf85e0d3670e9483d28586c2a826fc",
+    "data/governance/synthetic_perturbation_testbed_v1.json": "0c0c8de1e8e8403612516b2d2c5df6389fc66e25e3e02a7fc7473794f72957f0",
+    "scripts/run_o5_benchmarks.py": "32aeb2d25bc9e72092e8bd1a94edeb711c38a7dd6b66fe175d51f3ab8f4d0902",
+    "tests/test_governance_engine.py": "02975d3c234b68319dbd03d7a54273c0a3153d1094818ecad5282addc7757b08",
+    "data/governance/o5_benchmark_results_v1.json": "7dd5e3daa478c1fb71a9e49b8fc0500485d54d4c3a158f6d25b5f8ed45fc066c",
+    "data/governance/o5_build_manifest_v1.json": "5a76d6b250f05a7b9662794b06592f0921c8eb50a3e6838ceaa20564f4e482a1"
+  },
+  "methodology_reports": {
+    "artifacts/o5_governance_methodology.md": "present",
+    "artifacts/o5_invariance_audit_report.md": "present",
+    "artifacts/stage19b_o5_methodology_review.md": "present",
+    "artifacts/stage19d_o5_final_freeze_review.md": "present"
+  },
+  "verification_results": {
+    "unit_tests": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "duration_seconds": 0.003
+    },
+    "benchmarks": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0
+    },
+    "freeze_integrity_verification": "100.0%",
+    "counterfactual_invariance_verification": "100.0%"
+  }
+}

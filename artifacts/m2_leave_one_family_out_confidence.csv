@@ -1,0 +1,97 @@
+skill_id,skill_name,family_removed,was_family_present,confidence_before,confidence_after,label_before,label_after,label_changed
+ai_literacy,Foundational AI Literacy & LLM Capabilities,TALENTCORP_MYCOL,True,80.0,60.0,HIGH,MEDIUM,True
+ai_literacy,Foundational AI Literacy & LLM Capabilities,TALENTCORP_IMPACT_STUDY,True,80.0,70.0,HIGH,HIGH,False
+ai_literacy,Foundational AI Literacy & LLM Capabilities,MALAYSIAN_GOVERNMENT_POLICY,True,80.0,60.0,HIGH,MEDIUM,True
+ai_literacy,Foundational AI Literacy & LLM Capabilities,OPENALEX_SCHOLARLY,True,80.0,65.0,HIGH,MEDIUM,True
+ai_literacy,Foundational AI Literacy & LLM Capabilities,ILO_GENAI_STUDY,False,80.0,80.0,HIGH,HIGH,False
+ai_literacy,Foundational AI Literacy & LLM Capabilities,DOSM_WAGES,False,80.0,80.0,HIGH,HIGH,False
+prompt_engineering,Structured Prompting & Context Engineering,TALENTCORP_MYCOL,False,40.0,40.0,LOW,LOW,False
+prompt_engineering,Structured Prompting & Context Engineering,TALENTCORP_IMPACT_STUDY,True,40.0,15.0,LOW,INSUFFICIENT,True
+prompt_engineering,Structured Prompting & Context Engineering,MALAYSIAN_GOVERNMENT_POLICY,False,40.0,40.0,LOW,LOW,False
+prompt_engineering,Structured Prompting & Context Engineering,OPENALEX_SCHOLARLY,True,40.0,25.0,LOW,LOW,False
+prompt_engineering,Structured Prompting & Context Engineering,ILO_GENAI_STUDY,False,40.0,40.0,LOW,LOW,False
+prompt_engineering,Structured Prompting & Context Engineering,DOSM_WAGES,False,40.0,40.0,LOW,LOW,False
+process_mapping,Business Process Mapping & SOP Design,TALENTCORP_MYCOL,True,80.0,60.0,HIGH,MEDIUM,True
+process_mapping,Business Process Mapping & SOP Design,TALENTCORP_IMPACT_STUDY,True,80.0,70.0,HIGH,HIGH,False
+process_mapping,Business Process Mapping & SOP Design,MALAYSIAN_GOVERNMENT_POLICY,True,80.0,60.0,HIGH,MEDIUM,True
+process_mapping,Business Process Mapping & SOP Design,OPENALEX_SCHOLARLY,True,80.0,65.0,HIGH,MEDIUM,True
+process_mapping,Business Process Mapping & SOP Design,ILO_GENAI_STUDY,False,80.0,80.0,HIGH,HIGH,False
+process_mapping,Business Process Mapping & SOP Design,DOSM_WAGES,False,80.0,80.0,HIGH,HIGH,False
+sql_data_analysis,SQL & Structured Data Analysis,TALENTCORP_MYCOL,True,80.0,60.0,HIGH,MEDIUM,True
+sql_data_analysis,SQL & Structured Data Analysis,TALENTCORP_IMPACT_STUDY,True,80.0,70.0,HIGH,HIGH,False
+sql_data_analysis,SQL & Structured Data Analysis,MALAYSIAN_GOVERNMENT_POLICY,True,80.0,60.0,HIGH,MEDIUM,True
+sql_data_analysis,SQL & Structured Data Analysis,OPENALEX_SCHOLARLY,True,80.0,65.0,HIGH,MEDIUM,True
+sql_data_analysis,SQL & Structured Data Analysis,ILO_GENAI_STUDY,False,80.0,80.0,HIGH,HIGH,False
+sql_data_analysis,SQL & Structured Data Analysis,DOSM_WAGES,False,80.0,80.0,HIGH,HIGH,False
+python_scripting,Python Scripting & Data Automation,TALENTCORP_MYCOL,True,80.0,60.0,HIGH,MEDIUM,True
+python_scripting,Python Scripting & Data Automation,TALENTCORP_IMPACT_STUDY,True,80.0,70.0,HIGH,HIGH,False
+python_scripting,Python Scripting & Data Automation,MALAYSIAN_GOVERNMENT_POLICY,True,80.0,60.0,HIGH,MEDIUM,True
+python_scripting,Python Scripting & Data Automation,OPENALEX_SCHOLARLY,True,80.0,65.0,HIGH,MEDIUM,True
+python_scripting,Python Scripting & Data Automation,ILO_GENAI_STUDY,False,80.0,80.0,HIGH,HIGH,False
+python_scripting,Python Scripting & Data Automation,DOSM_WAGES,False,80.0,80.0,HIGH,HIGH,False
+data_visualization,Data Visualization & KPI Storytelling,TALENTCORP_MYCOL,True,80.0,60.0,HIGH,MEDIUM,True
+data_visualization,Data Visualization & KPI Storytelling,TALENTCORP_IMPACT_STUDY,True,80.0,70.0,HIGH,HIGH,False
+data_visualization,Data Visualization & KPI Storytelling,MALAYSIAN_GOVERNMENT_POLICY,True,80.0,60.0,HIGH,MEDIUM,True
+data_visualization,Data Visualization & KPI Storytelling,OPENALEX_SCHOLARLY,True,80.0,65.0,HIGH,MEDIUM,True
+data_visualization,Data Visualization & KPI Storytelling,ILO_GENAI_STUDY,False,80.0,80.0,HIGH,HIGH,False
+data_visualization,Data Visualization & KPI Storytelling,DOSM_WAGES,False,80.0,80.0,HIGH,HIGH,False
+workflow_automation,Agentic Workflow Orchestration & Tool Integration,TALENTCORP_MYCOL,True,80.0,60.0,HIGH,MEDIUM,True
+workflow_automation,Agentic Workflow Orchestration & Tool Integration,TALENTCORP_IMPACT_STUDY,True,80.0,70.0,HIGH,HIGH,False
+workflow_automation,Agentic Workflow Orchestration & Tool Integration,MALAYSIAN_GOVERNMENT_POLICY,True,80.0,60.0,HIGH,MEDIUM,True
+workflow_automation,Agentic Workflow Orchestration & Tool Integration,OPENALEX_SCHOLARLY,True,80.0,65.0,HIGH,MEDIUM,True
+workflow_automation,Agentic Workflow Orchestration & Tool Integration,ILO_GENAI_STUDY,False,80.0,80.0,HIGH,HIGH,False
+workflow_automation,Agentic Workflow Orchestration & Tool Integration,DOSM_WAGES,False,80.0,80.0,HIGH,HIGH,False
+human_in_the_loop_qa,Human-in-the-Loop Evaluation & AI Testing,TALENTCORP_MYCOL,False,60.0,60.0,MEDIUM,MEDIUM,False
+human_in_the_loop_qa,Human-in-the-Loop Evaluation & AI Testing,TALENTCORP_IMPACT_STUDY,True,60.0,45.0,MEDIUM,LOW,True
+human_in_the_loop_qa,Human-in-the-Loop Evaluation & AI Testing,MALAYSIAN_GOVERNMENT_POLICY,True,60.0,40.0,MEDIUM,LOW,True
+human_in_the_loop_qa,Human-in-the-Loop Evaluation & AI Testing,OPENALEX_SCHOLARLY,True,60.0,45.0,MEDIUM,LOW,True
+human_in_the_loop_qa,Human-in-the-Loop Evaluation & AI Testing,ILO_GENAI_STUDY,False,60.0,60.0,MEDIUM,MEDIUM,False
+human_in_the_loop_qa,Human-in-the-Loop Evaluation & AI Testing,DOSM_WAGES,False,60.0,60.0,MEDIUM,MEDIUM,False
+rag_knowledge_systems,Retrieval-Augmented Generation (RAG) & Citation Grounding,TALENTCORP_MYCOL,False,40.0,40.0,LOW,LOW,False
+rag_knowledge_systems,Retrieval-Augmented Generation (RAG) & Citation Grounding,TALENTCORP_IMPACT_STUDY,True,40.0,15.0,LOW,INSUFFICIENT,True
+rag_knowledge_systems,Retrieval-Augmented Generation (RAG) & Citation Grounding,MALAYSIAN_GOVERNMENT_POLICY,False,40.0,40.0,LOW,LOW,False
+rag_knowledge_systems,Retrieval-Augmented Generation (RAG) & Citation Grounding,OPENALEX_SCHOLARLY,True,40.0,25.0,LOW,LOW,False
+rag_knowledge_systems,Retrieval-Augmented Generation (RAG) & Citation Grounding,ILO_GENAI_STUDY,False,40.0,40.0,LOW,LOW,False
+rag_knowledge_systems,Retrieval-Augmented Generation (RAG) & Citation Grounding,DOSM_WAGES,False,40.0,40.0,LOW,LOW,False
+api_integration,REST API Integration & Resilient Fallbacks,TALENTCORP_MYCOL,True,80.0,60.0,HIGH,MEDIUM,True
+api_integration,REST API Integration & Resilient Fallbacks,TALENTCORP_IMPACT_STUDY,True,80.0,70.0,HIGH,HIGH,False
+api_integration,REST API Integration & Resilient Fallbacks,MALAYSIAN_GOVERNMENT_POLICY,True,80.0,60.0,HIGH,MEDIUM,True
+api_integration,REST API Integration & Resilient Fallbacks,OPENALEX_SCHOLARLY,True,80.0,65.0,HIGH,MEDIUM,True
+api_integration,REST API Integration & Resilient Fallbacks,ILO_GENAI_STUDY,False,80.0,80.0,HIGH,HIGH,False
+api_integration,REST API Integration & Resilient Fallbacks,DOSM_WAGES,False,80.0,80.0,HIGH,HIGH,False
+ai_ethics_governance,"AI Ethics, Fairness Auditing & Governance",TALENTCORP_MYCOL,False,60.0,60.0,MEDIUM,MEDIUM,False
+ai_ethics_governance,"AI Ethics, Fairness Auditing & Governance",TALENTCORP_IMPACT_STUDY,True,60.0,45.0,MEDIUM,LOW,True
+ai_ethics_governance,"AI Ethics, Fairness Auditing & Governance",MALAYSIAN_GOVERNMENT_POLICY,True,60.0,40.0,MEDIUM,LOW,True
+ai_ethics_governance,"AI Ethics, Fairness Auditing & Governance",OPENALEX_SCHOLARLY,True,60.0,45.0,MEDIUM,LOW,True
+ai_ethics_governance,"AI Ethics, Fairness Auditing & Governance",ILO_GENAI_STUDY,False,60.0,60.0,MEDIUM,MEDIUM,False
+ai_ethics_governance,"AI Ethics, Fairness Auditing & Governance",DOSM_WAGES,False,60.0,60.0,MEDIUM,MEDIUM,False
+data_privacy_pdpa,Data Privacy & Malaysian PDPA Compliance,TALENTCORP_MYCOL,False,60.0,60.0,MEDIUM,MEDIUM,False
+data_privacy_pdpa,Data Privacy & Malaysian PDPA Compliance,TALENTCORP_IMPACT_STUDY,True,60.0,45.0,MEDIUM,LOW,True
+data_privacy_pdpa,Data Privacy & Malaysian PDPA Compliance,MALAYSIAN_GOVERNMENT_POLICY,True,60.0,40.0,MEDIUM,LOW,True
+data_privacy_pdpa,Data Privacy & Malaysian PDPA Compliance,OPENALEX_SCHOLARLY,True,60.0,45.0,MEDIUM,LOW,True
+data_privacy_pdpa,Data Privacy & Malaysian PDPA Compliance,ILO_GENAI_STUDY,False,60.0,60.0,MEDIUM,MEDIUM,False
+data_privacy_pdpa,Data Privacy & Malaysian PDPA Compliance,DOSM_WAGES,False,60.0,60.0,MEDIUM,MEDIUM,False
+esg_sustainability_reporting,ESG Frameworks & UN SDG Impact Mapping,TALENTCORP_MYCOL,False,60.0,60.0,MEDIUM,MEDIUM,False
+esg_sustainability_reporting,ESG Frameworks & UN SDG Impact Mapping,TALENTCORP_IMPACT_STUDY,True,60.0,45.0,MEDIUM,LOW,True
+esg_sustainability_reporting,ESG Frameworks & UN SDG Impact Mapping,MALAYSIAN_GOVERNMENT_POLICY,True,60.0,40.0,MEDIUM,LOW,True
+esg_sustainability_reporting,ESG Frameworks & UN SDG Impact Mapping,OPENALEX_SCHOLARLY,True,60.0,45.0,MEDIUM,LOW,True
+esg_sustainability_reporting,ESG Frameworks & UN SDG Impact Mapping,ILO_GENAI_STUDY,False,60.0,60.0,MEDIUM,MEDIUM,False
+esg_sustainability_reporting,ESG Frameworks & UN SDG Impact Mapping,DOSM_WAGES,False,60.0,60.0,MEDIUM,MEDIUM,False
+carbon_footprint_analytics,Carbon-Aware Compute & Resource Telemetry,TALENTCORP_MYCOL,False,60.0,60.0,MEDIUM,MEDIUM,False
+carbon_footprint_analytics,Carbon-Aware Compute & Resource Telemetry,TALENTCORP_IMPACT_STUDY,True,60.0,45.0,MEDIUM,LOW,True
+carbon_footprint_analytics,Carbon-Aware Compute & Resource Telemetry,MALAYSIAN_GOVERNMENT_POLICY,True,60.0,40.0,MEDIUM,LOW,True
+carbon_footprint_analytics,Carbon-Aware Compute & Resource Telemetry,OPENALEX_SCHOLARLY,True,60.0,45.0,MEDIUM,LOW,True
+carbon_footprint_analytics,Carbon-Aware Compute & Resource Telemetry,ILO_GENAI_STUDY,False,60.0,60.0,MEDIUM,MEDIUM,False
+carbon_footprint_analytics,Carbon-Aware Compute & Resource Telemetry,DOSM_WAGES,False,60.0,60.0,MEDIUM,MEDIUM,False
+stakeholder_communication,Human-Centred Change & Stakeholder Communication,TALENTCORP_MYCOL,True,60.0,40.0,MEDIUM,LOW,True
+stakeholder_communication,Human-Centred Change & Stakeholder Communication,TALENTCORP_IMPACT_STUDY,True,60.0,50.0,MEDIUM,MEDIUM,False
+stakeholder_communication,Human-Centred Change & Stakeholder Communication,MALAYSIAN_GOVERNMENT_POLICY,False,60.0,60.0,MEDIUM,MEDIUM,False
+stakeholder_communication,Human-Centred Change & Stakeholder Communication,OPENALEX_SCHOLARLY,True,60.0,45.0,MEDIUM,LOW,True
+stakeholder_communication,Human-Centred Change & Stakeholder Communication,ILO_GENAI_STUDY,False,60.0,60.0,MEDIUM,MEDIUM,False
+stakeholder_communication,Human-Centred Change & Stakeholder Communication,DOSM_WAGES,False,60.0,60.0,MEDIUM,MEDIUM,False
+instructional_design,Competency Matrix & Reskilling Curriculum Design,TALENTCORP_MYCOL,False,60.0,60.0,MEDIUM,MEDIUM,False
+instructional_design,Competency Matrix & Reskilling Curriculum Design,TALENTCORP_IMPACT_STUDY,True,60.0,45.0,MEDIUM,LOW,True
+instructional_design,Competency Matrix & Reskilling Curriculum Design,MALAYSIAN_GOVERNMENT_POLICY,True,60.0,40.0,MEDIUM,LOW,True
+instructional_design,Competency Matrix & Reskilling Curriculum Design,OPENALEX_SCHOLARLY,True,60.0,45.0,MEDIUM,LOW,True
+instructional_design,Competency Matrix & Reskilling Curriculum Design,ILO_GENAI_STUDY,False,60.0,60.0,MEDIUM,MEDIUM,False
+instructional_design,Competency Matrix & Reskilling Curriculum Design,DOSM_WAGES,False,60.0,60.0,MEDIUM,MEDIUM,False

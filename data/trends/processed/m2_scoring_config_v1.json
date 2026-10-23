@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "scoring_engine": "M2_TREND_INTELLIGENCE_ENGINE",
+  "effective_date": "2026-10-23",
+  "dimensions": [
+    "demand_shortage_level",
+    "demand_momentum",
+    "employment_wage_momentum",
+    "research_momentum",
+    "ai_exposure",
+    "automation_exposure",
+    "augmentation_potential",
+    "policy_priority",
+    "evidence_confidence",
+    "freshness"
+  ],
+  "scale": {
+    "type": "bounded_index",
+    "min": 0.0,
+    "max": 100.0,
+    "interpretation": "INDEX SCORE (Not a probability)"
+  },
+  "source_authority_tiers": {
+    "TIER_A": {
+      "weight": 1.0,
+      "label": "Malaysian Statutory Authoritative"
+    },
+    "TIER_B": {
+      "weight": 0.85,
+      "label": "International Multilateral Benchmark"
+    },
+    "TIER_C": {
+      "weight": 0.7,
+      "label": "Global Academic / Research Infrastructure"
+    }
+  },
+  "outlook_rules": {
+    "STRONGLY_RISING": {
+      "conditions": "demand_momentum >= 75 AND augmentation_potential >= automation_exposure AND (policy_priority >= 75 OR persistent_critical == True)"
+    },
+    "RISING": {
+      "conditions": "(demand_momentum >= 60 OR demand_shortage_level >= 65) AND augmentation_potential >= automation_exposure"
+    },
+    "STABLE": {
+      "conditions": "demand_momentum between 45 and 65 AND automation_exposure < 20"
+    },
+    "MIXED_UNCERTAIN": {
+      "conditions": "conflicting_evidence == True OR confidence == INSUFFICIENT OR sensitive_to_perturbation == True"
+    },
+    "DECLINING": {
+      "conditions": "automation_exposure > augmentation_potential AND (dropped_from_mycol == True OR wage_momentum < 40)"
+    },
+    "STRONGLY_DECLINING": {
+      "conditions": "automation_exposure >= 2.5 * augmentation_potential AND dropped_from_mycol == True AND wage_momentum < 35"
+    }
+  }
+}

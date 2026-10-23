@@ -1,0 +1,451 @@
+[
+  {
+    "id": "comp-raw-jpdp-01",
+    "masco_group": "2421",
+    "occupation_title": "JPDP Security Standard: Data Protection Officer Competency",
+    "publisher": "Personal Data Protection Department (JPDP)",
+    "sector": "Legal & Data Protection",
+    "text": "Establishes statutory technical competencies for Data Protection Officers under the Personal Data Protection Standard 2015. Requires demonstrated capability to implement role-based access controls, conduct regular personal data inventory audits, enforce data retention schedules, and lead technical response containment for unauthorized data security breaches.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Personal Data Protection Department (JPDP)",
+    "source_doc": "JPDP Personal Data Protection Standard 2015 Section 4",
+    "source_url": "https://www.pdp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-jpdp-02",
+    "masco_group": "2511",
+    "occupation_title": "JPDP Data Transfer Standard: Cross-Border Cloud Compliance",
+    "publisher": "Personal Data Protection Department (JPDP)",
+    "sector": "Cloud Governance",
+    "text": "Outlines regulatory compliance competencies for transferring personal data outside Malaysia under Section 129 of Act 709. Requires technical practitioners to conduct third-party jurisdiction assessments, enforce contractual binding corporate rules, and verify encryption standards for cross-border cloud transit.",
+    "skills": [
+      "data_privacy_pdpa",
+      "api_integration",
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Personal Data Protection Department (JPDP)",
+    "source_doc": "JPDP Advisory on Cross-Border Data Transfers 2024",
+    "source_url": "https://www.pdp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-jpdp-03",
+    "masco_group": "2422",
+    "occupation_title": "JPDP Mandatory Breach Notification Protocol Competency",
+    "publisher": "Personal Data Protection Department (JPDP)",
+    "sector": "Regulatory Governance",
+    "text": "Defines corporate operational standards for reporting personal data breach incidents to the Commissioner within 72 hours. Outlines mandatory evidence logging, root cause vulnerability tracing, affected customer notification procedures, and executive incident briefings under the 2024 PDPA amendments.",
+    "skills": [
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Personal Data Protection Department (JPDP)",
+    "source_doc": "JPDP Data Breach Notification Guidelines 2024",
+    "source_url": "https://www.pdp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-bursa-01",
+    "masco_group": "2412",
+    "occupation_title": "Bursa Malaysia Sustainability Guide: Carbon Accounting Competency",
+    "publisher": "Bursa Malaysia Berhad",
+    "sector": "Capital Markets & ESG",
+    "text": "Details professional competency requirements for quantifying corporate greenhouse gas emissions under Bursa Malaysia Sustainability Reporting Guide (4th Edition). Encompasses activity data collection, emission factor selection from IPCC guidelines, Scope 1 and Scope 2 computational workflows, and TCFD scenario analysis.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Bursa Malaysia Berhad",
+    "source_doc": "Bursa Malaysia Sustainability Reporting Guide 4th Edition Annex",
+    "source_url": "https://www.bursamalaysia.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-bursa-02",
+    "masco_group": "1213",
+    "occupation_title": "Bursa Malaysia Corporate Governance: ESG Materiality Governance",
+    "publisher": "Bursa Malaysia Berhad",
+    "sector": "Corporate Governance",
+    "text": "Specifies board and management level competencies for conducting stakeholder materiality assessments and formulating sustainability targets for listed issuers. Emphasizes quantitative climate risk disclosures, human rights due diligence across supply chains, and external assurance verification.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "stakeholder_communication",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Bursa Malaysia Berhad",
+    "source_doc": "Bursa Malaysia Corporate Governance Guide 4th Edition",
+    "source_url": "https://www.bursamalaysia.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-bursa-03",
+    "masco_group": "2133",
+    "occupation_title": "Bursa Carbon Exchange (BCX): Carbon Project Verification Competency",
+    "publisher": "Bursa Malaysia Berhad",
+    "sector": "Carbon Trading & Climate Tech",
+    "text": "Defines technical criteria for verifying voluntary carbon credit generation projects under BCX rules. Covers additionality testing, baseline emissions monitoring, leakage assessment, and continuous MRV (Measurement, Reporting, and Verification) according to Verra and Gold Standard methodologies.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Bursa Malaysia Berhad",
+    "source_doc": "Bursa Carbon Exchange Operational Rulebook",
+    "source_url": "https://www.bursamalaysia.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-netr-01",
+    "masco_group": "2143",
+    "occupation_title": "NETR Clean Energy & Grid Decarbonisation Engineering Competency",
+    "publisher": "Ministry of Economy Malaysia",
+    "sector": "Energy Transition & Utilities",
+    "text": "Establishes technical competency benchmarks for large-scale solar (LSS) and renewable energy grid integration under the National Energy Transition Roadmap. Covers grid stability modeling, energy storage system deployment, avoided carbon emission quantification, and green hydrogen technology analysis.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Ministry of Economy Malaysia",
+    "source_doc": "National Energy Transition Roadmap (NETR) Part 1 & 2",
+    "source_url": "https://www.ekonomi.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-netr-02",
+    "masco_group": "2133",
+    "occupation_title": "NETR Industrial Energy Efficiency & Carbon Auditing Standard",
+    "publisher": "Ministry of Economy Malaysia",
+    "sector": "Industrial Energy Management",
+    "text": "Outlines industrial energy auditor competencies for thermal and electrical optimization in Malaysian manufacturing facilities. Covers boiler efficiency testing, waste heat recovery modeling, ISO 50001 energy management documentation, and carbon reduction milestone tracking.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "process_mapping",
+      "esg_sustainability_reporting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Ministry of Economy Malaysia",
+    "source_doc": "Energy Commission Malaysia (ST) Energy Efficiency Competency Guidelines",
+    "source_url": "https://www.st.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-jpk-01",
+    "masco_group": "2424",
+    "occupation_title": "JPK NOSS: Vocational Training & Instructional Design Standard",
+    "publisher": "Jabatan Pembangunan Kemahiran (JPK)",
+    "sector": "Technical & Vocational Education",
+    "text": "Specifies national occupational skills competencies for TVET instructors (NOSS Level 4/5). Details instructional media design, competency-based curriculum development, practical assessment rubric creation, and implementation of blended e-learning systems in accordance with national TVET quality standards.",
+    "skills": [
+      "instructional_design",
+      "stakeholder_communication",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "National Competency Framework: Jabatan Pembangunan Kemahiran (JPK)",
+    "source_doc": "JPK NOSS Vocational Training Methodology (Z-009-4/5)",
+    "source_url": "https://www.dsd.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-jpk-02",
+    "masco_group": "2141",
+    "occupation_title": "JPK NOSS: Industrial Automation & Mechatronics Systems Design",
+    "publisher": "Jabatan Pembangunan Kemahiran (JPK)",
+    "sector": "Advanced Manufacturing",
+    "text": "Defines core operational competencies for industrial automation engineers (NOSS MC-091-4). Focuses on PLC program architecture, industrial robotic cell sequencing, pneumatic and hydraulic circuit design, and authoring automated production line standard work instructions.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "National Competency Framework: Jabatan Pembangunan Kemahiran (JPK)",
+    "source_doc": "JPK NOSS Industrial Automation Engineering (MC-091-4)",
+    "source_url": "https://www.dsd.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-jpk-03",
+    "masco_group": "2512",
+    "occupation_title": "JPK NOSS: Enterprise Software & API Engineering Standard",
+    "publisher": "Jabatan Pembangunan Kemahiran (JPK)",
+    "sector": "Information & Communication Technology",
+    "text": "Outlines occupational competencies for enterprise software developers (NOSS IT-020-4). Covers RESTful API architecture, relational and NoSQL database querying with SQL, automated testing pipeline configuration, and secure coding practices.",
+    "skills": [
+      "api_integration",
+      "sql_data_analysis",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Jabatan Pembangunan Kemahiran (JPK)",
+    "source_doc": "JPK NOSS Software Development (IT-020-4)",
+    "source_url": "https://www.dsd.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-jpk-04",
+    "masco_group": "2421",
+    "occupation_title": "JPK NOSS: Business Process Improvement & Operational Excellence",
+    "publisher": "Jabatan Pembangunan Kemahiran (JPK)",
+    "sector": "Business Management",
+    "text": "Establishes national occupational competency standards for business process improvement analysts. Requires demonstrated mastery of BPMN 2.0 process flow diagramming, value stream waste elimination, cycle-time measurement, and cross-functional standard operating procedure drafting.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "National Competency Framework: Jabatan Pembangunan Kemahiran (JPK)",
+    "source_doc": "JPK NOSS Business Process Excellence (FB-025-4)",
+    "source_url": "https://www.dsd.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-hrd-01",
+    "masco_group": "2424",
+    "occupation_title": "HRD Corp Certified Trainer: Curriculum & Assessment Architecture",
+    "publisher": "Pembangunan Sumber Manusia Berhad (HRD Corp)",
+    "sector": "Corporate Adult Learning",
+    "text": "Defines the professional competency framework for HRD Corp certified corporate trainers in Malaysia. Mandates proficiency in adult learning principles, interactive courseware authoring, experiential workshop design, formative evaluation rubrics, and Kirkpatrick training effectiveness measurement.",
+    "skills": [
+      "instructional_design",
+      "stakeholder_communication",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "National Competency Framework: Pembangunan Sumber Manusia Berhad (HRD Corp)",
+    "source_doc": "HRD Corp Train-the-Trainer (TTT) Certification Blueprint",
+    "source_url": "https://www.hrdcorp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-hrd-02",
+    "masco_group": "2424",
+    "occupation_title": "HRD Corp e-LATiH: Digital Learning & Micro-Credential Authoring",
+    "publisher": "Pembangunan Sumber Manusia Berhad (HRD Corp)",
+    "sector": "Digital Learning Innovation",
+    "text": "Outlines instructional competencies for authoring self-paced asynchronous micro-credentials on the national e-LATiH learning portal. Covers bite-sized video storyboarding, interactive digital quizzes, automated certificate milestone triggers, and inclusive learning design.",
+    "skills": [
+      "instructional_design",
+      "prompt_engineering",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Pembangunan Sumber Manusia Berhad (HRD Corp)",
+    "source_doc": "HRD Corp Digital Content Creator Standards",
+    "source_url": "https://www.hrdcorp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-bnm-01",
+    "masco_group": "2412",
+    "occupation_title": "Bank Negara Malaysia RMiT: Technology Risk Governance Standard",
+    "publisher": "Bank Negara Malaysia (BNM)",
+    "sector": "Financial Risk & Banking",
+    "text": "Specifies regulatory competencies for managing technology risk in licensed financial institutions under BNM RMiT. Mandates rigorous cyber hygiene controls, core banking data integrity verification, automated anomaly detection logging, and third-party fintech API security testing.",
+    "skills": [
+      "sql_data_analysis",
+      "api_integration",
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Bank Negara Malaysia (BNM)",
+    "source_doc": "BNM Policy Document on Risk Management in Technology (RMiT)",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-bnm-02",
+    "masco_group": "2412",
+    "occupation_title": "Bank Negara Malaysia Climate Taxonomy: Green Financing Governance",
+    "publisher": "Bank Negara Malaysia (BNM)",
+    "sector": "Sustainable Banking",
+    "text": "Details banking competencies for classifying economic activities under the Climate Change and Principle-based Taxonomy (CCPT). Covers climate risk screening of commercial loan books, carbon emission baseline reviews, and environmental due diligence documentation.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Bank Negara Malaysia (BNM)",
+    "source_doc": "BNM Climate Change and Principle-based Taxonomy Guidance",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-gbs-01",
+    "masco_group": "2421",
+    "occupation_title": "GBS Malaysia Operational Framework: Shared Services Process Standardization",
+    "publisher": "Digital Global Business Services Council Malaysia",
+    "sector": "Global Business Services",
+    "text": "Defines operational excellence standards for multinational shared services delivery centres in Malaysia. Encompasses end-to-end standard operating procedure (SOP) documentation, swimlane process modeling, robotic process automation candidate identification, and SLA scorecard management.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Digital Global Business Services Council Malaysia",
+    "source_doc": "GBS Malaysia Talent Competency Framework 2024",
+    "source_url": "https://www.gbsmalaysia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-gbs-02",
+    "masco_group": "4132",
+    "occupation_title": "GBS Malaysia Intelligent Document Processing & HITL Standards",
+    "publisher": "Digital Global Business Services Council Malaysia",
+    "sector": "Digital Operations & BPO",
+    "text": "Establishes operational accuracy benchmarks for human-in-the-loop review teams validating optical character recognition (OCR) and automated machine learning extractions from enterprise invoices, contracts, and shipping manifests.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "National Competency Framework: Digital Global Business Services Council Malaysia",
+    "source_doc": "GBS Malaysia Automation Quality Assurance Handbook",
+    "source_url": "https://www.gbsmalaysia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-lss-01",
+    "masco_group": "2141",
+    "occupation_title": "Lean Six Sigma Black Belt: Process Mapping & Value Stream Architecture",
+    "publisher": "Malaysia Productivity Corporation (MPC)",
+    "sector": "Continuous Improvement",
+    "text": "Defines core competencies for Lean Six Sigma practitioners leading enterprise improvement projects in Malaysian industry. Requires advanced expertise in Value Stream Mapping (VSM), SIPOC diagramming, root-cause statistical analysis, failure mode effects analysis (FMEA), and process control plan design.",
+    "skills": [
+      "process_mapping",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "National Competency Framework: Malaysia Productivity Corporation (MPC)",
+    "source_doc": "MPC National Quality and Productivity Framework",
+    "source_url": "https://www.mpc.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-mdec-01",
+    "masco_group": "2422",
+    "occupation_title": "MDEC National AI Framework: Responsible AI Deployment Competency",
+    "publisher": "Malaysian Digital Economy Corporation (MDEC)",
+    "sector": "Artificial Intelligence",
+    "text": "Specifies organizational competencies for deploying artificial intelligence systems ethically under the National AI Roadmap. Outlines requirements for transparency, accountability, demographic fairness audits, data protection compliance, and human oversight safeguards.",
+    "skills": [
+      "ai_ethics_governance",
+      "ai_literacy",
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Malaysian Digital Economy Corporation (MDEC)",
+    "source_doc": "MDEC National Artificial Intelligence Governance Framework",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-mdec-02",
+    "masco_group": "2519",
+    "occupation_title": "MDEC Enterprise Knowledge Architecture: Vector Search & RAG Systems Standard",
+    "publisher": "Malaysian Digital Economy Corporation (MDEC)",
+    "sector": "Applied Artificial Intelligence",
+    "text": "Defines practitioner standards for building enterprise knowledge retrieval systems using retrieval-augmented generation and neural vector embeddings. Mandates rigorous evaluation of chunking strategies, dense retrieval accuracy, hybrid keyword-semantic reranking, and citation verifiability.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Malaysian Digital Economy Corporation (MDEC)",
+    "source_doc": "MDEC Applied AI Engineering Competency Standard 2024",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-mdec-03",
+    "masco_group": "2519",
+    "occupation_title": "MDEC Prompt Engineering & Generative AI Interaction Standard",
+    "publisher": "Malaysian Digital Economy Corporation (MDEC)",
+    "sector": "Generative AI Systems",
+    "text": "Specifies core professional competencies for prompt engineering and LLM system integration. Encompasses structured prompt design, chain-of-thought orchestration, negative prompt constraints, few-shot formatting, and systematic safety evaluation against adversarial injection.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Malaysian Digital Economy Corporation (MDEC)",
+    "source_doc": "MDEC Generative AI Workforce Competency Guidelines",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-mdec-04",
+    "masco_group": "2512",
+    "occupation_title": "MDEC Cloud Native API & Microservices Integration Architecture",
+    "publisher": "Malaysian Digital Economy Corporation (MDEC)",
+    "sector": "Software Engineering",
+    "text": "Defines technical standards for enterprise REST and GraphQL API development, asynchronous message queue handling, and third-party SaaS integration adhering to Malaysian enterprise cybersecurity guidelines.",
+    "skills": [
+      "api_integration",
+      "python_scripting",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Malaysian Digital Economy Corporation (MDEC)",
+    "source_doc": "MDEC Cloud Integration Technical Specifications",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-mdec-05",
+    "masco_group": "2521",
+    "occupation_title": "MDEC Enterprise Data Architecture & Big Data Engineering",
+    "publisher": "Malaysian Digital Economy Corporation (MDEC)",
+    "sector": "Data Management",
+    "text": "Outlines competencies for enterprise data warehousing, SQL query optimization, distributed data pipelines, and data governance across high-throughput transactional databases.",
+    "skills": [
+      "sql_data_analysis",
+      "python_scripting",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "National Competency Framework: Malaysian Digital Economy Corporation (MDEC)",
+    "source_doc": "MDEC Big Data Engineering Standard",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "comp-raw-rej-01",
+    "masco_group": "2421",
+    "occupation_title": "Unverified Blog Post on Workplace Efficiency",
+    "publisher": "Anonymous Tech Blog",
+    "sector": "Internet Opinion",
+    "text": "Efficiency in modern offices is very important and people should map their day nicely and use AI computers.",
+    "skills": [
+      "process_mapping",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "Unverified Third-Party Blog Post",
+    "source_doc": "Anonymous Medium Article",
+    "source_url": "https://medium.com/fake-post",
+    "country": "Unknown"
+  }
+]

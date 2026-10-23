@@ -1,0 +1,77 @@
+{
+  "engine_name": "M5 SDG Impact Mapping Engine",
+  "engine_version": "1.1.0",
+  "parent_version": "1.0.0",
+  "freeze_status": "FORMALLY_FROZEN",
+  "freeze_timestamp": "2026-10-23T17:27:36.711700Z",
+  "source_verification_reference_date": "2026-10-24",
+  "reference_milestone": "Stage 13D Formal Freeze Verification",
+  "upstream_dependencies": {
+    "m1_skills_extraction": {
+      "model": "H_blend_0.70A_0.30C1_W1.0",
+      "status": "FROZEN",
+      "provenance": "Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward."
+    },
+    "m2_trend_intelligence": {
+      "version": "v1.1.1",
+      "status": "FORMALLY_FROZEN",
+      "freeze_hash": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542"
+    },
+    "m6_scenario_engine": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "freeze_hash": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+    },
+    "m3_role_matching": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "freeze_hash": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c"
+    },
+    "m4_reskilling_pathways": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "freeze_manifest_path": "artifacts/m4_v1_1_freeze_manifest.json",
+      "freeze_manifest_hash": "448545188ba4e196eaf3502d7803c3d9cfbb1247ec453208cafae990c8db5f2f",
+      "build_manifest_hash": "df70619673fdabea418006a14117aeb67c7ea51869a43c3691f6712a8b769ba4"
+    }
+  },
+  "m5_asset_hashes_sha256": {
+    "goals": "5a2746dbe7531db8a218cb7fc8d7bc18aa77911cfc91499ee83f910165d5083d",
+    "targets": "b8c7bed5a3cd3d61300b3dbb45a100177bdd5c494e7d3c6a1dcb55ee29b13bc7",
+    "skill_mappings": "b17c3e9af7fae706397cb6a8f9cc83f4bb44bc78515ce212d9b6d28c4547101a",
+    "role_mappings": "4a2e9e6268060b05d8241ba2170301e4c9cf0feda5f5289ef1570af8bb89cd4c",
+    "config": "c5b8d82bc690d876e66ee3996741995975fa25274e09caddd0acd2b78ad0d8d8",
+    "engine_code": "4bd9ffe9783731e837f7824ebf50677175cbba62ca8621670dd09a1cb1450349",
+    "benchmark_results": "8340be15d5798afa78f77b81d97bdf50b61636eb1c19c9f8cb2a38a8ca8f2d5f",
+    "build_manifest": "17cf3a7d82e13d9a3d24fb5fc472268aaa44a9d34fe8081013375bfb1d91385a"
+  },
+  "registry_summary": {
+    "canonical_skills_mapped": 16,
+    "masco_occupations_mapped": 20,
+    "official_sdg_goals_covered": 17,
+    "official_targets_indexed": 21,
+    "target_universe_reference": "UN 2030 Agenda (169 official targets; domain-relevant subset indexed)",
+    "total_mappings": 76,
+    "mapping_types": {
+      "DIRECT": 16,
+      "ENABLING": 53,
+      "CONTEXTUAL": 7
+    },
+    "confidence_distribution": {
+      "HIGH": 59,
+      "HIGH_percentage": 77.6,
+      "MEDIUM": 17,
+      "MEDIUM_percentage": 22.4,
+      "LOW": 0,
+      "LOW_percentage": 0.0,
+      "saturation_status": "ELIMINATED"
+    }
+  },
+  "test_and_benchmark_summary": {
+    "m5_benchmarks_passed": "13/13",
+    "m5_unit_tests_passed": "17/17",
+    "active_repository_tests_passed": "94/94",
+    "automated_remediation_invariants": "ALL_PASSED"
+  },
+  "freeze_verdict": "M5 V1.1 APPROVED AND READY TO FREEZE"
+}

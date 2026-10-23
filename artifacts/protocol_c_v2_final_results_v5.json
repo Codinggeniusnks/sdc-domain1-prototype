@@ -1,0 +1,161 @@
+{
+  "protocol": "Protocol C v2: Unseen-Occupation Test Set",
+  "dataset_path": "C:\\Users\\LENOVO\\.gemini\\antigravity\\scratch\\sdc-domain1-prototype\\data\\splits\\unseen_occupation_test_set_v2.json",
+  "dataset_sha256": "136fbe4d8830325058015c973f2697644739551a6a5368563204d23d895fbeec",
+  "total_records": 25,
+  "evaluation_timestamp": "2026-10-23T13:45:19.653110",
+  "frozen_model": "H_blend_0.70A_0.30C1_W1.0",
+  "evaluation_threshold": 0.375,
+  "metrics": {
+    "macro_f1": 0.7443,
+    "micro_f1": 0.7897,
+    "macro_precision": 0.6792,
+    "macro_recall": 0.8509,
+    "micro_precision": 0.7,
+    "micro_recall": 0.9059,
+    "hamming_loss": 0.1025,
+    "subset_accuracy": 0.12,
+    "rare_class_recall": 0.9,
+    "per_class": {
+      "ai_literacy": {
+        "support": 2,
+        "precision": 0.3333,
+        "recall": 0.5,
+        "f1": 0.4
+      },
+      "prompt_engineering": {
+        "support": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "process_mapping": {
+        "support": 11,
+        "precision": 0.8182,
+        "recall": 0.8182,
+        "f1": 0.8182
+      },
+      "sql_data_analysis": {
+        "support": 8,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "python_scripting": {
+        "support": 9,
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1": 0.9474
+      },
+      "data_visualization": {
+        "support": 7,
+        "precision": 0.5455,
+        "recall": 0.8571,
+        "f1": 0.6667
+      },
+      "workflow_automation": {
+        "support": 7,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "human_in_the_loop_qa": {
+        "support": 5,
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8
+      },
+      "rag_knowledge_systems": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "api_integration": {
+        "support": 7,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333
+      },
+      "ai_ethics_governance": {
+        "support": 1,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "data_privacy_pdpa": {
+        "support": 8,
+        "precision": 0.8571,
+        "recall": 0.75,
+        "f1": 0.8
+      },
+      "esg_sustainability_reporting": {
+        "support": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "carbon_footprint_analytics": {
+        "support": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "stakeholder_communication": {
+        "support": 9,
+        "precision": 0.5714,
+        "recall": 0.8889,
+        "f1": 0.6957
+      },
+      "instructional_design": {
+        "support": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "bootstrap_ci_95": {
+    "macro_f1": {
+      "point_mean": 0.7103,
+      "ci_95_lower": 0.613,
+      "ci_95_upper": 0.7866,
+      "std": 0.0441
+    },
+    "micro_f1": {
+      "point_mean": 0.7894,
+      "ci_95_lower": 0.7549,
+      "ci_95_upper": 0.8272,
+      "std": 0.0187
+    },
+    "macro_precision": {
+      "point_mean": 0.6646,
+      "ci_95_lower": 0.5727,
+      "ci_95_upper": 0.7477,
+      "std": 0.0445
+    },
+    "macro_recall": {
+      "point_mean": 0.8094,
+      "ci_95_lower": 0.6925,
+      "ci_95_upper": 0.9069,
+      "std": 0.0557
+    },
+    "rare_class_recall": {
+      "point_mean": 0.9053,
+      "ci_95_lower": 0.7333,
+      "ci_95_upper": 1.0,
+      "std": 0.0838
+    },
+    "bootstrap_method": "cluster_by_occupation_group",
+    "iterations": 2000
+  },
+  "human_in_the_loop_policy": {
+    "core_precision": 0.7361,
+    "core_recall": 0.7879,
+    "suggested_precision": 0.1481,
+    "missed_by_core_total": 13,
+    "recovered_by_suggested": 8,
+    "recovery_rate_pct": 61.54,
+    "false_suggestion_burden_per_doc": 1.84
+  }
+}

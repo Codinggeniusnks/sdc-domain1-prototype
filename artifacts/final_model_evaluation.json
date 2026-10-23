@@ -1,0 +1,35 @@
+{
+  "protocol_b_real_world": {
+    "protocol_name": "Protocol B: Real-World Generalisation Set (FINAL HOLDOUT)",
+    "sample_count": 63,
+    "skills_macro_f1": 0.6888,
+    "skills_micro_f1": 0.6517,
+    "skills_weighted_f1": 0.6648,
+    "demand_accuracy": 0.746,
+    "demand_macro_f1": 0.738,
+    "demand_roc_auc": 0.8413,
+    "demand_brier_score": 0.1676
+  },
+  "protocol_c_unseen_occ": {
+    "protocol_name": "Protocol C: Unseen-Occupation Set (FINAL HOLDOUT)",
+    "sample_count": 25,
+    "skills_macro_f1": 0.6061,
+    "skills_micro_f1": 0.6531,
+    "skills_weighted_f1": 0.6557,
+    "demand_accuracy": 0.56,
+    "demand_macro_f1": 0.4762,
+    "demand_roc_auc": 0.62,
+    "demand_brier_score": 0.226
+  },
+  "protocol_a_legacy_synth": {
+    "protocol_name": "Protocol A: Legacy Synthetic Diagnostic",
+    "sample_count": 300,
+    "skills_macro_f1": 0.6752,
+    "skills_micro_f1": 0.6672,
+    "skills_weighted_f1": 0.6731,
+    "demand_accuracy": 0.7933,
+    "demand_macro_f1": 0.673,
+    "demand_roc_auc": 0.8814,
+    "demand_brier_score": 0.15
+  }
+}

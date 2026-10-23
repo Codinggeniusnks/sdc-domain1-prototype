@@ -1,0 +1,1829 @@
+<USER_REQUEST>
+Act as an independent Senior Reproducibility Auditor, Workforce Analytics Methodologist, Privacy-Preserving HR Analytics Reviewer and Responsible-AI Safety Engineer.
+
+Stage 15C has completed successfully.
+
+Current candidate:
+
+O1 Employer / HR Workforce Gap & Cohort Reskilling Engine v1.1.0
+
+Current readiness verdict:
+
+READY FOR O1 FINAL FREEZE REVIEW
+
+This is the FINAL bounded freeze verification for O1.
+
+Do NOT redesign O1.
+
+Do NOT build the visual heatmap.
+
+Do NOT build employer dashboard UI.
+
+Do NOT build O2/O3/O4/O5.
+
+Do NOT modify M1/M2/M3/M4/M5/M6/O6.
+
+Do NOT use RunPod.
+
+Do NOT use Argon.
+
+Do NOT push Git.
+
+Do NOT deploy.
+
+Use Gemini 3.8 Flash locally.
+
+==================================================
+FROZEN BASELINE
+==================================================
+
+M1:
+
+H_blend_0.70A_0.30C1_W1.0
+
+Canonical provenance:
+
+"Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward."
+
+
+M2:
+
+v1.1.1
+
+SHA-256:
+
+cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542
+
+
+M6:
+
+v1.1.0
+
+SHA-256:
+
+ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5
+
+
+M3:
+
+v1.1.0
+
+SHA-256:
+
+15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c
+
+
+M4:
+
+v1.1.0
+
+Freeze Manifest SHA-256:
+
+448545188ba4e196eaf3502d7803c3d9cfbb1247ec453208cafae990c8db5f2f
+
+
+M5:
+
+v1.1.0
+
+Freeze Manifest SHA-256:
+
+94c1f42b46a1fa5e9b026fb82d5225e21c24547cdd58c234f2843cd84eb32ec7
+
+
+O6:
+
+v1.1.0
+
+Status:
+
+FORMALLY FROZEN after Stage 14E.
+
+Use the corrected Stage 14E O6 freeze manifest as the canonical O6 artifact.
+
+Do NOT assume an older Stage 14D manifest digest if Stage 14E regenerated its metadata.
+
+Independently calculate and report the current canonical O6 freeze-manifest SHA-256.
+
+==================================================
+O1 CANDIDATE
+==================================================
+
+Version:
+
+O1 Employer / HR Workforce Gap & Cohort Reskilling Engine v1.1.0
+
+Stage 15C reports:
+
+P0 = 0
+
+P1 = 0
+
+P2 = 0
+
+P3 = 0
+
+18 / 18 benchmarks passed
+
+65 / 65 O1 tests passed
+
+minimum cohort threshold = 5
+
+cross-query protection = PARTIAL
+
+CORE behaviour = WEIGHTED PREFERENCE ONLY
+
+average deficit ranking weight = 0.0
+
+Spearman v1.0→v1.1 = 1.000000
+
+top-5 stability = 100%.
+
+==================================================
+SOURCE OF TRUTH
+==================================================
+
+Inspect actual files.
+
+Do NOT trust Stage 15C summary prose alone.
+
+Read:
+
+src/workforce_gap_engine.py
+
+data/workforce/o1_config_v1_1.json
+
+data/workforce/o1_benchmark_results_v1_1.json
+
+data/workforce/o1_build_manifest_v1_1.json
+
+scripts/run_o1_benchmarks.py
+
+tests/test_workforce_gap_engine.py
+
+artifacts/stage15c_o1_remediation_report.md
+
+artifacts/o1_small_cell_privacy_v1_1.md
+
+artifacts/o1_shared_learning_privacy_v1_1.md
+
+artifacts/o1_role_transition_privacy_v1_1.md
+
+artifacts/o1_heatmap_privacy_v1_1.md
+
+artifacts/o1_core_weighted_semantics_v1_1.md
+
+artifacts/o1_deficit_signal_v1_1.md
+
+artifacts/o1_priority_weights_v1_1.md
+
+artifacts/o1_priority_regression_v1_1.md
+
+artifacts/o1_weight_sensitivity_v1_1.md
+
+artifacts/o1_hr_guardrails_v1_1.md
+
+artifacts/o1_v1_vs_v1_1.md
+
+artifacts/stage15d_readiness.md
+
+Also inspect frozen O6 privacy/downstream contracts and M3/M4/M5/M6 contracts where referenced.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Verify independently that O1 v1.1.0:
+
+1. closes all 10 Stage 15B defects;
+
+2. leaks no exact employer-facing small-cell counts;
+
+3. prevents reconstruction through deterministic priority outputs;
+
+4. correctly implements CORE-weighted cohort preference;
+
+5. excludes the binary deficit signal from ranking everywhere;
+
+6. preserves M4 individual CORE-first authority;
+
+7. preserves HR/employment-decision safety boundaries;
+
+8. is deterministic and reproducible;
+
+9. is safe for downstream O2/O5/UI integration;
+
+10. is suitable to become formally FROZEN.
+
+==================================================
+CHECK 1 — ENGINE VERSION
+==================================================
+
+Verify:
+
+engine_version = 1.1.0.
+
+Preserve historical O1 v1.0.0 artifacts.
+
+No silent overwrite.
+
+==================================================
+CHECK 2 — UPSTREAM IMMUTABILITY
+==================================================
+
+Recompute:
+
+M2 hash
+
+M6 hash
+
+M3 hash
+
+M4 freeze-manifest hash
+
+M5 freeze-manifest hash
+
+current canonical O6 freeze-manifest hash.
+
+Verify zero upstream modification.
+
+==================================================
+CHECK 3 — O6 CANONICAL FREEZE ARTIFACT
+==================================================
+
+Because Stage 14E regenerated corrected freeze documentation:
+
+identify the actual canonical:
+
+artifacts/o6_v1_1_freeze_manifest.json
+
+SHA-256 on disk.
+
+Report it.
+
+Confirm O1 pins:
+
+O6 v1.1.0.
+
+==================================================
+CHECK 4 — VERSION PINNING
+==================================================
+
+Verify O1 pins:
+
+M2 v1.1.1
+
+M3 v1.1.0
+
+M4 v1.1.0
+
+M5 v1.1.0
+
+M6 v1.1.0
+
+O6 v1.1.0.
+
+No:
+
+latest
+
+auto-upgrade
+
+unversioned fallback.
+
+==================================================
+CHECK 5 — SYNTHETIC-ONLY INPUT
+==================================================
+
+Verify demo/testing data contains:
+
+no real CV
+
+name
+
+email
+
+phone
+
+staff number
+
+private HR record
+
+personal narrative.
+
+==================================================
+CHECK 6 — PROTECTED / BACKGROUND ATTRIBUTES
+==================================================
+
+Verify O1 priority does NOT use:
+
+gender
+
+sex
+
+race
+
+ethnicity
+
+religion
+
+age
+
+disability
+
+income
+
+postcode
+
+school prestige
+
+family background
+
+employer prestige
+
+salary.
+
+==================================================
+CHECK 7 — PROFILE VALIDATION
+==================================================
+
+Test:
+
+None
+
+{}
+
+string
+
+list
+
+missing ID
+
+duplicate ID
+
+confirmed_skills=None.
+
+Malformed profiles must not:
+
+crash
+
+or enter valid denominators.
+
+==================================================
+CHECK 8 — DENOMINATOR INTEGRITY
+==================================================
+
+Verify:
+
+input_profile_count
+
+eligible_profile_count
+
+excluded_profile_count.
+
+For each prevalence:
+
+use documented eligible denominator.
+
+==================================================
+CHECK 9 — GAP PREVALENCE
+==================================================
+
+Hand-calculate multiple fixtures.
+
+Require:
+
+gapped eligible profiles / eligible cohort.
+
+One profile counts once per skill.
+
+==================================================
+CHECK 10 — CORE GAP PREVALENCE
+==================================================
+
+Verify exact calculation.
+
+==================================================
+CHECK 11 — IMPORTANT GAP PREVALENCE
+==================================================
+
+Verify exact calculation.
+
+==================================================
+CHECK 12 — SUPPORTING GAPS
+==================================================
+
+Verify SUPPORTING gaps remain descriptive and are not silently given an active priority weight.
+
+==================================================
+CHECK 13 — DEFICIT DISTRIBUTION
+==================================================
+
+Recompute current nonzero deficit distribution.
+
+Expected Stage 15C claim:
+
+unique nonzero values = {1.0}
+
+std = 0.0.
+
+Report actual:
+
+count
+
+min
+
+max
+
+mean
+
+std
+
+unique values.
+
+==================================================
+CHECK 14 — DEFICIT ACTIVE WEIGHT
+==================================================
+
+BLOCKING CHECK.
+
+Verify:
+
+average_deficit ranking weight = 0.0
+
+in:
+
+config
+
+priority function
+
+scenario comparison
+
+heatmap priority
+
+executive summary
+
+cohort roadmap
+
+any alternative priority helper.
+
+There must be no hidden path where deficit contributes to ranking.
+
+==================================================
+CHECK 15 — DEFICIT DIAGNOSTIC
+==================================================
+
+Verify mean_deficit may still be shown as:
+
+diagnostic/descriptive information
+
+subject to privacy suppression.
+
+It must be labelled:
+
+diagnostic only
+
+not active priority component.
+
+==================================================
+CHECK 16 — DEFICIT FUTURE REACTIVATION
+==================================================
+
+Verify O1 does NOT automatically reactivate deficit weighting merely because future input values become fractional.
+
+Future activation requires explicit version/methodology update.
+
+==================================================
+CHECK 17 — PRIORITY WEIGHTS
+==================================================
+
+Verify exact effective weights:
+
+CORE = 0.4117647059
+
+IMPORTANT = 0.2352941176
+
+TRANSFERABILITY = 0.1764705882
+
+SCENARIO = 0.1176470588
+
+PREREQUISITE = 0.0588235294
+
+DEFICIT = 0.0.
+
+==================================================
+CHECK 18 — WEIGHT SUM
+==================================================
+
+Verify sum = 1 within floating-point tolerance.
+
+==================================================
+CHECK 19 — PROPORTIONAL RENORMALISATION
+==================================================
+
+Verify these values are exactly the original informative weights divided by:
+
+0.85
+
+and were not manually tuned.
+
+==================================================
+CHECK 20 — PRIORITY FORMULA
+==================================================
+
+Verify production formula:
+
+Priority(s) =
+
+100 × [
+
+0.4117647059 × CORE_Prevalence
+
++ 0.2352941176 × IMPORTANT_Prevalence
+
++ 0.1764705882 × Transferability
+
++ 0.1176470588 × ScenarioUrgency
+
++ 0.0588235294 × PrerequisiteCentrality
+
+]
+
+subject to:
+
+GapCount(s) > 0.
+
+Otherwise:
+
+Priority = 0.
+
+==================================================
+CHECK 21 — PRIORITY ARITHMETIC
+==================================================
+
+Independently recompute at least:
+
+top 5 skills
+
+plus:
+
+5 adversarial fixtures.
+
+Require exact agreement.
+
+==================================================
+CHECK 22 — ZERO-GAP GATE
+==================================================
+
+A skill with:
+
+zero unresolved gaps
+
+must have:
+
+Priority = 0
+
+even with:
+
+high transferability
+
+high scenario urgency
+
+high centrality.
+
+==================================================
+CHECK 23 — PRIORITY RANGE
+==================================================
+
+Verify:
+
+0 <= Priority <= 100.
+
+==================================================
+CHECK 24 — PRIORITY MONOTONICITY
+==================================================
+
+Holding other components fixed:
+
+increasing any active positive-weight component must not reduce priority.
+
+==================================================
+CHECK 25 — CORE SEMANTICS
+==================================================
+
+Verify production terminology is:
+
+CORE_WEIGHTED_PREFERENCE
+
+or semantically equivalent.
+
+No claim:
+
+CORE always wins.
+
+No claim:
+
+structural CORE precedence.
+
+==================================================
+CHECK 26 — ADVERSARIAL CORE FIXTURE
+==================================================
+
+Construct:
+
+rare CORE skill
+
+versus:
+
+widespread IMPORTANT skill.
+
+Verify widespread IMPORTANT may legitimately outrank rare CORE.
+
+This is expected O1 behaviour.
+
+==================================================
+CHECK 27 — M4 CORE-FIRST BOUNDARY
+==================================================
+
+Verify documentation explicitly distinguishes:
+
+O1:
+weighted cohort resource-allocation priority
+
+from:
+
+M4:
+individual CORE-first pathway ordering.
+
+O1 must not modify M4 ordering.
+
+==================================================
+CHECK 28 — PRIORITY TRACEABILITY
+==================================================
+
+For every visible priority record require:
+
+raw component value
+
+weight
+
+weighted contribution
+
+final index.
+
+Except where privacy suppression blocks disclosure.
+
+==================================================
+CHECK 29 — RANK REGRESSION
+==================================================
+
+Recompute all 16 skills under:
+
+v1.0
+
+and:
+
+v1.1.
+
+Verify Stage 15C claim:
+
+Spearman = 1.000000
+
+top-5 stability = 100%.
+
+If not exact:
+
+report actual.
+
+==================================================
+CHECK 30 — WEIGHT SENSITIVITY
+==================================================
+
+Re-run bounded sensitivity analysis.
+
+Report:
+
+minimum Spearman
+
+top-5 stability
+
+skills moving >=3 positions.
+
+Classify:
+
+ROBUST
+
+MODERATELY SENSITIVE
+
+HIGHLY SENSITIVE.
+
+Do NOT tune.
+
+==================================================
+CHECK 31 — TRANSFERABILITY
+==================================================
+
+Verify derived from approved frozen catalog/requirements.
+
+No M3 rank leakage.
+
+==================================================
+CHECK 32 — PREREQUISITE CENTRALITY
+==================================================
+
+Verify derived from frozen M4 prerequisite graph.
+
+Check edge direction and normalization.
+
+==================================================
+CHECK 33 — SCENARIO URGENCY
+==================================================
+
+Verify consumption of frozen M6/M4 scenario context.
+
+No newly manufactured skill gaps.
+
+==================================================
+CHECK 34 — SCENARIO DOUBLE COUNTING
+==================================================
+
+Confirm:
+
+NONE
+
+or report actual overlap.
+
+==================================================
+CHECK 35 — COURSE / PROVIDER INDEPENDENCE
+==================================================
+
+Modify:
+
+price
+
+provider
+
+URL
+
+certificate status
+
+resource availability.
+
+Priority must remain unchanged.
+
+==================================================
+CHECK 36 — SHARED LEARNING SMALL-CELL PRIVACY
+==================================================
+
+BLOCKING CHECK.
+
+Test affected subgroup counts:
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6.
+
+For 1–4 employer-facing output must not expose:
+
+exact count
+
+skill identity where that identity itself reveals the group
+
+exact percentage
+
+resource assignment
+
+learner-hours attributable to that small group.
+
+==================================================
+CHECK 37 — SHARED LEARNING THRESHOLD
+==================================================
+
+Verify privacy-safe employer-facing threshold:
+
+>=5.
+
+Not old:
+
+>=2.
+
+==================================================
+CHECK 38 — PRIORITY-SKILL SMALL-CELL PRIVACY
+==================================================
+
+BLOCKING CHECK.
+
+Cohort N=50.
+
+Create skill affecting:
+
+1
+
+2
+
+3
+
+4
+
+5 profiles.
+
+For 1–4 verify suppression of:
+
+exact count
+
+gap prevalence
+
+priority index
+
+ranking position
+
+decomposed active components
+
+mean deficit
+
+associated intervention details
+
+if reconstructable.
+
+==================================================
+CHECK 39 — REQUIREMENT-TIER SUBCELL PRIVACY
+==================================================
+
+Example:
+
+total gap = 10
+
+CORE = 2
+
+IMPORTANT = 8.
+
+CORE exact count/prevalence must be suppressed.
+
+==================================================
+CHECK 40 — PRIORITY RECONSTRUCTION ATTACK
+==================================================
+
+CRITICAL.
+
+Take a skill where one component depends on:
+
+CORE count = 3.
+
+If final priority and every other active component are shown:
+
+can CORE prevalence be algebraically recovered?
+
+Expected:
+
+NO
+
+because privacy-sensitive priority output is suppressed.
+
+==================================================
+CHECK 41 — ROLE TRANSITION SMALL CELLS
+==================================================
+
+Test transition volumes:
+
+1
+
+2
+
+3
+
+4
+
+5.
+
+1–4 must be masked.
+
+==================================================
+CHECK 42 — ROLE TRANSITION DERIVED VALUES
+==================================================
+
+For suppressed transition do not leak through:
+
+percentage
+
+learner-hours
+
+target-role-specific gap list
+
+rank ordering
+
+or executive summary.
+
+==================================================
+CHECK 43 — ROLE-FAMILY PRIVACY
+==================================================
+
+4-digit MASCO role family with:
+
+eligible N <5
+
+must be suppressed.
+
+==================================================
+CHECK 44 — HEATMAP CELL PRIVACY
+==================================================
+
+Test group×skill cells with:
+
+N = 1–4.
+
+Require:
+
+suppressed = true
+
+display_value = null
+
+no prevalence
+
+no priority
+
+count_display = "<5"
+
+or equivalent.
+
+==================================================
+CHECK 45 — HEATMAP SAFE CELL
+==================================================
+
+N=5 cell may be displayed subject to ordinary rules.
+
+==================================================
+CHECK 46 — ROADMAP PRIVACY
+==================================================
+
+Verify small-cell learning needs cannot be inferred from:
+
+phase membership
+
+skill labels
+
+resource labels
+
+hours
+
+role labels.
+
+==================================================
+CHECK 47 — EXECUTIVE SUMMARY PRIVACY
+==================================================
+
+Verify top lists are generated:
+
+AFTER privacy filtering.
+
+No suppressed skill/transition may appear.
+
+==================================================
+CHECK 48 — SDG SUBGROUP PRIVACY
+==================================================
+
+If O1 exposes subgroup-specific O6/M5 SDG context:
+
+apply same k=5 policy.
+
+No rare subgroup inference.
+
+==================================================
+CHECK 49 — EXACT SMALL COUNT SEARCH
+==================================================
+
+Programmatically inspect employer-facing outputs from adversarial fixtures.
+
+Require zero privacy-sensitive exact values:
+
+1
+
+2
+
+3
+
+4
+
+where they represent subgroup sizes.
+
+Do not confuse these with:
+
+version numbers
+
+SDG numbers
+
+priority constants
+
+unrelated metadata.
+
+==================================================
+CHECK 50 — COMPLEMENTARY SUPPRESSION
+==================================================
+
+Fixture:
+
+parent = 10
+
+A = 6
+
+B = 4.
+
+Require:
+
+B suppressed
+
+A complementarily suppressed.
+
+==================================================
+CHECK 51 — MULTIPLE SMALL CELLS
+==================================================
+
+Fixture such as:
+
+3
+
+3
+
+6
+
+8.
+
+Verify deterministic complementary handling.
+
+==================================================
+CHECK 52 — PARTITION RULE CONSISTENCY
+==================================================
+
+Verify O1 privacy semantics match frozen O6 where complete partitions are produced.
+
+O1 may be stricter but not weaker.
+
+==================================================
+CHECK 53 — CROSS-QUERY PRIVACY
+==================================================
+
+Verify classification remains:
+
+PARTIAL.
+
+No claim:
+
+full privacy
+
+anonymous
+
+reconstruction-proof.
+
+==================================================
+CHECK 54 — NO DIFFERENTIAL PRIVACY CLAIM
+==================================================
+
+Verify:
+
+no epsilon/delta DP claim
+
+unless actual DP exists.
+
+Expected:
+
+absent.
+
+==================================================
+CHECK 55 — RAW CV SAFETY
+==================================================
+
+Verify no employer-facing output contains:
+
+raw CV
+
+resume text
+
+personal narrative.
+
+==================================================
+CHECK 56 — INDIVIDUAL ID EXPOSURE
+==================================================
+
+Inspect all employer payloads.
+
+Individual profile IDs should not be exposed where not operationally necessary.
+
+==================================================
+CHECK 57 — EMPLOYEE RANKING
+==================================================
+
+Verify zero ordering of employees by:
+
+skills
+
+gaps
+
+training
+
+scenario
+
+SDG
+
+priority.
+
+==================================================
+CHECK 58 — EMPLOYMENT DECISION GUARDRAILS
+==================================================
+
+Require explicit prohibition of:
+
+hiring
+
+termination
+
+promotion
+
+compensation
+
+discipline
+
+individual performance scoring.
+
+==================================================
+CHECK 59 — FAIRNESS METADATA
+==================================================
+
+Verify:
+
+protected_attributes_used = false
+
+demographic_fairness_evaluated = false.
+
+==================================================
+CHECK 60 — FAIRNESS LIMITATION
+==================================================
+
+Verify documentation states:
+
+structural protected-attribute non-use does NOT prove empirical demographic parity
+
+and does not rule out all proxy effects.
+
+==================================================
+CHECK 61 — PROXY FEATURE SAFETY
+==================================================
+
+Verify no priority effect from:
+
+school prestige
+
+postcode
+
+salary
+
+family background
+
+employer prestige
+
+or equivalent.
+
+==================================================
+CHECK 62 — LEARNER-HOURS
+==================================================
+
+Verify:
+
+aggregate learner-hours
+
+remain distinct from:
+
+shared session duration.
+
+==================================================
+CHECK 63 — CALENDAR DURATION
+==================================================
+
+No months/weeks output unless explicit scheduling assumptions exist.
+
+==================================================
+CHECK 64 — COHORT RESKILLING PLAN
+==================================================
+
+Verify plan derives from:
+
+privacy-safe priority skills
+
+M4 prerequisites
+
+M4 verified resources.
+
+Suppressed skills must not reappear indirectly.
+
+==================================================
+CHECK 65 — INDIVIDUAL M4 AUTHORITY
+==================================================
+
+Verify cohort plan does not overwrite personal pathway sequence.
+
+==================================================
+CHECK 66 — SDG CONTEXT
+==================================================
+
+Verify frozen O6/M5 alignment remains descriptive.
+
+No:
+
+corporate sustainability impact score
+
+SDG achievement score
+
+CO2 reduction estimate
+
+job-creation claim.
+
+==================================================
+CHECK 67 — SDG PRIORITY ISOLATION
+==================================================
+
+Changing SDG mappings/counts alone must not change O1 priority.
+
+==================================================
+CHECK 68 — MAJOR GROUP SAFETY
+==================================================
+
+Verify 1-digit MASCO Major Group codes remain contextual/fallback only.
+
+==================================================
+CHECK 69 — TRANSITION SEMANTICS
+==================================================
+
+Verify:
+
+transition pressure
+
+capability hurdle
+
+role-transition volume
+
+are not described as:
+
+layoff probability
+
+replacement probability
+
+employee attrition probability.
+
+==================================================
+CHECK 70 — SCENARIO LANGUAGE
+==================================================
+
+REFERENCE_2026
+
+MODERATE_COPILOT
+
+FAST_AGENTIC
+
+must remain:
+
+structured scenario assumptions
+
+not probabilities.
+
+==================================================
+CHECK 71 — HEATMAP CONTRACT
+==================================================
+
+Every unsuppressed cell should contain clearly named metric:
+
+gap_prevalence
+
+core_gap_prevalence
+
+reskilling_priority_index
+
+or equivalent.
+
+No generic:
+
+risk_score.
+
+==================================================
+CHECK 72 — EXECUTIVE SUMMARY DETERMINISM
+==================================================
+
+Verify summary is deterministic structured output.
+
+No runtime LLM-generated claims.
+
+==================================================
+CHECK 73 — O2 HOOK
+==================================================
+
+Verify availability of:
+
+m2_version
+
+m6_scenario
+
+m4_pathway_version
+
+cohort_snapshot_hash
+
+analysis_config_hash.
+
+No watcher/daemon exists.
+
+==================================================
+CHECK 74 — O5 HOOK
+==================================================
+
+Verify truthful governance/privacy metadata.
+
+No empirical demographic fairness claim.
+
+==================================================
+CHECK 75 — BUILD REPRODUCIBILITY
+==================================================
+
+Run deterministic O1 generation/build process.
+
+Same:
+
+cohort
+
+config
+
+scenario
+
+upstream versions
+
+must produce same semantic output.
+
+Ignore generated_at where required.
+
+==================================================
+CHECK 76 — BUILD MANIFEST
+==================================================
+
+Recalculate every hash in:
+
+data/workforce/o1_build_manifest_v1_1.json.
+
+Require exact match.
+
+==================================================
+CHECK 77 — UNIT TEST SUITE
+==================================================
+
+Run:
+
+tests/test_workforce_gap_engine.py
+
+Expected current baseline:
+
+65 / 65.
+
+Add freeze-specific tests if necessary.
+
+==================================================
+CHECK 78 — BENCHMARK SUITE
+==================================================
+
+Run:
+
+BM01–BM18.
+
+Expected:
+
+18 / 18.
+
+==================================================
+CHECK 79 — PRIVACY ADVERSARIAL SUITE
+==================================================
+
+Create explicit adversarial fixtures for:
+
+shared learning 1–5
+
+priority skill 1–5
+
+role transition 1–5
+
+heatmap 1–5
+
+tier subcell 1–4
+
+partition 10=6+4
+
+multiple small-cell partition.
+
+==================================================
+CHECK 80 — PRIORITY MANUAL FIXTURE
+==================================================
+
+Hand-calculate at least 5 skills using v1.1 weights.
+
+Require exact match.
+
+==================================================
+CHECK 81 — STAGE 15B DEFECT CLOSURE
+==================================================
+
+Verify all 10 Stage 15B defects individually:
+
+CLOSED / OPEN.
+
+==================================================
+CHECK 82 — NO NEW DEFECTS
+==================================================
+
+Assess whether Stage 15C introduced:
+
+over-suppression logic error
+
+unsuppressed secondary channel
+
+priority weight mismatch
+
+privacy reconstruction path
+
+version mismatch
+
+broken O2/O5 contracts.
+
+==================================================
+FREEZE MANIFEST
+==================================================
+
+Only if:
+
+P0 = 0
+
+P1 = 0
+
+all blocking privacy and priority checks pass
+
+create:
+
+artifacts/o1_v1_1_freeze_manifest.json
+
+Include:
+
+engine_name
+
+engine_version = 1.1.0
+
+parent_version = 1.0.0
+
+M1 identifier/provenance
+
+M2 freeze hash
+
+M6 freeze hash
+
+M3 freeze hash
+
+M4 freeze-manifest hash
+
+M5 freeze-manifest hash
+
+canonical O6 freeze-manifest hash
+
+O1 config hash
+
+O1 engine hash
+
+benchmark-results hash
+
+build-manifest hash
+
+test file hash
+
+synthetic workforce hash/reference
+
+privacy classification
+
+minimum cohort threshold
+
+priority weights
+
+deficit-signal status
+
+test summary
+
+freeze timestamp.
+
+==================================================
+FREEZE STATUS
+==================================================
+
+After successful Stage 15D:
+
+O1 Employer / HR Workforce Gap & Cohort Reskilling Engine v1.1.0 becomes:
+
+FORMALLY FROZEN / READ ONLY.
+
+Any later change to:
+
+priority semantics
+
+privacy rules
+
+weights
+
+suppression
+
+eligibility
+
+scenario aggregation
+
+requires:
+
+O1 v1.2+
+
+Do NOT silently mutate v1.1.0.
+
+==================================================
+REQUIRED REPORTS
+==================================================
+
+Create:
+
+artifacts/stage15d_o1_final_freeze_review.md
+
+artifacts/o1_priority_freeze_audit.md
+
+artifacts/o1_privacy_freeze_audit.md
+
+artifacts/o1_reconstruction_attack_audit.md
+
+artifacts/o1_cohort_plan_freeze_audit.md
+
+artifacts/o1_hr_safety_freeze_audit.md
+
+artifacts/o1_downstream_contract_final.md
+
+artifacts/o1_v1_1_freeze_manifest.json
+
+artifacts/stage16_readiness.md
+
+==================================================
+FINAL RESPONSE
+==================================================
+
+Report:
+
+1. O1 version
+
+2. Upstream integrity:
+PASS / FAIL
+
+3. Canonical O6 freeze-manifest SHA
+
+4. Synthetic-only data:
+PASS / FAIL
+
+5. Gap prevalence:
+PASS / FAIL
+
+6. CORE gap prevalence:
+PASS / FAIL
+
+7. IMPORTANT gap prevalence:
+PASS / FAIL
+
+8. Deficit unique nonzero values
+
+9. Deficit standard deviation
+
+10. Deficit ranking weight
+
+11. Deficit diagnostic-only:
+PASS / FAIL
+
+12. Effective priority weights
+
+13. Weight sum
+
+14. Proportional renormalisation:
+PASS / FAIL
+
+15. Priority arithmetic:
+PASS / FAIL
+
+16. Zero-gap gate:
+PASS / FAIL
+
+17. Priority range:
+PASS / FAIL
+
+18. Priority monotonicity:
+PASS / FAIL
+
+19. CORE behaviour:
+WEIGHTED PREFERENCE ONLY
+
+20. CORE documentation:
+PASS / FAIL
+
+21. M4 individual CORE-first:
+PASS / FAIL
+
+22. v1.0→v1.1 Spearman
+
+23. Top-5 stability
+
+24. Weight sensitivity:
+ROBUST / MODERATELY SENSITIVE / HIGHLY SENSITIVE
+
+25. Shared-learning privacy:
+PASS / FAIL
+
+26. Priority-skill privacy:
+PASS / FAIL
+
+27. Requirement-subcell privacy:
+PASS / FAIL
+
+28. Priority reconstruction protection:
+PASS / FAIL
+
+29. Role-transition privacy:
+PASS / FAIL
+
+30. Role-family privacy:
+PASS / FAIL
+
+31. Heatmap-cell privacy:
+PASS / FAIL
+
+32. Roadmap privacy:
+PASS / FAIL
+
+33. Executive-summary privacy:
+PASS / FAIL
+
+34. SDG-subgroup privacy:
+PASS / FAIL
+
+35. Exact 1–4 leakage:
+ABSENT / PRESENT
+
+36. Complementary suppression:
+PASS / FAIL
+
+37. Multiple-small-cell handling:
+PASS / FAIL
+
+38. Cross-query protection:
+FULL / PARTIAL / NONE
+
+39. False DP claim:
+YES / NO
+
+40. Individual ID exposure:
+SAFE / NEEDS FIX
+
+41. Raw CV exposure:
+ABSENT / PRESENT
+
+42. Employee ranking:
+ABSENT / PRESENT
+
+43. HR guardrail:
+PASS / FAIL
+
+44. Fairness metadata:
+PASS / FAIL
+
+45. Proxy-feature safety:
+PASS / FAIL
+
+46. Learner-hours:
+PASS / FAIL
+
+47. Calendar-duration semantics:
+PASS / FAIL
+
+48. Individual M4 authority:
+PASS / FAIL
+
+49. SDG descriptive context:
+PASS / FAIL
+
+50. SDG affects priority:
+YES / NO
+
+51. Major-group fallback:
+PASS / FAIL
+
+52. Transition wording:
+PASS / FAIL
+
+53. Scenario isolation:
+PASS / FAIL
+
+54. O2 hook:
+READY / NEEDS FIX
+
+55. O5 hook:
+READY / NEEDS FIX
+
+56. Deterministic build:
+PASS / FAIL
+
+57. Manifest reconstruction:
+PASS / FAIL
+
+58. Unit/freeze tests:
+passed / total
+
+59. Benchmarks:
+passed / total
+
+60. Stage 15B defects closed:
+[count / 10]
+
+61. New blocking defects:
+[count]
+
+62. Remaining P0:
+[count]
+
+63. Remaining P1:
+[count]
+
+64. Remaining P2:
+[count]
+
+65. Remaining P3:
+[count]
+
+66. Safe for O2:
+YES / NO
+
+67. Safe for O5:
+YES / NO
+
+68. Safe for employer UI:
+YES / NO
+
+==================================================
+FINAL VERDICT
+==================================================
+
+Return exactly ONE:
+
+O1 V1.1 APPROVED AND READY TO FREEZE
+
+TARGETED O1 V1.1 FIX REQUIRED
+
+O1 V1.1 REMEDIATION REQUIRES REWORK
+
+==================================================
+STRICT STOP
+==================================================
+
+Do NOT:
+
+build visual heatmap
+
+build employer dashboard UI
+
+build O2
+
+build O3
+
+build O4
+
+build O5
+
+modify M1
+
+modify M2
+
+modify M3
+
+modify M4
+
+modify M5
+
+modify M6
+
+modify O6
+
+use RunPod
+
+use Argon
+
+push Git
+
+deploy
+
+STOP after Stage 15D.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-24T04:16:43+08:00.
+</ADDITIONAL_METADATA>

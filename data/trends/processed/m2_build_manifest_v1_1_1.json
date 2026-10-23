@@ -1,0 +1,28 @@
+{
+  "engine_version": "1.1.1",
+  "parent_version": "1.1.0",
+  "build_timestamp": "2026-10-23T08:57:09.525697+00:00",
+  "reference_date": "2026-10-23",
+  "remediation_stage": "Stage 9F (OpenAlex Formula & Multiplier Reconciliation)",
+  "changed_artifacts": [
+    "skill_trend_profiles_v1_1_1.json",
+    "m2_scoring_config_v1_1_1.json",
+    "m2_confidence_config_v1_1_1.json",
+    "m2_build_manifest_v1_1_1.json"
+  ],
+  "unchanged_artifacts": [
+    "trend_signals_v1_1.json",
+    "occupation_trend_profiles_v1_1_1.json (mathematically identical to v1.1.0)"
+  ],
+  "input_artifacts": {
+    "ilo_wp140_raw": "c6309e933c8df01e92de1368c27ff258adc528fac4bb28e0895bd2a6c7c3f8c0",
+    "trend_signals_v1_1": "fe0d18bbc5c5c014b9868bd07916b65cabd71c681cee57be7cbae8ed688e60c4",
+    "openalex_raw": "1b5e3827c8a871e830b5b9b30ed41e95db174e302c794118fdc40938aecfe4f1"
+  },
+  "output_artifacts": {
+    "skill_trend_profiles_v1_1_1": "bc37da4e236e418e5419e5ba948522d75fd182b6e6035796710b4190e6d31c1d",
+    "occupation_trend_profiles_v1_1_1": "28742e2cbfa57b826a634b3ef697e6f7b326912d3118fbe2f908ac258b999e25",
+    "m2_scoring_config_v1_1_1": "e8f204cc5d6c7261ad821e9eba8bb33aeb9e97b3d6835f520696ebe28cdd012f",
+    "m2_confidence_config_v1_1_1": "3b56b461f33ebda214da839329532b6da9171382711966a056740ba84c2695b7"
+  }
+}

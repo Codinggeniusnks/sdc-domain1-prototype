@@ -1,0 +1,26 @@
+{
+  "freeze_status": "FROZEN",
+  "engine_version": "1.1.1",
+  "parent_version": "1.1.0",
+  "reference_date": "2026-10-23",
+  "build_timestamp": "2026-10-23T08:57:09.525697+00:00",
+  "freeze_timestamp": "2026-10-23T12:25:00+00:00",
+  "m1_provenance_certification": "Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward.",
+  "freeze_governance_rule": "M6 may READ M2. M6 may NOT rewrite observed evidence, component values, confidence, source provenance, or historical data. Scenario-adjusted outputs must exist in a separate layer.",
+  "openalex_methodology_version": "Logarithmic baseline-volume shrinkage w_vol = min(1.0, ln(1 + N_base) / ln(26)), R_adj = 1.0 + (R_raw - 1.0) * w_vol, monotonic asymptotic score mapping [50.0, 94.0]",
+  "scoring_config_hash": "e8f204cc5d6c7261ad821e9eba8bb33aeb9e97b3d6835f520696ebe28cdd012f",
+  "confidence_config_hash": "3b56b461f33ebda214da839329532b6da9171382711966a056740ba84c2695b7",
+  "ilo_wp140_source_hash": "c6309e933c8df01e92de1368c27ff258adc528fac4bb28e0895bd2a6c7c3f8c0",
+  "m2_build_manifest_hash": "d0bf64da8f7d8033e7fd348477343c477560850d7f456b1c6c1d94077f448da5",
+  "input_artifacts": {
+    "ilo_wp140_raw": "c6309e933c8df01e92de1368c27ff258adc528fac4bb28e0895bd2a6c7c3f8c0",
+    "trend_signals_v1_1": "fe0d18bbc5c5c014b9868bd07916b65cabd71c681cee57be7cbae8ed688e60c4",
+    "openalex_raw": "1b5e3827c8a871e830b5b9b30ed41e95db174e302c794118fdc40938aecfe4f1"
+  },
+  "output_artifacts": {
+    "skill_trend_profiles_v1_1_1": "bc37da4e236e418e5419e5ba948522d75fd182b6e6035796710b4190e6d31c1d",
+    "occupation_trend_profiles_v1_1_1": "28742e2cbfa57b826a634b3ef697e6f7b326912d3118fbe2f908ac258b999e25",
+    "m2_scoring_config_v1_1_1": "e8f204cc5d6c7261ad821e9eba8bb33aeb9e97b3d6835f520696ebe28cdd012f",
+    "m2_confidence_config_v1_1_1": "3b56b461f33ebda214da839329532b6da9171382711966a056740ba84c2695b7"
+  }
+}

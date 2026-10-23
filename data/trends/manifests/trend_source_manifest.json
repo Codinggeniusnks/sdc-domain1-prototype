@@ -1,0 +1,143 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at": "2026-10-23T06:31:15.267175+00:00",
+  "reference_date": "2026-10-23",
+  "total_sources": 6,
+  "tier_distribution": {
+    "TIER_A": 4,
+    "TIER_B": 1,
+    "TIER_C": 1,
+    "TIER_D": 0
+  },
+  "sources": [
+    {
+      "source_id": "SRC-MYCOL-2024",
+      "name": "TalentCorp Malaysia Critical Occupations List (MyCOL)",
+      "publisher": "Talent Corporation Malaysia Berhad & ILMIA",
+      "url_or_reference": "https://www.talentcorp.com.my/mymahir/mycol",
+      "licence": "Official Malaysian Government Publication (Public Access / Non-Commercial)",
+      "access_method": "STATIC_INGESTED (8 Multi-Year Publications)",
+      "version": "2015/2016 through 2024/2025 (8 Editions)",
+      "publication_date": "2024-11-01",
+      "retrieval_time": "2026-10-23T06:31:15.267175+00:00",
+      "expected_refresh_cadence": "Annual / Biannual",
+      "cadence_type": "MULTI_YEAR_REPORT",
+      "geographic_scope": "Malaysia (National & Regional)",
+      "quality_tier": "TIER_A",
+      "evidence_family": "TALENTCORP_MYCOL",
+      "publisher_family": "GOVERNMENT_MALAYSIA",
+      "signal_types_supplied": [
+        "DEMAND_SHORTAGE",
+        "FUTURE_SKILL"
+      ]
+    },
+    {
+      "source_id": "SRC-TALENTCORP-IMPACT-2024",
+      "name": "Impact Study of AI, Digital Economy and Green Economy on the Malaysian Workforce",
+      "publisher": "Talent Corporation Malaysia Berhad, Ministry of Human Resources",
+      "url_or_reference": "https://www.talentcorp.com.my/impact-study-2024",
+      "licence": "Official Malaysian Government Research Study",
+      "access_method": "STATIC_INGESTED",
+      "version": "First Edition (November 2024)",
+      "publication_date": "2024-11-18",
+      "retrieval_time": "2026-10-23T06:31:15.267175+00:00",
+      "expected_refresh_cadence": "Multi-Year Research Cycle (2-3 years)",
+      "cadence_type": "MULTI_YEAR_REPORT",
+      "geographic_scope": "Malaysia (10 Strategic Sectors)",
+      "quality_tier": "TIER_A",
+      "evidence_family": "TALENTCORP_IMPACT_STUDY",
+      "publisher_family": "GOVERNMENT_MALAYSIA",
+      "signal_types_supplied": [
+        "EMERGING_ROLE",
+        "DECLINING_ROLE",
+        "DIGITAL_TRANSITION",
+        "FUTURE_SKILL"
+      ]
+    },
+    {
+      "source_id": "SRC-OPENDOSM-LIVE",
+      "name": "OpenDOSM / data.gov.my Official Labour Market Datasets",
+      "publisher": "Department of Statistics Malaysia (DOSM)",
+      "url_or_reference": "https://api.data.gov.my/data-catalogue",
+      "licence": "Open Data Commons Open Database License (ODbL) / CC-BY 4.0",
+      "access_method": "LIVE_INGESTED (Direct API Query)",
+      "version": "lfs_month, lfs_qtr, wages_occupation, wages_skill, employment_sector",
+      "publication_date": "2024-01-01",
+      "retrieval_time": "2026-10-23T06:31:15.267175+00:00",
+      "expected_refresh_cadence": "Monthly / Quarterly / Annual",
+      "cadence_type": "MONTHLY_MACRO",
+      "geographic_scope": "Malaysia (National)",
+      "quality_tier": "TIER_A",
+      "evidence_family": "DOSM_LABOUR_FORCE",
+      "publisher_family": "GOVERNMENT_MALAYSIA",
+      "signal_types_supplied": [
+        "EMPLOYMENT_LEVEL",
+        "WAGE_LEVEL",
+        "WAGE_GROWTH"
+      ]
+    },
+    {
+      "source_id": "SRC-ILO-GENAI-2023",
+      "name": "ILO Working Paper 96: Generative AI and Jobs",
+      "publisher": "International Labour Organization (ILO), Geneva",
+      "url_or_reference": "https://doi.org/10.54394/FHEM8239",
+      "licence": "Creative Commons Attribution 4.0 (CC-BY 4.0)",
+      "access_method": "STATIC_INGESTED",
+      "version": "Working Paper 96 (August 2023)",
+      "publication_date": "2023-08-21",
+      "retrieval_time": "2026-10-23T06:31:15.267175+00:00",
+      "expected_refresh_cadence": "Periodic International Research Benchmark",
+      "cadence_type": "BENCHMARK_STANDARD",
+      "geographic_scope": "Global (Cross-Country ISCO-08)",
+      "quality_tier": "TIER_B",
+      "evidence_family": "ILO_GENAI_STUDY",
+      "publisher_family": "UNITED_NATIONS",
+      "signal_types_supplied": [
+        "AI_EXPOSURE",
+        "AUTOMATION_EXPOSURE",
+        "AUGMENTATION_POTENTIAL"
+      ]
+    },
+    {
+      "source_id": "SRC-OPENALEX-TEMPORAL",
+      "name": "OpenAlex Scholarly AI Research Corpus",
+      "publisher": "OurResearch (OpenAlex API)",
+      "url_or_reference": "https://api.openalex.org/works",
+      "licence": "Creative Commons Public Domain Dedication (CC0)",
+      "access_method": "STATIC_INGESTED (Dated 208-Work Curated Corpus)",
+      "version": "Snapshot 2020-2026",
+      "publication_date": "2026-10-21",
+      "retrieval_time": "2026-10-23T06:31:15.267175+00:00",
+      "expected_refresh_cadence": "Weekly / Continuous API",
+      "cadence_type": "MULTI_YEAR_REPORT",
+      "geographic_scope": "Global Scholarly Literature",
+      "quality_tier": "TIER_C",
+      "evidence_family": "OPENALEX_SCHOLARLY",
+      "publisher_family": "OPEN_RESEARCH_INFRASTRUCTURE",
+      "signal_types_supplied": [
+        "RESEARCH_ACTIVITY",
+        "RESEARCH_GROWTH"
+      ]
+    },
+    {
+      "source_id": "SRC-MYS-POLICY-2024",
+      "name": "Malaysian National Policy & Regulatory Directives (MOSTI, Bursa, JPDP, MITI)",
+      "publisher": "Government of Malaysia Statutory Agencies",
+      "url_or_reference": "https://www.mosti.gov.my; https://www.bursamalaysia.com; https://www.pdp.gov.my",
+      "licence": "Official Government Legislation and Regulatory Rules",
+      "access_method": "STATIC_INGESTED",
+      "version": "AIGE 2024, Bursa ESG 2024, PDPA Act A1720, NSS 2024",
+      "publication_date": "2024-09-20",
+      "retrieval_time": "2026-10-23T06:31:15.267175+00:00",
+      "expected_refresh_cadence": "Ad-Hoc / Policy Enactment",
+      "cadence_type": "MULTI_YEAR_REPORT",
+      "geographic_scope": "Malaysia (National)",
+      "quality_tier": "TIER_A",
+      "evidence_family": "MALAYSIAN_GOVERNMENT_POLICY",
+      "publisher_family": "GOVERNMENT_MALAYSIA",
+      "signal_types_supplied": [
+        "POLICY_PRIORITY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "source": "TalentCorp Malaysia Critical Occupations List (MyCOL)",
+  "publisher": "Talent Corporation Malaysia Berhad & ILMIA",
+  "editions_covered": [
+    "2015/2016",
+    "2016/2017",
+    "2017/2018",
+    "2018/2019",
+    "2019/2020",
+    "2020/2021",
+    "2022/2023",
+    "2024/2025"
+  ],
+  "total_editions": 8,
+  "total_occupations_tracked": 20,
+  "records": [
+    {
+      "masco_code": "2512",
+      "title": "Software Developers",
+      "major_group": "2",
+      "number_of_editions_critical": 8,
+      "total_editions_evaluated": 8,
+      "persistence_score": 1.0,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 5,
+      "sectors": [
+        "ICT",
+        "Fintech",
+        "Manufacturing",
+        "Global Business Services (GBS)",
+        "Healthcare"
+      ],
+      "region_breadth": 4,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "Southern (Johor)",
+        "Sarawak"
+      ],
+      "shortage_evidence": "Intense shortage of experienced developers skilled in cloud microservices, REST APIs, and automated CI/CD pipelines; severe cross-border brain drain to Singapore and remote overseas employers.",
+      "hard_to_fill_reasons": [
+        "Shortage of senior talent",
+        "Rapid pace of technological obsolescence",
+        "High salary competition"
+      ],
+      "future_skills_mentioned": [
+        "python_scripting",
+        "api_integration",
+        "workflow_automation",
+        "rag_knowledge_systems"
+      ]
+    },
+    {
+      "masco_code": "2511",
+      "title": "Systems Analysts & Solutions Architects",
+      "major_group": "2",
+      "number_of_editions_critical": 8,
+      "total_editions_evaluated": 8,
+      "persistence_score": 1.0,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "ICT",
+        "Financial Services",
+        "Public Sector",
+        "Telecommunications"
+      ],
+      "region_breadth": 3,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "Southern (Johor)"
+      ],
+      "shortage_evidence": "High demand for business process re-engineering, legacy migration, enterprise architecture, and human-in-the-loop workflow redesign.",
+      "hard_to_fill_reasons": [
+        "Need for hybrid business acumen and technical architecture",
+        "Experience deficit"
+      ],
+      "future_skills_mentioned": [
+        "process_mapping",
+        "workflow_automation",
+        "human_in_the_loop_qa",
+        "ai_literacy"
+      ]
+    },
+    {
+      "masco_code": "2521",
+      "title": "Database Designers & Administrators",
+      "major_group": "2",
+      "number_of_editions_critical": 7,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.875,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "ICT",
+        "Banking & Finance",
+        "Healthcare",
+        "Government"
+      ],
+      "region_breadth": 2,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)"
+      ],
+      "shortage_evidence": "Exponential data growth requiring high-concurrency SQL optimization, data warehouse governance, and compliance with data privacy mandates.",
+      "hard_to_fill_reasons": [
+        "Relational DB optimization expertise",
+        "Cloud DB transition hurdles"
+      ],
+      "future_skills_mentioned": [
+        "sql_data_analysis",
+        "data_privacy_pdpa",
+        "rag_knowledge_systems"
+      ]
+    },
+    {
+      "masco_code": "2529",
+      "title": "Database & Network Professionals NEC (Data Scientists & AI Engineers)",
+      "major_group": "2",
+      "number_of_editions_critical": 6,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.75,
+      "first_seen_critical": "2017/2018",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 5,
+      "sectors": [
+        "ICT",
+        "Fintech",
+        "Semiconductor E&E",
+        "E-Commerce",
+        "Digital Media"
+      ],
+      "region_breadth": 3,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "Southern (Johor)"
+      ],
+      "shortage_evidence": "Massive demand surge driven by national AI roadmap, corporate GenAI pilots, predictive analytics, and machine learning deployment.",
+      "hard_to_fill_reasons": [
+        "Extreme global competition for AI/ML specialists",
+        "High educational barrier"
+      ],
+      "future_skills_mentioned": [
+        "ai_literacy",
+        "prompt_engineering",
+        "python_scripting",
+        "ai_ethics_governance",
+        "rag_knowledge_systems"
+      ]
+    },
+    {
+      "masco_code": "2519",
+      "title": "Software & Applications Developers & Analysts NEC (Full-Stack & Cloud Engineers)",
+      "major_group": "2",
+      "number_of_editions_critical": 6,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.75,
+      "first_seen_critical": "2016/2017",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "ICT",
+        "Digital Media",
+        "Fintech",
+        "Logistics"
+      ],
+      "region_breadth": 2,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)"
+      ],
+      "shortage_evidence": "Crucial shortage of engineers capable of building scalable web applications, API integrations, and cloud-native services.",
+      "hard_to_fill_reasons": [
+        "Full-stack breadth requirements",
+        "Rapid tech stack changes"
+      ],
+      "future_skills_mentioned": [
+        "api_integration",
+        "python_scripting",
+        "workflow_automation"
+      ]
+    },
+    {
+      "masco_code": "2522",
+      "title": "Systems Administrators & Cloud Infrastructure Engineers",
+      "major_group": "2",
+      "number_of_editions_critical": 5,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.625,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "CYCLICAL_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "ICT",
+        "Data Centers",
+        "Telecommunications",
+        "Banking"
+      ],
+      "region_breadth": 2,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Southern (Johor - Data Center Hub)"
+      ],
+      "shortage_evidence": "Hyperscale data center boom in Johor and Cyberjaya creating acute shortage of cloud infrastructure, virtualization, and carbon-aware telemetry engineers.",
+      "hard_to_fill_reasons": [
+        "Hyperscale data center capacity boom",
+        "Infrastructure security requirements"
+      ],
+      "future_skills_mentioned": [
+        "carbon_footprint_analytics",
+        "api_integration",
+        "data_privacy_pdpa"
+      ]
+    },
+    {
+      "masco_code": "2411",
+      "title": "Accountants & Financial Auditors",
+      "major_group": "2",
+      "number_of_editions_critical": 8,
+      "total_editions_evaluated": 8,
+      "persistence_score": 1.0,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "Financial Services",
+        "Professional Services / Audit",
+        "Corporate Services",
+        "Manufacturing"
+      ],
+      "region_breadth": 4,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "Southern (Johor)",
+        "East Coast"
+      ],
+      "shortage_evidence": "Persistent shortage of qualified chartered accountants; rapid transition towards automated financial closing and mandatory Bursa Malaysia ESG sustainability disclosures.",
+      "hard_to_fill_reasons": [
+        "Rigorous professional qualification requirements (MIA/ACCA)",
+        "Long audit working hours"
+      ],
+      "future_skills_mentioned": [
+        "esg_sustainability_reporting",
+        "sql_data_analysis",
+        "process_mapping"
+      ]
+    },
+    {
+      "masco_code": "2421",
+      "title": "Management & Organization Analysts (Business Transformation Consultants)",
+      "major_group": "2",
+      "number_of_editions_critical": 6,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.75,
+      "first_seen_critical": "2016/2017",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "Management Consulting",
+        "GBS",
+        "Manufacturing",
+        "Energy"
+      ],
+      "region_breadth": 2,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)"
+      ],
+      "shortage_evidence": "High corporate demand for organizational restructuring, post-merger integration, ESG alignment, and AI change management.",
+      "hard_to_fill_reasons": [
+        "Strategic stakeholder communication skills",
+        "Industry domain expertise"
+      ],
+      "future_skills_mentioned": [
+        "process_mapping",
+        "stakeholder_communication",
+        "ai_ethics_governance"
+      ]
+    },
+    {
+      "masco_code": "2422",
+      "title": "Policy & Corporate Planning Professionals",
+      "major_group": "2",
+      "number_of_editions_critical": 5,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.625,
+      "first_seen_critical": "2017/2018",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "CYCLICAL_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "Government-Linked Companies (GLCs)",
+        "Energy & Utilities",
+        "Telecommunications",
+        "Banking"
+      ],
+      "region_breadth": 1,
+      "regions": [
+        "Central (KL/Selangor)"
+      ],
+      "shortage_evidence": "Urgent requirement for regulatory compliance, National Energy Transition Roadmap (NETR) alignment, and AI governance policymaking.",
+      "hard_to_fill_reasons": [
+        "Complex regulatory understanding",
+        "Cross-ministerial coordination"
+      ],
+      "future_skills_mentioned": [
+        "ai_ethics_governance",
+        "esg_sustainability_reporting",
+        "stakeholder_communication"
+      ]
+    },
+    {
+      "masco_code": "2151",
+      "title": "Electrical Engineers",
+      "major_group": "2",
+      "number_of_editions_critical": 8,
+      "total_editions_evaluated": 8,
+      "persistence_score": 1.0,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "Energy & Power",
+        "Renewable Energy",
+        "Manufacturing",
+        "Infrastructure"
+      ],
+      "region_breadth": 3,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "Sarawak (RE Corridor)"
+      ],
+      "shortage_evidence": "Grid modernization, high-voltage infrastructure, and solar farm integration under the National Energy Transition Roadmap.",
+      "hard_to_fill_reasons": [
+        "BEM accreditation requirement",
+        "Site deployment conditions"
+      ],
+      "future_skills_mentioned": [
+        "carbon_footprint_analytics",
+        "esg_sustainability_reporting"
+      ]
+    },
+    {
+      "masco_code": "2152",
+      "title": "Electronic Engineers (Semiconductor IC Design & Testing)",
+      "major_group": "2",
+      "number_of_editions_critical": 8,
+      "total_editions_evaluated": 8,
+      "persistence_score": 1.0,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 3,
+      "sectors": [
+        "Electrical & Electronics (E&E)",
+        "Semiconductor Assembly & Test",
+        "Automotive Electronics"
+      ],
+      "region_breadth": 3,
+      "regions": [
+        "Northern (Penang / Kulim)",
+        "Central (Selangor)",
+        "Southern (Melaka)"
+      ],
+      "shortage_evidence": "National Semiconductor Strategy (NSS) targeting 60,000 high-skilled engineers; intense competition for analog/digital IC design and advanced packaging specialists.",
+      "hard_to_fill_reasons": [
+        "Very steep learning curve in EDA toolchains",
+        "Global foundry poaching"
+      ],
+      "future_skills_mentioned": [
+        "python_scripting",
+        "human_in_the_loop_qa",
+        "process_mapping"
+      ]
+    },
+    {
+      "masco_code": "2143",
+      "title": "Environmental Engineers & Sustainability Analysts",
+      "major_group": "2",
+      "number_of_editions_critical": 2,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.25,
+      "first_seen_critical": "2022/2023",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": true,
+      "dropped_from_latest": false,
+      "status_category": "NEWLY_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "Chemical",
+        "Energy & Power",
+        "Manufacturing",
+        "Plantation & Agriculture"
+      ],
+      "region_breadth": 4,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "East Coast (Pahang/Terengganu)",
+        "Sarawak"
+      ],
+      "shortage_evidence": "Newly critical occupation driven by carbon pricing mechanisms, mandatory Scope 1-3 greenhouse gas accounting, and EU CBAM trade compliance.",
+      "hard_to_fill_reasons": [
+        "Recent regulatory emergence",
+        "Shortage of certified GHG accounting professionals"
+      ],
+      "future_skills_mentioned": [
+        "esg_sustainability_reporting",
+        "carbon_footprint_analytics",
+        "sql_data_analysis"
+      ]
+    },
+    {
+      "masco_code": "2424",
+      "title": "Training & Staff Development Professionals (Reskilling Strategists)",
+      "major_group": "2",
+      "number_of_editions_critical": 3,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.375,
+      "first_seen_critical": "2020/2021",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "CYCLICAL_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "Corporate HR",
+        "Professional Training",
+        "Education & TVET",
+        "GBS"
+      ],
+      "region_breadth": 3,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "Southern (Johor)"
+      ],
+      "shortage_evidence": "Rising demand for corporate reskilling architects able to design modular adult learning pathways under HRD Corp and TVET national agendas.",
+      "hard_to_fill_reasons": [
+        "Modern digital instructional design gap",
+        "Need for competency framework mastery"
+      ],
+      "future_skills_mentioned": [
+        "instructional_design",
+        "stakeholder_communication",
+        "ai_literacy"
+      ]
+    },
+    {
+      "masco_code": "2166",
+      "title": "Graphic & Multimedia Designers (UI-UX & Digital Product Designers)",
+      "major_group": "2",
+      "number_of_editions_critical": 4,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.5,
+      "first_seen_critical": "2018/2019",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "CYCLICAL_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "ICT",
+        "Digital Marketing",
+        "E-Commerce",
+        "Media & Entertainment"
+      ],
+      "region_breadth": 2,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)"
+      ],
+      "shortage_evidence": "Surge in digital self-service platforms requiring human-centred interface design, design system maintenance, and generative AI creative workflows.",
+      "hard_to_fill_reasons": [
+        "User research rigor required",
+        "Design system proficiency"
+      ],
+      "future_skills_mentioned": [
+        "data_visualization",
+        "prompt_engineering",
+        "stakeholder_communication"
+      ]
+    },
+    {
+      "masco_code": "1330",
+      "title": "Information and Communications Technology Services Managers",
+      "major_group": "1",
+      "number_of_editions_critical": 7,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.875,
+      "first_seen_critical": "2016/2017",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "ICT",
+        "Financial Services",
+        "Telecommunications",
+        "Manufacturing"
+      ],
+      "region_breadth": 3,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "Southern (Johor)"
+      ],
+      "shortage_evidence": "Leadership deficit in guiding enterprise digital transformation, cloud migrations, AI governance compliance, and cybersecurity resilience.",
+      "hard_to_fill_reasons": [
+        "Combination of executive management and deep technology fluency"
+      ],
+      "future_skills_mentioned": [
+        "ai_ethics_governance",
+        "data_privacy_pdpa",
+        "stakeholder_communication"
+      ]
+    },
+    {
+      "masco_code": "3514",
+      "title": "Web Technicians & Cloud Application Operators",
+      "major_group": "3",
+      "number_of_editions_critical": 4,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.5,
+      "first_seen_critical": "2017/2018",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "CYCLICAL_CRITICAL",
+      "sector_breadth": 3,
+      "sectors": [
+        "ICT",
+        "Retail & E-Commerce",
+        "GBS"
+      ],
+      "region_breadth": 2,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)"
+      ],
+      "shortage_evidence": "Support technicians needed to maintain web endpoints, test API integrations, and manage cloud portal deployments.",
+      "hard_to_fill_reasons": [
+        "Skill gap in modern continuous integration tooling"
+      ],
+      "future_skills_mentioned": [
+        "api_integration",
+        "python_scripting",
+        "workflow_automation"
+      ]
+    },
+    {
+      "masco_code": "3322",
+      "title": "Commercial Sales Representatives (Technical & B2B Solutions)",
+      "major_group": "3",
+      "number_of_editions_critical": 6,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.75,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2024/2025",
+      "is_critical_2024_2025": true,
+      "newly_critical": false,
+      "dropped_from_latest": false,
+      "status_category": "PERSISTENT_CRITICAL",
+      "sector_breadth": 4,
+      "sectors": [
+        "Wholesale & Trade",
+        "ICT Solutions",
+        "Industrial Equipment",
+        "Chemical"
+      ],
+      "region_breadth": 4,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)",
+        "Southern (Johor)",
+        "East Coast"
+      ],
+      "shortage_evidence": "Technical sales roles requiring domain knowledge in enterprise software, industrial robotics, and engineering components.",
+      "hard_to_fill_reasons": [
+        "Technical literacy combined with consultative selling abilities"
+      ],
+      "future_skills_mentioned": [
+        "stakeholder_communication",
+        "data_visualization"
+      ]
+    },
+    {
+      "masco_code": "4311",
+      "title": "Accounting and Bookkeeping Clerks",
+      "major_group": "4",
+      "number_of_editions_critical": 3,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.375,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2017/2018",
+      "is_critical_2024_2025": false,
+      "newly_critical": false,
+      "dropped_from_latest": true,
+      "status_category": "DROPPED_FROM_LATEST",
+      "sector_breadth": 3,
+      "sectors": [
+        "Financial Services",
+        "Retail",
+        "Manufacturing"
+      ],
+      "region_breadth": 2,
+      "regions": [
+        "Central (KL/Selangor)",
+        "Northern (Penang)"
+      ],
+      "shortage_evidence": "Listed as critical in early editions due to volume hiring, but dropped in recent editions as cloud ERP, automated bank reconciliations, and robotic process automation eliminated routine entry positions.",
+      "hard_to_fill_reasons": [
+        "Formerly high turnover; now displaced by automation"
+      ],
+      "future_skills_mentioned": [
+        "sql_data_analysis",
+        "process_mapping"
+      ]
+    },
+    {
+      "masco_code": "4110",
+      "title": "General Office Clerks",
+      "major_group": "4",
+      "number_of_editions_critical": 1,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.125,
+      "first_seen_critical": "2015/2016",
+      "latest_seen_critical": "2015/2016",
+      "is_critical_2024_2025": false,
+      "newly_critical": false,
+      "dropped_from_latest": true,
+      "status_category": "DROPPED_FROM_LATEST",
+      "sector_breadth": 2,
+      "sectors": [
+        "Public Administration",
+        "Services"
+      ],
+      "region_breadth": 1,
+      "regions": [
+        "Central (KL/Selangor)"
+      ],
+      "shortage_evidence": "Dropped from all editions post-2016 due to corporate digital self-service and routine office document automation.",
+      "hard_to_fill_reasons": [
+        "High availability of generic candidates; declining task complexity"
+      ],
+      "future_skills_mentioned": [
+        "ai_literacy",
+        "process_mapping"
+      ]
+    },
+    {
+      "masco_code": "3343",
+      "title": "Administrative & Executive Secretaries",
+      "major_group": "3",
+      "number_of_editions_critical": 2,
+      "total_editions_evaluated": 8,
+      "persistence_score": 0.25,
+      "first_seen_critical": "2016/2017",
+      "latest_seen_critical": "2017/2018",
+      "is_critical_2024_2025": false,
+      "newly_critical": false,
+      "dropped_from_latest": true,
+      "status_category": "DROPPED_FROM_LATEST",
+      "sector_breadth": 3,
+      "sectors": [
+        "Corporate Services",
+        "Legal",
+        "Banking"
+      ],
+      "region_breadth": 1,
+      "regions": [
+        "Central (KL/Selangor)"
+      ],
+      "shortage_evidence": "Dropped from recent critical lists as executive scheduling, transcription, and basic memo drafting are increasingly handled by AI workflow agents.",
+      "hard_to_fill_reasons": [
+        "Role transforming into high-touch executive operations rather than volume shortage"
+      ],
+      "future_skills_mentioned": [
+        "workflow_automation",
+        "prompt_engineering",
+        "stakeholder_communication"
+      ]
+    }
+  ]
+}

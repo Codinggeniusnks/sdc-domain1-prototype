@@ -1,0 +1,2799 @@
+[
+  {
+    "id": "masco-raw-pdpa-01",
+    "masco_group": "2421",
+    "occupation_title": "Enterprise Data Protection Officer",
+    "sector": "Legal & Compliance",
+    "text": "Manages corporate Personal Data Protection Act (PDPA 2010) compliance across Malaysian business units. Conducts Privacy Impact Assessments (PIA) for customer-facing systems, maintains the register of processing activities, audits third-party data processor agreements under JPDP Standards 2015, and establishes mandatory 72-hour data breach containment protocols.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2421",
+    "source_doc": "JPDP Guidelines on Data Protection Officer & PDPA Act 709 Section 5-10",
+    "source_url": "https://www.pdp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-02",
+    "masco_group": "2412",
+    "occupation_title": "Banking Customer Data Privacy Specialist",
+    "sector": "Banking & Financial Services",
+    "text": "Audits customer personal information workflows in commercial banking operations in Kuala Lumpur. Enforces statutory consent withdrawal procedures, verifies cross-border financial data transfer agreements with overseas correspondent banks, and coordinates with internal audit to prevent unauthorised disclosures under Bank Negara Malaysia RMiT and PDPA regulations.",
+    "skills": [
+      "data_privacy_pdpa",
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2412",
+    "source_doc": "Bank Negara Malaysia RMiT & JPDP Financial Sector Standards",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-03",
+    "masco_group": "1219",
+    "occupation_title": "Healthcare Information Governance & Privacy Manager",
+    "sector": "Healthcare & Medical Services",
+    "text": "Ensures digital hospital information systems and electronic medical records comply with Malaysian Personal Data Protection Act principles. Implements role-based access control audits for clinical databases, enforces patient sensitive personal data consent policies, and leads hospital staff privacy training workshops.",
+    "skills": [
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 1219",
+    "source_doc": "Ministry of Health Malaysia & JPDP Healthcare Data Advisory",
+    "source_url": "https://www.moh.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-04",
+    "masco_group": "1221",
+    "occupation_title": "Digital Retail Consumer Privacy Analyst",
+    "sector": "Wholesale & Retail Trade",
+    "text": "Monitors consumer cookie tracking, direct marketing consent preferences, and customer data retention periods on Malaysian retail platforms. Audits third-party digital advertising trackers to ensure compliance with JPDP direct marketing rules and customer opt-out mechanisms.",
+    "skills": [
+      "data_privacy_pdpa",
+      "data_visualization",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 1221",
+    "source_doc": "Malaysian E-Commerce Consumer Protection & PDPA Guidance",
+    "source_url": "https://www.kpdn.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-05",
+    "masco_group": "2511",
+    "occupation_title": "Cloud Infrastructure Privacy Architect",
+    "sector": "ICT & Cloud Engineering",
+    "text": "Designs tenant data segregation, cryptographic key management, and privacy-preserving data access architectures for cloud services in Cyberjaya. Validates anonymisation and pseudonymisation pipelines to ensure cloud-hosted databases satisfy Malaysian statutory data localisation and transfer restrictions under the Personal Data Protection Act.",
+    "skills": [
+      "data_privacy_pdpa",
+      "api_integration",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2511",
+    "source_doc": "MyDIGITAL Cloud Security & Privacy Architecture Standard",
+    "source_url": "https://www.mydigital.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-06",
+    "masco_group": "1212",
+    "occupation_title": "Human Resource Privacy & Employee Records Manager",
+    "sector": "Human Resource Management",
+    "text": "Oversees employee personal data collection, background screening compliance, and HR records retention across Malaysian multinational shared services. Implements employee privacy notices, manages subject access requests, and audits payroll vendors under JPDP security standards.",
+    "skills": [
+      "data_privacy_pdpa",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 1212",
+    "source_doc": "Malaysian Employers Federation (MEF) & JPDP HR Guidance",
+    "source_url": "https://www.mef.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-07",
+    "masco_group": "2422",
+    "occupation_title": "Corporate Regulatory Counsel (Digital Privacy & Cyber Law)",
+    "sector": "Professional & Legal Services",
+    "text": "Advises corporate boards on statutory liabilities under Malaysia's Personal Data Protection Act 2010 amendments. Drafts data transfer impact assessments, reviews cloud vendor liability clauses, and manages regulatory reporting to the Commissioner of Personal Data Protection during cybersecurity incidents.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2422",
+    "source_doc": "Malaysian Bar Council Cyber Law & Data Protection Committee",
+    "source_url": "https://www.malaysianbar.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-08",
+    "masco_group": "2521",
+    "occupation_title": "Enterprise Database Privacy Operations Analyst",
+    "sector": "Cybersecurity & IT Governance",
+    "text": "Operates data access logging and loss prevention telemetry consoles to detect unauthorized querying of national identification numbers and confidential corporate assets. Investigates privacy incident alerts, maps database access perimeters, and prepares formal compliance reports under the Malaysian Personal Data Protection Act.",
+    "skills": [
+      "data_privacy_pdpa",
+      "sql_data_analysis",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2521",
+    "source_doc": "National Cyber Security Agency (NACSA) & JPDP Incident Protocol",
+    "source_url": "https://www.nacsa.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-09",
+    "masco_group": "1211",
+    "occupation_title": "Finance Privacy & Regulatory Compliance Auditor",
+    "sector": "Accounting & Audit Services",
+    "text": "Performs comprehensive annual compliance audits against the Personal Data Protection Standard 2015 for insurance and asset management firms in Kuala Lumpur. Reviews physical and digital security controls, tests customer consent tracking databases, and issues formal remediation findings to senior leadership.",
+    "skills": [
+      "data_privacy_pdpa",
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 1211",
+    "source_doc": "Malaysian Institute of Accountants (MIA) Regulatory Audit Series",
+    "source_url": "https://www.mia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-10",
+    "masco_group": "1324",
+    "occupation_title": "Logistics Fleet Information Privacy Controller",
+    "sector": "Transportation & Logistics",
+    "text": "Audits delivery address databases, courier mobile app tracking permissions, and proof-of-delivery photo archiving procedures across nationwide express logistics networks. Enforces data destruction schedules for expired waybills in accordance with statutory PDPA privacy principles.",
+    "skills": [
+      "data_privacy_pdpa",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 1324",
+    "source_doc": "Malaysian Logistics Council Data Handling Standard",
+    "source_url": "https://www.mot.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-11",
+    "masco_group": "2412",
+    "occupation_title": "FinTech Algorithmic KYC & Privacy Lead",
+    "sector": "Financial Technology",
+    "text": "Designs privacy-preserving Know Your Customer (e-KYC) biometric workflows for digital remittance and micro-investing apps in Malaysia. Implements zero-knowledge proof verification algorithms and tokenised biometric storage to prevent identity disclosure under JPDP and BNM guidelines.",
+    "skills": [
+      "data_privacy_pdpa",
+      "api_integration",
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2412",
+    "source_doc": "FinTech Association of Malaysia (FAOM) Regulatory Guidelines",
+    "source_url": "https://www.fintechmalaysia.org",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-12",
+    "masco_group": "2422",
+    "occupation_title": "Public Sector Data Governance & Citizen Privacy Officer",
+    "sector": "Public Administration",
+    "text": "Coordinates data sharing protocols and citizen privacy compliance for federal and state digital public service platforms. Validates inter-agency data exchange APIs, establishes citizen consent registries, and monitors adherence to the National Data Sharing Policy and PDPA standards.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance",
+      "api_integration"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2422",
+    "source_doc": "MAMPU / Public Sector Digital Data Governance Standard",
+    "source_url": "https://www.mampu.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-13",
+    "masco_group": "2519",
+    "occupation_title": "Mobile App Privacy & SDK Compliance Engineer",
+    "sector": "Software & Mobile Applications",
+    "text": "Inspects third-party software development kits (SDKs) and advertising libraries in Android/iOS apps for unauthorized device tracking and background location harvesting. Implements runtime user consent prompts and privacy-by-design architectures compliant with JPDP rules.",
+    "skills": [
+      "data_privacy_pdpa",
+      "api_integration",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2519",
+    "source_doc": "MDEC Mobile App Developer Privacy Standards",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-14",
+    "masco_group": "3341",
+    "occupation_title": "BPO Customer Support Data Privacy Supervisor",
+    "sector": "Global Business Services",
+    "text": "Supervises call centre agents handling sensitive identity verification across telecommunications customer care. Enforces redaction procedures for credit card numbers and identity cards in CRM ticket logs, and conducts weekly privacy spot-audits under Malaysian PDPA rules.",
+    "skills": [
+      "data_privacy_pdpa",
+      "human_in_the_loop_qa",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 3341",
+    "source_doc": "Contact Centre Association of Malaysia (CCAM) Privacy Blueprint",
+    "source_url": "https://www.ccam.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-15",
+    "masco_group": "1346",
+    "occupation_title": "Digital InsurTech Claims Privacy Specialist",
+    "sector": "Insurance & Actuarial Services",
+    "text": "Oversees medical claims document ingestion pipelines for life and health insurance underwriting. Validates policyholder consent forms, audits automated OCR text extraction for sensitive medical data leakage, and ensures data segregation between claims and marketing units under PDPA standards.",
+    "skills": [
+      "data_privacy_pdpa",
+      "human_in_the_loop_qa",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 1346",
+    "source_doc": "Life Insurance Association of Malaysia (LIAM) Privacy Standard",
+    "source_url": "https://www.liam.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-16",
+    "masco_group": "2421",
+    "occupation_title": "Marketing Technology Privacy Compliance Specialist",
+    "sector": "Digital Marketing",
+    "text": "Configures customer data platforms (CDP) and email marketing automation pipelines to honor unsubscribes and data erasure requests under the Malaysian Personal Data Protection Act. Validates opt-in consent metadata tags across digital ad campaigns.",
+    "skills": [
+      "data_privacy_pdpa",
+      "workflow_automation",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2421",
+    "source_doc": "Malaysian Digital Association (MDA) Data Guidelines",
+    "source_url": "https://www.malaysiandigital.org",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-17",
+    "masco_group": "2512",
+    "occupation_title": "Backend API Privacy & Data Masking Developer",
+    "sector": "Software Development",
+    "text": "Develops database middleware and microservices that perform real-time dynamic data masking (DDM) and field-level encryption on national identity numbers and financial accounts. Implements access-control policies in Python and Go aligned with JPDP security guidelines.",
+    "skills": [
+      "data_privacy_pdpa",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 2512",
+    "source_doc": "MDEC Software Engineering Security Guidelines",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-18",
+    "masco_group": "4132",
+    "occupation_title": "Data Entry Privacy & Redaction Operator",
+    "sector": "Business Support Services",
+    "text": "Performs manual review and optical redaction of customer tax forms and identity documents before ingestion into public cloud archives. Verifies that masking algorithms completely obscure confidential identifiers in accordance with enterprise PDPA operating procedures.",
+    "skills": [
+      "data_privacy_pdpa",
+      "human_in_the_loop_qa",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "Department of Personal Data Protection (JPDP) & MASCO 4132",
+    "source_doc": "GBS Malaysia Data Processing Standard",
+    "source_url": "https://www.gbsmalaysia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-01",
+    "masco_group": "2421",
+    "occupation_title": "Shared Services Business Process Mapping Lead",
+    "sector": "Global Business Services (GBS)",
+    "text": "Facilitates enterprise value stream mapping workshops and documents end-to-end accounting process flows across regional shared services centres in Cyberjaya. Authors standard operating procedures (SOP), identifies manual handoff bottlenecks using BPMN diagrams, and tracks cycle-time reduction metrics.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2421",
+    "source_doc": "GBS Malaysia Operational Excellence & Process Mapping Framework",
+    "source_url": "https://www.gbsmalaysia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-02",
+    "masco_group": "2141",
+    "occupation_title": "Industrial Lean Six Sigma Process Engineer",
+    "sector": "Manufacturing & Heavy Engineering",
+    "text": "Leads continuous improvement projects in automotive and industrial machinery manufacturing plants in Shah Alam. Performs time-and-motion studies, maps assembly line material flows, creates Spaghetti diagrams and Value Stream Maps (VSM), and implements 5S standard work documentation.",
+    "skills": [
+      "process_mapping",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2141",
+    "source_doc": "Malaysia Productivity Corporation (MPC) Lean Management Certification",
+    "source_url": "https://www.mpc.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-03",
+    "masco_group": "2412",
+    "occupation_title": "Banking Operational Workflow Optimization Specialist",
+    "sector": "Banking & Financial Services",
+    "text": "Maps commercial mortgage underwriting and credit approval process chains across regional retail branches. Identifies multi-department handoff delays, produces detailed swimlane process flowcharts, and specifies standardized digital routing checklists to improve loan turnaround times.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2412",
+    "source_doc": "Asian Institute of Chartered Bankers (AICB) Operations Series",
+    "source_url": "https://www.aicb.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-04",
+    "masco_group": "1324",
+    "occupation_title": "Supply Chain Warehouse Process Controller",
+    "sector": "Logistics & Warehousing",
+    "text": "Documents inbound receiving, quality verification, and automated picking workflows in regional distribution hubs in Port Klang. Analyses warehouse management system (WMS) transit intervals, models floor layout bottlenecks using Visio process maps, and standardizes cross-docking SOPs.",
+    "skills": [
+      "process_mapping",
+      "sql_data_analysis",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 1324",
+    "source_doc": "Chartered Institute of Logistics and Transport Malaysia (CILTM)",
+    "source_url": "https://www.cilt.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-05",
+    "masco_group": "2511",
+    "occupation_title": "Enterprise ERP Business Process Systems Analyst",
+    "sector": "ICT & Systems Consulting",
+    "text": "Gathers user requirements, documents AS-IS functional workflows, and architectures TO-BE process blueprints for enterprise resource planning (ERP) deployments across Malaysian conglomerate subsidiaries. Facilitates process alignment meetings between finance, procurement, and IT departments.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2511",
+    "source_doc": "Malaysian Digital Economy Corporation (MDEC) Enterprise Systems Guide",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-06",
+    "masco_group": "1219",
+    "occupation_title": "Healthcare Facility Clinical Workflow Mapping Officer",
+    "sector": "Healthcare Services",
+    "text": "Conducts patient journey mapping from emergency triage to inpatient admission in private tertiary hospitals in Subang Jaya. Creates clinical process flowcharts, identifies diagnostic bottleneck points, and standardizes inter-departmental patient handover documentation under Malaysian Healthcare Quality standards.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 1219",
+    "source_doc": "Malaysian Society for Quality in Health (MSQH) Accreditation Standard",
+    "source_url": "https://www.msqh.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-07",
+    "masco_group": "2141",
+    "occupation_title": "Quality Management Systems & ISO 9001 Lead Auditor",
+    "sector": "Engineering & Quality Assurance",
+    "text": "Audits manufacturing standard operating procedures, documentation hierarchies, and corrective action workflows across precision engineering plants in Johor. Designs process control plans, failure mode and effects analysis (FMEA) flowcharts, and ensures audit readiness under ISO 9001:2015 frameworks.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2141",
+    "source_doc": "SIRIM QAS International Quality Management Framework",
+    "source_url": "https://www.sirim-qas.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-08",
+    "masco_group": "2422",
+    "occupation_title": "Public Sector Service Re-engineering Specialist",
+    "sector": "Public Administration",
+    "text": "Maps citizen licensing and permit application workflows across municipal local councils. Identifies document verification redundancies, designs simplified digital submission swimlane flowcharts, and drafts service-level agreement SOPs under national administrative modernization initiatives.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2422",
+    "source_doc": "National Institute of Public Administration (INTAN) Process Guide",
+    "source_url": "https://www.intan.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-09",
+    "masco_group": "1211",
+    "occupation_title": "Procure-to-Pay Accounting Process Analyst",
+    "sector": "Accounting & Shared Services",
+    "text": "Maps end-to-end vendor onboarding, three-way invoice matching, and payment release workflows for regional multinational shared services hubs. Quantifies manual invoice exception rates, designs standardized escalation routing paths, and benchmarks processing cycle times.",
+    "skills": [
+      "process_mapping",
+      "sql_data_analysis",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 1211",
+    "source_doc": "Chartered Institute of Management Accountants (CIMA) Malaysia Operations",
+    "source_url": "https://www.aicpa-cima.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-10",
+    "masco_group": "2152",
+    "occupation_title": "Factory Automation Assembly Flow Engineer",
+    "sector": "Electrical & Electronics Manufacturing",
+    "text": "Develops cycle-time process flowcharts for automated printed circuit board assembly (PCBA) lines in Penang. Documents feeder changeover procedures, identifies surface mount placement bottlenecks using line balancing software, and standardizes maintenance engineering work instructions.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2152",
+    "source_doc": "Federation of Malaysian Manufacturers (FMM) Industry 4.0 Series",
+    "source_url": "https://www.fmm.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-11",
+    "masco_group": "2421",
+    "occupation_title": "Customer Journey & Service Design Process Analyst",
+    "sector": "Telecommunications & Customer Experience",
+    "text": "Maps customer touchpoint journey flows from broadband registration to technical fault dispatch. Documents multi-channel ticket resolution paths, quantifies customer drop-off bottlenecks using flowchart analytics, and specifies unified customer support escalation workflows.",
+    "skills": [
+      "process_mapping",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2421",
+    "source_doc": "Malaysian Communications and Multimedia Commission (MCMC) Quality Guide",
+    "source_url": "https://www.mcmc.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-12",
+    "masco_group": "3343",
+    "occupation_title": "Executive Office Administration Workflow Coordinator",
+    "sector": "Corporate Administrative Services",
+    "text": "Standardizes corporate procurement requisition, contract approval routing, and digital board resolution workflows across group holding companies. Creates digital document approval swimlanes, authors office management standard operating manuals, and trains administrative staff.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 3343",
+    "source_doc": "Malaysian Institute of Corporate Governance (MICG) Operational Guidelines",
+    "source_url": "https://www.micg.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-13",
+    "masco_group": "3122",
+    "occupation_title": "Industrial Packaging Line Process Controller",
+    "sector": "Food & Beverage Manufacturing",
+    "text": "Analyzes packaging line downtime and carton sealing bottlenecks in halal food manufacturing plants in Nilai. Maps operator handover workflows, develops standard work visual boards, and establishes line-clearance operating protocols.",
+    "skills": [
+      "process_mapping",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 3122",
+    "source_doc": "Halal Development Corporation (HDC) Manufacturing Standards",
+    "source_url": "https://www.hdcglobal.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-14",
+    "masco_group": "2421",
+    "occupation_title": "Digital Transformation Agile Process Consultant",
+    "sector": "Management Consulting",
+    "text": "Conducts business architecture and value stream mapping for statutory bodies transitioning from legacy paper files to electronic document workflows. Designs future-state BPMN 2.0 flow models, facilitates user story workshops, and establishes change governance cadences.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Malaysia Productivity Corporation (MPC) & MASCO 2421",
+    "source_doc": "MDEC Digital Adoption Blueprint",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-01",
+    "masco_group": "2412",
+    "occupation_title": "Corporate ESG & Climate Risk Analyst",
+    "sector": "Capital Markets & Sustainable Finance",
+    "text": "Prepares mandatory sustainability statements for Bursa Malaysia Main Market listed entities in compliance with Bursa's Sustainability Reporting Guide (4th Edition). Calculates Scope 1, 2, and preliminary Scope 3 greenhouse gas emissions, compiles Task Force on Climate-related Financial Disclosures (TCFD) metrics, and assists external assurance audits.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 2412",
+    "source_doc": "Bursa Malaysia Sustainability Reporting Guide 4th Edition",
+    "source_url": "https://www.bursamalaysia.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-02",
+    "masco_group": "2133",
+    "occupation_title": "Industrial Decarbonisation & Carbon Accounting Specialist",
+    "sector": "Energy & Clean Technology",
+    "text": "Conducts facility-level greenhouse gas inventories across petrochemical and heavy manufacturing sites in Kerteh under Malaysia's National Energy Transition Roadmap (NETR). Quantifies stationary combustion, fugitive methane emissions, and flaring volumes according to GHG Protocol standards, and models carbon abatement pathways.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 2133",
+    "source_doc": "Ministry of Economy Malaysia / NETR Green Skills Standard",
+    "source_url": "https://www.ekonomi.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-03",
+    "masco_group": "1213",
+    "occupation_title": "Sustainability Strategy & ESG Disclosures Manager",
+    "sector": "Conglomerate Management",
+    "text": "Formulates group-wide sustainability masterplans for diversified property and plantation conglomerates in Petaling Jaya. Coordinates materiality assessment surveys with institutional stakeholders, benchmarks performance against FTSE4Good Bursa Malaysia criteria, and drafts annual corporate governance and sustainability disclosures.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "stakeholder_communication",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 1213",
+    "source_doc": "Securities Commission Malaysia Sustainable and Responsible Investment (SRI) Roadmap",
+    "source_url": "https://www.sc.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-04",
+    "masco_group": "2143",
+    "occupation_title": "Environmental Compliance & Carbon Footprint Engineer",
+    "sector": "Environmental Engineering",
+    "text": "Monitors stack flue gas emissions, wastewater effluent biochemical oxygen demand, and operational energy consumption in Kulim semiconductor fabrication plants. Calculates product carbon footprints across product life cycles using ISO 14067 frameworks, and prepares quarterly compliance dossiers for the Department of Environment.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 2143",
+    "source_doc": "Department of Environment Malaysia (DOE) Industrial Emissions Standard",
+    "source_url": "https://www.doe.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-05",
+    "masco_group": "1211",
+    "occupation_title": "Sustainable Finance & ESG Portfolio Analyst",
+    "sector": "Asset Management & Investment",
+    "text": "Evaluates corporate green bond issuances and Islamic Sukuk sustainability frameworks against ASEAN Green Bond Standards. Audits issuer carbon reduction targets, extracts financed emissions data from annual filings using SQL, and produces portfolio ESG risk dashboards for fund managers.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "sql_data_analysis",
+      "carbon_footprint_analytics"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 1211",
+    "source_doc": "Bank Negara Malaysia & SC Climate Change and Principle-based Taxonomy (CCPT)",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-06",
+    "masco_group": "3111",
+    "occupation_title": "Plantation Sustainability & Traceability Field Officer",
+    "sector": "Agriculture & Commodity Trading",
+    "text": "Audits fresh fruit bunch transport manifests, deforestation satellite alerts, and chemical fertiliser usage in palm oil estates in Sabah. Validates certification documentation under Malaysian Sustainable Palm Oil (MSPO) standards and tracks estate-level carbon sequestration metrics.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "process_mapping",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Bursa Malaysia / MGTC & MASCO 3111",
+    "source_doc": "Malaysian Palm Oil Certification Council (MPOCC) MSPO 2022 Standard",
+    "source_url": "https://www.mpocc.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-07",
+    "masco_group": "2142",
+    "occupation_title": "Green Building Index (GBI) & Energy Efficiency Assessor",
+    "sector": "Construction & Real Estate",
+    "text": "Performs whole-building energy modeling, thermal envelope simulations, and embodied carbon assessments for commercial towers in Kuala Lumpur. Gathers data on sustainable building materials, water harvesting systems, and solar PV yields to achieve Green Building Index platinum certification.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 2142",
+    "source_doc": "Green Building Index Malaysia Technical Standard",
+    "source_url": "https://www.greenbuildingindex.org",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-08",
+    "masco_group": "2412",
+    "occupation_title": "Supply Chain Scope 3 Emissions & ESG Auditor",
+    "sector": "Manufacturing & Supply Chain",
+    "text": "Quantifies purchased goods upstream Scope 3 freight and vendor emissions across Tier 1 automotive suppliers in Selangor. Implements supplier sustainability evaluation scorecards, standardizes emissions data collection templates, and tracks carbon reduction commitments.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 2412",
+    "source_doc": "Malaysian Automotive, Robotics and IoT Institute (MARii) Green Supply Chain",
+    "source_url": "https://www.marii.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-09",
+    "masco_group": "1346",
+    "occupation_title": "Sustainable Banking & SME Transition Finance Officer",
+    "sector": "Commercial Banking",
+    "text": "Assesses decarbonisation roadmaps and carbon reduction plans for small-and-medium enterprise borrowers seeking preferential green financing. Verifies energy audit reports, reviews renewable energy installations, and monitors loan portfolio alignment with BNM Climate Change taxonomy.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "stakeholder_communication",
+      "carbon_footprint_analytics"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 1346",
+    "source_doc": "Association of Banks in Malaysia (ABM) ESG Financing Guide",
+    "source_url": "https://www.abm.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-10",
+    "masco_group": "2133",
+    "occupation_title": "Renewable Energy Carbon Credit Verification Specialist",
+    "sector": "Renewable Energy & Carbon Markets",
+    "text": "Validates generation data from grid-connected solar farms and biogas plants in Kedah to issue International Renewable Energy Certificates (I-REC) and Bursa Carbon Exchange (BCX) verified carbon credits. Conducts baseline emissions additionality audits and life-cycle GHG accounting.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 2133",
+    "source_doc": "Bursa Carbon Exchange (BCX) Rules & Guidelines",
+    "source_url": "https://www.bursamalaysia.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-11",
+    "masco_group": "2422",
+    "occupation_title": "Municipal Climate Resilience & Sustainability Officer",
+    "sector": "Local Government Services",
+    "text": "Develops low-carbon city action plans for local councils under the Low Carbon Cities Framework (LCCF). Compiles municipal baseline energy consumption, waste diversion statistics, and public transit carbon abatement metrics for state climate change committees.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Bursa Malaysia / MGTC & MASCO 2422",
+    "source_doc": "Malaysian Green Technology and Climate Change Corporation (MGTC) LCCF",
+    "source_url": "https://www.mgtc.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-12",
+    "masco_group": "1321",
+    "occupation_title": "Industrial Waste & Circular Economy Sustainability Manager",
+    "sector": "Chemical & Waste Management",
+    "text": "Monitors scheduled waste recycling rates, industrial co-processing yields, and circular economy resource flows in industrial parks. Prepares sustainability reports detailing water circularity, landfill diversion rates, and hazardous waste governance under statutory environmental guidelines.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Bursa Malaysia / MGTC & MASCO 1321",
+    "source_doc": "Department of Environment Malaysia Scheduled Waste Regulations",
+    "source_url": "https://www.doe.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-13",
+    "masco_group": "2511",
+    "occupation_title": "ESG Data Integration & Sustainability Systems Architect",
+    "sector": "Enterprise Software",
+    "text": "Architects automated ESG data lakes that ingest utility smart-meter feeds, ERP fuel purchase ledgers, and travel expense records. Builds automated carbon accounting calculation engines using Python and SQL to eliminate manual spreadsheet consolidation for Bursa sustainability disclosures.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "python_scripting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bursa Malaysia / MGTC & MASCO 2511",
+    "source_doc": "Bursa Malaysia ESG Reporting Technology Advisory",
+    "source_url": "https://www.bursamalaysia.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-14",
+    "masco_group": "2412",
+    "occupation_title": "Sustainable Procurement & Ethical Sourcing Specialist",
+    "sector": "Procurement & Corporate Governance",
+    "text": "Audits tier-1 vendor supply chain labour standards, worker accommodation compliance, and carbon footprint disclosures for export manufacturers in Penang. Implements supplier sustainability audit checklists and presents corrective action findings to group purchasing committees.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "carbon_footprint_analytics",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Bursa Malaysia / MGTC & MASCO 2412",
+    "source_doc": "Federation of Malaysian Manufacturers Responsible Sourcing Code",
+    "source_url": "https://www.fmm.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-01",
+    "masco_group": "2424",
+    "occupation_title": "Corporate Instructional Designer & e-Learning Developer",
+    "sector": "Workforce Training & HRD",
+    "text": "Designs interactive digital learning modules and blended training curricula for technical professionals across Malaysian enterprises. Applies the ADDIE model to conduct learning needs analysis, scripts multimedia storyboards, and develops micro-learning units on company learning management systems.",
+    "skills": [
+      "instructional_design",
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "HRD Corp e-LATiH Instructional Design Framework",
+    "source_url": "https://www.hrdcorp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-02",
+    "masco_group": "2424",
+    "occupation_title": "TVET Curriculum & Competency Standards Developer",
+    "sector": "Vocational & Technical Education",
+    "text": "Develops National Occupational Skills Standards (NOSS) and competency-based training packages for Jabatan Pembangunan Kemahiran (JPK). Formulates learning outcomes, writes assessment performance rubrics, and designs practical workshop training manuals for technical skills certification.",
+    "skills": [
+      "instructional_design",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "Jabatan Pembangunan Kemahiran (JPK) NOSS Development Guidelines",
+    "source_url": "https://www.dsd.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-03",
+    "masco_group": "2424",
+    "occupation_title": "AI & Digital Skills Trainer / Instructional Specialist",
+    "sector": "Higher Education & EdTech",
+    "text": "Creates course syllabi, laboratory coding tutorials, and practical generative AI prompt engineering assignments for tertiary polytechnic students. Conducts formative assessment design, evaluates student project submissions, and maps instructional content to Malaysian Qualifications Framework (MQF) standards.",
+    "skills": [
+      "instructional_design",
+      "prompt_engineering",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "Malaysian Qualifications Agency (MQA) & Department of Polytechnic Education",
+    "source_url": "https://www.mqa.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-04",
+    "masco_group": "2424",
+    "occupation_title": "Banking & Compliance Instructional Design Specialist",
+    "sector": "Financial Services Training",
+    "text": "Designs mandatory anti-money laundering (AML/CFT) and fraud prevention e-learning courses for retail banking personnel. Authors scenario-based decision trees, creates interactive branching quizzes, and aligns course learning milestones with Bank Negara Malaysia regulatory requirements.",
+    "skills": [
+      "instructional_design",
+      "stakeholder_communication",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "Asian Institute of Chartered Bankers (AICB) Learning Design Standards",
+    "source_url": "https://www.aicb.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-05",
+    "masco_group": "2424",
+    "occupation_title": "Healthcare Simulation & Clinical Training Designer",
+    "sector": "Medical & Nursing Education",
+    "text": "Designs clinical simulation scenarios, debriefing guides, and objective structured clinical examination (OSCE) assessment rubrics for nursing and paramedic staff. Integrates virtual patient mannequins and augmented reality anatomy software into continuing medical education curricula.",
+    "skills": [
+      "instructional_design",
+      "data_visualization",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "Ministry of Health Malaysia Healthcare Training Division",
+    "source_url": "https://www.moh.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-06",
+    "masco_group": "2424",
+    "occupation_title": "Manufacturing Plant Technical Trainer & SOP Course Designer",
+    "sector": "Industrial Training",
+    "text": "Develops bilingual on-the-job training modules and visual standard work training aids for automated semiconductor assembly line technicians in Bayan Lepas. Analyzes equipment error histories, writes step-by-step troubleshooting manuals, and evaluates technician practical competence.",
+    "skills": [
+      "instructional_design",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "Penang Skills Development Centre (PSDC) Technical Training Guidelines",
+    "source_url": "https://www.psdc.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-07",
+    "masco_group": "2424",
+    "occupation_title": "EdTech Digital Learning Experience (LX) Designer",
+    "sector": "Educational Technology",
+    "text": "Develops adaptive learning pathways and gamified instructional experiences for K-12 STEM education portals. Uses learner analytics data to optimize content sequencing, writes pedagogically sound instructional scripts, and evaluates learner engagement metrics.",
+    "skills": [
+      "instructional_design",
+      "sql_data_analysis",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "MDEC Digital Education Initiative Standards",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-08",
+    "masco_group": "2424",
+    "occupation_title": "Enterprise Leadership & Soft Skills Program Architect",
+    "sector": "Corporate Talent Development",
+    "text": "Architects high-potential leadership development journeys and 360-degree feedback coaching workshops for government-linked companies (GLCs). Designs executive presentation rubrics, conducts diagnostic needs analysis, and measures training effectiveness using Kirkpatrick's Four-Level Model.",
+    "skills": [
+      "instructional_design",
+      "stakeholder_communication",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "Razak School of Government (RSOG) Leadership Curriculum",
+    "source_url": "https://www.rsog.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-09",
+    "masco_group": "2424",
+    "occupation_title": "Cybersecurity Awareness Instructional Designer",
+    "sector": "Cybersecurity Training",
+    "text": "Designs interactive phishing simulation exercises and cybersecurity hygiene e-learning modules for federal civil servants. Creates realistic social engineering case scenarios, develops post-training assessment tests, and analyzes user click-rate vulnerabilities.",
+    "skills": [
+      "instructional_design",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "CyberSecurity Malaysia Professional Training Guidelines",
+    "source_url": "https://www.cybersecurity.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-10",
+    "masco_group": "2424",
+    "occupation_title": "Retail & Customer Service Training Curriculum Lead",
+    "sector": "Retail & Hospitality",
+    "text": "Develops front-line service excellence curricula and omnichannel POS system operational training modules for retail chain store associates. Creates video demonstrations, conducts train-the-trainer workshops, and monitors mystery shopper score improvements.",
+    "skills": [
+      "instructional_design",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "Malaysia Retailers Association (MRA) Training Blueprint",
+    "source_url": "https://www.mra.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-11",
+    "masco_group": "2424",
+    "occupation_title": "Prompt-Assisted Courseware & Curriculum Architect",
+    "sector": "EdTech & Generative Learning",
+    "text": "Architects automated courseware generation pipelines using generative AI prompt templates to accelerate technical curriculum authoring for polytechnics. Validates AI-generated lesson plans against national TVET competency standards and designs pedagogical evaluation rubrics.",
+    "skills": [
+      "instructional_design",
+      "prompt_engineering",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "HRD Corp / JPK TVET & MASCO 2424",
+    "source_doc": "HRD Corp AI in Learning & Development Framework",
+    "source_url": "https://www.hrdcorp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-01",
+    "masco_group": "2152",
+    "occupation_title": "Semiconductor IC Packaging & Automation Engineer",
+    "sector": "Electrical & Electronics (E&E)",
+    "text": "Programs automated wafer dicing, flip-chip die attach, and high-density wire bonding machinery in Penang advanced semiconductor packaging facilities. Writes Python automation scripts to parse Automated Test Equipment (ATE) yield logs, optimizes machine vision alignment recipes, and builds yield dashboards.",
+    "skills": [
+      "workflow_automation",
+      "python_scripting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MIDA / Penang Automation Cluster & MASCO 2152",
+    "source_doc": "MIDA Malaysian Semiconductor Industry Roadmap 2024-2030",
+    "source_url": "https://www.mida.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-02",
+    "masco_group": "3114",
+    "occupation_title": "Automated Test Equipment (ATE) Firmware Technician",
+    "sector": "Semiconductor Manufacturing",
+    "text": "Calibrates mixed-signal IC automated test handlers and programmable wafer probers in Kulim Hi-Tech Park. Executes automated Python test routines to screen microchips, troubleshoots PLC fault codes, and documents equipment calibration standard operating procedures.",
+    "skills": [
+      "workflow_automation",
+      "python_scripting",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MIDA / Penang Automation Cluster & MASCO 3114",
+    "source_doc": "Penang Automation Cluster (PAC) Technical Guidelines",
+    "source_url": "https://www.pac.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-03",
+    "masco_group": "2141",
+    "occupation_title": "Smart Factory SCADA & MES Automation Systems Lead",
+    "sector": "Precision Manufacturing",
+    "text": "Architects supervisory control and data acquisition (SCADA) and manufacturing execution system (MES) pipelines for automated cleanroom fabrication plants in Batu Kawan. Connects industrial IoT sensors via MQTT protocols, configures real-time PLC alarm escalation, and automates work order dispatch.",
+    "skills": [
+      "workflow_automation",
+      "api_integration",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MIDA / Penang Automation Cluster & MASCO 2141",
+    "source_doc": "Federation of Malaysian Manufacturers (FMM) Industry 4.0 Standard",
+    "source_url": "https://www.fmm.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-04",
+    "masco_group": "3139",
+    "occupation_title": "Robotic Arm Automation & Cell Integration Specialist",
+    "sector": "Advanced Robotics",
+    "text": "Programs 6-axis industrial articulated robots for automated solar panel assembly and semiconductor tray transfer. Optimizes robotic motion trajectories, integrates safety light curtains with PLC controllers, and authors robotic cell standard maintenance manuals.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "MIDA / Penang Automation Cluster & MASCO 3139",
+    "source_doc": "Malaysian Robotics and Automation Society (MyRAS) Standards",
+    "source_url": "https://www.myras.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-05",
+    "masco_group": "2512",
+    "occupation_title": "Industrial IoT Edge Gateway Developer",
+    "sector": "Embedded Systems & Electronics",
+    "text": "Writes Python and C++ firmware for industrial edge gateways deployed across electronics manufacturing lines. Implements automated sensor data ingestion pipelines, packages telemetry payloads into JSON for cloud streaming APIs, and validates zero-packet-loss edge buffering.",
+    "skills": [
+      "workflow_automation",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MIDA / Penang Automation Cluster & MASCO 2512",
+    "source_doc": "CREST R&D Consortium Collaborative Engineering Framework",
+    "source_url": "https://www.crest.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-06",
+    "masco_group": "2152",
+    "occupation_title": "Semiconductor Metrology & Optical Inspection Specialist",
+    "sector": "Semiconductor Quality Control",
+    "text": "Develops automated recipe routines for scanning electron microscopes and high-speed optical defect inspection systems in silicon wafer fabrication. Analyzes defect density pareto charts using SQL, calibrates automated threshold triggers, and performs human verification on flagged wafer anomalies.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "sql_data_analysis",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MIDA / Penang Automation Cluster & MASCO 2152",
+    "source_doc": "MIDA Semiconductor Talent Framework",
+    "source_url": "https://www.mida.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-07",
+    "masco_group": "3115",
+    "occupation_title": "Mechatronics Maintenance & Predictive Sensor Technician",
+    "sector": "Machinery & Equipment",
+    "text": "Maintains automated conveyor sorting systems and pneumatic pick-and-place grippers in airfreight logistics terminals at KLIA. Monitors vibration sensor telemetry, writes automated alerts for bearing wear, and executes scheduled preventive maintenance work orders.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "MIDA / Penang Automation Cluster & MASCO 3115",
+    "source_doc": "Malaysian Society for Nondestructive Testing (MSNT)",
+    "source_url": "https://www.msnt.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-08",
+    "masco_group": "2152",
+    "occupation_title": "Cleanroom Automated Material Handling (AMHS) Engineer",
+    "sector": "Semiconductor Logistics",
+    "text": "Optimizes overhead hoist transport (OHT) vehicle dispatch schedules and automated wafer cassette stocker routing inside 300mm semiconductor fabs. Diagnoses track interlock errors using automated logging software, tracks delivery cycle times, and authors emergency recovery SOPs.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MIDA / Penang Automation Cluster & MASCO 2152",
+    "source_doc": "Kulim Technology Park Corporation (KTPC) Fab Guidelines",
+    "source_url": "https://www.ktechnopark.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-09",
+    "masco_group": "2519",
+    "occupation_title": "Computer Vision Defect Inspection Model Evaluator",
+    "sector": "Industrial AI & Electronics",
+    "text": "Validates automated deep-learning optical inspection models classifying surface solder bridging and hairline crack defects on PCBA boards in Bayan Lepas. Labels edge-case micro-defect images, computes confusion matrices, and maintains human-in-the-loop audit gates to prevent false escapes.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "workflow_automation",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MIDA / Penang Automation Cluster & MASCO 2519",
+    "source_doc": "MIDA Advanced Manufacturing AI Quality Guidelines",
+    "source_url": "https://www.mida.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-10",
+    "masco_group": "3114",
+    "occupation_title": "SMT Line Automated Stencil & Reflow Technician",
+    "sector": "Electronics Assembly",
+    "text": "Sets up automated solder paste printing stencils and reflow oven temperature profiles on surface-mount technology (SMT) lines. Calibrates automated 3D solder paste inspection (SPI) parameters, investigates bridging alarms, and documents paste height standard operating procedures.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "MIDA / Penang Automation Cluster & MASCO 3114",
+    "source_doc": "IPC Malaysia Electronics Assembly Standards",
+    "source_url": "https://www.ipc.org",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-01",
+    "masco_group": "4132",
+    "occupation_title": "AI Document Ingestion & HITL Verification Specialist",
+    "sector": "Global Business Services (GBS)",
+    "text": "Reviews AI-extracted text from digitised invoices, purchase orders, and customs declarations in shared services operations in Bangsar South. Corrects optical character recognition (OCR) parsing exceptions, audits low-confidence bounding boxes, and flags extraction discrepancies to improve automated document processing pipelines.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "workflow_automation",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "GBS Malaysia / CCAM & MASCO 4132",
+    "source_doc": "GBS Malaysia Digital Office Operations Framework",
+    "source_url": "https://www.gbsmalaysia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-02",
+    "masco_group": "4222",
+    "occupation_title": "Customer Contact Centre AI Support & Quality Auditor",
+    "sector": "Telecommunications BPO",
+    "text": "Monitors generative AI chatbot customer interaction transcripts across multi-lingual helpdesks in Cyberjaya. Evaluates chatbot response accuracy against standard operating procedures, intervenes in escalated customer complaints, and updates prompt reply templates for edge cases.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "stakeholder_communication",
+      "prompt_engineering"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "GBS Malaysia / CCAM & MASCO 4222",
+    "source_doc": "Contact Centre Association of Malaysia (CCAM) Operational Guide",
+    "source_url": "https://www.ccam.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-03",
+    "masco_group": "4311",
+    "occupation_title": "Accounts Payable Invoice Verification & Exception Clerk",
+    "sector": "Corporate Financial Services",
+    "text": "Performs three-way matching verification on high-value supplier invoices flagged by automated ERP optical recognition workflows. Validates tax invoice details against purchase order ledgers using SQL queries, communicates with vendors to resolve price variances, and logs audit exceptions.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "GBS Malaysia / CCAM & MASCO 4311",
+    "source_doc": "Malaysian Institute of Accountants (MIA) Clerical Practice Guide",
+    "source_url": "https://www.mia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-04",
+    "masco_group": "4413",
+    "occupation_title": "Clinical Records Coding & Data Integrity Auditor",
+    "sector": "Healthcare Administration",
+    "text": "Audits automated ICD-10 medical diagnostic coding suggestions generated from physician clinical notes. Verifies diagnostic specificity, corrects mismatched procedure codes in hospital information systems, and ensures billing integrity under national health financing standards.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "GBS Malaysia / CCAM & MASCO 4413",
+    "source_doc": "Ministry of Health Malaysia Health Informatics Guidelines",
+    "source_url": "https://www.moh.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-05",
+    "masco_group": "4110",
+    "occupation_title": "Digital Registry & Records Modernization Clerk",
+    "sector": "Public Sector Administration",
+    "text": "Scans, indexes, and validates official government land registry and birth record archives during digital conversion projects. Performs visual quality audits on digitized microfilm scans, tags metadata attributes according to national archiving standards, and logs defective images.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "GBS Malaysia / CCAM & MASCO 4110",
+    "source_doc": "National Archives of Malaysia (Arkib Negara) Digitization Standard",
+    "source_url": "https://www.arkib.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-06",
+    "masco_group": "3341",
+    "occupation_title": "BPO Workflow Operations & Quality Team Lead",
+    "sector": "Business Process Outsourcing",
+    "text": "Supervises a team of 25 data processing associates executing automated workflow queues. Analyzes daily first-pass yield metrics, investigates repetitive validation failure patterns using Excel charts, and refines operational standard work instructions.",
+    "skills": [
+      "process_mapping",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "GBS Malaysia / CCAM & MASCO 3341",
+    "source_doc": "OMiSTI / Outsourcing Malaysia Workforce Standards",
+    "source_url": "https://www.pikom.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-07",
+    "masco_group": "4312",
+    "occupation_title": "Insurance Underwriting Document Validation Clerk",
+    "sector": "General Insurance",
+    "text": "Inspects vehicle registration certificates, road tax records, and claims assessment photographs submitted through mobile self-service apps. Resolves identity data mismatches flagged by automated underwriting engines, and communicates with insurance agents regarding missing evidence.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "GBS Malaysia / CCAM & MASCO 4312",
+    "source_doc": "General Insurance Association of Malaysia (PIAM) Operational Standard",
+    "source_url": "https://www.piam.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-08",
+    "masco_group": "4131",
+    "occupation_title": "Legal Transcription & Speech-to-Text Proofreader",
+    "sector": "Legal Support Services",
+    "text": "Reviews AI speech-to-text transcriptions of Malaysian court proceedings and arbitration hearings. Listens to audio recordings to correct legal terminology, speaker attributions, and local dialect nuances, delivering certified official transcripts under judicial transcription protocols.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "stakeholder_communication",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "GBS Malaysia / CCAM & MASCO 4131",
+    "source_doc": "Office of the Chief Registrar Federal Court of Malaysia Transcription Guide",
+    "source_url": "https://www.kehakiman.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-09",
+    "masco_group": "4321",
+    "occupation_title": "Inventory System Data Entry & Discrepancy Clerk",
+    "sector": "Wholesale Distribution",
+    "text": "Verifies barcode scanner inventory intake records against shipping container manifests in Port Klang warehouses. Investigates stock variance flags in enterprise database tables, conducts physical cycle counts, and updates damaged stock write-off ledgers.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "sql_data_analysis",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "GBS Malaysia / CCAM & MASCO 4321",
+    "source_doc": "Chartered Institute of Logistics and Transport Malaysia",
+    "source_url": "https://www.cilt.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-10",
+    "masco_group": "4211",
+    "occupation_title": "Digital Banking KYC Onboarding Verification Associate",
+    "sector": "Banking Operations",
+    "text": "Conducts secondary human review on digital account opening applications flagged by automated risk and biometric liveness checks. Verifies Malaysian MyKad security features, cross-checks sanctions watchlist databases, and makes final compliance approvals under BNM guidelines.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "data_privacy_pdpa",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "GBS Malaysia / CCAM & MASCO 4211",
+    "source_doc": "Bank Negara Malaysia Policy Document on e-KYC",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-01",
+    "masco_group": "2412",
+    "occupation_title": "Digital Banking Risk & Fraud Analytics Specialist",
+    "sector": "Digital Banking & Payments",
+    "text": "Builds automated SQL queries and machine learning risk scorecards to detect suspicious financial transactions and account takeover attempts on digital banking platforms in Kuala Lumpur. Investigates anomalous money flows, evaluates fraud telemetry dashboards, and files suspicious transaction reports (STR) with Bank Negara Malaysia.",
+    "skills": [
+      "sql_data_analysis",
+      "data_visualization",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bank Negara Malaysia / FAOM & MASCO 2412",
+    "source_doc": "Bank Negara Malaysia Financial Intelligence and Enforcement Department Guidelines",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-02",
+    "masco_group": "2512",
+    "occupation_title": "Open Banking API & Payment Gateway Integration Engineer",
+    "sector": "Financial Technology",
+    "text": "Develops and tests secure DuitNow QR and FPX payment gateway microservices adhering to Bank Negara Malaysia's Open API standards. Implements OAuth2 authentication handshakes, configures webhook callback listeners, and writes automated end-to-end integration tests using Python.",
+    "skills": [
+      "api_integration",
+      "python_scripting",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bank Negara Malaysia / FAOM & MASCO 2512",
+    "source_doc": "PayNet Malaysia DuitNow API Technical Specification",
+    "source_url": "https://www.paynet.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-03",
+    "masco_group": "2412",
+    "occupation_title": "Algorithmic Credit Scoring & Model Governance Analyst",
+    "sector": "Micro-Financing & FinTech",
+    "text": "Designs alternative credit scoring models using telecommunications bill payment histories and e-commerce transaction data for unbanked micro-entrepreneurs. Audits predictive model feature importances, monitors demographic bias under ethical AI principles, and drafts technical documentation for BNM regulatory sandboxes.",
+    "skills": [
+      "sql_data_analysis",
+      "ai_ethics_governance",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bank Negara Malaysia / FAOM & MASCO 2412",
+    "source_doc": "FinTech Association of Malaysia (FAOM) Alternative Credit Blueprint",
+    "source_url": "https://www.fintechmalaysia.org",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-04",
+    "masco_group": "1346",
+    "occupation_title": "Digital WealthTech Operations & Robot-Advisory Manager",
+    "sector": "Wealth Management",
+    "text": "Oversees daily portfolio rebalancing and algorithmic asset allocation routines on automated robo-advisory platforms. Validates automated execution logs against client risk tolerance profiles, audits fee calculation algorithms, and ensures compliance with Securities Commission Malaysia digital investment guidelines.",
+    "skills": [
+      "workflow_automation",
+      "stakeholder_communication",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bank Negara Malaysia / FAOM & MASCO 1346",
+    "source_doc": "Securities Commission Malaysia Digital Investment Management Framework",
+    "source_url": "https://www.sc.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-05",
+    "masco_group": "2412",
+    "occupation_title": "Financial Crime Data Science & AML Modeling Specialist",
+    "sector": "Regulatory Compliance",
+    "text": "Develops Python scripts to analyze cross-border fund transfer networks and identify money laundering mules across domestic payment switches. Builds automated graph visualization dashboards for anti-money laundering compliance officers, reducing false positive transaction alerts.",
+    "skills": [
+      "python_scripting",
+      "data_visualization",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bank Negara Malaysia / FAOM & MASCO 2412",
+    "source_doc": "Asian Institute of Chartered Bankers AML/CFT Certification",
+    "source_url": "https://www.aicb.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-06",
+    "masco_group": "3311",
+    "occupation_title": "Algorithmic Equities Execution Trader",
+    "sector": "Capital Markets Trading",
+    "text": "Monitors and tunes automated execution algorithms (VWAP, TWAP) trading on Bursa Malaysia equity and derivatives markets. Analyzes market depth order book latency, reviews real-time slippage telemetry, and adjusts execution risk limit parameters.",
+    "skills": [
+      "sql_data_analysis",
+      "workflow_automation",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bank Negara Malaysia / FAOM & MASCO 3311",
+    "source_doc": "Bursa Malaysia Participant Trading Rules & Direct Market Access Guidelines",
+    "source_url": "https://www.bursamalaysia.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-07",
+    "masco_group": "2511",
+    "occupation_title": "Core Banking Cloud Migration Systems Analyst",
+    "sector": "Banking Technology",
+    "text": "Maps legacy mainframe deposit and lending database schemas to cloud-native microservices for Malaysian commercial banks. Validates data integrity during automated ETL pipeline migrations, specifies REST API payload contracts, and coordinates technical user acceptance testing.",
+    "skills": [
+      "sql_data_analysis",
+      "api_integration",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Bank Negara Malaysia / FAOM & MASCO 2511",
+    "source_doc": "Bank Negara Malaysia Risk Management in Technology (RMiT)",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-08",
+    "masco_group": "3312",
+    "occupation_title": "Commercial Credit Risk Underwriter & Financial Data Analyst",
+    "sector": "Commercial Lending",
+    "text": "Analyzes financial statements, bank statement cash flows, and debt service coverage ratios for corporate loan applications in SME commercial banking. Uses SQL and Excel to model debt repayment sensitivity under varying interest rates, and prepares comprehensive credit committee memorandums.",
+    "skills": [
+      "sql_data_analysis",
+      "stakeholder_communication",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Bank Negara Malaysia / FAOM & MASCO 3312",
+    "source_doc": "Asian Institute of Chartered Bankers (AICB) Credit Risk Framework",
+    "source_url": "https://www.aicb.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-01",
+    "masco_group": "2519",
+    "occupation_title": "Enterprise RAG & Knowledge Systems Architect",
+    "sector": "Artificial Intelligence & Enterprise Systems",
+    "text": "Architects retrieval-augmented generation (RAG) pipelines over Malaysian corporate document archives and legal jurisprudence databases. Implements dense vector indexing with Milvus, configures semantic hybrid search rerankers, and evaluates context retrieval precision to prevent LLM hallucinations.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MDEC National Artificial Intelligence Roadmap (2021-2025)",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-02",
+    "masco_group": "2519",
+    "occupation_title": "Generative AI Prompt Engineer & LLM Evaluator",
+    "sector": "AI Solutions Development",
+    "text": "Designs and refines systematic prompt engineering templates for enterprise customer support chatbots and legal document summarization agents. Authors few-shot prompt libraries, benchmarks output quality across Claude and GPT foundation models, and tests adversarial prompt injection resistance.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MDEC Generative AI Guidelines for Malaysian Industry",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-03",
+    "masco_group": "2512",
+    "occupation_title": "AI Solutions Backend Developer (Python & Vector DB)",
+    "sector": "Software Engineering",
+    "text": "Builds scalable Python FastAPI backends that integrate vector databases and large language model APIs for banking research analysts. Implements asynchronous API integration endpoints, semantic chunking algorithms for PDF filings, and token caching mechanisms.",
+    "skills": [
+      "python_scripting",
+      "api_integration",
+      "rag_knowledge_systems"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2512",
+    "source_doc": "MyDIGITAL National 4IR Policy Workforce Guide",
+    "source_url": "https://www.mydigital.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-04",
+    "masco_group": "2422",
+    "occupation_title": "AI Ethics & Algorithmic Governance Officer",
+    "sector": "Digital Policy & Technology Ethics",
+    "text": "Audits enterprise artificial intelligence models for demographic bias, algorithmic transparency, and compliance with Malaysia's National AI Governance and Ethics (AIGE) guidelines. Establishes model risk registries, conducts ethical impact assessments, and reports model evaluation findings to corporate executive risk committees.",
+    "skills": [
+      "ai_ethics_governance",
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2422",
+    "source_doc": "Ministry of Science, Technology and Innovation (MOSTI) National AI Governance Code",
+    "source_url": "https://www.mosti.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-05",
+    "masco_group": "2511",
+    "occupation_title": "Enterprise AI Adoption & Workforce Literacy Specialist",
+    "sector": "Corporate Digital Transformation",
+    "text": "Leads enterprise-wide AI literacy workshops for non-technical business units across multinational companies in Malaysia. Trains business analysts on prompt engineering fundamentals, responsible generative AI usage policies, and workflow automation opportunities using no-code AI tools.",
+    "skills": [
+      "ai_literacy",
+      "prompt_engineering",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2511",
+    "source_doc": "HRD Corp National Training Week AI Upskilling Standards",
+    "source_url": "https://www.hrdcorp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-06",
+    "masco_group": "2519",
+    "occupation_title": "Legal Tech RAG & Document Intelligence Engineer",
+    "sector": "Legal Technology",
+    "text": "Builds specialized legal search retrieval-augmented generation systems indexing Malaysian statutes, subsidiary legislation, and reported judgments. Formulates vector chunking strategies preserving legislative section hierarchies, and integrates citation validation checks.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "prompt_engineering"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Malaysian Bar Council Legal Technology Innovation Guide",
+    "source_url": "https://www.malaysianbar.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-07",
+    "masco_group": "2519",
+    "occupation_title": "Customer Experience Conversational Prompt Designer",
+    "sector": "Customer Experience Technology",
+    "text": "Develops conversational system prompts and tone-of-voice persona constraints for omnichannel banking customer assistants. Evaluates intent recognition accuracy, conducts multi-turn prompt debugging, and refines fallback escalation triggers to human customer care agents.",
+    "skills": [
+      "prompt_engineering",
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Contact Centre Association of Malaysia AI Guidelines",
+    "source_url": "https://www.ccam.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-08",
+    "masco_group": "2512",
+    "occupation_title": "Data Pipeline & Analytical Automation Developer",
+    "sector": "Data Engineering",
+    "text": "Develops automated data extraction and transformation pipelines in Python to ingest heterogeneous ERP, CRM, and web analytics logs into Snowflake data warehouses. Orchestrates workflow automation jobs using Apache Airflow, writes SQL transformations, and monitors pipeline execution telemetry.",
+    "skills": [
+      "python_scripting",
+      "workflow_automation",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2512",
+    "source_doc": "MDEC Big Data and Analytics Workforce Competencies",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-09",
+    "masco_group": "2519",
+    "occupation_title": "Medical Clinical Decision Support RAG Engineer",
+    "sector": "Health Informatics",
+    "text": "Develops clinical knowledge retrieval-augmented systems indexing peer-reviewed biomedical literature and Ministry of Health clinical practice guidelines for hospital physicians. Tunes dense retrieval embeddings, implements strict medical provenance citations, and measures factual accuracy against medical ground truth.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Ministry of Health Malaysia Health Tech Innovation Blueprint",
+    "source_url": "https://www.moh.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-10",
+    "masco_group": "2422",
+    "occupation_title": "Algorithmic Fairness & Model Risk Validator",
+    "sector": "Financial Risk & Compliance",
+    "text": "Performs independent model validation on automated retail credit underwriting algorithms used by licensed financial institutions in Malaysia. Calculates disparate impact ratios, identifies proxy variable biases, and authors formal model governance reports for Bank Negara Malaysia.",
+    "skills": [
+      "ai_ethics_governance",
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2422",
+    "source_doc": "Bank Negara Malaysia Technology Risk Governance Series",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-11",
+    "masco_group": "2519",
+    "occupation_title": "Domain-Specific Prompt Optimization Engineer",
+    "sector": "Enterprise AI Consulting",
+    "text": "Authors structured system prompt templates incorporating XML tags and chain-of-thought instructions for enterprise financial analysis and ESG report drafting. Benchmarks output consistency, evaluates token cost efficiency across API providers, and establishes automated evaluation assertions.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MDEC Artificial Intelligence Industry Standards",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-12",
+    "masco_group": "2519",
+    "occupation_title": "Enterprise Semantic Search & Knowledge Graph Specialist",
+    "sector": "Enterprise Search & Knowledge Management",
+    "text": "Constructs hybrid retrieval-augmented generation architectures combining vector embeddings and Neo4j knowledge graphs over manufacturing failure logs and engineering schematics. Implements multi-hop query decomposition in Python and designs evaluation benchmarks.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "CREST Collaborative Engineering AI Framework",
+    "source_url": "https://www.crest.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-13",
+    "masco_group": "2511",
+    "occupation_title": "Generative AI Workflow Automation Consultant",
+    "sector": "Digital Transformation",
+    "text": "Designs automated business document processing workflows connecting generative LLM APIs with internal ERP systems for Malaysian logistics operators. Constructs few-shot prompts to extract structured shipment parameters, automates exceptions routing, and trains administrative staff.",
+    "skills": [
+      "workflow_automation",
+      "prompt_engineering",
+      "api_integration",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2511",
+    "source_doc": "MDEC Digital Productivity Initiative",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-14",
+    "masco_group": "2519",
+    "occupation_title": "Multilingual Prompt Localization Specialist",
+    "sector": "Natural Language Processing",
+    "text": "Optimizes prompt engineering templates for multilingual Bahasa Malaysia, English, and Mandarin customer service virtual assistants. Analyzes linguistic nuance, prevents semantic drift in code-switched queries, and evaluates automated translation fidelity.",
+    "skills": [
+      "prompt_engineering",
+      "human_in_the_loop_qa",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MDEC Language Technology Standards",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-15",
+    "masco_group": "2519",
+    "occupation_title": "Technical Documentation RAG System Developer",
+    "sector": "Software Architecture",
+    "text": "Builds internal engineering retrieval-augmented documentation assistants indexing software repositories, API specifications, and architectural decision records. Implements semantic hybrid search over markdown codebases using Python and Qdrant vector databases.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MyDIGITAL Software Engineering Standards",
+    "source_url": "https://www.mydigital.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-16",
+    "masco_group": "2519",
+    "occupation_title": "Enterprise Knowledge Base & Vector Indexing Engineer",
+    "sector": "ICT Services & Enterprise Search",
+    "text": "Develops semantic vector indexing and retrieval-augmented generation pipelines over multi-terabyte internal documentation and confluence repositories. Implements recursive chunking algorithms in Python, evaluates embedding distance metrics, and integrates API endpoints.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MDEC Cloud & Big Data Standards",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-17",
+    "masco_group": "2511",
+    "occupation_title": "Enterprise Knowledge Management & Vector Retrieval Lead",
+    "sector": "Corporate ICT",
+    "text": "Leads corporate knowledge management modernization connecting legacy document stores with modern neural vector databases. Specifies retrieval-augmented generation search architectures, tunes BM25 and vector hybrid search algorithms, and audits retrieval recall.",
+    "skills": [
+      "rag_knowledge_systems",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2511",
+    "source_doc": "TalentCorp MyCOL ICT Services Framework",
+    "source_url": "https://www.talentcorp.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-18",
+    "masco_group": "2512",
+    "occupation_title": "Customer Support RAG Agent Backend Developer",
+    "sector": "FinTech & E-Commerce",
+    "text": "Builds Python FastAPI services that ingest customer support tickets, FAQs, and product manuals into Pinecone vector databases. Constructs retrieval-augmented generation context injection pipelines for generative chatbots, and monitors response latency.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2512",
+    "source_doc": "PayNet FinTech Architecture Series",
+    "source_url": "https://www.paynet.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-19",
+    "masco_group": "2519",
+    "occupation_title": "Scientific & Medical Literature RAG Specialist",
+    "sector": "HealthTech & Pharmaceuticals",
+    "text": "Builds domain-specific retrieval-augmented search applications indexing medical clinical trials and pharmacological research papers. Evaluates reranker precision using cross-encoders in Python, validates source citation fidelity, and prevents hallucinated medical claims.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Clinical Research Malaysia (CRM) Health Informatics Guide",
+    "source_url": "https://www.clinicalresearch.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-20",
+    "masco_group": "2519",
+    "occupation_title": "Regulatory Compliance RAG System Engineer",
+    "sector": "Regulatory Technology (RegTech)",
+    "text": "Designs automated retrieval-augmented systems over Bank Negara Malaysia circulars, statutory acts, and tax guidelines. Implements hierarchical section-aware document chunking, tests hybrid dense-sparse vector search, and evaluates context retrieval precision.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Asian Institute of Chartered Bankers Regulatory Series",
+    "source_url": "https://www.aicb.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-21",
+    "masco_group": "2519",
+    "occupation_title": "Industrial Equipment Troubleshooting RAG Developer",
+    "sector": "Manufacturing Tech",
+    "text": "Builds retrieval-augmented troubleshooting assistants indexing equipment repair schematics and error codes for manufacturing technicians. Creates automated PDF document parsing pipelines in Python, tunes dense embeddings, and evaluates context window efficiency.",
+    "skills": [
+      "rag_knowledge_systems",
+      "workflow_automation",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "FMM Advanced Manufacturing AI Guidelines",
+    "source_url": "https://www.fmm.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-22",
+    "masco_group": "2519",
+    "occupation_title": "Generative LLM Prompt Architect & Evaluator",
+    "sector": "Enterprise AI Consulting",
+    "text": "Authors system prompts, few-shot demonstration exemplars, and output schema constraints for generative language model applications in Malaysian enterprises. Benchmarks multi-turn prompt stability across reasoning models, minimizes prompt injection vulnerabilities, and optimizes token costs.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MDEC Generative AI Playbook",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-23",
+    "masco_group": "2519",
+    "occupation_title": "Digital Banking Conversational Prompt Designer",
+    "sector": "Digital Banking",
+    "text": "Designs structured prompt engineering templates and conversational guardrails for digital banking onboarding assistants. Evaluates prompt compliance with financial disclosure standards, conducts automated regression prompt testing, and refines intent recognition rules.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Association of Banks in Malaysia Digital Guidelines",
+    "source_url": "https://www.abm.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-24",
+    "masco_group": "2519",
+    "occupation_title": "Multilingual Content Localization Prompt Engineer",
+    "sector": "Digital Media",
+    "text": "Develops prompt engineering templates for localized translation and contextual summarization of technical news across Malay and English. Designs few-shot style guides, evaluates cultural nuance retention, and configures automated evaluation assertions.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MCMC Digital Media Framework",
+    "source_url": "https://www.mcmc.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-25",
+    "masco_group": "2511",
+    "occupation_title": "Enterprise AI Prompting & Workflow Automation Lead",
+    "sector": "Business Systems",
+    "text": "Designs structured prompt chains and JSON-constrained prompt engineering templates to parse unstructured email RFPs into ERP sales orders. Integrates LLM API endpoints with corporate workflow automations, and trains operations analysts.",
+    "skills": [
+      "prompt_engineering",
+      "workflow_automation",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2511",
+    "source_doc": "PIKOM ICT Leadership Standards",
+    "source_url": "https://www.pikom.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-26",
+    "masco_group": "2519",
+    "occupation_title": "Legal Drafting & Contract Review Prompt Specialist",
+    "sector": "Legal Tech",
+    "text": "Authors chain-of-thought prompt engineering templates for commercial contract clause extraction and non-disclosure agreement risk screening. Benchmarks prompt accuracy against lawyer ground-truth annotations, and builds evaluation test suites.",
+    "skills": [
+      "prompt_engineering",
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Malaysian Bar Council Legal Innovation Standards",
+    "source_url": "https://www.malaysianbar.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-27",
+    "masco_group": "2519",
+    "occupation_title": "Healthcare Clinical Query Prompt Engineer",
+    "sector": "Medical Informatics",
+    "text": "Formulates zero-shot and few-shot prompt templates for clinical summary generation from physician examination notes. Validates medical terminology retention, tests clinical edge cases against diagnostic protocols, and enforces strict patient privacy safeguards.",
+    "skills": [
+      "prompt_engineering",
+      "data_privacy_pdpa",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Ministry of Health Malaysia Informatics Series",
+    "source_url": "https://www.moh.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-28",
+    "masco_group": "2519",
+    "occupation_title": "Financial Report Synthesis Prompt Engineer",
+    "sector": "FinTech & Investment",
+    "text": "Designs few-shot prompt engineering templates to extract key financial ratios, executive guidance commentary, and capital expenditure forecasts from annual corporate PDF reports. Validates mathematical consistency in generated summaries and monitors model precision.",
+    "skills": [
+      "prompt_engineering",
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "Securities Commission Malaysia FinTech Guidelines",
+    "source_url": "https://www.sc.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-29",
+    "masco_group": "2519",
+    "occupation_title": "Corporate Governance & Compliance RAG Architect",
+    "sector": "Governance Tech",
+    "text": "Architects retrieval-augmented generation knowledge repositories indexing corporate policy manuals, employee handbooks, and whistleblower protocols. Evaluates semantic relevance scores, implements access-control filters, and verifies answer attribution.",
+    "skills": [
+      "rag_knowledge_systems",
+      "api_integration",
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2519",
+    "source_doc": "MICG Corporate Governance Series",
+    "source_url": "https://www.micg.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-30",
+    "masco_group": "2512",
+    "occupation_title": "Automated Knowledge Graph & RAG Pipeline Developer",
+    "sector": "Applied Computer Science",
+    "text": "Builds automated knowledge ingestion and chunking pipelines in Python connecting relational databases with vector and graph search engines. Evaluates reciprocal rank fusion (RRF) metrics and measures query latency for high-concurrency enterprise applications.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "MDEC / MOSTI AI Standards & MASCO 2512",
+    "source_doc": "MyDIGITAL Artificial Intelligence Blueprint",
+    "source_url": "https://www.mydigital.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-rej-01",
+    "masco_group": "1330",
+    "occupation_title": "Enterprise Cloud Services Director",
+    "sector": "ICT Management",
+    "text": "Directs cloud infrastructure and enterprise storage architectures for telecommunications operators. Oversees data privacy compliance and guides executive stakeholder communication.",
+    "skills": [
+      "data_privacy_pdpa",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Audit Test Ingestion & MASCO 1330",
+    "source_doc": "Quarantined Group Test Record",
+    "source_url": "https://www.dosm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-rej-02",
+    "masco_group": "2149",
+    "occupation_title": "Mechatronics Systems Engineer",
+    "sector": "Robotics Engineering",
+    "text": "Designs automated robotics cells and programs PLC ladder logic for manufacturing lines. Creates process maps for assembly operations.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Audit Test Ingestion & MASCO 2149",
+    "source_doc": "Quarantined Group Test Record",
+    "source_url": "https://www.dosm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-rej-03",
+    "masco_group": "2411",
+    "occupation_title": "Statutory Financial Accountant",
+    "sector": "Audit & Accounting",
+    "text": "Audits general ledger accounts and prepares quarterly statutory income statements using SQL queries and financial reporting systems.",
+    "skills": [
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "Audit Test Ingestion & MASCO 2411",
+    "source_doc": "Quarantined Group Test Record",
+    "source_url": "https://www.dosm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-rej-04",
+    "masco_group": "2421",
+    "occupation_title": "Enterprise Data Protection Officer Duplicate",
+    "sector": "Legal & Compliance",
+    "text": "Manages corporate Personal Data Protection Act (PDPA 2010) compliance across Malaysian business units. Conducts Privacy Impact Assessments (PIA) for customer-facing systems, maintains the register of processing activities, audits third-party data processor agreements under JPDP Standards 2015, and establishes mandatory 72-hour data breach containment protocols.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "Audit Test Ingestion & MASCO 2421",
+    "source_doc": "Near Duplicate Audit Record",
+    "source_url": "https://www.pdp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-rej-05",
+    "masco_group": "2421",
+    "occupation_title": "Corporate Brand Ambassador",
+    "sector": "Public Relations",
+    "text": "Our company is proud to announce great innovative corporate achievements in Malaysia this quarter with exciting digital awards and global partnerships for community development.",
+    "skills": [
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "Audit Test Ingestion & MASCO 2421",
+    "source_doc": "Commercial Marketing PR Release",
+    "source_url": "https://www.example.com/pr",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-rej-06",
+    "masco_group": "2421",
+    "occupation_title": "Office Assistant",
+    "sector": "General Support",
+    "text": "Does basic computer work, typing, and sends emails every day.",
+    "skills": [
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "Audit Test Ingestion & MASCO 2421",
+    "source_doc": "Uninformative Low-Content Snippet",
+    "source_url": "https://www.example.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-rej-07",
+    "masco_group": "4110",
+    "occupation_title": "General Office File Clerk",
+    "sector": "Administration",
+    "text": "Files paper receipts in filing cabinets and occasionally saw a coworker talk about Python scripting during lunch break in the pantry.",
+    "skills": [
+      "python_scripting"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "Audit Test Ingestion & MASCO 4110",
+    "source_doc": "False Positive Keyword Snippet",
+    "source_url": "https://www.example.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-19",
+    "masco_group": "2421",
+    "occupation_title": "Telecommunications Privacy & Consent Compliance Analyst",
+    "sector": "Telecommunications",
+    "text": "Reviews subscriber marketing consent flags, caller-ID location logging retention schedules, and SIM card registration databases under Malaysian PDPA rules. Drafts data privacy assessments for new VAS services and audits third-party call centre access.",
+    "skills": [
+      "data_privacy_pdpa",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2421",
+    "source_doc": "MCMC Privacy Regulatory Blueprint",
+    "source_url": "https://www.mcmc.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-20",
+    "masco_group": "2512",
+    "occupation_title": "Secure Identity & Biometric Verification Developer",
+    "sector": "FinTech & Security",
+    "text": "Implements encrypted biometric storage and tokenized user authentication APIs for financial mobile apps. Validates that biometric templates cannot be reverse-engineered to reconstruct raw facial features, satisfying JPDP technical standards.",
+    "skills": [
+      "data_privacy_pdpa",
+      "api_integration",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2512",
+    "source_doc": "PayNet Identity Security Guidelines",
+    "source_url": "https://www.paynet.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-21",
+    "masco_group": "1219",
+    "occupation_title": "Education Institute Student Data Privacy Coordinator",
+    "sector": "Higher Education",
+    "text": "Oversees student personal data handling, examination transcript archiving, and cloud LMS student privacy policies across private universities in Selangor. Audits research ethics approvals and student consent records under the Personal Data Protection Act.",
+    "skills": [
+      "data_privacy_pdpa",
+      "stakeholder_communication",
+      "ai_ethics_governance"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 1219",
+    "source_doc": "Ministry of Higher Education Malaysia Data Policies",
+    "source_url": "https://www.mohe.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-22",
+    "masco_group": "2422",
+    "occupation_title": "Municipal Smart City Privacy Impact Specialist",
+    "sector": "Smart Cities & Urban Planning",
+    "text": "Conducts privacy impact assessments on municipal traffic surveillance cameras, public Wi-Fi telemetry, and citizen mobile apps in Putrajaya. Formulates municipal data anonymization standards and public disclosure notices under statutory privacy requirements.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2422",
+    "source_doc": "PLANMalaysia Smart City Urban Governance Standard",
+    "source_url": "https://www.planmalaysia.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-pdpa-23",
+    "masco_group": "1346",
+    "occupation_title": "Merchant Payment Gateway Data Privacy Officer",
+    "sector": "Merchant Payments",
+    "text": "Ensures point-of-sale payment terminals and merchant portal transaction histories comply with statutory privacy rules and PCI-DSS requirements. Enforces tokenization of credit card numbers and coordinates mandatory breach notification drills.",
+    "skills": [
+      "data_privacy_pdpa",
+      "api_integration",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 1346",
+    "source_doc": "BNM Merchant Payment Systems Standards",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-15",
+    "masco_group": "1324",
+    "occupation_title": "Port Container Terminal Flow Logistics Analyst",
+    "sector": "Maritime & Port Logistics",
+    "text": "Maps container vessel discharge, prime mover quay-to-yard haulage, and automated gate clearance process chains in Port of Tanjung Pelepas. Identifies yard stacking delays using BPMN flowcharts, and authors standard operating manuals for crane operators.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 1324",
+    "source_doc": "Johor Port Authority Logistics Standards",
+    "source_url": "https://www.lpj.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-16",
+    "masco_group": "2141",
+    "occupation_title": "Medical Device Cleanroom Assembly Process Engineer",
+    "sector": "Medical Technology",
+    "text": "Documents catheter extrusion and sterilization process parameters in sterile cleanrooms in Penang. Creates failure mode and effects analysis (FMEA) flowcharts, implements statistical process control charts, and updates ISO 13485 operating procedures.",
+    "skills": [
+      "process_mapping",
+      "human_in_the_loop_qa",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 2141",
+    "source_doc": "Medical Device Authority Malaysia (MDA) Manufacturing Standards",
+    "source_url": "https://www.mda.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-17",
+    "masco_group": "1211",
+    "occupation_title": "Treasury Cash Management Workflow Specialist",
+    "sector": "Corporate Finance",
+    "text": "Maps intercompany cash pooling, foreign exchange hedging, and bank reconciliation process flows for multinational holding groups in Kuala Lumpur. Designs automated bank feed integration diagrams, identifies approval bottlenecks, and drafts treasury standard work instructions.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 1211",
+    "source_doc": "Malaysian Institute of Accountants Treasury Operations Guide",
+    "source_url": "https://www.mia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-18",
+    "masco_group": "2421",
+    "occupation_title": "Hotel Operations Service Flow & Quality Consultant",
+    "sector": "Hospitality Management",
+    "text": "Conducts service delivery mapping from guest airport arrival to room checkout across luxury hotel chains. Analyzes service turnaround times, documents housekeeping inspection standard operating procedures, and trains supervisory staff.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "TalentCorp MyCOL & MASCO 2421",
+    "source_doc": "Malaysian Association of Hotels (MAH) Quality Standards",
+    "source_url": "https://www.hotels.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-proc-19",
+    "masco_group": "2511",
+    "occupation_title": "Healthcare Laboratory Information System Workflow Analyst",
+    "sector": "Diagnostic Services",
+    "text": "Maps blood specimen receipt, automated barcode centrifuging, and pathology report approval workflows in commercial diagnostic laboratories. Designs electronic lab workflow swimlanes, and configures automated critical-value physician alert routing.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 2511",
+    "source_doc": "Malaysian Society of Clinical Biochemists Guidelines",
+    "source_url": "https://www.mscb.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-15",
+    "masco_group": "2133",
+    "occupation_title": "Forest Carbon Sequestration & Satellite MRV Specialist",
+    "sector": "Forestry & Natural Resources",
+    "text": "Analyzes high-resolution multispectral satellite imagery and LiDAR point clouds to quantify above-ground biomass carbon stock in permanent forest reserves in Pahang. Compiles carbon baseline additionality reports for Bursa Carbon Exchange voluntary market listings.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2133",
+    "source_doc": "Forestry Department Peninsular Malaysia Forest Carbon Standard",
+    "source_url": "https://www.forestry.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-16",
+    "masco_group": "2142",
+    "occupation_title": "Sustainable Highway Infrastructure & Materials Assessor",
+    "sector": "Civil Engineering & Transport",
+    "text": "Evaluates low-carbon asphalt mixes, recycled concrete aggregates, and life-cycle embodied carbon metrics for toll expressway concessions in Selangor. Prepares Green Highway Index documentation, measuring emissions avoidance from automated toll plazas.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 2142",
+    "source_doc": "Malaysian Highway Authority (LLM) Green Highway Framework",
+    "source_url": "https://www.llm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-17",
+    "masco_group": "1213",
+    "occupation_title": "Aviation Fleet Decarbonisation & CORSIA Officer",
+    "sector": "Aviation & Transport",
+    "text": "Monitors international airline jet fuel consumption, sustainable aviation fuel (SAF) blending ratios, and carbon offset obligations under the ICAO CORSIA scheme for Malaysian carriers. Compiles annual aviation carbon compliance reports for the Civil Aviation Authority of Malaysia.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 1213",
+    "source_doc": "Civil Aviation Authority of Malaysia (CAAM) Environmental Directives",
+    "source_url": "https://www.caam.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-18",
+    "masco_group": "2412",
+    "occupation_title": "Green Logistics & Fleet Emissions Analyst",
+    "sector": "Freight & Distribution",
+    "text": "Calculates truck fleet fuel efficiency, diesel-to-electric conversion payback intervals, and road freight carbon footprints across commercial transport fleets. Compiles sustainability KPI dashboards for major logistics customers demanding Scope 3 emissions data.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 2412",
+    "source_doc": "Malaysian Logistics Council Green Transport Guide",
+    "source_url": "https://www.mot.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-esg-19",
+    "masco_group": "2143",
+    "occupation_title": "Industrial Effluent & Methane Capture Project Engineer",
+    "sector": "Agro-Industrial Engineering",
+    "text": "Monitors biogas capture yields from covered palm oil mill effluent (POME) digestion lagoons in Perak. Quantifies avoided methane emissions according to Clean Development Mechanism methodologies, and submits annual sustainability verification reports.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2143",
+    "source_doc": "MPOCC Green Technology Standards",
+    "source_url": "https://www.mpocc.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-12",
+    "masco_group": "2424",
+    "occupation_title": "Halal Industry Professional Certification Curriculum Designer",
+    "sector": "Halal Industry Training",
+    "text": "Develops modular professional certification curricula for halal slaughterhouse executives, halal laboratory analysts, and internal halal auditors. Writes competency-based assessment rubrics and instructional participant workbooks aligned with JAKIM guidelines.",
+    "skills": [
+      "instructional_design",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 2424",
+    "source_doc": "Halal Development Corporation (HDC) Training Standards",
+    "source_url": "https://www.hdcglobal.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-13",
+    "masco_group": "2424",
+    "occupation_title": "Occupational Health & Safety (OSH) Course Architect",
+    "sector": "Workplace Safety & Health",
+    "text": "Designs safety induction e-learning modules and hazard identification training workshops for chemical manufacturing plants in Pasir Gudang. Formulates scenario-based emergency evacuation drills, creates visual hazard identification checklists, and evaluates training retention.",
+    "skills": [
+      "instructional_design",
+      "process_mapping",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 2424",
+    "source_doc": "National Institute of Occupational Safety and Health (NIOSH) Curriculum Standards",
+    "source_url": "https://www.niosh.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-14",
+    "masco_group": "2424",
+    "occupation_title": "Cloud Engineering & DevOps Boot Camp Instructor",
+    "sector": "Technical ICT Education",
+    "text": "Authors hands-on laboratory exercises, Kubernetes configuration tutorials, and automated code evaluation autograders for graduate ICT boot camps in Cyberjaya. Designs weekly formative rubrics and evaluates student final cloud architecture projects.",
+    "skills": [
+      "instructional_design",
+      "python_scripting",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2424",
+    "source_doc": "MDEC Tech Talent Development Framework",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-15",
+    "masco_group": "2424",
+    "occupation_title": "Pharmaceutical GMP Compliance Training Specialist",
+    "sector": "Pharmaceutical Manufacturing",
+    "text": "Develops Good Manufacturing Practice (GMP) interactive training courseware for pharmaceutical formulation technicians. Creates visual SOP storyboards on cleanroom gowning and sterile filling protocols, and coordinates annual regulatory recertification exams.",
+    "skills": [
+      "instructional_design",
+      "human_in_the_loop_qa",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 2424",
+    "source_doc": "National Pharmaceutical Regulatory Agency (NPRA) GMP Guidelines",
+    "source_url": "https://www.npra.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-inst-16",
+    "masco_group": "2424",
+    "occupation_title": "Interactive Simulation & VR Training Designer",
+    "sector": "Immersive Education & Training",
+    "text": "Architects virtual reality flight simulator lesson plans and emergency ditching procedural simulations for offshore maritime helicopter crews. Authors branching interactive instructional decision trees, writes scenario scripts, and evaluates learner performance telemetry.",
+    "skills": [
+      "instructional_design",
+      "ai_literacy",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2424",
+    "source_doc": "Petronas Offshore Safety Training Standards",
+    "source_url": "https://www.petronas.com",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-11",
+    "masco_group": "2152",
+    "occupation_title": "Semiconductor Wafer Fab Process Integration Engineer",
+    "sector": "Semiconductor Fabrication",
+    "text": "Monitors photolithography critical dimension tolerances and chemical vapor deposition oxide thicknesses in 200mm silicon wafer fabrication lines in Kuching. Writes automated Python scripts to flag process drift, investigates yield fallout, and coordinates engineering change orders.",
+    "skills": [
+      "workflow_automation",
+      "python_scripting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2152",
+    "source_doc": "MIDA Semiconductor Ecosystem Blueprint",
+    "source_url": "https://www.mida.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-12",
+    "masco_group": "3114",
+    "occupation_title": "Leadframe Stamping & Automated Tooling Technician",
+    "sector": "Electronics Tooling",
+    "text": "Maintains high-speed automated progressive stamping presses producing copper leadframes for semiconductor IC packages. Calibrates optical sensor alignment, executes tool regrinding schedules, and documents tooling maintenance standard operating procedures.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 3114",
+    "source_doc": "Penang Skills Development Centre Tool & Die Standards",
+    "source_url": "https://www.psdc.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-13",
+    "masco_group": "2141",
+    "occupation_title": "Electronics Surface Mount Technology (SMT) Production Lead",
+    "sector": "Electronics Manufacturing",
+    "text": "Optimizes component placement speeds on automated Yamaha and Panasonic SMT pick-and-place lines in Ipoh. Programs feeder setup recipes, configures automated optical inspection (AOI) false-call rejection thresholds, and leads root-cause defect reduction circles.",
+    "skills": [
+      "workflow_automation",
+      "human_in_the_loop_qa",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 2141",
+    "source_doc": "FMM Perak Manufacturing Excellence Series",
+    "source_url": "https://www.fmm.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-14",
+    "masco_group": "3139",
+    "occupation_title": "Automated Guided Vehicle (AGV) Fleet Controller",
+    "sector": "Warehouse Robotics & Automation",
+    "text": "Configures fleet traffic routing algorithms, battery charging cycles, and laser navigation maps for 40 automated guided vehicles inside a cleanroom distribution hub. Troubleshoots fleet interlock alarms using automated monitoring software, and maintains maintenance logs.",
+    "skills": [
+      "workflow_automation",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 3139",
+    "source_doc": "Malaysia Robotics Society Industrial Automation Standards",
+    "source_url": "https://www.myras.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-semi-15",
+    "masco_group": "2152",
+    "occupation_title": "High-Power Semiconductor Module Packaging Engineer",
+    "sector": "Power Electronics",
+    "text": "Designs automated vacuum soldering and ultrasonic aluminium wire bonding routines for electric vehicle traction inverter IGBT power modules. Evaluates thermal cycle reliability data using Python, and builds manufacturing process control plans.",
+    "skills": [
+      "workflow_automation",
+      "python_scripting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2152",
+    "source_doc": "CREST E&E Advanced Engineering Consortium",
+    "source_url": "https://www.crest.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-11",
+    "masco_group": "4132",
+    "occupation_title": "Customs Declaration Document Verification Clerk",
+    "sector": "Freight Forwarding",
+    "text": "Reviews optical character recognition (OCR) extraction from commercial invoices and packing lists for Malaysian Customs online declaration systems. Verifies Harmonised System (HS) tariff codes, corrects tax rate exceptions, and submits electronic declarations.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 4132",
+    "source_doc": "Royal Malaysian Customs Department (JKDM) e-Permit Operating Guidelines",
+    "source_url": "https://www.customs.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-12",
+    "masco_group": "4222",
+    "occupation_title": "BPO Multi-Channel Support Quality Verification Agent",
+    "sector": "Customer Service Outsourcing",
+    "text": "Samples and scores email and chat support transcripts answered by junior customer service representatives and AI bot copilots. Rates empathy, problem resolution speed, and regulatory compliance, and updates representative coaching scorecards.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "stakeholder_communication",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 4222",
+    "source_doc": "CCAM BPO Quality Assurance Framework",
+    "source_url": "https://www.ccam.com.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-13",
+    "masco_group": "4311",
+    "occupation_title": "Vendor Statement Reconciliation & Payment Verification Clerk",
+    "sector": "Shared Services Accounting",
+    "text": "Reconciles monthly vendor statements against automated accounts payable ledgers across 15 regional subsidiaries in Cyberjaya. Identifies missing invoices, queries ERP database records using SQL, and communicates with vendors regarding credit adjustments.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "TalentCorp MyCOL & MASCO 4311",
+    "source_doc": "GBS Malaysia Finance Shared Services Manual",
+    "source_url": "https://www.gbsmalaysia.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-14",
+    "masco_group": "4413",
+    "occupation_title": "Property Land Title Digitization & Verification Specialist",
+    "sector": "Land Administration Support",
+    "text": "Audits digitized cadastral survey maps and registered land title deeds against original state land registry folios. Verifies lot boundary measurements, rectifies automated OCR indexing errors, and logs official land registry title validations.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 0.0,
+    "source": "TalentCorp MyCOL & MASCO 4413",
+    "source_doc": "Department of Survey and Mapping Malaysia (JUPEM) Land Records Guide",
+    "source_url": "https://www.jupem.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-cler-15",
+    "masco_group": "4131",
+    "occupation_title": "Medical Audio Transcription & Diagnostic Report Verifier",
+    "sector": "Healthcare Support",
+    "text": "Listens to physician dictations of radiological CT scans and MRI reports to verify automated speech-to-text transcriptions. Checks medical anatomical terminology, corrects drug dosages, and delivers verified diagnostic reports under patient safety guidelines.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 4131",
+    "source_doc": "Malaysian Medical Association Healthcare Documentation Standards",
+    "source_url": "https://www.mma.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-09",
+    "masco_group": "2412",
+    "occupation_title": "Digital Micro-Lending Portfolio Credit Risk Analyst",
+    "sector": "FinTech Lending",
+    "text": "Analyzes loan repayment defaults and early delinquency rates across digital lending products for gig economy workers. Writes SQL queries to segment customer risk bands, creates interactive credit vintage dashboards in Tableau, and models expected credit losses.",
+    "skills": [
+      "sql_data_analysis",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2412",
+    "source_doc": "FinTech Association of Malaysia Credit Risk Framework",
+    "source_url": "https://www.fintechmalaysia.org",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-10",
+    "masco_group": "2512",
+    "occupation_title": "Automated Financial Reconciliation Backend Engineer",
+    "sector": "Banking Technology",
+    "text": "Develops automated night-batch reconciliation microservices in Python matching thousands of ATM, DuitNow, and debit card transactions against central switch clearing files. Configures automated exception ticketing and writes reconciliation audit trails.",
+    "skills": [
+      "python_scripting",
+      "sql_data_analysis",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2512",
+    "source_doc": "PayNet Core Clearing Architecture Standards",
+    "source_url": "https://www.paynet.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-11",
+    "masco_group": "3312",
+    "occupation_title": "Digital Trade Finance Documentation Analyst",
+    "sector": "Commercial Banking",
+    "text": "Validates bills of lading, commercial invoices, and marine insurance certificates submitted electronically through digital trade finance platforms. Cross-checks vessel tracking APIs, reviews sanctions screening flags, and structures letters of credit under BNM guidelines.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "api_integration"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 3312",
+    "source_doc": "Asian Institute of Chartered Bankers Trade Finance Series",
+    "source_url": "https://www.aicb.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-12",
+    "masco_group": "2412",
+    "occupation_title": "Digital Insurance Telematics Data Analyst",
+    "sector": "InsurTech",
+    "text": "Processes connected-car GPS speed and braking telemetry to model usage-based motor insurance risk scores. Analyzes driving safety distributions using Python and SQL, and creates risk pricing visualizations for insurance underwriting actuaries.",
+    "skills": [
+      "python_scripting",
+      "sql_data_analysis",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2412",
+    "source_doc": "General Insurance Association of Malaysia Telematics Guidelines",
+    "source_url": "https://www.piam.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-fin-13",
+    "masco_group": "1346",
+    "occupation_title": "Branchless Banking Agent Network Operations Manager",
+    "sector": "Financial Inclusion",
+    "text": "Oversees digital agent banking networks operating in rural Sabah and Sarawak. Monitors daily POS terminal transaction volumes, audits cash float management procedures, and ensures compliance with Bank Negara Malaysia Agent Banking frameworks.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "TalentCorp MyCOL & MASCO 1346",
+    "source_doc": "Bank Negara Malaysia Agent Banking Policy Document",
+    "source_url": "https://www.bnm.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-31",
+    "masco_group": "2519",
+    "occupation_title": "Automated Customer Support Knowledge Retrieval Architect",
+    "sector": "Enterprise AI",
+    "text": "Builds hybrid retrieval-augmented generation search engines connecting enterprise confluence documentation with automated technical support chatbots. Implements BM25 sparse search and dense neural embeddings in Python, evaluates retrieval recall, and measures token latency.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2519",
+    "source_doc": "MDEC Artificial Intelligence Knowledge Standards",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-32",
+    "masco_group": "2519",
+    "occupation_title": "E-Commerce Product Search & Recommendation RAG Engineer",
+    "sector": "Retail Technology",
+    "text": "Constructs semantic vector retrieval systems indexing millions of retail product catalog descriptions. Optimizes vector similarity thresholds, tunes multi-modal embedding models, and evaluates search relevance NDCG scores against user purchase conversions.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2519",
+    "source_doc": "MDEC E-Commerce Digital Innovation Framework",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-33",
+    "masco_group": "2519",
+    "occupation_title": "Banking Policy Question-Answering RAG Specialist",
+    "sector": "Banking Technology",
+    "text": "Architects internal retrieval-augmented generation search applications for bank branch staff querying complex credit underwriting policies. Tunes vector chunking strategies, enforces strict citation provenance, and measures factual accuracy against bank policy ground truth.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2519",
+    "source_doc": "AICB Banking Technology Innovation Blueprint",
+    "source_url": "https://www.aicb.org.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-34",
+    "masco_group": "2519",
+    "occupation_title": "Patent Intelligence & Prior Art RAG Developer",
+    "sector": "Intellectual Property Tech",
+    "text": "Develops vector retrieval pipelines indexing Malaysian and international patent claim databases for IP attorneys. Formulates specialized patent chunking rules in Python, benchmarks cross-encoder rerankers, and evaluates document retrieval precision.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2519",
+    "source_doc": "MyIPO Intellectual Property Technology Guidelines",
+    "source_url": "https://www.myipo.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-35",
+    "masco_group": "2519",
+    "occupation_title": "Enterprise Prompt Template & System Persona Architect",
+    "sector": "Generative AI Systems",
+    "text": "Authors enterprise system prompts and structured XML prompt engineering templates for automated email drafting, meeting transcript summarization, and customer feedback classification. Benchmarks prompt accuracy across LLM versions and tests adversarial prompt defense.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2519",
+    "source_doc": "MDEC Generative AI Playbook 2024",
+    "source_url": "https://www.mdec.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-36",
+    "masco_group": "2519",
+    "occupation_title": "Customer Onboarding Dialogue & Prompt Optimization Lead",
+    "sector": "FinTech & AI",
+    "text": "Designs structured prompt engineering templates and multi-turn conversational guardrails for digital banking onboarding assistants. Evaluates intent classification consistency, minimizes hallucinated banking terms, and refines human escalation fallback rules.",
+    "skills": [
+      "prompt_engineering",
+      "stakeholder_communication",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2519",
+    "source_doc": "PayNet Conversational AI Guidelines",
+    "source_url": "https://www.paynet.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-37",
+    "masco_group": "2519",
+    "occupation_title": "Domain-Specific Translation & Localization Prompt Designer",
+    "sector": "Language Technology",
+    "text": "Optimizes prompt engineering templates for localized technical translation between Bahasa Malaysia and English. Constructs few-shot demonstration exemplars, evaluates domain terminology consistency, and conducts human-in-the-loop validation.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2519",
+    "source_doc": "Dewan Bahasa dan Pustaka Digital Terminology Standards",
+    "source_url": "https://www.dbp.gov.my",
+    "country": "Malaysia"
+  },
+  {
+    "id": "masco-raw-ai-38",
+    "masco_group": "2511",
+    "occupation_title": "Automated Workflow Prompt Integration Consultant",
+    "sector": "Business Consulting",
+    "text": "Designs structured chain-of-thought prompt templates to extract structured JSON entities from vendor invoices and transport waybills. Connects LLM APIs into enterprise workflow automation tools and trains accounting operations teams.",
+    "skills": [
+      "prompt_engineering",
+      "workflow_automation",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "TalentCorp MyCOL & MASCO 2511",
+    "source_doc": "PIKOM Business Technology Guide",
+    "source_url": "https://www.pikom.org.my",
+    "country": "Malaysia"
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "locale": "zh-CN",
+  "name": "简体中文",
+  "app": {
+    "title": "国家级AI劳动力技能重塑与前瞻预测引擎",
+    "subtitle": "马来西亚2026–2030智能劳动力战略与联合国可持续发展目标（SDG）对齐",
+    "version": "v1.0.0",
+    "badge_competition": "2026智慧国度AI挑战赛",
+    "disclaimer_legal": "官方决策支持引擎。严格遵守马来西亚《2010年个人数据保护法》（PDPA）。仅供建议参考——不执行自主雇佣与解聘决策。",
+    "footer": "© 2026 国家劳动力前瞻行动倡议。基于MASCO 2020、ILO 2025与联合国SDG框架。"
+  },
+  "nav": {
+    "overview": "系统总览",
+    "radar": "趋势雷达",
+    "matching": "职业匹配",
+    "gaps": "技能缺口诊断",
+    "pathway": "技能重塑路径",
+    "scenarios": "情景推演",
+    "sdg": "SDG影响力",
+    "replanning": "自适应重规划",
+    "employer": "雇主与HR情报",
+    "progress": "学习里程碑",
+    "governance": "负责任AI与伦理",
+    "methodology": "审计与方法论",
+    "low_bandwidth_toggle": "低带宽模式",
+    "language": "语言"
+  },
+  "common": {
+    "actions": {
+      "save": "保存方案",
+      "export_pdf": "导出摘要",
+      "export_json": "导出审计账本",
+      "acknowledge": "确认变更",
+      "dismiss": "关闭提醒",
+      "refresh": "刷新分析",
+      "view_details": "查看详细依据",
+      "filter": "筛选",
+      "reset": "重置筛选"
+    },
+    "labels": {
+      "role": "职业角色",
+      "current_role": "当前职业",
+      "target_role": "目标职业",
+      "masco_code": "MASCO代码",
+      "skills": "技能",
+      "match_score": "匹配得分",
+      "gap_severity": "缺口严重度",
+      "duration": "预计时长",
+      "hours": "小时",
+      "weeks": "周",
+      "points": "分",
+      "status": "状态",
+      "priority": "优先级",
+      "evidence": "核验凭证",
+      "timestamp": "时间戳",
+      "hash": "数字指纹",
+      "scenario": "宏观情景",
+      "privacy_status": "隐私保护"
+    },
+    "tiers": {
+      "core": "核心必修能力",
+      "important": "重要关键素养",
+      "supporting": "辅助支撑能力"
+    },
+    "materiality": {
+      "high": "高重要性（需人工确认）",
+      "material": "实质性变更（建议审核）",
+      "minor": "微幅优化（自动生效）",
+      "none": "无实质变更"
+    },
+    "progress_states": {
+      "not_started": "未开始",
+      "in_progress": "进行中",
+      "completed_self_reported": "已完成（自主申报）",
+      "completed_verified": "已完成（官方认证）",
+      "skill_evidence_updated": "凭证已更新"
+    }
+  },
+  "overview": {
+    "heading": "战略性劳动力前瞻预测体系架构",
+    "intro": "马来西亚国家劳动力前瞻引擎将职业分类标准（MASCO 2020）、长周期劳动力市场动态信号与宏观经济压力测试融为一体，生成个性化学习者路线图并提供保护隐私的企业级宏观聚合洞察。",
+    "kpi_roles": "目标覆盖职业",
+    "kpi_skills": "已验证技能项",
+    "kpi_scenarios": "宏观推演情景",
+    "kpi_sdg": "对齐SDG指标",
+    "architecture_title": "端到端模块化流水线",
+    "architecture_desc": "构建于6大核心引擎（M1–M6）与6大运营服务（O1–O6）之上，保持严密的密码学静态冻结、零人口统计特征泄露以及人在回路的主权把控。"
+  },
+  "radar": {
+    "heading": "长周期技能需求与演进速率雷达",
+    "description": "信号综合自招聘职位空缺、薪资溢价、前沿科研突破及国际劳工分类标准（ILO 2025）。",
+    "velocity_label": "年化需求演进速率",
+    "urgency_label": "战略紧缺度指数",
+    "quadrant_emerging": "高成长与战略前沿领域",
+    "quadrant_established": "高需求与基石核心领域",
+    "quadrant_specialized": "小众深度专业领域",
+    "quadrant_declining": "转型与可自动化领域"
+  },
+  "matching": {
+    "heading": "多准则职业路径智能匹配",
+    "description": "综合评估候选职业路径的技能重合度、职业轨迹可行性、宏观韧性及转型难度。",
+    "select_persona": "选择合成基准画像",
+    "top_recommendations": "首选推荐职业转型路径",
+    "fit_score": "职业相容性指数",
+    "viability": "转型可行性",
+    "growth_outlook": "五年需求前景展望",
+    "rationale": "匹配依据与多维度解构"
+  },
+  "gaps": {
+    "heading": "技能缺口深度诊断分析",
+    "description": "将目标职业要求细分为离散能力项，将缺口精准归入核心、重要与辅助层级。",
+    "core_gaps": "核心缺口（职业准入必修项）",
+    "important_gaps": "重要缺口（生产力提升关键项）",
+    "supporting_gaps": "辅助缺口（广泛通识补充项）",
+    "deficit_level": "能力缺口严重度"
+  },
+  "pathway": {
+    "heading": "个性化自主权技能重塑路径",
+    "description": "面向职场成人设计的前置依赖导向型课程体系，校准至每周5至8小时的可持续学习节奏。",
+    "total_hours": "累计教学总学时",
+    "calendar_weeks": "预计所需周数",
+    "milestones": "课程里程碑与模块序列",
+    "weekly_pacing": "建议学习强度（小时/周）",
+    "sovereignty_notice": "学习者自主权：您对学习次序与进度享有完全掌控权。智能推荐仅作为专业决策建议。"
+  },
+  "scenarios": {
+    "heading": "宏观经济情景压力推演",
+    "description": "模拟国家产业政策导向与全球外部冲击下的劳动力结构演变。",
+    "baseline": "基准政策预测（第十二大马计划）",
+    "green_economy": "绿色转型与净零加速（NETR 2030）",
+    "ai_automation": "AI繁荣与数字前沿普及（NIMP 2030）",
+    "supply_disruption": "区域供应链重组与重构",
+    "impact_factor": "情景乘数修正量"
+  },
+  "sdg": {
+    "heading": "联合国可持续发展目标（SDG）贡献测算",
+    "description": "将劳动力能力建设与转型路径精确映射至具体SDG指标项，并明确因果关联类型。",
+    "direct_contribution": "直接能力建设贡献",
+    "enabling_contribution": "支撑性基建与治理贡献",
+    "contextual_contribution": "背景环境对齐贡献",
+    "primary_goals": "核心对齐目标：体面工作（SDG 8）、产业创新（SDG 9）、优质教育（SDG 4）、气候行动（SDG 13）"
+  },
+  "replanning": {
+    "heading": "自适应重规划与变更治理体系",
+    "banner_title": "检测到劳动力市场信号更新",
+    "banner_desc": "自您上次确认方案以来，上游市场信号已发生显著变化。",
+    "candidate_plan": "建议候选新路径",
+    "active_plan": "当前生效活跃路径",
+    "change_summary": "变更解释与归因溯源",
+    "root_cause": "确认的触发诱因",
+    "acknowledge_prompt": "在将候选路线图提升为生效方案前，请务必审阅建议的调整内容。",
+    "audit_ledger": "重规划事件审计日志账本"
+  },
+  "employer": {
+    "heading": "雇主劳动力诊断与群体技能重塑",
+    "description": "企业级技能缺口情报，具备严格的k-匿名（k=5）小微单元格屏蔽保护，杜绝个体监视风险。",
+    "privacy_banner": "小微数据单元保护生效：所有少于5个档案的细分单元均被严格屏蔽（<5），防止反向推导攻破。",
+    "heatmap_title": "企业级核心能力缺口热力图",
+    "priority_index_title": "技能重塑优先级指数（PRI）",
+    "shared_learning_title": "最优跨团队群体协同集训组",
+    "disclaimer_hr": "HR伦理红线：宏观聚合规划指标严禁用于招聘、解雇、绩效评估或个人薪酬核定。"
+  },
+  "progress": {
+    "heading": "学习里程碑与技能凭证追踪",
+    "description": "追踪模块化学习进度，上传资质认证参考凭证，持续更新经核验的能力资产组合。",
+    "overall_completion": "路径整体完成度",
+    "verified_credentials": "已认证微凭证数量",
+    "evidence_badge": "认证真实性凭据",
+    "disclaimer_employment": "官方声明：完成培训模块仅代表学习投入与能力获取，不构成任何就业安置或薪资提升的自动化担保。"
+  },
+  "governance": {
+    "heading": "负责任AI架构与不变量审计",
+    "principles_title": "核心信任与安全准则",
+    "demographic_neutrality": "人口统计不变量：系统架构完全剔除性别、种族、宗教、年龄及残障信息。通过反事实不变量测试严格验证。",
+    "privacy_compliance": "隐私合规保障：全面符合马来西亚《2010年个人数据保护法》（PDPA）。采用合成画像测试基准，零真实个体记录暴露。",
+    "auditability": "密码学可审计性：每个引擎发布均由SHA-256防篡改清单严格锚定，具备不可篡改的溯源记录。"
+  },
+  "low_bandwidth": {
+    "active_badge": "低带宽轻量模式已开启",
+    "savings_summary": "数据传输已深度优化：通过精简矢量资源、压缩表格结构与轻量化排版降低约75%流量消耗。",
+    "standard_mode": "切换至完整富媒体模式",
+    "offline_ready": "超轻量数据结构，专为受限边缘网络环境设计。"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "module": "M3_EXPLAINABLE_FUTURE_ROLE_MATCHING_ENGINE",
+  "build_date": "2026-10-23",
+  "upstream_dependencies": {
+    "m1_skills_extraction": {
+      "model": "H_blend_0.70A_0.30C1_W1.0",
+      "status": "FROZEN",
+      "provenance": "Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward."
+    },
+    "m2_trend_intelligence": {
+      "version": "v1.1.1",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542"
+    },
+    "m6_scenario_engine": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+    }
+  },
+  "candidate_universe": {
+    "target_granularity": "FOUR_DIGIT_OCCUPATION",
+    "candidate_role_count": 20,
+    "excluded_fallback_count": 8
+  },
+  "artifacts_sha256": {
+    "data/matching/role_requirements_v1.json": "6655171dcad0295cc5f746c8720259f3ca0b09e90a2a0b5c1d2fa10783f67d55",
+    "data/matching/m3_scoring_config_v1.json": "19ef717267747202f8b8fdcb04d5c24f3acece60e1e7d25710550c28dd4df87d",
+    "data/matching/synthetic_personas_v1.json": "5095b8e8b0e60192d89862a1bd29e5b57cbb509e75fbfddf31efed7ea39ffc92",
+    "data/matching/m3_benchmark_results_v1.json": "1cbc8dbeee9c003345bffd9d8ad931088d5ba276e91d69502bb0a9d6da23f20f",
+    "src/role_matching_engine.py": "0eb4016eac632c1bc3f18dccd8404a203a786c359ea7a7396ecc12243ec9508e",
+    "scripts/build_role_requirements.py": "9b47e3a6b1c64c7c192f433ae8f014f1dd07dde9a33d187641ea3a4341699ad6",
+    "scripts/run_m3_benchmarks.py": "1f556bbf7b0a058ba9c83c10ceee4902bafd552636947d87da0d53caf3858b5e"
+  }
+}

@@ -1,0 +1,37 @@
+entity_type,entity_id,entity_name,base_outlook,perturbed_strict_outlook,flips_detected,stability_status,parameter_margin,notes
+skill,ai_literacy,Foundational AI Literacy & LLM Capabilities,STRONGLY RISING,STRONGLY RISING,0,STABLE,40.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,prompt_engineering,Structured Prompting & Context Engineering,RISING,RISING,0,STABLE,22.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,process_mapping,Business Process Mapping & SOP Design,STRONGLY RISING,STRONGLY RISING,0,STABLE,40.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,sql_data_analysis,SQL & Structured Data Analysis,STRONGLY RISING,STRONGLY RISING,0,STABLE,40.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,python_scripting,Python Scripting & Data Automation,STRONGLY RISING,STRONGLY RISING,0,STABLE,22.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,data_visualization,Data Visualization & KPI Storytelling,STRONGLY RISING,STRONGLY RISING,0,STABLE,28.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,workflow_automation,Agentic Workflow Orchestration & Tool Integration,STRONGLY RISING,STRONGLY RISING,0,STABLE,22.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,human_in_the_loop_qa,Human-in-the-Loop Evaluation & AI Testing,STRONGLY RISING,STRONGLY RISING,0,STABLE,40.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,rag_knowledge_systems,Retrieval-Augmented Generation (RAG) & Citation Grounding,RISING,RISING,0,STABLE,16.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,api_integration,REST API Integration & Resilient Fallbacks,STRONGLY RISING,STRONGLY RISING,0,STABLE,22.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,ai_ethics_governance,"AI Ethics, Fairness Auditing & Governance",STRONGLY RISING,STRONGLY RISING,0,STABLE,22.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,data_privacy_pdpa,Data Privacy & Malaysian PDPA Compliance,STRONGLY RISING,RISING,0,STABLE,16.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,esg_sustainability_reporting,ESG Frameworks & UN SDG Impact Mapping,STRONGLY RISING,STRONGLY RISING,0,STABLE,28.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,carbon_footprint_analytics,Carbon-Aware Compute & Resource Telemetry,STRONGLY RISING,STRONGLY RISING,0,STABLE,22.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,stakeholder_communication,Human-Centred Change & Stakeholder Communication,RISING,RISING,0,STABLE,28.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+skill,instructional_design,Competency Matrix & Reskilling Curriculum Design,RISING,RISING,0,STABLE,5.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2512,Software Developers,STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2511,Systems Analysts,STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2521,Database Designers & Administrators,STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2529,Database & Network Professionals NEC (AI & Data Science Specialists),STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2519,Software & Applications Developers & Analysts NEC (Cloud & Full-Stack),STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2522,Systems Administrators & Cloud Infrastructure Engineers,STABLE,STABLE,0,STABLE,5.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2411,Accountants & Financial Auditors,STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2421,Management & Organization Analysts (Transformation Consultants),STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2422,Policy & Corporate Planning Professionals (Governance Specialists),STABLE,STABLE,0,STABLE,5.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2151,Electrical Engineers,STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2152,Electronic Engineers (Semiconductor IC Design Specialists),STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2143,Environmental Engineers & Sustainability Specialists,STRONGLY RISING,STRONGLY RISING,0,STABLE,28.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2424,Training & Staff Development Professionals (Reskilling Architects),STABLE,STABLE,0,STABLE,5.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,2166,Graphic & Multimedia Designers (UI-UX & Visual Designers),STABLE,STABLE,0,STABLE,5.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,1330,Information & Communications Technology Services Managers,STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,3514,Web Technicians & Cloud Application Operators,STABLE,STABLE,0,STABLE,5.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,3322,Commercial Sales Representatives,STRONGLY RISING,RISING,0,STABLE,15.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,4311,Accounting and Bookkeeping Clerks,STRONGLY DECLINING,STRONGLY DECLINING,0,STABLE,35.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,4110,General Office Clerks,STRONGLY DECLINING,STRONGLY DECLINING,0,STABLE,35.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.
+occupation,3343,Administrative & Executive Secretaries,MIXED / UNCERTAIN,STABLE,0,STABLE,35.0,Maintains outlook across +/-20% weight and +/-5 point threshold shifts.

@@ -1,0 +1,460 @@
+[
+  {
+    "id": "esco-raw-01",
+    "masco_group": "2512",
+    "occupation_title": "Software Developer (Enterprise Python & Microservices)",
+    "sector": "Information Technology",
+    "text": "Develops, tests, and deploys scalable backend software microservices using Python and containerized environments. Designs RESTful APIs, implements relational database integration with SQL, and automates CI/CD deployment pipelines.",
+    "skills": [
+      "python_scripting",
+      "api_integration",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2512",
+    "source_doc": "ESCO v1.2 Occupation: Software Developer (ISCO 2512)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-02",
+    "masco_group": "2519",
+    "occupation_title": "Machine Learning & RAG Knowledge Engineer",
+    "sector": "Artificial Intelligence",
+    "text": "Architects retrieval-augmented generation systems and vector database search pipelines. Implements dense embedding models, evaluates context retrieval accuracy, and optimizes neural language model prompt templates for enterprise knowledge management.",
+    "skills": [
+      "rag_knowledge_systems",
+      "prompt_engineering",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2519",
+    "source_doc": "ESCO v1.2 Occupation: Artificial Intelligence Engineer (ISCO 2519)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-03",
+    "masco_group": "2421",
+    "occupation_title": "Business Process Mapping & Continuous Improvement Consultant",
+    "sector": "Business Operations",
+    "text": "Maps enterprise business workflows, conducts gap analyses, and develops standard operating procedures using BPMN diagrams. Identifies operational bottlenecks, calculates process efficiency cycle-times, and facilitates cross-departmental stakeholder reviews.",
+    "skills": [
+      "process_mapping",
+      "stakeholder_communication",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2421",
+    "source_doc": "ESCO v1.2 Occupation: Business Analyst (ISCO 2421)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-04",
+    "masco_group": "2133",
+    "occupation_title": "Carbon Accounting & Environmental Sustainability Specialist",
+    "sector": "Environmental Sciences",
+    "text": "Quantifies organizational carbon footprints, greenhouse gas inventories, and resource consumption across corporate facilities. Compiles sustainability disclosure statements, monitors compliance with ISO 14064 standards, and designs emissions reduction pathways.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2133",
+    "source_doc": "ESCO v1.2 Occupation: Environmental Sustainability Officer (ISCO 2133)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-05",
+    "masco_group": "2424",
+    "occupation_title": "Instructional Systems Designer & Adult Learning Specialist",
+    "sector": "Education & Training",
+    "text": "Analyzes training needs, formulates competency-based learning objectives, and designs interactive courseware for professional workforce development. Develops formative assessment rubrics, scripts multimedia e-learning modules, and evaluates learning outcome gains.",
+    "skills": [
+      "instructional_design",
+      "stakeholder_communication",
+      "ai_literacy"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2424",
+    "source_doc": "ESCO v1.2 Occupation: Instructional Designer (ISCO 2424)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-06",
+    "masco_group": "2152",
+    "occupation_title": "Industrial Robotics & Automated Systems Engineer",
+    "sector": "Engineering & Automation",
+    "text": "Programs automated robotic arms, vision inspection systems, and programmable logic controllers (PLCs) on precision manufacturing assembly lines. Develops automated testing scripts in Python, optimizes robot motion paths, and documents standard operating procedures.",
+    "skills": [
+      "workflow_automation",
+      "python_scripting",
+      "process_mapping"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2152",
+    "source_doc": "ESCO v1.2 Occupation: Industrial Automation Engineer (ISCO 2152)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-07",
+    "masco_group": "4132",
+    "occupation_title": "Data Verification & Human-in-the-Loop QA Specialist",
+    "sector": "Data Services",
+    "text": "Validates automated machine learning and OCR text extraction outputs from scanned invoices, receipts, and administrative records. Audits low-confidence extraction flags, corrects character misrecognitions, and provides feedback to machine learning engineering teams.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 4132",
+    "source_doc": "ESCO v1.2 Occupation: Data Entry and Verification Clerk (ISCO 4132)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-08",
+    "masco_group": "2412",
+    "occupation_title": "Sustainable Finance & ESG Investment Analyst",
+    "sector": "Financial Services",
+    "text": "Analyzes corporate ESG disclosures, greenhouse gas reduction targets, and regulatory sustainability compliance reports for institutional investment portfolios. Queries financial and ESG data warehouses with SQL, and prepares executive risk presentations.",
+    "skills": [
+      "esg_sustainability_reporting",
+      "sql_data_analysis",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2412",
+    "source_doc": "ESCO v1.2 Occupation: Financial Analyst (ISCO 2412)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-09",
+    "masco_group": "2519",
+    "occupation_title": "Conversational AI Prompt Engineer & Dialog Designer",
+    "sector": "Digital Media & AI",
+    "text": "Creates, tests, and evaluates prompt engineering prompts for conversational AI assistants. Designs multi-turn dialogue trees, evaluates model responses for accuracy and ethical tone, and maintains few-shot prompt libraries.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2519",
+    "source_doc": "ESCO v1.2 Crosswalked AI Competency Standard",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-10",
+    "masco_group": "2422",
+    "occupation_title": "Data Protection & Privacy Compliance Officer",
+    "sector": "Legal & Compliance",
+    "text": "Oversees corporate compliance with data protection and privacy regulations. Conducts privacy impact assessments, establishes data processing records, audits vendor security contracts, and manages data breach notification procedures.",
+    "skills": [
+      "data_privacy_pdpa",
+      "ai_ethics_governance",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2422",
+    "source_doc": "ESCO v1.2 Occupation: Data Protection Officer (ISCO 2422)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-11",
+    "masco_group": "2521",
+    "occupation_title": "Database Architect & SQL Performance Specialist",
+    "sector": "Database Management",
+    "text": "Designs normalized and star-schema relational databases, writes complex SQL analytical queries, and tunes indexing strategies for high-throughput enterprise transactions. Builds automated database backup routines and monitors query execution plans.",
+    "skills": [
+      "sql_data_analysis",
+      "workflow_automation",
+      "python_scripting"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2521",
+    "source_doc": "ESCO v1.2 Occupation: Database Designer (ISCO 2521)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-12",
+    "masco_group": "2519",
+    "occupation_title": "AI Ethics & Algorithmic Accountability Specialist",
+    "sector": "Technology Ethics",
+    "text": "Evaluates commercial artificial intelligence deployments for demographic parity, transparency, and regulatory compliance. Audits automated decision systems for potential bias, establishes risk registries, and authors governance reports.",
+    "skills": [
+      "ai_ethics_governance",
+      "ai_literacy",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2519",
+    "source_doc": "ESCO v1.2 Occupation: Technology Compliance Specialist (ISCO 2519)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-13",
+    "masco_group": "2519",
+    "occupation_title": "Enterprise Semantic Search Developer",
+    "sector": "Information Systems",
+    "text": "Builds document indexing and retrieval-augmented systems over technical support knowledge bases using vector embeddings and Python APIs. Measures retrieval recall and configures hybrid keyword-semantic search algorithms.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2519",
+    "source_doc": "ESCO v1.2 Information Systems Specialist (ISCO 2519)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-14",
+    "masco_group": "2424",
+    "occupation_title": "Blended Learning & Instructional Courseware Designer",
+    "sector": "Educational Technology",
+    "text": "Develops interactive online learning modules and virtual classroom instructional materials for corporate compliance and technical certifications. Implements formative quizzes, scenario-based learning exercises, and assessment analytics.",
+    "skills": [
+      "instructional_design",
+      "data_visualization",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2424",
+    "source_doc": "ESCO v1.2 Training Methodology Specialist (ISCO 2424)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-15",
+    "masco_group": "2133",
+    "occupation_title": "Product Life Cycle Carbon Footprint Analyst",
+    "sector": "Clean Technology",
+    "text": "Calculates cradle-to-grave product carbon footprints across consumer electronics and industrial packaging products according to ISO 14044 life cycle assessment standards. Models material emissions factors and presents decarbonisation options.",
+    "skills": [
+      "carbon_footprint_analytics",
+      "esg_sustainability_reporting",
+      "data_visualization"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2133",
+    "source_doc": "ESCO v1.2 Life Cycle Assessment Specialist (ISCO 2133)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-16",
+    "masco_group": "2512",
+    "occupation_title": "Cloud API Integration & Middleware Engineer",
+    "sector": "Cloud Software",
+    "text": "Develops REST and GraphQL integration adapters connecting enterprise CRM, payment gateways, and billing databases. Writes asynchronous message queues in Python, configures API rate limiting, and monitors service health.",
+    "skills": [
+      "api_integration",
+      "python_scripting",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2512",
+    "source_doc": "ESCO v1.2 Systems Integration Specialist (ISCO 2512)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-17",
+    "masco_group": "2421",
+    "occupation_title": "Operational Workflow Mapping Specialist",
+    "sector": "Corporate Operations",
+    "text": "Documents administrative and accounting workflow chains across business subsidiaries. Creates standard operating procedure manuals, visual swimlane process maps, and establishes continuous improvement metrics.",
+    "skills": [
+      "process_mapping",
+      "workflow_automation",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2421",
+    "source_doc": "ESCO v1.2 Organization Analyst (ISCO 2421)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-18",
+    "masco_group": "4132",
+    "occupation_title": "Medical Document Coding & Verification Associate",
+    "sector": "Health Records",
+    "text": "Verifies diagnostic coding assignments generated from electronic health record summaries. Reviews clinical narratives for coding accuracy, corrects ambiguous procedure entries, and ensures compliance with clinical coding protocols.",
+    "skills": [
+      "human_in_the_loop_qa",
+      "process_mapping",
+      "data_privacy_pdpa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 4132",
+    "source_doc": "ESCO v1.2 Medical Records Clerk (ISCO 4132)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-19",
+    "masco_group": "2519",
+    "occupation_title": "Generative Prompt Optimization Engineer",
+    "sector": "Applied AI",
+    "text": "Creates systematic prompt templates and evaluation test suites for customer self-service language models. Tests edge-case queries, evaluates automated summarization faithfulness, and builds structured prompt catalogs.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2519",
+    "source_doc": "ESCO v1.2 Natural Language Technology Specialist (ISCO 2519)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-20",
+    "masco_group": "2141",
+    "occupation_title": "Quality Control Process Engineer",
+    "sector": "Manufacturing Quality",
+    "text": "Audits production standard operating procedures and quality inspection stations in automotive manufacturing. Creates process flowcharts, designs inspection checklists, and implements statistical process control charts.",
+    "skills": [
+      "process_mapping",
+      "data_visualization",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2141",
+    "source_doc": "ESCO v1.2 Quality Assurance Engineer (ISCO 2141)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-21",
+    "masco_group": "2512",
+    "occupation_title": "Automated ETL & Data Integration Engineer",
+    "sector": "Data Management",
+    "text": "Builds automated data ingestion workflows in Python to extract records from enterprise relational databases and external cloud APIs. Schedules batch data transformation pipelines and manages schema migrations.",
+    "skills": [
+      "python_scripting",
+      "sql_data_analysis",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2512",
+    "source_doc": "ESCO v1.2 Data Integration Developer (ISCO 2512)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-22",
+    "masco_group": "2412",
+    "occupation_title": "Quantitative Investment & Risk Analytics Specialist",
+    "sector": "Asset Management",
+    "text": "Develops financial risk algorithms and quantitative investment valuation models using SQL and Python. Compiles portfolio stress-testing reports and presents risk metrics to investment committees.",
+    "skills": [
+      "sql_data_analysis",
+      "python_scripting",
+      "stakeholder_communication"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2412",
+    "source_doc": "ESCO v1.2 Quantitative Analyst (ISCO 2412)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-23",
+    "masco_group": "2519",
+    "occupation_title": "Vector Indexing & RAG Retrieval Specialist",
+    "sector": "Computer Science",
+    "text": "Configures semantic embedding models and vector indexing systems for technical document retrieval in enterprise search applications. Implements BM25 hybrid ranking algorithms and monitors query response latency.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "sql_data_analysis"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2519",
+    "source_doc": "ESCO v1.2 Search Engine Specialist (ISCO 2519)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-24",
+    "masco_group": "2424",
+    "occupation_title": "Technical Training & e-Learning Content Developer",
+    "sector": "Technical Education",
+    "text": "Designs interactive technical training manuals and e-learning simulations for industrial machinery operators. Writes clear operating procedures, develops assessment checklists, and evaluates operator technical competence.",
+    "skills": [
+      "instructional_design",
+      "process_mapping",
+      "workflow_automation"
+    ],
+    "is_emerging_demand": 0.5,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2424",
+    "source_doc": "ESCO v1.2 Technical Training Developer (ISCO 2424)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-25",
+    "masco_group": "2519",
+    "occupation_title": "Enterprise Prompt Engineering & Evaluation Specialist",
+    "sector": "Applied AI",
+    "text": "Constructs formal prompt engineering evaluation benchmarks for customer interaction agents. Designs test suites measuring output hallucinations, validates XML formatting tags, and tracks prompt token efficiency.",
+    "skills": [
+      "prompt_engineering",
+      "ai_literacy",
+      "human_in_the_loop_qa"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2519",
+    "source_doc": "ESCO v1.2 Natural Language Processing Specialist (ISCO 2519)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-26",
+    "masco_group": "2519",
+    "occupation_title": "Document Intelligence & Vector Retrieval Specialist",
+    "sector": "Information Systems",
+    "text": "Builds automated PDF indexing pipelines connecting document parsers with dense vector databases. Implements retrieval-augmented generation search over regulatory manuals and evaluates retrieval recall.",
+    "skills": [
+      "rag_knowledge_systems",
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "European Skills, Competences, Qualifications and Occupations (ESCO v1.2) - ISCO 2519",
+    "source_doc": "ESCO v1.2 Document Systems Specialist (ISCO 2519)",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  },
+  {
+    "id": "esco-raw-dup-01",
+    "masco_group": "2512",
+    "occupation_title": "Software Developer Duplicate",
+    "sector": "Information Technology",
+    "text": "Develops, tests, and deploys scalable backend software microservices using Python and containerized environments. Designs RESTful APIs, implements relational database integration with SQL, and automates CI/CD deployment pipelines.",
+    "skills": [
+      "python_scripting",
+      "api_integration"
+    ],
+    "is_emerging_demand": 1.0,
+    "source": "ESCO v1.2 Duplicate",
+    "source_doc": "Duplicate Record",
+    "source_url": "https://esco.ec.europa.eu",
+    "country": "International / EU"
+  }
+]

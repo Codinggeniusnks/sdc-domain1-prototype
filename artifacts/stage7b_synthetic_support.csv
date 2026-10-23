@@ -1,0 +1,5 @@
+setting,synthetic_ratio,total_records,real_gold_records,synthetic_records,classes_with_ge_1_positive,classes_with_ge_3_positives,classes_with_zero_gold_positives,mean_macro_f1,std_macro_f1,min_fold_f1,max_fold_f1
+S0_0pct_synth,0.0,98,98,0,16,16,0,0.2898,0.0507,0.2371,0.3588
+S1_25pct_synth,0.25,187,98,89,16,16,0,0.5347,0.0302,0.4875,0.5748
+S2_50pct_synth,0.5,263,98,165,16,16,0,0.601,0.0458,0.5196,0.6607
+S3_100pct_synth,1.0,348,98,250,16,16,0,0.653,0.0577,0.5506,0.7159

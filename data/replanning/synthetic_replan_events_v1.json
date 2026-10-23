@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "benchmark_id": "BM01_IDENTICAL_STATE",
+      "event_id": "EVT_BM01_IDENTICAL",
+      "trigger_type": "MANUAL_REPLAN_REQUESTED",
+      "description": "Re-evaluation request with identical inputs and outputs",
+      "timestamp": "2026-10-24T05:00:00Z",
+      "expected_materiality": "NONE",
+      "expected_status": "CURRENT_ACCEPTED"
+    },
+    {
+      "benchmark_id": "BM02_MINOR_M2_CHANGE",
+      "event_id": "EVT_BM02_MINOR_M2",
+      "trigger_type": "M2_TREND_SNAPSHOT_UPDATED",
+      "m2_snapshot_id": "M2_SNAP_MINOR_2026Q2",
+      "description": "Minor trend score shift without occupational rank changes",
+      "timestamp": "2026-10-24T05:01:00Z",
+      "expected_materiality": "MINOR",
+      "expected_status": "CURRENT_ACCEPTED"
+    },
+    {
+      "benchmark_id": "BM03_TOP_ROLE_CHANGE",
+      "event_id": "EVT_BM03_TOP_ROLE",
+      "trigger_type": "M2_TREND_SNAPSHOT_UPDATED",
+      "m2_snapshot_id": "M2_SNAP_MATERIAL_2026Q3",
+      "description": "Substantial trend shift causing top recommended role re-ranking",
+      "timestamp": "2026-10-24T05:02:00Z",
+      "expected_materiality": "HIGH_MATERIALITY",
+      "expected_status": "CANDIDATE_REQUIRES_ACKNOWLEDGEMENT"
+    },
+    {
+      "benchmark_id": "BM04_CORE_GAP_ADDED",
+      "event_id": "EVT_BM04_CORE_ADDED",
+      "trigger_type": "PROFILE_SKILL_STATE_UPDATED",
+      "description": "Learner capability profile update introducing a new missing CORE skill gap",
+      "timestamp": "2026-10-24T05:03:00Z",
+      "expected_materiality": "HIGH_MATERIALITY",
+      "expected_status": "CANDIDATE_REQUIRES_ACKNOWLEDGEMENT"
+    },
+    {
+      "benchmark_id": "BM05_CORE_GAP_RESOLVED",
+      "event_id": "EVT_BM05_CORE_RESOLVED",
+      "trigger_type": "PROFILE_SKILL_STATE_UPDATED",
+      "description": "Learner completes and verifies a previously missing CORE skill gap",
+      "timestamp": "2026-10-24T05:04:00Z",
+      "expected_materiality": "HIGH_MATERIALITY",
+      "expected_status": "CANDIDATE_REQUIRES_ACKNOWLEDGEMENT"
+    },
+    {
+      "benchmark_id": "BM06_IMPORTANT_GAP_CHANGE",
+      "event_id": "EVT_BM06_IMP_GAP",
+      "trigger_type": "PROFILE_SKILL_STATE_UPDATED",
+      "description": "Change in IMPORTANT skill gaps without altering CORE gaps or top role",
+      "timestamp": "2026-10-24T05:05:00Z",
+      "expected_materiality": "MATERIAL",
+      "expected_status": "CANDIDATE_REQUIRES_ACKNOWLEDGEMENT"
+    },
+    {
+      "benchmark_id": "BM07_PATHWAY_ORDER_CHANGE",
+      "event_id": "EVT_BM07_PATHWAY_ORDER",
+      "trigger_type": "PROFILE_SKILL_STATE_UPDATED",
+      "description": "Reordering of recommended learning pathway steps due to prerequisite sequencing",
+      "timestamp": "2026-10-24T05:06:00Z",
+      "expected_materiality": "MATERIAL",
+      "expected_status": "CANDIDATE_REQUIRES_ACKNOWLEDGEMENT"
+    },
+    {
+      "benchmark_id": "BM08_SCENARIO_CHANGE",
+      "event_id": "EVT_BM08_SCENARIO",
+      "trigger_type": "M6_SCENARIO_CHANGED",
+      "scenario_id": "FAST_AGENTIC",
+      "description": "Macroeconomic scenario changed from REFERENCE_2026 to FAST_AGENTIC",
+      "timestamp": "2026-10-24T05:07:00Z",
+      "expected_materiality": "MATERIAL",
+      "expected_status": "CANDIDATE_REQUIRES_ACKNOWLEDGEMENT"
+    },
+    {
+      "benchmark_id": "BM09_DUPLICATE_EVENT",
+      "event_id": "EVT_BM09_DUPLICATE",
+      "trigger_type": "MANUAL_REPLAN_REQUESTED",
+      "description": "Re-submission of an identical event ID previously processed",
+      "timestamp": "2026-10-24T05:08:00Z",
+      "expected_status": "DUPLICATE_EVENT"
+    },
+    {
+      "benchmark_id": "BM10_STALE_EVENT",
+      "event_id": "EVT_BM10_STALE",
+      "trigger_type": "MANUAL_REPLAN_REQUESTED",
+      "description": "Event with timestamp older than current accepted state snapshot",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "expected_status": "STALE_EVENT"
+    },
+    {
+      "benchmark_id": "BM11_UNSUPPORTED_VERSION",
+      "event_id": "EVT_BM11_UNSUPPORTED",
+      "trigger_type": "M2_TREND_SNAPSHOT_UPDATED",
+      "source_versions": {
+        "M2": "2.0.0"
+      },
+      "description": "Event referencing an uncertified upstream engine version",
+      "timestamp": "2026-10-24T05:09:00Z",
+      "expected_status": "UNSUPPORTED_UPSTREAM_VERSION"
+    },
+    {
+      "benchmark_id": "BM12_SMALL_CELL_4_TO_5",
+      "event_id": "EVT_BM12_CELL_4_TO_5",
+      "trigger_type": "COHORT_SNAPSHOT_UPDATED",
+      "description": "Workforce cohort update where gapped profile count crosses from 4 to 5",
+      "timestamp": "2026-10-24T05:10:00Z",
+      "expected_safe_string": "Previously suppressed; now above reporting threshold."
+    },
+    {
+      "benchmark_id": "BM13_SMALL_CELL_5_TO_4",
+      "event_id": "EVT_BM13_CELL_5_TO_4",
+      "trigger_type": "COHORT_SNAPSHOT_UPDATED",
+      "description": "Workforce cohort update where gapped profile count crosses from 5 to 4",
+      "timestamp": "2026-10-24T05:11:00Z",
+      "expected_safe_string": "Previously reportable; now below reporting threshold."
+    },
+    {
+      "benchmark_id": "BM14_SUPPRESSED_TO_SUPPRESSED",
+      "event_id": "EVT_BM14_CELL_SUPP_TO_SUPP",
+      "trigger_type": "COHORT_SNAPSHOT_UPDATED",
+      "description": "Workforce cohort update where count changes between two small numbers (2 to 3)",
+      "timestamp": "2026-10-24T05:12:00Z",
+      "expected_safe_string": "SUPPRESSED → SUPPRESSED"
+    }
+  ]
+}

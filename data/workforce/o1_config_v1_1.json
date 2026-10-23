@@ -1,0 +1,93 @@
+{
+  "version": "1.1.0",
+  "engine_name": "O1 Employer Workforce Gap & Cohort Reskilling Engine",
+  "framework": "Deterministic Multi-Criteria Workforce Capability Planning",
+  "description": "Enterprise workforce planning layer for cohort skill gap analysis, transition pressure evaluation, and aggregate reskilling prioritisation with hardened small-cell privacy safeguards.",
+  "status": "REMEDIATED_CANDIDATE",
+  "reference_date": "2026-10-24",
+  "core_first_semantics": "CORE_WEIGHTED_PREFERENCE",
+  "pinned_dependencies": {
+    "m1_skills_extraction": "H_blend_0.70A_0.30C1_W1.0",
+    "m2_trend_intelligence": "1.1.1",
+    "m6_scenario_engine": "1.1.0",
+    "m3_role_matching": "1.1.0",
+    "m4_reskilling_pathways": "1.1.0",
+    "m5_sdg_impact_mapping": "1.1.0",
+    "o6_sdg_aggregation": "1.1.0"
+  },
+  "priority_weights": {
+    "core_gap_prevalence": 0.4117647059,
+    "important_gap_prevalence": 0.2352941176,
+    "average_deficit": 0.0,
+    "cross_role_transferability": 0.1764705882,
+    "scenario_urgency": 0.1176470588,
+    "prerequisite_centrality": 0.0588235294
+  },
+  "deficit_signal_metadata": {
+    "deficit_signal_status": "BINARY_NON_DISCRIMINATING",
+    "deficit_used_for_ranking": false,
+    "deficit_diagnostic_only": true,
+    "deficit_explanation": "All 284 non-zero deficits in the frozen synthetic workforce are 1.0000 (std=0.0) due to binary confirmed skill representation. To prevent uninformative constant offsets while preserving relative policy ratios, average_deficit ranking weight is set to 0.0 in O1 v1.1.0 while remaining a descriptive diagnostic."
+  },
+  "core_first_policy": {
+    "core_first_semantics": "CORE_WEIGHTED_PREFERENCE",
+    "core_first_description": "CORE gaps receive the largest single prevalence weight (0.4118), establishing a strong weighted preference; however, widespread IMPORTANT gaps with high transferability and scenario urgency can legitimately outrank rare CORE gaps in cohort-level resource allocation."
+  },
+  "privacy_safeguards": {
+    "minimum_cohort_threshold": 5,
+    "small_cell_threshold": 5,
+    "small_cell_display_label": "SUPPRESSED_SMALL_COHORT",
+    "mask_exact_counts_on_suppressed": true,
+    "complementary_suppression_enabled": true,
+    "cross_query_differencing_protection": "PARTIAL",
+    "differential_privacy_claimed": false,
+    "small_cell_reconstruction_protection": true
+  },
+  "governance_safeguards": {
+    "protected_attributes_used": false,
+    "demographic_fairness_evaluated": false,
+    "employee_ranking_prohibited": true,
+    "performance_scoring_prohibited": true,
+    "hr_decision_use_prohibited": true,
+    "raw_cv_exposure_prohibited": true,
+    "corporate_sdg_impact_scoring_prohibited": true,
+    "disparate_impact_claims_prohibited": true,
+    "prohibited_uses": [
+      "HIRING_DECISIONS",
+      "TERMINATION_DECISIONS",
+      "PROMOTION_DECISIONS",
+      "COMPENSATION_DECISIONS",
+      "DISCIPLINARY_DECISIONS",
+      "INDIVIDUAL_PERFORMANCE_SCORING",
+      "WORKER_SURVEILLANCE"
+    ]
+  },
+  "scenarios_supported": [
+    "REFERENCE_2026",
+    "MODERATE_COPILOT",
+    "FAST_AGENTIC"
+  ],
+  "roadmap_phases": [
+    {
+      "phase_id": 1,
+      "title": "Foundation & High-Prevalence Skill Deficits",
+      "focus": "Addressing prerequisite bottlenecks and widespread cross-cutting capabilities.",
+      "estimated_horizon_weeks": [4, 8]
+    },
+    {
+      "phase_id": 2,
+      "title": "Core Role Capability Bridging",
+      "focus": "Closing role-specific CORE competency gaps for planned career transitions.",
+      "estimated_horizon_weeks": [8, 16]
+    },
+    {
+      "phase_id": 3,
+      "title": "Advanced Specialisation & Scenario Readiness",
+      "focus": "Developing advanced AI integration and future-scenario resilient capabilities.",
+      "estimated_horizon_weeks": [12, 24]
+    }
+  ],
+  "data_classification": "SYNTHETIC_DEMO",
+  "representativeness_disclaimer": "Synthetic demonstration workforce cohort for algorithmic validation and prototype evaluation. Cohort gap metrics reflect capability deficits against target MASCO occupational profiles based on verified worker competencies. They do not constitute performance ratings or job termination advice.",
+  "semantics_notice": "Workforce Reskilling Priority Index is a deterministic capability planning metric [0-100] reflecting prevalence, cross-role leverage, and scenario foresight. Not a probability, individual performance rating, or worker risk score."
+}

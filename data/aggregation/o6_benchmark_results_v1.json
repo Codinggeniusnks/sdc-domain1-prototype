@@ -1,0 +1,113 @@
+{
+  "engine_name": "O6 SDG Contribution Aggregation Engine",
+  "version": "1.0.0",
+  "timestamp": "2026-10-23T17:50:13.554309Z",
+  "total_benchmarks": 8,
+  "passed_count": 8,
+  "all_passed": true,
+  "benchmarks": [
+    {
+      "benchmark_id": "BM01_SINGLE_INDIVIDUAL_ALIGNMENT",
+      "description": "Validation of descriptive individual alignment metrics without personal SDG scores or employee ranking",
+      "profile_id": "SYN_PROF_001",
+      "aligned_sdgs": [
+        8,
+        9
+      ],
+      "aligned_sdg_count": 2,
+      "direct_mappings": 0,
+      "enabling_mappings": 9,
+      "contextual_mappings": 0,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM02_MULTI_SKILL_INDIVIDUAL_DEDUPLICATION",
+      "description": "Validation that a profile holding multiple skills mapping to the same SDG counts the SDG exactly once",
+      "profile_id": "SYN_PROF_001",
+      "unique_sdg_count": 2,
+      "duplicate_sdg_detected": false,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM03_COHORT_ABOVE_PRIVACY_THRESHOLD",
+      "description": "Validation of full statistical aggregation for cohort meeting privacy threshold (N=16 >= 5)",
+      "cohort_id": "DIGITAL_SERVICES",
+      "eligible_count": 16,
+      "suppressed": false,
+      "sdg_8_prevalence_pct": 100.0,
+      "sdg_9_prevalence_pct": 81.25,
+      "mapping_shares": {
+        "direct": 0.0,
+        "enabling": 0.9333,
+        "contextual": 0.0667
+      },
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM04_COHORT_BELOW_PRIVACY_THRESHOLD",
+      "description": "Validation of complete statistical suppression for small cohorts (N=4 < 5) to prevent disclosure",
+      "cohort_id": "SMALL_TEST_GROUP",
+      "eligible_count": 4,
+      "suppressed": true,
+      "suppression_reason": "SUPPRESSED_SMALL_COHORT",
+      "distributions_suppressed": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM05_MIXED_ROLE_COHORT_FLAG_PROPAGATION",
+      "description": "Validation of role diversity and propagation of M5 sector-dependence and medium-confidence flags",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "eligible_count": 14,
+      "roles_represented": [
+        "1330",
+        "2151",
+        "2152",
+        "2424",
+        "2511",
+        "2512",
+        "2522",
+        "3514"
+      ],
+      "sector_dependent_flag_propagated": true,
+      "medium_confidence_flag_propagated": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM06_SCENARIO_COMPARISON",
+      "description": "Validation of foresight scenario integration without altering underlying M5 qualitative mappings",
+      "cohort_id": "DIGITAL_SERVICES",
+      "scenarios_evaluated": [
+        "REFERENCE_2026",
+        "MODERATE_COPILOT",
+        "FAST_AGENTIC"
+      ],
+      "fast_agentic_roles_foresight_count": 9,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM07_CURRENT_VS_POST_PATHWAY_CAPABILITY",
+      "description": "Validation of temporal capability scenario comparison with mandatory projection disclaimers",
+      "cohort_id": "GREEN_TRANSITION",
+      "current_sdg12_skills_count": 3,
+      "post_pathway_sdg12_skills_count": 3,
+      "current_label": "CURRENT_CAPABILITIES",
+      "post_pathway_label": "PROJECTED CAPABILITY ALIGNMENT IF PATHWAY COMPLETED",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM08_REGIONAL_SYNTHETIC_AGGREGATION",
+      "description": "Validation of regional synthetic population aggregation with non-identifying geography disclaimer",
+      "region_id": "REGION_A",
+      "eligible_count": 19,
+      "suppressed": false,
+      "sdg_alignment_prevalence_keys": [
+        "SDG_1",
+        "SDG_2",
+        "SDG_3",
+        "SDG_4",
+        "SDG_5"
+      ],
+      "passed": true
+    }
+  ]
+}

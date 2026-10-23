@@ -1,0 +1,18 @@
+{
+  "engine_version": "1.1.0",
+  "parent_m2_version": "1.1.1",
+  "build_timestamp": "2026-10-23T13:25:02.573721+00:00",
+  "governance_rule": "M6 preserves channel separation and uncertainty bounds; zero demographic inputs; anchor-normalized scenario multipliers.",
+  "input_artifacts": {
+    "m2_freeze_manifest": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542",
+    "occupation_trend_profiles_v1_1_1": "28742e2cbfa57b826a634b3ef697e6f7b326912d3118fbe2f908ac258b999e25",
+    "skill_trend_profiles_v1_1_1": "bc37da4e236e418e5419e5ba948522d75fd182b6e6035796710b4190e6d31c1d",
+    "scenario_definitions_v1_1": "9727b0173bc8ea0de9ee4503a635f8ebb858339167b175de72ffb32eb6438af6"
+  },
+  "output_artifacts": {
+    "occupation_scenario_profiles_v1_1": "3be9490a8b2d7ec7add60e1dba4fce8658db83515f0aea260a8badc8bf0599fa",
+    "skill_scenario_profiles_v1_1": "90bed5bbed30c61ddda8adef83e9bc2969259ecf58509295ba33888017a8b286",
+    "m6_occupation_scenario_summary_v1_1_csv": "9e679447749087b34e72a20a0e7816d4bee98b73cb68a515678232572d75fd4a",
+    "m6_skill_scenario_summary_v1_1_csv": "d2abf4b1044552e73bed39f53c656adc76abe580f1a84253f29d87360f5d9edc"
+  }
+}

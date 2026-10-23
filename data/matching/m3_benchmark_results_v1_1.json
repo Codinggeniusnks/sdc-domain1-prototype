@@ -1,0 +1,1159 @@
+{
+  "version": "1.1.0",
+  "benchmark_date": "2026-10-23",
+  "total_personas_evaluated": 8,
+  "total_candidate_roles_per_evaluation": 20,
+  "weight_configurations_evaluated": [
+    "balanced_baseline",
+    "skill_heavy",
+    "scenario_aware"
+  ],
+  "scenarios_evaluated": [
+    "REFERENCE_2026",
+    "MODERATE_COPILOT",
+    "FAST_AGENTIC"
+  ],
+  "aggregate_metrics": {
+    "top1_weight_stability_pct": 75.0,
+    "average_top3_overlap_jaccard": 0.919,
+    "average_top5_overlap_jaccard": 0.958,
+    "average_spearman_rank_correlation": 0.991,
+    "total_weight_sensitive_roles_count": 7,
+    "weight_sensitive_roles": [
+      "1330",
+      "2166",
+      "2411",
+      "2421",
+      "3343",
+      "4110",
+      "4311"
+    ]
+  },
+  "persona_evaluations": [
+    {
+      "persona_id": "PERSONA_1_DATA_ANALYTICS",
+      "persona_name": "Senior Tabular Data Analyst",
+      "category": "Data / Analytics-Oriented",
+      "evaluations": {},
+      "weight_sensitivity": {
+        "top1_stable": true,
+        "top1_roles": {
+          "balanced": "2521",
+          "skill_heavy": "2521",
+          "scenario_aware": "2521"
+        },
+        "top3_overlap": 1.0,
+        "top5_overlap": 1.0,
+        "spearman_correlation": 0.99,
+        "weight_sensitive_roles": [
+          {
+            "masco_code": "4311",
+            "occupation_title": "Accounting and Bookkeeping Clerks",
+            "rank_balanced": 12,
+            "rank_skill_heavy": 10,
+            "rank_scenario_aware": 14,
+            "max_rank_displacement": 4,
+            "top3_membership_changed": false,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 4.8,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          }
+        ]
+      },
+      "scenario_sensitivity": {
+        "REFERENCE_2026": {
+          "top_1": {
+            "masco_code": "2521",
+            "title": "Database Designers & Administrators",
+            "role_match_index": 76.3,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2521",
+              "title": "Database Designers & Administrators",
+              "role_match_index": 76.3,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2529",
+              "title": "Database & Network Professionals NEC (AI & Data Science Specialists)",
+              "role_match_index": 62.5,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2512",
+              "title": "Software Developers",
+              "role_match_index": 62.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "MODERATE_COPILOT": {
+          "top_1": {
+            "masco_code": "2521",
+            "title": "Database Designers & Administrators",
+            "role_match_index": 77.1,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2521",
+              "title": "Database Designers & Administrators",
+              "role_match_index": 77.1,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2529",
+              "title": "Database & Network Professionals NEC (AI & Data Science Specialists)",
+              "role_match_index": 63.4,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2512",
+              "title": "Software Developers",
+              "role_match_index": 62.9,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "FAST_AGENTIC": {
+          "top_1": {
+            "masco_code": "2521",
+            "title": "Database Designers & Administrators",
+            "role_match_index": 77.2,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2521",
+              "title": "Database Designers & Administrators",
+              "role_match_index": 77.2,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2529",
+              "title": "Database & Network Professionals NEC (AI & Data Science Specialists)",
+              "role_match_index": 63.4,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2512",
+              "title": "Software Developers",
+              "role_match_index": 63.0,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "persona_id": "PERSONA_2_SOFTWARE_AUTOMATION",
+      "persona_name": "Full-Stack Software & Systems Developer",
+      "category": "Software / Automation-Oriented",
+      "evaluations": {},
+      "weight_sensitivity": {
+        "top1_stable": true,
+        "top1_roles": {
+          "balanced": "2512",
+          "skill_heavy": "2512",
+          "scenario_aware": "2512"
+        },
+        "top3_overlap": 1.0,
+        "top5_overlap": 1.0,
+        "spearman_correlation": 0.994,
+        "weight_sensitive_roles": []
+      },
+      "scenario_sensitivity": {
+        "REFERENCE_2026": {
+          "top_1": {
+            "masco_code": "2512",
+            "title": "Software Developers",
+            "role_match_index": 81.8,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2512",
+              "title": "Software Developers",
+              "role_match_index": 81.8,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2522",
+              "title": "Systems Administrators & Cloud Infrastructure Engineers",
+              "role_match_index": 71.4,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2519",
+              "title": "Software & Applications Developers NEC (Cloud & Full-Stack)",
+              "role_match_index": 70.8,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "MEDIUM"
+            }
+          ]
+        },
+        "MODERATE_COPILOT": {
+          "top_1": {
+            "masco_code": "2512",
+            "title": "Software Developers",
+            "role_match_index": 82.7,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2512",
+              "title": "Software Developers",
+              "role_match_index": 82.7,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2522",
+              "title": "Systems Administrators & Cloud Infrastructure Engineers",
+              "role_match_index": 72.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2519",
+              "title": "Software & Applications Developers NEC (Cloud & Full-Stack)",
+              "role_match_index": 71.4,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "MEDIUM"
+            }
+          ]
+        },
+        "FAST_AGENTIC": {
+          "top_1": {
+            "masco_code": "2512",
+            "title": "Software Developers",
+            "role_match_index": 82.7,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2512",
+              "title": "Software Developers",
+              "role_match_index": 82.7,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2522",
+              "title": "Systems Administrators & Cloud Infrastructure Engineers",
+              "role_match_index": 72.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2519",
+              "title": "Software & Applications Developers NEC (Cloud & Full-Stack)",
+              "role_match_index": 71.4,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "MEDIUM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "persona_id": "PERSONA_3_BUSINESS_OPERATIONS",
+      "persona_name": "Operations & Transformation Lead",
+      "category": "Business Process / Operations-Oriented",
+      "evaluations": {},
+      "weight_sensitivity": {
+        "top1_stable": false,
+        "top1_roles": {
+          "balanced": "2511",
+          "skill_heavy": "2421",
+          "scenario_aware": "2511"
+        },
+        "top3_overlap": 1.0,
+        "top5_overlap": 1.0,
+        "spearman_correlation": 0.986,
+        "weight_sensitive_roles": [
+          {
+            "masco_code": "4311",
+            "occupation_title": "Accounting and Bookkeeping Clerks",
+            "rank_balanced": 10,
+            "rank_skill_heavy": 8,
+            "rank_scenario_aware": 12,
+            "max_rank_displacement": 4,
+            "top3_membership_changed": false,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 6.1,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          }
+        ]
+      },
+      "scenario_sensitivity": {
+        "REFERENCE_2026": {
+          "top_1": {
+            "masco_code": "2511",
+            "title": "Systems Analysts",
+            "role_match_index": 78.4,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2511",
+              "title": "Systems Analysts",
+              "role_match_index": 78.4,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2421",
+              "title": "Management & Organization Analysts (Transformation Consultants)",
+              "role_match_index": 76.7,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 74.0,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "MODERATE_COPILOT": {
+          "top_1": {
+            "masco_code": "2511",
+            "title": "Systems Analysts",
+            "role_match_index": 79.3,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2511",
+              "title": "Systems Analysts",
+              "role_match_index": 79.3,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2421",
+              "title": "Management & Organization Analysts (Transformation Consultants)",
+              "role_match_index": 77.4,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 74.6,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "FAST_AGENTIC": {
+          "top_1": {
+            "masco_code": "2511",
+            "title": "Systems Analysts",
+            "role_match_index": 79.3,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2511",
+              "title": "Systems Analysts",
+              "role_match_index": 79.3,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2421",
+              "title": "Management & Organization Analysts (Transformation Consultants)",
+              "role_match_index": 77.5,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 74.6,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "persona_id": "PERSONA_4_GOVERNANCE_PRIVACY",
+      "persona_name": "Data Privacy & AI Governance Specialist",
+      "category": "Governance / Privacy-Oriented",
+      "evaluations": {},
+      "weight_sensitivity": {
+        "top1_stable": true,
+        "top1_roles": {
+          "balanced": "2422",
+          "skill_heavy": "2422",
+          "scenario_aware": "2422"
+        },
+        "top3_overlap": 1.0,
+        "top5_overlap": 1.0,
+        "spearman_correlation": 0.996,
+        "weight_sensitive_roles": []
+      },
+      "scenario_sensitivity": {
+        "REFERENCE_2026": {
+          "top_1": {
+            "masco_code": "2422",
+            "title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+            "role_match_index": 75.3,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2422",
+              "title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+              "role_match_index": 75.3,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 61.6,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2421",
+              "title": "Management & Organization Analysts (Transformation Consultants)",
+              "role_match_index": 51.9,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "MODERATE_COPILOT": {
+          "top_1": {
+            "masco_code": "2422",
+            "title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+            "role_match_index": 76.0,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2422",
+              "title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+              "role_match_index": 76.0,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 62.2,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2421",
+              "title": "Management & Organization Analysts (Transformation Consultants)",
+              "role_match_index": 52.6,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "FAST_AGENTIC": {
+          "top_1": {
+            "masco_code": "2422",
+            "title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+            "role_match_index": 76.1,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2422",
+              "title": "Policy & Corporate Planning Professionals (Governance Specialists)",
+              "role_match_index": 76.1,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 62.2,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2421",
+              "title": "Management & Organization Analysts (Transformation Consultants)",
+              "role_match_index": 52.6,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "persona_id": "PERSONA_5_SUSTAINABILITY_ESG",
+      "persona_name": "Environmental & Carbon Accounting Analyst",
+      "category": "Sustainability-Oriented",
+      "evaluations": {},
+      "weight_sensitivity": {
+        "top1_stable": true,
+        "top1_roles": {
+          "balanced": "2151",
+          "skill_heavy": "2151",
+          "scenario_aware": "2151"
+        },
+        "top3_overlap": 1.0,
+        "top5_overlap": 0.833,
+        "spearman_correlation": 0.996,
+        "weight_sensitive_roles": []
+      },
+      "scenario_sensitivity": {
+        "REFERENCE_2026": {
+          "top_1": {
+            "masco_code": "2151",
+            "title": "Electrical Engineers",
+            "role_match_index": 82.9,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2151",
+              "title": "Electrical Engineers",
+              "role_match_index": 82.9,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2411",
+              "title": "Accountants & Financial Auditors",
+              "role_match_index": 74.3,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2143",
+              "title": "Environmental Engineers & Sustainability Specialists",
+              "role_match_index": 73.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "MODERATE_COPILOT": {
+          "top_1": {
+            "masco_code": "2151",
+            "title": "Electrical Engineers",
+            "role_match_index": 83.5,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2151",
+              "title": "Electrical Engineers",
+              "role_match_index": 83.5,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2411",
+              "title": "Accountants & Financial Auditors",
+              "role_match_index": 75.0,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2143",
+              "title": "Environmental Engineers & Sustainability Specialists",
+              "role_match_index": 73.7,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "FAST_AGENTIC": {
+          "top_1": {
+            "masco_code": "2151",
+            "title": "Electrical Engineers",
+            "role_match_index": 83.5,
+            "match_strength_label": "STRONG CURRENT FIT",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2151",
+              "title": "Electrical Engineers",
+              "role_match_index": 83.5,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2411",
+              "title": "Accountants & Financial Auditors",
+              "role_match_index": 75.0,
+              "match_strength_label": "STRONG CURRENT FIT",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2143",
+              "title": "Environmental Engineers & Sustainability Specialists",
+              "role_match_index": 73.7,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "persona_id": "PERSONA_6_COMMUNICATION_INSTRUCTIONAL",
+      "persona_name": "Corporate Learning & Instructional Designer",
+      "category": "Communication / Instructional-Oriented",
+      "evaluations": {},
+      "weight_sensitivity": {
+        "top1_stable": false,
+        "top1_roles": {
+          "balanced": "3322",
+          "skill_heavy": "2424",
+          "scenario_aware": "3322"
+        },
+        "top3_overlap": 0.75,
+        "top5_overlap": 1.0,
+        "spearman_correlation": 0.992,
+        "weight_sensitive_roles": [
+          {
+            "masco_code": "1330",
+            "occupation_title": "Information & Communications Technology Services Managers",
+            "rank_balanced": 3,
+            "rank_skill_heavy": 4,
+            "rank_scenario_aware": 3,
+            "max_rank_displacement": 1,
+            "top3_membership_changed": true,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 6.6,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          },
+          {
+            "masco_code": "2166",
+            "occupation_title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+            "rank_balanced": 5,
+            "rank_skill_heavy": 3,
+            "rank_scenario_aware": 5,
+            "max_rank_displacement": 2,
+            "top3_membership_changed": true,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 1.2,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          }
+        ]
+      },
+      "scenario_sensitivity": {
+        "REFERENCE_2026": {
+          "top_1": {
+            "masco_code": "3322",
+            "title": "Commercial Sales Representatives",
+            "role_match_index": 68.4,
+            "match_strength_label": "GOOD FIT WITH GAPS",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "3322",
+              "title": "Commercial Sales Representatives",
+              "role_match_index": 68.4,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2424",
+              "title": "Training & Staff Development Professionals (Reskilling Architects)",
+              "role_match_index": 67.4,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 52.4,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "MODERATE_COPILOT": {
+          "top_1": {
+            "masco_code": "3322",
+            "title": "Commercial Sales Representatives",
+            "role_match_index": 68.8,
+            "match_strength_label": "GOOD FIT WITH GAPS",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "3322",
+              "title": "Commercial Sales Representatives",
+              "role_match_index": 68.8,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2424",
+              "title": "Training & Staff Development Professionals (Reskilling Architects)",
+              "role_match_index": 68.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 53.0,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "FAST_AGENTIC": {
+          "top_1": {
+            "masco_code": "3322",
+            "title": "Commercial Sales Representatives",
+            "role_match_index": 68.8,
+            "match_strength_label": "GOOD FIT WITH GAPS",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "3322",
+              "title": "Commercial Sales Representatives",
+              "role_match_index": 68.8,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2424",
+              "title": "Training & Staff Development Professionals (Reskilling Architects)",
+              "role_match_index": 68.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "1330",
+              "title": "Information & Communications Technology Services Managers",
+              "role_match_index": 53.0,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "persona_id": "PERSONA_7_CLERICAL_TRANSITION",
+      "persona_name": "Administrative Assistant in Digital Upskilling",
+      "category": "Administrative / Clerical Transition-Oriented",
+      "evaluations": {},
+      "weight_sensitivity": {
+        "top1_stable": true,
+        "top1_roles": {
+          "balanced": "2511",
+          "skill_heavy": "2511",
+          "scenario_aware": "2511"
+        },
+        "top3_overlap": 0.6,
+        "top5_overlap": 0.833,
+        "spearman_correlation": 0.979,
+        "weight_sensitive_roles": [
+          {
+            "masco_code": "2411",
+            "occupation_title": "Accountants & Financial Auditors",
+            "rank_balanced": 4,
+            "rank_skill_heavy": 5,
+            "rank_scenario_aware": 2,
+            "max_rank_displacement": 3,
+            "top3_membership_changed": true,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 5.7,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          },
+          {
+            "masco_code": "2421",
+            "occupation_title": "Management & Organization Analysts (Transformation Consultants)",
+            "rank_balanced": 5,
+            "rank_skill_heavy": 4,
+            "rank_scenario_aware": 3,
+            "max_rank_displacement": 2,
+            "top3_membership_changed": true,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 3.7,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          },
+          {
+            "masco_code": "3343",
+            "occupation_title": "Administrative & Executive Secretaries",
+            "rank_balanced": 11,
+            "rank_skill_heavy": 7,
+            "rank_scenario_aware": 12,
+            "max_rank_displacement": 5,
+            "top3_membership_changed": false,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 7.1,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          },
+          {
+            "masco_code": "4110",
+            "occupation_title": "General Office Clerks",
+            "rank_balanced": 3,
+            "rank_skill_heavy": 3,
+            "rank_scenario_aware": 6,
+            "max_rank_displacement": 3,
+            "top3_membership_changed": true,
+            "top5_membership_changed": true,
+            "match_index_range_across_configs": 11.3,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          },
+          {
+            "masco_code": "4311",
+            "occupation_title": "Accounting and Bookkeeping Clerks",
+            "rank_balanced": 2,
+            "rank_skill_heavy": 2,
+            "rank_scenario_aware": 4,
+            "max_rank_displacement": 2,
+            "top3_membership_changed": true,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 11.8,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          }
+        ]
+      },
+      "scenario_sensitivity": {
+        "REFERENCE_2026": {
+          "top_1": {
+            "masco_code": "2511",
+            "title": "Systems Analysts",
+            "role_match_index": 73.8,
+            "match_strength_label": "GOOD FIT WITH GAPS",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2511",
+              "title": "Systems Analysts",
+              "role_match_index": 73.8,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "4311",
+              "title": "Accounting and Bookkeeping Clerks",
+              "role_match_index": 61.0,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "4110",
+              "title": "General Office Clerks",
+              "role_match_index": 59.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "MODERATE_COPILOT": {
+          "top_1": {
+            "masco_code": "2511",
+            "title": "Systems Analysts",
+            "role_match_index": 74.7,
+            "match_strength_label": "GOOD FIT WITH GAPS",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2511",
+              "title": "Systems Analysts",
+              "role_match_index": 74.7,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "4311",
+              "title": "Accounting and Bookkeeping Clerks",
+              "role_match_index": 61.0,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "4110",
+              "title": "General Office Clerks",
+              "role_match_index": 59.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "FAST_AGENTIC": {
+          "top_1": {
+            "masco_code": "2511",
+            "title": "Systems Analysts",
+            "role_match_index": 74.7,
+            "match_strength_label": "GOOD FIT WITH GAPS",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "2511",
+              "title": "Systems Analysts",
+              "role_match_index": 74.7,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "4311",
+              "title": "Accounting and Bookkeeping Clerks",
+              "role_match_index": 60.9,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "2411",
+              "title": "Accountants & Financial Auditors",
+              "role_match_index": 59.1,
+              "match_strength_label": "GOOD FIT WITH GAPS",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "persona_id": "PERSONA_8_SPARSE_EARLY_CAREER",
+      "persona_name": "Recent Graduate (Foundational AI Literacy)",
+      "category": "Sparse Early-Career Profile",
+      "evaluations": {},
+      "weight_sensitivity": {
+        "top1_stable": true,
+        "top1_roles": {
+          "balanced": "3322",
+          "skill_heavy": "3322",
+          "scenario_aware": "3322"
+        },
+        "top3_overlap": 1.0,
+        "top5_overlap": 1.0,
+        "spearman_correlation": 0.995,
+        "weight_sensitive_roles": [
+          {
+            "masco_code": "4311",
+            "occupation_title": "Accounting and Bookkeeping Clerks",
+            "rank_balanced": 9,
+            "rank_skill_heavy": 7,
+            "rank_scenario_aware": 11,
+            "max_rank_displacement": 4,
+            "top3_membership_changed": false,
+            "top5_membership_changed": false,
+            "match_index_range_across_configs": 0.9,
+            "flag": "WEIGHT_SENSITIVE_RECOMMENDATION"
+          }
+        ]
+      },
+      "scenario_sensitivity": {
+        "REFERENCE_2026": {
+          "top_1": {
+            "masco_code": "3322",
+            "title": "Commercial Sales Representatives",
+            "role_match_index": 47.7,
+            "match_strength_label": "DEVELOPING TRANSITION",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "3322",
+              "title": "Commercial Sales Representatives",
+              "role_match_index": 47.7,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2166",
+              "title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+              "role_match_index": 41.9,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "4110",
+              "title": "General Office Clerks",
+              "role_match_index": 33.4,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "MODERATE_COPILOT": {
+          "top_1": {
+            "masco_code": "3322",
+            "title": "Commercial Sales Representatives",
+            "role_match_index": 48.1,
+            "match_strength_label": "DEVELOPING TRANSITION",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "3322",
+              "title": "Commercial Sales Representatives",
+              "role_match_index": 48.1,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2166",
+              "title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+              "role_match_index": 40.8,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "4110",
+              "title": "General Office Clerks",
+              "role_match_index": 33.4,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        },
+        "FAST_AGENTIC": {
+          "top_1": {
+            "masco_code": "3322",
+            "title": "Commercial Sales Representatives",
+            "role_match_index": 48.1,
+            "match_strength_label": "DEVELOPING TRANSITION",
+            "evidence_confidence_label": "HIGH"
+          },
+          "top_3": [
+            {
+              "rank": 1,
+              "masco_code": "3322",
+              "title": "Commercial Sales Representatives",
+              "role_match_index": 48.1,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 2,
+              "masco_code": "2166",
+              "title": "Graphic & Multimedia Designers (UI-UX & Visual Designers)",
+              "role_match_index": 40.8,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            },
+            {
+              "rank": 3,
+              "masco_code": "4110",
+              "title": "General Office Clerks",
+              "role_match_index": 33.2,
+              "match_strength_label": "DEVELOPING TRANSITION",
+              "evidence_confidence_label": "HIGH"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

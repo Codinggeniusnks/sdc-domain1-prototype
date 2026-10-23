@@ -1,0 +1,83 @@
+{
+  "engine_name": "O2 Automatic Replanning & Change Detection Engine",
+  "engine_version": "1.0.0",
+  "execution_timestamp": "2026-10-23T20:57:48.890618+00:00",
+  "total_benchmarks": 14,
+  "passed_benchmarks": 14,
+  "all_passed": true,
+  "results": [
+    {
+      "benchmark_id": "BM01_IDENTICAL_STATE",
+      "description": "Validation that identical state produces NO_SEMANTIC_CHANGE and materiality NONE",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM02_MINOR_M2_CHANGE",
+      "description": "Validation that minor trend score movement with stable ranking yields MINOR materiality",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM03_TOP_ROLE_CHANGE",
+      "description": "Validation that top recommended role change triggers HIGH_MATERIALITY and requires acknowledgement",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM04_CORE_GAP_ADDED",
+      "description": "Validation that newly identified CORE gap triggers HIGH_MATERIALITY",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM05_CORE_GAP_RESOLVED",
+      "description": "Validation that resolving a CORE gap triggers HIGH_MATERIALITY",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM06_IMPORTANT_GAP_CHANGE",
+      "description": "Validation that changes to IMPORTANT gaps produce MATERIAL classification",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM07_PATHWAY_ORDER_CHANGE",
+      "description": "Validation that reordering pathway steps triggers MATERIAL classification",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM08_SCENARIO_CHANGE",
+      "description": "Validation that scenario change is correctly attributed without implying labor market shifted",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM09_DUPLICATE_EVENT",
+      "description": "Validation that duplicate event ID is rejected and does not mutate state",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM10_STALE_EVENT",
+      "description": "Validation that stale event with older timestamp is rejected",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM11_UNSUPPORTED_VERSION",
+      "description": "Validation that unsupported upstream version triggers immediate rejection",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM12_SMALL_CELL_4_TO_5",
+      "description": "Validation of privacy-safe transition when small cell crosses 4 to 5",
+      "passed": true,
+      "diff_message": "Previously suppressed; now above reporting threshold."
+    },
+    {
+      "benchmark_id": "BM13_SMALL_CELL_5_TO_4",
+      "description": "Validation of privacy-safe transition when cell drops below threshold from 5 to 4",
+      "passed": true,
+      "diff_message": "Previously reportable; now below reporting threshold."
+    },
+    {
+      "benchmark_id": "BM14_SUPPRESSED_TO_SUPPRESSED",
+      "description": "Validation of privacy-safe transition between two small counts (<5 to <5)",
+      "passed": true,
+      "diff_message": "SUPPRESSED \u2192 SUPPRESSED"
+    }
+  ]
+}

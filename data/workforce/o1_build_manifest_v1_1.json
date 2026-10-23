@@ -1,0 +1,47 @@
+{
+  "engine_name": "O1 Employer Workforce Gap & Reskilling Engine",
+  "engine_version": "1.1.0",
+  "status": "REMEDIATED_CANDIDATE_READY_FOR_FREEZE_REVIEW",
+  "build_timestamp": "2026-10-23T20:23:28.335287+00:00",
+  "pinned_dependencies": {
+    "m1": "H_blend_0.70A_0.30C1_W1.0",
+    "m2": "1.1.1",
+    "m6": "1.1.0",
+    "m3": "1.1.0",
+    "m4": "1.1.0",
+    "m5": "1.1.0",
+    "o6": "1.1.0"
+  },
+  "files": {
+    "engine_source": {
+      "path": "src/workforce_gap_engine.py",
+      "sha256": "2b7744215858f3dcc2916d998ad688e8847acc8c5cfb6570cacb8bb8a37784a9"
+    },
+    "configuration": {
+      "path": "data/workforce/o1_config_v1_1.json",
+      "sha256": "8105702497ee4f178c690c286407f5b0d985c51e99321c80e71883cd6f492691"
+    },
+    "benchmark_results": {
+      "path": "data/workforce/o1_benchmark_results_v1_1.json",
+      "sha256": "bf1ba74c9095c87736aa15ce1f7fda14bb5e6c35a8f32812ed8fbcc82812af90"
+    }
+  },
+  "verification_summary": {
+    "total_benchmarks": 18,
+    "passed_benchmarks": 18,
+    "all_benchmarks_passed": true,
+    "minimum_cohort_threshold": 5,
+    "small_cell_threshold": 5,
+    "complementary_suppression_active": true,
+    "reconstruction_protection_active": true,
+    "cross_query_differencing_protection": "PARTIAL",
+    "differential_privacy_claimed": false,
+    "protected_attributes_used": false,
+    "demographic_fairness_evaluated": false,
+    "employee_ranking_prohibited": true,
+    "deficit_signal_status": "BINARY_NON_DISCRIMINATING",
+    "deficit_ranking_weight": 0.0,
+    "core_first_semantics": "CORE_WEIGHTED_PREFERENCE",
+    "spearman_rank_stability_v1_vs_v1_1": 1.0
+  }
+}

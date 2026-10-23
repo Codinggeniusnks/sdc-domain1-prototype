@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "module": "M4_PERSONALISED_RESKILLING_PATHWAY_ENGINE",
+  "build_timestamp": "2026-10-23T23:35:11+08:00",
+  "reference_date": "2026-10-23",
+  "upstream_dependencies": {
+    "m1_skills_extraction": {
+      "model": "H_blend_0.70A_0.30C1_W1.0",
+      "status": "FROZEN",
+      "provenance": "Protocol B and Protocol C v2 were unsealed exactly once during Stage 8E for the approved final frozen M1 evaluation. No additional Protocol B or Protocol C v2 access occurred during Stages 9A onward."
+    },
+    "m2_trend_intelligence": {
+      "version": "v1.1.1",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "cdb15cebd1baf9385101cab1dacaf76e63d3703f30995a3c9cd7c2737b9db542"
+    },
+    "m6_scenario_engine": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "ee19b4fc1465ded069471ee8d6e4c85c30082955f31ddfc0e3ca5f2c6a8158b5"
+    },
+    "m3_role_matching": {
+      "version": "v1.1.0",
+      "status": "FORMALLY_FROZEN",
+      "manifest_sha256": "15a489e7e661608547a03fd41a11cf3866126489f9a0195c43edf68e2607973c"
+    }
+  },
+  "artifacts_sha256": {
+    "skill_prerequisites": "d78846dd7f445aa6950385c9189831439a33d0ae3fb86be6bf418928b7c70f6c",
+    "learning_resources": "70735f76b547c2ca8ee9c182121c5c1ce1999491d86f51365e97b44e8262ef26",
+    "scoring_config": "1842f494f2b4c91b94c983a7f8891eb2b8bd5253e16774026be2d312664167c2",
+    "benchmark_results": "5c3eadb642adbff4a09100ce96d2bcd2c07a917187e0cebd67828331890a1350",
+    "source_code": "986e4f657e9eb302ff241e6d6bf28fab63f0384ad120b39f6d23a8faa9d7368f",
+    "build_prerequisites_script": "4b1b575ef7fb6860c3eb5ce20d24f73c3f56a8ba9e44c7678c5ea2423ef9ecb5",
+    "build_resources_script": "95a7728acd9211aea291c6422bc972c820ec49ea4aafb217ca5cfbf1c5089396",
+    "run_benchmarks_script": "f87da37c3970ad8f155c5811a7be396847d6d3b4552e59383915b772c3c39cb4"
+  }
+}

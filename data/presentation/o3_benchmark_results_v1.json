@@ -1,0 +1,57 @@
+{
+  "BM01": {
+    "title": "Catalog Key Parity (EN, MS, ZH-CN)",
+    "passed": true,
+    "total_keys": 142,
+    "locale_counts": {
+      "en": 142,
+      "ms": 142,
+      "zh-CN": 142
+    }
+  },
+  "BM02": {
+    "title": "Translation Resolution Throughput",
+    "passed": true,
+    "ops_per_sec": 2974051.4,
+    "total_operations": 60000,
+    "elapsed_seconds": 0.0202
+  },
+  "BM03": {
+    "title": "M3 Invariance Preservation (EN, MS, ZH-CN)",
+    "passed": true,
+    "violations_ms": [],
+    "violations_zh": []
+  },
+  "BM04": {
+    "title": "M4 Pathway Invariance Preservation",
+    "passed": true,
+    "violations": []
+  },
+  "BM05": {
+    "title": "O1 Priority Reskilling Index Invariance",
+    "passed": true,
+    "violations": []
+  },
+  "BM06": {
+    "title": "Low-Bandwidth Asset & Narrative Pruning",
+    "passed": true,
+    "pruned_keys": [
+      "masco_code",
+      "fit_score",
+      "gap_score",
+      "_mode",
+      "_timestamp_utc"
+    ]
+  },
+  "BM07": {
+    "title": "Low-Bandwidth Compression Ratio",
+    "passed": true,
+    "reduction_ratio": 0.9063,
+    "uncompressed_bytes": 5423,
+    "compressed_bytes": 508
+  },
+  "BM08": {
+    "title": "Safe Template Parameter Interpolation",
+    "passed": true
+  }
+}

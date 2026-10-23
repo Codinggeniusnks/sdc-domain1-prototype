@@ -1,0 +1,425 @@
+{
+  "manifest_name": "Protocol C v2: Independent Unseen-Occupation Test Set",
+  "description": "Sealed 25-record real-world evaluation holdout consisting of genuine MASCO 2020 unit groups completely absent from Dataset v4 training and Protocol B.",
+  "sample_count": 25,
+  "gold_percentage": 100.0,
+  "synthetic_percentage": 0.0,
+  "protocol_b_overlap_records": 0,
+  "training_exact_overlap_records": 0,
+  "training_4digit_masco_overlap_groups": 0,
+  "max_cosine_similarity_observed": 0.333,
+  "median_cosine_similarity_observed": 0.203,
+  "seal_status": "SEALED_DO_NOT_EVALUATE_DURING_REMEDIATION",
+  "records": [
+    {
+      "id": "masco-v2-1330-01",
+      "masco_code": "1330",
+      "occupation_family": "Information and Communications Technology Services Managers",
+      "sector": "Information & Communication Technology (ICT)",
+      "skills": [
+        "api_integration",
+        "data_privacy_pdpa",
+        "ai_ethics_governance",
+        "stakeholder_communication"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.208,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2149-01",
+      "masco_code": "2149",
+      "occupation_family": "Engineering Professionals Not Elsewhere Classified",
+      "sector": "Advanced Manufacturing & Robotics",
+      "skills": [
+        "python_scripting",
+        "workflow_automation",
+        "process_mapping",
+        "human_in_the_loop_qa"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.25,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2151-01",
+      "masco_code": "2151",
+      "occupation_family": "Electrical Engineers",
+      "sector": "Electrical & Electronics (E&E) Manufacturing",
+      "skills": [
+        "sql_data_analysis",
+        "python_scripting",
+        "data_visualization",
+        "workflow_automation"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.173,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2166-01",
+      "masco_code": "2166",
+      "occupation_family": "Graphic and Multimedia Designers",
+      "sector": "Digital Creative & Media",
+      "skills": [
+        "prompt_engineering",
+        "process_mapping",
+        "human_in_the_loop_qa",
+        "ai_literacy"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.214,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2411-01",
+      "masco_code": "2411",
+      "occupation_family": "Accountants",
+      "sector": "Banking & Financial Services",
+      "skills": [
+        "sql_data_analysis",
+        "data_visualization",
+        "stakeholder_communication"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.167,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2413-01",
+      "masco_code": "2413",
+      "occupation_family": "Financial Analysts",
+      "sector": "Financial Services & Asset Management",
+      "skills": [
+        "esg_sustainability_reporting",
+        "carbon_footprint_analytics",
+        "python_scripting",
+        "sql_data_analysis"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.333,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2431-01",
+      "masco_code": "2431",
+      "occupation_family": "Advertising and Marketing Professionals",
+      "sector": "Professional & Business Services",
+      "skills": [
+        "workflow_automation",
+        "api_integration",
+        "data_visualization",
+        "prompt_engineering"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.127,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2432-01",
+      "masco_code": "2432",
+      "occupation_family": "Public Relations Professionals",
+      "sector": "Corporate Affairs & Communications",
+      "skills": [
+        "stakeholder_communication",
+        "esg_sustainability_reporting",
+        "data_visualization"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.244,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2522-01",
+      "masco_code": "2522",
+      "occupation_family": "Systems Administrators",
+      "sector": "Information & Communication Technology (ICT)",
+      "skills": [
+        "python_scripting",
+        "workflow_automation",
+        "api_integration",
+        "data_privacy_pdpa"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.208,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2523-01",
+      "masco_code": "2523",
+      "occupation_family": "Computer Network Professionals",
+      "sector": "Telecommunications & ICT",
+      "skills": [
+        "api_integration",
+        "process_mapping",
+        "sql_data_analysis",
+        "data_privacy_pdpa"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.211,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2529-01",
+      "masco_code": "2529",
+      "occupation_family": "Database and Network Professionals Not Elsewhere Classified",
+      "sector": "Cybersecurity & National Infrastructure",
+      "skills": [
+        "workflow_automation",
+        "python_scripting",
+        "data_privacy_pdpa",
+        "human_in_the_loop_qa"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.207,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2635-01",
+      "masco_code": "2635",
+      "occupation_family": "Social Work and Counselling Professionals",
+      "sector": "Human Services & Community Health",
+      "skills": [
+        "stakeholder_communication",
+        "instructional_design",
+        "data_privacy_pdpa"
+      ],
+      "demand": 0.0,
+      "max_cosine_similarity": 0.161,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2642-01",
+      "masco_code": "2642",
+      "occupation_family": "Journalists",
+      "sector": "Digital Publishing & Professional Services",
+      "skills": [
+        "prompt_engineering",
+        "human_in_the_loop_qa",
+        "stakeholder_communication",
+        "api_integration"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.187,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-3119-01",
+      "masco_code": "3119",
+      "occupation_family": "Physical and Engineering Science Technicians Not Elsewhere Classified",
+      "sector": "Electrical & Electronics / Industrial IoT",
+      "skills": [
+        "python_scripting",
+        "sql_data_analysis",
+        "process_mapping"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.213,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-3322-01",
+      "masco_code": "3322",
+      "occupation_family": "Commercial Sales Representatives",
+      "sector": "Commercial Enterprise Sales",
+      "skills": [
+        "process_mapping",
+        "data_visualization",
+        "stakeholder_communication"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.21,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-3339-01",
+      "masco_code": "3339",
+      "occupation_family": "Business Services Agents Not Elsewhere Classified",
+      "sector": "Supply Chain & Corporate Procurement",
+      "skills": [
+        "sql_data_analysis",
+        "process_mapping",
+        "data_privacy_pdpa",
+        "data_visualization"
+      ],
+      "demand": 0.0,
+      "max_cosine_similarity": 0.199,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-4323-01",
+      "masco_code": "4323",
+      "occupation_family": "Transport Clerks",
+      "sector": "Logistics & Freight Forwarding",
+      "skills": [
+        "process_mapping",
+        "stakeholder_communication"
+      ],
+      "demand": 0.0,
+      "max_cosine_similarity": 0.194,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-4415-01",
+      "masco_code": "4415",
+      "occupation_family": "Filing and Copying Clerks",
+      "sector": "Administrative & Support Services",
+      "skills": [
+        "process_mapping"
+      ],
+      "demand": 0.0,
+      "max_cosine_similarity": 0.251,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-4416-01",
+      "masco_code": "4416",
+      "occupation_family": "Personnel Clerks",
+      "sector": "Corporate Back-Office Administration",
+      "skills": [
+        "process_mapping",
+        "stakeholder_communication",
+        "data_privacy_pdpa"
+      ],
+      "demand": 0.0,
+      "max_cosine_similarity": 0.14,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2132-01",
+      "masco_code": "2132",
+      "occupation_family": "Farming, Forestry and Fisheries Advisers",
+      "sector": "Agriculture & Smart Farming",
+      "skills": [
+        "data_visualization",
+        "sql_data_analysis",
+        "carbon_footprint_analytics"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.191,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2144-01",
+      "masco_code": "2144",
+      "occupation_family": "Mechanical Engineers",
+      "sector": "Precision Machinery & Automotive",
+      "skills": [
+        "python_scripting",
+        "workflow_automation",
+        "process_mapping"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.196,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2145-01",
+      "masco_code": "2145",
+      "occupation_family": "Chemical Engineers",
+      "sector": "Petrochemicals & Renewable Energy",
+      "skills": [
+        "carbon_footprint_analytics",
+        "esg_sustainability_reporting",
+        "process_mapping"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.238,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2423-01",
+      "masco_code": "2423",
+      "occupation_family": "Personnel and Careers Professionals",
+      "sector": "Human Capital & Recruitment",
+      "skills": [
+        "instructional_design",
+        "sql_data_analysis",
+        "stakeholder_communication"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.132,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2513-01",
+      "masco_code": "2513",
+      "occupation_family": "Web and Multimedia Developers",
+      "sector": "Information & Communication Technology (ICT)",
+      "skills": [
+        "python_scripting",
+        "api_integration",
+        "workflow_automation",
+        "data_privacy_pdpa"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.169,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    },
+    {
+      "id": "masco-v2-2514-01",
+      "masco_code": "2514",
+      "occupation_family": "Applications Programmers",
+      "sector": "Semiconductor & Embedded IoT",
+      "skills": [
+        "python_scripting",
+        "api_integration",
+        "human_in_the_loop_qa",
+        "ai_literacy"
+      ],
+      "demand": 1.0,
+      "max_cosine_similarity": 0.264,
+      "exact_train_overlap": false,
+      "exact_proto_b_overlap": false,
+      "masco_group_in_train": false
+    }
+  ]
+}

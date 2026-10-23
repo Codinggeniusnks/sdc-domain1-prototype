@@ -1,0 +1,28 @@
+{
+  "evaluation_characterization": "LIMITED_DIRECTIONAL_ALIGNMENT_CHECK",
+  "prohibited_terminology": [
+    "predictive accuracy",
+    "forecast accuracy",
+    "model accuracy"
+  ],
+  "total_samples": 40,
+  "mycol": {
+    "sample_size": 20,
+    "engine_directional_alignment_pct": 85.0,
+    "naive_persistence_baseline_pct": 80.0,
+    "incremental_gain_pct": 5.0
+  },
+  "dosm_wages": {
+    "sample_size": 4,
+    "engine_directional_alignment_pct": 100.0,
+    "naive_positive_baseline_pct": 100.0,
+    "incremental_gain_pct": 0.0
+  },
+  "openalex": {
+    "sample_size": 16,
+    "engine_directional_alignment_pct": 100.0,
+    "naive_continuation_baseline_pct": 100.0,
+    "incremental_gain_pct": 0.0
+  },
+  "scientific_conclusion": "Engine achieves strong directional consistency with historical observations, but performance reflects structural persistence and macro expansion identical to naive baselines. It validates internal data consistency, not predictive foresight."
+}

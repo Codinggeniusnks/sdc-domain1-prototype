@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "module": "M4_PERSONALISED_RESKILLING_PATHWAY_ENGINE",
+  "reference_date": "2026-10-23",
+  "priority_scoring": {
+    "requirement_strength_scores": {
+      "CORE_REQUIREMENT": 100.0,
+      "IMPORTANT": 60.0,
+      "IMPORTANT_REQUIREMENT": 60.0,
+      "SUPPORTING": 30.0,
+      "SUPPORTING_REQUIREMENT": 30.0
+    },
+    "dimension_weights": {
+      "requirement_strength": 0.45,
+      "skill_deficit": 0.25,
+      "transferability": 0.15,
+      "scenario_relevance": 0.15
+    },
+    "prerequisite_ordering_rule": "TOPOLOGICAL_DAG_MANDATORY",
+    "core_first_priority_guarantee": true
+  },
+  "scenario_adjustments": {
+    "REFERENCE_2026": {
+      "description": "Baseline labor market outlook without disruptive shock.",
+      "skill_urgency_bonus": {}
+    },
+    "MODERATE_COPILOT": {
+      "description": "Enterprise copilot diffusion; moderate elevation of workflow and prompt skills.",
+      "skill_urgency_bonus": {
+        "prompt_engineering": 12.0,
+        "workflow_automation": 10.0,
+        "ai_literacy": 8.0,
+        "human_in_the_loop_qa": 8.0
+      }
+    },
+    "FAST_AGENTIC": {
+      "description": "Autonomous multi-agent systems; high elevation of systems integration, governance, and RAG.",
+      "skill_urgency_bonus": {
+        "rag_knowledge_systems": 20.0,
+        "api_integration": 15.0,
+        "prompt_engineering": 15.0,
+        "workflow_automation": 15.0,
+        "ai_ethics_governance": 15.0,
+        "human_in_the_loop_qa": 12.0
+      }
+    }
+  },
+  "learning_time_estimation": {
+    "effort_categories": {
+      "QUICK_FOUNDATION": {
+        "min_hours": 5,
+        "max_hours": 15,
+        "description": "Conceptual orientation or short tool tutorial."
+      },
+      "SHORT": {
+        "min_hours": 15,
+        "max_hours": 30,
+        "description": "Focused operational skill development."
+      },
+      "MODERATE": {
+        "min_hours": 30,
+        "max_hours": 60,
+        "description": "Substantive technical or analytical competency."
+      },
+      "SUBSTANTIAL": {
+        "min_hours": 60,
+        "max_hours": 120,
+        "description": "Comprehensive multi-domain engineering or governance mastery."
+      }
+    },
+    "base_skill_effort_hours": {
+      "ai_literacy": [10, 15],
+      "prompt_engineering": [10, 15],
+      "python_scripting": [40, 60],
+      "sql_data_analysis": [20, 35],
+      "data_visualization": [15, 25],
+      "process_mapping": [15, 25],
+      "workflow_automation": [15, 30],
+      "api_integration": [20, 35],
+      "rag_knowledge_systems": [25, 45],
+      "data_privacy_pdpa": [10, 20],
+      "ai_ethics_governance": [10, 20],
+      "human_in_the_loop_qa": [15, 25],
+      "esg_sustainability_reporting": [20, 35],
+      "carbon_footprint_analytics": [20, 35],
+      "instructional_design": [20, 35],
+      "stakeholder_communication": [10, 20]
+    },
+    "deficit_effort_scaling": {
+      "min_multiplier": 0.50,
+      "max_multiplier": 1.00,
+      "formula": "base_hours * (0.50 + 0.50 * deficit)"
+    }
+  },
+  "pathway_evidence_confidence": {
+    "component_weights": {
+      "skill_gap_evidence": 0.30,
+      "prerequisite_evidence_quality": 0.25,
+      "resource_verification_quality": 0.25,
+      "resource_freshness": 0.20
+    },
+    "confidence_label_thresholds": {
+      "HIGH": {"min_score": 75.0, "max_score": 100.0},
+      "MEDIUM": {"min_score": 50.0, "max_score": 74.99},
+      "LOW": {"min_score": 25.0, "max_score": 49.99},
+      "INSUFFICIENT": {"min_score": 0.0, "max_score": 24.99}
+    }
+  },
+  "cost_policy": {
+    "default_preference": "FREE_FIRST",
+    "low_cost_threshold_myr": 150.0,
+    "low_cost_threshold_usd": 35.0,
+    "unknown_cost_handling": "PRESERVE_AS_UNKNOWN_NEVER_ZERO"
+  },
+  "sanitization": {
+    "protected_attributes_to_strip": [
+      "age",
+      "gender",
+      "sex",
+      "race",
+      "ethnicity",
+      "religion",
+      "income",
+      "salary",
+      "postcode",
+      "address",
+      "school",
+      "university",
+      "marital_status",
+      "disability",
+      "nationality",
+      "sexual_orientation"
+    ]
+  }
+}

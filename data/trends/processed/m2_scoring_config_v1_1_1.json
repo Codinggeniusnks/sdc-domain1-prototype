@@ -1,0 +1,64 @@
+{
+  "version": "1.1.1",
+  "parent_version": "1.1.0",
+  "reference_date": "2026-10-23",
+  "active_benchmark": "ILO_WP140_2025",
+  "historical_reference_benchmark": "ILO_WP96_2023",
+  "supported_benchmarks": [
+    "ILO_WP96_2023",
+    "ILO_WP140_2025"
+  ],
+  "normalization_transforms": {
+    "demand_shortage": {
+      "method": "soft_bound_asymptotic",
+      "pivot": 85.0,
+      "max_target": 96.0
+    },
+    "demand_momentum": {
+      "method": "soft_bound_asymptotic",
+      "pivot": 85.0,
+      "max_target": 95.0
+    },
+    "research_momentum": {
+      "method": "log_baseline_shrinkage_and_asymptotic_exponential",
+      "shrinkage_formula": "w_vol = min(1.0, ln(1 + N_base) / ln(26))",
+      "adjusted_ratio_formula": "R_adj = 1.0 + (R_raw - 1.0) * w_vol",
+      "score_mapping_formula": "score = 50.0 + 44.0 * (1.0 - exp(-(R_adj - 1.0) / 4.0))",
+      "neutral_baseline": 50.0,
+      "asymptotic_ceiling": 94.0,
+      "tau": 4.0,
+      "low_base_threshold": 5
+    },
+    "policy_priority": {
+      "method": "hierarchical_tier_spacing",
+      "tiers": {
+        "ENACTED_LEGISLATION": 96.0,
+        "MANDATORY_REGULATION": 92.0,
+        "ACTIVE_MANDATE": 88.0,
+        "ACTIVE_NATIONAL_PRIORITY": 84.0,
+        "STRATEGIC_FRAMEWORK": 78.0,
+        "GENERAL_GUIDELINE": 60.0
+      }
+    }
+  },
+  "outlook_thresholds": {
+    "STRONGLY_RISING": {
+      "demand_momentum_min": 75,
+      "augmentation_min_auto": true,
+      "policy_min": 75
+    },
+    "RISING": {
+      "demand_momentum_min": 60,
+      "demand_shortage_min": 65
+    },
+    "STABLE": {
+      "demand_momentum_min": 45
+    },
+    "DECLINING": {
+      "automation_min_aug": true
+    },
+    "STRONGLY_DECLINING": {
+      "automation_ratio_min": 2.5
+    }
+  }
+}

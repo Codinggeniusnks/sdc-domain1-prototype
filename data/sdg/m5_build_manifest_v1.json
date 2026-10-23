@@ -1,0 +1,54 @@
+{
+  "engine_version": "1.0.0",
+  "engine_name": "M5 SDG Impact Mapping Engine",
+  "built_at": "2026-10-23T16:40:33.135572Z",
+  "status": "CANDIDATE_FOR_FREEZE",
+  "stage": "Stage 13A",
+  "canonical_skills_mapped": 16,
+  "masco_occupations_mapped": 20,
+  "official_sdg_goals_covered": 17,
+  "official_targets_indexed": 21,
+  "benchmarks_passed": "8/8",
+  "file_manifest": {
+    "data/sdg/sdg_goals_v1.json": {
+      "sha256": "5a2746dbe7531db8a218cb7fc8d7bc18aa77911cfc91499ee83f910165d5083d",
+      "bytes": 6127
+    },
+    "data/sdg/sdg_targets_v1.json": {
+      "sha256": "6df388e13757230b65e1bf35bcfc445290f871cd296e4fc41c93029564c88036",
+      "bytes": 9739
+    },
+    "data/sdg/skill_sdg_mappings_v1.json": {
+      "sha256": "3c8d075e72ceab3922bf503cea2bed4f2294145b47460ab7c47d13ffb3a013b7",
+      "bytes": 43496
+    },
+    "data/sdg/role_sdg_mappings_v1.json": {
+      "sha256": "1c298e9e9e905bb9626b1a439bbfa07c9e881e788b817c97284f443574b25290",
+      "bytes": 50440
+    },
+    "data/sdg/m5_config_v1.json": {
+      "sha256": "437108187306a3f4e50559ef98cc8431f9bafeb96df6766778b0e5e5b64255f0",
+      "bytes": 3153
+    },
+    "src/sdg_impact_engine.py": {
+      "sha256": "ad364fffa0616db6aa02a30db3bde69b11f63ef00adeff843b5b677f679a4a94",
+      "bytes": 22825
+    },
+    "scripts/build_sdg_reference.py": {
+      "sha256": "28d11d452001207b082215216930845cf8f0d2e88423de74e287c0bc4ae40642",
+      "bytes": 17067
+    },
+    "scripts/build_skill_sdg_mappings.py": {
+      "sha256": "59fff4928dd53b758388db07de034cc2a5cf43a73db4a5c6e14f92010545d361",
+      "bytes": 42944
+    },
+    "scripts/build_role_sdg_mappings.py": {
+      "sha256": "683be902977f9d296881916d98c282345d007879b67dd75ddd28c6b318dd7a69",
+      "bytes": 58102
+    },
+    "scripts/run_m5_benchmarks.py": {
+      "sha256": "9915b38506d83d3a963fc76bc99c83a7d9f094ed2529578b8cec231c8fcdd884",
+      "bytes": 11219
+    }
+  }
+}

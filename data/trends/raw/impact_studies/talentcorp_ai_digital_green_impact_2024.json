@@ -1,0 +1,287 @@
+{
+  "publication_title": "Impact Study of Artificial Intelligence (AI), Digital Economy and Green Economy on the Malaysian Workforce",
+  "publisher": "Talent Corporation Malaysia Berhad (TalentCorp), Ministry of Human Resources",
+  "publication_date": "2024-11-18",
+  "scope": "10 Strategic Sectors, 1,800+ Work Roles Evaluated Across Malaysia",
+  "methodology": "Enterprise Delphi Surveys, Expert Industry Focus Groups, Econometric Task Analysis",
+  "sectors_evaluated": [
+    "Information and Communications Technology (ICT)",
+    "Global Business Services (GBS)",
+    "Electrical & Electronics (E&E)",
+    "Energy & Power",
+    "Chemicals & Petrochemicals",
+    "Financial Services & Fintech",
+    "Healthcare & Medical Devices",
+    "Food Manufacturing & Agriculture",
+    "Aerospace & Precision Engineering",
+    "Wholesale, Retail & Logistics"
+  ],
+  "workforce_transitions": [
+    {
+      "role_title": "AI Ethics & Governance Auditor",
+      "masco_equivalent": "2422",
+      "sector": "ICT / Financial Services",
+      "transition_category": "EMERGING_ROLE",
+      "time_horizon": "Immediate (0-12 months)",
+      "impact_summary": "Brand new oversight role created to audit generative AI systems, ensure adherence to MOSTI's National AI Governance & Ethics (AIGE) guidelines, and verify algorithmic fairness.",
+      "task_changes": "Reviewing training datasets for demographic bias, stress-testing LLM outputs for hallucinations, auditing compliance with PDPA 2024 amendments, and establishing human-in-the-loop escalation criteria.",
+      "technology_drivers": [
+        "Generative AI / Foundation Models",
+        "MOSTI AIGE Guidelines",
+        "PDPA Amendment Act 2024"
+      ],
+      "required_future_skills": [
+        "ai_ethics_governance",
+        "data_privacy_pdpa",
+        "human_in_the_loop_qa",
+        "ai_literacy"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 4 (ICT & Digital Sector), p. 62"
+    },
+    {
+      "role_title": "Prompt Engineer & LLM Context Architect",
+      "masco_equivalent": "2512",
+      "sector": "ICT / Global Business Services",
+      "transition_category": "EMERGING_ROLE",
+      "time_horizon": "Immediate (0-12 months)",
+      "impact_summary": "Emerged to bridge domain experts and large language models via structured prompt templates, retrieval-augmented grounding, and schema-constrained output validation.",
+      "task_changes": "Constructing few-shot prompts with dynamic context injection, designing verification rubrics, integrating vector databases for grounding, and minimizing hallucination rates.",
+      "technology_drivers": [
+        "Retrieval-Augmented Generation (RAG)",
+        "Enterprise LLM Workspaces",
+        "Context Window Expansion"
+      ],
+      "required_future_skills": [
+        "prompt_engineering",
+        "rag_knowledge_systems",
+        "ai_literacy",
+        "human_in_the_loop_qa"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 4 (ICT & Digital Sector), p. 68"
+    },
+    {
+      "role_title": "Carbon Accounting & Sustainability Analyst",
+      "masco_equivalent": "2143",
+      "sector": "Energy & Power / Chemical / Manufacturing",
+      "transition_category": "EMERGING_ROLE",
+      "time_horizon": "Immediate (0-12 months)",
+      "impact_summary": "Created by Bursa Malaysia's mandatory ESG reporting regulations, requiring organizations to measure, report, and verify greenhouse gas Scope 1, 2, and 3 emissions.",
+      "task_changes": "Calculating emissions factors across supply chains, preparing carbon telemetry dashboards, modeling decarbonization pathways, and ensuring alignment with ISSB/TCFD standards.",
+      "technology_drivers": [
+        "Bursa Malaysia ESG Reporting Framework",
+        "National Energy Transition Roadmap (NETR)",
+        "EU CBAM"
+      ],
+      "required_future_skills": [
+        "esg_sustainability_reporting",
+        "carbon_footprint_analytics",
+        "sql_data_analysis",
+        "data_visualization"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 6 (Green Economy & Energy), p. 114"
+    },
+    {
+      "role_title": "Agentic Workflow Orchestrator",
+      "masco_equivalent": "2511",
+      "sector": "Global Business Services / ICT",
+      "transition_category": "EMERGING_ROLE",
+      "time_horizon": "Medium-Term (1-3 years)",
+      "impact_summary": "Specialized role linking enterprise APIs, multi-agent LLM systems, and robotic process automation into end-to-end resilient business pipelines.",
+      "task_changes": "Decomposing complex enterprise workflows into autonomous tool-using agents, embedding deterministic rollback logic, and establishing manual approval gates.",
+      "technology_drivers": [
+        "Multi-Agent AI Frameworks",
+        "API Microservices",
+        "Enterprise Process Mining"
+      ],
+      "required_future_skills": [
+        "workflow_automation",
+        "process_mapping",
+        "api_integration",
+        "human_in_the_loop_qa"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 5 (GBS & Shared Services), p. 89"
+    },
+    {
+      "role_title": "Corporate Reskilling & Competency Architect",
+      "masco_equivalent": "2424",
+      "sector": "Wholesale, Retail & Corporate Services",
+      "transition_category": "EMERGING_ROLE",
+      "time_horizon": "Medium-Term (1-3 years)",
+      "impact_summary": "Designs evidence-based adult workforce reskilling curricula to facilitate rapid talent redeployment from automatable clerical tasks into digital and green roles.",
+      "task_changes": "Conducting skills gap audits, mapping national TVET and NOSS occupational standards, designing bite-sized digital learning modules, and tracking post-training mobility.",
+      "technology_drivers": [
+        "HRD Corp National TVET Strategy",
+        "Enterprise Workforce Reskilling Imperative"
+      ],
+      "required_future_skills": [
+        "instructional_design",
+        "stakeholder_communication",
+        "ai_literacy"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 3 (Cross-Cutting Workforce Strategy), p. 45"
+    },
+    {
+      "role_title": "Enterprise Software Developer",
+      "masco_equivalent": "2512",
+      "sector": "ICT / Financial Services / Manufacturing",
+      "transition_category": "HIGHLY_IMPACTED_ROLE",
+      "time_horizon": "Immediate (0-12 months)",
+      "impact_summary": "Experiencing >50% task disruption from AI coding assistants (GitHub Copilot, Cursor, CodeLlama), shifting focus from boilerplate syntax authoring to architecture, security, and verification.",
+      "task_changes": "Reviewing AI-generated code snippets, conducting automated security and unit tests, orchestrating REST APIs, and implementing robust error-handling fallback logic.",
+      "technology_drivers": [
+        "AI Code Generation & Completion Tools",
+        "Cloud-Native Infrastructure",
+        "Automated Testing Platforms"
+      ],
+      "required_future_skills": [
+        "python_scripting",
+        "api_integration",
+        "human_in_the_loop_qa",
+        "sql_data_analysis"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 4 (ICT & Digital Sector), p. 72"
+    },
+    {
+      "role_title": "Systems Analyst & Business Consultant",
+      "masco_equivalent": "2511",
+      "sector": "ICT / Management Consulting",
+      "transition_category": "HIGHLY_IMPACTED_ROLE",
+      "time_horizon": "Immediate (0-12 months)",
+      "impact_summary": "Over 50% of routine requirements gathering, documentation, and user story generation is automated by generative AI, elevating the role to human-in-the-loop process engineering.",
+      "task_changes": "Conducting stakeholder interviews for complex organizational bottlenecks, formalizing BPMN process flows, validating algorithmic decision gates, and advising leadership on AI change management.",
+      "technology_drivers": [
+        "Process Intelligence Tools",
+        "Generative Document Synthesis",
+        "Low-Code/No-Code Platforms"
+      ],
+      "required_future_skills": [
+        "process_mapping",
+        "workflow_automation",
+        "stakeholder_communication",
+        "ai_ethics_governance"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 4 (ICT & Digital Sector), p. 75"
+    },
+    {
+      "role_title": "Financial Auditor & Compliance Analyst",
+      "masco_equivalent": "2411",
+      "sector": "Financial Services / Professional Services",
+      "transition_category": "HIGHLY_IMPACTED_ROLE",
+      "time_horizon": "Medium-Term (1-3 years)",
+      "impact_summary": "Routine transaction auditing and ledger reconciliations are heavily automated by machine learning, shifting audit work to non-financial assurance, ESG auditing, and fraud anomaly investigation.",
+      "task_changes": "Validating corporate greenhouse gas disclosures, querying enterprise relational databases with SQL to detect outliers, and auditing compliance with Bursa Malaysia ESG standards.",
+      "technology_drivers": [
+        "Continuous Automated Auditing",
+        "Bursa Malaysia ESG Disclosure Mandate",
+        "Text-to-SQL Analytics"
+      ],
+      "required_future_skills": [
+        "esg_sustainability_reporting",
+        "sql_data_analysis",
+        "data_visualization",
+        "process_mapping"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 7 (Financial Services), p. 132"
+    },
+    {
+      "role_title": "Semiconductor IC Design & Verification Engineer",
+      "masco_equivalent": "2152",
+      "sector": "Electrical & Electronics (E&E)",
+      "transition_category": "TRANSFORMING_ROLE",
+      "time_horizon": "Medium-Term (1-3 years)",
+      "impact_summary": "AI tools accelerate design layout synthesis, test vector generation, and timing closure; human engineers focus on high-level architecture, thermal limits, and physical verification.",
+      "task_changes": "Writing Python testbenches, directing AI synthesis toolchains, analyzing simulation telemetry, and ensuring semiconductor yield optimization under the National Semiconductor Strategy.",
+      "technology_drivers": [
+        "AI-Enhanced EDA Toolchains",
+        "National Semiconductor Strategy (NSS)",
+        "High-Performance Computing (HPC)"
+      ],
+      "required_future_skills": [
+        "python_scripting",
+        "human_in_the_loop_qa",
+        "process_mapping"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 8 (E&E and Semiconductor), p. 156"
+    },
+    {
+      "role_title": "Renewable Energy Grid Engineer",
+      "masco_equivalent": "2151",
+      "sector": "Energy & Power",
+      "transition_category": "TRANSFORMING_ROLE",
+      "time_horizon": "Medium-Term (1-3 years)",
+      "impact_summary": "Transitioning power grids to variable renewable energy (solar, hydro) requires smart telemetry, battery storage integration, and carbon-aware load balancing.",
+      "task_changes": "Monitoring distributed energy telemetry, modeling power dispatch algorithms, optimizing compute workloads during green power peaks, and reporting grid efficiency metrics.",
+      "technology_drivers": [
+        "National Energy Transition Roadmap (NETR)",
+        "Smart Grid IoT",
+        "Green Computing"
+      ],
+      "required_future_skills": [
+        "carbon_footprint_analytics",
+        "esg_sustainability_reporting",
+        "sql_data_analysis"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 6 (Green Economy & Energy), p. 120"
+    },
+    {
+      "role_title": "UI-UX & Product Designer",
+      "masco_equivalent": "2166",
+      "sector": "ICT / Digital Media",
+      "transition_category": "TRANSFORMING_ROLE",
+      "time_horizon": "Immediate (0-12 months)",
+      "impact_summary": "Generative imagery and rapid UI component generation streamline prototyping, shifting designer responsibility towards information architecture, accessibility, and user research.",
+      "task_changes": "Directing generative design tools via structured prompts, enforcing accessibility (WCAG) standards, designing interactive data visualizations, and optimizing design tokens.",
+      "technology_drivers": [
+        "Generative UI Frameworks",
+        "Design Token Systems",
+        "Figma AI"
+      ],
+      "required_future_skills": [
+        "data_visualization",
+        "prompt_engineering",
+        "stakeholder_communication"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 4 (ICT & Digital Sector), p. 81"
+    },
+    {
+      "role_title": "Data Entry & Document Processing Clerk",
+      "masco_equivalent": "4110",
+      "sector": "Global Business Services / Public Sector / Retail",
+      "transition_category": "DECLINING_OR_CONSOLIDATING_ROLE",
+      "time_horizon": "Immediate (0-12 months)",
+      "impact_summary": "High vulnerability to full automation as OCR combined with multi-modal LLMs extracts, structures, and posts invoice and form data with >98% accuracy without manual typing.",
+      "task_changes": "Routine manual keying is replaced by automated ingestion pipelines; surviving staff must transition into human-in-the-loop verification or prompt optimization.",
+      "technology_drivers": [
+        "Multimodal Document AI",
+        "Robotic Process Automation",
+        "Automated Optical Character Recognition"
+      ],
+      "required_future_skills": [
+        "ai_literacy",
+        "process_mapping",
+        "human_in_the_loop_qa"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 5 (GBS & Administrative Operations), p. 98"
+    },
+    {
+      "role_title": "Basic Bookkeeping & Accounting Clerk",
+      "masco_equivalent": "4311",
+      "sector": "Financial Services / Wholesale & Retail",
+      "transition_category": "DECLINING_OR_CONSOLIDATING_ROLE",
+      "time_horizon": "Immediate (0-12 months)",
+      "impact_summary": "Significant displacement of entry-level ledger posting and invoice reconciliation by cloud accounting platforms and automated banking APIs.",
+      "task_changes": "Automated matching of receipts, automated invoice generation; workers advised to upskill into junior financial data analysis and SQL querying.",
+      "technology_drivers": [
+        "Cloud Accounting ERPs",
+        "Automated Bank Feed APIs",
+        "E-Invoicing Mandate (LHDN)"
+      ],
+      "required_future_skills": [
+        "sql_data_analysis",
+        "process_mapping",
+        "ai_literacy"
+      ],
+      "evidence_reference": "TalentCorp Impact Study 2024, Chapter 7 (Financial Services), p. 138"
+    }
+  ]
+}

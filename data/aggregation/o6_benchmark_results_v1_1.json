@@ -1,0 +1,162 @@
+{
+  "engine_name": "O6 SDG Contribution Aggregation Engine",
+  "version": "1.1.0",
+  "timestamp": "2026-10-23T18:42:24.130261Z",
+  "total_benchmarks": 13,
+  "passed_count": 13,
+  "all_passed": true,
+  "benchmarks": [
+    {
+      "benchmark_id": "BM01_SINGLE_INDIVIDUAL_ALIGNMENT",
+      "description": "Validation of descriptive individual alignment metrics without personal SDG scores or employee ranking",
+      "profile_id": "SYN_PROF_001",
+      "aligned_sdgs": [
+        8,
+        9
+      ],
+      "aligned_sdg_count": 2,
+      "direct_mappings": 0,
+      "enabling_mappings": 3,
+      "contextual_mappings": 0,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM02_MULTI_SKILL_INDIVIDUAL_DEDUPLICATION",
+      "description": "Validation that a profile holding multiple skills mapping to the same SDG counts the SDG exactly once",
+      "profile_id": "SYN_PROF_001",
+      "unique_sdg_count": 2,
+      "duplicate_sdg_detected": false,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM03_COHORT_ABOVE_PRIVACY_THRESHOLD",
+      "description": "Validation of full statistical aggregation for cohort meeting privacy threshold (N=16 >= 5)",
+      "cohort_id": "DIGITAL_SERVICES",
+      "eligible_count": 16,
+      "suppressed": false,
+      "sdg_8_prevalence_pct": 100.0,
+      "sdg_9_prevalence_pct": 81.25,
+      "mapping_shares": {
+        "direct": 0.0,
+        "enabling": 0.8772,
+        "contextual": 0.1228
+      },
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM04_COHORT_BELOW_PRIVACY_THRESHOLD",
+      "description": "Validation of complete statistical suppression for small cohorts (N=4 < 5) to prevent disclosure",
+      "cohort_id": "SMALL_TEST_GROUP",
+      "eligible_count": 4,
+      "suppressed": true,
+      "suppression_reason": "SUPPRESSED_SMALL_COHORT",
+      "distributions_suppressed": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM05_MIXED_ROLE_COHORT_FLAG_PROPAGATION",
+      "description": "Validation of role diversity and propagation of M5 sector-dependence and medium-confidence flags",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "eligible_count": 14,
+      "roles_represented": [
+        "1330",
+        "2151",
+        "2152",
+        "2424",
+        "2511",
+        "2512",
+        "2522",
+        "3514"
+      ],
+      "sector_dependent_flag_propagated": true,
+      "medium_confidence_flag_propagated": true,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM06_SCENARIO_COMPARISON",
+      "description": "Validation of foresight scenario integration without altering underlying M5 qualitative mappings",
+      "cohort_id": "DIGITAL_SERVICES",
+      "scenarios_evaluated": [
+        "REFERENCE_2026",
+        "MODERATE_COPILOT",
+        "FAST_AGENTIC"
+      ],
+      "fast_agentic_roles_foresight_count": 9,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM07_CURRENT_VS_POST_PATHWAY_CAPABILITY",
+      "description": "Validation of temporal capability scenario comparison with mandatory projection disclaimers",
+      "cohort_id": "GREEN_TRANSITION",
+      "current_sdg12_skills_count": 3,
+      "post_pathway_sdg12_skills_count": 3,
+      "current_label": "CURRENT_CAPABILITIES",
+      "post_pathway_label": "PROJECTED CAPABILITY ALIGNMENT IF PATHWAY COMPLETED",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM08_REGIONAL_SYNTHETIC_AGGREGATION",
+      "description": "Validation of regional synthetic population aggregation with non-identifying geography disclaimer",
+      "region_id": "REGION_A",
+      "eligible_count": 19,
+      "suppressed": false,
+      "sdg_alignment_prevalence_keys": [
+        "SDG_1",
+        "SDG_2",
+        "SDG_3",
+        "SDG_4",
+        "SDG_5"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM09_MALFORMED_PROFILE_EXCLUSION",
+      "description": "Validation that malformed, empty, None, and non-dict records are quarantined and excluded from denominator",
+      "input_profile_count": 11,
+      "eligible_profile_count": 7,
+      "excluded_profile_count": 4,
+      "excluded_by_reason": {
+        "INCOMPLETE_PROFILE_DATA": 2,
+        "INVALID_PROFILE_TYPE": 2,
+        "DUPLICATE_PROFILE_ID": 0
+      },
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM10_COMPLEMENTARY_SUPPRESSION",
+      "description": "Validation of partition-aware complementary suppression preventing subtraction recovery in N=10 (6+4)",
+      "parent_count": 10,
+      "small_cells_suppressed": [
+        "DEPT_B"
+      ],
+      "complementary_suppressed_cells": [
+        "DEPT_A"
+      ],
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM11_MAPPING_TYPE_DEDUP",
+      "description": "Validation of canonical counting unit (i, t, tau) deduplicating multiple skill/role instances",
+      "counting_unit": "UNIQUE_PROFILE_TARGET_MAPPING_TYPE_RELATION",
+      "total_relations": 19,
+      "shares_sum": 1.0,
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM12_FAIRNESS_CLAIM_SEMANTICS",
+      "description": "Validation of structural non-use fairness language and absolute removal of empirical DIR claims",
+      "protected_attributes_used": false,
+      "demographic_fairness_evaluated": false,
+      "fairness_scope": "STRUCTURAL_PROTECTED_ATTRIBUTE_NON_USE",
+      "passed": true
+    },
+    {
+      "benchmark_id": "BM13_REGIONAL_RUNTIME_DISCLAIMER",
+      "description": "Validation of runtime JSON representativeness disclaimer and pathway alignment coverage scope",
+      "cohort_data_source_class": "SYNTHETIC_DEMO",
+      "region_data_source_class": "SYNTHETIC_DEMO",
+      "pathway_scope": "PLANNED_CURRICULUM_SKILL_STEPS",
+      "passed": true
+    }
+  ]
+}

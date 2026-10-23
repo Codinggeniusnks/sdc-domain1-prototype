@@ -1,0 +1,1779 @@
+{
+  "dataset_name": "Synthetic Workforce Intelligence Profiles v1.0",
+  "dataset_version": "1.0.0",
+  "total_profiles": 50,
+  "synthetic_cohorts": [
+    {
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "profile_count": 14
+    },
+    {
+      "cohort_id": "BUSINESS_SERVICES",
+      "profile_count": 8
+    },
+    {
+      "cohort_id": "DIGITAL_SERVICES",
+      "profile_count": 16
+    },
+    {
+      "cohort_id": "GREEN_TRANSITION",
+      "profile_count": 12
+    }
+  ],
+  "synthetic_regions": [
+    {
+      "region_id": "REGION_A",
+      "profile_count": 19
+    },
+    {
+      "region_id": "REGION_B",
+      "profile_count": 17
+    },
+    {
+      "region_id": "REGION_C",
+      "profile_count": 14
+    }
+  ],
+  "demographic_fields_present": false,
+  "pii_present": false,
+  "purpose": "O6 SDG Contribution Aggregation Engine Development and Testing",
+  "profiles": [
+    {
+      "profile_id": "SYN_PROF_001",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2512",
+        "role_title": "Software Developers"
+      },
+      "confirmed_skills": [
+        "python_scripting",
+        "api_integration",
+        "sql_data_analysis"
+      ],
+      "target_role": {
+        "masco_code": "2529",
+        "role_title": "Database and Network Professionals NEC (AI & Data Science Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "rag_knowledge_systems",
+          "prompt_engineering",
+          "ai_ethics_governance"
+        ],
+        "core_gaps": [
+          "rag_knowledge_systems",
+          "ai_ethics_governance"
+        ],
+        "important_gaps": [
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_002",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "3514",
+        "role_title": "Web Technicians and Cloud Operators"
+      },
+      "confirmed_skills": [
+        "api_integration",
+        "workflow_automation"
+      ],
+      "target_role": {
+        "masco_code": "2512",
+        "role_title": "Software Developers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "sql_data_analysis",
+          "prompt_engineering"
+        ],
+        "core_gaps": [
+          "python_scripting",
+          "sql_data_analysis"
+        ],
+        "important_gaps": [
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_003",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2521",
+        "role_title": "Database Designers and Administrators"
+      },
+      "confirmed_skills": [
+        "sql_data_analysis",
+        "data_visualization"
+      ],
+      "target_role": {
+        "masco_code": "2529",
+        "role_title": "Database and Network Professionals NEC (AI & Data Science Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "rag_knowledge_systems",
+          "data_privacy_pdpa"
+        ],
+        "core_gaps": [
+          "rag_knowledge_systems"
+        ],
+        "important_gaps": [
+          "python_scripting",
+          "data_privacy_pdpa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_004",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2511",
+        "role_title": "Systems Analysts"
+      },
+      "confirmed_skills": [
+        "process_mapping",
+        "sql_data_analysis",
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "2529",
+        "role_title": "Database and Network Professionals NEC (AI & Data Science Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "ai_literacy",
+          "prompt_engineering",
+          "ai_ethics_governance"
+        ],
+        "core_gaps": [
+          "ai_ethics_governance",
+          "prompt_engineering"
+        ],
+        "important_gaps": [
+          "ai_literacy"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_005",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2166",
+        "role_title": "Graphic and Multimedia Designers (UI/UX Designers)"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication",
+        "ai_literacy"
+      ],
+      "target_role": {
+        "masco_code": "2512",
+        "role_title": "Software Developers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "prompt_engineering",
+          "workflow_automation",
+          "human_in_the_loop_qa"
+        ],
+        "core_gaps": [
+          "workflow_automation"
+        ],
+        "important_gaps": [
+          "prompt_engineering",
+          "human_in_the_loop_qa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_006",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2522",
+        "role_title": "Systems Administrators and Cloud Infrastructure Specialists"
+      },
+      "confirmed_skills": [
+        "workflow_automation",
+        "api_integration"
+      ],
+      "target_role": {
+        "masco_code": "2519",
+        "role_title": "Software and Applications Developers NEC (Cloud & Integration Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "data_privacy_pdpa",
+          "human_in_the_loop_qa"
+        ],
+        "core_gaps": [
+          "data_privacy_pdpa"
+        ],
+        "important_gaps": [
+          "python_scripting",
+          "human_in_the_loop_qa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_007",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "1330",
+        "role_title": "Information and Communications Technology Services Managers"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication",
+        "process_mapping",
+        "ai_literacy"
+      ],
+      "target_role": {
+        "masco_code": "1330",
+        "role_title": "Information and Communications Technology Services Managers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "ai_ethics_governance",
+          "data_privacy_pdpa",
+          "esg_sustainability_reporting"
+        ],
+        "core_gaps": [
+          "ai_ethics_governance",
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "data_privacy_pdpa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_008",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2519",
+        "role_title": "Software and Applications Developers NEC (Cloud & Integration Specialists)"
+      },
+      "confirmed_skills": [
+        "python_scripting",
+        "api_integration"
+      ],
+      "target_role": {
+        "masco_code": "2519",
+        "role_title": "Software and Applications Developers NEC (Cloud & Integration Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "workflow_automation",
+          "rag_knowledge_systems",
+          "prompt_engineering"
+        ],
+        "core_gaps": [
+          "rag_knowledge_systems"
+        ],
+        "important_gaps": [
+          "workflow_automation",
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_009",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2512",
+        "role_title": "Software Developers"
+      },
+      "confirmed_skills": [
+        "python_scripting",
+        "sql_data_analysis"
+      ],
+      "target_role": {
+        "masco_code": "2512",
+        "role_title": "Software Developers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "human_in_the_loop_qa",
+          "prompt_engineering",
+          "ai_ethics_governance"
+        ],
+        "core_gaps": [
+          "human_in_the_loop_qa"
+        ],
+        "important_gaps": [
+          "prompt_engineering",
+          "ai_ethics_governance"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_010",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "3514",
+        "role_title": "Web Technicians and Cloud Operators"
+      },
+      "confirmed_skills": [
+        "workflow_automation",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2522",
+        "role_title": "Systems Administrators and Cloud Infrastructure Specialists"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "api_integration",
+          "python_scripting",
+          "data_privacy_pdpa"
+        ],
+        "core_gaps": [
+          "api_integration"
+        ],
+        "important_gaps": [
+          "python_scripting",
+          "data_privacy_pdpa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_011",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2529",
+        "role_title": "Database and Network Professionals NEC (AI & Data Science Specialists)"
+      },
+      "confirmed_skills": [
+        "python_scripting",
+        "sql_data_analysis",
+        "rag_knowledge_systems"
+      ],
+      "target_role": {
+        "masco_code": "2529",
+        "role_title": "Database and Network Professionals NEC (AI & Data Science Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "ai_ethics_governance",
+          "data_privacy_pdpa",
+          "carbon_footprint_analytics"
+        ],
+        "core_gaps": [
+          "carbon_footprint_analytics"
+        ],
+        "important_gaps": [
+          "ai_ethics_governance",
+          "data_privacy_pdpa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_012",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2166",
+        "role_title": "Graphic and Multimedia Designers (UI/UX Designers)"
+      },
+      "confirmed_skills": [
+        "ai_literacy",
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "2166",
+        "role_title": "Graphic and Multimedia Designers (UI/UX Designers)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "prompt_engineering",
+          "human_in_the_loop_qa",
+          "instructional_design"
+        ],
+        "core_gaps": [
+          "prompt_engineering"
+        ],
+        "important_gaps": [
+          "human_in_the_loop_qa",
+          "instructional_design"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_013",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2511",
+        "role_title": "Systems Analysts"
+      },
+      "confirmed_skills": [
+        "sql_data_analysis",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2421",
+        "role_title": "Management and Organization Analysts (Transformation Consultants)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "ai_literacy",
+          "data_visualization",
+          "esg_sustainability_reporting"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "ai_literacy",
+          "data_visualization"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_014",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2512",
+        "role_title": "Software Developers"
+      },
+      "confirmed_skills": [
+        "python_scripting",
+        "api_integration"
+      ],
+      "target_role": {
+        "masco_code": "2529",
+        "role_title": "Database and Network Professionals NEC (AI & Data Science Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "prompt_engineering",
+          "rag_knowledge_systems",
+          "human_in_the_loop_qa"
+        ],
+        "core_gaps": [
+          "rag_knowledge_systems"
+        ],
+        "important_gaps": [
+          "prompt_engineering",
+          "human_in_the_loop_qa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_015",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2521",
+        "role_title": "Database Designers and Administrators"
+      },
+      "confirmed_skills": [
+        "sql_data_analysis",
+        "data_visualization"
+      ],
+      "target_role": {
+        "masco_code": "2521",
+        "role_title": "Database Designers and Administrators"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "data_privacy_pdpa",
+          "workflow_automation"
+        ],
+        "core_gaps": [
+          "data_privacy_pdpa"
+        ],
+        "important_gaps": [
+          "workflow_automation"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_016",
+      "cohort_id": "DIGITAL_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "3514",
+        "role_title": "Web Technicians and Cloud Operators"
+      },
+      "confirmed_skills": [
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2519",
+        "role_title": "Software and Applications Developers NEC (Cloud & Integration Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "api_integration",
+          "workflow_automation"
+        ],
+        "core_gaps": [
+          "python_scripting",
+          "api_integration"
+        ],
+        "important_gaps": [
+          "workflow_automation"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_017",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "confirmed_skills": [
+        "process_mapping",
+        "workflow_automation"
+      ],
+      "target_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "carbon_footprint_analytics",
+          "python_scripting",
+          "data_visualization"
+        ],
+        "core_gaps": [
+          "carbon_footprint_analytics"
+        ],
+        "important_gaps": [
+          "python_scripting",
+          "data_visualization"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_018",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2152",
+        "role_title": "Electronic Engineers (Semiconductor / Microelectronics Specialists)"
+      },
+      "confirmed_skills": [
+        "python_scripting",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2152",
+        "role_title": "Electronic Engineers (Semiconductor / Microelectronics Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "workflow_automation",
+          "prompt_engineering",
+          "ai_literacy"
+        ],
+        "core_gaps": [
+          "workflow_automation"
+        ],
+        "important_gaps": [
+          "prompt_engineering",
+          "ai_literacy"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_019",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2511",
+        "role_title": "Systems Analysts"
+      },
+      "confirmed_skills": [
+        "sql_data_analysis",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2421",
+        "role_title": "Management and Organization Analysts (Transformation Consultants)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "workflow_automation",
+          "data_visualization",
+          "esg_sustainability_reporting"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "workflow_automation",
+          "data_visualization"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_020",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "confirmed_skills": [
+        "process_mapping",
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "workflow_automation",
+          "carbon_footprint_analytics"
+        ],
+        "core_gaps": [
+          "carbon_footprint_analytics"
+        ],
+        "important_gaps": [
+          "python_scripting",
+          "workflow_automation"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_021",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "3514",
+        "role_title": "Web Technicians and Cloud Operators"
+      },
+      "confirmed_skills": [
+        "workflow_automation"
+      ],
+      "target_role": {
+        "masco_code": "2522",
+        "role_title": "Systems Administrators and Cloud Infrastructure Specialists"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "api_integration",
+          "data_privacy_pdpa"
+        ],
+        "core_gaps": [
+          "python_scripting",
+          "data_privacy_pdpa"
+        ],
+        "important_gaps": [
+          "api_integration"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_022",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2152",
+        "role_title": "Electronic Engineers (Semiconductor / Microelectronics Specialists)"
+      },
+      "confirmed_skills": [
+        "python_scripting",
+        "api_integration"
+      ],
+      "target_role": {
+        "masco_code": "2152",
+        "role_title": "Electronic Engineers (Semiconductor / Microelectronics Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "prompt_engineering",
+          "human_in_the_loop_qa",
+          "rag_knowledge_systems"
+        ],
+        "core_gaps": [
+          "human_in_the_loop_qa"
+        ],
+        "important_gaps": [
+          "prompt_engineering",
+          "rag_knowledge_systems"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_023",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2424",
+        "role_title": "Training and Staff Development Professionals (Reskilling Specialists)"
+      },
+      "confirmed_skills": [
+        "instructional_design",
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "2424",
+        "role_title": "Training and Staff Development Professionals (Reskilling Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "ai_literacy",
+          "prompt_engineering",
+          "human_in_the_loop_qa"
+        ],
+        "core_gaps": [
+          "ai_literacy",
+          "prompt_engineering"
+        ],
+        "important_gaps": [
+          "human_in_the_loop_qa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_024",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "confirmed_skills": [
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "carbon_footprint_analytics",
+          "esg_sustainability_reporting",
+          "data_visualization"
+        ],
+        "core_gaps": [
+          "carbon_footprint_analytics",
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "data_visualization"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_025",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2512",
+        "role_title": "Software Developers"
+      },
+      "confirmed_skills": [
+        "python_scripting",
+        "sql_data_analysis"
+      ],
+      "target_role": {
+        "masco_code": "2519",
+        "role_title": "Software and Applications Developers NEC (Cloud & Integration Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "workflow_automation",
+          "api_integration",
+          "prompt_engineering"
+        ],
+        "core_gaps": [
+          "workflow_automation"
+        ],
+        "important_gaps": [
+          "api_integration",
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_026",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2152",
+        "role_title": "Electronic Engineers (Semiconductor / Microelectronics Specialists)"
+      },
+      "confirmed_skills": [
+        "process_mapping",
+        "workflow_automation"
+      ],
+      "target_role": {
+        "masco_code": "2152",
+        "role_title": "Electronic Engineers (Semiconductor / Microelectronics Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "sql_data_analysis",
+          "data_visualization"
+        ],
+        "core_gaps": [
+          "python_scripting"
+        ],
+        "important_gaps": [
+          "sql_data_analysis",
+          "data_visualization"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_027",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "1330",
+        "role_title": "Information and Communications Technology Services Managers"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "1330",
+        "role_title": "Information and Communications Technology Services Managers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "ai_ethics_governance",
+          "workflow_automation",
+          "esg_sustainability_reporting"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "ai_ethics_governance",
+          "workflow_automation"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_028",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2522",
+        "role_title": "Systems Administrators and Cloud Infrastructure Specialists"
+      },
+      "confirmed_skills": [
+        "workflow_automation",
+        "api_integration"
+      ],
+      "target_role": {
+        "masco_code": "2522",
+        "role_title": "Systems Administrators and Cloud Infrastructure Specialists"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "data_privacy_pdpa",
+          "prompt_engineering"
+        ],
+        "core_gaps": [
+          "data_privacy_pdpa"
+        ],
+        "important_gaps": [
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_029",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "3514",
+        "role_title": "Web Technicians and Cloud Operators"
+      },
+      "confirmed_skills": [
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2512",
+        "role_title": "Software Developers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "sql_data_analysis",
+          "api_integration"
+        ],
+        "core_gaps": [
+          "python_scripting",
+          "sql_data_analysis"
+        ],
+        "important_gaps": [
+          "api_integration"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_030",
+      "cohort_id": "ADVANCED_MANUFACTURING",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "confirmed_skills": [
+        "process_mapping",
+        "workflow_automation"
+      ],
+      "target_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "carbon_footprint_analytics",
+          "esg_sustainability_reporting"
+        ],
+        "core_gaps": [
+          "carbon_footprint_analytics"
+        ],
+        "important_gaps": [
+          "esg_sustainability_reporting"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_031",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "confirmed_skills": [
+        "carbon_footprint_analytics",
+        "esg_sustainability_reporting",
+        "data_visualization"
+      ],
+      "target_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "sql_data_analysis",
+          "workflow_automation"
+        ],
+        "core_gaps": [
+          "python_scripting",
+          "sql_data_analysis"
+        ],
+        "important_gaps": [
+          "workflow_automation"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_032",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2422",
+        "role_title": "Policy and Corporate Planning Professionals (Governance Specialists)"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication",
+        "process_mapping",
+        "data_privacy_pdpa"
+      ],
+      "target_role": {
+        "masco_code": "2422",
+        "role_title": "Policy and Corporate Planning Professionals (Governance Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "esg_sustainability_reporting",
+          "ai_ethics_governance",
+          "carbon_footprint_analytics"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting",
+          "carbon_footprint_analytics"
+        ],
+        "important_gaps": [
+          "ai_ethics_governance"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_033",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2411",
+        "role_title": "Accountants and Auditors"
+      },
+      "confirmed_skills": [
+        "sql_data_analysis",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2411",
+        "role_title": "Accountants and Auditors"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "esg_sustainability_reporting",
+          "carbon_footprint_analytics",
+          "data_visualization"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting",
+          "carbon_footprint_analytics"
+        ],
+        "important_gaps": [
+          "data_visualization"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_034",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "confirmed_skills": [
+        "carbon_footprint_analytics",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "esg_sustainability_reporting",
+          "rag_knowledge_systems",
+          "prompt_engineering"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "rag_knowledge_systems",
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_035",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "confirmed_skills": [
+        "process_mapping",
+        "python_scripting"
+      ],
+      "target_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "carbon_footprint_analytics",
+          "esg_sustainability_reporting",
+          "sql_data_analysis"
+        ],
+        "core_gaps": [
+          "carbon_footprint_analytics",
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "sql_data_analysis"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_036",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2421",
+        "role_title": "Management and Organization Analysts (Transformation Consultants)"
+      },
+      "confirmed_skills": [
+        "process_mapping",
+        "stakeholder_communication",
+        "data_visualization"
+      ],
+      "target_role": {
+        "masco_code": "2421",
+        "role_title": "Management and Organization Analysts (Transformation Consultants)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "esg_sustainability_reporting",
+          "carbon_footprint_analytics",
+          "workflow_automation"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "carbon_footprint_analytics",
+          "workflow_automation"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_037",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2424",
+        "role_title": "Training and Staff Development Professionals (Reskilling Specialists)"
+      },
+      "confirmed_skills": [
+        "instructional_design",
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "2424",
+        "role_title": "Training and Staff Development Professionals (Reskilling Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "esg_sustainability_reporting",
+          "ai_literacy",
+          "prompt_engineering"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "ai_literacy",
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_038",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "confirmed_skills": [
+        "carbon_footprint_analytics",
+        "esg_sustainability_reporting"
+      ],
+      "target_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "workflow_automation",
+          "api_integration",
+          "python_scripting"
+        ],
+        "core_gaps": [
+          "workflow_automation"
+        ],
+        "important_gaps": [
+          "api_integration",
+          "python_scripting"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_039",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "2422",
+        "role_title": "Policy and Corporate Planning Professionals (Governance Specialists)"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication",
+        "ai_ethics_governance"
+      ],
+      "target_role": {
+        "masco_code": "2422",
+        "role_title": "Policy and Corporate Planning Professionals (Governance Specialists)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "esg_sustainability_reporting",
+          "data_privacy_pdpa",
+          "carbon_footprint_analytics"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting",
+          "carbon_footprint_analytics"
+        ],
+        "important_gaps": [
+          "data_privacy_pdpa"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_040",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2411",
+        "role_title": "Accountants and Auditors"
+      },
+      "confirmed_skills": [
+        "sql_data_analysis",
+        "data_visualization"
+      ],
+      "target_role": {
+        "masco_code": "2411",
+        "role_title": "Accountants and Auditors"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "esg_sustainability_reporting",
+          "carbon_footprint_analytics"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting"
+        ],
+        "important_gaps": [
+          "carbon_footprint_analytics"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_041",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "confirmed_skills": [
+        "process_mapping",
+        "workflow_automation"
+      ],
+      "target_role": {
+        "masco_code": "2151",
+        "role_title": "Electrical Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "carbon_footprint_analytics",
+          "data_visualization"
+        ],
+        "core_gaps": [
+          "carbon_footprint_analytics"
+        ],
+        "important_gaps": [
+          "data_visualization"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_042",
+      "cohort_id": "GREEN_TRANSITION",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "confirmed_skills": [
+        "carbon_footprint_analytics"
+      ],
+      "target_role": {
+        "masco_code": "2143",
+        "role_title": "Environmental Engineers"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "esg_sustainability_reporting",
+          "sql_data_analysis",
+          "python_scripting"
+        ],
+        "core_gaps": [
+          "esg_sustainability_reporting",
+          "sql_data_analysis"
+        ],
+        "important_gaps": [
+          "python_scripting"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_043",
+      "cohort_id": "BUSINESS_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "4110",
+        "role_title": "General Office Clerks"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "3343",
+        "role_title": "Administrative and Executive Secretaries"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "workflow_automation",
+          "process_mapping",
+          "ai_literacy"
+        ],
+        "core_gaps": [
+          "workflow_automation",
+          "process_mapping"
+        ],
+        "important_gaps": [
+          "ai_literacy"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_044",
+      "cohort_id": "BUSINESS_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "4311",
+        "role_title": "Accounting and Bookkeeping Clerks"
+      },
+      "confirmed_skills": [
+        "sql_data_analysis"
+      ],
+      "target_role": {
+        "masco_code": "2411",
+        "role_title": "Accountants and Auditors"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "python_scripting",
+          "workflow_automation",
+          "data_visualization"
+        ],
+        "core_gaps": [
+          "python_scripting",
+          "data_visualization"
+        ],
+        "important_gaps": [
+          "workflow_automation"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_045",
+      "cohort_id": "BUSINESS_SERVICES",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "3343",
+        "role_title": "Administrative and Executive Secretaries"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "2421",
+        "role_title": "Management and Organization Analysts (Transformation Consultants)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "ai_literacy",
+          "prompt_engineering",
+          "workflow_automation"
+        ],
+        "core_gaps": [
+          "ai_literacy",
+          "workflow_automation"
+        ],
+        "important_gaps": [
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_046",
+      "cohort_id": "BUSINESS_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "3322",
+        "role_title": "Commercial Sales Representatives"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "3322",
+        "role_title": "Commercial Sales Representatives"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "ai_literacy",
+          "prompt_engineering",
+          "data_visualization"
+        ],
+        "core_gaps": [
+          "ai_literacy",
+          "prompt_engineering"
+        ],
+        "important_gaps": [
+          "data_visualization"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_047",
+      "cohort_id": "BUSINESS_SERVICES",
+      "region_id": "REGION_C",
+      "current_role": {
+        "masco_code": "4110",
+        "role_title": "General Office Clerks"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "4110",
+        "role_title": "General Office Clerks"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "prompt_engineering",
+          "ai_literacy",
+          "workflow_automation"
+        ],
+        "core_gaps": [
+          "ai_literacy",
+          "prompt_engineering"
+        ],
+        "important_gaps": [
+          "workflow_automation"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_048",
+      "cohort_id": "BUSINESS_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "4311",
+        "role_title": "Accounting and Bookkeeping Clerks"
+      },
+      "confirmed_skills": [
+        "sql_data_analysis",
+        "process_mapping"
+      ],
+      "target_role": {
+        "masco_code": "4311",
+        "role_title": "Accounting and Bookkeeping Clerks"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "workflow_automation",
+          "data_privacy_pdpa",
+          "prompt_engineering"
+        ],
+        "core_gaps": [
+          "workflow_automation"
+        ],
+        "important_gaps": [
+          "data_privacy_pdpa",
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "REFERENCE_2026"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_049",
+      "cohort_id": "BUSINESS_SERVICES",
+      "region_id": "REGION_B",
+      "current_role": {
+        "masco_code": "3343",
+        "role_title": "Administrative and Executive Secretaries"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication"
+      ],
+      "target_role": {
+        "masco_code": "3343",
+        "role_title": "Administrative and Executive Secretaries"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "prompt_engineering",
+          "workflow_automation",
+          "data_privacy_pdpa"
+        ],
+        "core_gaps": [
+          "workflow_automation",
+          "data_privacy_pdpa"
+        ],
+        "important_gaps": [
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "MODERATE_COPILOT"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    },
+    {
+      "profile_id": "SYN_PROF_050",
+      "cohort_id": "BUSINESS_SERVICES",
+      "region_id": "REGION_A",
+      "current_role": {
+        "masco_code": "3322",
+        "role_title": "Commercial Sales Representatives"
+      },
+      "confirmed_skills": [
+        "stakeholder_communication",
+        "data_visualization"
+      ],
+      "target_role": {
+        "masco_code": "2421",
+        "role_title": "Management and Organization Analysts (Transformation Consultants)"
+      },
+      "reskilling_pathway": {
+        "planned_skills": [
+          "process_mapping",
+          "workflow_automation",
+          "prompt_engineering"
+        ],
+        "core_gaps": [
+          "process_mapping",
+          "workflow_automation"
+        ],
+        "important_gaps": [
+          "prompt_engineering"
+        ]
+      },
+      "scenario_context": {
+        "assigned_scenario": "FAST_AGENTIC"
+      },
+      "data_classification": "SYNTHETIC_DEMO_NON_PII"
+    }
+  ]
+}

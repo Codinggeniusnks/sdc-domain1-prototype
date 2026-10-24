@@ -16,6 +16,8 @@
 >  **Team Name:** UM IS ONE
 > 
 >  **Team Domain:** Domain 1 - AIVERSECITY
+>
+> **Pitching Video Link:** https://youtu.be/KrkMWBcAENg
 
 ---
 

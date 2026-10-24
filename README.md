@@ -68,7 +68,6 @@
 | GitHub Repository | [GitHub Repository](https://github.com/Codinggeniusnks/sdc-domain1-prototype) |
 | Replit Project | [Replit Project](https://replit.com/@ngkaisheng09/sdc-domain1-prototype) |
 | Live Demo | [Live Demo](https://sdc-domain-1-prototype.replit.app/) |
-| RunPod Endpoint | |
 | Presentation Slides | [Presentation Slides](https://docs.google.com/presentation/d/1WhuUTFO1BWy2p7zjQNE8XjD6akBPNtlj/edit?slide=id.p1#slide=id.p1) |
 | Demo Video | [Demo Video](https://youtu.be/KrkMWBcAENg) |
 

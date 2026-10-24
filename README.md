@@ -23,7 +23,7 @@
 - **Release Date:** October 2026
 - **GitHub Repository:** [`https://github.com/Codinggeniusnks/sdc-domain1-prototype`](https://github.com/Codinggeniusnks/sdc-domain1-prototype)
 - **Target Branch:** `main`
-- **Live Demo / Deployment:** `[Pending 1-Click Replit Deploy — see artifacts/REPLIT_MANUAL_PUBLISH_STEPS.md]` (Autonomous Autoscale Configuration ready via `.replit`)
+- **Live Demo / Deployment:** `[https://sdc-domain-1-prototype.replit.app]` (Autonomous Autoscale Configuration ready via `.replit`)
 - **Automated Test Suite:** **361 passed** / 361 total (100% green, 0 failures, 0 errors, ~3.9s runtime)
 - **Security & PII Audit:** **755 files scanned, 0 secrets, 0 PII leaks**
 - **Production Smoke Tests:** **6 / 6 passed cleanly** (Health, 10 Tabs, Trilingual, Low-BW, Employer k=5, Audit Ledger)

@@ -11,7 +11,7 @@
 > 
 > **Deployment Status:** Fully Integrated, Independently Audited & Formally Frozen (12 Modules)
 > 
-> **Live Demo:** [Pending 1-Click Replit Deploy — see artifacts/REPLIT_MANUAL_PUBLISH_STEPS.md]
+> **Live Demo:** https://sdc-domain-1-prototype.replit.app
 
 ---
 

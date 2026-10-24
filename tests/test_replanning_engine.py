@@ -144,8 +144,8 @@ class TestReplanningEngine(unittest.TestCase):
 
     def test_duplicate_event_handling(self):
         """Duplicate event IDs must be rejected without mutating state."""
-        s1 = self.engine.build_state_snapshot(self.base_profile, state_id="S_PREV")
-        s2 = self.engine.build_state_snapshot(self.base_profile, state_id="S_NEW")
+        s1 = self.engine.build_state_snapshot(self.base_profile, state_id="S_PREV", created_at="2026-10-24T04:00:00Z")
+        s2 = self.engine.build_state_snapshot(self.base_profile, state_id="S_NEW", created_at="2026-10-24T04:00:00Z")
         evt = {"event_id": "EVT_TEST_DUP_01", "trigger_type": "MANUAL_REPLAN_REQUESTED", "timestamp": "2026-10-24T05:00:00Z"}
 
         res1 = self.engine.execute_candidate_replan(s1, evt, s2)
@@ -258,8 +258,8 @@ class TestReplanningEngine(unittest.TestCase):
 
     def test_human_acknowledgement_required_for_material_replan(self):
         """Material and High Materiality replans must require human acknowledgement."""
-        s_prev = self.engine.build_state_snapshot(self.base_profile, m3_output=[{"masco_code": "2511", "role_match_index": 80.0}])
-        s_cand = self.engine.build_state_snapshot(self.base_profile, m3_output=[{"masco_code": "2529", "role_match_index": 90.0}])
+        s_prev = self.engine.build_state_snapshot(self.base_profile, m3_output=[{"masco_code": "2511", "role_match_index": 80.0}], created_at="2026-10-24T04:00:00Z")
+        s_cand = self.engine.build_state_snapshot(self.base_profile, m3_output=[{"masco_code": "2529", "role_match_index": 90.0}], created_at="2026-10-24T04:00:00Z")
         evt = {"event_id": "EVT_MAT_ACK_01", "trigger_type": "M2_TREND_SNAPSHOT_UPDATED", "timestamp": "2026-10-24T05:00:00Z"}
 
         replan = self.engine.execute_candidate_replan(s_prev, evt, s_cand)
@@ -269,7 +269,7 @@ class TestReplanningEngine(unittest.TestCase):
 
     def test_responsible_ai_governance_invariants(self):
         """Confirms quality flags enforce non-employment use and partial differencing protection."""
-        s1 = self.engine.build_state_snapshot(self.base_profile)
+        s1 = self.engine.build_state_snapshot(self.base_profile, created_at="2026-10-24T04:00:00Z")
         evt = {"event_id": "EVT_GOV_01", "trigger_type": "MANUAL_REPLAN_REQUESTED", "timestamp": "2026-10-24T05:00:00Z"}
         replan = self.engine.execute_candidate_replan(s1, evt, s1)
 
@@ -341,7 +341,7 @@ class TestReplanningEngine(unittest.TestCase):
 
     def test_audit_ledger_record_fields(self):
         """Audit ledger records must include all required audit metadata."""
-        s1 = self.engine.build_state_snapshot(self.base_profile)
+        s1 = self.engine.build_state_snapshot(self.base_profile, created_at="2026-10-24T04:00:00Z")
         evt = {"event_id": "EVT_LEDGER_TEST", "trigger_type": "MANUAL_REPLAN_REQUESTED", "timestamp": "2026-10-24T05:00:00Z"}
         self.engine.execute_candidate_replan(s1, evt, s1)
 

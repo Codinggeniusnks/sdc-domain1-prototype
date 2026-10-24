@@ -7,17 +7,7 @@
 > 
 > **User-Facing Brand:** AI Skills Compass
 > 
-> **GitHub Repository:** https://github.com/Codinggeniusnks/sdc-domain1-prototype
-> 
 > **Deployment Status:** Fully Integrated, Independently Audited & Formally Frozen (12 Modules)
-> 
-> **Live Demo:** https://sdc-domain-1-prototype.replit.app
-> 
->  **Team Name:** UM IS ONE
-> 
->  **Team Domain:** Domain 1 - AIVERSECITY
->
-> **Pitching Video Link:** https://youtu.be/KrkMWBcAENg
 
 ---
 

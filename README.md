@@ -12,6 +12,10 @@
 > **Deployment Status:** Fully Integrated, Independently Audited & Formally Frozen (12 Modules)
 > 
 > **Live Demo:** https://sdc-domain-1-prototype.replit.app
+> 
+>  **Team Name:** UM IS ONE
+> 
+>  **Team Domain:** Domain 1 - AIVERSECITY
 
 ---
 

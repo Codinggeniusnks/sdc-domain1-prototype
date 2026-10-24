@@ -50,6 +50,30 @@
 
 ---
 
+## Team Information
+
+| Field | Details |
+| :--- | :--- |
+| Team Name | UM IS ONE |
+| Team Domain | Domain 1 |
+| SDG Track (1–17) | SDG 8 — Decent Work and Economic Growth |
+| Team Leader | ANG JI JIN |
+| University | Universiti Malaya |
+| Number of Members | 4 |
+
+## Links
+
+| Resource | Link |
+| :--- | :--- |
+| GitHub Repository | [GitHub Repository](https://github.com/Codinggeniusnks/sdc-domain1-prototype) |
+| Replit Project | [Replit Project](https://replit.com/@ngkaisheng09/sdc-domain1-prototype) |
+| Live Demo | [Live Demo](https://sdc-domain-1-prototype.replit.app/) |
+| RunPod Endpoint | |
+| Presentation Slides | [Presentation Slides](https://docs.google.com/presentation/d/1WhuUTFO1BWy2p7zjQNE8XjD6akBPNtlj/edit?slide=id.p1#slide=id.p1) |
+| Demo Video | [Demo Video](https://youtu.be/KrkMWBcAENg) |
+
+---
+
 ## 🏛️ Executive Summary & National Strategic Alignment
 
 Malaysia's digital and green industrial transformation under **NIMP 2030 (New Industrial Master Plan)** and the **NETR (National Energy Transition Roadmap)** demands an agile, resilient workforce. According to the **Hays Asia Salary Guide 2025**, 56% of Malaysian professionals utilize generative AI tools in daily workflows, yet only 26% have received structured organizational reskilling. **MOSTI** estimates over **600,000 Malaysian workers** will require significant capability augmentation over the next 3–5 years.

@@ -19,6 +19,7 @@
 | **Canonical Repository URL** | [`https://github.com/Codinggeniusnks/sdc-domain1-prototype`](https://github.com/Codinggeniusnks/sdc-domain1-prototype) |
 | **Target Release Branch** | `main` |
 | **Pre-Release Commit SHA** | `ed9d667fc2519d744806d0acac51ec8de8e11a8f` |
+| **Final Release Commit SHA** | `edadabf24f7b0905e7e09e02bc879394c68ba860` |
 | **Naming Decision Artifact** | `artifacts/final_naming_decision.md` |
 | **License** | Apache License 2.0 |
 

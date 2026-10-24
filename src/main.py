@@ -220,8 +220,9 @@ def build_rising_declining_radar_html() -> str:
     """
 
 
-def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str) -> str:
+def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str, lang: str = "en") -> str:
     """Builds the Employer / HR Workforce Skills-Gap Heatmap (Domain 1 Part 5 Good-to-Have #1 & O1 Engine)."""
+    t = presentation_engine.t
     cohort = [
         {"id": "aisyah_ops", "name": "Aisyah Rahman", "dept": "Operations & Logistics", "role": "Junior Operations Coordinator", "skills": ["ai_literacy", "process_mapping", "sql_data_analysis", "stakeholder_communication"]},
         {"id": "wei_jie_qa", "name": "Wei Jie Tan", "dept": "Quality & Software", "role": "Software QA Analyst", "skills": ["python_scripting", "human_in_the_loop_qa", "sql_data_analysis", "api_integration"]},
@@ -257,14 +258,21 @@ def build_employer_hr_view_html(active_scenario_id: str, active_signal_mode: str
         fg = "var(--status-success-fg)" if pct >= 66 else ("var(--status-warn-fg)" if pct >= 33 else "var(--status-err-fg)")
         coverage_summary_cells.append(f'<td class="tabular" style="background:{bg}; color:{fg}; font-weight:700; text-align:center; font-size:var(--text-xs);">{pct}%</td>')
 
+    hr_heading = "Employer / HR Workforce Skills-Gap Heatmap (Domain 1 Part 5 Feature)" if lang == "en" else t("employer.heading", "Employer / HR Workforce Skills-Gap Heatmap")
+    hr_desc = (
+        "Enterprise-level workforce gap diagnostic showing organizational capability coverage, Priority Reskilling Index (PRI), and HRD Corp claimable cohort recommendations with strict small-cell suppression (<5):"
+        if lang == "en"
+        else t("employer.description", "Enterprise-level workforce gap diagnostic showing organizational capability coverage, Priority Reskilling Index (PRI), and HRD Corp claimable cohort recommendations with strict small-cell suppression (<5):")
+    )
+
     return f"""
     <section class="card" aria-labelledby="hr-view-heading" data-testid="hr-workforce-section">
         <div class="section-header">
-            <h2 id="hr-view-heading">{icon_svg("building")} Employer / HR Workforce Skills-Gap Heatmap (Domain 1 Part 5 Feature)</h2>
+            <h2 id="hr-view-heading">{icon_svg("building")} {hr_heading}</h2>
             <span class="tag tag-blue">k-Anonymity (k=5) Protected Cohort</span>
         </div>
         <p class="section-sub">
-            Enterprise-level workforce gap diagnostic showing organizational capability coverage, Priority Reskilling Index (PRI), and HRD Corp claimable cohort recommendations with strict small-cell suppression (<5):
+            {hr_desc}
         </p>
 
         <div class="table-scroll">
@@ -370,6 +378,8 @@ def render_dashboard_html(state: dict) -> str:
     sig_payload = state["signals_payload"]
     lang = state.get("lang", "en")
     low_bw = state.get("low_bw", False)
+    presentation_engine.set_locale(lang)
+    t = presentation_engine.t
 
     base_qs = f"profile_id={urllib.parse.quote_plus(state['profile_id'])}&scenario_id={urllib.parse.quote_plus(state['scenario_id'])}&signal_mode={urllib.parse.quote_plus(state['signal_mode'])}&lang={lang}"
     if low_bw:
@@ -636,7 +646,7 @@ def render_dashboard_html(state: dict) -> str:
     lang_zh_cls = "active" if lang == "zh-CN" else ""
     low_bw_url = f"/?{base_qs.replace('&low_bw=1', '')}{'' if low_bw else '&low_bw=1'}"
     low_bw_btn_cls = "active" if low_bw else ""
-    low_bw_btn_label = "⚡ Standard Rich Mode" if low_bw else "⚡ Low-Bandwidth Mode"
+    low_bw_btn_label = f"⚡ {t('low_bandwidth.standard_mode', 'Standard Rich Mode')}" if low_bw else f"⚡ {t('nav.low_bandwidth_toggle', 'Low-Bandwidth Mode')}"
 
     personas_html = "".join(persona_links)
     scenarios_html = "".join(scenario_cards)
@@ -660,7 +670,7 @@ def render_dashboard_html(state: dict) -> str:
 
     prog_pct = prog_rec.get("overall_completion_pct", 0)
     prog_scale = round(prog_pct / 100.0, 3)
-    employer_hr_view_content = build_employer_hr_view_html(state['scenario_id'], state['signal_mode'])
+    employer_hr_view_content = build_employer_hr_view_html(state['scenario_id'], state['signal_mode'], lang=lang)
 
     is_employer_hr = state.get("view_mode") == "employer_hr"
     employer_hr_top_html = employer_hr_view_content if is_employer_hr else ""
@@ -703,20 +713,20 @@ def render_dashboard_html(state: dict) -> str:
         <div class="hero-inner">
             <div class="hero-title-block">
                 <div class="hero-eyebrow-row">
-                    <span class="hero-live-pill"><span class="pulse-dot"></span> NATIONAL AI WORKFORCE FORESIGHT ENGINE · v1.0</span>
-                    <span class="hero-badge">SDC Hackathon 2026 · Domain 1</span>
+                    <span class="hero-live-pill"><span class="pulse-dot"></span> {t("app.title", "NATIONAL AI WORKFORCE FORESIGHT ENGINE")} · {t("app.version", "v1.0")}</span>
+                    <span class="hero-badge">{t("app.badge_competition", "SDC Hackathon 2026 · Domain 1")}</span>
                     <span class="hero-badge">{icon_svg("shield")} PDPA 2010 Compliant</span>
                 </div>
                 <h1>{icon_svg("compass")} AI Skills Compass</h1>
                 <p class="hero-subtitle">
-                    National workforce intelligence platform mapping occupational taxonomy (MASCO 2020), longitudinal labour market signals, and macroeconomic stress-testing to sovereign career roadmaps and privacy-preserving enterprise aggregation.
+                    {t("app.subtitle", "National workforce intelligence platform mapping occupational taxonomy (MASCO 2020), longitudinal labour market signals, and macroeconomic stress-testing to sovereign career roadmaps and privacy-preserving enterprise aggregation.")}
                 </p>
                 <div class="utility-controls-cluster" style="margin-top:var(--space-3);">
                     <div style="display:flex; align-items:center; gap:4px;">
-                        <span class="small-note" style="margin-right:4px;">Language:</span>
-                        <a href="{lang_en_url}" class="lang-btn {lang_en_cls}">EN</a>
-                        <a href="{lang_ms_url}" class="lang-btn {lang_ms_cls}">BM</a>
-                        <a href="{lang_zh_url}" class="lang-btn {lang_zh_cls}">中文</a>
+                        <span class="small-note" style="margin-right:4px;">{t("nav.language", "Language")}:</span>
+                        <a href="{lang_en_url}" onclick="switchLanguage('en'); return false;" class="lang-btn {lang_en_cls}">EN</a>
+                        <a href="{lang_ms_url}" onclick="switchLanguage('ms'); return false;" class="lang-btn {lang_ms_cls}">BM</a>
+                        <a href="{lang_zh_url}" onclick="switchLanguage('zh-CN'); return false;" class="lang-btn {lang_zh_cls}">中文</a>
                     </div>
                     <a href="{low_bw_url}" class="low-bw-toggle-btn {low_bw_btn_cls}">
                         <span id="low-bw-btn-label">{low_bw_btn_label}</span>
@@ -732,16 +742,16 @@ def render_dashboard_html(state: dict) -> str:
 
     <!-- 10 TARGET TABS NAVIGATION BAR -->
     <nav class="tabs-nav-bar" role="tablist" aria-label="Workforce Foresight Modules">
-        <button type="button" class="tab-btn active" data-tab="tab-overview" onclick="switchTab('tab-overview')">{icon_svg("layers")} 1. Overview</button>
-        <button type="button" class="tab-btn" data-tab="tab-radar" onclick="switchTab('tab-radar')">{icon_svg("trend_up")} 2. Trend Radar</button>
-        <button type="button" class="tab-btn" data-tab="tab-matching" onclick="switchTab('tab-matching')">{icon_svg("user")} 3. Career Matching</button>
-        <button type="button" class="tab-btn" data-tab="tab-gaps" onclick="switchTab('tab-gaps')">{icon_svg("plus")} 4. Skill Gaps</button>
-        <button type="button" class="tab-btn" data-tab="tab-pathway" onclick="switchTab('tab-pathway')">{icon_svg("book")} 5. Reskilling Pathway</button>
-        <button type="button" class="tab-btn" data-tab="tab-scenarios" onclick="switchTab('tab-scenarios')">{icon_svg("sparkles")} 6. Scenarios</button>
-        <button type="button" class="tab-btn" data-tab="tab-sdg" onclick="switchTab('tab-sdg')">{icon_svg("globe")} 7. SDG Impact</button>
-        <button type="button" class="tab-btn" data-tab="tab-progress" onclick="switchTab('tab-progress')">{icon_svg("check")} 8. Progress &amp; Badges</button>
-        <button type="button" class="tab-btn" data-tab="tab-employer" onclick="switchTab('tab-employer')">{icon_svg("building")} 9. Employer / HR</button>
-        <button type="button" class="tab-btn" data-tab="tab-governance" onclick="switchTab('tab-governance')">{icon_svg("shield")} 10. Audit &amp; Governance</button>
+        <button type="button" class="tab-btn active" data-tab="tab-overview" onclick="switchTab('tab-overview')">{icon_svg("layers")} 1. {t("nav.overview", "Overview")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-radar" onclick="switchTab('tab-radar')">{icon_svg("trend_up")} 2. {t("nav.radar", "Trend Radar")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-matching" onclick="switchTab('tab-matching')">{icon_svg("user")} 3. {t("nav.matching", "Career Matching")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-gaps" onclick="switchTab('tab-gaps')">{icon_svg("plus")} 4. {t("nav.gaps", "Skill Gaps")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-pathway" onclick="switchTab('tab-pathway')">{icon_svg("book")} 5. {t("nav.pathway", "Reskilling Pathway")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-scenarios" onclick="switchTab('tab-scenarios')">{icon_svg("sparkles")} 6. {t("nav.scenarios", "Scenarios")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-sdg" onclick="switchTab('tab-sdg')">{icon_svg("globe")} 7. {t("nav.sdg", "SDG Impact")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-progress" onclick="switchTab('tab-progress')">{icon_svg("check")} 8. {t("nav.progress", "Progress & Badges")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-employer" onclick="switchTab('tab-employer')">{icon_svg("building")} 9. {t("nav.employer", "Employer / HR")}</button>
+        <button type="button" class="tab-btn" data-tab="tab-governance" onclick="switchTab('tab-governance')">{icon_svg("shield")} 10. {t("nav.governance", "Audit & Governance")}</button>
     </nav>
 
     <main id="main-content" class="container" style="padding-top:var(--space-4);">
@@ -766,11 +776,11 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-overview" class="tab-pane active" role="tabpanel">
             <section class="card">
                 <div class="section-header">
-                    <h2>{icon_svg("layers")} National Workforce Foresight Architecture</h2>
+                    <h2>{icon_svg("layers")} {t("overview.heading", "National Workforce Foresight Architecture")}</h2>
                     <span class="tag tag-green">Full 12-Engine Pipeline Live</span>
                 </div>
                 <p class="section-sub">
-                    The platform bridges national industrial masterplans (NIMP 2030, NETR) with granular worker reskilling roadmaps:
+                    {t("overview.intro", "The platform bridges national industrial masterplans (NIMP 2030, NETR) with granular worker reskilling roadmaps:")}
                 </p>
                 <div class="grid-2">
                     <div class="structural-pane">
@@ -803,11 +813,11 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-radar" class="tab-pane" role="tabpanel">
             <section class="card" id="step4-heading">
                 <div class="section-header">
-                    <h2>{icon_svg("trend_up")} Longitudinal Skills Demand &amp; Velocity Radar</h2>
+                    <h2>{icon_svg("trend_up")} {t("radar.heading", "Longitudinal Skills Demand & Velocity Radar")}</h2>
                     <span class="tag tag-blue">M2 Engine v1.1.1</span>
                 </div>
                 {build_rising_declining_radar_html()}
-                <h4 style="margin-top:var(--space-4);">{icon_svg("radio")} Attributed Labor Market Signals (OpenAlex &amp; ILO 2025)</h4>
+                <h4 style="margin-top:var(--space-4);">{icon_svg("radio")} {t("radar.description", "Attributed Labor Market Signals (OpenAlex & ILO 2025)")}</h4>
                 <div class="table-scroll">
                     <table class="data-table" data-testid="signals-table">
                         <thead>
@@ -828,10 +838,10 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-matching" class="tab-pane" role="tabpanel">
             <section class="card" id="step1-heading">
                 <div class="section-header">
-                    <h2>{icon_svg("user")} 1. Skills Profile Intake — "Tell Us About Yourself"</h2>
+                    <h2>{icon_svg("user")} 1. {t("matching.heading", "Skills Profile Intake")} — "Tell Us About Yourself"</h2>
                     <span class="tag tag-blue">Active: {esc(prof["name"])}</span>
                 </div>
-                <p class="section-sub">Select a synthetic Malaysian worker persona or enter custom experience text below:</p>
+                <p class="section-sub">{t("matching.select_persona", "Select a synthetic Malaysian worker persona or enter custom experience text below:")}</p>
                 <div class="persona-grid" style="margin-bottom:var(--space-5);">{personas_html}</div>
                 {profile_summary_bar_html}
 
@@ -879,7 +889,7 @@ def render_dashboard_html(state: dict) -> str:
 
             <section class="card" id="step3-heading" style="margin-top:var(--space-4);">
                 <div class="section-header">
-                    <h2>{icon_svg("sparkles")} Ranked Career Matches &amp; Fit Rationale</h2>
+                    <h2>{icon_svg("sparkles")} {t("matching.top_recommendations", "Ranked Career Matches & Fit Rationale")}</h2>
                     <button type="button" class="btn-ghost" onclick="toggleAllRoles(this)">Expand All Roles</button>
                 </div>
                 {roles_section_html}
@@ -890,18 +900,18 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-gaps" class="tab-pane" role="tabpanel">
             <section class="card">
                 <div class="section-header">
-                    <h2>{icon_svg("plus")} Competency Gap Diagnostics &amp; Requirement Tiers</h2>
+                    <h2>{icon_svg("plus")} {t("gaps.heading", "Competency Gap Diagnostics & Requirement Tiers")}</h2>
                     <span class="tag tag-blue">M3 &amp; M4 Analysis</span>
                 </div>
-                <p class="section-sub">Detailed breakdown of skills required for the top recommended career pathway:</p>
+                <p class="section-sub">{t("gaps.description", "Detailed breakdown of skills required for the top recommended career pathway:")}</p>
                 <div class="grid-2">
                     <div class="structural-pane">
-                        <h4>{icon_svg("alert")} Mandatory Core Gaps</h4>
+                        <h4>{icon_svg("alert")} {t("gaps.core_gaps", "Mandatory Core Gaps")}</h4>
                         <p class="small-note">Prerequisites required for certified entry into target role:</p>
                         <div class="tag-wrap">{missing_required_html}</div>
                     </div>
                     <div class="structural-pane">
-                        <h4>{icon_svg("check")} Important &amp; Supporting Competencies</h4>
+                        <h4>{icon_svg("check")} {t("gaps.important_gaps", "Important & Supporting Competencies")}</h4>
                         <p class="small-note">Productivity-multiplying capabilities for career acceleration:</p>
                         <div class="tag-wrap">{missing_supporting_html}</div>
                     </div>
@@ -913,12 +923,12 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-pathway" class="tab-pane" role="tabpanel">
             <section class="card">
                 <div class="section-header">
-                    <h2>{icon_svg("book")} Personalised Sovereign Reskilling Pathway (M4 Engine)</h2>
+                    <h2>{icon_svg("book")} {t("pathway.heading", "Personalised Sovereign Reskilling Pathway (M4 Engine)")}</h2>
                     <span class="tag tag-green">Sustainable 5–8 hrs/week Pacing</span>
                 </div>
                 <div class="synthetic-guardrail" style="margin-bottom:var(--space-4);">
                     <span class="guardrail-icon">{icon_svg("shield")}</span>
-                    <div><strong>Learner Sovereignty Notice:</strong> You maintain full agency over learning pacing and sequence. Automated roadmaps serve as advisory pathways with zero commercial lock-in.</div>
+                    <div><strong>Learner Sovereignty Notice:</strong> {t("pathway.sovereignty_notice", "You maintain full agency over learning pacing and sequence. Automated roadmaps serve as advisory pathways with zero commercial lock-in.")}</div>
                 </div>
                 {top_pathway_html}
                 <div class="pathway-list">
@@ -931,10 +941,10 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-scenarios" class="tab-pane" role="tabpanel">
             <section class="card" id="step2-heading">
                 <div class="section-header">
-                    <h2>{icon_svg("layers")} Macroeconomic Scenario Simulation (M6 Engine v1.1.0)</h2>
+                    <h2>{icon_svg("layers")} {t("scenarios.heading", "Macroeconomic Scenario Simulation (M6 Engine v1.1.0)")}</h2>
                     <span class="tag tag-blue">4 Stress-Test Environments</span>
                 </div>
-                <p class="section-sub">Evaluate career resiliency against macroeconomic shifts, national policy directives, and technology acceleration:</p>
+                <p class="section-sub">{t("scenarios.description", "Evaluate career resiliency against macroeconomic shifts, national policy directives, and technology acceleration:")}</p>
                 <div class="scenario-grid">{scenarios_html}</div>
             </section>
         </div>
@@ -943,10 +953,10 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-sdg" class="tab-pane" role="tabpanel">
             <section class="card">
                 <div class="section-header">
-                    <h2>{icon_svg("globe")} UN SDG Alignment &amp; Enterprise Impact (M5 &amp; O6 Engines)</h2>
+                    <h2>{icon_svg("globe")} {t("sdg.heading", "UN SDG Alignment & Enterprise Impact")} (M5 &amp; O6 Engines)</h2>
                     <span class="tag tag-green">Causal Mapping Framework</span>
                 </div>
-                <p class="section-sub">Every competency and curriculum module maps to specific UN SDG Targets:</p>
+                <p class="section-sub">{t("sdg.description", "Every competency and curriculum module maps to specific UN SDG Targets:")}</p>
                 <div class="grid-2">
                     <div class="structural-pane">
                         <h4>{icon_svg("globe")} Targeted Sustainable Development Goals</h4>
@@ -973,7 +983,7 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-progress" class="tab-pane" role="tabpanel">
             <section class="card">
                 <div class="section-header">
-                    <h2>{icon_svg("check")} Learning Progress &amp; Milestone Tracking (O4 Engine)</h2>
+                    <h2>{icon_svg("check")} {t("progress.heading", "Learning Progress & Milestone Tracking")} (O4 Engine)</h2>
                     <span class="tag tag-green">Sovereign Evidence Portfolio</span>
                 </div>
                 <div class="synthetic-guardrail" style="margin-bottom:var(--space-4);">
@@ -1017,7 +1027,7 @@ def render_dashboard_html(state: dict) -> str:
         <div id="tab-governance" class="tab-pane" role="tabpanel">
             <section class="card">
                 <div class="section-header">
-                    <h2>{icon_svg("shield")} Responsible-AI Governance &amp; Cryptographic Audit (O5 Engine)</h2>
+                    <h2>{icon_svg("shield")} {t("governance.heading", "Responsible-AI Governance & Cryptographic Audit")} (O5 Engine)</h2>
                     <a href="/api/audit-ledger.json" class="btn-ghost" download>{icon_svg("external")} Export Audit Ledger JSON</a>
                 </div>
                 <div class="grid-2">

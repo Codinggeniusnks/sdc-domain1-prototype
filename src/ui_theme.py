@@ -2391,6 +2391,7 @@ function syncThemeButtonLabel(theme) {
     };
 
     window.switchLanguage = function(lang) {
+        try { localStorage.setItem('asc_lang', lang); } catch(e) {}
         const url = new URL(window.location.href);
         url.searchParams.set('lang', lang);
         window.location.href = url.toString();

@@ -58,6 +58,9 @@
 | GitHub Repository | [GitHub Repository](https://github.com/Codinggeniusnks/sdc-domain1-prototype) |
 | Replit Project | [Replit Project](https://replit.com/@ngkaisheng09/sdc-domain1-prototype) |
 | Live Demo | [Live Demo](https://sdc-domain-1-prototype.replit.app/) |
+| Runpod | [Skill extraction model](https://api.runpod.ai/v2/ppx76tp35fws8g/runsync) |
+| Runpod | [LLM explanations model](https://api.runpod.ai/v2/xo1mji8eoavmna/openai/v1/chat/completions) |
+| Runpod | [Trend forcasting model](https://api.runpod.ai/v2/q3x0b6d8s7048m/runsync) |
 | Presentation Slides | [Presentation Slides](https://docs.google.com/presentation/d/1WhuUTFO1BWy2p7zjQNE8XjD6akBPNtlj/edit?slide=id.p1#slide=id.p1) |
 | Demo Video | [Demo Video](https://youtu.be/KrkMWBcAENg) |
 

@@ -1,10 +1,16 @@
 > [!IMPORTANT]
 > ## 📁 SDC Hackathon 2026 — Domain 1 Official Submission
+> 
 > **Domain:** The Aiversecity Future-Ready Workforce Domain
+> 
 > **Solution:** National AI Workforce Reskilling & Foresight Engine v1.0.0
+> 
 > **User-Facing Brand:** AI Skills Compass
+> 
 > **GitHub Repository:** https://github.com/Codinggeniusnks/sdc-domain1-prototype
+> 
 > **Deployment Status:** Fully Integrated, Independently Audited & Formally Frozen (12 Modules)
+> 
 > **Live Demo:** [Pending 1-Click Replit Deploy — see artifacts/REPLIT_MANUAL_PUBLISH_STEPS.md]
 
 ---

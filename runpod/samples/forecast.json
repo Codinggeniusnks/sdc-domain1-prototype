@@ -1,0 +1,17 @@
+{
+ "task": "forecast_skill_trends",
+ "horizonMonths": 12,
+ "scenario": "moderate",
+ "series": {
+  "python": [
+   {
+    "asOf": "2026-04-19",
+    "index": 41
+   },
+   {
+    "asOf": "2026-10-19",
+    "index": 38
+   }
+  ]
+ }
+}

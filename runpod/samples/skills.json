@@ -1,0 +1,208 @@
+{
+ "task": "extract_skills",
+ "text": "SYNTHETIC SAMPLE CV - NOT A REAL PERSON\n\nWEI JIE (demo persona)\nPenang\n\nPROFILE\nFresh graduate in Mechanical Engineering, eager to learn and interested in renewable energy and\nelectric vehicle systems.\n\nEDUCATION\nBachelor of Mechanical Engineering (synthetic university), 2026\nFinal-year project: Performance analysis of a rooftop solar PV system using Python and Excel.\nCoursework: statistics, thermodynamics, automotive engineering, project management.\n\nEXPERIENCE\nEngineering intern - Fictional Automotive Sdn Bhd (3 months)\n- Assisted with battery pack testing for an electric vehicle prototype\n- Logged sensor data and built charts in Excel; wrote small Python scripts with pandas\n- Problem solving on the production line with the quality team\n\nACTIVITIES\n- Completed an online course on Coursera (certificate)\n- Team leader, university solar car club\n\nSKILLS\nPython (basic), Excel, SolidWorks, statistics, analytical thinking, teamwork\n",
+ "taxonomy": [
+  {
+   "id": "ai_literacy",
+   "name": "AI literacy & everyday AI tools",
+   "category": "ai"
+  },
+  {
+   "id": "prompt_engineering",
+   "name": "Prompt engineering & generative AI workflows",
+   "category": "ai"
+  },
+  {
+   "id": "machine_learning",
+   "name": "Machine learning",
+   "category": "ai"
+  },
+  {
+   "id": "llm_engineering",
+   "name": "LLM apps, RAG & AI agents",
+   "category": "ai"
+  },
+  {
+   "id": "responsible_ai",
+   "name": "Responsible AI, ethics & governance",
+   "category": "ai"
+  },
+  {
+   "id": "data_analysis",
+   "name": "Data analysis & visualisation",
+   "category": "ai"
+  },
+  {
+   "id": "statistics",
+   "name": "Statistics & quantitative reasoning",
+   "category": "ai"
+  },
+  {
+   "id": "data_engineering",
+   "name": "Big data & data engineering",
+   "category": "ai"
+  },
+  {
+   "id": "sql",
+   "name": "SQL & databases",
+   "category": "digital"
+  },
+  {
+   "id": "python",
+   "name": "Python programming",
+   "category": "digital"
+  },
+  {
+   "id": "web_dev",
+   "name": "Web & app development",
+   "category": "digital"
+  },
+  {
+   "id": "cloud",
+   "name": "Cloud computing",
+   "category": "digital"
+  },
+  {
+   "id": "cybersecurity",
+   "name": "Cybersecurity",
+   "category": "digital"
+  },
+  {
+   "id": "ux_design",
+   "name": "UX/UI design (human-centred)",
+   "category": "digital"
+  },
+  {
+   "id": "iot",
+   "name": "IoT & embedded systems",
+   "category": "digital"
+  },
+  {
+   "id": "fintech",
+   "name": "FinTech & digital finance",
+   "category": "business"
+  },
+  {
+   "id": "digital_marketing",
+   "name": "Digital marketing & content",
+   "category": "business"
+  },
+  {
+   "id": "spreadsheets",
+   "name": "Spreadsheets & digital office tools",
+   "category": "business"
+  },
+  {
+   "id": "renewable_energy",
+   "name": "Renewable energy systems (solar, storage)",
+   "category": "green"
+  },
+  {
+   "id": "sustainability_reporting",
+   "name": "Sustainability & ESG reporting",
+   "category": "green"
+  },
+  {
+   "id": "ev_tech",
+   "name": "Electric vehicle & smart mobility tech",
+   "category": "green"
+  },
+  {
+   "id": "precision_agriculture",
+   "name": "Smart & precision agriculture",
+   "category": "green"
+  },
+  {
+   "id": "climate_data",
+   "name": "Climate & environmental data",
+   "category": "green"
+  },
+  {
+   "id": "health_informatics",
+   "name": "Digital health & health informatics",
+   "category": "health"
+  },
+  {
+   "id": "caregiving",
+   "name": "Care & patient support",
+   "category": "health"
+  },
+  {
+   "id": "analytical_thinking",
+   "name": "Analytical thinking",
+   "category": "human"
+  },
+  {
+   "id": "creative_thinking",
+   "name": "Creative thinking",
+   "category": "human"
+  },
+  {
+   "id": "resilience",
+   "name": "Resilience, flexibility & agility",
+   "category": "human"
+  },
+  {
+   "id": "lifelong_learning",
+   "name": "Curiosity & lifelong learning",
+   "category": "human"
+  },
+  {
+   "id": "leadership",
+   "name": "Leadership & social influence",
+   "category": "human"
+  },
+  {
+   "id": "communication",
+   "name": "Communication & collaboration",
+   "category": "human"
+  },
+  {
+   "id": "project_management",
+   "name": "Project & change management",
+   "category": "business"
+  },
+  {
+   "id": "teaching",
+   "name": "Teaching, training & digital pedagogy",
+   "category": "human"
+  },
+  {
+   "id": "customer_service",
+   "name": "Customer service & relationship care",
+   "category": "business"
+  },
+  {
+   "id": "data_entry",
+   "name": "Manual data entry",
+   "category": "routine"
+  },
+  {
+   "id": "cash_handling",
+   "name": "Cash handling & teller operations",
+   "category": "routine"
+  },
+  {
+   "id": "bookkeeping",
+   "name": "Manual bookkeeping & payroll",
+   "category": "routine"
+  },
+  {
+   "id": "admin_support",
+   "name": "Administrative & secretarial support",
+   "category": "routine"
+  },
+  {
+   "id": "graphic_production",
+   "name": "Graphic design production",
+   "category": "routine"
+  }
+ ],
+ "roles": [],
+ "levels": [
+  "none",
+  "basic",
+  "working",
+  "advanced"
+ ]
+}

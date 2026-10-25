@@ -1,0 +1,15 @@
+{
+  "series": 337,
+  "train_windows": 9713,
+  "test_windows": 1145,
+  "mae_model": 15.85,
+  "mae_damped_linear_baseline": 30.07,
+  "mae_naive_last_value": 25.08,
+  "interval_80_coverage": 0.783,
+  "by_horizon_mae": {
+    "3": 2.1,
+    "6": 2.52,
+    "9": 2.63,
+    "12": 18.31
+  }
+}

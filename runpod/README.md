@@ -1,72 +1,83 @@
-# RunPod Model Training Guide — AI Skills & Demand Predictor
+# Training and serving the three models on RunPod
 
-This guide provides instructions to train the **AI Skills & Demand Predictor** model on **RunPod GPU** to generate your official **RunPod Proof of Use (`SDC2026_TeamName_Runpod_POU.pdf`)**.
+## What is deployed (Oct 2026)
 
----
+| Model | Endpoint | Hardware | Status |
+|---|---|---|---|
+| Skill extraction (`skill-minilm-v1`) | `ppx76tp35fws8g` | CPU serverless, EUR-IS-1 | Connected in `.env` |
+| Trend forecasting (`trend-gbq-v1`) | `q3x0b6d8s7048m` | CPU serverless, EUR-IS-1 | Deployed, **not connected** (see below) |
+| Explanations: `Qwen/Qwen2.5-7B-Instruct` on vLLM worker `v2.28.0` | `xo1mji8eoavmna` | 24 GB Ada GPU serverless | Connected in `.env` |
 
-## 1. Quick Overview
+All three scale to zero (`--workers-min 0`). Cold starts: skills ~30 s, forecast up to 2 min on a fresh worker, LLM a few minutes the first time.
+The network volume `6g35h07oly` (20 GB, EUR-IS-1) holds the dataset, code, Python packages (`pylib/`) and trained models.
+Pods mount it at `/workspace` and serverless workers at `/runpod-volume`, so the custom workers need no Docker build. The `Dockerfile`s are only for building standalone images later (build context = repo root).
 
-- **Task**: Train a neural network to predict the 16 taxonomy skills and classify emerging vs. routine demand from worker bios, job descriptions, and scholarly AI research abstracts.
-- **Compute Cost**: Runs on an entry-level GPU (RTX 3070, RTX 4000, or A4000 at **~$0.20/hour**). Total training runtime is **under 2 minutes** (costing **< $0.02** of your US$25 credit).
-- **Files**:
-  - `runpod/generate_dataset.py`: Creates `data/training_dataset.json` (600 labeled samples).
-  - `runpod/train.py`: Trains PyTorch neural net on GPU (`--device cuda`) with BCE loss & evaluation metrics.
-  - `runpod/predict.py`: Inference script for predicting skills and demand scores from raw text.
-  - `runpod/run_on_runpod.sh`: One-click shell script for RunPod terminals.
+## Results
 
----
+Full numbers are in [`metrics/`](metrics/).
 
-## 2. Step-by-Step RunPod Execution Instructions
+**Skill extraction.** Fine-tuned `paraphrase-multilingual-MiniLM-L12-v2` with 94 labels (the [`label_map.json`](label_map.json) taxonomy, mapped to 38 app skills).
+Training data: `training_dataset.json` + the gold corpus (16 core labels, other labels masked), plus 2,277 JobStreet postings split into sentences and weakly labelled from the collector's keyword evidence. 700 `held_out_group` postings were kept out of training.
 
-### Step 1: Deploy a Pod on RunPod
-1. Log in to your [RunPod Console](https://www.runpod.io/console/pods).
-2. Click **Deploy** under **Secure Cloud** or **Community Cloud**.
-3. Choose the most economical GPU available:
-   - **RTX 3070 / RTX 4000 / RTX A4000** (~$0.20 – $0.25/hr).
-4. Select the official template:
-   - **PyTorch 2.x** (`runpod/pytorch:2.1.0-py3.10-cuda11.8.0-devel-ubuntu22.04` or similar).
-5. Click **Continue** → **Deploy On-Demand**.
+| Test set | Micro-F1 | Macro-F1 |
+|---|---|---|
+| frozen_test_set (300) | 0.946 | 0.943 |
+| real_world_test_set (63) | 0.651 | 0.662 |
+| unseen_occupation v1 / v2 (25 each) | 0.638 / 0.811 | 0.609 / 0.821 |
+| JobStreet held-out postings (700) | 0.889 | 0.631 |
 
-### Step 2: Open the Terminal & Clone Your Repo
-1. Once the Pod shows **Running**, click **Connect** → **Connect to Web Terminal** (or use SSH).
-2. In the RunPod terminal, run:
-```bash
-git clone https://github.com/Codinggeniusnks/sdc-domain1-prototype.git
-cd sdc-domain1-prototype
+For comparison, the earlier baseline in `manifests/ablation_results.json` scored 0.932 micro-F1 on the frozen set.
+The JobStreet labels are keyword-derived, so that row measures how well the model reproduces the keyword matcher.
+The server merges model output with keyword matching (`scripts/ai.js`), so skills the model misses are still found.
+
+**Known gap:** all training text is English, so BM and 中文 CVs are only partly detected (a BM teller sentence found bookkeeping but missed cash handling and customer service).
+
+**Forecasting.** On held-out series it scores MAE 15.9, against 30.1 for the app's damped-linear fallback and 25.1 for "no change".
+But it learned that DOSM growth rates mean-revert, and the app's index is structural: cash_handling at −95 is forecast to −23 within 3 months.
+It is therefore left disconnected. Retrain it once the app has a few months of its own weekly snapshots (`public/data/snapshots/`).
+
+**LLM.** Not fine-tuned: the dataset has no explanation examples. EN and 中文 output is good. The BM output drifts into Indonesian wording (e.g. "peran", "memiliki"); `SEA-LION` (on the RunPod hub) is worth trying for Malay.
+
+## Re-training
+
+```powershell
+runpodctl doctor                                   # API key
+runpodctl pod create --name fr-trainer --gpu-id "NVIDIA L4" `
+  --image runpod/pytorch:1.0.3-cu1281-torch291-ubuntu2404 `
+  --network-volume-id 6g35h07oly --data-center-ids EUR-IS-1 `
+  --container-disk-in-gb 30 --ports "22/tcp,8888/http" --wait
 ```
 
-### Step 3: Run the Training Script on GPU
-Execute the one-click RunPod training script:
-```bash
-bash runpod/run_on_runpod.sh
-```
-Or run the Python steps directly:
-```bash
-# 1. Generate training dataset
-python runpod/generate_dataset.py
+`--ports "22/tcp,..."` is required. Without it the pod never publishes SSH and `--wait` times out while the pod keeps billing.
+The pod must be in EUR-IS-1 to mount the volume. If a GPU type is sold out there, try `NVIDIA GeForce RTX 4090` or `NVIDIA RTX 4000 Ada Generation`.
 
-# 2. Train neural network on CUDA GPU
-python runpod/train.py --device cuda --epochs 30
-
-# 3. Test inference
-python runpod/predict.py
+```powershell
+# ssh command: runpodctl pod get <POD_ID>   (field ssh.ssh_command)
+scp -i $HOME\.runpod\ssh\runpodctl-ssh-key -P <PORT> runpod_training.tar.gz root@<IP>:/workspace/
+ssh -i $HOME\.runpod\ssh\runpodctl-ssh-key -p <PORT> root@<IP>
+#   cd /workspace && tar xzf runpod_training.tar.gz --no-same-owner && bash runpod/train_on_pod.sh
+runpodctl pod delete <POD_ID>                      # the models stay on the volume
 ```
 
-### Step 4: Capture Proof of Use & Stop the Pod
-1. **Take a Screenshot**: Take a clear screenshot showing:
-   - The RunPod web terminal showing `[RunPod Train] Training via PyTorch on device: cuda (NVIDIA ...)` and `Skill F1` / `Demand Accuracy` output.
-   - The RunPod Pod Dashboard showing your active pod name and runtime.
-2. **Save Screenshot**: Save this screenshot for `submission/SDC2026_TeamName_Runpod_POU.pdf`.
-3. **STOP THE POD**: Immediately click **Stop Pod** (and **Terminate Pod**) in the RunPod console so it stops consuming credits! (Total spend will be under $0.05).
+The run took ~7 min to install packages onto the volume (skipped on later runs), ~10 min to train on an L4, and cost about $0.25.
+Serverless workers load the new models on their next cold start.
 
----
+## Recreating the endpoints
 
-## 3. Local Verification (CPU Fallback)
+```powershell
+$IMG = "runpod/pytorch:1.0.3-cu1281-torch291-ubuntu2404"
+runpodctl template create --serverless --name fr-skills --image $IMG --container-disk-in-gb 20 `
+  --env '{\"PYTHONPATH\":\"/runpod-volume/pylib\",\"MODEL_DIR\":\"/runpod-volume/models/skills\"}' `
+  --docker-start-cmd "python,-u,/runpod-volume/runpod/skills/handler.py"
+runpodctl sls create --name fr-skills --template-id <TPL> --compute-type CPU `
+  --network-volume-id 6g35h07oly --data-center-ids EUR-IS-1 --workers-min 0 --workers-max 1 --idle-timeout 30
+# same for forecast with models/forecast and runpod/forecast/handler.py
 
-To verify the training pipeline locally on your machine without spending GPU credits:
-```bash
-python runpod/generate_dataset.py
-python runpod/train.py --device cpu
-python runpod/predict.py
+# LLM: the hub listing for worker-vllm has no CLI-deployable release, so use the image directly
+runpodctl template create --serverless --name fr-llm --image runpod/worker-v1-vllm:v2.28.0 --container-disk-in-gb 40 `
+  --env '{\"MODEL_NAME\":\"Qwen/Qwen2.5-7B-Instruct\",\"MAX_MODEL_LEN\":\"8192\",\"GPU_MEMORY_UTILIZATION\":\"0.92\"}'
+runpodctl sls create --name fr-llm --template-id <TPL> --gpu-id "NVIDIA GeForce RTX 4090" `
+  --model-reference "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct:main" --workers-min 0 --workers-max 1 --idle-timeout 60
 ```
-This trains the pipeline on CPU in < 2 seconds and exports `runpod/training_metrics.json`.
+
+Test with `runpodctl sls run <ID> --input-file runpod/samples/skills.json --wait 5m`, and check the app with `GET /api/ai/status`.
